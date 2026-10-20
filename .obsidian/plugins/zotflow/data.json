@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "librariesConfig": {
+      "11058526": {
+        "mode": "bidirectional"
+      }
+    },
+    "syncInterval": 30,
+    "autoSync": false,
+    "useWebDav": false,
+    "useCache": true,
+    "maxCacheSizeMB": 500,
+    "librarySourceNoteTemplatePath": "",
+    "sourceNoteFolder": "",
+    "librarySourceNotePathTemplate": "_papers/{{citationKey | default: title | default: key}}/{{citationKey | default: title | default: key}}",
+    "localSourceNoteTemplatePath": "",
+    "localSourceNoteFolder": "",
+    "localSidecarFolder": "",
+    "localSourceNotePathTemplate": "Source/Local/@{{basename}}",
+    "autoImportAnnotationImages": false,
+    "annotationImageFolder": "_papers/{{citationKey | default: title | default: key}}/",
+    "overwriteViewer": true,
+    "readerColorScheme": "obsidian-theme",
+    "defaultLightTheme": "obsidian",
+    "defaultDarkTheme": "obsidian",
+    "treeCollectionSort": "name-asc",
+    "treeItemSort": "title-asc",
+    "treeSingleClickOpen": false,
+    "itemDisplayTitleTemplate": "",
+    "convertNoteLinks": true,
+    "linkedAttachmentBaseDir": "",
+    "useZoteroStorage": true,
+    "zoteroStoragePath": "/home/tatdatnguyen/Zotero/storage",
+    "defaultEditableRegionLocked": true,
+    "hideEditableRegionMarkers": false,
+    "alwaysOpenChildNoteInEditor": false,
+    "defaultCitationFormat": "footnote",
+    "citationTrigger": "@@",
+    "citationPandocTemplate": "",
+    "citationFootnoteRefTemplate": "",
+    "citationFootnoteTemplate": "",
+    "citationWikilinkTemplate": "",
+    "autoCopyAnnotation": "off",
+    "autoUpdateSourceNotesAfterSync": true,
+    "autoPurgeTrashedSourceNotes": false,
+    "autoDisableNoteImageTextTools": true,
+    "epubFontFamily": "",
+    "cslDefaultStyleId": "apa",
+    "cslDefaultFormat": "markdown",
+    "cslStylesFolder": ""
+  },
+  "customThemes": [
+    {
+      "background": "#1C1C1C",
+      "foreground": "#dadada",
+      "id": "obsidian",
+      "label": "Obsidian"
+    }
+  ],
+  "viewStates": {
+    "11058526:KMPJ5NP8": {
+      "secondaryViewState": null,
+      "primaryViewState": {
+        "pageIndex": 0,
+        "scale": "page-width",
+        "top": 666,
+        "left": -12,
+        "scrollMode": 0,
+        "spreadMode": 0,
+        "lastReadAloudPosition": null
+      }
+    },
+    "11058526:9VLSKU3G": {
+      "secondaryViewState": null,
+      "primaryViewState": {
+        "pageIndex": 0,
+        "scale": "page-width",
+        "top": 219,
+        "left": -14,
+        "scrollMode": 0,
+        "spreadMode": 0,
+        "lastReadAloudPosition": null
+      }
+    }
+  }
+}
