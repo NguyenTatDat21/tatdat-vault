@@ -22,6 +22,10 @@ tags:
   - "#Hybrid_evolutionary_algorithm"
   - "#Orienteering_problem"
   - "#Tabu_search"
+extracted_pdf:
+  - - lu2024effective
+extractedPdf:
+  - - _papers/lu2024effective/lu2024effective
 ---
 # An effective hybrid evolutionary algorithm for the set orienteering problem
 ## Abstract

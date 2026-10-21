@@ -20,6 +20,10 @@ tags:
   - "#Automated_algorithm_design"
   - "#Reinforcement_learning"
   - "#Vehicle_routing_problem_with_time_windows"
+extracted_pdf:
+  - - yi2023automated
+extractedPdf:
+  - - _papers/yi2023automated/yi2023automated
 ---
 # Automated Design of Search Algorithms based on Reinforcement Learning
 ## Abstract

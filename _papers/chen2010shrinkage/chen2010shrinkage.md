@@ -21,6 +21,10 @@ doi: 10.1109/TSP.2010.2053029
 tags:
   - "#Statistics_-_Computation"
   - "#Statistics_-_Methodology"
+extracted_pdf:
+  - - chen2010shrinkage
+extractedPdf:
+  - - _papers/chen2010shrinkage/chen2010shrinkage
 ---
 # Shrinkage Algorithms for MMSE Covariance Estimation
 ## Abstract

@@ -23,6 +23,10 @@ tags:
   - "#Maritime_optimization"
   - "#Optimization_under_uncertainty"
   - "#Stochastic_programming"
+extracted_pdf:
+  - - ksciuk2023uncertainty
+extractedPdf:
+  - - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty
 ---
 # Uncertainty in maritime ship routing and scheduling: A Literature review
 ## Abstract

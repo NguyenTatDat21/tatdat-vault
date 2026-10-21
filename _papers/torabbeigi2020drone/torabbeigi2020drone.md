@@ -23,6 +23,10 @@ tags:
   - "#Drone_scheduling"
   - "#Path_planning"
   - "#Payload_amount"
+extracted_pdf:
+  - - torabbeigi2020drone
+extractedPdf:
+  - - _papers/torabbeigi2020drone/torabbeigi2020drone
 ---
 # Drone Delivery Scheduling Optimization Considering Payload-induced Battery Consumption Rates
 ## Abstract

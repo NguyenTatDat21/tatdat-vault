@@ -20,6 +20,10 @@ tags:
   - "#Constraint_programming"
   - "#Job_shop_scheduling"
   - "#Mixed_Integer_Programming"
+extracted_pdf:
+  - - ku2016mixed
+extractedPdf:
+  - - _papers/ku2016mixed/ku2016mixed
 ---
 # Mixed Integer Programming models for job shop scheduling: A computational analysis
 ## Abstract

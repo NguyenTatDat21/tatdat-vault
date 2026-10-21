@@ -17,6 +17,10 @@ year: 1973
 url: https://www.journals.uchicago.edu/doi/abs/10.1086/260061
 doi: 10.1086/260061
 tags: []
+extracted_pdf:
+  - - fama1973risk
+extractedPdf:
+  - - _papers/fama1973risk/fama1973risk
 ---
 # Risk, Return, and Equilibrium: Empirical Tests
 ## Abstract

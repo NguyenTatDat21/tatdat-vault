@@ -20,6 +20,10 @@ year: 2009
 url:
 doi: 10.1007/978-3-540-92944-4_10
 tags: []
+extracted_pdf:
+  - - gronhaug2009supply
+extractedPdf:
+  - - _papers/gronhaug2009supply/gronhaug2009supply
 ---
 # Supply Chain Optimization for the Liquefied Natural Gas Business
 ## Abstract

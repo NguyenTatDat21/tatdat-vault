@@ -28,6 +28,10 @@ year: 2018
 url: https://www.science.org/doi/abs/10.1126/science.aar6404
 doi: 10.1126/science.aar6404
 tags: []
+extracted_pdf:
+  - - silver2018general
+extractedPdf:
+  - - _papers/silver2018general/silver2018general
 ---
 # A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play
 ## Abstract

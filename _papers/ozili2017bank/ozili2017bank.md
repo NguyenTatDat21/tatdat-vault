@@ -27,6 +27,10 @@ tags:
   - "#Procyclicality"
   - "#Prudential_regulation"
   - "#Signalling"
+extracted_pdf:
+  - - ozili2017bank
+extractedPdf:
+  - - _papers/ozili2017bank/ozili2017bank
 ---
 # Bank loan loss provisions research: A review
 ## Abstract

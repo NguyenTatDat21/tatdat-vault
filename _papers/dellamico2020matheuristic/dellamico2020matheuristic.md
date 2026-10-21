@@ -23,6 +23,10 @@ tags:
   - "#Matheuristics"
   - "#Mixed_integer_linear_programming"
   - "#Traveling_salesman_problem"
+extracted_pdf:
+  - - dellamico2020matheuristic
+extractedPdf:
+  - - _papers/dellamico2020matheuristic/dellamico2020matheuristic
 ---
 # Matheuristic algorithms for the parallel drone scheduling traveling salesman problem
 ## Abstract

@@ -23,6 +23,10 @@ tags:
   - "#Branch-and-bound"
   - "#Decomposition_algorithms"
   - "#Integer_programming"
+extracted_pdf:
+  - - barnhart1998branchandprice
+extractedPdf:
+  - - _papers/barnhart1998branchandprice/barnhart1998branchandprice
 ---
 # Branch-and-Price: Column Generation for Solving Huge Integer Programs
 ## Abstract

@@ -24,6 +24,10 @@ tags:
   - "#Logistics"
   - "#Multi-visit"
   - "#Truck-drone_system"
+extracted_pdf:
+  - - windrasmara2022adaptive
+extractedPdf:
+  - - _papers/windrasmara2022adaptive/windrasmara2022adaptive
 ---
 # An adaptive large neighborhood search heuristic for the flying sidekick traveling salesman problem with multiple drops
 ## Abstract

@@ -20,6 +20,10 @@ tags:
   - "#Bank_regulatory_capital"
   - "#Financial_accounting"
   - "#Information_asymmetry"
+extracted_pdf:
+  - - beatty2014financial
+extractedPdf:
+  - - _papers/beatty2014financial/beatty2014financial
 ---
 # Financial accounting in the banking industry: A review of the empirical literature
 ## Abstract

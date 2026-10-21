@@ -23,6 +23,10 @@ tags:
   - "#Constraint_programming"
   - "#Inventory"
   - "#Routing"
+extracted_pdf:
+  - - goel2015constraint
+extractedPdf:
+  - - _papers/goel2015constraint/goel2015constraint
 ---
 # Constraint programming for LNG ship scheduling and inventory management
 ## Abstract

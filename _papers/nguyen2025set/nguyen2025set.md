@@ -24,6 +24,10 @@ tags:
   - "#Large_neighbourhood_search"
   - "#Set_team_orienteering_problem"
   - "#Vehicle_routing_problem_with_profits"
+extracted_pdf:
+  - - nguyen2025set
+extractedPdf:
+  - - _papers/nguyen2025set/nguyen2025set
 ---
 # The set team orienteering problem
 ## Abstract

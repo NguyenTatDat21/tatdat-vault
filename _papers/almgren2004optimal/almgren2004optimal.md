@@ -28,6 +28,10 @@ tags:
   - "#Portfolio"
   - "#Portfolio_Choice"
   - "#Portfolio_Selection"
+extracted_pdf:
+  - - almgren2004optimal
+extractedPdf:
+  - - _papers/almgren2004optimal/almgren2004optimal
 ---
 # Optimal Portfolios from Ordering Information
 ## Abstract

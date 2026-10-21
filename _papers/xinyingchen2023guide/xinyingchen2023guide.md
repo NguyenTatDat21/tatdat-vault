@@ -19,6 +19,10 @@ doi: 10.1007/s10479-023-05264-y
 tags:
   - "#Distributive_justice"
   - "#Fairness"
+extracted_pdf:
+  - - xinyingchen2023guide
+extractedPdf:
+  - - _papers/xinyingchen2023guide/xinyingchen2023guide
 ---
 # A guide to formulating fairness in an optimization model
 ## Abstract

@@ -24,6 +24,10 @@ tags:
   - "#LNG_supply_chain"
   - "#Large-scale_optimization"
   - "#OR_in_maritime_industry"
+extracted_pdf:
+  - - mutlu2016comprehensive
+extractedPdf:
+  - - _papers/mutlu2016comprehensive/mutlu2016comprehensive
 ---
 # A comprehensive annual delivery program for upstream liquefied natural gas supply chain
 ## Abstract

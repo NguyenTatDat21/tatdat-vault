@@ -22,6 +22,10 @@ tags:
   - "#Arc-flow_models"
   - "#LNG_supply_chain"
   - "#Maritime_transportation"
+extracted_pdf:
+  - - al-haidous2016optimal
+extractedPdf:
+  - - _papers/al-haidous2016optimal/al-haidous2016optimal
 ---
 # Optimal planning of liquefied natural gas deliveries
 ## Abstract

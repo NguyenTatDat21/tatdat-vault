@@ -25,6 +25,10 @@ tags:
   - "#Multi-commodity_flow_problem"
   - "#Network_design"
   - "#OR_in_maritime_industry"
+extracted_pdf:
+  - - christiansen2020liner
+extractedPdf:
+  - - _papers/christiansen2020liner/christiansen2020liner
 ---
 # Liner shipping network design
 ## Abstract

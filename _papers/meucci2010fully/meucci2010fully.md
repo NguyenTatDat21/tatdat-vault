@@ -17,6 +17,10 @@ url: http://arxiv.org/abs/1012.2848
 doi: 10.48550/arXiv.1012.2848
 tags:
   - "#Quantitative_Finance_-_Portfolio_Management"
+extracted_pdf:
+  - - meucci2010fully
+extractedPdf:
+  - - _papers/meucci2010fully/meucci2010fully
 ---
 # Fully Flexible Views: Theory and Practice
 ## Abstract

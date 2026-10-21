@@ -20,6 +20,10 @@ tags:
   - "#ASEAN_stock_market"
   - "#Profitability"
   - "#expected_stock_return"
+extracted_pdf:
+  - - kim2020profitability
+extractedPdf:
+  - - _papers/kim2020profitability/kim2020profitability
 ---
 # Profitability Premium in ASEAN equity markets: new evidence
 ## Abstract

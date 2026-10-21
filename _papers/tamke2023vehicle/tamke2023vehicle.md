@@ -20,6 +20,10 @@ tags:
   - "#Drones"
   - "#Energy_consumption"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - tamke2023vehicle
+extractedPdf:
+  - - _papers/tamke2023vehicle/tamke2023vehicle
 ---
 # The vehicle routing problem with drones and drone speed selection
 ## Abstract

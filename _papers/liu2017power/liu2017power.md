@@ -25,6 +25,10 @@ tags:
   - "#Power_demand"
   - "#Rotors"
   - "#Steady-state"
+extracted_pdf:
+  - - liu2017power
+extractedPdf:
+  - - _papers/liu2017power/liu2017power
 ---
 # A power consumption model for multi-rotor small unmanned aircraft systems
 ## Abstract

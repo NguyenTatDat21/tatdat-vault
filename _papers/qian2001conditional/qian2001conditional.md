@@ -17,6 +17,10 @@ year: 2001
 url: https://doi.org/10.2469/faj.v57.n2.2432
 doi: 10.2469/faj.v57.n2.2432
 tags: []
+extracted_pdf:
+  - - qian2001conditional
+extractedPdf:
+  - - _papers/qian2001conditional/qian2001conditional
 ---
 # Conditional Distribution in Portfolio Theory
 ## Abstract

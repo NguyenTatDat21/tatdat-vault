@@ -21,6 +21,10 @@ tags:
   - "#Matheuristic"
   - "#Orienteering_problem"
   - "#Routing"
+extracted_pdf:
+  - - archetti2018set
+extractedPdf:
+  - - _papers/archetti2018set/archetti2018set
 ---
 # The Set Orienteering Problem
 ## Abstract

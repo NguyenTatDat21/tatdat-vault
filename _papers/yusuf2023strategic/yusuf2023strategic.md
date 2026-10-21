@@ -24,6 +24,10 @@ tags:
   - "#Monte_Carlo_simulation"
   - "#Spot_selling"
   - "#Stochastic_modelling"
+extracted_pdf:
+  - - yusuf2023strategic
+extractedPdf:
+  - - _papers/yusuf2023strategic/yusuf2023strategic
 ---
 # Strategic and flexible LNG production under uncertain future demand and natural gas prices
 ## Attachments

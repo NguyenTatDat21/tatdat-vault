@@ -28,6 +28,10 @@ tags:
   - "#Routing_and_scheduling"
   - "#Supply_Chain_Management"
   - "#Transporters"
+extracted_pdf:
+  - - halvorsen-weare2013routing
+extractedPdf:
+  - - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing
 ---
 # Routing and scheduling in a liquefied natural gas shipping problem with inventory and berth constraints
 ## Abstract

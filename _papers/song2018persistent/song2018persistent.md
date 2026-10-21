@@ -23,6 +23,10 @@ tags:
   - "#Receding_Horizon_Task_Assignment_(RHTA)_heuristic"
   - "#UAV_delivery"
   - "#Unmanned_aerial_vehicle_routing_problem_(UAVRP)"
+extracted_pdf:
+  - - song2018persistent
+extractedPdf:
+  - - _papers/song2018persistent/song2018persistent
 ---
 # Persistent UAV delivery logistics: MILP formulation and efficient heuristic
 ## Abstract

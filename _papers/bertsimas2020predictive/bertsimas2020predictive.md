@@ -20,6 +20,10 @@ tags:
   - "#data-driven_decision_making"
   - "#machine_learning"
   - "#stochastic_optimization"
+extracted_pdf:
+  - - bertsimas2020predictive
+extractedPdf:
+  - - _papers/bertsimas2020predictive/bertsimas2020predictive
 ---
 # From Predictive to Prescriptive Analytics
 ## Abstract

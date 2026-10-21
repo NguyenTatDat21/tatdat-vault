@@ -22,6 +22,10 @@ tags:
   - "#multi-objective"
   - "#pickup_and_delivery_problem_with_time_windows"
   - "#ship_routing_and_scheduling"
+extracted_pdf:
+  - - dossantos2024multiobjective
+extractedPdf:
+  - - _papers/dossantos2024multiobjective/dossantos2024multiobjective
 ---
 # Multi-objective optimization of the maritime cargo routing and scheduling problem
 ## Abstract

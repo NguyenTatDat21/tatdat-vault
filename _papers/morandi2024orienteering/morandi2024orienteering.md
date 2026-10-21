@@ -22,6 +22,10 @@ tags:
   - "#drone_routing"
   - "#multiple_drones"
   - "#orienteering_problem"
+extracted_pdf:
+  - - morandi2024orienteering
+extractedPdf:
+  - - _papers/morandi2024orienteering/morandi2024orienteering
 ---
 # The Orienteering Problem with Drones
 ## Abstract

@@ -17,6 +17,10 @@ year: 2007
 url: https://www.sciencedirect.com/science/article/pii/B9780750683210500030
 doi: 10.1016/B978-075068321-0.50003-0
 tags: []
+extracted_pdf:
+  - - idzorek20072
+extractedPdf:
+  - - _papers/idzorek20072/idzorek20072
 ---
 # 2 - A step-by-step guide to the Black-Litterman model: Incorporating user-specified confidence levels
 ## Abstract

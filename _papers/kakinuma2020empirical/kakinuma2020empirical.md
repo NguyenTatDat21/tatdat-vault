@@ -21,6 +21,10 @@ tags:
   - "#gross_profitability"
   - "#operating_profitability"
   - "#profitability_anomaly"
+extracted_pdf:
+  - - kakinuma2020empirical
+extractedPdf:
+  - - _papers/kakinuma2020empirical/kakinuma2020empirical
 ---
 # EMPIRICAL EVIDENCE OF PROFITABILITY ANOMALY IN THE THAI STOCK MARKET
 ## Abstract

@@ -23,6 +23,10 @@ tags:
   - "#Dynamic_programming"
   - "#Lagrangian_filtering"
   - "#Reduced-cost_fixing"
+extracted_pdf:
+  - - clautiaux2018combining
+extractedPdf:
+  - - _papers/clautiaux2018combining/clautiaux2018combining
 ---
 # Combining dynamic programming with filtering to solve a four-stage two-dimensional guillotine-cut bounded knapsack problem
 ## Abstract

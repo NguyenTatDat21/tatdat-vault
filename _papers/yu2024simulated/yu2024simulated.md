@@ -22,6 +22,10 @@ tags:
   - "#Set_orienteering_problem"
   - "#Simulated_annealing"
   - "#Team_orienteering_problem_with_time_windows"
+extracted_pdf:
+  - - yu2024simulated
+extractedPdf:
+  - - _papers/yu2024simulated/yu2024simulated
 ---
 # Simulated annealing with reinforcement learning for the set team orienteering problem with time windows
 ## Abstract

@@ -22,6 +22,10 @@ tags:
   - "#dynamic_programming"
   - "#parallel_drone_scheduling"
   - "#traveling_salesman_problem"
+extracted_pdf:
+  - - dinh2021ants
+extractedPdf:
+  - - _papers/dinh2021ants/dinh2021ants
 ---
 # Ants can solve the parallel drone scheduling traveling salesman problem
 ## Abstract

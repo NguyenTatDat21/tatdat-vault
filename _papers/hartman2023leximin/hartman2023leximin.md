@@ -22,6 +22,10 @@ tags:
   - "#Computer_Science_-_Computer_Science_and_Game_Theory"
   - "#Computer_Science_-_Data_Structures_and_Algorithms"
   - "#Computer_Science_-_Multiagent_Systems"
+extracted_pdf:
+  - - hartman2023leximin
+extractedPdf:
+  - - _papers/hartman2023leximin/hartman2023leximin
 ---
 # Leximin Approximation: From Single-Objective to Multi-Objective
 ## Abstract

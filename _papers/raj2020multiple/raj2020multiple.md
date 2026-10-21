@@ -23,6 +23,10 @@ tags:
   - "#Truck-drone"
   - "#UAV_speed"
   - "#Unmanned_aerial_vehicle"
+extracted_pdf:
+  - - raj2020multiple
+extractedPdf:
+  - - _papers/raj2020multiple/raj2020multiple
 ---
 # The multiple flying sidekicks traveling salesman problem with variable drone speeds
 ## Abstract

@@ -19,6 +19,10 @@ year: 2017
 url: https://pubsonline.informs.org/doi/10.1287/opre.2017.1624
 doi: 10.1287/opre.2017.1624
 tags: []
+extracted_pdf:
+  - - boland2017continuoustime
+extractedPdf:
+  - - _papers/boland2017continuoustime/boland2017continuoustime
 ---
 # The Continuous-Time Service Network Design Problem
 ## Abstract

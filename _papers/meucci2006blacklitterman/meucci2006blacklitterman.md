@@ -30,6 +30,10 @@ tags:
   - "#quantitative_portfolio_management"
   - "#skewness"
   - "#views"
+extracted_pdf:
+  - - meucci2006blacklitterman
+extractedPdf:
+  - - _papers/meucci2006blacklitterman/meucci2006blacklitterman
 ---
 # Beyond Black-Litterman in Practice: A Five-Step Recipe to Input Views on Non-Normal Markets
 ## Abstract

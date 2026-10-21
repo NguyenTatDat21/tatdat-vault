@@ -24,6 +24,10 @@ tags:
   - "#broadcast_disk"
   - "#cyclic_schedule"
   - "#maintenance_service"
+extracted_pdf:
+  - - bar-noy2002minimizing
+extractedPdf:
+  - - _papers/bar-noy2002minimizing/bar-noy2002minimizing
 ---
 # Minimizing Service and Operation Costs of Periodic Scheduling
 ## Abstract

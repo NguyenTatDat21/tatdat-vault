@@ -24,6 +24,10 @@ tags:
   - "#Traveling_salesman_problem"
   - "#Unmanned_aerial_vehicle"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - murray2020multiple
+extractedPdf:
+  - - _papers/murray2020multiple/murray2020multiple
 ---
 # The multiple flying sidekicks traveling salesman problem: Parcel delivery with multiple drones
 ## Abstract

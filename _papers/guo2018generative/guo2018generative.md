@@ -22,6 +22,10 @@ tags:
   - "#Computer_Science_-_Artificial_Intelligence"
   - "#Computer_Science_-_Machine_Learning"
   - "#Statistics_-_Machine_Learning"
+extracted_pdf:
+  - - guo2018generative
+extractedPdf:
+  - - _papers/guo2018generative/guo2018generative
 ---
 # Generative Adversarial Self-Imitation Learning
 ## Abstract

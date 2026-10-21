@@ -24,6 +24,10 @@ tags:
   - "#Asset_pricing"
   - "#Cash_flows"
   - "#Operating_profitability"
+extracted_pdf:
+  - - ball2016accruals
+extractedPdf:
+  - - _papers/ball2016accruals/ball2016accruals
 ---
 # Accruals, cash flows, and operating profitability in the cross section of stock returns
 ## Abstract

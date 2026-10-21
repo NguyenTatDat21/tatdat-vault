@@ -32,6 +32,10 @@ tags:
   - "#truck-drone_cooperation"
   - "#unmanned_aerial_vehicle_(UAV)"
   - "#vehicle_routing_problem_(VRP)"
+extracted_pdf:
+  - - wang2019routing
+extractedPdf:
+  - - _papers/wang2019routing/wang2019routing
 ---
 # Routing and Scheduling for Hybrid Truck-Drone Collaborative Parcel Delivery With Independent and Truck-Carried Drones
 ## Abstract

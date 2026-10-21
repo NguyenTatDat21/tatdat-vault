@@ -22,6 +22,10 @@ tags:
   - "#combinatorial_optimization"
   - "#maritime_inventory_routing_problem"
   - "#transportation"
+extracted_pdf:
+  - - fagerholt2023maritime
+extractedPdf:
+  - - _papers/fagerholt2023maritime/fagerholt2023maritime
 ---
 # Maritime inventory routing: recent trends and future directions
 ## Abstract

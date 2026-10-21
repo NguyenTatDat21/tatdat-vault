@@ -16,6 +16,10 @@ year: 1996
 url: https://doi.org/10.2308/TAR-9608042309
 doi: 10.2308/TAR-9608042309
 tags: []
+extracted_pdf:
+  - - sloan1996stock
+extractedPdf:
+  - - _papers/sloan1996stock/sloan1996stock
 ---
 # Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings?
 ## Abstract

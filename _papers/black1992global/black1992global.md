@@ -17,6 +17,10 @@ year: 1992
 url: https://doi.org/10.2469/faj.v48.n5.28
 doi: 10.2469/faj.v48.n5.28
 tags: []
+extracted_pdf:
+  - - black1992global
+extractedPdf:
+  - - _papers/black1992global/black1992global
 ---
 # Global Portfolio Optimization
 ## Attachments

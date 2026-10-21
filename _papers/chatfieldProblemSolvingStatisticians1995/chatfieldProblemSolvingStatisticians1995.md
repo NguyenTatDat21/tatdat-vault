@@ -17,6 +17,10 @@ url:
 doi:
 tags:
   - "#Mathematics_/_Probability_&_Statistics_/_General"
+extracted_pdf:
+  - - chatfieldProblemSolvingStatisticians1995
+extractedPdf:
+  - - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995
 ---
 # Problem Solving: A statistician's guide, Second edition
 ## Abstract

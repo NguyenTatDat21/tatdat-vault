@@ -18,6 +18,10 @@ year: 2007
 url: https://doi.org/10.2308/accr.2007.82.1.169
 doi: 10.2308/accr.2007.82.1.169
 tags: []
+extracted_pdf:
+  - - pincus2007accrual
+extractedPdf:
+  - - _papers/pincus2007accrual/pincus2007accrual
 ---
 # The Accrual Anomaly: International Evidence
 ## Abstract

@@ -21,6 +21,10 @@ year: 2007
 url: https://www.sciencedirect.com/science/article/pii/S0927050706140049
 doi: 10.1016/S0927-0507(06)14004-9
 tags: []
+extracted_pdf:
+  - - christiansen2007chapter
+extractedPdf:
+  - - _papers/christiansen2007chapter/christiansen2007chapter
 ---
 # Chapter 4 Maritime Transportation
 ## Abstract

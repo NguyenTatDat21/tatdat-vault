@@ -18,6 +18,10 @@ year: 2007
 url: http://archive.nyu.edu/handle/2451/26348
 doi:
 tags: []
+extracted_pdf:
+  - - brown2007going
+extractedPdf:
+  - - _papers/brown2007going/brown2007going
 ---
 # Going Negative: What to Do with Negative Book Equity Stocks
 ## Abstract

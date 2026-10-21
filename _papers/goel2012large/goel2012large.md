@@ -23,6 +23,10 @@ tags:
   - "#Liquefied_natural_gas"
   - "#Maritime_inventory_routing"
   - "#Ship_schedule_optimization"
+extracted_pdf:
+  - - goel2012large
+extractedPdf:
+  - - _papers/goel2012large/goel2012large
 ---
 # Large neighborhood search for LNG inventory routing
 ## Abstract

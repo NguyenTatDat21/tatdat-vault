@@ -20,6 +20,10 @@ tags:
   - "#Computer_Science_-_Computational_Engineering,_Finance,_and_Science"
   - "#Computer_Science_-_Discrete_Mathematics"
   - "#Mathematics_-_Optimization_and_Control"
+extracted_pdf:
+  - - ahmadi-javid2022delivery
+extractedPdf:
+  - - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery
 ---
 # Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach
 ## Abstract

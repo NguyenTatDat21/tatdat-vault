@@ -24,6 +24,10 @@ tags:
   - "#Home_textile_industry"
   - "#Integer_linear_programming"
   - "#Variable-Sized_stock"
+extracted_pdf:
+  - - hadjsalem2023mathematical
+extractedPdf:
+  - - _papers/hadjsalem2023mathematical/hadjsalem2023mathematical
 ---
 # Mathematical models for the two-dimensional variable-sized cutting stock problem in the home textile industry
 ## Abstract

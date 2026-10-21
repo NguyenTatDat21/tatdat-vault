@@ -22,6 +22,10 @@ tags:
   - "#Long_planning_horizon"
   - "#Maritime_inventory_routing"
   - "#Mixed_integer_programming"
+extracted_pdf:
+  - - shaabani2023matheuristic
+extractedPdf:
+  - - _papers/shaabani2023matheuristic/shaabani2023matheuristic
 ---
 # A matheuristic for the multi-product maritime inventory routing problem
 ## Abstract

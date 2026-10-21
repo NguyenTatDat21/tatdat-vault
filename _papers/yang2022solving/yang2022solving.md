@@ -31,6 +31,10 @@ tags:
   - "#Storms"
   - "#Task_analysis"
   - "#Vehicle_Routing_Problem_with_Drones"
+extracted_pdf:
+  - - yang2022solving
+extractedPdf:
+  - - _papers/yang2022solving/yang2022solving
 ---
 # Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach
 ## Abstract

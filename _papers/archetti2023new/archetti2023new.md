@@ -23,6 +23,10 @@ tags:
   - "#Integer_linear_programming"
   - "#Orienteering_problem"
   - "#Routing"
+extracted_pdf:
+  - - archetti2023new
+extractedPdf:
+  - - _papers/archetti2023new/archetti2023new
 ---
 # A new formulation and a branch-and-cut algorithm for the set orienteering problem
 ## Abstract

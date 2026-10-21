@@ -26,6 +26,10 @@ tags:
   - "#ILS"
   - "#Routing"
   - "#m-TSP"
+extracted_pdf:
+  - - mbiadousaleu2022parallel
+extractedPdf:
+  - - _papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel
 ---
 # The parallel drone scheduling problem with multiple drones and vehicles
 ## Abstract

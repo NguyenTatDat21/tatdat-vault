@@ -24,6 +24,10 @@ tags:
   - "#Matheuristic"
   - "#Test_instance"
   - "#Vendor-managed_inventory"
+extracted_pdf:
+  - - skalnes2024new
+extractedPdf:
+  - - _papers/skalnes2024new/skalnes2024new
 ---
 # New benchmark instances for the inventory routing problem
 ## Abstract

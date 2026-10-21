@@ -20,6 +20,10 @@ url: https://ojs.aaai.org/index.php/ICAPS/article/view/27212
 doi: 10.1609/icaps.v33i1.27212
 tags:
   - "#Heuristic_search"
+extracted_pdf:
+  - - pham2023efficient
+extractedPdf:
+  - - _papers/pham2023efficient/pham2023efficient
 ---
 # An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesman Problem
 ## Abstract

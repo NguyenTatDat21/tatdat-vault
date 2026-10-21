@@ -28,6 +28,10 @@ tags:
   - "#Stochastic_Search"
   - "#Swarm_Intelligence"
   - "#Tabu_Search"
+extracted_pdf:
+  - - gendreau2019handbook
+extractedPdf:
+  - - _papers/gendreau2019handbook/gendreau2019handbook
 ---
 # Handbook of Metaheuristics
 ## Attachments

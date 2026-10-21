@@ -36,6 +36,10 @@ tags:
   - "#scheduling"
   - "#solvers"
   - "#traffic_engineering"
+extracted_pdf:
+  - - pesant2015principles
+extractedPdf:
+  - - _papers/pesant2015principles/pesant2015principles
 ---
 # Principles and Practice of Constraint Programming: 21st International Conference, CP 2015, Cork, Ireland, August 31 -- September 4, 2015, Proceedings
 ## Attachments

@@ -23,6 +23,10 @@ tags:
   - "#ruin_and_recreate"
   - "#synchronization"
   - "#traveling_salesman_problem"
+extracted_pdf:
+  - - nguyen2023parallel
+extractedPdf:
+  - - _papers/nguyen2023parallel/nguyen2023parallel
 ---
 # The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones
 ## Abstract

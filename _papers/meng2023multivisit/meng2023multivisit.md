@@ -24,6 +24,10 @@ tags:
   - "#Multi-visit_drone_routing_problem"
   - "#Simultaneous_pickup_and_delivery"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - meng2023multivisit
+extractedPdf:
+  - - _papers/meng2023multivisit/meng2023multivisit
 ---
 # The multi-visit drone routing problem for pickup and delivery services
 ## Abstract

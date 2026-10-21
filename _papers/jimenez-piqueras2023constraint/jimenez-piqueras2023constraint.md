@@ -23,6 +23,10 @@ tags:
   - "#Container_terminal_optimization"
   - "#Logistics"
   - "#Premarshalling_problem"
+extracted_pdf:
+  - - jimenez-piqueras2023constraint
+extractedPdf:
+  - - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint
 ---
 # A constraint programming approach for the premarshalling problem
 ## Abstract

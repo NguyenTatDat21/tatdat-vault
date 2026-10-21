@@ -25,6 +25,10 @@ tags:
   - "#Orienteering_problem"
   - "#Shared_regions"
   - "#Unmanned_Aerial_Vehicle"
+extracted_pdf:
+  - - fuertes2023solving
+extractedPdf:
+  - - _papers/fuertes2023solving/fuertes2023solving
 ---
 # Solving routing problems for multiple cooperative Unmanned Aerial Vehicles using Transformer networks
 ## Abstract

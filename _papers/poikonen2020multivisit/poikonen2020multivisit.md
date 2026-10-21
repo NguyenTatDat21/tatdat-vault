@@ -21,6 +21,10 @@ tags:
   - "#Heuristics"
   - "#Traveling_salesman"
   - "#Vehicle_routing"
+extracted_pdf:
+  - - poikonen2020multivisit
+extractedPdf:
+  - - _papers/poikonen2020multivisit/poikonen2020multivisit
 ---
 # Multi-visit drone routing problem
 ## Abstract

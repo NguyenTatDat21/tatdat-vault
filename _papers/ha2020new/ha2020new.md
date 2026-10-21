@@ -26,6 +26,10 @@ tags:
   - "#Synchronization_constraint"
   - "#Time_window"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - ha2020new
+extractedPdf:
+  - - _papers/ha2020new/ha2020new
 ---
 # A new constraint programming model and a linear programming-based adaptive large neighborhood search for the vehicle routing problem with synchronization constraints
 ## Abstract

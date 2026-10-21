@@ -23,6 +23,10 @@ tags:
   - "#Mixed_integer_programming"
   - "#Multi_armed_bandit_problem"
   - "#Primal_heuristics"
+extracted_pdf:
+  - - hendel2022adaptive
+extractedPdf:
+  - - _papers/hendel2022adaptive/hendel2022adaptive
 ---
 # Adaptive large neighborhood search for mixed integer programming
 ## Abstract

@@ -24,6 +24,10 @@ tags:
   - "#Heuristics"
   - "#Inventory_routing"
   - "#Maritime_transportation"
+extracted_pdf:
+  - - stalhane2012construction
+extractedPdf:
+  - - _papers/stalhane2012construction/stalhane2012construction
 ---
 # A construction and improvement heuristic for a liquefied natural gas inventory routing problem
 ## Abstract

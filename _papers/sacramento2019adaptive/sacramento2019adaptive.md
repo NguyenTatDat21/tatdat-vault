@@ -22,6 +22,10 @@ tags:
   - "#Delivery_operations"
   - "#UAVs"
   - "#Vehicle_Routing_Problems_with_Drones"
+extracted_pdf:
+  - - sacramento2019adaptive
+extractedPdf:
+  - - _papers/sacramento2019adaptive/sacramento2019adaptive
 ---
 # An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones
 ## Abstract

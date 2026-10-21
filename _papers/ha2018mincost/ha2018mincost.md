@@ -24,6 +24,10 @@ tags:
   - "#Integer_programming"
   - "#Minimize_operational_cost"
   - "#Traveling_Salesman_Problem_with_Drone"
+extracted_pdf:
+  - - ha2018mincost
+extractedPdf:
+  - - _papers/ha2018mincost/ha2018mincost
 ---
 # On the min-cost Traveling Salesman Problem with Drone
 ## Abstract

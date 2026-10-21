@@ -24,6 +24,10 @@ tags:
   - "#Ruin_and_recreate_metaheuristic"
   - "#Transportation"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - nguyen2022mincost
+extractedPdf:
+  - - _papers/nguyen2022mincost/nguyen2022mincost
 ---
 # The min-cost parallel drone scheduling vehicle routing problem
 ## Abstract

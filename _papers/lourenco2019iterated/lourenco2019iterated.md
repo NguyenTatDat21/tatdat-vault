@@ -25,6 +25,10 @@ tags:
   - "#Permutation_Flow_Shop_Problem_(PFSP)"
   - "#Random_Restarts"
   - "#Single_Machine_Total_Weighted_Tardiness_Problem_(SMTWTP)"
+extracted_pdf:
+  - - lourenco2019iterated
+extractedPdf:
+  - - _papers/lourenco2019iterated/lourenco2019iterated
 ---
 # Iterated Local Search: Framework and Applications
 ## Abstract

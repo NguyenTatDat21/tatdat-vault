@@ -20,6 +20,10 @@ tags:
   - "#Financial_statement_analysis"
   - "#equity_valuation"
   - "#ratio_analysis"
+extracted_pdf:
+  - - nissim2001ratio
+extractedPdf:
+  - - _papers/nissim2001ratio/nissim2001ratio
 ---
 # Ratio Analysis and Equity Valuation: From Research to Practice
 ## Abstract

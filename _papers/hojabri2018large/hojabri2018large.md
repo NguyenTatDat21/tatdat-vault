@@ -23,6 +23,10 @@ tags:
   - "#Large_neighborhood_search"
   - "#Synchronization"
   - "#Vehicle_routing"
+extracted_pdf:
+  - - hojabri2018large
+extractedPdf:
+  - - _papers/hojabri2018large/hojabri2018large
 ---
 # Large neighborhood search with constraint programming for a vehicle routing problem with synchronization constraints
 ## Abstract

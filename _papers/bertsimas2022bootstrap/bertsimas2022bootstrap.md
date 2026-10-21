@@ -22,6 +22,10 @@ tags:
   - "#Nadaraya–Watson_learning"
   - "#Nearest_neighbors_learning"
   - "#Statistical_bootstrap"
+extracted_pdf:
+  - - bertsimas2022bootstrap
+extractedPdf:
+  - - _papers/bertsimas2022bootstrap/bertsimas2022bootstrap
 ---
 # Bootstrap robust prescriptive analytics
 ## Abstract

@@ -30,6 +30,10 @@ tags:
   - "#Supply_Chain_Management"
   - "#Syngas"
   - "#Valid_Inequality"
+extracted_pdf:
+  - - andersson2017creating
+extractedPdf:
+  - - _papers/andersson2017creating/andersson2017creating
 ---
 # Creating annual delivery programs of liquefied natural gas
 ## Abstract

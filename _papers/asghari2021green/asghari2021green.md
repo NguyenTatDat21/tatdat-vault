@@ -22,6 +22,10 @@ tags:
   - "#Hybrid_electric_vehicles"
   - "#Internal_combustion_engine_vehicles"
   - "#Systematic_literature_review"
+extracted_pdf:
+  - - asghari2021green
+extractedPdf:
+  - - _papers/asghari2021green/asghari2021green
 ---
 # Green vehicle routing problem: A state-of-the-art review
 ## Abstract

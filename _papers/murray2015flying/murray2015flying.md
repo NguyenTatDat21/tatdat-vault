@@ -23,6 +23,10 @@ tags:
   - "#Traveling_salesman_problem"
   - "#Unmanned_aerial_vehicle"
   - "#Vehicle_routing_problem"
+extracted_pdf:
+  - - murray2015flying
+extractedPdf:
+  - - _papers/murray2015flying/murray2015flying
 ---
 # The flying sidekick traveling salesman problem: Optimization of drone-assisted parcel delivery
 ## Abstract

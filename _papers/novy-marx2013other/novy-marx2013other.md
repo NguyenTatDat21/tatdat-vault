@@ -21,6 +21,10 @@ tags:
   - "#Profitability"
   - "#Quality_investing"
   - "#Value_premium"
+extracted_pdf:
+  - - novy-marx2013other
+extractedPdf:
+  - - _papers/novy-marx2013other/novy-marx2013other
 ---
 # The other side of value: The gross profitability premium
 ## Abstract

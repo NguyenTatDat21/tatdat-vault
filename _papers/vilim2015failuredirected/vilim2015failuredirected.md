@@ -31,6 +31,10 @@ tags:
   - "#RCPSP/max"
   - "#Scheduling"
   - "#Search"
+extracted_pdf:
+  - - vilim2015failuredirected
+extractedPdf:
+  - - _papers/vilim2015failuredirected/vilim2015failuredirected
 ---
 # Failure-Directed Search for Constraint-Based Scheduling
 ## Abstract

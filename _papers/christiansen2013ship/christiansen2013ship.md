@@ -24,6 +24,10 @@ tags:
   - "#Maritime_transportation"
   - "#Routing"
   - "#Tramp_shipping"
+extracted_pdf:
+  - - christiansen2013ship
+extractedPdf:
+  - - _papers/christiansen2013ship/christiansen2013ship
 ---
 # Ship routing and scheduling in the new millennium
 ## Abstract
