@@ -19,6 +19,7 @@ year: 2020
 url: https://pubsonline.informs.org/doi/abs/10.1287/opre.2019.1874
 doi: 10.1287/opre.2019.1874
 tags: []
+extracted-pdf: "[[_papers/paradiso2020exact/paradiso2020exact-extracted]]"
 ---
 # An Exact Solution Framework for Multitrip Vehicle-Routing Problems with Time Windows
 ## Abstract
@@ -27,8 +28,5 @@ tags: []
 ## Attachments
 - [opre.2019.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=B8NFFXE6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/B8NFFXE6/opre.2019.html>)
 - [Paradiso 2020 - An Exact Solution Framework for Multitrip Vehicle-Routing Problems with Time Windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YKXR7QZX) - [File path](<file:///home/tatdatnguyen/Zotero/storage/YKXR7QZX/Paradiso 2020 - An Exact Solution Framework for Multitrip Vehicle-Routing Problems with Time Windows.pdf>)
-
-## Extracted PDF
-[[_papers/paradiso2020exact/paradiso2020exact-extracted]]
 
 ## Notes

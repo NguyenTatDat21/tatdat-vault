@@ -23,6 +23,7 @@ tags:
   - "#Drone_scheduling"
   - "#Path_planning"
   - "#Payload_amount"
+extracted-pdf: "[[_papers/torabbeigi2020drone/torabbeigi2020drone-extracted]]"
 ---
 # Drone Delivery Scheduling Optimization Considering Payload-induced Battery Consumption Rates
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 
 ## Attachments
 - [Torabbeigi 2020 - Drone Delivery Scheduling Optimization Considering Payload-induced Battery Consumption Rates.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=X9ITVLQB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/X9ITVLQB/Torabbeigi 2020 - Drone Delivery Scheduling Optimization Considering Payload-induced Battery Consumption Rates.pdf>)
-
-## Extracted PDF
-[[_papers/torabbeigi2020drone/torabbeigi2020drone-extracted]]
 
 ## Notes

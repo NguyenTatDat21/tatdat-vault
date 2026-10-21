@@ -31,6 +31,7 @@ tags:
   - "#RCPSP/max"
   - "#Scheduling"
   - "#Search"
+extracted-pdf: "[[_papers/vilim2015failuredirected/vilim2015failuredirected-extracted]]"
 ---
 # Failure-Directed Search for Constraint-Based Scheduling
 ## Abstract
@@ -38,8 +39,5 @@ tags:
 
 ## Attachments
 - [Vilím 2015 - Failure-Directed Search for Constraint-Based Scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=DM3GA832) - [File path](<file:///home/tatdatnguyen/Zotero/storage/DM3GA832/Vilím 2015 - Failure-Directed Search for Constraint-Based Scheduling.pdf>)
-
-## Extracted PDF
-[[_papers/vilim2015failuredirected/vilim2015failuredirected-extracted]]
 
 ## Notes

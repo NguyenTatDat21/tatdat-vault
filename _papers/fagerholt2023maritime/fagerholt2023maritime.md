@@ -22,6 +22,7 @@ tags:
   - "#combinatorial_optimization"
   - "#maritime_inventory_routing_problem"
   - "#transportation"
+extracted-pdf: "[[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted]]"
 ---
 # Maritime inventory routing: recent trends and future directions
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 ## Attachments
 - [Fagerholt 2023 - Maritime inventory routing.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=UZ4WKFDP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/UZ4WKFDP/Fagerholt 2023 - Maritime inventory routing.pdf>)
 - [itor.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZEUZT2NY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZEUZT2NY/itor.html>)
-
-## Extracted PDF
-[[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted]]
 
 ## Notes

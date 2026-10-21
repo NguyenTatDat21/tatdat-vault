@@ -23,6 +23,7 @@ tags:
   - "#Receding_Horizon_Task_Assignment_(RHTA)_heuristic"
   - "#UAV_delivery"
   - "#Unmanned_aerial_vehicle_routing_problem_(UAVRP)"
+extracted-pdf: "[[_papers/song2018persistent/song2018persistent-extracted]]"
 ---
 # Persistent UAV delivery logistics: MILP formulation and efficient heuristic
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [S0360835218302146.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VKP3TGZ4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VKP3TGZ4/S0360835218302146.html>)
 - [Song 2018 - Persistent UAV delivery logistics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZKK3ULF2) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZKK3ULF2/Song 2018 - Persistent UAV delivery logistics.pdf>)
-
-## Extracted PDF
-[[_papers/song2018persistent/song2018persistent-extracted]]
 
 ## Notes

@@ -23,6 +23,7 @@ tags:
   - "#Logical_cut"
   - "#Nonlinear_energy_function"
   - "#Subgradient_cut"
+extracted-pdf: "[[_papers/cheng2020drone/cheng2020drone-extracted]]"
 ---
 # Drone routing with energy function: Formulation and exact algorithm
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [Cheng 2020 - Drone routing with energy function.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GZ997M5W) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GZ997M5W/Cheng 2020 - Drone routing with energy function.pdf>)
 - [S019126152030360X.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=X732NI2L) - [File path](<file:///home/tatdatnguyen/Zotero/storage/X732NI2L/S019126152030360X.html>)
-
-## Extracted PDF
-[[_papers/cheng2020drone/cheng2020drone-extracted]]
 
 ## Notes

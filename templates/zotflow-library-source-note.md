@@ -9,6 +9,7 @@ year: {{ item.year }}
 url: {{ item.url | json }}
 doi: {{ item.DOI | json }}
 tags: [{% for t in item.tags %}"#{{ t.tag | replace: " ", "_" }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+extracted-pdf: "[[_papers/{{item.citationKey | default: item.title | default: item.key}}/{{item.citationKey | default: item.title | default: item.key}}-extracted]]"
 ---
 {%- capture quote_string %}{{ newline }}> {% endcapture -%}
 {%- capture quote_string_2 %}{{ newline }}> >{% endcapture -%}
@@ -23,9 +24,6 @@ tags: [{% for t in item.tags %}"#{{ t.tag | replace: " ", "_" }}"{% unless forlo
 {%- for attachment in item.attachments -%}
 - [{{ attachment.filename }}]({{ attachment | attachment_link }}) - [File path](<file://{{ settings.zoteroStoragePath }}/{{ attachment.key }}/{{ attachment.filename }}>)
 {%- endfor -%}
-
-## Extracted PDF
-[[_papers/{{item.citationKey | default: item.title | default: item.key}}/{{item.citationKey | default: item.title | default: item.key}}-extracted]]
 
 {%- endif -%}
 ## Notes

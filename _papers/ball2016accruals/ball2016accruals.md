@@ -24,6 +24,7 @@ tags:
   - "#Asset_pricing"
   - "#Cash_flows"
   - "#Operating_profitability"
+extracted-pdf: "[[_papers/ball2016accruals/ball2016accruals-extracted]]"
 ---
 # Accruals, cash flows, and operating profitability in the cross section of stock returns
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [S0304405X16300307.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9RMUK23E) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9RMUK23E/S0304405X16300307.html>)
 - [Ball 2016 - Accruals, cash flows, and operating profitability in the cross section of stock returns.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=RNZSISUU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/RNZSISUU/Ball 2016 - Accruals, cash flows, and operating profitability in the cross section of stock returns.pdf>)
-
-## Extracted PDF
-[[_papers/ball2016accruals/ball2016accruals-extracted]]
 
 ## Notes

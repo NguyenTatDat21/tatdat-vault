@@ -22,6 +22,7 @@ tags:
   - "#Set_orienteering_problem"
   - "#Simulated_annealing"
   - "#Team_orienteering_problem_with_time_windows"
+extracted-pdf: "[[_papers/yu2024simulated/yu2024simulated-extracted]]"
 ---
 # Simulated annealing with reinforcement learning for the set team orienteering problem with time windows
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 ## Attachments
 - [S0957417423024983.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=362MRBSQ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/362MRBSQ/S0957417423024983.html>)
 - [Yu 2024 - Simulated annealing with reinforcement learning for the set team orienteering problem with time windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=L82WSG4U) - [File path](<file:///home/tatdatnguyen/Zotero/storage/L82WSG4U/Yu 2024 - Simulated annealing with reinforcement learning for the set team orienteering problem with time windows.pdf>)
-
-## Extracted PDF
-[[_papers/yu2024simulated/yu2024simulated-extracted]]
 
 ## Notes

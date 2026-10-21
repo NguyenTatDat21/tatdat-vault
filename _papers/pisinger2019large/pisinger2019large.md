@@ -24,6 +24,7 @@ tags:
   - "#Capacitated_Vehicle_Routing_Problem_(CVRP)"
   - "#Pickup_And_Delivery_Problem_With_Time_Windows_(PDPTW)"
   - "#Repair_Method"
+extracted-pdf: "[[_papers/pisinger2019large/pisinger2019large-extracted]]"
 ---
 # Large Neighborhood Search
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 
 ## Attachments
 - [Pisinger 2019 - Large Neighborhood Search.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6ACZYHAX) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6ACZYHAX/Pisinger 2019 - Large Neighborhood Search.pdf>)
-
-## Extracted PDF
-[[_papers/pisinger2019large/pisinger2019large-extracted]]
 
 ## Notes

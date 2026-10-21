@@ -25,6 +25,7 @@ tags:
   - "#Simulated_annealing"
   - "#Threshold_acceptance"
   - "#Vehicle_routing_problem"
+extracted-pdf: "[[_papers/santini2018comparison/santini2018comparison-extracted]]"
 ---
 # A comparison of acceptance criteria for the adaptive large neighbourhood search metaheuristic
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 
 ## Attachments
 - [Santini 2018 - A comparison of acceptance criteria for the adaptive large neighbourhood search metaheuristic.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KMPJ5NP8) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KMPJ5NP8/Santini 2018 - A comparison of acceptance criteria for the adaptive large neighbourhood search metaheuristic.pdf>)
-
-## Extracted PDF
-[[_papers/santini2018comparison/santini2018comparison-extracted]]
 
 ## Notes

@@ -23,6 +23,7 @@ tags:
   - "#Constraint_programming"
   - "#Inventory"
   - "#Routing"
+extracted-pdf: "[[_papers/goel2015constraint/goel2015constraint-extracted]]"
 ---
 # Constraint programming for LNG ship scheduling and inventory management
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [S0377221714007875.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=2RZNH4FN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/2RZNH4FN/S0377221714007875.html>)
 - [Goel 2015 - Constraint programming for LNG ship scheduling and inventory management.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=IZM3MTJ2) - [File path](<file:///home/tatdatnguyen/Zotero/storage/IZM3MTJ2/Goel 2015 - Constraint programming for LNG ship scheduling and inventory management.pdf>)
-
-## Extracted PDF
-[[_papers/goel2015constraint/goel2015constraint-extracted]]
 
 ## Notes

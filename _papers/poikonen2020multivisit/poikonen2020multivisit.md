@@ -21,6 +21,7 @@ tags:
   - "#Heuristics"
   - "#Traveling_salesman"
   - "#Vehicle_routing"
+extracted-pdf: "[[_papers/poikonen2020multivisit/poikonen2020multivisit-extracted]]"
 ---
 # Multi-visit drone routing problem
 ## Abstract
@@ -29,8 +30,5 @@ tags:
 ## Attachments
 - [Poikonen 2020 - Multi-visit drone routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=2U5WT7J6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/2U5WT7J6/Poikonen 2020 - Multi-visit drone routing problem.pdf>)
 - [S0305054819302448.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EC4SUWD5) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EC4SUWD5/S0305054819302448.html>)
-
-## Extracted PDF
-[[_papers/poikonen2020multivisit/poikonen2020multivisit-extracted]]
 
 ## Notes

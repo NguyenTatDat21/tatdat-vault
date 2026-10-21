@@ -26,6 +26,7 @@ tags:
   - "#ILS"
   - "#Routing"
   - "#m-TSP"
+extracted-pdf: "[[_papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted]]"
 ---
 # The parallel drone scheduling problem with multiple drones and vehicles
 ## Abstract
@@ -34,8 +35,5 @@ tags:
 ## Attachments
 - [S0377221721006822.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=F5AX5GJP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/F5AX5GJP/S0377221721006822.html>)
 - [Mbiadou Saleu 2022 - The parallel drone scheduling problem with multiple drones and vehicles.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Z7KCULZ6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/Z7KCULZ6/Mbiadou Saleu 2022 - The parallel drone scheduling problem with multiple drones and vehicles.pdf>)
-
-## Extracted PDF
-[[_papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted]]
 
 ## Notes

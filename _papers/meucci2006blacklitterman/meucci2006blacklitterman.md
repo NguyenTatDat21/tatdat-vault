@@ -30,6 +30,7 @@ tags:
   - "#quantitative_portfolio_management"
   - "#skewness"
   - "#views"
+extracted-pdf: "[[_papers/meucci2006blacklitterman/meucci2006blacklitterman-extracted]]"
 ---
 # Beyond Black-Litterman in Practice: A Five-Step Recipe to Input Views on Non-Normal Markets
 ## Abstract
@@ -37,8 +38,5 @@ tags:
 
 ## Attachments
 - [Meucci 2006 - Beyond Black-Litterman in Practice.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4PAMSVLN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/4PAMSVLN/Meucci 2006 - Beyond Black-Litterman in Practice.pdf>)
-
-## Extracted PDF
-[[_papers/meucci2006blacklitterman/meucci2006blacklitterman-extracted]]
 
 ## Notes

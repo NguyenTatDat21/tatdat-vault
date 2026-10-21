@@ -17,6 +17,7 @@ year: 1996
 url: https://www.sciencedirect.com/science/article/pii/0360835295001859
 doi: 10.1016/0360-8352(95)00185-9
 tags: []
+extracted-pdf: "[[_papers/richards1996scheduling/richards1996scheduling-extracted]]"
 ---
 # Scheduling to maximize customer satisfaction: A project for the shad valley program
 ## Abstract
@@ -25,8 +26,5 @@ tags: []
 ## Attachments
 - [Richards 1996 - Scheduling to maximize customer satisfaction.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=S38S28XG) - [File path](<file:///home/tatdatnguyen/Zotero/storage/S38S28XG/Richards 1996 - Scheduling to maximize customer satisfaction.pdf>)
 - [0360835295001859.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=W454GNCY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/W454GNCY/0360835295001859.html>)
-
-## Extracted PDF
-[[_papers/richards1996scheduling/richards1996scheduling-extracted]]
 
 ## Notes

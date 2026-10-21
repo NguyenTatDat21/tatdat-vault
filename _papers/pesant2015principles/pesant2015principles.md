@@ -36,12 +36,10 @@ tags:
   - "#scheduling"
   - "#solvers"
   - "#traffic_engineering"
+extracted-pdf: "[[_papers/pesant2015principles/pesant2015principles-extracted]]"
 ---
 # Principles and Practice of Constraint Programming: 21st International Conference, CP 2015, Cork, Ireland, August 31 -- September 4, 2015, Proceedings
 ## Attachments
 - [2015 - Principles and Practice of Constraint Programming.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7UZE97FH) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7UZE97FH/2015 - Principles and Practice of Constraint Programming.pdf>)
-
-## Extracted PDF
-[[_papers/pesant2015principles/pesant2015principles-extracted]]
 
 ## Notes

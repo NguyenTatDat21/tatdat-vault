@@ -24,6 +24,7 @@ tags:
   - "#Logistics"
   - "#Multi-visit"
   - "#Truck-drone_system"
+extracted-pdf: "[[_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted]]"
 ---
 # An adaptive large neighborhood search heuristic for the flying sidekick traveling salesman problem with multiple drops
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [Windras Mara 2022 - An adaptive large neighborhood search heuristic for the flying sidekick traveling salesman problem with multiple drops.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ELF2KI54) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ELF2KI54/Windras Mara 2022 - An adaptive large neighborhood search heuristic for the flying sidekick traveling salesman problem with multiple drops.pdf>)
 - [S0957417422009514.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJ27AM7L) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JJ27AM7L/S0957417422009514.html>)
-
-## Extracted PDF
-[[_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted]]
 
 ## Notes

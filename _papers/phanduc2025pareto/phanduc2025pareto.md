@@ -19,6 +19,7 @@ year: 2025
 url: https://dl.acm.org/doi/10.1145/3712256.3726467
 doi: 10.1145/3712256.3726467
 tags: []
+extracted-pdf: "[[_papers/phanduc2025pareto/phanduc2025pareto-extracted]]"
 ---
 # Pareto Front Grid Guided Multiobjective Optimization In Dynamic Pickup And Delivery Problem Considering Two-Sided Fairness
 ## Abstract
@@ -26,8 +27,5 @@ tags: []
 
 ## Attachments
 - [Phan Duc 2025 - Pareto Front Grid Guided Multiobjective Optimization In Dynamic Pickup And Delivery Problem Considering Two-Sided Fairness.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=UEBQA7RD) - [File path](<file:///home/tatdatnguyen/Zotero/storage/UEBQA7RD/Phan Duc 2025 - Pareto Front Grid Guided Multiobjective Optimization In Dynamic Pickup And Delivery Problem Considering Two-Sided Fairness.pdf>)
-
-## Extracted PDF
-[[_papers/phanduc2025pareto/phanduc2025pareto-extracted]]
 
 ## Notes

@@ -17,6 +17,7 @@ url:
 doi:
 tags:
   - "#Mathematics_/_Probability_&_Statistics_/_General"
+extracted-pdf: "[[_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted]]"
 ---
 # Problem Solving: A statistician's guide, Second edition
 ## Abstract
@@ -25,8 +26,5 @@ tags:
 ## Attachments
 - [Google Books Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6KP4AIRH) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6KP4AIRH/Google Books Link>)
 - [Chatfield 1995 - Problem Solving.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H9LS4KBE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/H9LS4KBE/Chatfield 1995 - Problem Solving.pdf>)
-
-## Extracted PDF
-[[_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted]]
 
 ## Notes

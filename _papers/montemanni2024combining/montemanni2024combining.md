@@ -23,6 +23,7 @@ year: 2024
 url: https://link.springer.com/10.1007/978-3-031-62912-9_13
 doi: 10.1007/978-3-031-62912-9_13
 tags: []
+extracted-pdf: "[[_papers/montemanni2024combining/montemanni2024combining-extracted]]"
 ---
 # Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones
 ## Abstract
@@ -30,8 +31,5 @@ tags: []
 
 ## Attachments
 - [Montemanni 2024 - Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9VLSKU3G) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9VLSKU3G/Montemanni 2024 - Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones.pdf>)
-
-## Extracted PDF
-[[_papers/montemanni2024combining/montemanni2024combining-extracted]]
 
 ## Notes

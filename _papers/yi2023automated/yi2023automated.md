@@ -20,6 +20,7 @@ tags:
   - "#Automated_algorithm_design"
   - "#Reinforcement_learning"
   - "#Vehicle_routing_problem_with_time_windows"
+extracted-pdf: "[[_papers/yi2023automated/yi2023automated-extracted]]"
 ---
 # Automated Design of Search Algorithms based on Reinforcement Learning
 ## Abstract
@@ -28,8 +29,5 @@ tags:
 ## Attachments
 - [Yi 2023 - Automated Design of Search Algorithms based on Reinforcement Learning.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6TD86AHW) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6TD86AHW/Yi 2023 - Automated Design of Search Algorithms based on Reinforcement Learning.pdf>)
 - [S0020025523012240.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=CGUWGFTP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/CGUWGFTP/S0020025523012240.html>)
-
-## Extracted PDF
-[[_papers/yi2023automated/yi2023automated-extracted]]
 
 ## Notes

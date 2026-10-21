@@ -23,6 +23,7 @@ tags:
   - "#Mixed_integer_programming"
   - "#Multi_armed_bandit_problem"
   - "#Primal_heuristics"
+extracted-pdf: "[[_papers/hendel2022adaptive/hendel2022adaptive-extracted]]"
 ---
 # Adaptive large neighborhood search for mixed integer programming
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 
 ## Attachments
 - [Hendel 2022 - Adaptive large neighborhood search for mixed integer programming.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=SRPZDB2J) - [File path](<file:///home/tatdatnguyen/Zotero/storage/SRPZDB2J/Hendel 2022 - Adaptive large neighborhood search for mixed integer programming.pdf>)
-
-## Extracted PDF
-[[_papers/hendel2022adaptive/hendel2022adaptive-extracted]]
 
 ## Notes

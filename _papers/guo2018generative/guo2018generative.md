@@ -22,6 +22,7 @@ tags:
   - "#Computer_Science_-_Artificial_Intelligence"
   - "#Computer_Science_-_Machine_Learning"
   - "#Statistics_-_Machine_Learning"
+extracted-pdf: "[[_papers/guo2018generative/guo2018generative-extracted]]"
 ---
 # Generative Adversarial Self-Imitation Learning
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 ## Attachments
 - [Guo 2018 - Generative Adversarial Self-Imitation Learning.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4G3KBML6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/4G3KBML6/Guo 2018 - Generative Adversarial Self-Imitation Learning.pdf>)
 - [1812.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJS2NZH7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JJS2NZH7/1812.html>)
-
-## Extracted PDF
-[[_papers/guo2018generative/guo2018generative-extracted]]
 
 ## Notes

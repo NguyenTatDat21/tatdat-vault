@@ -22,6 +22,7 @@ tags:
   - "#Hybrid_evolutionary_algorithm"
   - "#Orienteering_problem"
   - "#Tabu_search"
+extracted-pdf: "[[_papers/lu2024effective/lu2024effective-extracted]]"
 ---
 # An effective hybrid evolutionary algorithm for the set orienteering problem
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 ## Attachments
 - [S0020025523013981.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5Y4ZP3R7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/5Y4ZP3R7/S0020025523013981.html>)
 - [Lu 2024 - An effective hybrid evolutionary algorithm for the set orienteering problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=8ICXRAZS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/8ICXRAZS/Lu 2024 - An effective hybrid evolutionary algorithm for the set orienteering problem.pdf>)
-
-## Extracted PDF
-[[_papers/lu2024effective/lu2024effective-extracted]]
 
 ## Notes

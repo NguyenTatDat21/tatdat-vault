@@ -18,6 +18,7 @@ year: 2007
 url: https://doi.org/10.2308/accr.2007.82.1.169
 doi: 10.2308/accr.2007.82.1.169
 tags: []
+extracted-pdf: "[[_papers/pincus2007accrual/pincus2007accrual-extracted]]"
 ---
 # The Accrual Anomaly: International Evidence
 ## Abstract
@@ -26,8 +27,5 @@ tags: []
 ## Attachments
 - [accr.2007.82.1.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KJXZIPNS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KJXZIPNS/accr.2007.82.1.html>)
 - [Pincus 2007 - The Accrual Anomaly.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WBHSYGI6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/WBHSYGI6/Pincus 2007 - The Accrual Anomaly.pdf>)
-
-## Extracted PDF
-[[_papers/pincus2007accrual/pincus2007accrual-extracted]]
 
 ## Notes

@@ -24,6 +24,7 @@ tags:
   - "#Large_neighbourhood_search"
   - "#Set_team_orienteering_problem"
   - "#Vehicle_routing_problem_with_profits"
+extracted-pdf: "[[_papers/nguyen2025set/nguyen2025set-extracted]]"
 ---
 # The set team orienteering problem
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [S0377221724007240.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9XXI5WL8) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9XXI5WL8/S0377221724007240.html>)
 - [Nguyen 2025 - The set team orienteering problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=LL2QRGWJ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/LL2QRGWJ/Nguyen 2025 - The set team orienteering problem.pdf>)
-
-## Extracted PDF
-[[_papers/nguyen2025set/nguyen2025set-extracted]]
 
 ## Notes

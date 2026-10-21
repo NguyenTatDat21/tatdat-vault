@@ -26,6 +26,7 @@ tags:
   - "#Synchronization_constraint"
   - "#Time_window"
   - "#Vehicle_routing_problem"
+extracted-pdf: "[[_papers/ha2020new/ha2020new-extracted]]"
 ---
 # A new constraint programming model and a linear programming-based adaptive large neighborhood search for the vehicle routing problem with synchronization constraints
 ## Abstract
@@ -34,8 +35,5 @@ tags:
 ## Attachments
 - [Hà 2020 - A new constraint programming model and a linear programming-based adaptive large neighborhood search for the vehicle routing problem with synchronization constraints.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7ETGHJFU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7ETGHJFU/Hà 2020 - A new constraint programming model and a linear programming-based adaptive large neighborhood search for the vehicle routing problem with synchronization constraints.pdf>)
 - [S0305054820302021.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M2EZFJFV) - [File path](<file:///home/tatdatnguyen/Zotero/storage/M2EZFJFV/S0305054820302021.html>)
-
-## Extracted PDF
-[[_papers/ha2020new/ha2020new-extracted]]
 
 ## Notes

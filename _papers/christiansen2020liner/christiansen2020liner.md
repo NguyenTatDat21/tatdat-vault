@@ -25,6 +25,7 @@ tags:
   - "#Multi-commodity_flow_problem"
   - "#Network_design"
   - "#OR_in_maritime_industry"
+extracted-pdf: "[[_papers/christiansen2020liner/christiansen2020liner-extracted]]"
 ---
 # Liner shipping network design
 ## Abstract
@@ -33,8 +34,5 @@ tags:
 ## Attachments
 - [Christiansen 2020 - Liner shipping network design.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=56S6WMUN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/56S6WMUN/Christiansen 2020 - Liner shipping network design.pdf>)
 - [S0377221719308148.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=HDDKCLFY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/HDDKCLFY/S0377221719308148.html>)
-
-## Extracted PDF
-[[_papers/christiansen2020liner/christiansen2020liner-extracted]]
 
 ## Notes

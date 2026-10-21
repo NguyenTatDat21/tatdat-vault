@@ -22,6 +22,7 @@ tags:
   - "#Empirical_Bayes"
   - "#General_asymptotics"
   - "#Shrinkage"
+extracted-pdf: "[[_papers/ledoit2004wellconditioned/ledoit2004wellconditioned-extracted]]"
 ---
 # A well-conditioned estimator for large-dimensional covariance matrices
 ## Abstract
@@ -30,8 +31,5 @@ tags:
 ## Attachments
 - [S0047259X03000964.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H7ZWWD3B) - [File path](<file:///home/tatdatnguyen/Zotero/storage/H7ZWWD3B/S0047259X03000964.html>)
 - [Ledoit 2004 - A well-conditioned estimator for large-dimensional covariance matrices.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=UPS4DQN6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/UPS4DQN6/Ledoit 2004 - A well-conditioned estimator for large-dimensional covariance matrices.pdf>)
-
-## Extracted PDF
-[[_papers/ledoit2004wellconditioned/ledoit2004wellconditioned-extracted]]
 
 ## Notes

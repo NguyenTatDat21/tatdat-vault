@@ -23,6 +23,7 @@ tags:
   - "#Integer_linear_programming"
   - "#Orienteering_problem"
   - "#Routing"
+extracted-pdf: "[[_papers/archetti2023new/archetti2023new-extracted]]"
 ---
 # A new formulation and a branch-and-cut algorithm for the set orienteering problem
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [Archetti 2023 - A new formulation and a branch-and-cut algorithm for the set orienteering problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=PDTFSNUA) - [File path](<file:///home/tatdatnguyen/Zotero/storage/PDTFSNUA/Archetti 2023 - A new formulation and a branch-and-cut algorithm for the set orienteering problem.pdf>)
 - [S0377221723007555.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=W3GW442X) - [File path](<file:///home/tatdatnguyen/Zotero/storage/W3GW442X/S0377221723007555.html>)
-
-## Extracted PDF
-[[_papers/archetti2023new/archetti2023new-extracted]]
 
 ## Notes

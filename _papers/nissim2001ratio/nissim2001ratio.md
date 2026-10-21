@@ -20,6 +20,7 @@ tags:
   - "#Financial_statement_analysis"
   - "#equity_valuation"
   - "#ratio_analysis"
+extracted-pdf: "[[_papers/nissim2001ratio/nissim2001ratio-extracted]]"
 ---
 # Ratio Analysis and Equity Valuation: From Research to Practice
 ## Abstract
@@ -27,8 +28,5 @@ tags:
 
 ## Attachments
 - [Nissim 2001 - Ratio Analysis and Equity Valuation.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJDHUVWI) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JJDHUVWI/Nissim 2001 - Ratio Analysis and Equity Valuation.pdf>)
-
-## Extracted PDF
-[[_papers/nissim2001ratio/nissim2001ratio-extracted]]
 
 ## Notes

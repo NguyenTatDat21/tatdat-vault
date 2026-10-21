@@ -25,6 +25,7 @@ tags:
   - "#Power_demand"
   - "#Rotors"
   - "#Steady-state"
+extracted-pdf: "[[_papers/liu2017power/liu2017power-extracted]]"
 ---
 # A power consumption model for multi-rotor small unmanned aircraft systems
 ## Abstract
@@ -33,8 +34,5 @@ tags:
 ## Attachments
 - [7991310.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EFWH9548) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EFWH9548/7991310.html>)
 - [Liu 2017 - A power consumption model for multi-rotor small unmanned aircraft systems.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=IUU6V5DJ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/IUU6V5DJ/Liu 2017 - A power consumption model for multi-rotor small unmanned aircraft systems.pdf>)
-
-## Extracted PDF
-[[_papers/liu2017power/liu2017power-extracted]]
 
 ## Notes

@@ -24,6 +24,7 @@ tags:
   - "#Matheuristic"
   - "#Test_instance"
   - "#Vendor-managed_inventory"
+extracted-pdf: "[[_papers/skalnes2024new/skalnes2024new-extracted]]"
 ---
 # New benchmark instances for the inventory routing problem
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [S037722172300615X.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=CCG37HEC) - [File path](<file:///home/tatdatnguyen/Zotero/storage/CCG37HEC/S037722172300615X.html>)
 - [Skålnes 2024 - New benchmark instances for the inventory routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JT7EZDUG) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JT7EZDUG/Skålnes 2024 - New benchmark instances for the inventory routing problem.pdf>)
-
-## Extracted PDF
-[[_papers/skalnes2024new/skalnes2024new-extracted]]
 
 ## Notes

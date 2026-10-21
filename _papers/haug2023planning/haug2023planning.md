@@ -30,6 +30,7 @@ tags:
   - "#Liquefied_Natural_Gas"
   - "#Ship_Routing"
   - "#Speed_Optimization"
+extracted-pdf: "[[_papers/haug2023planning/haug2023planning-extracted]]"
 ---
 # Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports
 ## Abstract
@@ -37,8 +38,5 @@ tags:
 
 ## Attachments
 - [Haug 2023 - Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=989T5S94) - [File path](<file:///home/tatdatnguyen/Zotero/storage/989T5S94/Haug 2023 - Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports.pdf>)
-
-## Extracted PDF
-[[_papers/haug2023planning/haug2023planning-extracted]]
 
 ## Notes

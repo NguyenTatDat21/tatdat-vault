@@ -23,6 +23,7 @@ tags:
   - "#Truck-drone"
   - "#UAV_speed"
   - "#Unmanned_aerial_vehicle"
+extracted-pdf: "[[_papers/raj2020multiple/raj2020multiple-extracted]]"
 ---
 # The multiple flying sidekicks traveling salesman problem with variable drone speeds
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [S0968090X2030718X.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GCML8WL7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GCML8WL7/S0968090X2030718X.html>)
 - [Raj 2020 - The multiple flying sidekicks traveling salesman problem with variable drone speeds.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JNGNFL2Q) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JNGNFL2Q/Raj 2020 - The multiple flying sidekicks traveling salesman problem with variable drone speeds.pdf>)
-
-## Extracted PDF
-[[_papers/raj2020multiple/raj2020multiple-extracted]]
 
 ## Notes

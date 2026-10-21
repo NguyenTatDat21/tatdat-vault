@@ -24,6 +24,7 @@ tags:
   - "#Heuristics"
   - "#Inventory_routing"
   - "#Maritime_transportation"
+extracted-pdf: "[[_papers/stalhane2012construction/stalhane2012construction-extracted]]"
 ---
 # A construction and improvement heuristic for a liquefied natural gas inventory routing problem
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [Stålhane 2012 - A construction and improvement heuristic for a liquefied natural gas inventory routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MP346STP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MP346STP/Stålhane 2012 - A construction and improvement heuristic for a liquefied natural gas inventory routing problem.pdf>)
 - [S0360835211002804.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NFHFVNSG) - [File path](<file:///home/tatdatnguyen/Zotero/storage/NFHFVNSG/S0360835211002804.html>)
-
-## Extracted PDF
-[[_papers/stalhane2012construction/stalhane2012construction-extracted]]
 
 ## Notes

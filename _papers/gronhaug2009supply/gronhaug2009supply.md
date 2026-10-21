@@ -20,6 +20,7 @@ year: 2009
 url:
 doi: 10.1007/978-3-540-92944-4_10
 tags: []
+extracted-pdf: "[[_papers/gronhaug2009supply/gronhaug2009supply-extracted]]"
 ---
 # Supply Chain Optimization for the Liquefied Natural Gas Business
 ## Abstract
@@ -27,8 +28,5 @@ tags: []
 
 ## Attachments
 - [Grønhaug 2009 - Supply Chain Optimization for the Liquefied Natural Gas Business.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M7WNEYUR) - [File path](<file:///home/tatdatnguyen/Zotero/storage/M7WNEYUR/Grønhaug 2009 - Supply Chain Optimization for the Liquefied Natural Gas Business.pdf>)
-
-## Extracted PDF
-[[_papers/gronhaug2009supply/gronhaug2009supply-extracted]]
 
 ## Notes

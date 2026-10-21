@@ -20,6 +20,7 @@ tags:
   - "#large_neighborhood_search"
   - "#metaheuristics"
   - "#pickup_and_delivery_problems_with_time_windows"
+extracted-pdf: "[[_papers/ropke2006adaptive/ropke2006adaptive-extracted]]"
 ---
 # An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows
 ## Abstract
@@ -33,8 +34,5 @@ tags:
 
 ## Attachments
 - [Ropke 2006 - An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5XN93AB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/D5XN93AB/Ropke 2006 - An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows.pdf>)
-
-## Extracted PDF
-[[_papers/ropke2006adaptive/ropke2006adaptive-extracted]]
 
 ## Notes

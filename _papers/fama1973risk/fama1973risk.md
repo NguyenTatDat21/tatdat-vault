@@ -17,6 +17,7 @@ year: 1973
 url: https://www.journals.uchicago.edu/doi/abs/10.1086/260061
 doi: 10.1086/260061
 tags: []
+extracted-pdf: "[[_papers/fama1973risk/fama1973risk-extracted]]"
 ---
 # Risk, Return, and Equilibrium: Empirical Tests
 ## Abstract
@@ -24,8 +25,5 @@ tags: []
 
 ## Attachments
 - [Fama 1973 - Risk, Return, and Equilibrium.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9DPHHP9M) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9DPHHP9M/Fama 1973 - Risk, Return, and Equilibrium.pdf>)
-
-## Extracted PDF
-[[_papers/fama1973risk/fama1973risk-extracted]]
 
 ## Notes

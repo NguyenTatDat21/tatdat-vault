@@ -20,6 +20,7 @@ tags:
   - "#Computer_Science_-_Computational_Engineering,_Finance,_and_Science"
   - "#Computer_Science_-_Discrete_Mathematics"
   - "#Mathematics_-_Optimization_and_Control"
+extracted-pdf: "[[_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted]]"
 ---
 # Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach
 ## Abstract
@@ -28,8 +29,5 @@ tags:
 ## Attachments
 - [2211.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=LFXTN877) - [File path](<file:///home/tatdatnguyen/Zotero/storage/LFXTN877/2211.html>)
 - [Ahmadi-Javid 2022 - Delivery by Drones with Arbitrary Energy Consumption Models.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=W7R53CS4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/W7R53CS4/Ahmadi-Javid 2022 - Delivery by Drones with Arbitrary Energy Consumption Models.pdf>)
-
-## Extracted PDF
-[[_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted]]
 
 ## Notes

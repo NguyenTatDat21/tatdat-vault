@@ -17,6 +17,7 @@ year: 2001
 url: https://doi.org/10.2469/faj.v57.n2.2432
 doi: 10.2469/faj.v57.n2.2432
 tags: []
+extracted-pdf: "[[_papers/qian2001conditional/qian2001conditional-extracted]]"
 ---
 # Conditional Distribution in Portfolio Theory
 ## Abstract
@@ -24,8 +25,5 @@ tags: []
 
 ## Attachments
 - [Qian 2001 - Conditional Distribution in Portfolio Theory.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EQE592FD) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EQE592FD/Qian 2001 - Conditional Distribution in Portfolio Theory.pdf>)
-
-## Extracted PDF
-[[_papers/qian2001conditional/qian2001conditional-extracted]]
 
 ## Notes

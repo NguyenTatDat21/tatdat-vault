@@ -17,6 +17,7 @@ year: 2008
 url: https://link.springer.com/rwe/10.1007/978-0-387-74759-0_352
 doi: 10.1007/978-0-387-74759-0_352
 tags: []
+extracted-pdf: "[[_papers/christiansen2008maritime/christiansen2008maritime-extracted]]"
 ---
 # Maritime Inventory Routing Problems
 ## Abstract
@@ -24,8 +25,5 @@ tags: []
 
 ## Attachments
 - [Christiansen 2008 - Maritime Inventory Routing Problems.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9WTKLZGC) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9WTKLZGC/Christiansen 2008 - Maritime Inventory Routing Problems.pdf>)
-
-## Extracted PDF
-[[_papers/christiansen2008maritime/christiansen2008maritime-extracted]]
 
 ## Notes

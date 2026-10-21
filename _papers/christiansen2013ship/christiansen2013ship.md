@@ -24,6 +24,7 @@ tags:
   - "#Maritime_transportation"
   - "#Routing"
   - "#Tramp_shipping"
+extracted-pdf: "[[_papers/christiansen2013ship/christiansen2013ship-extracted]]"
 ---
 # Ship routing and scheduling in the new millennium
 ## Abstract
@@ -32,8 +33,5 @@ tags:
 ## Attachments
 - [S0377221712009125.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7VWQIR2G) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7VWQIR2G/S0377221712009125.html>)
 - [Christiansen 2013 - Ship routing and scheduling in the new millennium.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJP93WXE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JJP93WXE/Christiansen 2013 - Ship routing and scheduling in the new millennium.pdf>)
-
-## Extracted PDF
-[[_papers/christiansen2013ship/christiansen2013ship-extracted]]
 
 ## Notes

@@ -17,6 +17,7 @@ url: http://arxiv.org/abs/1012.2848
 doi: 10.48550/arXiv.1012.2848
 tags:
   - "#Quantitative_Finance_-_Portfolio_Management"
+extracted-pdf: "[[_papers/meucci2010fully/meucci2010fully-extracted]]"
 ---
 # Fully Flexible Views: Theory and Practice
 ## Abstract
@@ -25,8 +26,5 @@ tags:
 ## Attachments
 - [1012.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NWA8B7B5) - [File path](<file:///home/tatdatnguyen/Zotero/storage/NWA8B7B5/1012.html>)
 - [Meucci 2010 - Fully Flexible Views.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Z5QVQ8CI) - [File path](<file:///home/tatdatnguyen/Zotero/storage/Z5QVQ8CI/Meucci 2010 - Fully Flexible Views.pdf>)
-
-## Extracted PDF
-[[_papers/meucci2010fully/meucci2010fully-extracted]]
 
 ## Notes

@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2106.12142
 tags:
   - "#Computer_Science_-_Artificial_Intelligence"
   - "#Computer_Science_-_Machine_Learning"
+extracted-pdf: "[[_papers/garg2022iqlearn/garg2022iqlearn-extracted]]"
 ---
 # IQ-Learn: Inverse soft-Q Learning for Imitation
 ## Abstract
@@ -31,8 +32,5 @@ tags:
 ## Attachments
 - [2106.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=37NH8WF3) - [File path](<file:///home/tatdatnguyen/Zotero/storage/37NH8WF3/2106.html>)
 - [Garg 2022 - IQ-Learn.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5SIDA8ZY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/5SIDA8ZY/Garg 2022 - IQ-Learn.pdf>)
-
-## Extracted PDF
-[[_papers/garg2022iqlearn/garg2022iqlearn-extracted]]
 
 ## Notes

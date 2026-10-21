@@ -19,6 +19,7 @@ year: 2017
 url: https://pubsonline.informs.org/doi/10.1287/opre.2017.1624
 doi: 10.1287/opre.2017.1624
 tags: []
+extracted-pdf: "[[_papers/boland2017continuoustime/boland2017continuoustime-extracted]]"
 ---
 # The Continuous-Time Service Network Design Problem
 ## Abstract
@@ -27,8 +28,5 @@ tags: []
 ## Attachments
 - [Boland 2017 - The Continuous-Time Service Network Design Problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=INLRCB6C) - [File path](<file:///home/tatdatnguyen/Zotero/storage/INLRCB6C/Boland 2017 - The Continuous-Time Service Network Design Problem.pdf>)
 - [Semantic Scholar Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=QY2EM2QI) - [File path](<file:///home/tatdatnguyen/Zotero/storage/QY2EM2QI/Semantic Scholar Link>)
-
-## Extracted PDF
-[[_papers/boland2017continuoustime/boland2017continuoustime-extracted]]
 
 ## Notes

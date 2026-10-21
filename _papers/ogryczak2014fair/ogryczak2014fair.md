@@ -20,6 +20,7 @@ year: 2014
 url: https://onlinelibrary.wiley.com/doi/abs/10.1155/2014/612018
 doi: 10.1155/2014/612018
 tags: []
+extracted-pdf: "[[_papers/ogryczak2014fair/ogryczak2014fair-extracted]]"
 ---
 # Fair Optimization and Networks: A Survey
 ## Abstract
@@ -28,8 +29,5 @@ tags: []
 ## Attachments
 - [Ogryczak 2014 - Fair Optimization and Networks.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=46YVW82R) - [File path](<file:///home/tatdatnguyen/Zotero/storage/46YVW82R/Ogryczak 2014 - Fair Optimization and Networks.pdf>)
 - [612018.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=R3VZZCPZ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/R3VZZCPZ/612018.html>)
-
-## Extracted PDF
-[[_papers/ogryczak2014fair/ogryczak2014fair-extracted]]
 
 ## Notes

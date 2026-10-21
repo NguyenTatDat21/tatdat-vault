@@ -34,6 +34,7 @@ tags:
   - "#traveling_salesman_problem_(TSP)"
   - "#unmanned_aerial_vehicle_(UAV)"
   - "#vehicle_routing_problem_(VRP)"
+extracted-pdf: "[[_papers/dorling2017vehicle/dorling2017vehicle-extracted]]"
 ---
 # Vehicle Routing Problems for Drone Delivery
 ## Abstract
@@ -42,8 +43,5 @@ tags:
 ## Attachments
 - [7513397.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=SLJQGBVC) - [File path](<file:///home/tatdatnguyen/Zotero/storage/SLJQGBVC/7513397.html>)
 - [Dorling 2017 - Vehicle Routing Problems for Drone Delivery.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=TPNUSDEE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/TPNUSDEE/Dorling 2017 - Vehicle Routing Problems for Drone Delivery.pdf>)
-
-## Extracted PDF
-[[_papers/dorling2017vehicle/dorling2017vehicle-extracted]]
 
 ## Notes

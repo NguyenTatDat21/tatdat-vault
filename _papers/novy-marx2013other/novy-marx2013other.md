@@ -21,6 +21,7 @@ tags:
   - "#Profitability"
   - "#Quality_investing"
   - "#Value_premium"
+extracted-pdf: "[[_papers/novy-marx2013other/novy-marx2013other-extracted]]"
 ---
 # The other side of value: The gross profitability premium
 ## Abstract
@@ -29,8 +30,5 @@ tags:
 ## Attachments
 - [S0304405X13000044.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=HT4L6CJ8) - [File path](<file:///home/tatdatnguyen/Zotero/storage/HT4L6CJ8/S0304405X13000044.html>)
 - [Novy-Marx 2013 - The other side of value.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WMRY4QYZ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/WMRY4QYZ/Novy-Marx 2013 - The other side of value.pdf>)
-
-## Extracted PDF
-[[_papers/novy-marx2013other/novy-marx2013other-extracted]]
 
 ## Notes
