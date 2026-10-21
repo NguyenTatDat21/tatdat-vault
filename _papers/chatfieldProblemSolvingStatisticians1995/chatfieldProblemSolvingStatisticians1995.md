@@ -23,7 +23,7 @@ tags:
 > This book illuminates the complex process of problem solving, including formulating the problem, collecting and analyzing data, and presenting the conclusions.
 
 ## Attachments
-- [Google Books Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6KP4AIRH)
-- [Chatfield 1995 - Problem Solving.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H9LS4KBE)
+- [Google Books Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6KP4AIRH) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6KP4AIRH/Google Books Link>)
+- [Chatfield 1995 - Problem Solving.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H9LS4KBE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/H9LS4KBE/Chatfield 1995 - Problem Solving.pdf>)
 
 ## Notes

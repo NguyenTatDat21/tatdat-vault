@@ -29,7 +29,7 @@ tags:
 > The high efficiency, flexibility and low cost of Unmanned Aerial Vehicles (UAVs) present huge application opportunities in various industries. Among those various applications, we focus herein on the use of UAVs in delivery logistics. The UAV logistics system has some fundamental characteristics that distinguish it from the usual ground logistics such as limited flight time, loadable capacity, effect of cargo weight on flight ability, and others. To handle the above issues, we propose a Mixed Integer Linear Programming (MILP) formulation for derivation of persistent UAV delivery schedules. To address the computational issues, a Receding Horizon Task Assignment (RHTA) heuristic is developed and tested with numerical examples for island-area delivery.
 
 ## Attachments
-- [S0360835218302146.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VKP3TGZ4)
-- [Song 2018 - Persistent UAV delivery logistics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZKK3ULF2)
+- [S0360835218302146.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VKP3TGZ4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VKP3TGZ4/S0360835218302146.html>)
+- [Song 2018 - Persistent UAV delivery logistics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZKK3ULF2) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZKK3ULF2/Song 2018 - Persistent UAV delivery logistics.pdf>)
 
 ## Notes

@@ -29,6 +29,6 @@ tags:
 > Liquefied Natural Gas (LNG) is steadily becoming a common mode for commercializing natural gas. Due to the capital intensive nature of LNG projects, the optimal design of LNG supply chains is extremely important from a profitability perspective. Motivated by the need for a model that can assist in the design analysis of LNG supply chains, we address an LNG inventory routing problem where optimized ship schedules have to be developed for an LNG project. In this paper, we present an arc-flow formulation based on the MIP model of Song and Furman (Comput. Oper. Res., 2010). We also present a set of construction and improvement heuristics to solve this model efficiently. The heuristics are evaluated based on a set of realistic test instances that are very large relative to the problem instances seen in recent literature related to this problem. Extensive computational results indicate that the proposed methods are computationally efficient in finding optimal or near optimal solutions and are substantially faster than state-of-the-art commercial optimization software.
 
 ## Attachments
-- [Goel 2012 - Large neighborhood search for LNG inventory routing.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JQNG5TWT)
+- [Goel 2012 - Large neighborhood search for LNG inventory routing.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JQNG5TWT) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JQNG5TWT/Goel 2012 - Large neighborhood search for LNG inventory routing.pdf>)
 
 ## Notes

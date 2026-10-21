@@ -10,7 +10,7 @@
     "useWebDav": false,
     "useCache": true,
     "maxCacheSizeMB": 500,
-    "librarySourceNoteTemplatePath": "",
+    "librarySourceNoteTemplatePath": "templates/zotflow-library-source-note.md",
     "sourceNoteFolder": "",
     "librarySourceNotePathTemplate": "_papers/{{citationKey | default: title | default: key}}/{{citationKey | default: title | default: key}}",
     "localSourceNoteTemplatePath": "",

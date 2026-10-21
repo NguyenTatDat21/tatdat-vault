@@ -23,7 +23,7 @@ tags:
 > We propose a unified methodology to input non-linear views from any number of users in fully general non-normal markets, and perform, among others, stress-testing, scenario analysis, and ranking allocation. We walk the reader through the theory and we detail an extremely efficient algorithm to easily implement this methodology under fully general assumptions. As it turns out, no repricing is ever necessary, hence the methodology can be readily applied to books with complex derivatives. We also present an analytical solution, useful for benchmarking, which per se generalizes notable previous results. Code illustrating this methodology in practice is available at http://www.mathworks.com/matlabcentral/fileexchange/21307
 
 ## Attachments
-- [1012.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NWA8B7B5)
-- [Meucci 2010 - Fully Flexible Views.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Z5QVQ8CI)
+- [1012.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NWA8B7B5) - [File path](<file:///home/tatdatnguyen/Zotero/storage/NWA8B7B5/1012.html>)
+- [Meucci 2010 - Fully Flexible Views.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Z5QVQ8CI) - [File path](<file:///home/tatdatnguyen/Zotero/storage/Z5QVQ8CI/Meucci 2010 - Fully Flexible Views.pdf>)
 
 ## Notes

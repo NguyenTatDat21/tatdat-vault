@@ -26,6 +26,6 @@ tags: []
 > The importance of natural gas as an energy source is increasing. Natural gas has traditionally been transported in pipelines, but ships are more efficient for transportation over long distances. When the gas is cooled down to liquid state it is called liquefied natural gas (LNG). The LNG supply chain consists of exploration, extraction, liquefaction, transportation, storage and regasification. Maritime transportation is a vital part of the LNG supply chain, and LNG is transported in special designed ships, LNG tankers. The demand for LNG tankers has increased considerably as the entire LNG industry continues to see strong growth. Hence, there is a great potential and need for optimization based decision support to manage the LNG fleet, liquefaction plants, and regasification terminals in this business.
 
 ## Attachments
-- [Grønhaug 2009 - Supply Chain Optimization for the Liquefied Natural Gas Business.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M7WNEYUR)
+- [Grønhaug 2009 - Supply Chain Optimization for the Liquefied Natural Gas Business.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M7WNEYUR) - [File path](<file:///home/tatdatnguyen/Zotero/storage/M7WNEYUR/Grønhaug 2009 - Supply Chain Optimization for the Liquefied Natural Gas Business.pdf>)
 
 ## Notes

@@ -28,8 +28,8 @@ tags:
 > This paper addresses the multi-objective maritime cargo routing and scheduling problem, in which the delivery of bulk products from pickup to delivery ports is served by a heterogeneous fleet of vessels. A mixed integer linear programming (MILP) model is formulated to simultaneously minimize total operation costs, the scheduling makespan, and delays in selected deliveries. The model accounts for several real features, such as time windows, capacity of the vessel's compartments, and ports requirements. A fuzzy weighted max–min method was applied to solve the problem. Two heuristics were developed to effectively handle the complex generated MILP models during the solution process. Experiments were conducted to evaluate the optimization approach using real-life instances provided by a fertilizer company. Finally, a case study shows that the developed model and algorithmic framework are flexible and effective in coping with real problems, incorporating specific business rules from different companies.
 
 ## Attachments
-- [dos Santos 2024 - Multi-objective optimization of the maritime cargo routing and scheduling problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=CIQ8HRIS)
-- [itor.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=G6NYU4HB)
+- [dos Santos 2024 - Multi-objective optimization of the maritime cargo routing and scheduling problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=CIQ8HRIS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/CIQ8HRIS/dos Santos 2024 - Multi-objective optimization of the maritime cargo routing and scheduling problem.pdf>)
+- [itor.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=G6NYU4HB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/G6NYU4HB/itor.html>)
 
 ## Notes
 <!-- ZF_NOTE_BEG_UAMVXMZE -->

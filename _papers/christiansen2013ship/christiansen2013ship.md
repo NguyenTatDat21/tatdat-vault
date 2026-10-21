@@ -30,7 +30,7 @@ tags:
 > We review research on ship routing and scheduling and related problems during the new millennium and provide four basic models in this domain. The volume of research in this area about doubles every decade as does the number of research outlets. We have found over a hundred new refereed papers on this topic during the last decade. Problems of wider scope have been addressed as well as more specialized ones. However, complex critical problems remain wide open and provide challenging opportunities for future research.
 
 ## Attachments
-- [S0377221712009125.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7VWQIR2G)
-- [Christiansen 2013 - Ship routing and scheduling in the new millennium.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJP93WXE)
+- [S0377221712009125.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7VWQIR2G) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7VWQIR2G/S0377221712009125.html>)
+- [Christiansen 2013 - Ship routing and scheduling in the new millennium.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JJP93WXE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JJP93WXE/Christiansen 2013 - Ship routing and scheduling in the new millennium.pdf>)
 
 ## Notes

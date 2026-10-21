@@ -22,7 +22,7 @@ tags: []
 > Investigates whether stock prices reflect information about future corporate earnings contained in accrual and cash flow components of currents earnings.  Relationship of current earnings performance on the magnitude of cash and accrual flows; Relationship between the accrual and cash flow of earnings.
 
 ## Attachments
-- [TAR-9608042309.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M2SV7YUX)
-- [Sloan 1996 - Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M8BH3GJJ)
+- [TAR-9608042309.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M2SV7YUX) - [File path](<file:///home/tatdatnguyen/Zotero/storage/M2SV7YUX/TAR-9608042309.html>)
+- [Sloan 1996 - Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=M8BH3GJJ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/M8BH3GJJ/Sloan 1996 - Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings.pdf>)
 
 ## Notes

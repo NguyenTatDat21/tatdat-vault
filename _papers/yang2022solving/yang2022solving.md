@@ -37,7 +37,7 @@ tags:
 > Unmanned Aerial Vehicles (UAVs), or drones, have the potential to be applied to delivery services, which are expected to bring economic benefits. One of the key issues is planning routes for vehicles and drones with specific constraints and objectives, known as Vehicle Routing Problem with Drones (VRPD). This paper considers a scenario involving multiple trucks, multiple UAV stations, and UAVs within each station to serve the customers. A bi-level approach that combines the Brain Storm optimization algorithm and Adaptive Large Neighborhood Search is proposed by designing the solution representation, new solution generation mechanism, and other operations. The experimental results show that the proposed method has the ability to solve the problem and deserves further development.
 
 ## Attachments
-- [Yang 2022 - Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GTGHEYN9)
-- [9945266.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YIA7WTP6)
+- [Yang 2022 - Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GTGHEYN9) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GTGHEYN9/Yang 2022 - Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach.pdf>)
+- [9945266.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YIA7WTP6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/YIA7WTP6/9945266.html>)
 
 ## Notes

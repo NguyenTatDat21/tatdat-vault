@@ -27,6 +27,6 @@ tags:
 ---
 # Strategic and flexible LNG production under uncertain future demand and natural gas prices
 ## Attachments
-- [Yusuf 2023 - Strategic and flexible LNG production under uncertain future demand and natural gas prices.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YL233MA7)
+- [Yusuf 2023 - Strategic and flexible LNG production under uncertain future demand and natural gas prices.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YL233MA7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/YL233MA7/Yusuf 2023 - Strategic and flexible LNG production under uncertain future demand and natural gas prices.pdf>)
 
 ## Notes

@@ -36,6 +36,6 @@ tags:
 > The copula-opinion pooling (COP) approach extends in principle the Black-Litterman methodology to non-normally distributed markets and views. However, the implementations of the COP framework presented so far rely on restrictive quasi-normal assumptions. Here we present a general recipe to implement the COP approach in practice under all possible market and views specifications.
 
 ## Attachments
-- [Meucci 2006 - Beyond Black-Litterman in Practice.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4PAMSVLN)
+- [Meucci 2006 - Beyond Black-Litterman in Practice.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4PAMSVLN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/4PAMSVLN/Meucci 2006 - Beyond Black-Litterman in Practice.pdf>)
 
 ## Notes

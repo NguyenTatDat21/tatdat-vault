@@ -29,7 +29,7 @@ tags:
 > We propose a constraint programming approach for the optimization of inventory routing in the liquefied natural gas industry. We present two constraint programming models that rely on a disjunctive scheduling representation of the problem. We also propose an iterative search heuristic to generate good feasible solutions for these models. Computational results on a set of large-scale test instances demonstrate that our approach can find better solutions than existing approaches based on mixed integer programming, while being 4–10 times faster on average.
 
 ## Attachments
-- [S0377221714007875.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=2RZNH4FN)
-- [Goel 2015 - Constraint programming for LNG ship scheduling and inventory management.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=IZM3MTJ2)
+- [S0377221714007875.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=2RZNH4FN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/2RZNH4FN/S0377221714007875.html>)
+- [Goel 2015 - Constraint programming for LNG ship scheduling and inventory management.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=IZM3MTJ2) - [File path](<file:///home/tatdatnguyen/Zotero/storage/IZM3MTJ2/Goel 2015 - Constraint programming for LNG ship scheduling and inventory management.pdf>)
 
 ## Notes

@@ -37,6 +37,6 @@ tags:
 > This paper presents a new constraint programming search algorithm that is designed for a broad class of scheduling problems. Failure-directed Search (FDS) assumes that there is no (better) solution or that such a solution is very hard to find. Therefore, instead of looking for solution(s), it focuses on a systematic exploration of the search space, first eliminating assignments that are most likely to fail. It is a “plan B” strategy that is used once a less systematic “plan A” strategy – here, Large Neighborhood Search (LNS) – is not able to improve current solution any more. LNS and FDS form the basis of the automatic search for scheduling problems in CP Optimizer, part of IBM ILOG CPLEX Optimization Studio.
 
 ## Attachments
-- [Vilím 2015 - Failure-Directed Search for Constraint-Based Scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=DM3GA832)
+- [Vilím 2015 - Failure-Directed Search for Constraint-Based Scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=DM3GA832) - [File path](<file:///home/tatdatnguyen/Zotero/storage/DM3GA832/Vilím 2015 - Failure-Directed Search for Constraint-Based Scheduling.pdf>)
 
 ## Notes

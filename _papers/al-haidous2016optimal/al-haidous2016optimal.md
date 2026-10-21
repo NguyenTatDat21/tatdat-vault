@@ -28,7 +28,7 @@ tags:
 > We investigate the problem of designing an optimal annual delivery plan for Liquefied Natural Gas (LNG). This problem requires determining the long-term cargo delivery dates and the assignment of vessels to the cargoes while accommodating several constraints, including berth availability, liquefaction terminal inventory, planned maintenance, and bunkering requirements. We describe a novel mixed-integer programming formulation that captures important industry requirements and constraints with the objective of minimizing the vessel fleet size. A peculiar property of the proposed formulation is that it includes a polynomial number of variables and constraints and is, in our experience, computationally tractable for large problem instances using a commercial solver. Extensive computational runs demonstrate the efficacy of the proposed model for real instances provided by a major energy company that involve up to 118 cargoes and a 373-day planning horizon.
 
 ## Attachments
-- [S0968090X16300547.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KTZYW6GU)
-- [Al-Haidous 2016 - Optimal planning of liquefied natural gas deliveries.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VY6EUU9R)
+- [S0968090X16300547.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KTZYW6GU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KTZYW6GU/S0968090X16300547.html>)
+- [Al-Haidous 2016 - Optimal planning of liquefied natural gas deliveries.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VY6EUU9R) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VY6EUU9R/Al-Haidous 2016 - Optimal planning of liquefied natural gas deliveries.pdf>)
 
 ## Notes

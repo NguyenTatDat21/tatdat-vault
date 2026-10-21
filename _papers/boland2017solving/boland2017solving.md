@@ -26,7 +26,7 @@ tags: []
 > identified in only a few iterations.
 
 ## Attachments
-- [Boland 2017 - Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5BER6493)
-- [ResearchGate Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=79AJLP5D)
+- [Boland 2017 - Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5BER6493) - [File path](<file:///home/tatdatnguyen/Zotero/storage/5BER6493/Boland 2017 - Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery.pdf>)
+- [ResearchGate Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=79AJLP5D) - [File path](<file:///home/tatdatnguyen/Zotero/storage/79AJLP5D/ResearchGate Link>)
 
 ## Notes

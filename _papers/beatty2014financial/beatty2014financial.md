@@ -26,7 +26,7 @@ tags:
 > We survey research on banks׳ financial accounting. After providing a brief background of the theoretical models and accounting and regulatory institutions underlying the bank accounting literature, we review three streams of empirical research. Specifically we review studies associating bank financial reporting with the valuation and risk assessments, associating bank financial reporting discretion with regulatory capital and earnings management, and examining banks’ economic decisions under differing accounting regimes. We discuss what we have already learned and about what else we would like to know. We also discuss methodological challenges associated with predicting the effects of alternative accounting and regulatory capital regimes.
 
 ## Attachments
-- [S0165410114000500.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MKKF2RDM)
-- [Beatty 2014 - Financial accounting in the banking industry.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WCT8W3R4)
+- [S0165410114000500.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MKKF2RDM) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MKKF2RDM/S0165410114000500.html>)
+- [Beatty 2014 - Financial accounting in the banking industry.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WCT8W3R4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/WCT8W3R4/Beatty 2014 - Financial accounting in the banking industry.pdf>)
 
 ## Notes

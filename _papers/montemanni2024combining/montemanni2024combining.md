@@ -29,6 +29,6 @@ tags: []
 > Last-mile delivery problems where trucks and drones collaborate to deliver goods to final customers are considered. We focus on settings where a fleet with several homogeneous trucks work in parallel to collaborative drones, able to combine with each other to optimize speed and power consumption for deliveries. A heuristic for the min-max vehicle routing problem is coupled with constraint programming models, leading to an effective method able to provide several state-of-the-art solutions for the instances commonly adopted in the literature.
 
 ## Attachments
-- [Montemanni 2024 - Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9VLSKU3G)
+- [Montemanni 2024 - Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9VLSKU3G) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9VLSKU3G/Montemanni 2024 - Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones.pdf>)
 
 ## Notes

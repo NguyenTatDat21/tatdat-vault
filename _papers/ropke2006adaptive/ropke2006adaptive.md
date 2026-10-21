@@ -32,6 +32,6 @@ tags:
 > The computational experiments indicate that it is advantageous to use several competing subheuristics instead of just one. We believe that the proposed heuristic is very robust and is able to adapt to various instance characteristics.
 
 ## Attachments
-- [Ropke 2006 - An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5XN93AB)
+- [Ropke 2006 - An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5XN93AB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/D5XN93AB/Ropke 2006 - An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows.pdf>)
 
 ## Notes

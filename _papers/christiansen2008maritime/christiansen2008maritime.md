@@ -23,6 +23,6 @@ tags: []
 > 'Maritime Inventory Routing Problems' published in 'Encyclopedia of Optimization'
 
 ## Attachments
-- [Christiansen 2008 - Maritime Inventory Routing Problems.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9WTKLZGC)
+- [Christiansen 2008 - Maritime Inventory Routing Problems.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9WTKLZGC) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9WTKLZGC/Christiansen 2008 - Maritime Inventory Routing Problems.pdf>)
 
 ## Notes

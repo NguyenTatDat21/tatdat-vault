@@ -30,7 +30,7 @@ tags:
 > Developing a cost-effective annual delivery program (ADP) is a challenging task for liquefied natural gas (LNG) suppliers, especially for LNG supply chains with large number of vessels and customers. Given significant operational costs in LNG delivery operations, cost-effective ADPs can yield substantial savings, adding up to millions. Providing an extensive account of supply chain operations and contractual terms, this paper aims to consider a realistic ADP problem faced by large LNG suppliers; suggest alternative delivery options, such as split-delivery; and propose an efficient heuristic solution which outperforms commercial optimizers. The comprehensive numerical study in this research demonstrates that contrary to the common belief in practice, split-delivery may generate substantial cost reductions in LNG supply chains.
 
 ## Attachments
-- [Mutlu 2016 - A comprehensive annual delivery program for upstream liquefied natural gas supply chain.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5RDXBDG)
-- [S0377221715009571.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GCU55P89)
+- [Mutlu 2016 - A comprehensive annual delivery program for upstream liquefied natural gas supply chain.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5RDXBDG) - [File path](<file:///home/tatdatnguyen/Zotero/storage/D5RDXBDG/Mutlu 2016 - A comprehensive annual delivery program for upstream liquefied natural gas supply chain.pdf>)
+- [S0377221715009571.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GCU55P89) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GCU55P89/S0377221715009571.html>)
 
 ## Notes

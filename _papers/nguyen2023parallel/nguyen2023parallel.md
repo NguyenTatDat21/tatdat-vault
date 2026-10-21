@@ -31,6 +31,6 @@ tags:
 > History: This paper has been accepted for the Transportation Science Special Issue on Emerging Topics in Transportation Science and Logistics.
 
 ## Attachments
-- [Nguyen 2023 - The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=8TED2NV5)
+- [Nguyen 2023 - The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=8TED2NV5) - [File path](<file:///home/tatdatnguyen/Zotero/storage/8TED2NV5/Nguyen 2023 - The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones.pdf>)
 
 ## Notes

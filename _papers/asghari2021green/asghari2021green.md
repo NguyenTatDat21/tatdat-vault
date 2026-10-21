@@ -28,7 +28,7 @@ tags:
 > As energy overuse and generated pollution have a potential threat to our environmental and ecological conditions, many researchers have taken the initiative way to join the green campaign to prevent more damage to the environment. This paper investigates the main contributions related to the green vehicle routing problem (Green-VRP) and presents a classification scheme based on its variants considered in scientific literature, in particular, three major and applicable streams including internal combustion engine vehicles (ICEVs), alternative-fuel powered vehicles (AFVs), and hybrid electric vehicles (HEVs), and also several sub-categories for each of them. This systematic literature review intends to provide a comprehensive and structured survey of the state of knowledge and discuss the most important characteristics of the problems, including techniques of formulation, solution methodologies, and areas of application. This paper presents different analytical summary tables for each variant to emphasize some main features that provide the direction of the development of researches. Finally, to spot future avenues, gaps in the literature are distinguished to illustrate how new contributions are different from traditional problems.
 
 ## Attachments
-- [Asghari 2021 - Green vehicle routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=29X4PAGA)
-- [S0925527320302607.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EZN4NRD9)
+- [Asghari 2021 - Green vehicle routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=29X4PAGA) - [File path](<file:///home/tatdatnguyen/Zotero/storage/29X4PAGA/Asghari 2021 - Green vehicle routing problem.pdf>)
+- [S0925527320302607.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EZN4NRD9) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EZN4NRD9/S0925527320302607.html>)
 
 ## Notes

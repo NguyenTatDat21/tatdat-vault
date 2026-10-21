@@ -38,6 +38,6 @@ tags: []
 > otherwise suspect.
 
 ## Attachments
-- [Brown 2007 - Going Negative.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=AQG5S3EL)
+- [Brown 2007 - Going Negative.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=AQG5S3EL) - [File path](<file:///home/tatdatnguyen/Zotero/storage/AQG5S3EL/Brown 2007 - Going Negative.pdf>)
 
 ## Notes

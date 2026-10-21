@@ -20,6 +20,6 @@ tags: []
 ---
 # Global Portfolio Optimization
 ## Attachments
-- [Black 1992 - Global Portfolio Optimization.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZWD2JHSW)
+- [Black 1992 - Global Portfolio Optimization.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZWD2JHSW) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZWD2JHSW/Black 1992 - Global Portfolio Optimization.pdf>)
 
 ## Notes

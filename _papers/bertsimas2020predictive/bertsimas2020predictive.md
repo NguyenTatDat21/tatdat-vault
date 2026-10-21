@@ -28,6 +28,6 @@ tags:
 > This paper was accepted by Noah Gans, optimization.
 
 ## Attachments
-- [Bertsimas 2020 - From Predictive to Prescriptive Analytics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MB3VLPA7)
+- [Bertsimas 2020 - From Predictive to Prescriptive Analytics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MB3VLPA7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MB3VLPA7/Bertsimas 2020 - From Predictive to Prescriptive Analytics.pdf>)
 
 ## Notes
