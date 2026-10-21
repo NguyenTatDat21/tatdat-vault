@@ -21,10 +21,6 @@ tags:
   - "#Matheuristic"
   - "#Orienteering_problem"
   - "#Routing"
-extracted_pdf:
-  - - archetti2018set
-extractedPdf:
-  - - _papers/archetti2018set/archetti2018set
 ---
 # The Set Orienteering Problem
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 ## Attachments
 - [S0377221717310202.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KHS66UQW) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KHS66UQW/S0377221717310202.html>)
 - [Archetti 2018 - The Set Orienteering Problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=W3WJ5A2L) - [File path](<file:///home/tatdatnguyen/Zotero/storage/W3WJ5A2L/Archetti 2018 - The Set Orienteering Problem.pdf>)
+
+## Extracted PDF
+[[_papers/archetti2018set/archetti2018set-extracted]]
 
 ## Notes

@@ -28,13 +28,12 @@ tags:
   - "#Stochastic_Search"
   - "#Swarm_Intelligence"
   - "#Tabu_Search"
-extracted_pdf:
-  - - gendreau2019handbook
-extractedPdf:
-  - - _papers/gendreau2019handbook/gendreau2019handbook
 ---
 # Handbook of Metaheuristics
 ## Attachments
 - [2019 - Handbook of Metaheuristics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=TH6BBHMM) - [File path](<file:///home/tatdatnguyen/Zotero/storage/TH6BBHMM/2019 - Handbook of Metaheuristics.pdf>)
+
+## Extracted PDF
+[[_papers/gendreau2019handbook/gendreau2019handbook-extracted]]
 
 ## Notes

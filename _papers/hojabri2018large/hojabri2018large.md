@@ -23,10 +23,6 @@ tags:
   - "#Large_neighborhood_search"
   - "#Synchronization"
   - "#Vehicle_routing"
-extracted_pdf:
-  - - hojabri2018large
-extractedPdf:
-  - - _papers/hojabri2018large/hojabri2018large
 ---
 # Large neighborhood search with constraint programming for a vehicle routing problem with synchronization constraints
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 ## Attachments
 - [S0305054817302885.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=L3K2SD8N) - [File path](<file:///home/tatdatnguyen/Zotero/storage/L3K2SD8N/S0305054817302885.html>)
 - [Hojabri 2018 - Large neighborhood search with constraint programming for a vehicle routing problem with synchronization constraints.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MYSEHTLU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MYSEHTLU/Hojabri 2018 - Large neighborhood search with constraint programming for a vehicle routing problem with synchronization constraints.pdf>)
+
+## Extracted PDF
+[[_papers/hojabri2018large/hojabri2018large-extracted]]
 
 ## Notes

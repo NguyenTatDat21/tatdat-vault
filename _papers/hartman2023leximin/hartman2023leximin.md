@@ -22,10 +22,6 @@ tags:
   - "#Computer_Science_-_Computer_Science_and_Game_Theory"
   - "#Computer_Science_-_Data_Structures_and_Algorithms"
   - "#Computer_Science_-_Multiagent_Systems"
-extracted_pdf:
-  - - hartman2023leximin
-extractedPdf:
-  - - _papers/hartman2023leximin/hartman2023leximin
 ---
 # Leximin Approximation: From Single-Objective to Multi-Objective
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [2303.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GZDSAMIT) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GZDSAMIT/2303.html>)
 - [Hartman 2023 - Leximin Approximation.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VDQZ72W4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VDQZ72W4/Hartman 2023 - Leximin Approximation.pdf>)
+
+## Extracted PDF
+[[_papers/hartman2023leximin/hartman2023leximin-extracted]]
 
 ## Notes

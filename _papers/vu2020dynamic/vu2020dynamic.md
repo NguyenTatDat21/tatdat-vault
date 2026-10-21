@@ -19,10 +19,6 @@ year: 2020
 url: https://doi.org/10.1287/trsc.2019.0911
 doi: 10.1287/trsc.2019.0911
 tags: []
-extracted_pdf:
-  - - vu2020dynamic
-extractedPdf:
-  - - _papers/vu2020dynamic/vu2020dynamic
 ---
 # Dynamic Discretization Discovery for Solving the Time-Dependent Traveling Salesman Problem with Time Windows
 ## Abstract
@@ -30,5 +26,8 @@ extractedPdf:
 
 ## Attachments
 - [Vu 2020 - Dynamic Discretization Discovery for Solving the Time-Dependent Traveling Salesman Problem with Time Windows.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=FB5SLDJT) - [File path](<file:///home/tatdatnguyen/Zotero/storage/FB5SLDJT/Vu 2020 - Dynamic Discretization Discovery for Solving the Time-Dependent Traveling Salesman Problem with Time Windows.pdf>)
+
+## Extracted PDF
+[[_papers/vu2020dynamic/vu2020dynamic-extracted]]
 
 ## Notes

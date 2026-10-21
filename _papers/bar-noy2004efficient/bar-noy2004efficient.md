@@ -22,10 +22,6 @@ tags:
   - "#Fair_scheduling"
   - "#Hierarchical_round_robin"
   - "#Periodic_scheduling"
-extracted_pdf:
-  - - bar-noy2004efficient
-extractedPdf:
-  - - _papers/bar-noy2004efficient/bar-noy2004efficient
 ---
 # Efficient algorithms for periodic scheduling
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [Bar-Noy 2004 - Efficient algorithms for periodic scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=53E62NGN) - [File path](<file:///home/tatdatnguyen/Zotero/storage/53E62NGN/Bar-Noy 2004 - Efficient algorithms for periodic scheduling.pdf>)
 - [S1389128604000052.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=RNMLVHT6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/RNMLVHT6/S1389128604000052.html>)
+
+## Extracted PDF
+[[_papers/bar-noy2004efficient/bar-noy2004efficient-extracted]]
 
 ## Notes

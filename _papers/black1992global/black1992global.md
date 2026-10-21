@@ -17,13 +17,12 @@ year: 1992
 url: https://doi.org/10.2469/faj.v48.n5.28
 doi: 10.2469/faj.v48.n5.28
 tags: []
-extracted_pdf:
-  - - black1992global
-extractedPdf:
-  - - _papers/black1992global/black1992global
 ---
 # Global Portfolio Optimization
 ## Attachments
 - [Black 1992 - Global Portfolio Optimization.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZWD2JHSW) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZWD2JHSW/Black 1992 - Global Portfolio Optimization.pdf>)
+
+## Extracted PDF
+[[_papers/black1992global/black1992global-extracted]]
 
 ## Notes

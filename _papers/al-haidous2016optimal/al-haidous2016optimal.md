@@ -22,10 +22,6 @@ tags:
   - "#Arc-flow_models"
   - "#LNG_supply_chain"
   - "#Maritime_transportation"
-extracted_pdf:
-  - - al-haidous2016optimal
-extractedPdf:
-  - - _papers/al-haidous2016optimal/al-haidous2016optimal
 ---
 # Optimal planning of liquefied natural gas deliveries
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [S0968090X16300547.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KTZYW6GU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KTZYW6GU/S0968090X16300547.html>)
 - [Al-Haidous 2016 - Optimal planning of liquefied natural gas deliveries.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VY6EUU9R) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VY6EUU9R/Al-Haidous 2016 - Optimal planning of liquefied natural gas deliveries.pdf>)
+
+## Extracted PDF
+[[_papers/al-haidous2016optimal/al-haidous2016optimal-extracted]]
 
 ## Notes

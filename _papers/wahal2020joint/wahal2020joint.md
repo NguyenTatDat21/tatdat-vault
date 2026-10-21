@@ -21,10 +21,6 @@ tags:
   - "#Factor_Models"
   - "#Profitability"
   - "#Value"
-extracted_pdf:
-  - - wahal2020joint
-extractedPdf:
-  - - _papers/wahal2020joint/wahal2020joint
 ---
 # The Joint Distribution of Value and Profitability: International Evidence
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 
 ## Attachments
 - [Wahal 2020 - The Joint Distribution of Value and Profitability.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6NQQMJP4) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6NQQMJP4/Wahal 2020 - The Joint Distribution of Value and Profitability.pdf>)
+
+## Extracted PDF
+[[_papers/wahal2020joint/wahal2020joint-extracted]]
 
 ## Notes

@@ -31,10 +31,6 @@ tags:
   - "#Storms"
   - "#Task_analysis"
   - "#Vehicle_Routing_Problem_with_Drones"
-extracted_pdf:
-  - - yang2022solving
-extractedPdf:
-  - - _papers/yang2022solving/yang2022solving
 ---
 # Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach
 ## Abstract
@@ -43,5 +39,8 @@ extractedPdf:
 ## Attachments
 - [Yang 2022 - Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GTGHEYN9) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GTGHEYN9/Yang 2022 - Solving Vehicle Routing Problem with Drones Based on a Bi-level Heuristic Approach.pdf>)
 - [9945266.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YIA7WTP6) - [File path](<file:///home/tatdatnguyen/Zotero/storage/YIA7WTP6/9945266.html>)
+
+## Extracted PDF
+[[_papers/yang2022solving/yang2022solving-extracted]]
 
 ## Notes

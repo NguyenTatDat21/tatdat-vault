@@ -19,10 +19,6 @@ doi: 10.1007/s10479-023-05264-y
 tags:
   - "#Distributive_justice"
   - "#Fairness"
-extracted_pdf:
-  - - xinyingchen2023guide
-extractedPdf:
-  - - _papers/xinyingchen2023guide/xinyingchen2023guide
 ---
 # A guide to formulating fairness in an optimization model
 ## Abstract
@@ -30,6 +26,9 @@ extractedPdf:
 
 ## Attachments
 - [Xinying Chen 2023 - A guide to formulating fairness in an optimization model.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=YLG8UR8L) - [File path](<file:///home/tatdatnguyen/Zotero/storage/YLG8UR8L/Xinying Chen 2023 - A guide to formulating fairness in an optimization model.pdf>)
+
+## Extracted PDF
+[[_papers/xinyingchen2023guide/xinyingchen2023guide-extracted]]
 
 ## Notes
 <!-- ZF_NOTE_BEG_JLA4HFXX -->

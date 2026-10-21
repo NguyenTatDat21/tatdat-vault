@@ -20,10 +20,6 @@ tags:
   - "#Constraint_programming"
   - "#Job_shop_scheduling"
   - "#Mixed_Integer_Programming"
-extracted_pdf:
-  - - ku2016mixed
-extractedPdf:
-  - - _papers/ku2016mixed/ku2016mixed
 ---
 # Mixed Integer Programming models for job shop scheduling: A computational analysis
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 ## Attachments
 - [Ku 2016 - Mixed Integer Programming models for job shop scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=BDIM4XQE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/BDIM4XQE/Ku 2016 - Mixed Integer Programming models for job shop scheduling.pdf>)
 - [S0305054816300764.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=W9BY9A8T) - [File path](<file:///home/tatdatnguyen/Zotero/storage/W9BY9A8T/S0305054816300764.html>)
+
+## Extracted PDF
+[[_papers/ku2016mixed/ku2016mixed-extracted]]
 
 ## Notes

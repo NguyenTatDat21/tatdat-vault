@@ -23,10 +23,6 @@ tags:
   - "#Matheuristics"
   - "#Mixed_integer_linear_programming"
   - "#Traveling_salesman_problem"
-extracted_pdf:
-  - - dellamico2020matheuristic
-extractedPdf:
-  - - _papers/dellamico2020matheuristic/dellamico2020matheuristic
 ---
 # Matheuristic algorithms for the parallel drone scheduling traveling salesman problem
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 
 ## Attachments
 - [Dell’Amico 2020 - Matheuristic algorithms for the parallel drone scheduling traveling salesman problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NABVIWQD) - [File path](<file:///home/tatdatnguyen/Zotero/storage/NABVIWQD/Dell’Amico 2020 - Matheuristic algorithms for the parallel drone scheduling traveling salesman problem.pdf>)
+
+## Extracted PDF
+[[_papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted]]
 
 ## Notes

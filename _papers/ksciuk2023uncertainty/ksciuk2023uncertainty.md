@@ -23,10 +23,6 @@ tags:
   - "#Maritime_optimization"
   - "#Optimization_under_uncertainty"
   - "#Stochastic_programming"
-extracted_pdf:
-  - - ksciuk2023uncertainty
-extractedPdf:
-  - - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty
 ---
 # Uncertainty in maritime ship routing and scheduling: A Literature review
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 ## Attachments
 - [S037722172200649X.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EUVELIMP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EUVELIMP/S037722172200649X.html>)
 - [Ksciuk 2023 - Uncertainty in maritime ship routing and scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H7NJG276) - [File path](<file:///home/tatdatnguyen/Zotero/storage/H7NJG276/Ksciuk 2023 - Uncertainty in maritime ship routing and scheduling.pdf>)
+
+## Extracted PDF
+[[_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted]]
 
 ## Notes

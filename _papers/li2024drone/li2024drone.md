@@ -23,10 +23,6 @@ tags:
   - "#Mixed-integer_linear_programming"
   - "#Routing"
   - "#Time_window"
-extracted_pdf:
-  - - li2024drone
-extractedPdf:
-  - - _papers/li2024drone/li2024drone
 ---
 # Drone routing problem with swarm synchronization
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 ## Attachments
 - [Li 2024 - Drone routing problem with swarm synchronization.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=NI4969KS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/NI4969KS/Li 2024 - Drone routing problem with swarm synchronization.pdf>)
 - [S0377221723007725.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VNTSUA77) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VNTSUA77/S0377221723007725.html>)
+
+## Extracted PDF
+[[_papers/li2024drone/li2024drone-extracted]]
 
 ## Notes

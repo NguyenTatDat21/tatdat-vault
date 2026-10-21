@@ -25,10 +25,6 @@ tags:
   - "#Inventory_routing"
   - "#Maritime_transportation"
   - "#Rolling_horizon_heuristic"
-extracted_pdf:
-  - - rakke2011rolling
-extractedPdf:
-  - - _papers/rakke2011rolling/rakke2011rolling
 ---
 # A rolling horizon heuristic for creating a liquefied natural gas annual delivery program
 ## Abstract
@@ -37,5 +33,8 @@ extractedPdf:
 ## Attachments
 - [S0968090X10001427.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5B8XMHEH) - [File path](<file:///home/tatdatnguyen/Zotero/storage/5B8XMHEH/S0968090X10001427.html>)
 - [Rakke 2011 - A rolling horizon heuristic for creating a liquefied natural gas annual delivery program.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=E3R2HQWJ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/E3R2HQWJ/Rakke 2011 - A rolling horizon heuristic for creating a liquefied natural gas annual delivery program.pdf>)
+
+## Extracted PDF
+[[_papers/rakke2011rolling/rakke2011rolling-extracted]]
 
 ## Notes

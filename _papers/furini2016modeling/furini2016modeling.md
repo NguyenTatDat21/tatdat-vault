@@ -21,10 +21,6 @@ tags:
   - "#guillotine_cuts"
   - "#integer_programming"
   - "#mathematical_model"
-extracted_pdf:
-  - - furini2016modeling
-extractedPdf:
-  - - _papers/furini2016modeling/furini2016modeling
 ---
 # Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 
 ## Attachments
 - [Furini 2016 - Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WTX96W97) - [File path](<file:///home/tatdatnguyen/Zotero/storage/WTX96W97/Furini 2016 - Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming.pdf>)
+
+## Extracted PDF
+[[_papers/furini2016modeling/furini2016modeling-extracted]]
 
 ## Notes

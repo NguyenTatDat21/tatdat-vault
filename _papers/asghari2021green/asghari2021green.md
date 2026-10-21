@@ -22,10 +22,6 @@ tags:
   - "#Hybrid_electric_vehicles"
   - "#Internal_combustion_engine_vehicles"
   - "#Systematic_literature_review"
-extracted_pdf:
-  - - asghari2021green
-extractedPdf:
-  - - _papers/asghari2021green/asghari2021green
 ---
 # Green vehicle routing problem: A state-of-the-art review
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [Asghari 2021 - Green vehicle routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=29X4PAGA) - [File path](<file:///home/tatdatnguyen/Zotero/storage/29X4PAGA/Asghari 2021 - Green vehicle routing problem.pdf>)
 - [S0925527320302607.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=EZN4NRD9) - [File path](<file:///home/tatdatnguyen/Zotero/storage/EZN4NRD9/S0925527320302607.html>)
+
+## Extracted PDF
+[[_papers/asghari2021green/asghari2021green-extracted]]
 
 ## Notes

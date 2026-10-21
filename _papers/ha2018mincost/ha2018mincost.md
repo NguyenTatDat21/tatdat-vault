@@ -24,10 +24,6 @@ tags:
   - "#Integer_programming"
   - "#Minimize_operational_cost"
   - "#Traveling_Salesman_Problem_with_Drone"
-extracted_pdf:
-  - - ha2018mincost
-extractedPdf:
-  - - _papers/ha2018mincost/ha2018mincost
 ---
 # On the min-cost Traveling Salesman Problem with Drone
 ## Abstract
@@ -36,5 +32,8 @@ extractedPdf:
 ## Attachments
 - [Ha 2018 - On the min-cost Traveling Salesman Problem with Drone.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=22BCP4FY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/22BCP4FY/Ha 2018 - On the min-cost Traveling Salesman Problem with Drone.pdf>)
 - [S0968090X17303327.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=F7MNSIAY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/F7MNSIAY/S0968090X17303327.html>)
+
+## Extracted PDF
+[[_papers/ha2018mincost/ha2018mincost-extracted]]
 
 ## Notes

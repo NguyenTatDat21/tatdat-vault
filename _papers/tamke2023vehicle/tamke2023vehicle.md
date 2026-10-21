@@ -20,10 +20,6 @@ tags:
   - "#Drones"
   - "#Energy_consumption"
   - "#Vehicle_routing_problem"
-extracted_pdf:
-  - - tamke2023vehicle
-extractedPdf:
-  - - _papers/tamke2023vehicle/tamke2023vehicle
 ---
 # The vehicle routing problem with drones and drone speed selection
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 ## Attachments
 - [S0305054822003422.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7TP88H7U) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7TP88H7U/S0305054822003422.html>)
 - [Tamke 2023 - The vehicle routing problem with drones and drone speed selection.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Z8KI8DDK) - [File path](<file:///home/tatdatnguyen/Zotero/storage/Z8KI8DDK/Tamke 2023 - The vehicle routing problem with drones and drone speed selection.pdf>)
+
+## Extracted PDF
+[[_papers/tamke2023vehicle/tamke2023vehicle-extracted]]
 
 ## Notes

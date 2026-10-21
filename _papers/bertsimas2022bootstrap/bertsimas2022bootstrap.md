@@ -22,10 +22,6 @@ tags:
   - "#Nadaraya–Watson_learning"
   - "#Nearest_neighbors_learning"
   - "#Statistical_bootstrap"
-extracted_pdf:
-  - - bertsimas2022bootstrap
-extractedPdf:
-  - - _papers/bertsimas2022bootstrap/bertsimas2022bootstrap
 ---
 # Bootstrap robust prescriptive analytics
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 
 ## Attachments
 - [Bertsimas 2022 - Bootstrap robust prescriptive analytics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=A2BPTJAB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/A2BPTJAB/Bertsimas 2022 - Bootstrap robust prescriptive analytics.pdf>)
+
+## Extracted PDF
+[[_papers/bertsimas2022bootstrap/bertsimas2022bootstrap-extracted]]
 
 ## Notes

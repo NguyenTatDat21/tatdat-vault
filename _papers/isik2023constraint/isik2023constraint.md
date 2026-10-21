@@ -24,10 +24,6 @@ tags:
   - "#Mixed-integer_linear_programming"
   - "#No-wait"
   - "#Sequence-dependent_setup_time"
-extracted_pdf:
-  - - isik2023constraint
-extractedPdf:
-  - - _papers/isik2023constraint/isik2023constraint
 ---
 # Constraint programming models for the hybrid flow shop scheduling problem and its extensions
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 
 ## Attachments
 - [Işık 2023 - Constraint programming models for the hybrid flow shop scheduling problem and its extensions.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7ANEECE8) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7ANEECE8/Işık 2023 - Constraint programming models for the hybrid flow shop scheduling problem and its extensions.pdf>)
+
+## Extracted PDF
+[[_papers/isik2023constraint/isik2023constraint-extracted]]
 
 ## Notes

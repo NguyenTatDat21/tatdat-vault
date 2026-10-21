@@ -23,10 +23,6 @@ tags:
   - "#Liquefied_natural_gas"
   - "#Maritime_inventory_routing"
   - "#Ship_schedule_optimization"
-extracted_pdf:
-  - - goel2012large
-extractedPdf:
-  - - _papers/goel2012large/goel2012large
 ---
 # Large neighborhood search for LNG inventory routing
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 
 ## Attachments
 - [Goel 2012 - Large neighborhood search for LNG inventory routing.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=JQNG5TWT) - [File path](<file:///home/tatdatnguyen/Zotero/storage/JQNG5TWT/Goel 2012 - Large neighborhood search for LNG inventory routing.pdf>)
+
+## Extracted PDF
+[[_papers/goel2012large/goel2012large-extracted]]
 
 ## Notes

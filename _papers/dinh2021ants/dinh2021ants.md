@@ -22,10 +22,6 @@ tags:
   - "#dynamic_programming"
   - "#parallel_drone_scheduling"
   - "#traveling_salesman_problem"
-extracted_pdf:
-  - - dinh2021ants
-extractedPdf:
-  - - _papers/dinh2021ants/dinh2021ants
 ---
 # Ants can solve the parallel drone scheduling traveling salesman problem
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 
 ## Attachments
 - [Dinh 2021 - Ants can solve the parallel drone scheduling traveling salesman problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=T6PYJQWA) - [File path](<file:///home/tatdatnguyen/Zotero/storage/T6PYJQWA/Dinh 2021 - Ants can solve the parallel drone scheduling traveling salesman problem.pdf>)
+
+## Extracted PDF
+[[_papers/dinh2021ants/dinh2021ants-extracted]]
 
 ## Notes

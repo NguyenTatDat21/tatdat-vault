@@ -26,10 +26,6 @@ tags:
   - "#Maritime_transportation_and_logistics"
   - "#Mixed-integer_linear_programming"
   - "#Survey"
-extracted_pdf:
-  - - papageorgiou2014mirplib
-extractedPdf:
-  - - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib
 ---
 # MIRPLib – A library of maritime inventory routing problem instances: Survey, core model, and benchmark results
 ## Abstract
@@ -38,5 +34,8 @@ extractedPdf:
 ## Attachments
 - [Papageorgiou 2014 - MIRPLib – A library of maritime inventory routing problem instances.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=BNFXQHUY) - [File path](<file:///home/tatdatnguyen/Zotero/storage/BNFXQHUY/Papageorgiou 2014 - MIRPLib – A library of maritime inventory routing problem instances.pdf>)
 - [S0377221713009880.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZPCTHJXC) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZPCTHJXC/S0377221713009880.html>)
+
+## Extracted PDF
+[[_papers/papageorgiou2014mirplib/papageorgiou2014mirplib-extracted]]
 
 ## Notes

@@ -25,10 +25,6 @@ tags:
   - "#Parcel_delivery"
   - "#UAV"
   - "#Unmanned_aerial_vehicle"
-extracted_pdf:
-  - - zhang2021energy
-extractedPdf:
-  - - _papers/zhang2021energy/zhang2021energy
 ---
 # Energy consumption models for delivery drones: A comparison and assessment
 ## Abstract
@@ -37,5 +33,8 @@ extractedPdf:
 ## Attachments
 - [S1361920920308531.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4K2SGEPF) - [File path](<file:///home/tatdatnguyen/Zotero/storage/4K2SGEPF/S1361920920308531.html>)
 - [Zhang 2021 - Energy consumption models for delivery drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=SYU55YYR) - [File path](<file:///home/tatdatnguyen/Zotero/storage/SYU55YYR/Zhang 2021 - Energy consumption models for delivery drones.pdf>)
+
+## Extracted PDF
+[[_papers/zhang2021energy/zhang2021energy-extracted]]
 
 ## Notes

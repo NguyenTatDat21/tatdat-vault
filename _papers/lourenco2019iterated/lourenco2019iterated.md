@@ -25,10 +25,6 @@ tags:
   - "#Permutation_Flow_Shop_Problem_(PFSP)"
   - "#Random_Restarts"
   - "#Single_Machine_Total_Weighted_Tardiness_Problem_(SMTWTP)"
-extracted_pdf:
-  - - lourenco2019iterated
-extractedPdf:
-  - - _papers/lourenco2019iterated/lourenco2019iterated
 ---
 # Iterated Local Search: Framework and Applications
 ## Abstract
@@ -36,5 +32,8 @@ extractedPdf:
 
 ## Attachments
 - [Lourenço 2019 - Iterated Local Search.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MBCC5FC5) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MBCC5FC5/Lourenço 2019 - Iterated Local Search.pdf>)
+
+## Extracted PDF
+[[_papers/lourenco2019iterated/lourenco2019iterated-extracted]]
 
 ## Notes

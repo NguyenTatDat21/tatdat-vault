@@ -22,10 +22,6 @@ tags:
   - "#multi-objective"
   - "#pickup_and_delivery_problem_with_time_windows"
   - "#ship_routing_and_scheduling"
-extracted_pdf:
-  - - dossantos2024multiobjective
-extractedPdf:
-  - - _papers/dossantos2024multiobjective/dossantos2024multiobjective
 ---
 # Multi-objective optimization of the maritime cargo routing and scheduling problem
 ## Abstract
@@ -34,6 +30,9 @@ extractedPdf:
 ## Attachments
 - [dos Santos 2024 - Multi-objective optimization of the maritime cargo routing and scheduling problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=CIQ8HRIS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/CIQ8HRIS/dos Santos 2024 - Multi-objective optimization of the maritime cargo routing and scheduling problem.pdf>)
 - [itor.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=G6NYU4HB) - [File path](<file:///home/tatdatnguyen/Zotero/storage/G6NYU4HB/itor.html>)
+
+## Extracted PDF
+[[_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted]]
 
 ## Notes
 <!-- ZF_NOTE_BEG_UAMVXMZE -->

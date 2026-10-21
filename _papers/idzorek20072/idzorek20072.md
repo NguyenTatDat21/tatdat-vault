@@ -17,10 +17,6 @@ year: 2007
 url: https://www.sciencedirect.com/science/article/pii/B9780750683210500030
 doi: 10.1016/B978-075068321-0.50003-0
 tags: []
-extracted_pdf:
-  - - idzorek20072
-extractedPdf:
-  - - _papers/idzorek20072/idzorek20072
 ---
 # 2 - A step-by-step guide to the Black-Litterman model: Incorporating user-specified confidence levels
 ## Abstract
@@ -29,5 +25,8 @@ extractedPdf:
 ## Attachments
 - [B9780750683210500030.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7A74PL9L) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7A74PL9L/B9780750683210500030.html>)
 - [Idzorek 2007 - 2 - A step-by-step guide to the Black-Litterman model.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=BLFUS959) - [File path](<file:///home/tatdatnguyen/Zotero/storage/BLFUS959/Idzorek 2007 - 2 - A step-by-step guide to the Black-Litterman model.pdf>)
+
+## Extracted PDF
+[[_papers/idzorek20072/idzorek20072-extracted]]
 
 ## Notes

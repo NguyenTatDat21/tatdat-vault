@@ -23,10 +23,6 @@ tags:
   - "#Branch-and-bound"
   - "#Decomposition_algorithms"
   - "#Integer_programming"
-extracted_pdf:
-  - - barnhart1998branchandprice
-extractedPdf:
-  - - _papers/barnhart1998branchandprice/barnhart1998branchandprice
 ---
 # Branch-and-Price: Column Generation for Solving Huge Integer Programs
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 
 ## Attachments
 - [Barnhart 1998 - Branch-and-Price.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=WNHPMD67) - [File path](<file:///home/tatdatnguyen/Zotero/storage/WNHPMD67/Barnhart 1998 - Branch-and-Price.pdf>)
+
+## Extracted PDF
+[[_papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted]]
 
 ## Notes

@@ -24,10 +24,6 @@ tags:
   - "#broadcast_disk"
   - "#cyclic_schedule"
   - "#maintenance_service"
-extracted_pdf:
-  - - bar-noy2002minimizing
-extractedPdf:
-  - - _papers/bar-noy2002minimizing/bar-noy2002minimizing
 ---
 # Minimizing Service and Operation Costs of Periodic Scheduling
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 
 ## Attachments
 - [Bar-Noy 2002 - Minimizing Service and Operation Costs of Periodic Scheduling.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=4G3XCG9B) - [File path](<file:///home/tatdatnguyen/Zotero/storage/4G3XCG9B/Bar-Noy 2002 - Minimizing Service and Operation Costs of Periodic Scheduling.pdf>)
+
+## Extracted PDF
+[[_papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted]]
 
 ## Notes

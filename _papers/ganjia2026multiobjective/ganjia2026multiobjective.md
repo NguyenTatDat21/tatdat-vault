@@ -27,10 +27,6 @@ tags:
   - "#Scheduling"
   - "#Sustainable_supply_chain"
   - "#Time-windows"
-extracted_pdf:
-  - - ganjia2026multiobjective
-extractedPdf:
-  - - _papers/ganjia2026multiobjective/ganjia2026multiobjective
 ---
 # Multi-objective integrated sustainable supply chain scheduling with environmentally friendly and time windows freight transportation
 ## Abstract
@@ -38,5 +34,8 @@ extractedPdf:
 
 ## Attachments
 - [Ganjia 2026 - Multi-objective integrated sustainable supply chain scheduling with environmentally friendly and time windows freight transportation.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=Y5TS73E9) - [File path](<file:///home/tatdatnguyen/Zotero/storage/Y5TS73E9/Ganjia 2026 - Multi-objective integrated sustainable supply chain scheduling with environmentally friendly and time windows freight transportation.pdf>)
+
+## Extracted PDF
+[[_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted]]
 
 ## Notes

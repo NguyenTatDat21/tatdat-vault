@@ -21,10 +21,6 @@ year: 2007
 url: https://www.sciencedirect.com/science/article/pii/S0927050706140049
 doi: 10.1016/S0927-0507(06)14004-9
 tags: []
-extracted_pdf:
-  - - christiansen2007chapter
-extractedPdf:
-  - - _papers/christiansen2007chapter/christiansen2007chapter
 ---
 # Chapter 4 Maritime Transportation
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 ## Attachments
 - [S0927050706140049.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9AEMX82S) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9AEMX82S/S0927050706140049.html>)
 - [Christiansen 2007 - Chapter 4 Maritime Transportation.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=PWLJ4ID8) - [File path](<file:///home/tatdatnguyen/Zotero/storage/PWLJ4ID8/Christiansen 2007 - Chapter 4 Maritime Transportation.pdf>)
+
+## Extracted PDF
+[[_papers/christiansen2007chapter/christiansen2007chapter-extracted]]
 
 ## Notes

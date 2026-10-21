@@ -23,10 +23,6 @@ tags:
   - "#Hybrid_Genetic_Search_Algorithm"
   - "#Inventory_Routing_Problem"
   - "#Large_Neighborhood_Search"
-extracted_pdf:
-  - - zhao2025large
-extractedPdf:
-  - - _papers/zhao2025large/zhao2025large
 ---
 # Large Neighborhood and Hybrid Genetic Search for Inventory Routing Problems
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 ## Attachments
 - [S0377221725009300.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=9BCYAF4H) - [File path](<file:///home/tatdatnguyen/Zotero/storage/9BCYAF4H/S0377221725009300.html>)
 - [Zhao 2025 - Large Neighborhood and Hybrid Genetic Search for Inventory Routing Problems.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=J4F28UCA) - [File path](<file:///home/tatdatnguyen/Zotero/storage/J4F28UCA/Zhao 2025 - Large Neighborhood and Hybrid Genetic Search for Inventory Routing Problems.pdf>)
+
+## Extracted PDF
+[[_papers/zhao2025large/zhao2025large-extracted]]
 
 ## Notes

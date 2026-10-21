@@ -22,10 +22,6 @@ tags:
   - "#Delivery_operations"
   - "#UAVs"
   - "#Vehicle_Routing_Problems_with_Drones"
-extracted_pdf:
-  - - sacramento2019adaptive
-extractedPdf:
-  - - _papers/sacramento2019adaptive/sacramento2019adaptive
 ---
 # An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [S0968090X18303218.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=BP9A26GH) - [File path](<file:///home/tatdatnguyen/Zotero/storage/BP9A26GH/S0968090X18303218.html>)
 - [Sacramento 2019 - An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=H8ZMMX7I) - [File path](<file:///home/tatdatnguyen/Zotero/storage/H8ZMMX7I/Sacramento 2019 - An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones.pdf>)
+
+## Extracted PDF
+[[_papers/sacramento2019adaptive/sacramento2019adaptive-extracted]]
 
 ## Notes

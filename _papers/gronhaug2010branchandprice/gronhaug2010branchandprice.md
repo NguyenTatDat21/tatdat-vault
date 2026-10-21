@@ -22,10 +22,6 @@ tags:
   - "#branch-and-price"
   - "#column_generation"
   - "#maritime_transportation"
-extracted_pdf:
-  - - gronhaug2010branchandprice
-extractedPdf:
-  - - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice
 ---
 # A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 
 ## Attachments
 - [Grønhaug 2010 - A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=PGV7RW5B) - [File path](<file:///home/tatdatnguyen/Zotero/storage/PGV7RW5B/Grønhaug 2010 - A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem.pdf>)
+
+## Extracted PDF
+[[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted]]
 
 ## Notes

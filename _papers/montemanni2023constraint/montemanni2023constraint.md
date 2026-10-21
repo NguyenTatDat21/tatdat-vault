@@ -19,10 +19,6 @@ doi: 10.48550/arXiv.2307.02980
 tags:
   - "#90C27"
   - "#Mathematics_-_Optimization_and_Control"
-extracted_pdf:
-  - - montemanni2023constraint
-extractedPdf:
-  - - _papers/montemanni2023constraint/montemanni2023constraint
 ---
 # Constraint Programming models for the parallel drone scheduling vehicle routing problem
 ## Abstract
@@ -31,5 +27,8 @@ extractedPdf:
 ## Attachments
 - [Montemanni 2023 - Constraint Programming models for the parallel drone scheduling vehicle routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=I8YB9D3B) - [File path](<file:///home/tatdatnguyen/Zotero/storage/I8YB9D3B/Montemanni 2023 - Constraint Programming models for the parallel drone scheduling vehicle routing problem.pdf>)
 - [2307.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=XG74VK26) - [File path](<file:///home/tatdatnguyen/Zotero/storage/XG74VK26/2307.html>)
+
+## Extracted PDF
+[[_papers/montemanni2023constraint/montemanni2023constraint-extracted]]
 
 ## Notes

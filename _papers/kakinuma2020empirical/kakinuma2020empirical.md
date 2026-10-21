@@ -21,10 +21,6 @@ tags:
   - "#gross_profitability"
   - "#operating_profitability"
   - "#profitability_anomaly"
-extracted_pdf:
-  - - kakinuma2020empirical
-extractedPdf:
-  - - _papers/kakinuma2020empirical/kakinuma2020empirical
 ---
 # EMPIRICAL EVIDENCE OF PROFITABILITY ANOMALY IN THE THAI STOCK MARKET
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 
 ## Attachments
 - [Kakinuma 2020 - EMPIRICAL EVIDENCE OF PROFITABILITY ANOMALY IN THE THAI STOCK MARKET.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=IJWYWKPQ) - [File path](<file:///home/tatdatnguyen/Zotero/storage/IJWYWKPQ/Kakinuma 2020 - EMPIRICAL EVIDENCE OF PROFITABILITY ANOMALY IN THE THAI STOCK MARKET.pdf>)
+
+## Extracted PDF
+[[_papers/kakinuma2020empirical/kakinuma2020empirical-extracted]]
 
 ## Notes

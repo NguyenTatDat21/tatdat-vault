@@ -22,10 +22,6 @@ tags:
   - "#Mixed_Integer_Linear_Programming"
   - "#Parallel_Drone_Scheduling_Traveling_Salesman_Problems_with_cooperative_drones"
   - "#Parallel_Drone_Scheduling_Vehicle_Routing_Problems_with_cooperative_drones"
-extracted_pdf:
-  - - montemanni2024parallel
-extractedPdf:
-  - - _papers/montemanni2024parallel/montemanni2024parallel
 ---
 # Parallel drone scheduling vehicle routing problems with collective drones
 ## Abstract
@@ -34,5 +30,8 @@ extractedPdf:
 ## Attachments
 - [Montemanni 2024 - Parallel drone scheduling vehicle routing problems with collective drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=XNRQCJWU) - [File path](<file:///home/tatdatnguyen/Zotero/storage/XNRQCJWU/Montemanni 2024 - Parallel drone scheduling vehicle routing problems with collective drones.pdf>)
 - [S0305054823003787.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ZTWGU6SM) - [File path](<file:///home/tatdatnguyen/Zotero/storage/ZTWGU6SM/S0305054823003787.html>)
+
+## Extracted PDF
+[[_papers/montemanni2024parallel/montemanni2024parallel-extracted]]
 
 ## Notes

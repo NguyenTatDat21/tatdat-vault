@@ -20,10 +20,6 @@ tags:
   - "#data-driven_decision_making"
   - "#machine_learning"
   - "#stochastic_optimization"
-extracted_pdf:
-  - - bertsimas2020predictive
-extractedPdf:
-  - - _papers/bertsimas2020predictive/bertsimas2020predictive
 ---
 # From Predictive to Prescriptive Analytics
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 
 ## Attachments
 - [Bertsimas 2020 - From Predictive to Prescriptive Analytics.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=MB3VLPA7) - [File path](<file:///home/tatdatnguyen/Zotero/storage/MB3VLPA7/Bertsimas 2020 - From Predictive to Prescriptive Analytics.pdf>)
+
+## Extracted PDF
+[[_papers/bertsimas2020predictive/bertsimas2020predictive-extracted]]
 
 ## Notes

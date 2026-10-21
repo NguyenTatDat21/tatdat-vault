@@ -28,10 +28,6 @@ tags:
   - "#Portfolio"
   - "#Portfolio_Choice"
   - "#Portfolio_Selection"
-extracted_pdf:
-  - - almgren2004optimal
-extractedPdf:
-  - - _papers/almgren2004optimal/almgren2004optimal
 ---
 # Optimal Portfolios from Ordering Information
 ## Abstract
@@ -39,5 +35,8 @@ extractedPdf:
 
 ## Attachments
 - [Almgren 2004 - Optimal Portfolios from Ordering Information.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=47GHAY6M) - [File path](<file:///home/tatdatnguyen/Zotero/storage/47GHAY6M/Almgren 2004 - Optimal Portfolios from Ordering Information.pdf>)
+
+## Extracted PDF
+[[_papers/almgren2004optimal/almgren2004optimal-extracted]]
 
 ## Notes

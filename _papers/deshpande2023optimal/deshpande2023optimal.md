@@ -19,10 +19,6 @@ year: 2023
 url: https://doi.org/10.1021/acs.iecr.3c01769
 doi: 10.1021/acs.iecr.3c01769
 tags: []
-extracted_pdf:
-  - - deshpande2023optimal
-extractedPdf:
-  - - _papers/deshpande2023optimal/deshpande2023optimal
 ---
 # Optimal Annual Delivery Program for Liquefied Natural Gas Suppliers: A Mathematical Programming Model Considering Customer Inventory and Berth Management
 ## Abstract
@@ -30,5 +26,8 @@ extractedPdf:
 
 ## Attachments
 - [Deshpande 2023 - Optimal Annual Delivery Program for Liquefied Natural Gas Suppliers.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KGSMILRE) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KGSMILRE/Deshpande 2023 - Optimal Annual Delivery Program for Liquefied Natural Gas Suppliers.pdf>)
+
+## Extracted PDF
+[[_papers/deshpande2023optimal/deshpande2023optimal-extracted]]
 
 ## Notes

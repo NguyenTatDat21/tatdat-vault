@@ -24,10 +24,6 @@ tags:
   - "#Ruin_and_recreate_metaheuristic"
   - "#Transportation"
   - "#Vehicle_routing_problem"
-extracted_pdf:
-  - - nguyen2022mincost
-extractedPdf:
-  - - _papers/nguyen2022mincost/nguyen2022mincost
 ---
 # The min-cost parallel drone scheduling vehicle routing problem
 ## Abstract
@@ -36,5 +32,8 @@ extractedPdf:
 ## Attachments
 - [Nguyen 2022 - The min-cost parallel drone scheduling vehicle routing problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=6JPYY6Y3) - [File path](<file:///home/tatdatnguyen/Zotero/storage/6JPYY6Y3/Nguyen 2022 - The min-cost parallel drone scheduling vehicle routing problem.pdf>)
 - [S0377221721006032.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=7M8PCK4B) - [File path](<file:///home/tatdatnguyen/Zotero/storage/7M8PCK4B/S0377221721006032.html>)
+
+## Extracted PDF
+[[_papers/nguyen2022mincost/nguyen2022mincost-extracted]]
 
 ## Notes

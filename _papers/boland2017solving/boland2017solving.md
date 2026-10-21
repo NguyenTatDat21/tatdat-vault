@@ -19,10 +19,6 @@ year: 2017
 url:
 doi: 10.1007/978-3-319-59776-8_21
 tags: []
-extracted_pdf:
-  - - boland2017solving
-extractedPdf:
-  - - _papers/boland2017solving/boland2017solving
 ---
 # Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery
 ## Abstract
@@ -32,5 +28,8 @@ extractedPdf:
 ## Attachments
 - [Boland 2017 - Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=5BER6493) - [File path](<file:///home/tatdatnguyen/Zotero/storage/5BER6493/Boland 2017 - Solving the Traveling Salesman Problem with Time Windows with Dynamic Discretization Discovery.pdf>)
 - [ResearchGate Link](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=79AJLP5D) - [File path](<file:///home/tatdatnguyen/Zotero/storage/79AJLP5D/ResearchGate Link>)
+
+## Extracted PDF
+[[_papers/boland2017solving/boland2017solving-extracted]]
 
 ## Notes

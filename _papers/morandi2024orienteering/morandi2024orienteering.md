@@ -22,10 +22,6 @@ tags:
   - "#drone_routing"
   - "#multiple_drones"
   - "#orienteering_problem"
-extracted_pdf:
-  - - morandi2024orienteering
-extractedPdf:
-  - - _papers/morandi2024orienteering/morandi2024orienteering
 ---
 # The Orienteering Problem with Drones
 ## Abstract
@@ -33,5 +29,8 @@ extractedPdf:
 
 ## Attachments
 - [Morandi 2024 - The Orienteering Problem with Drones.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=LZHTTY3N) - [File path](<file:///home/tatdatnguyen/Zotero/storage/LZHTTY3N/Morandi 2024 - The Orienteering Problem with Drones.pdf>)
+
+## Extracted PDF
+[[_papers/morandi2024orienteering/morandi2024orienteering-extracted]]
 
 ## Notes

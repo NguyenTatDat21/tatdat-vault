@@ -17,10 +17,6 @@ year: 2002
 url: https://www.ssrn.com/abstract=334304
 doi: 10.2139/ssrn.334304
 tags: []
-extracted_pdf:
-  - - he2002intuition
-extractedPdf:
-  - - _papers/he2002intuition/he2002intuition
 ---
 # The Intuition Behind Black-Litterman Model Portfolios
 ## Abstract
@@ -28,5 +24,8 @@ extractedPdf:
 
 ## Attachments
 - [He 2002 - The Intuition Behind Black-Litterman Model Portfolios.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=VN9AIY8P) - [File path](<file:///home/tatdatnguyen/Zotero/storage/VN9AIY8P/He 2002 - The Intuition Behind Black-Litterman Model Portfolios.pdf>)
+
+## Extracted PDF
+[[_papers/he2002intuition/he2002intuition-extracted]]
 
 ## Notes

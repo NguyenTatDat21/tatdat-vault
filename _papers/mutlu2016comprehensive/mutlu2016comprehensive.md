@@ -24,10 +24,6 @@ tags:
   - "#LNG_supply_chain"
   - "#Large-scale_optimization"
   - "#OR_in_maritime_industry"
-extracted_pdf:
-  - - mutlu2016comprehensive
-extractedPdf:
-  - - _papers/mutlu2016comprehensive/mutlu2016comprehensive
 ---
 # A comprehensive annual delivery program for upstream liquefied natural gas supply chain
 ## Abstract
@@ -36,5 +32,8 @@ extractedPdf:
 ## Attachments
 - [Mutlu 2016 - A comprehensive annual delivery program for upstream liquefied natural gas supply chain.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=D5RDXBDG) - [File path](<file:///home/tatdatnguyen/Zotero/storage/D5RDXBDG/Mutlu 2016 - A comprehensive annual delivery program for upstream liquefied natural gas supply chain.pdf>)
 - [S0377221715009571.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=GCU55P89) - [File path](<file:///home/tatdatnguyen/Zotero/storage/GCU55P89/S0377221715009571.html>)
+
+## Extracted PDF
+[[_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted]]
 
 ## Notes

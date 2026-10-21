@@ -23,10 +23,6 @@ tags:
   - "#Container_terminal_optimization"
   - "#Logistics"
   - "#Premarshalling_problem"
-extracted_pdf:
-  - - jimenez-piqueras2023constraint
-extractedPdf:
-  - - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint
 ---
 # A constraint programming approach for the premarshalling problem
 ## Abstract
@@ -35,5 +31,8 @@ extractedPdf:
 ## Attachments
 - [S0377221722006099.html](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=KGYGRWWS) - [File path](<file:///home/tatdatnguyen/Zotero/storage/KGYGRWWS/S0377221722006099.html>)
 - [Jiménez-Piqueras 2023 - A constraint programming approach for the premarshalling problem.pdf](obsidian://zotflow?type=open-attachment&libraryID=11058526&key=SHJD2URP) - [File path](<file:///home/tatdatnguyen/Zotero/storage/SHJD2URP/Jiménez-Piqueras 2023 - A constraint programming approach for the premarshalling problem.pdf>)
+
+## Extracted PDF
+[[_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted]]
 
 ## Notes
