@@ -834,6 +834,86 @@
       "pages_produced": [
         "references/montemanni2024-pdsvrp-collective-drones.md"
       ]
+    },
+    "_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md": {
+      "content_hash": "c8c9ca6679ff3fdcb0c9ba13158da1117305a94763df6c4be6c1bfbc6fe44f4c",
+      "last_ingested": "2026-10-22T19:26:44.981330+00:00",
+      "pages_produced": [
+        "references/ahmadi-javid2022-drone-delivery-energy-formulation.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
+      ]
+    },
+    "_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md": {
+      "content_hash": "57971d30cf1149216838db9bc7aa7daa2a07d9788879bb8c9fc2a7ca93bae2e8",
+      "last_ingested": "2026-10-22T19:26:45.048228+00:00",
+      "pages_produced": [
+        "references/ahmadi-javid2022-drone-delivery-energy-formulation.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
+      ]
+    },
+    "_papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md": {
+      "content_hash": "ae6fc2b8fa05fa4aff24d4e47831fa411ef18599230cbe45f40d0028408e0fe9",
+      "last_ingested": "2026-10-22T19:26:45.113015+00:00",
+      "pages_produced": [
+        "references/al-haidous2016-optimal-lng-deliveries.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/al-haidous2016optimal/al-haidous2016optimal.md": {
+      "content_hash": "6613cba3c8b497f8adfc13ee7e812a0944e9fceef2613f781e08624efb67de74",
+      "last_ingested": "2026-10-22T19:26:45.176964+00:00",
+      "pages_produced": [
+        "references/al-haidous2016-optimal-lng-deliveries.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/andersson2017creating/andersson2017creating-extracted.md": {
+      "content_hash": "bd22d74e52bd8b4c17b2ff01a3cc394f592c025193325e5447cabde2c4f00a53",
+      "last_ingested": "2026-10-22T19:26:45.224234+00:00",
+      "pages_produced": [
+        "references/andersson2017-creating-annual-lng-delivery-programs.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/andersson2017creating/andersson2017creating.md": {
+      "content_hash": "854e9fe36f00ae6f7f80d50a1a79befa474469adc2b5f5a3fb68550a87679257",
+      "last_ingested": "2026-10-22T19:26:45.271477+00:00",
+      "pages_produced": [
+        "references/andersson2017-creating-annual-lng-delivery-programs.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/archetti2018set/archetti2018set-extracted.md": {
+      "content_hash": "3423da24d8f9cd4e967d8847e6eba38d934f0eb6822b7297bddbfe2262a46d04",
+      "last_ingested": "2026-10-22T19:26:45.319485+00:00",
+      "pages_produced": [
+        "references/archetti2018-set-orienteering-problem.md",
+        "concepts/set-orienteering-problem.md"
+      ]
+    },
+    "_papers/archetti2018set/archetti2018set.md": {
+      "content_hash": "ce38c8a9e00c2dac403cdd2739a07f532a0e10a58c7c5f6286ef7181ef74ea97",
+      "last_ingested": "2026-10-22T19:26:45.369106+00:00",
+      "pages_produced": [
+        "references/archetti2018-set-orienteering-problem.md",
+        "concepts/set-orienteering-problem.md"
+      ]
+    },
+    "_papers/almgren2004optimal/almgren2004optimal-extracted.md": {
+      "content_hash": "3267e365847fb493580a897af78b67cda8ed721299f2f36df77e00f082fa82bd",
+      "last_ingested": "2026-10-22T19:26:45.418013+00:00",
+      "pages_produced": [
+        "references/almgren2004-optimal-portfolios-ordering-information.md",
+        "concepts/ordering-information-portfolio-selection.md"
+      ]
+    },
+    "_papers/almgren2004optimal/almgren2004optimal.md": {
+      "content_hash": "eb5984aaae918ed0eee32596237b4982a1ac5bc90aa00fb53ed63725bd0c1061",
+      "last_ingested": "2026-10-22T19:26:45.468161+00:00",
+      "pages_produced": [
+        "references/almgren2004-optimal-portfolios-ordering-information.md",
+        "concepts/ordering-information-portfolio-selection.md"
+      ]
     }
   }
 }

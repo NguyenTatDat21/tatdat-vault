@@ -3,6 +3,8 @@ title: Set Orienteering Problem (SOP)
 category: concepts
 tags: [orienteering, combinatorial-optimization, routing, profits]
 relationships:
+  - target: "[[references/archetti2018-set-orienteering-problem]]"
+    type: derived_from
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: derived_from
   - target: "[[concepts/tabu-search]]"
@@ -10,18 +12,21 @@ relationships:
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
 sources:
+  - _papers/archetti2018set/archetti2018set-extracted.md
+  - _papers/archetti2018set/archetti2018set.md
   - _papers/lu2024effective/lu2024effective-extracted.md
-summary: SOP selects a profit-maximizing tour over clustered customers under a travel-time budget, collecting cluster profit when at least one member is visited.
+summary: >-
+  SOP maximizes cluster-level profit under route-duration limits, collecting each cluster reward when at least one member node is visited.
 provenance:
-  extracted: 0.86
-  inferred: 0.12
+  extracted: 0.88
+  inferred: 0.10
   ambiguous: 0.02
-base_confidence: 0.57
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T11:22:57Z
+updated: 2026-10-22T19:23:44Z
 ---
 
 # Set Orienteering Problem (SOP)
@@ -36,17 +41,24 @@ The Set Orienteering Problem extends classic orienteering by grouping vertices i
 - The objective is to maximize total collected cluster profit within the time budget.
 - SOP is NP-hard and quickly becomes intractable for exact methods on large instances.
 
-## Algorithmic Patterns (from Lu et al.)
+## Formulation and Search Pattern
 
-High-performing SOP heuristics can combine:
+Archetti et al. anchor the canonical SOP formulation and pair it with a matheuristic (greedy randomized construction + tabu search + MIPMove) that scales well on large benchmark sets.
 
-- population-based search (diversification),
-- tabu-guided local refinement (intensification),
-- occasional infeasible-space exploration before repair.
+High-performing SOP methods often combine:
+- population/diversification phases,
+- memory-based local refinement (e.g., tabu),
+- selective exact subproblem solves for intensification.
 
-This combination is reported to improve robustness over single-mode local search in large benchmark sets. ^[inferred]
+This mixed search stack appears to be more robust than single-mode local search in large instances. ^[inferred]
 
-Related pages: [[references/lu2024-hybrid-evolutionary-algorithm-sop]], [[concepts/tabu-search]], [[concepts/hyper-heuristics]], [[concepts/large-neighborhood-search]].
+## Related
+
+- [[references/archetti2018-set-orienteering-problem]]
+- [[references/lu2024-hybrid-evolutionary-algorithm-sop]]
+- [[concepts/tabu-search]]
+- [[concepts/hyper-heuristics]]
+- [[concepts/large-neighborhood-search]]
 
 ## Open Questions
 
@@ -55,4 +67,6 @@ Related pages: [[references/lu2024-hybrid-evolutionary-algorithm-sop]], [[concep
 
 ## Sources
 
+- [[_papers/archetti2018set/archetti2018set-extracted.md]]
+- [[_papers/archetti2018set/archetti2018set.md]]
 - [[_papers/lu2024effective/lu2024effective-extracted.md]]

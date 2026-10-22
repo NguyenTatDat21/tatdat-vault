@@ -5,6 +5,8 @@ tags: [drone-routing, energy-modeling, optimization, nonlinear]
 relationships:
   - target: "[[references/cheng2020-drone-routing-energy-function]]"
     type: derived_from
+  - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
+    type: extends
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
@@ -12,17 +14,20 @@ relationships:
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
-summary: Models drone power as a convex payload-dependent function and integrates it into routing optimization to prevent energy-infeasible route plans.
+  - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md
+  - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md
+summary: >-
+  Models payload-aware convex drone energy and extends routing formulations to arbitrary energy functions while preserving tractable optimization structure.
 provenance:
-  extracted: 0.87
-  inferred: 0.1
+  extracted: 0.86
+  inferred: 0.11
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T11:29:44Z
+updated: 2026-10-22T19:23:44Z
 ---
 
 # Nonlinear Drone Energy Function in Routing
@@ -31,29 +36,29 @@ Drone-routing models often need energy feasibility, not just distance minimizati
 
 ## Core Model Idea
 
-A representative form is:
+A representative convex form is:
 
 `P(q) = k (W + m + q)^(3/2)`
 
 where payload `q` increases power use nonlinearly.
 
-In routing formulations, this changes feasibility and route choice because different customer orders imply different payload profiles per arc.
+Ahmadi-Javid and Meskar broaden this idea by allowing a general arc-level energy model `ed_a = F_a(w_a, t_a)` inside an exact routing formulation, rather than fixing one specific curve family.
 
 ## Why It Matters
 
 - Linear approximations can underestimate consumption on heavier payload segments.
-- That can produce route plans that appear feasible in the linear model but violate battery limits under nonlinear recalculation.
-- In Cheng et al., this mismatch appears repeatedly (around 9% average energy gap; multiple infeasible linear-derived routes).
+- That can produce route plans that appear feasible in a linear model but violate battery limits under nonlinear recalculation.
+- General-energy formulations keep feasibility logic realistic while remaining optimization-friendly through stronger modeling structure.
+- On benchmark sets, the generalized formulation reports major exact-solve speedups over prior branch-and-cut baselines.
 
 ## Algorithmic Pattern
 
 For exact optimization, combine:
 
 1. base route MILP variables,
-2. convex-energy under-estimation cuts (subgradient/tangent cuts),
-3. explicit infeasibility cuts when a candidate trip violates battery capacity.
-
-This pattern keeps tractability while preserving energy realism.
+2. nonlinear/convex energy representation (or valid under-estimators),
+3. explicit feasibility controls for battery-capacity violations,
+4. formulation choices that preserve a strong relaxation.
 
 ## Open Questions
 
@@ -63,6 +68,7 @@ This pattern keeps tractability while preserving energy realism.
 ## Related
 
 - [[references/cheng2020-drone-routing-energy-function]]
+- [[references/ahmadi-javid2022-drone-delivery-energy-formulation]]
 - [[concepts/payload-induced-drone-battery-consumption-rate]]
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[references/tamke2023-vrpd-dss]]
@@ -71,3 +77,5 @@ This pattern keeps tractability while preserving energy realism.
 
 - [[_papers/cheng2020drone/cheng2020drone-extracted.md]]
 - [[_papers/cheng2020drone/cheng2020drone.md]]
+- [[_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md]]
+- [[_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md]]

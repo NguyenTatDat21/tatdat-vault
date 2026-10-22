@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T19:01:57Z
-pages: 274
+updated: 2026-10-22T19:26:51Z
+pages: 280
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/yang2022solving/yang2022solving-extracted.md pages_created=0 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers/yu2024simulated/yu2024simulated-extracted.md pages_created=0 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers/montemanni2024combining/images (batch-0 backfill) pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers wave W01 (ahmadi/al-haidous/almgren/andersson/arche... pages_created=6 pages_updated=3 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Backfilled 20 additional Montemanni image/table/equation snapshots into reference provenance after extractor format shift.
+Added first full-ingest wave: generalized drone-energy formulation, two LNG annual-delivery MIP variants, canonical SOP reference, and ordering-information portfolio concept.
 
 ## Flagged Contradictions
 
