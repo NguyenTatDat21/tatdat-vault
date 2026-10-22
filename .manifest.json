@@ -994,6 +994,82 @@
         "references/bar-noy2004-efficient-algorithms-periodic-scheduling.md",
         "concepts/periodic-scheduling-under-capacity-constraints.md"
       ]
+    },
+    "_papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted.md": {
+      "content_hash": "03c7fdcc6fdfab3dcba116eb2eed2d1e599ecaf8bdb43d40c6db46ef0eb4f6fb",
+      "last_ingested": "2026-10-22T19:58:08.304568+00:00",
+      "pages_produced": [
+        "references/barnhart1998-branch-and-price-column-generation.md",
+        "concepts/branch-and-price-column-generation.md"
+      ]
+    },
+    "_papers/barnhart1998branchandprice/barnhart1998branchandprice.md": {
+      "content_hash": "a7032a04d1068537a00575df2f494241a7c78e7cd23e44227746667da33ba091",
+      "last_ingested": "2026-10-22T19:58:08.372543+00:00",
+      "pages_produced": [
+        "references/barnhart1998-branch-and-price-column-generation.md",
+        "concepts/branch-and-price-column-generation.md"
+      ]
+    },
+    "_papers/beatty2014financial/beatty2014financial-extracted.md": {
+      "content_hash": "625e0db6a7ecda05ce2ddbbef534bae97e52aef38879a6ef35e70ff173beebaa",
+      "last_ingested": "2026-10-22T19:58:08.437947+00:00",
+      "pages_produced": [
+        "references/beatty2014-financial-accounting-in-banking.md"
+      ]
+    },
+    "_papers/beatty2014financial/beatty2014financial.md": {
+      "content_hash": "4e65ea9c03e71bc9525455cadec93d2a40754d8cd90b65bed74a80776525479f",
+      "last_ingested": "2026-10-22T19:58:08.500404+00:00",
+      "pages_produced": [
+        "references/beatty2014-financial-accounting-in-banking.md"
+      ]
+    },
+    "_papers/bertsimas2020predictive/bertsimas2020predictive-extracted.md": {
+      "content_hash": "76b50adbb3fc91bd38ee3cd59b6494858c93e4c4bb6030dab7056ba3053400f8",
+      "last_ingested": "2026-10-22T19:58:08.548194+00:00",
+      "pages_produced": [
+        "references/bertsimas2020-predictive-to-prescriptive-analytics.md",
+        "concepts/predictive-to-prescriptive-analytics.md"
+      ]
+    },
+    "_papers/bertsimas2020predictive/bertsimas2020predictive.md": {
+      "content_hash": "0f25b16c119b5bd00a03f251d147a741227f3e9a23f9406cab98036a0f020470",
+      "last_ingested": "2026-10-22T19:58:08.594926+00:00",
+      "pages_produced": [
+        "references/bertsimas2020-predictive-to-prescriptive-analytics.md",
+        "concepts/predictive-to-prescriptive-analytics.md"
+      ]
+    },
+    "_papers/bertsimas2022bootstrap/bertsimas2022bootstrap-extracted.md": {
+      "content_hash": "61f12a288b1770ad3a983c637003a9bc230a0bfb9a4a1951e17318fa3722f6a1",
+      "last_ingested": "2026-10-22T19:58:08.645112+00:00",
+      "pages_produced": [
+        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md",
+        "concepts/predictive-to-prescriptive-analytics.md"
+      ]
+    },
+    "_papers/bertsimas2022bootstrap/bertsimas2022bootstrap.md": {
+      "content_hash": "db4ab3367dde68e0ffabd3d1fede3b76aca78f3fbfb201ce3db6cdde8bf36e41",
+      "last_ingested": "2026-10-22T19:58:08.692929+00:00",
+      "pages_produced": [
+        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md",
+        "concepts/predictive-to-prescriptive-analytics.md"
+      ]
+    },
+    "_papers/black1992global/black1992global-extracted.md": {
+      "content_hash": "f6decd4d6581d140d0893983d2c0a2c5dd400fc9850926c3bf9457df29376097",
+      "last_ingested": "2026-10-22T19:58:08.738743+00:00",
+      "pages_produced": [
+        "references/black1992-global-portfolio-optimization.md"
+      ]
+    },
+    "_papers/black1992global/black1992global.md": {
+      "content_hash": "a810abc1552fd9ebc4fcc8bc502a80ce6f72f6802cd3c536af51e4d95f3afc87",
+      "last_ingested": "2026-10-22T19:58:08.786196+00:00",
+      "pages_produced": [
+        "references/black1992-global-portfolio-optimization.md"
+      ]
     }
   }
 }

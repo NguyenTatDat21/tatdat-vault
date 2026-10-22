@@ -52,7 +52,8 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
   - ⚠️ Note: `_papers/almgren2004optimal/almgren2004optimal-extracted.md` contains NUL bytes; extraction was read via a temporary cleaned copy for drafting, while manifest/cache used the original source file.
 - [x] **W02** `_papers/archetti2023new/...` → `_papers/bar-noy2004efficient/...`
   - ✅ Completed 2026-10-22T19:36Z — pages_created=8, pages_updated=1; cache-check unchanged (10/10); qmd update+embed+verify complete.
-- [ ] **W03** `_papers/barnhart1998branchandprice/...` → `_papers/black1992global/...`
+- [x] **W03** `_papers/barnhart1998branchandprice/...` → `_papers/black1992global/...`
+  - ✅ Completed 2026-10-22T19:58Z — pages_created=7, pages_updated=0; cache-check unchanged (10/10); qmd update+embed+verify complete.
 - [ ] **W04** `_papers/boland2017continuoustime/...` → `_papers/chen2010shrinkage/...`
 - [ ] **W05** `_papers/cheng2020drone/...` → `_papers/christiansen2020liner/...`
 - [ ] **W06** `_papers/clautiaux2018combining/...` → `_papers/dorling2017vehicle/...`
@@ -83,4 +84,4 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
 - [ ] QMD refreshed and verified
 
 ## Next Action
-Start **W03** and log deltas (created/updated pages, QMD status, blockers) in this file.
+Start **W04** and log deltas (created/updated pages, QMD status, blockers) in this file.
