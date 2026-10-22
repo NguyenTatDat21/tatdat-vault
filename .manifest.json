@@ -1,1 +1,13 @@
-{}
+{
+  "sources": {
+    "_papers/montemanni2024combining/montemanni2024combining-extracted.md": {
+      "content_hash": "a0cf6c4c15c337b4748f31e9d100edece2687635989121aeb2348331459df314",
+      "last_ingested": "2026-10-22T08:08:33.034731+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md",
+        "concepts/pdsvrp-c.md",
+        "concepts/cp-sat-hint-start.md"
+      ]
+    }
+  }
+}
