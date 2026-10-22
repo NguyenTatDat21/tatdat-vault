@@ -31,3 +31,5 @@ title: Wiki Log
 - [2026-10-22T10:02:54Z] INGEST source=_papers/torabbeigi2020drone/torabbeigi2020drone.md pages_created=0 pages_updated=1 mode=append
 - [2026-10-22T10:02:55Z] INGEST source=_papers/hojabri2018large/hojabri2018large-extracted.md pages_created=2 pages_updated=0 mode=append
 - [2026-10-22T10:02:55Z] INGEST source=_papers/hojabri2018large/hojabri2018large.md pages_created=0 pages_updated=1 mode=append
+- [2026-10-22T11:15:25Z] INGEST source=_papers/nguyen2022mincost/nguyen2022mincost-extracted.md pages_created=2 pages_updated=0 mode=append
+- [2026-10-22T11:15:26Z] INGEST source=_papers/nguyen2022mincost/nguyen2022mincost.md pages_created=0 pages_updated=1 mode=append

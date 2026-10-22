@@ -191,6 +191,21 @@
       "pages_produced": [
         "references/hojabri2018-vrp-synchronization-alns-cp.md"
       ]
+    },
+    "_papers/nguyen2022mincost/nguyen2022mincost-extracted.md": {
+      "content_hash": "6d594ceedeebd0c39a603cfd3415c439912eba887265100c53a0d6dc5d949bc7",
+      "last_ingested": "2026-10-22T11:15:19.548449+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md",
+        "concepts/min-cost-parallel-drone-scheduling-vrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/nguyen2022mincost.md": {
+      "content_hash": "cd3f41b55cc608213711da9ae183b11f031bf06dc2c1800ba316e090f3ab56d1",
+      "last_ingested": "2026-10-22T11:15:19.613151+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
     }
   }
 }
