@@ -251,6 +251,22 @@
       "pages_produced": [
         "references/cheng2020-drone-routing-energy-function.md"
       ]
+    },
+    "_papers/murray2020multiple/murray2020multiple-extracted.md": {
+      "content_hash": "a39c7df98ea6257be614291e972f582170d5b93291412c7a4c50fc76a70bb924",
+      "last_ingested": "2026-10-22T11:40:24.178602+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/murray2020multiple/murray2020multiple.md": {
+      "content_hash": "45848b0027211a6a9ba0b01cc95e3bf36ab0404343a466ef6d0b48e1cc266cfd",
+      "last_ingested": "2026-10-22T11:40:28.804706+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+      ]
     }
   }
 }

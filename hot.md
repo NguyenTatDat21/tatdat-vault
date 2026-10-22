@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T11:32:24Z
-pages: 272
+updated: 2026-10-22T11:40:39Z
+pages: 274
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/yu2024simulated/yu2024simulated.md pages_created=0 pages_updated=1 ...
-- [2026-10-22] INGEST source=_papers/cheng2020drone/cheng2020drone-extracted.md pages_created=2 pages_updated=0 ...
 - [2026-10-22] INGEST source=_papers/cheng2020drone/cheng2020drone.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/murray2020multiple/murray2020multiple-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/murray2020multiple/murray2020multiple.md pages_created=0 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Attached bibliographic metadata to Cheng 2020 energy-routing reference (citation key, DOI, canonical URL, authors).
+Attached durable bibliographic provenance (DOI, canonical URL, citation key) to the mFSTSP reference cluster while keeping extracted-method and metadata origins explicit.
 
 ## Flagged Contradictions
 
