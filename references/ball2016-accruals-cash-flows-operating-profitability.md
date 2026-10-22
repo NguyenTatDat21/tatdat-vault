@@ -1,0 +1,77 @@
+---
+title: Accruals, cash flows, and operating profitability in the cross section of stock returns
+category: references
+tags: [asset-pricing, accruals, profitability, empirical-finance]
+relationships:
+  - target: "[[concepts/cash-based-operating-profitability]]"
+    type: derived_from
+  - target: "[[concepts/ordering-information-portfolio-selection]]"
+    type: related_to
+  - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
+    type: related_to
+sources:
+  - _papers/ball2016accruals/ball2016accruals-extracted.md
+  - _papers/ball2016accruals/ball2016accruals.md
+summary: >-
+  Shows cash-based operating profitability predicts stock returns better than accrual-inclusive profitability and largely subsumes the accrual anomaly in cross-sectional tests.
+provenance:
+  extracted: 0.90
+  inferred: 0.08
+  ambiguous: 0.02
+base_confidence: 0.67
+lifecycle: draft
+lifecycle_changed: 2026-10-22
+tier: supporting
+created: 2026-10-22T19:33:55Z
+updated: 2026-10-22T19:33:55Z
+---
+
+# Accruals, cash flows, and operating profitability in the cross section of stock returns
+
+> [!tldr] Cash-based operating profitability (CbOP) carries stronger return-prediction signal than accrual-inclusive profitability, and makes standalone accruals weak in joint tests.
+
+## Problem & Motivation
+
+Prior asset-pricing anomalies suggested that expected returns increase with profitability and decrease with accruals. This paper tests whether accruals add information once profitability is measured on a cash basis.
+
+## Method / Architecture
+
+The paper runs cross-sectional return tests using profitability, accruals, and cash-based profitability variants, with long-horizon US equity data.
+
+## Key Equations
+
+$$
+r_{i,t+1} = \alpha + \beta_1 OP_{i,t} + \beta_2 ACC_{i,t} + \varepsilon_{i,t+1}
+$$
+
+$$
+r_{i,t+1} = \alpha + \beta_1 CbOP_{i,t} + \beta_2 ACC_{i,t} + \varepsilon_{i,t+1}
+$$
+
+Regression forms summarize the empirical specification family described in the extracted text. ^[inferred]
+
+## Results
+
+| Signal test | Reported statistic |
+|---|---|
+| OP alone (cross-section) | t-value 7.04 |
+| Accruals alone | t-value -3.90 |
+| CbOP alone | t-value 9.69 |
+| CbOP + accruals joint test | CbOP t-value 7.40; accruals t-value 0.34 |
+| Portfolio implication | Sharpe ratio improves by about 40% when moving to CbOP-based factor design |
+
+## Limitations
+
+- Evidence is estimated from historical market data and model choices; out-of-sample stability is not guaranteed.
+- Reported effects depend on accounting definitions and sample construction choices. ^[inferred]
+
+## Related
+
+- [[concepts/cash-based-operating-profitability]]
+- [[concepts/ordering-information-portfolio-selection]]
+- [[references/almgren2004-optimal-portfolios-ordering-information]]
+
+## Sources
+
+- [[_papers/ball2016accruals/ball2016accruals-extracted.md]]
+- [[_papers/ball2016accruals/ball2016accruals.md]]

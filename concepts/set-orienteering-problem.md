@@ -5,6 +5,8 @@ tags: [orienteering, combinatorial-optimization, routing, profits]
 relationships:
   - target: "[[references/archetti2018-set-orienteering-problem]]"
     type: derived_from
+  - target: "[[references/archetti2023-branch-and-cut-sop]]"
+    type: derived_from
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: derived_from
   - target: "[[concepts/tabu-search]]"
@@ -14,19 +16,21 @@ relationships:
 sources:
   - _papers/archetti2018set/archetti2018set-extracted.md
   - _papers/archetti2018set/archetti2018set.md
+  - _papers/archetti2023new/archetti2023new-extracted.md
+  - _papers/archetti2023new/archetti2023new.md
   - _papers/lu2024effective/lu2024effective-extracted.md
 summary: >-
-  SOP maximizes cluster-level profit under route-duration limits, collecting each cluster reward when at least one member node is visited.
+  SOP maximizes cluster-level profit under a route-duration budget, with both matheuristic and branch-and-cut exact strategies now defining the practical solution landscape.
 provenance:
-  extracted: 0.88
-  inferred: 0.10
-  ambiguous: 0.02
-base_confidence: 0.83
+  extracted: 0.86
+  inferred: 0.11
+  ambiguous: 0.03
+base_confidence: 0.92
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-22T19:33:55Z
 ---
 
 # Set Orienteering Problem (SOP)
@@ -39,22 +43,21 @@ The Set Orienteering Problem extends classic orienteering by grouping vertices i
 - Travel time is bounded by a fixed budget `T_max`.
 - A cluster contributes profit if at least one of its vertices is visited.
 - The objective is to maximize total collected cluster profit within the time budget.
-- SOP is NP-hard and quickly becomes intractable for exact methods on large instances.
+- SOP remains NP-hard and needs hybrid exact/heuristic strategies as instances grow.
 
-## Formulation and Search Pattern
+## Formulation and Solution Pattern
 
-Archetti et al. anchor the canonical SOP formulation and pair it with a matheuristic (greedy randomized construction + tabu search + MIPMove) that scales well on large benchmark sets.
+Recent SOP literature in this vault shows two complementary paths:
 
-High-performing SOP methods often combine:
-- population/diversification phases,
-- memory-based local refinement (e.g., tabu),
-- selective exact subproblem solves for intensification.
+- **Matheuristic path (Archetti 2018, Lu 2024):** randomized construction + tabu/local search + exact neighborhood refinement.
+- **Exact branch-and-cut path (Archetti 2023):** lower-variable formulation and dedicated valid-inequality separation for stronger exact solving.
 
-This mixed search stack appears to be more robust than single-mode local search in large instances. ^[inferred]
+Together these works suggest a practical stack: exact methods for medium-size/high-certainty solves, and hybrid metaheuristics for larger or tighter-time scenarios. ^[inferred]
 
 ## Related
 
 - [[references/archetti2018-set-orienteering-problem]]
+- [[references/archetti2023-branch-and-cut-sop]]
 - [[references/lu2024-hybrid-evolutionary-algorithm-sop]]
 - [[concepts/tabu-search]]
 - [[concepts/hyper-heuristics]]
@@ -62,11 +65,13 @@ This mixed search stack appears to be more robust than single-mode local search 
 
 ## Open Questions
 
-- How sensitive are SOP heuristic gains to cluster structure quality versus route geometry?
-- Which hybridization strategy transfers best from SOP to selective GTSP-like variants? ^[inferred]
+- How sensitive are exact-vs-heuristic breakpoints to route-budget tightness (`T_max`) and cluster geometry?
+- Which cut families from exact SOP transfer best to multi-vehicle or stochastic SOP variants? ^[inferred]
 
 ## Sources
 
 - [[_papers/archetti2018set/archetti2018set-extracted.md]]
 - [[_papers/archetti2018set/archetti2018set.md]]
+- [[_papers/archetti2023new/archetti2023new-extracted.md]]
+- [[_papers/archetti2023new/archetti2023new.md]]
 - [[_papers/lu2024effective/lu2024effective-extracted.md]]

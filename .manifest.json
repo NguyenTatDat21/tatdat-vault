@@ -914,6 +914,86 @@
         "references/almgren2004-optimal-portfolios-ordering-information.md",
         "concepts/ordering-information-portfolio-selection.md"
       ]
+    },
+    "_papers/archetti2023new/archetti2023new-extracted.md": {
+      "content_hash": "babdf3b89167615cf53ac53d502c5dca012a2794f68c6f044bcc611b5c64784a",
+      "last_ingested": "2026-10-22T19:36:29.994710+00:00",
+      "pages_produced": [
+        "references/archetti2023-branch-and-cut-sop.md",
+        "concepts/set-orienteering-problem.md"
+      ]
+    },
+    "_papers/archetti2023new/archetti2023new.md": {
+      "content_hash": "114bbf791c6ffdfe6e3bf0ffb02231ea655002d1628a21c3ba0e87943b85ce1b",
+      "last_ingested": "2026-10-22T19:36:30.062045+00:00",
+      "pages_produced": [
+        "references/archetti2023-branch-and-cut-sop.md",
+        "concepts/set-orienteering-problem.md"
+      ]
+    },
+    "_papers/asghari2021green/asghari2021green-extracted.md": {
+      "content_hash": "056a84ccd7394b7407be6953ee4574ccfb98105aa43f4efdd63b9b8651fbf040",
+      "last_ingested": "2026-10-22T19:36:30.126632+00:00",
+      "pages_produced": [
+        "references/asghari2021-green-vrp-state-of-the-art-review.md",
+        "concepts/green-vehicle-routing-problem-taxonomy.md"
+      ]
+    },
+    "_papers/asghari2021green/asghari2021green.md": {
+      "content_hash": "0b89ea7d0066f833555852149aadfc2caa47357c81d932b5862553d2e24eb540",
+      "last_ingested": "2026-10-22T19:36:30.185032+00:00",
+      "pages_produced": [
+        "references/asghari2021-green-vrp-state-of-the-art-review.md",
+        "concepts/green-vehicle-routing-problem-taxonomy.md"
+      ]
+    },
+    "_papers/ball2016accruals/ball2016accruals-extracted.md": {
+      "content_hash": "8d8737b685fcb31a829fa6204f93f8b08da8bbe6ce7f0801228310900ed1e731",
+      "last_ingested": "2026-10-22T19:36:30.230699+00:00",
+      "pages_produced": [
+        "references/ball2016-accruals-cash-flows-operating-profitability.md",
+        "concepts/cash-based-operating-profitability.md"
+      ]
+    },
+    "_papers/ball2016accruals/ball2016accruals.md": {
+      "content_hash": "5eab7b1414e640e010da23e0ea6d2c20c1884997f38db058b09a8f05a2ac5370",
+      "last_ingested": "2026-10-22T19:36:30.276920+00:00",
+      "pages_produced": [
+        "references/ball2016-accruals-cash-flows-operating-profitability.md",
+        "concepts/cash-based-operating-profitability.md"
+      ]
+    },
+    "_papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted.md": {
+      "content_hash": "3d890c045675f51e867a5dcfcddea130a157ad873bc0b355042ff5a12a434dc1",
+      "last_ingested": "2026-10-22T19:36:30.323353+00:00",
+      "pages_produced": [
+        "references/bar-noy2002-minimizing-periodic-scheduling-costs.md",
+        "concepts/periodic-scheduling-under-capacity-constraints.md"
+      ]
+    },
+    "_papers/bar-noy2002minimizing/bar-noy2002minimizing.md": {
+      "content_hash": "6a97ee2996cb23a83475a1a6993fc339630611e87dfa55d616976d6dcd0d7b86",
+      "last_ingested": "2026-10-22T19:36:30.370386+00:00",
+      "pages_produced": [
+        "references/bar-noy2002-minimizing-periodic-scheduling-costs.md",
+        "concepts/periodic-scheduling-under-capacity-constraints.md"
+      ]
+    },
+    "_papers/bar-noy2004efficient/bar-noy2004efficient-extracted.md": {
+      "content_hash": "983693173d2d12c5e38ad1800125c6aae81e6d89f515063e115fbf276b9fe638",
+      "last_ingested": "2026-10-22T19:36:30.416234+00:00",
+      "pages_produced": [
+        "references/bar-noy2004-efficient-algorithms-periodic-scheduling.md",
+        "concepts/periodic-scheduling-under-capacity-constraints.md"
+      ]
+    },
+    "_papers/bar-noy2004efficient/bar-noy2004efficient.md": {
+      "content_hash": "fe50a56dbcd7d877253ecc0c4ddea16c134fe1170b2dcf2d57267e6d0679c0b4",
+      "last_ingested": "2026-10-22T19:36:30.464003+00:00",
+      "pages_produced": [
+        "references/bar-noy2004-efficient-algorithms-periodic-scheduling.md",
+        "concepts/periodic-scheduling-under-capacity-constraints.md"
+      ]
     }
   }
 }
