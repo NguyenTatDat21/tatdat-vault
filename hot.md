@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T18:14:42Z
+updated: 2026-10-22T19:01:57Z
 pages: 274
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md pages_created=0 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers/yang2022solving/yang2022solving-extracted.md pages_created=0 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers/yu2024simulated/yu2024simulated-extracted.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/montemanni2024combining/images (batch-0 backfill) pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Re-ingested extracted markdown after image-link migration; added 4 companion image source(s) on references/yu2024-sarl-stoptw.md for figure/table provenance.
+Backfilled 20 additional Montemanni image/table/equation snapshots into reference provenance after extractor format shift.
 
 ## Flagged Contradictions
 

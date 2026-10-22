@@ -18,6 +18,26 @@ sources:
   - _papers/montemanni2024combining/images/page_53_image_3.jpg
   - _papers/montemanni2024combining/images/page_54_image_2.jpg
   - _papers/montemanni2024combining/images/page_54_image_5.jpg
+  - _papers/montemanni2024combining/images/page_102_image_3.jpg
+  - _papers/montemanni2024combining/images/page_105_table_3.jpg
+  - _papers/montemanni2024combining/images/page_105_table_5.jpg
+  - _papers/montemanni2024combining/images/page_111_image_10.jpg
+  - _papers/montemanni2024combining/images/page_112_image_10.jpg
+  - _papers/montemanni2024combining/images/page_112_image_12.jpg
+  - _papers/montemanni2024combining/images/page_112_image_13.jpg
+  - _papers/montemanni2024combining/images/page_112_image_16.jpg
+  - _papers/montemanni2024combining/images/page_112_image_2.jpg
+  - _papers/montemanni2024combining/images/page_112_image_4.jpg
+  - _papers/montemanni2024combining/images/page_112_image_5.jpg
+  - _papers/montemanni2024combining/images/page_112_image_8.jpg
+  - _papers/montemanni2024combining/images/page_112_table_23.jpg
+  - _papers/montemanni2024combining/images/page_113_equation_8.jpg
+  - _papers/montemanni2024combining/images/page_113_table_11.jpg
+  - _papers/montemanni2024combining/images/page_119_equation_4.jpg
+  - _papers/montemanni2024combining/images/page_121_table_4.jpg
+  - _papers/montemanni2024combining/images/page_122_table_3.jpg
+  - _papers/montemanni2024combining/images/page_128_chart_6.jpg
+  - _papers/montemanni2024combining/images/page_129_chart_2.jpg
 summary: "Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality."
 provenance:
   extracted: 0.8
@@ -28,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-22T19:01:44Z
 ---
 
 # Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones
@@ -125,3 +145,23 @@ The paper concludes that hint-start is beneficial for both lower bounds and heur
 - [[_papers/montemanni2024combining/images/page_53_image_3.jpg]]
 - [[_papers/montemanni2024combining/images/page_54_image_2.jpg]]
 - [[_papers/montemanni2024combining/images/page_54_image_5.jpg]]
+- [[_papers/montemanni2024combining/images/page_102_image_3.jpg]]
+- [[_papers/montemanni2024combining/images/page_105_table_3.jpg]]
+- [[_papers/montemanni2024combining/images/page_105_table_5.jpg]]
+- [[_papers/montemanni2024combining/images/page_111_image_10.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_10.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_12.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_13.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_16.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_2.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_4.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_5.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_image_8.jpg]]
+- [[_papers/montemanni2024combining/images/page_112_table_23.jpg]]
+- [[_papers/montemanni2024combining/images/page_113_equation_8.jpg]]
+- [[_papers/montemanni2024combining/images/page_113_table_11.jpg]]
+- [[_papers/montemanni2024combining/images/page_119_equation_4.jpg]]
+- [[_papers/montemanni2024combining/images/page_121_table_4.jpg]]
+- [[_papers/montemanni2024combining/images/page_122_table_3.jpg]]
+- [[_papers/montemanni2024combining/images/page_128_chart_6.jpg]]
+- [[_papers/montemanni2024combining/images/page_129_chart_2.jpg]]
