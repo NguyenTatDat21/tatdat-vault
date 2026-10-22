@@ -50,6 +50,54 @@
         "references/poikonen2020-k-mvdrp.md",
         "concepts/k-multi-visit-drone-routing-problem.md"
       ]
+    },
+    "_papers/tamke2023vehicle/tamke2023vehicle-extracted.md": {
+      "content_hash": "91307543601d69806ffd41b5b4a00dd0504610ec6c9fd351c6cb9a99baf9ffa5",
+      "last_ingested": "2026-10-22T09:16:16.436092+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md",
+        "concepts/drone-speed-selection-in-routing.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/tamke2023vehicle.md": {
+      "content_hash": "f2cb9577f5e8b8574631e47cdc6a42476f4462e5a19ec8a82687eab837ae3b81",
+      "last_ingested": "2026-10-22T09:16:16.500035+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md",
+        "concepts/drone-speed-selection-in-routing.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md": {
+      "content_hash": "e9cb29df15aec5b7a745b5b67ddd05df932f2340cd2c0bdada86b18a2a75949b",
+      "last_ingested": "2026-10-22T09:16:16.560349+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md": {
+      "content_hash": "dca59bd71ed0b89828855b10558a5118ac916b3004b43e1d7dc4bae9af9d9c5d",
+      "last_ingested": "2026-10-22T09:16:16.624843+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/paradiso2020exact/paradiso2020exact-extracted.md": {
+      "content_hash": "0aeead6775b2e2303affb3c2edeec897e1be630f3177369d6b45af4a30b36112",
+      "last_ingested": "2026-10-22T09:16:16.684415+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md",
+        "concepts/exact-multitrip-vrptw-framework.md"
+      ]
+    },
+    "_papers/paradiso2020exact/paradiso2020exact.md": {
+      "content_hash": "9e5966d4e8a3e27cd73025dc0f56ceadb1ddb75bce24089aae4500f51bb358e4",
+      "last_ingested": "2026-10-22T09:16:16.744565+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md",
+        "concepts/exact-multitrip-vrptw-framework.md"
+      ]
     }
   }
 }

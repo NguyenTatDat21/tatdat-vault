@@ -247,9 +247,12 @@ generated_by: obsidian-wiki memory index
 ## Concepts
 
 - [[concepts/cp-sat-hint-start]] — A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models. ( #constraint-programming #cp-sat #vrp #warm-start)
+- [[concepts/drone-speed-selection-in-routing]] — Treats drone speed as an explicit optimization variable, balancing delivery speed against energy range and synchronization costs in truck-drone routes. ( #drones #optimization #energy #routing)
+- [[concepts/exact-multitrip-vrptw-framework]] — A structure-based exact framework for capacitated multitrip VRPs with time windows that combines lower bounds and branch-and-cut to scale better than earlier exact approaches. ( #vehicle-routing #exact-methods #time-windows #branch-and-cut)
 - [[concepts/hyper-heuristics]] — Hyper-heuristics optimize over heuristics rather than direct solutions, mainly via heuristic selection or generation with online, offline, or no learning. ( #metaheuristics #hyper-heuristics #optimization)
 - [[concepts/k-multi-visit-drone-routing-problem]] — k-MVDRP models a truck with k reusable drones under payload-dependent energy limits and operation-level synchronization, optimized for minimum completion time. ( #vrp #drones #last-mile #operations-research)
 - [[concepts/large-neighborhood-search]] — LNS improves solutions by repeatedly destroying and repairing large parts of a solution; ALNS adapts operator choice based on observed performance. ( #metaheuristics #lns #alns #routing)
+- [[concepts/maritime-routing-under-uncertainty]] — A planning-level view of uncertainty in maritime routing and scheduling, emphasizing demand/travel-time/fuel volatility and practical mitigation patterns in industry. ( #maritime #uncertainty #routing #planning)
 - [[concepts/parallel-metaheuristics-cooperative-search]] — Parallel metaheuristics run multiple search processes; cooperative variants exchange information to improve robustness and solution quality over independent runs. ( #metaheuristics #parallel-computing #optimization)
 - [[concepts/pdsvrp-c]] — PDSVRP-c extends truck-and-drone routing to multiple trucks plus collaborative drone missions, with a min-makespan objective and synchronization constraints. ( #vrp #drones #last-mile #operations-research)
 - [[concepts/tabu-search]] — Tabu Search is a memory-augmented local search method that allows non-improving moves while using tabu tenure and aspiration to escape local optima. ( #metaheuristics #local-search #operations-research)
@@ -258,8 +261,11 @@ generated_by: obsidian-wiki memory index
 ## References
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality. ( #paper #vrp #drones #constraint-programming)
+- [[references/paradiso2020-esf-multitrip-vrptw]] — Proposes a structure-based exact framework (ESF) for multitrip VRP with time windows, combining strong lower bounds and branch-and-cut to solve larger instances than prior exact methods. ( #paper #exact-methods #vehicle-routing #time-windows)
 - [[references/gendreau2019-handbook-metaheuristics]] — Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization. ( #book #metaheuristics #operations-research #optimization)
 - [[references/poikonen2020-k-mvdrp]] — Introduces k-MVDRP and an RTS heuristic for truck-multi-drone routing with weight-aware energy limits, showing major sensitivity to drone speed, fleet size, and battery assumptions. ( #paper #drones #vehicle-routing #optimization)
+- [[references/ksciuk2023-maritime-uncertainty-review]] — Surveys uncertainty modeling in maritime routing/scheduling across strategic, tactical, and operational decisions, highlighting a major gap between academic methods and industry adoption. ( #paper #maritime #uncertainty #routing)
+- [[references/tamke2023-vrpd-dss]] — Introduces VRPD-DSS with discrete drone-speed decisions and payload-aware energy costs, showing that adaptive speed choices beat constant-speed operations in truck-drone delivery. ( #paper #drones #vehicle-routing #energy-modeling)
 
 ##  Papers
 

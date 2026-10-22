@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T08:47:09Z
-pages: 246
+updated: 2026-10-22T09:16:34Z
+pages: 252
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook.md pages_created=0 pages_updated=1 ...
-- [2026-10-22] INGEST source=_papers/poikonen2020multivisit/poikonen2020multivisit-extra... pages_created=2 pages_updated=0 ...
-- [2026-10-22] INGEST source=_papers/poikonen2020multivisit/poikonen2020multivisit.md pages_created=0 pages_updated=2 ...
+- [2026-10-22] INGEST source=_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/paradiso2020exact/paradiso2020exact-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/paradiso2020exact/paradiso2020exact.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Attached citation-grade metadata (DOI, canonical URL, publication details) to the new k-MVDRP pages and linked each page to its companion Zotero note.
+Added bibliographic provenance for Paradiso et al. 2020 and linked metadata companion note.
 
 ## Flagged Contradictions
 
