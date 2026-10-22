@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T09:16:34Z
+updated: 2026-10-22T09:28:59Z
 pages: 252
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md pages_created=0 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers/paradiso2020exact/paradiso2020exact-extracted.md pages_created=2 pages_updated=0 ...
 - [2026-10-22] INGEST source=_papers/paradiso2020exact/paradiso2020exact.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/tamke2023vehicle/tamke2023vehicle-extracted.md pages_created=0 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Added bibliographic provenance for Paradiso et al. 2020 and linked metadata companion note.
+Re-ingested Tamke re-extraction with stronger quantified evidence: preprocessing cuts ~23.1% operations, fixed 12 m/s remains strongest single-speed baseline, and VRPD-DSS preserves measurable gains over fixed-speed variants.
 
 ## Flagged Contradictions
 

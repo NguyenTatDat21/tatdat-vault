@@ -18,3 +18,4 @@ title: Wiki Log
 - [2026-10-22T09:16:33Z] INGEST source=_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md pages_created=0 pages_updated=1 mode=append
 - [2026-10-22T09:16:33Z] INGEST source=_papers/paradiso2020exact/paradiso2020exact-extracted.md pages_created=2 pages_updated=0 mode=append
 - [2026-10-22T09:16:34Z] INGEST source=_papers/paradiso2020exact/paradiso2020exact.md pages_created=0 pages_updated=1 mode=append
+- [2026-10-22T09:28:58Z] INGEST source=_papers/tamke2023vehicle/tamke2023vehicle-extracted.md pages_created=0 pages_updated=2 mode=append

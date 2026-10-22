@@ -16,15 +16,15 @@ sources:
 summary: >-
   Introduces VRPD-DSS with discrete drone-speed decisions and payload-aware energy costs, showing that adaptive speed choices beat constant-speed operations in truck-drone delivery.
 provenance:
-  extracted: 0.82
-  inferred: 0.15
-  ambiguous: 0.03
+  extracted: 0.90
+  inferred: 0.09
+  ambiguous: 0.01
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T09:12:13Z
+updated: 2026-10-22T09:27:38Z
 ---
 
 # Vehicle Routing Problem with Drones and Drone Speed Selection (Tamke & Buscher, 2023)
@@ -52,20 +52,20 @@ The preprocessing and cuts are presented as practical enablers for solving large
 
 ## Results
 
-The study reports that always flying at maximum drone speed is often suboptimal once realistic energy effects are included.
+The re-extracted paper reports concrete computational effects across the rural test set:
 
-Main findings:
-- adaptive speed selection improves objective quality versus fixed-speed baselines;
-- a substantial share of savings comes from reduced driver/truck active time;
-- drone energy cost contributes less than labor and truck-time effects in the studied setting.
+- Preprocessing removed an average **23.10%** of candidate drone operations in 20-customer instances and substantially shrank MILP size.
+- Across tested speed sets, preprocessing reduced nonzero matrix elements by roughly **37%–63%** and runtime by about **52%–80%** (with identical optimal costs).
+- In single-speed VRPD runs, the best average fixed speed was **12 m/s**; both slower and faster fixed speeds were usually worse.
+- Relative to VRPD-DSS, the best fixed-speed VRPD (12 m/s) was still on average **0.59%** worse (1 drone) and **0.78%** worse (2 drones), with larger gaps in some instances.
+- For larger instances (30/40/50 customers), the MILP setup behaved effectively as a heuristic: average RPD after 1 hour ranged from about **0.13%** to **1.50%** depending on instance size and drone count.
 
-This supports the broader claim that operationally realistic energy models reduce overoptimistic savings reported in simplified truck-drone studies. ^[inferred]
-
+Savings against truck-only delivery remained significant, and most savings were associated with reduced truck-driver time rather than drone electricity cost.
 ## Limitations
 
-- Evidence is generated on one benchmarked rural context and may not transfer directly to dense urban settings.
-- The extraction source includes formatting artifacts (binary/NUL corruption in one export), so a few equation-level details may be under-resolved. ^[ambiguous]
-
+- Evidence comes from one rural benchmark region and may not transfer directly to dense urban contexts.
+- The energy model assumes ideal ambient conditions (e.g., no wind), so real operations may show different feasible-speed envelopes.
+- For larger instances, the solver is used mainly as a high-quality heuristic and many cases are not proven optimal within practical runtimes.
 ## Related
 
 - [[concepts/drone-speed-selection-in-routing]]

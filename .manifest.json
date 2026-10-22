@@ -52,8 +52,8 @@
       ]
     },
     "_papers/tamke2023vehicle/tamke2023vehicle-extracted.md": {
-      "content_hash": "91307543601d69806ffd41b5b4a00dd0504610ec6c9fd351c6cb9a99baf9ffa5",
-      "last_ingested": "2026-10-22T09:16:16.436092+00:00",
+      "content_hash": "95ef305e5509f7823918ebd8dd75507ab951ce02a363b24836782d447b696340",
+      "last_ingested": "2026-10-22T09:28:53.447873+00:00",
       "pages_produced": [
         "references/tamke2023-vrpd-dss.md",
         "concepts/drone-speed-selection-in-routing.md"
