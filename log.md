@@ -62,3 +62,4 @@ title: Wiki Log
 - [2026-10-22T19:26:51Z] INGEST source="_papers wave W01 (ahmadi/al-haidous/almgren/andersson/archetti)" pages_created=6 pages_updated=3 mode=full
 - [2026-10-22T19:36:37Z] INGEST source="_papers wave W02 (archetti2023/asghari2021/ball2016/bar-noy2002/bar-noy2004)" pages_created=8 pages_updated=1 mode=full
 - [2026-10-22T19:58:14Z] INGEST source="_papers wave W03 (barnhart/beatty/bertsimas2020/bertsimas2022/black1992)" pages_created=7 pages_updated=0 mode=full
+- [2026-10-22T20:41:47Z] INGEST source="_papers wave W04 (boland-ctsndp/boland-ddd-tsptw/brown-negative-be/chatfield/chen-shrinkage)" pages_created=9 pages_updated=0 mode=full

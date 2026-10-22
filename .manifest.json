@@ -1070,6 +1070,86 @@
       "pages_produced": [
         "references/black1992-global-portfolio-optimization.md"
       ]
+    },
+    "_papers/boland2017continuoustime/boland2017continuoustime-extracted.md": {
+      "content_hash": "6f107f9ed811dee4a58a3acb5782c0fff81d0654510a984adbd8ea360872d490",
+      "last_ingested": "2026-10-22T20:41:41.780802+00:00",
+      "pages_produced": [
+        "references/boland2017-continuous-time-service-network-design.md",
+        "concepts/dynamic-discretization-discovery.md"
+      ]
+    },
+    "_papers/boland2017continuoustime/boland2017continuoustime.md": {
+      "content_hash": "3f6980bb9376fed1045e52d72fd900d2574e30f0aabb48a9cb6d70dd2082806b",
+      "last_ingested": "2026-10-22T20:41:41.829795+00:00",
+      "pages_produced": [
+        "references/boland2017-continuous-time-service-network-design.md",
+        "concepts/dynamic-discretization-discovery.md"
+      ]
+    },
+    "_papers/boland2017solving/boland2017solving-extracted.md": {
+      "content_hash": "849a89117231fdf7ed2f7dbf5990e0c3f79e11cd0da100737be353bf5fac18ea",
+      "last_ingested": "2026-10-22T20:41:41.879266+00:00",
+      "pages_produced": [
+        "references/boland2017-dynamic-discretization-tsptw.md",
+        "concepts/dynamic-discretization-discovery.md"
+      ]
+    },
+    "_papers/boland2017solving/boland2017solving.md": {
+      "content_hash": "39821844d0a38de453059dd979ffb8c09d8c3b03e7dd4603025b4f22a02fb171",
+      "last_ingested": "2026-10-22T20:41:41.928195+00:00",
+      "pages_produced": [
+        "references/boland2017-dynamic-discretization-tsptw.md",
+        "concepts/dynamic-discretization-discovery.md"
+      ]
+    },
+    "_papers/brown2007going/brown2007going-extracted.md": {
+      "content_hash": "98f64541b525d9fdfe82d60d75fc58c100333a293df28fb2ad91ba532f3ab6f3",
+      "last_ingested": "2026-10-22T20:41:41.978161+00:00",
+      "pages_produced": [
+        "references/brown2007-negative-book-equity-stocks.md",
+        "concepts/negative-book-equity-style-classification.md"
+      ]
+    },
+    "_papers/brown2007going/brown2007going.md": {
+      "content_hash": "72d23d7ca67a108650803223d84fae447e7754a92ac920a322683b231dfdf341",
+      "last_ingested": "2026-10-22T20:41:42.027972+00:00",
+      "pages_produced": [
+        "references/brown2007-negative-book-equity-stocks.md",
+        "concepts/negative-book-equity-style-classification.md"
+      ]
+    },
+    "_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md": {
+      "content_hash": "5fbb101446d2f266e56fe1b30580bd3887eab5ede24df3e2e650be5c89e8b4aa",
+      "last_ingested": "2026-10-22T20:41:42.076071+00:00",
+      "pages_produced": [
+        "references/chatfield1995-problem-solving-statisticians-guide.md",
+        "concepts/statistical-investigation-lifecycle.md"
+      ]
+    },
+    "_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md": {
+      "content_hash": "08f871d8f3c9203ee243238a841fce64095e4f6a8d7c40607c9383ea07ce17e7",
+      "last_ingested": "2026-10-22T20:41:42.128041+00:00",
+      "pages_produced": [
+        "references/chatfield1995-problem-solving-statisticians-guide.md",
+        "concepts/statistical-investigation-lifecycle.md"
+      ]
+    },
+    "_papers/chen2010shrinkage/chen2010shrinkage-extracted.md": {
+      "content_hash": "1217d2f41f03a77ad66a33de5baaef4ef675378e756b3ff52e4e5e3a8d7e8769",
+      "last_ingested": "2026-10-22T20:41:42.176331+00:00",
+      "pages_produced": [
+        "references/chen2010-shrinkage-mmse-covariance-estimation.md",
+        "concepts/mmse-covariance-shrinkage.md"
+      ]
+    },
+    "_papers/chen2010shrinkage/chen2010shrinkage.md": {
+      "content_hash": "5deabd57e1e054bfe0352f7ec5f203477837959c92b32646c5da2af72dda443f",
+      "last_ingested": "2026-10-22T20:41:42.223536+00:00",
+      "pages_produced": [
+        "references/chen2010-shrinkage-mmse-covariance-estimation.md",
+        "concepts/mmse-covariance-shrinkage.md"
+      ]
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T19:58:14Z
-pages: 295
+updated: 2026-10-22T20:41:47Z
+pages: 304
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers wave W01 (ahmadi/al-haidous/almgren/andersson/arche... pages_created=6 pages_updated=3 ...
 - [2026-10-22] INGEST source=_papers wave W02 (archetti2023/asghari2021/ball2016/bar-noy... pages_created=8 pages_updated=1 ...
 - [2026-10-22] INGEST source=_papers wave W03 (barnhart/beatty/bertsimas2020/bertsimas20... pages_created=7 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers wave W04 (boland-ctsndp/boland-ddd-tsptw/brown-nega... pages_created=9 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Added branch-and-price and predictive-to-prescriptive clusters, plus Black-Litterman equilibrium-view framing and a banking-accounting evidence map.
+Added a dynamic-discretization cluster for continuous-time routing, integrated negative-book-equity factor treatment, and captured MMSE shrinkage covariance guidance for high-dimensional estimation.
 
 ## Flagged Contradictions
 
