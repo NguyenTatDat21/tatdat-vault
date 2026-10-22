@@ -214,6 +214,43 @@
         "references/lu2024-hybrid-evolutionary-algorithm-sop.md",
         "concepts/set-orienteering-problem.md"
       ]
+    },
+    "_papers/lu2024effective/lu2024effective.md": {
+      "content_hash": "b06e2e79d749ad2e472ed96bab8110e9c8b21d1e1d8de522b0d06c404bb8e198",
+      "last_ingested": "2026-10-22T11:32:22.084287+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/yu2024simulated/yu2024simulated-extracted.md": {
+      "content_hash": "9c0e072285a574c4c9b9e25af488bcda790e8326571ab13b7c43c0f6047bc108",
+      "last_ingested": "2026-10-22T11:32:22.147428+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md",
+        "concepts/set-team-orienteering-problem-with-time-windows.md"
+      ]
+    },
+    "_papers/yu2024simulated/yu2024simulated.md": {
+      "content_hash": "e75c4e352a74182e04f5616293a2844cc64c06749f81094bac77dca905bd79f5",
+      "last_ingested": "2026-10-22T11:32:22.209060+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/cheng2020drone/cheng2020drone-extracted.md": {
+      "content_hash": "d56a75cb0264eadcf0cf4de41937da32df86e059d858e494e1d580a18ecf1e53",
+      "last_ingested": "2026-10-22T11:32:22.274712+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
+      ]
+    },
+    "_papers/cheng2020drone/cheng2020drone.md": {
+      "content_hash": "0c65ef6f5b4eb1d49ae6c12c54b1a7227645eb79a78534b67c535788623ce4ce",
+      "last_ingested": "2026-10-22T11:32:22.331131+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md"
+      ]
     }
   }
 }

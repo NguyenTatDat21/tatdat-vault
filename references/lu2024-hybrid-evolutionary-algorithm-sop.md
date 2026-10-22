@@ -11,6 +11,7 @@ relationships:
     type: related_to
 sources:
   - _papers/lu2024effective/lu2024effective-extracted.md
+  - _papers/lu2024effective/lu2024effective.md
 summary: Presents a hybrid evolutionary algorithm for SOP with cluster-aware crossover and two-phase local refinement, reporting strong benchmark performance.
 provenance:
   extracted: 0.9
@@ -21,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T11:22:57Z
+updated: 2026-10-22T11:29:44Z
 ---
 
 # Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)
@@ -60,6 +61,15 @@ From the source text:
 - Performance evidence is benchmark-heavy; real deployment quality depends on travel-time and clustering calibration. ^[inferred]
 - Reported improvement counts vary by section and benchmark slice, so exact headline counts should be interpreted with the comparison setup in mind. ^[ambiguous]
 
+## Bibliographic Record
+
+- Citation key: `lu2024effective`
+- DOI: `10.1016/j.ins.2023.119813`
+- Canonical URL: https://www.sciencedirect.com/science/article/pii/S0020025523013981
+- Publication: *Information Sciences* (2024)
+- Authors: Yongliang Lu, Una Benlic, Qinghua Wu
+- Companion metadata note: [[_papers/lu2024effective/lu2024effective.md]]
+
 ## Related
 
 - [[concepts/set-orienteering-problem]]
@@ -71,3 +81,4 @@ From the source text:
 ## Sources
 
 - [[_papers/lu2024effective/lu2024effective-extracted.md]]
+- [[_papers/lu2024effective/lu2024effective.md]]

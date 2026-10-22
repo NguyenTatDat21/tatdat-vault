@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T11:24:48Z
-pages: 268
+updated: 2026-10-22T11:32:24Z
+pages: 272
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/nguyen2022mincost/nguyen2022mincost-extracted.md pages_created=2 pages_updated=0 ...
-- [2026-10-22] INGEST source=_papers/nguyen2022mincost/nguyen2022mincost.md pages_created=0 pages_updated=1 ...
-- [2026-10-22] INGEST source=_papers/lu2024effective/lu2024effective-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/yu2024simulated/yu2024simulated.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/cheng2020drone/cheng2020drone-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/cheng2020drone/cheng2020drone.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Added first SOP cluster: Lu 2024 HEA reference plus a Set Orienteering Problem concept page, including the feasible/infeasible local-refinement pattern and benchmark performance signals.
+Attached bibliographic metadata to Cheng 2020 energy-routing reference (citation key, DOI, canonical URL, authors).
 
 ## Flagged Contradictions
 
