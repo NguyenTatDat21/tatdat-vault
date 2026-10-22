@@ -206,6 +206,14 @@
       "pages_produced": [
         "references/nguyen2022-min-cost-pdsvrp.md"
       ]
+    },
+    "_papers/lu2024effective/lu2024effective-extracted.md": {
+      "content_hash": "5c6aa36aac03ba16176fa7516e88318b92d505d788589178df36caf6b38f5486",
+      "last_ingested": "2026-10-22T11:24:47.548551+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md",
+        "concepts/set-orienteering-problem.md"
+      ]
     }
   }
 }
