@@ -95,7 +95,7 @@ $$
 We set $p = 2 b - 1$ (hence, $p \geq - 1 )$ . Similar to Anily (1998), we consider a nonlinear relaxation of the GMSP. This relaxation provides a lower bound on the long-run average cost of the optimal schedule. Consider the following nonlinear program with variables $\tau _ { 1 } , \ldots , \tau _ { m } .$
 
 $$
-\begin{array}{l} \text {minimize} \frac {1}{2} \sum_ {i = 1} ^ {m} a _ {i} (\tau_ {i} + p) + \sum_ {i = 1} ^ {m} c _ {i} / \tau_ {i}, \\ \text {subject to} \sum_ {i = 1} ^ {m} (1 / \tau_ {i}) \leq M \\ \tau_ {i} \geq 1 \quad (1 \leq i \leq m). \end{array}\tag{1}
+\begin{array}{l l} \hline \text {minimize} & \frac {1}{2} \sum_ {i = 1} ^ {m} a _ {i} (\tau_ {i} + p) + \sum_ {i = 1} ^ {m} c _ {i} / \tau_ {i}, \\ \text {subject to} & \sum_ {i = 1} ^ {m} (1 / \tau_ {i}) \leq M \\ & \tau_ {i} \geq 1 \quad (1 \leq i \leq m). \end{array}\tag{1}
 $$
 
 Intuitively, in the nonlinear program we schedule each of the m machines in fixed periods such that the average cost is minimized. This is a relaxation because these periods may be fractional and may not be achievable simultaneously for all machines.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract missing paper markdown files with mineru-kit.
+"""Extract missing paper markdown/images with mineru-kit zip output.
 
 A paper note is expected at `_papers/<paper-id>/<paper-id>.md` and should contain:
 - `extracted-pdf: "[[...]]"` in frontmatter (fallback: `<note-stem>-extracted.md`)
@@ -17,6 +17,8 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
+import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import unquote
@@ -34,7 +36,7 @@ class PaperJob:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Extract missing _papers markdown with mineru-kit")
+    parser = argparse.ArgumentParser(description="Extract missing _papers markdown/images with mineru-kit")
     parser.add_argument("--papers-root", default="_papers", help="Root folder containing paper notes (default: _papers)")
     parser.add_argument(
         "--tier",
@@ -115,6 +117,29 @@ def build_mineru_prefix(args: argparse.Namespace) -> list[str]:
     )
 
 
+def copy_mineru_zip_output(zip_path: Path, extracted_path: Path) -> None:
+    with tempfile.TemporaryDirectory(prefix="extract-missing-papers-") as unpack_dir_str:
+        unpack_dir = Path(unpack_dir_str)
+        with zipfile.ZipFile(zip_path) as archive:
+            archive.extractall(unpack_dir)
+
+        markdown_src = unpack_dir / "markdown.md"
+        if not markdown_src.exists():
+            raise RuntimeError(f"zip output missing markdown.md: {zip_path}")
+
+        extracted_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(markdown_src, extracted_path)
+
+        images_src = unpack_dir / "images"
+        if images_src.is_dir():
+            images_dest = extracted_path.parent / "images"
+            if images_dest.exists():
+                if images_dest.is_dir():
+                    shutil.rmtree(images_dest)
+                else:
+                    images_dest.unlink()
+            shutil.copytree(images_src, images_dest)
+
 def find_jobs(repo_root: Path, papers_root: Path, force: bool) -> tuple[list[PaperJob], list[Path], list[tuple[Path, Path]]]:
     jobs: list[PaperJob] = []
     notes_missing_pdf_link: list[Path] = []
@@ -183,32 +208,51 @@ def main() -> int:
         print(f"  pdf: {job.pdf_path}")
         print(f"  out: {rel(job.extracted_path, repo_root)}")
 
-        cmd = [
-            *mineru_prefix,
-            "parse",
-            str(job.pdf_path),
-            "-o",
-            str(job.extracted_path),
-            "--tier",
-            args.tier,
-            "-f",
-            "markdown",
-        ]
+        with tempfile.TemporaryDirectory(prefix="extract-missing-papers-") as output_dir_str:
+            output_dir = Path(output_dir_str)
+            cmd = [
+                *mineru_prefix,
+                "parse",
+                str(job.pdf_path),
+                "-o",
+                str(output_dir),
+                "--tier",
+                args.tier,
+                "-f",
+                "zip",
+            ]
 
-        if args.dry_run:
-            print("  dry-run: " + " ".join(cmd))
-            continue
+            if args.dry_run:
+                print("  dry-run: " + " ".join(cmd))
+                print(f"  dry-run copy: {rel(job.extracted_path, repo_root)} (+ images/)")
+                continue
 
-        job.extracted_path.parent.mkdir(parents=True, exist_ok=True)
-        result = subprocess.run(cmd)
-        if result.returncode == 0:
+            result = subprocess.run(cmd)
+            if result.returncode != 0:
+                failures.append((job, result.returncode))
+                print(f"  ERROR: mineru exited with code {result.returncode}", file=sys.stderr)
+                if not args.keep_going:
+                    break
+                continue
+
+            zip_files = sorted(output_dir.glob("*.zip"))
+            if not zip_files:
+                failures.append((job, 98))
+                print("  ERROR: mineru returned success but no zip output was found", file=sys.stderr)
+                if not args.keep_going:
+                    break
+                continue
+
+            try:
+                copy_mineru_zip_output(zip_files[0], job.extracted_path)
+            except (OSError, RuntimeError, zipfile.BadZipFile) as exc:
+                failures.append((job, 99))
+                print(f"  ERROR: failed to extract zip output: {exc}", file=sys.stderr)
+                if not args.keep_going:
+                    break
+                continue
+
             success_count += 1
-            continue
-
-        failures.append((job, result.returncode))
-        print(f"  ERROR: mineru exited with code {result.returncode}", file=sys.stderr)
-        if not args.keep_going:
-            break
 
     print("\nSummary")
     print(f"- Success: {success_count}")
