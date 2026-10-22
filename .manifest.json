@@ -98,6 +98,54 @@
         "references/paradiso2020-esf-multitrip-vrptw.md",
         "concepts/exact-multitrip-vrptw-framework.md"
       ]
+    },
+    "_papers/yang2022solving/yang2022solving-extracted.md": {
+      "content_hash": "1f591ddb28a7eb48088a08fd1a66eedf51161f01f6e56e2199daae3e6d905ee1",
+      "last_ingested": "2026-10-22T09:54:08.684697+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md",
+        "concepts/bilevel-vrpd-task-assignment-routing.md"
+      ]
+    },
+    "_papers/yang2022solving/yang2022solving.md": {
+      "content_hash": "805bf822ee8e24e812c24b447e5d309cae4394886ca197dec33fd36dde4bcc83",
+      "last_ingested": "2026-10-22T09:54:08.746571+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md",
+        "concepts/bilevel-vrpd-task-assignment-routing.md"
+      ]
+    },
+    "_papers/ha2018mincost/ha2018mincost-extracted.md": {
+      "content_hash": "1e80d3f7f25275010dd5f091237769dff3f7a8d2215c5c9a9c3399db01971f36",
+      "last_ingested": "2026-10-22T09:54:08.807451+00:00",
+      "pages_produced": [
+        "references/ha2018-min-cost-tsp-d.md",
+        "concepts/min-cost-tsp-with-drone.md"
+      ]
+    },
+    "_papers/ha2018mincost/ha2018mincost.md": {
+      "content_hash": "9b2f1e215e43cada82da6a222e4df87618ce19ca4ac281f516d24baf7d2bf49d",
+      "last_ingested": "2026-10-22T09:54:08.868553+00:00",
+      "pages_produced": [
+        "references/ha2018-min-cost-tsp-d.md",
+        "concepts/min-cost-tsp-with-drone.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md": {
+      "content_hash": "9d0d04b4d69707702fe01f6707796ccbbb3306e2923a1e61a7fbb1c8c08ffbb3",
+      "last_ingested": "2026-10-22T09:54:08.928203+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/mutlu2016comprehensive.md": {
+      "content_hash": "c2cf17ab00444d670e894c634472093d942c60e4c9dfe5d32194a35011e21837",
+      "last_ingested": "2026-10-22T09:54:08.995490+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
     }
   }
 }
