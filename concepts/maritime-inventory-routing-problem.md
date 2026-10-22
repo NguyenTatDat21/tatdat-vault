@@ -1,0 +1,87 @@
+---
+title: Maritime Inventory Routing Problem
+category: concepts
+tags: [maritime, inventory-routing, ship-routing-scheduling, logistics]
+relationships:
+  - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
+    type: derived_from
+  - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
+    type: related_to
+  - target: "[[concepts/annual-lng-delivery-program]]"
+    type: related_to
+  - target: "[[concepts/maritime-routing-under-uncertainty]]"
+    type: related_to
+sources:
+  - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
+  - _papers/christiansen2013ship/christiansen2013ship-extracted.md
+summary: >-
+  Defines integrated maritime planning where ship routing/scheduling and port inventory dynamics are optimized jointly, plus common extension patterns used in industrial shipping models.
+provenance:
+  extracted: 0.86
+  inferred: 0.12
+  ambiguous: 0.02
+base_confidence: 0.67
+lifecycle: draft
+lifecycle_changed: 2026-10-22
+tier: supporting
+created: 2026-10-22T23:17:15Z
+updated: 2026-10-22T23:17:15Z
+---
+
+# Maritime Inventory Routing Problem
+
+The **Maritime Inventory Routing Problem (MIRP / ISRP)** integrates vessel routing/scheduling with inventory feasibility at production and consumption ports. Unlike classical VRP, route quality is inseparable from stock trajectories over time.
+
+## Core Structure
+
+Typical MIRP formulations couple:
+- ship movement and visit sequencing,
+- loading/unloading quantity decisions,
+- inventory balance over time at ports,
+- inventory lower/upper safety constraints,
+- vessel capacity and timing constraints.
+
+A generic inventory balance form is:
+
+$$
+S_{i,t}=S_{i,t-1}+\text{production/arrival}_{i,t}-\text{consumption/shipment}_{i,t}
+$$
+
+with bounds:
+
+$$
+S_{\min,i}\le S_{i,t} \le S_{\max,i}
+$$
+
+## Why It Matters
+
+- It captures stockout/overflow risks directly rather than treating routing and inventory as separate planning layers.
+- It supports industrial cases such as LNG and bulk shipping where shipment timing and port stock are tightly coupled.
+- It exposes trade-offs between routing cost, service timing, and inventory risk.
+
+## Common Extension Axes
+
+From the reviewed maritime literature, MIRP variants frequently add:
+- one-sided inventory constraints,
+- variable production/consumption rates,
+- multi-product and compartment constraints,
+- spot charters and contract heterogeneity,
+- weather/speed uncertainty and rolling-horizon replanning.
+
+## Open Questions
+
+- Which decomposition patterns are most robust for very large MIRP instances with uncertainty? ^[inferred]
+- How should digital-twin and real-time AIS/port data be incorporated without destabilizing optimization cycles? ^[inferred]
+
+## Related
+
+- [[references/christiansen2008-maritime-inventory-routing-problems]]
+- [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
+- [[references/mutlu2016-lng-annual-delivery-program]]
+- [[concepts/annual-lng-delivery-program]]
+- [[concepts/maritime-routing-under-uncertainty]]
+
+## Sources
+
+- [[_papers/christiansen2008maritime/christiansen2008maritime-extracted.md]]
+- [[_papers/christiansen2013ship/christiansen2013ship-extracted.md]]

@@ -239,7 +239,7 @@
     },
     "_papers/cheng2020drone/cheng2020drone-extracted.md": {
       "content_hash": "afb3aa2fbac72a2e32b9a77ebb31051b38b610f8c1346d5c6b9c385121fd042f",
-      "last_ingested": "2026-10-22T18:14:26.317262+00:00",
+      "last_ingested": "2026-10-22T23:22:03.219772+00:00",
       "pages_produced": [
         "references/cheng2020-drone-routing-energy-function.md",
         "concepts/nonlinear-drone-energy-function-in-routing.md"
@@ -247,9 +247,10 @@
     },
     "_papers/cheng2020drone/cheng2020drone.md": {
       "content_hash": "0c65ef6f5b4eb1d49ae6c12c54b1a7227645eb79a78534b67c535788623ce4ce",
-      "last_ingested": "2026-10-22T11:32:22.331131+00:00",
+      "last_ingested": "2026-10-22T23:22:03.282176+00:00",
       "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md"
+        "references/cheng2020-drone-routing-energy-function.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
       ]
     },
     "_papers/murray2020multiple/murray2020multiple-extracted.md": {
@@ -1149,6 +1150,74 @@
       "pages_produced": [
         "references/chen2010-shrinkage-mmse-covariance-estimation.md",
         "concepts/mmse-covariance-shrinkage.md"
+      ]
+    },
+    "_papers/christiansen2007chapter/christiansen2007chapter-extracted.md": {
+      "content_hash": "d8611e92d52019503cc43e1b91043acd5bd8ad36b20800ab5f87d6786c9ee364",
+      "last_ingested": "2026-10-22T23:22:03.345216+00:00",
+      "pages_produced": [
+        "references/christiansen2007-maritime-transportation-operations-research.md"
+      ]
+    },
+    "_papers/christiansen2007chapter/christiansen2007chapter.md": {
+      "content_hash": "d7b3daf5ee5a8845ef238bf17c22a4870971c33db402801813df97c60ab0499c",
+      "last_ingested": "2026-10-22T23:22:03.415632+00:00",
+      "pages_produced": [
+        "references/christiansen2007-maritime-transportation-operations-research.md"
+      ]
+    },
+    "_papers/christiansen2008maritime/christiansen2008maritime-extracted.md": {
+      "content_hash": "92cc53059a611bff46fc6f9997e8a150f751c4967ba11c37fc00865ed27a6632",
+      "last_ingested": "2026-10-22T23:22:03.482037+00:00",
+      "pages_produced": [
+        "references/christiansen2008-maritime-inventory-routing-problems.md",
+        "concepts/maritime-inventory-routing-problem.md"
+      ]
+    },
+    "_papers/christiansen2008maritime/christiansen2008maritime.md": {
+      "content_hash": "ec4fec3bd55c9b4ed12739fe33806107c80f1c4268f03b76505ee17fb13e37b5",
+      "last_ingested": "2026-10-22T23:22:03.549568+00:00",
+      "pages_produced": [
+        "references/christiansen2008-maritime-inventory-routing-problems.md",
+        "concepts/maritime-inventory-routing-problem.md"
+      ]
+    },
+    "_papers/christiansen2013ship/christiansen2013ship-extracted.md": {
+      "content_hash": "4aeefb415e6ab2354e91b94bd1efa32537e3b8623685493e1a46a40ad9cf50c1",
+      "last_ingested": "2026-10-22T23:22:03.613620+00:00",
+      "pages_produced": [
+        "references/christiansen2013-ship-routing-scheduling-new-millennium.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/liner-shipping-network-design.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/christiansen2013ship/christiansen2013ship.md": {
+      "content_hash": "bcc63932a86b76f10bfcb887e8b9630bd356cd3b0feda3f842efa888365dd4a5",
+      "last_ingested": "2026-10-22T23:22:03.664209+00:00",
+      "pages_produced": [
+        "references/christiansen2013-ship-routing-scheduling-new-millennium.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/liner-shipping-network-design.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/christiansen2020liner/christiansen2020liner-extracted.md": {
+      "content_hash": "190ef9018f7e7f9633a33777d9237c744e96ce3dbff58194daa4956bedbdef96",
+      "last_ingested": "2026-10-22T23:22:03.713847+00:00",
+      "pages_produced": [
+        "references/christiansen2020-liner-shipping-network-design.md",
+        "concepts/liner-shipping-network-design.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/christiansen2020liner/christiansen2020liner.md": {
+      "content_hash": "78940b5c02d604ae661cc6f4f770d69bc00ecc641b845907b0ff07b4715491cb",
+      "last_ingested": "2026-10-22T23:22:03.763276+00:00",
+      "pages_produced": [
+        "references/christiansen2020-liner-shipping-network-design.md",
+        "concepts/liner-shipping-network-design.md",
+        "concepts/maritime-routing-under-uncertainty.md"
       ]
     }
   }

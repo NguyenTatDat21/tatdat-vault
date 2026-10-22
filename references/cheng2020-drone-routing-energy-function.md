@@ -9,6 +9,8 @@ relationships:
     type: uses
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
+  - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
+    type: related_to
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -79,6 +81,7 @@ The paper notes that the energy model omits some effects (e.g., takeoff/landing 
 - [[concepts/payload-induced-drone-battery-consumption-rate]]
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[references/poikonen2020-k-mvdrp]]
+- [[references/ahmadi-javid2022-drone-delivery-energy-formulation]]
 - [[_papers/cheng2020drone/cheng2020drone-extracted]]
 
 ## Sources
