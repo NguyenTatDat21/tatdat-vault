@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
+  - target: "[[concepts/mmse-covariance-shrinkage]]"
+    type: uses
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md
@@ -76,7 +78,7 @@ $$
 ## Limitations
 
 - The formulation assumes ordering beliefs are internally consistent enough to define a meaningful feasible return set.
-- Performance depends on belief quality and covariance estimation, so robustness under belief misspecification needs case-specific testing. ^[inferred]
+- Performance depends on belief quality and [[concepts/mmse-covariance-shrinkage|covariance estimation]], so robustness under belief misspecification needs case-specific testing. ^[inferred]
 
 ## Related
 

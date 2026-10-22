@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
+  - target: "[[concepts/mmse-covariance-shrinkage]]"
+    type: uses
 sources:
   - _papers/black1992global/black1992global-extracted.md
   - _papers/black1992global/black1992global.md
@@ -89,7 +91,7 @@ $$
 ## Limitations
 
 - Equilibrium assumptions and confidence calibration still require judgment.
-- Practical outputs remain sensitive to covariance estimates and view specification.
+- Practical outputs remain sensitive to [[concepts/mmse-covariance-shrinkage|covariance estimates]] and view specification.
 - Original exposition is partly heuristic and uses illustrative examples rather than one unified empirical testbed. ^[inferred]
 
 ## Related

@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
+  - target: "[[references/boland2017-continuous-time-service-network-design]]"
+    type: related_to
 sources:
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted.md
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice.md
@@ -86,6 +88,7 @@ $$
 ## Related
 
 - [[concepts/branch-and-price-column-generation]]
+- [[references/boland2017-continuous-time-service-network-design]]
 - [[references/archetti2023-branch-and-cut-sop]]
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]

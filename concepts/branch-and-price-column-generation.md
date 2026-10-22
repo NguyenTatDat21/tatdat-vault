@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
+  - target: "[[references/boland2017-continuous-time-service-network-design]]"
+    type: related_to
 sources:
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted.md
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice.md
@@ -46,6 +48,7 @@ Branch-and-price is an exact method for large integer programs where explicit en
 ## Related
 
 - [[references/barnhart1998-branch-and-price-column-generation]]
+- [[references/boland2017-continuous-time-service-network-design]]
 - [[references/archetti2023-branch-and-cut-sop]]
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
