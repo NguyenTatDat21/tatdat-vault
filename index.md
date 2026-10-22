@@ -247,11 +247,17 @@ generated_by: obsidian-wiki memory index
 ## Concepts
 
 - [[concepts/cp-sat-hint-start]] — A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models. ( #constraint-programming #cp-sat #vrp #warm-start)
+- [[concepts/hyper-heuristics]] — Hyper-heuristics optimize over heuristics rather than direct solutions, mainly via heuristic selection or generation with online, offline, or no learning. ( #metaheuristics #hyper-heuristics #optimization)
+- [[concepts/large-neighborhood-search]] — LNS improves solutions by repeatedly destroying and repairing large parts of a solution; ALNS adapts operator choice based on observed performance. ( #metaheuristics #lns #alns #routing)
+- [[concepts/parallel-metaheuristics-cooperative-search]] — Parallel metaheuristics run multiple search processes; cooperative variants exchange information to improve robustness and solution quality over independent runs. ( #metaheuristics #parallel-computing #optimization)
 - [[concepts/pdsvrp-c]] — PDSVRP-c extends truck-and-drone routing to multiple trucks plus collaborative drone missions, with a min-makespan objective and synchronization constraints. ( #vrp #drones #last-mile #operations-research)
+- [[concepts/tabu-search]] — Tabu Search is a memory-augmented local search method that allows non-improving moves while using tabu tenure and aspiration to escape local optima. ( #metaheuristics #local-search #operations-research)
+- [[concepts/variable-neighborhood-search]] — VNS systematically changes neighborhood structures during search; key variants include VND, RVNS, and BVNS with shake-and-descent cycles. ( #metaheuristics #local-search #neighborhood-search)
 
 ## References
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality. ( #paper #vrp #drones #constraint-programming)
+- [[references/gendreau2019-handbook-metaheuristics]] — Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization. ( #book #metaheuristics #operations-research #optimization)
 
 ##  Papers
 

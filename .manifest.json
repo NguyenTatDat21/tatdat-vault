@@ -15,6 +15,18 @@
       "pages_produced": [
         "references/montemanni2024-pdsvrp-collective-drones.md"
       ]
+    },
+    "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
+      "content_hash": "46887b3d3fa89ac729f011119864e0cce1daff86068afb52844373c578cc1629",
+      "last_ingested": "2026-10-22T08:38:10.180873+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/tabu-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/parallel-metaheuristics-cooperative-search.md",
+        "concepts/hyper-heuristics.md"
+      ]
     }
   }
 }
