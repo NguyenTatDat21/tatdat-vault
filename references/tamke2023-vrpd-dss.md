@@ -13,6 +13,10 @@ relationships:
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
   - _papers/tamke2023vehicle/tamke2023vehicle.md
+  - _papers/tamke2023vehicle/images/page_7_chart_0.jpg
+  - _papers/tamke2023vehicle/images/page_7_chart_2.jpg
+  - _papers/tamke2023vehicle/images/page_7_chart_4.jpg
+  - _papers/tamke2023vehicle/images/page_10_chart_0.jpg
 summary: >-
   Introduces VRPD-DSS with discrete drone-speed decisions and payload-aware energy costs, showing that adaptive speed choices beat constant-speed operations in truck-drone delivery.
 provenance:
@@ -24,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T09:27:38Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Vehicle Routing Problem with Drones and Drone Speed Selection (Tamke & Buscher, 2023)
@@ -88,3 +92,7 @@ Savings against truck-only delivery remained significant, and most savings were 
 
 - [[_papers/tamke2023vehicle/tamke2023vehicle-extracted.md]]
 - [[_papers/tamke2023vehicle/tamke2023vehicle.md]]
+- [[_papers/tamke2023vehicle/images/page_7_chart_0.jpg]]
+- [[_papers/tamke2023vehicle/images/page_7_chart_2.jpg]]
+- [[_papers/tamke2023vehicle/images/page_7_chart_4.jpg]]
+- [[_papers/tamke2023vehicle/images/page_10_chart_0.jpg]]

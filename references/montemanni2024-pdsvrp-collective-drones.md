@@ -14,6 +14,10 @@ relationships:
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024combining/montemanni2024combining.md
+  - _papers/montemanni2024combining/images/page_52_image_8.jpg
+  - _papers/montemanni2024combining/images/page_53_image_3.jpg
+  - _papers/montemanni2024combining/images/page_54_image_2.jpg
+  - _papers/montemanni2024combining/images/page_54_image_5.jpg
 summary: "Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality."
 provenance:
   extracted: 0.8
@@ -24,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T08:24:34Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones
@@ -117,3 +121,7 @@ The paper concludes that hint-start is beneficial for both lower bounds and heur
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]
 - [[_papers/montemanni2024combining/montemanni2024combining.md]]
+- [[_papers/montemanni2024combining/images/page_52_image_8.jpg]]
+- [[_papers/montemanni2024combining/images/page_53_image_3.jpg]]
+- [[_papers/montemanni2024combining/images/page_54_image_2.jpg]]
+- [[_papers/montemanni2024combining/images/page_54_image_5.jpg]]

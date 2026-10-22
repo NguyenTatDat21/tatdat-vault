@@ -14,6 +14,12 @@ relationships:
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md
+  - _papers/torabbeigi2020drone/images/page_2_chart_2.jpg
+  - _papers/torabbeigi2020drone/images/page_3_chart_1.jpg
+  - _papers/torabbeigi2020drone/images/page_9_chart_1.jpg
+  - _papers/torabbeigi2020drone/images/page_0_image_2.jpg
+  - _papers/torabbeigi2020drone/images/page_6_image_9.jpg
+  - _papers/torabbeigi2020drone/images/page_10_image_1.jpg
 summary: Introduces payload-dependent battery-consumption modeling for drone delivery and shows that ignoring it can make planned routes infeasible.
 provenance:
   extracted: 0.89
@@ -24,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T10:00:17Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Payload-induced Battery Consumption in Drone Delivery Scheduling (Torabbeigi et al., 2020)
@@ -88,3 +94,9 @@ The OP stage is formulated as an optimization model with preprocessing and bound
 
 - [[_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md]]
 - [[_papers/torabbeigi2020drone/torabbeigi2020drone.md]]
+- [[_papers/torabbeigi2020drone/images/page_2_chart_2.jpg]]
+- [[_papers/torabbeigi2020drone/images/page_3_chart_1.jpg]]
+- [[_papers/torabbeigi2020drone/images/page_9_chart_1.jpg]]
+- [[_papers/torabbeigi2020drone/images/page_0_image_2.jpg]]
+- [[_papers/torabbeigi2020drone/images/page_6_image_9.jpg]]
+- [[_papers/torabbeigi2020drone/images/page_10_image_1.jpg]]

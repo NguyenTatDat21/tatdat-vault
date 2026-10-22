@@ -13,6 +13,9 @@ relationships:
 sources:
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md
+  - _papers/ksciuk2023uncertainty/images/page_0_image_9.jpg
+  - _papers/ksciuk2023uncertainty/images/page_2_image_2.jpg
+  - _papers/ksciuk2023uncertainty/images/page_2_image_4.jpg
 summary: >-
   Surveys uncertainty modeling in maritime routing/scheduling across strategic, tactical, and operational decisions, highlighting a major gap between academic methods and industry adoption.
 provenance:
@@ -24,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T09:12:13Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)
@@ -88,3 +91,6 @@ Some recommendations imply a shift toward hybrid decision pipelines (forecasting
 
 - [[_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md]]
 - [[_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md]]
+- [[_papers/ksciuk2023uncertainty/images/page_0_image_9.jpg]]
+- [[_papers/ksciuk2023uncertainty/images/page_2_image_2.jpg]]
+- [[_papers/ksciuk2023uncertainty/images/page_2_image_4.jpg]]

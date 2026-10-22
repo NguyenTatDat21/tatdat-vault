@@ -13,6 +13,10 @@ relationships:
 sources:
   - _papers/ha2018mincost/ha2018mincost-extracted.md
   - _papers/ha2018mincost/ha2018mincost.md
+  - _papers/ha2018mincost/images/page_8_image_2.jpg
+  - _papers/ha2018mincost/images/page_8_image_4.jpg
+  - _papers/ha2018mincost/images/page_23_image_6.jpg
+  - _papers/ha2018mincost/images/page_29_image_0.jpg
 summary: >-
   Defines min-cost TSP-D with transportation and waiting penalties, and shows split-based GRASP consistently beats TSP-LS in cost quality with acceptable runtime.
 provenance:
@@ -24,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T09:52:03Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Min-cost Traveling Salesman Problem with Drone (Ha et al., 2018)
@@ -109,3 +113,7 @@ The authors also report that min-cost solutions tend to use drones more frequent
 
 - [[_papers/ha2018mincost/ha2018mincost-extracted.md]]
 - [[_papers/ha2018mincost/ha2018mincost.md]]
+- [[_papers/ha2018mincost/images/page_8_image_2.jpg]]
+- [[_papers/ha2018mincost/images/page_8_image_4.jpg]]
+- [[_papers/ha2018mincost/images/page_23_image_6.jpg]]
+- [[_papers/ha2018mincost/images/page_29_image_0.jpg]]

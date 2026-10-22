@@ -12,6 +12,12 @@ relationships:
 sources:
   - _papers/lu2024effective/lu2024effective-extracted.md
   - _papers/lu2024effective/lu2024effective.md
+  - _papers/lu2024effective/images/page_0_image_8.jpg
+  - _papers/lu2024effective/images/page_3_image_2.jpg
+  - _papers/lu2024effective/images/page_6_image_2.jpg
+  - _papers/lu2024effective/images/page_8_image_2.jpg
+  - _papers/lu2024effective/images/page_17_chart_5.jpg
+  - _papers/lu2024effective/images/page_17_chart_7.jpg
 summary: Presents a hybrid evolutionary algorithm for SOP with cluster-aware crossover and two-phase local refinement, reporting strong benchmark performance.
 provenance:
   extracted: 0.9
@@ -22,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T11:29:44Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)
@@ -82,3 +88,9 @@ From the source text:
 
 - [[_papers/lu2024effective/lu2024effective-extracted.md]]
 - [[_papers/lu2024effective/lu2024effective.md]]
+- [[_papers/lu2024effective/images/page_0_image_8.jpg]]
+- [[_papers/lu2024effective/images/page_3_image_2.jpg]]
+- [[_papers/lu2024effective/images/page_6_image_2.jpg]]
+- [[_papers/lu2024effective/images/page_8_image_2.jpg]]
+- [[_papers/lu2024effective/images/page_17_chart_5.jpg]]
+- [[_papers/lu2024effective/images/page_17_chart_7.jpg]]

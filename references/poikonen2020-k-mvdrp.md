@@ -13,6 +13,11 @@ relationships:
 sources:
   - _papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md
   - _papers/poikonen2020multivisit/poikonen2020multivisit.md
+  - _papers/poikonen2020multivisit/images/page_8_chart_2.jpg
+  - _papers/poikonen2020multivisit/images/page_21_chart_1.jpg
+  - _papers/poikonen2020multivisit/images/page_21_chart_3.jpg
+  - _papers/poikonen2020multivisit/images/page_26_chart_1.jpg
+  - _papers/poikonen2020multivisit/images/page_15_image_1.jpg
 summary: >-
   Introduces k-MVDRP and an RTS heuristic for truck-multi-drone routing with weight-aware energy limits, showing major sensitivity to drone speed, fleet size, and battery assumptions.
 provenance:
@@ -24,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-22T09:03:37Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Multi-visit Drone Routing Problem (Poikonen & Golden, 2020)
@@ -138,3 +143,8 @@ These constraints indicate the approach prioritizes tractability over exactness 
 
 - [[_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md]]
 - [[_papers/poikonen2020multivisit/poikonen2020multivisit.md]]
+- [[_papers/poikonen2020multivisit/images/page_8_chart_2.jpg]]
+- [[_papers/poikonen2020multivisit/images/page_21_chart_1.jpg]]
+- [[_papers/poikonen2020multivisit/images/page_21_chart_3.jpg]]
+- [[_papers/poikonen2020multivisit/images/page_26_chart_1.jpg]]
+- [[_papers/poikonen2020multivisit/images/page_15_image_1.jpg]]

@@ -12,6 +12,9 @@ relationships:
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
+  - _papers/cheng2020drone/images/page_0_image_9.jpg
+  - _papers/cheng2020drone/images/page_5_chart_2.jpg
+  - _papers/cheng2020drone/images/page_7_chart_2.jpg
 summary: Formulates multi-trip drone routing with nonlinear payload-dependent energy and solves it via branch-and-cut with logical and subgradient cuts.
 provenance:
   extracted: 0.92
@@ -22,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T11:29:44Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Drone Routing with Nonlinear Energy Function (Cheng et al.)
@@ -82,3 +85,6 @@ The paper notes that the energy model omits some effects (e.g., takeoff/landing 
 
 - [[_papers/cheng2020drone/cheng2020drone-extracted.md]]
 - [[_papers/cheng2020drone/cheng2020drone.md]]
+- [[_papers/cheng2020drone/images/page_0_image_9.jpg]]
+- [[_papers/cheng2020drone/images/page_5_chart_2.jpg]]
+- [[_papers/cheng2020drone/images/page_7_chart_2.jpg]]

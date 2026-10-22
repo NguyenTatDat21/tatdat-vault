@@ -14,6 +14,11 @@ relationships:
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md
+  - _papers/hendel2022adaptive/images/page_0_image_2.jpg
+  - _papers/hendel2022adaptive/images/page_19_chart_2.jpg
+  - _papers/hendel2022adaptive/images/page_24_chart_2.jpg
+  - _papers/hendel2022adaptive/images/page_25_chart_2.jpg
+  - _papers/hendel2022adaptive/images/page_27_chart_2.jpg
 summary: Proposes ALNS as a general MIP primal heuristic with adaptive subproblem selection and dynamic budgets, improving SCIP primal quality on broad benchmarks.
 provenance:
   extracted: 0.90
@@ -24,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T10:00:17Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Adaptive Large Neighborhood Search for Mixed Integer Programming (Hendel, 2022)
@@ -88,3 +93,8 @@ Reported computational evidence includes large-scale simulation plus SCIP integr
 
 - [[_papers/hendel2022adaptive/hendel2022adaptive-extracted.md]]
 - [[_papers/hendel2022adaptive/hendel2022adaptive.md]]
+- [[_papers/hendel2022adaptive/images/page_0_image_2.jpg]]
+- [[_papers/hendel2022adaptive/images/page_19_chart_2.jpg]]
+- [[_papers/hendel2022adaptive/images/page_24_chart_2.jpg]]
+- [[_papers/hendel2022adaptive/images/page_25_chart_2.jpg]]
+- [[_papers/hendel2022adaptive/images/page_27_chart_2.jpg]]

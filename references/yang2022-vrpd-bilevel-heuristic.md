@@ -13,6 +13,10 @@ relationships:
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md
+  - _papers/yang2022solving/images/page_2_image_0.jpg
+  - _papers/yang2022solving/images/page_4_image_8.jpg
+  - _papers/yang2022solving/images/page_5_chart_0.jpg
+  - _papers/yang2022solving/images/page_5_chart_2.jpg
 summary: >-
   Introduces a bi-level VRPD heuristic that combines BSO assignment and ALNS routing to reduce customer waiting time in multi-truck, multi-station drone delivery.
 provenance:
@@ -24,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T09:52:03Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Solving Vehicle Routing with Drones via Bi-level Heuristic (Yang et al., 2022)
@@ -109,3 +113,7 @@ The paper also reports lower variance for BSO-OS than the other two methods acro
 
 - [[_papers/yang2022solving/yang2022solving-extracted.md]]
 - [[_papers/yang2022solving/yang2022solving.md]]
+- [[_papers/yang2022solving/images/page_2_image_0.jpg]]
+- [[_papers/yang2022solving/images/page_4_image_8.jpg]]
+- [[_papers/yang2022solving/images/page_5_chart_0.jpg]]
+- [[_papers/yang2022solving/images/page_5_chart_2.jpg]]

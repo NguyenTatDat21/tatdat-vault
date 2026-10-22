@@ -19,6 +19,13 @@ relationships:
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
+  - _papers/gendreau2019handbook/images/page_20_image_3.jpg
+  - _papers/gendreau2019handbook/images/page_20_image_4.jpg
+  - _papers/gendreau2019handbook/images/page_26_image_2.jpg
+  - _papers/gendreau2019handbook/images/page_47_image_7.jpg
+  - _papers/gendreau2019handbook/images/page_85_image_2.jpg
+  - _papers/gendreau2019handbook/images/page_123_image_2.jpg
+  - _papers/gendreau2019handbook/images/page_257_image_2.jpg
 summary: >-
   Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization.
 provenance:
@@ -30,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-22T08:44:14Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)
@@ -84,3 +91,10 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 
 - [[_papers/gendreau2019handbook/gendreau2019handbook-extracted.md]]
 - [[_papers/gendreau2019handbook/gendreau2019handbook.md]]
+- [[_papers/gendreau2019handbook/images/page_20_image_3.jpg]]
+- [[_papers/gendreau2019handbook/images/page_20_image_4.jpg]]
+- [[_papers/gendreau2019handbook/images/page_26_image_2.jpg]]
+- [[_papers/gendreau2019handbook/images/page_47_image_7.jpg]]
+- [[_papers/gendreau2019handbook/images/page_85_image_2.jpg]]
+- [[_papers/gendreau2019handbook/images/page_123_image_2.jpg]]
+- [[_papers/gendreau2019handbook/images/page_257_image_2.jpg]]

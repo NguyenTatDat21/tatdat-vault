@@ -13,6 +13,8 @@ relationships:
 sources:
   - _papers/paradiso2020exact/paradiso2020exact-extracted.md
   - _papers/paradiso2020exact/paradiso2020exact.md
+  - _papers/paradiso2020exact/images/page_1_image_2.jpg
+  - _papers/paradiso2020exact/images/page_9_image_13.jpg
 summary: >-
   Proposes a structure-based exact framework (ESF) for multitrip VRP with time windows, combining strong lower bounds and branch-and-cut to solve larger instances than prior exact methods.
 provenance:
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T09:12:13Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Exact Solution Framework for Multitrip VRP with Time Windows (Paradiso et al., 2020)
@@ -84,3 +86,5 @@ The paper identifies structure enumeration as the practical bottleneck for the h
 
 - [[_papers/paradiso2020exact/paradiso2020exact-extracted.md]]
 - [[_papers/paradiso2020exact/paradiso2020exact.md]]
+- [[_papers/paradiso2020exact/images/page_1_image_2.jpg]]
+- [[_papers/paradiso2020exact/images/page_9_image_13.jpg]]

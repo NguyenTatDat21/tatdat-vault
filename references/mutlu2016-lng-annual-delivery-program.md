@@ -13,6 +13,9 @@ relationships:
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
+  - _papers/mutlu2016comprehensive/images/page_8_chart_5.jpg
+  - _papers/mutlu2016comprehensive/images/page_9_chart_2.jpg
+  - _papers/mutlu2016comprehensive/images/page_9_chart_4.jpg
 summary: >-
   Formulates a realistic LNG annual delivery planning problem and shows a vessel-routing heuristic (VRH) beats long-run CPLEX baselines, with notable split-delivery savings.
 provenance:
@@ -24,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T09:52:03Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)
@@ -91,3 +94,6 @@ From the reported computational study on 18 benchmark instances:
 
 - [[_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md]]
 - [[_papers/mutlu2016comprehensive/mutlu2016comprehensive.md]]
+- [[_papers/mutlu2016comprehensive/images/page_8_chart_5.jpg]]
+- [[_papers/mutlu2016comprehensive/images/page_9_chart_2.jpg]]
+- [[_papers/mutlu2016comprehensive/images/page_9_chart_4.jpg]]

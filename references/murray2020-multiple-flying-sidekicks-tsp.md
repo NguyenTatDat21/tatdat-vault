@@ -12,6 +12,14 @@ relationships:
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md
+  - _papers/murray2020multiple/images/page_2_chart_7.jpg
+  - _papers/murray2020multiple/images/page_2_image_0.jpg
+  - _papers/murray2020multiple/images/page_2_image_2.jpg
+  - _papers/murray2020multiple/images/page_2_image_4.jpg
+  - _papers/murray2020multiple/images/page_6_image_1.jpg
+  - _papers/murray2020multiple/images/page_6_image_3.jpg
+  - _papers/murray2020multiple/images/page_6_image_5.jpg
+  - _papers/murray2020multiple/images/page_6_image_7.jpg
 summary: Defines mFSTSP for one truck with multiple heterogeneous drones and proposes a three-phase heuristic with timing MILP to solve practical-scale instances.
 provenance:
   extracted: 0.92
@@ -22,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-22T11:39:28Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (Murray & Raj, 2020)
@@ -94,3 +102,11 @@ The study highlights that several realistic dimensions remain simplified (e.g., 
 
 - [[_papers/murray2020multiple/murray2020multiple-extracted.md]]
 - [[_papers/murray2020multiple/murray2020multiple.md]]
+- [[_papers/murray2020multiple/images/page_2_chart_7.jpg]]
+- [[_papers/murray2020multiple/images/page_2_image_0.jpg]]
+- [[_papers/murray2020multiple/images/page_2_image_2.jpg]]
+- [[_papers/murray2020multiple/images/page_2_image_4.jpg]]
+- [[_papers/murray2020multiple/images/page_6_image_1.jpg]]
+- [[_papers/murray2020multiple/images/page_6_image_3.jpg]]
+- [[_papers/murray2020multiple/images/page_6_image_5.jpg]]
+- [[_papers/murray2020multiple/images/page_6_image_7.jpg]]

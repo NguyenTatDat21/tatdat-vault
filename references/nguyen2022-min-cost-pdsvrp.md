@@ -14,6 +14,13 @@ relationships:
 sources:
   - _papers/nguyen2022mincost/nguyen2022mincost-extracted.md
   - _papers/nguyen2022mincost/nguyen2022mincost.md
+  - _papers/nguyen2022mincost/images/page_0_image_10.jpg
+  - _papers/nguyen2022mincost/images/page_3_image_8.jpg
+  - _papers/nguyen2022mincost/images/page_5_image_2.jpg
+  - _papers/nguyen2022mincost/images/page_6_image_2.jpg
+  - _papers/nguyen2022mincost/images/page_16_chart_4.jpg
+  - _papers/nguyen2022mincost/images/page_18_chart_2.jpg
+  - _papers/nguyen2022mincost/images/page_18_chart_4.jpg
 summary: Introduces the min-cost PDSVRP, a MILP and SISSRs heuristic, with strong performance on instances up to 400 customers and state-of-the-art PDSTSP adaptation.
 provenance:
   extracted: 0.91
@@ -24,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:13:25Z
-updated: 2026-10-22T11:13:25Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # The Min-cost Parallel Drone Scheduling Vehicle Routing Problem (Nguyen et al., 2022)
@@ -90,3 +97,10 @@ Key reported outcomes include:
 
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted.md]]
 - [[_papers/nguyen2022mincost/nguyen2022mincost.md]]
+- [[_papers/nguyen2022mincost/images/page_0_image_10.jpg]]
+- [[_papers/nguyen2022mincost/images/page_3_image_8.jpg]]
+- [[_papers/nguyen2022mincost/images/page_5_image_2.jpg]]
+- [[_papers/nguyen2022mincost/images/page_6_image_2.jpg]]
+- [[_papers/nguyen2022mincost/images/page_16_chart_4.jpg]]
+- [[_papers/nguyen2022mincost/images/page_18_chart_2.jpg]]
+- [[_papers/nguyen2022mincost/images/page_18_chart_4.jpg]]

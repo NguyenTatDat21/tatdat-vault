@@ -14,6 +14,8 @@ relationships:
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md
+  - _papers/hojabri2018large/images/page_0_image_8.jpg
+  - _papers/hojabri2018large/images/page_2_image_2.jpg
 summary: Presents an ALNS framework with CP-based reinsertion for VRP synchronization constraints, showing robust improvements on benchmark sets.
 provenance:
   extracted: 0.85
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T10:00:17Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # ALNS + Constraint Programming for VRP with Synchronization (Hojabri et al., 2018)
@@ -89,3 +91,5 @@ From the tested operator set, **route removal** and **historical node-pair remov
 
 - [[_papers/hojabri2018large/hojabri2018large-extracted.md]]
 - [[_papers/hojabri2018large/hojabri2018large.md]]
+- [[_papers/hojabri2018large/images/page_0_image_8.jpg]]
+- [[_papers/hojabri2018large/images/page_2_image_2.jpg]]

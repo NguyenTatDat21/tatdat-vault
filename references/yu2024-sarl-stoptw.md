@@ -12,6 +12,14 @@ relationships:
 sources:
   - _papers/yu2024simulated/yu2024simulated-extracted.md
   - _papers/yu2024simulated/yu2024simulated.md
+  - _papers/yu2024simulated/images/page_0_image_8.jpg
+  - _papers/yu2024simulated/images/page_5_image_7.jpg
+  - _papers/yu2024simulated/images/page_6_image_2.jpg
+  - _papers/yu2024simulated/images/page_6_image_4.jpg
+  - _papers/yu2024simulated/images/page_9_chart_2.jpg
+  - _papers/yu2024simulated/images/page_9_chart_4.jpg
+  - _papers/yu2024simulated/images/page_9_chart_6.jpg
+  - _papers/yu2024simulated/images/page_9_chart_8.jpg
 summary: Introduces SA_RL for STOPTW and reports strong gains over CPLEX and baseline SA on large clustered time-window orienteering instances.
 provenance:
   extracted: 0.9
@@ -22,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T11:29:44Z
+updated: 2026-10-22T18:14:03Z
 ---
 
 # Simulated Annealing with Reinforcement Learning for STOPTW (Yu et al.)
@@ -85,3 +93,11 @@ From the reported experiments:
 
 - [[_papers/yu2024simulated/yu2024simulated-extracted.md]]
 - [[_papers/yu2024simulated/yu2024simulated.md]]
+- [[_papers/yu2024simulated/images/page_0_image_8.jpg]]
+- [[_papers/yu2024simulated/images/page_5_image_7.jpg]]
+- [[_papers/yu2024simulated/images/page_6_image_2.jpg]]
+- [[_papers/yu2024simulated/images/page_6_image_4.jpg]]
+- [[_papers/yu2024simulated/images/page_9_chart_2.jpg]]
+- [[_papers/yu2024simulated/images/page_9_chart_4.jpg]]
+- [[_papers/yu2024simulated/images/page_9_chart_6.jpg]]
+- [[_papers/yu2024simulated/images/page_9_chart_8.jpg]]
