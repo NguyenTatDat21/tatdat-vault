@@ -1,16 +1,20 @@
 ---
-title: >-
-  Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones (Montemanni et al., 2024)
+title: Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones (Montemanni et al., 2024)
 category: references
-tags: [paper, vrp, drones, constraint-programming]
+tags:
+  - paper
+  - vrp
+  - drones
+  - constraint-programming
 relationships:
   - target: "[[concepts/pdsvrp-c]]"
     type: uses
   - target: "[[concepts/cp-sat-hint-start]]"
     type: implements
-sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
-summary: >-
-  Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality.
+sources:
+  - _papers/montemanni2024combining/montemanni2024combining-extracted.md
+  - _papers/montemanni2024combining/montemanni2024combining.md
+summary: "Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality."
 provenance:
   extracted: 0.8
   inferred: 0.18
@@ -20,13 +24,21 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T08:09:55Z
+updated: 2026-10-22T08:24:34Z
 ---
 
 # Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones
 
 > [!tldr] The paper shows that seeding CP-SAT with a truck-only min-max VRP solution improves bounds and heuristic outcomes for PDSVRP-c, with collaborative drones yielding about 10% average time savings versus truck-only routing.
 
+## Bibliographic Record
+
+- Citation key: `montemanni2024combining`
+- DOI: `10.1007/978-3-031-62912-9_13`
+- URL: <https://link.springer.com/10.1007/978-3-031-62912-9_13>
+- Publication record: *Metaheuristics* (2024)
+- Zotero creators listed in the source note: Roberto Montemanni, Mauro Dell’Amico, Andrea Corsini, Marc Sevaux, Alexandru-Liviu Olteanu, Eduardo G. Pardo, Angelo Sifaleras, Salma Makboul
+- Companion metadata note: [[_papers/montemanni2024combining/montemanni2024combining.md]]
 ## Problem & Motivation
 
 The paper studies last-mile delivery where multiple trucks and multiple drones cooperate in parallel. Some customers can be served by one truck tour, some by drone missions, and some by coordinated (collective) drone groups.
@@ -104,3 +116,4 @@ The paper concludes that hint-start is beneficial for both lower bounds and heur
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]
+- [[_papers/montemanni2024combining/montemanni2024combining.md]]

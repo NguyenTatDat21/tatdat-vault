@@ -8,6 +8,13 @@
         "concepts/pdsvrp-c.md",
         "concepts/cp-sat-hint-start.md"
       ]
+    },
+    "_papers/montemanni2024combining/montemanni2024combining.md": {
+      "content_hash": "60f3f962787f9fcdae356899e49833e22a80aba53784a6ea18be946add9fbe3f",
+      "last_ingested": "2026-10-22T08:25:14.530079+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
     }
   }
 }
