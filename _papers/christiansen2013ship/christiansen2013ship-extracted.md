@@ -294,7 +294,7 @@ $$
 $$
 
 $$
-\sum_ {v \in \mathcal {V}} \sum_ {j \in \mathcal {N} _ {v}} x _ {i j v} \leqslant 1, \quad i \in \mathcal {N} ^ {0},\tag{20}
+\left| \sum_ {v \in \mathcal {V}} \sum_ {j \in \mathcal {N} _ {v}} x _ {i j v} \leqslant 1, \quad i \in \mathcal {N} ^ {0}, \right|\tag{20}
 $$
 
 $$
