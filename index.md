@@ -248,6 +248,7 @@ generated_by: obsidian-wiki memory index
 
 - [[concepts/cp-sat-hint-start]] — A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models. ( #constraint-programming #cp-sat #vrp #warm-start)
 - [[concepts/hyper-heuristics]] — Hyper-heuristics optimize over heuristics rather than direct solutions, mainly via heuristic selection or generation with online, offline, or no learning. ( #metaheuristics #hyper-heuristics #optimization)
+- [[concepts/k-multi-visit-drone-routing-problem]] — k-MVDRP models a truck with k reusable drones under payload-dependent energy limits and operation-level synchronization, optimized for minimum completion time. ( #vrp #drones #last-mile #operations-research)
 - [[concepts/large-neighborhood-search]] — LNS improves solutions by repeatedly destroying and repairing large parts of a solution; ALNS adapts operator choice based on observed performance. ( #metaheuristics #lns #alns #routing)
 - [[concepts/parallel-metaheuristics-cooperative-search]] — Parallel metaheuristics run multiple search processes; cooperative variants exchange information to improve robustness and solution quality over independent runs. ( #metaheuristics #parallel-computing #optimization)
 - [[concepts/pdsvrp-c]] — PDSVRP-c extends truck-and-drone routing to multiple trucks plus collaborative drone missions, with a min-makespan objective and synchronization constraints. ( #vrp #drones #last-mile #operations-research)
@@ -258,6 +259,7 @@ generated_by: obsidian-wiki memory index
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — Deep-dive notes on Montemanni et al. (2024): CP-SAT models for PDSVRP-c and why truck-only VRP hint-start improves bounds and solution quality. ( #paper #vrp #drones #constraint-programming)
 - [[references/gendreau2019-handbook-metaheuristics]] — Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization. ( #book #metaheuristics #operations-research #optimization)
+- [[references/poikonen2020-k-mvdrp]] — Introduces k-MVDRP and an RTS heuristic for truck-multi-drone routing with weight-aware energy limits, showing major sensitivity to drone speed, fleet size, and battery assumptions. ( #paper #drones #vehicle-routing #optimization)
 
 ##  Papers
 

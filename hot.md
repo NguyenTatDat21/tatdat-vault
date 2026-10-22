@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T08:38:16Z
-pages: 244
+updated: 2026-10-22T08:47:09Z
+pages: 246
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/montemanni2024combining/montemanni2024combining.md pages_created=0 pages_updated=1 ...
-- [2026-10-22] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted... pages_created=6 pages_updated=0 ...
-- [2026-10-22] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted... pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/poikonen2020multivisit/poikonen2020multivisit-extra... pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/poikonen2020multivisit/poikonen2020multivisit.md pages_created=0 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Added cross-paper related links from the handbook anchor page to nearby LNS/VNS references for better navigation.
+Attached citation-grade metadata (DOI, canonical URL, publication details) to the new k-MVDRP pages and linked each page to its companion Zotero note.
 
 ## Flagged Contradictions
 

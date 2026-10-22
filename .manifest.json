@@ -27,6 +27,29 @@
         "concepts/parallel-metaheuristics-cooperative-search.md",
         "concepts/hyper-heuristics.md"
       ]
+    },
+    "_papers/gendreau2019handbook/gendreau2019handbook.md": {
+      "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
+      "last_ingested": "2026-10-22T08:46:42.633260+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
+      "content_hash": "2b4cc7fe5681c22892fe93bc38ca553e7153ee40172b998ba9f39cd81e851547",
+      "last_ingested": "2026-10-22T08:46:46.943001+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md",
+        "concepts/k-multi-visit-drone-routing-problem.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/poikonen2020multivisit.md": {
+      "content_hash": "a0550e47d86ca29c38a2e930667d3eb95b6daf66a172c51ef9a0b39bc6279f66",
+      "last_ingested": "2026-10-22T08:46:51.042958+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md",
+        "concepts/k-multi-visit-drone-routing-problem.md"
+      ]
     }
   }
 }

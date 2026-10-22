@@ -18,6 +18,7 @@ relationships:
     type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
+  - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
   Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization.
 provenance:
@@ -29,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-22T08:37:38Z
+updated: 2026-10-22T08:44:14Z
 ---
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)
@@ -52,6 +53,15 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 - **Parallel Metaheuristics (Chapter 13):** cooperative multi-search taxonomies and communication design trade-offs.
 - **Hyper-Heuristics (Chapter 14):** updated classification by selection/generation and online/offline/no learning.
 
+## Bibliographic Record
+
+- Citation key: `gendreau2019handbook`
+- DOI: `10.1007/978-3-319-91086-4`
+- Canonical URL: <http://link.springer.com/10.1007/978-3-319-91086-4>
+- Publication: *Springer International Publishing* (2019)
+- Authors: Michel Gendreau; Jean-Yves Potvin
+- Companion metadata note: [[_papers/gendreau2019handbook/gendreau2019handbook.md]]
+
 ## Related
 
 - [[concepts/tabu-search]]
@@ -73,3 +83,4 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 ## Sources
 
 - [[_papers/gendreau2019handbook/gendreau2019handbook-extracted.md]]
+- [[_papers/gendreau2019handbook/gendreau2019handbook.md]]
