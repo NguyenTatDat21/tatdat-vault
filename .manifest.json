@@ -146,6 +146,51 @@
         "references/mutlu2016-lng-annual-delivery-program.md",
         "concepts/annual-lng-delivery-program.md"
       ]
+    },
+    "_papers/hendel2022adaptive/hendel2022adaptive-extracted.md": {
+      "content_hash": "0660734247f4dd11bf791e20028c09acf0ae425a347b193ef0b0b3e61277743e",
+      "last_ingested": "2026-10-22T10:02:44.068364+00:00",
+      "pages_produced": [
+        "references/hendel2022-adaptive-lns-for-mip.md",
+        "concepts/adaptive-large-neighborhood-search-for-mip.md"
+      ]
+    },
+    "_papers/hendel2022adaptive/hendel2022adaptive.md": {
+      "content_hash": "4b589d6c56e639bf1f9d65912b7c9ef9bcb853a26fc099dc41ad124a15337c3c",
+      "last_ingested": "2026-10-22T10:02:44.130734+00:00",
+      "pages_produced": [
+        "references/hendel2022-adaptive-lns-for-mip.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md": {
+      "content_hash": "c00688563c02c0bd0b92f8df2b18d837d02473b2de1a3ebb7b561059196c9109",
+      "last_ingested": "2026-10-22T10:02:44.190785+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md",
+        "concepts/payload-induced-drone-battery-consumption-rate.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/torabbeigi2020drone.md": {
+      "content_hash": "d433906c78e15f3af145736dddbe717131db25db380cf77a6e7ad1ef6e54e2f6",
+      "last_ingested": "2026-10-22T10:02:44.251665+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/hojabri2018large/hojabri2018large-extracted.md": {
+      "content_hash": "3859040e2f0aff92b4526949101e9548e0b4f9c3b01220b1471b1c5ce5dc8ee9",
+      "last_ingested": "2026-10-22T10:02:44.314739+00:00",
+      "pages_produced": [
+        "references/hojabri2018-vrp-synchronization-alns-cp.md",
+        "concepts/vehicle-routing-with-synchronization-constraints.md"
+      ]
+    },
+    "_papers/hojabri2018large/hojabri2018large.md": {
+      "content_hash": "7eecdbca63e3f9cf21a6f9bad005dad7a68d7a5556ac4df6e4c129314290c3a5",
+      "last_ingested": "2026-10-22T10:02:44.376492+00:00",
+      "pages_produced": [
+        "references/hojabri2018-vrp-synchronization-alns-cp.md"
+      ]
     }
   }
 }

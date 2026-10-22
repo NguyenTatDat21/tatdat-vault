@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-22T09:54:23Z
-pages: 258
+updated: 2026-10-22T10:02:56Z
+pages: 264
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers/ha2018mincost/ha2018mincost.md pages_created=0 pages_updated=2 ...
-- [2026-10-22] INGEST source=_papers/mutlu2016comprehensive/mutlu2016comprehensive-extra... pages_created=2 pages_updated=0 ...
-- [2026-10-22] INGEST source=_papers/mutlu2016comprehensive/mutlu2016comprehensive.md pages_created=0 pages_updated=2 ...
+- [2026-10-22] INGEST source=_papers/torabbeigi2020drone/torabbeigi2020drone.md pages_created=0 pages_updated=1 ...
+- [2026-10-22] INGEST source=_papers/hojabri2018large/hojabri2018large-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-22] INGEST source=_papers/hojabri2018large/hojabri2018large.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Completed Mutlu 2016 bibliographic linkage and provenance for LNG ADP pages.
+Completed Hojabri page provenance with canonical publication metadata and reference linkage.
 
 ## Flagged Contradictions
 
