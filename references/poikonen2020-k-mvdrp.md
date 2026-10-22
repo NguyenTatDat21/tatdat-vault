@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-22T08:44:14Z
+updated: 2026-10-22T09:03:37Z
 ---
 
 # Multi-visit Drone Routing Problem (Poikonen & Golden, 2020)
@@ -49,9 +49,11 @@ The paper models the problem with operation-level decisions and then introduces 
 
 ```mermaid
 flowchart LR
-  A[Phase 1: Route\nSolve TSP over customers + depot using drone travel times] -->
-  B[Phase 2: Transform\nBuild state graph over (truck location, customers-served prefix)] -->
-  C[Phase 3: Shortest Path\nFind minimum-time path from start state to all-served state]
+  A["Phase 1: Route<br/>Solve TSP over customers and depot using drone travel times"]
+  B["Phase 2: Transform<br/>Build state graph over truck location and customers-served prefix"]
+  C["Phase 3: Shortest Path<br/>Find minimum-time path from start state to all-served state"]
+  A --> B
+  B --> C
 ```
 
 The diagram is a structural reconstruction of the three phases from the text, not a copied figure. ^[inferred]
