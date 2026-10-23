@@ -10,6 +10,12 @@ relationships:
     type: related_to
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"
     type: related_to
+  - target: "[[references/al-haidous2016-optimal-lng-deliveries]]"
+    type: related_to
+  - target: "[[references/andersson2017-creating-annual-lng-delivery-programs]]"
+    type: related_to
+  - target: "[[concepts/maritime-inventory-routing-problem]]"
+    type: related_to
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -27,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-22T23:32:21Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)
@@ -36,7 +42,7 @@ updated: 2026-10-22T18:14:03Z
 
 ## Problem & Scope
 
-The paper targets tactical annual delivery planning (ADP) for LNG suppliers with practical constraints, including:
+The paper targets tactical annual delivery planning (ADP) for LNG suppliers, a specialization of [[concepts/maritime-inventory-routing-problem|maritime inventory routing]], with practical constraints including:
 - heterogeneous vessel fleet,
 - maintenance and berth constraints,
 - contract over/under-delivery penalties,
@@ -77,6 +83,8 @@ From the reported computational study on 18 benchmark instances:
 - [[concepts/maritime-routing-under-uncertainty]]
 - [[references/ksciuk2023-maritime-uncertainty-review]]
 - [[_papers/andersson2017creating/andersson2017creating-extracted]]
+- [[references/al-haidous2016-optimal-lng-deliveries]]
+- [[references/andersson2017-creating-annual-lng-delivery-programs]]
 - [[_papers/al-haidous2016optimal/al-haidous2016optimal-extracted]]
 - [[_papers/goel2015constraint/goel2015constraint-extracted]]
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted]]

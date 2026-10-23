@@ -1219,6 +1219,82 @@
         "concepts/liner-shipping-network-design.md",
         "concepts/maritime-routing-under-uncertainty.md"
       ]
+    },
+    "_papers/clautiaux2018combining/clautiaux2018combining-extracted.md": {
+      "content_hash": "89d3b3ec919a893102b9823b487c677783646ba6195910e485e718d76f676f06",
+      "last_ingested": "2026-10-22T23:52:45.138117+00:00",
+      "pages_produced": [
+        "references/clautiaux2018-hypergraph-guillotine-knapsack.md",
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
+      ]
+    },
+    "_papers/clautiaux2018combining/clautiaux2018combining.md": {
+      "content_hash": "3255c3313f5a9d1072777f0dfef1d4c3dfbc281daf8e18fbd18e48e5598bae85",
+      "last_ingested": "2026-10-22T23:52:45.208746+00:00",
+      "pages_produced": [
+        "references/clautiaux2018-hypergraph-guillotine-knapsack.md",
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
+      ]
+    },
+    "_papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md": {
+      "content_hash": "b8306f11dc745aaa58e8abe0059289585cb02f4e44061611dba30a8dbd8521a4",
+      "last_ingested": "2026-10-22T23:52:45.276856+00:00",
+      "pages_produced": [
+        "references/dellamico2020-matheuristics-pdstsp.md",
+        "concepts/parallel-drone-scheduling-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/dellamico2020matheuristic/dellamico2020matheuristic.md": {
+      "content_hash": "f21abfbdf548550db8dd803783edddd7562485532defa53c03abefce06c2367e",
+      "last_ingested": "2026-10-22T23:52:45.344509+00:00",
+      "pages_produced": [
+        "references/dellamico2020-matheuristics-pdstsp.md",
+        "concepts/parallel-drone-scheduling-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/deshpande2023optimal/deshpande2023optimal-extracted.md": {
+      "content_hash": "0cdda977fb6d67d4d93a62b652ab97b39251175e23133ca33853d6196686df8f",
+      "last_ingested": "2026-10-22T23:52:45.413324+00:00",
+      "pages_produced": [
+        "references/deshpande2023-lng-adp-inventory-berth.md"
+      ]
+    },
+    "_papers/deshpande2023optimal/deshpande2023optimal.md": {
+      "content_hash": "8db7dae24743a160b3c90e457e7880c8b615f874b6aff6f1507ddb4b99820db7",
+      "last_ingested": "2026-10-22T23:52:45.481593+00:00",
+      "pages_produced": [
+        "references/deshpande2023-lng-adp-inventory-berth.md"
+      ]
+    },
+    "_papers/dinh2021ants/dinh2021ants-extracted.md": {
+      "content_hash": "dff592ba0a2ca65dc8350330924d2448f0841d728323fb28fc77b5ec1b627fa7",
+      "last_ingested": "2026-10-22T23:52:45.543263+00:00",
+      "pages_produced": [
+        "references/dinh2021-haco-pdstsp.md",
+        "concepts/parallel-drone-scheduling-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/dinh2021ants/dinh2021ants.md": {
+      "content_hash": "c9837e9f99ac1fd5f57dae06304a60731b3011429f3d028679305bb727bf327c",
+      "last_ingested": "2026-10-22T23:52:45.591225+00:00",
+      "pages_produced": [
+        "references/dinh2021-haco-pdstsp.md",
+        "concepts/parallel-drone-scheduling-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/dorling2017vehicle/dorling2017vehicle-extracted.md": {
+      "content_hash": "e9a1c91ad6ce45b89f31c51279432feb3b33c40d074193ed3e3996494a6dc4d1",
+      "last_ingested": "2026-10-22T23:52:45.638368+00:00",
+      "pages_produced": [
+        "references/dorling2017-drone-delivery-vrp.md"
+      ]
+    },
+    "_papers/dorling2017vehicle/dorling2017vehicle.md": {
+      "content_hash": "9730bb33e05952dc8bc183bfbb1e4cb99e897a716efa60c5e6dccf8677d134e2",
+      "last_ingested": "2026-10-22T23:52:45.686568+00:00",
+      "pages_produced": [
+        "references/dorling2017-drone-delivery-vrp.md"
+      ]
     }
   }
 }

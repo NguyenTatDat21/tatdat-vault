@@ -65,3 +65,5 @@ title: Wiki Log
 - [2026-10-22T20:41:47Z] INGEST source="_papers wave W04 (boland-ctsndp/boland-ddd-tsptw/brown-negative-be/chatfield/chen-shrinkage)" pages_created=9 pages_updated=0 mode=full
 - [2026-10-22T23:11:40Z] CROSS_LINK pages_scanned=310 links_added=4 typed_relations_written=4 pages_modified=4 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-22T23:22:11Z] INGEST source="_papers wave W05 (cheng/christiansen2007/christiansen2008/christiansen2013/christiansen2020)" pages_created=6 pages_updated=2 mode=full
+- [2026-10-22T23:34:00Z] CROSS_LINK pages_scanned=316 links_added=8 typed_relations_written=8 pages_modified=3 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-22T23:52:56Z] INGEST source="_papers wave W06 (clautiaux/dellamico/deshpande/dinh/dorling)" pages_created=7 pages_updated=2 mode=full

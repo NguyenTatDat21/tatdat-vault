@@ -12,6 +12,12 @@ relationships:
     type: extends
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
+  - target: "[[concepts/maritime-inventory-routing-problem]]"
+    type: extends
+  - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
+    type: derived_from
+  - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
+    type: extends
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -30,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-22T23:50:19Z
 ---
 
 # Annual LNG Delivery Program (ADP)
@@ -41,7 +47,7 @@ Annual Delivery Program (ADP) is a tactical planning problem for LNG suppliers t
 
 - Planning horizon is long (roughly one year), with periodic shipment decisions.
 - Decisions must respect vessel availability, maintenance windows, berth capacity, and customer contract terms.
-- Inventory-production balance at loading terminals is tightly coupled to routing feasibility.
+- Inventory-production balance at loading terminals is tightly coupled to [[concepts/maritime-inventory-routing-problem|inventory-routing]] feasibility.
 - Al-Haidous et al. formulate ADP with a compact arc-flow MIP that minimizes required fleet size while preserving operational detail.
 - Andersson et al. extend the annual LNG setup with explicit spot-market economics and branch-and-cut valid inequalities that tighten the model.
 
@@ -52,7 +58,9 @@ ADP is a load-bearing bridge between strategic network design and short-horizon 
 - [[references/mutlu2016-lng-annual-delivery-program]]
 - [[references/al-haidous2016-optimal-lng-deliveries]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
+- [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/ksciuk2023-maritime-uncertainty-review]]
 
 ## Open Questions

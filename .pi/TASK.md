@@ -58,7 +58,8 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
   - ✅ Completed 2026-10-22T20:41Z — pages_created=9, pages_updated=0; cache-check unchanged (10/10); qmd update+embed+verify complete.
 - [x] **W05** `_papers/cheng2020drone/...` → `_papers/christiansen2020liner/...`
   - ✅ Completed 2026-10-22T23:22Z — pages_created=6, pages_updated=2; cache-check unchanged (10/10); qmd update+embed+verify complete.
-- [ ] **W06** `_papers/clautiaux2018combining/...` → `_papers/dorling2017vehicle/...`
+- [x] **W06** `_papers/clautiaux2018combining/...` → `_papers/dorling2017vehicle/...`
+  - ✅ Completed 2026-10-22T23:54Z — pages_created=7, pages_updated=2; cache-check unchanged (10/10); qmd update+embed+verify complete.
 - [ ] **W07** `_papers/dossantos2024multiobjective/...` → `_papers/furini2016modeling/...`
 - [ ] **W08** `_papers/ganjia2026multiobjective/...` → `_papers/goel2015constraint/...`
 - [ ] **W09** `_papers/gronhaug2009supply/...` → `_papers/ha2020new/...`
@@ -86,4 +87,4 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
 - [ ] QMD refreshed and verified
 
 ## Next Action
-Start **W06** and log deltas (created/updated pages, QMD status, blockers) in this file.
+Start **W07** and log deltas (created/updated pages, QMD status, blockers) in this file.

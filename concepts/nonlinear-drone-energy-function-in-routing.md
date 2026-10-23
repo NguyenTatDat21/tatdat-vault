@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -27,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-22T23:50:19Z
 ---
 
 # Nonlinear Drone Energy Function in Routing
@@ -69,6 +71,7 @@ For exact optimization, combine:
 
 - [[references/cheng2020-drone-routing-energy-function]]
 - [[references/ahmadi-javid2022-drone-delivery-energy-formulation]]
+- [[references/dorling2017-drone-delivery-vrp]]
 - [[concepts/payload-induced-drone-battery-consumption-rate]]
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[references/tamke2023-vrpd-dss]]

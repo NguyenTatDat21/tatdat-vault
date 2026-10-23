@@ -10,6 +10,12 @@ relationships:
     type: related_to
   - target: "[[_papers/christiansen2013ship/christiansen2013ship-extracted]]"
     type: related_to
+  - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
+    type: related_to
+  - target: "[[references/christiansen2020-liner-shipping-network-design]]"
+    type: related_to
+  - target: "[[concepts/maritime-inventory-routing-problem]]"
+    type: related_to
 sources:
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md
@@ -27,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-22T23:32:21Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)
@@ -44,7 +50,7 @@ It analyzes strategic, tactical, and operational decisions and emphasizes how un
 
 The review groups decisions into three planning levels:
 - **Strategic:** fleet composition/renewal, long-horizon network structure;
-- **Tactical:** vessel scheduling, maritime inventory routing, deployment, bunker planning;
+- **Tactical:** vessel scheduling, [[concepts/maritime-inventory-routing-problem|maritime inventory routing]], deployment, bunker planning;
 - **Operational:** weather routing, empty container repositioning, day-to-day disruption response.
 
 Uncertainty dimensions repeatedly discussed include demand variation, travel/port time variability, fuel-price volatility, and disruption effects.
@@ -74,6 +80,8 @@ Some recommendations imply a shift toward hybrid decision pipelines (forecasting
 ## Related
 
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
+- [[references/christiansen2020-liner-shipping-network-design]]
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted]]
 - [[_papers/christiansen2013ship/christiansen2013ship-extracted]]
 - [[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted]]
