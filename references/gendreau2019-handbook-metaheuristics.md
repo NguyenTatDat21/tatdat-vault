@@ -32,18 +32,21 @@ sources:
   - _papers/gendreau2019handbook/images/page_257_image_2.jpg
   - _papers/gendreau2019handbook/images/page_115_image_2.jpg
   - _papers/gendreau2019handbook/images/page_117_image_2.jpg
+  - _papers/gendreau2019handbook/images/page_365_image_3.jpg
+  - _papers/gendreau2019handbook/images/page_380_image_10.jpg
 summary: >-
-  Distilled handbook-level patterns for tabu search, VNS, LNS/ALNS, cooperative parallel search, and hyper-heuristics used in routing and combinatorial optimization.
+  Distilled handbook-level patterns for simulated annealing, tabu search, VNS, LNS/ALNS, swarm intelligence (PSO/ACO), hybridization, cooperative parallel search, and hyper-heuristics.
 provenance:
-  extracted: 0.74
-  inferred: 0.23
+  extracted: 0.79
+  inferred: 0.18
+  ambiguous: 0.03
   ambiguous: 0.03
 base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-24T04:37:31Z
 ---
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)
@@ -57,6 +60,9 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 - Cooperative parallel search improves robustness and often solution quality when exchanges preserve diversity and avoid premature convergence.
 - Hyper-heuristics move control one level up: they search over heuristics instead of directly searching over candidate solutions.
 - Together, these families provide a shared vocabulary for designing routing solvers across truck-only and truck-drone settings. ^[inferred]
+- **Simulated annealing is the acceptance rule, not just a method**: acceptance is a probability (Metropolis), the control parameter sets how much degradation is accepted, and the acceptance rate χ(c) ≈ 0.5 near the target temperature is the practical tuning signal — which is what the LNS + SA hybrid reuses on a complex neighborhood. [[concepts/simulated-annealing-metropolis-cooling]]
+- **Swarm Intelligence** is defined by population-level problem solving with no central control: the double-bridge experiment, termite domes, and Kennedy's three levels (individuals, groups, culture) are the template for local sharing plus emergent global structure; canonical PSO is a velocity/position update, and its failure mode (single-particle premature convergence) is the reason social information and influence topologies matter. [[concepts/swarm-intelligence-pso-aco]]
+- **Hybridization has four classes** — solution-based (global/phase), objective-evaluation-based, system-based, operator-based — and the two patterns that matter in routing: merge solutions exactly (set covering, fixed-variable MIP subproblems, CMSA), and let a relaxation (LP, Lagrangian, MST) rank which neighborhood to search. [[concepts/metaheuristic-hybridization]]
 
 ## Chapter Signals Relevant to Routing
 
@@ -65,10 +71,35 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 - **Large Neighborhood Search (Chapter 4):** destroy/repair framing and ALNS-style adaptive operator control.
 - **Parallel Metaheuristics (Chapter 13):** cooperative multi-search taxonomies and communication design trade-offs.
 - **Hyper-Heuristics (Chapter 14):** updated classification by selection/generation and online/offline/no learning.
+- **Simulated Annealing (Chapter 1):** SA is framed for black-box optimization where the objective is a costly simulation; statistical equilibrium (Theorem 1) and asymptotic convergence are separated, and acceptance rate χ(c) ≈ 0.5 near the target control parameter is the tuning signal, with applications to the knapsack, TSP, and continental-scale aircraft trajectory planning (~30,000 flights).
+- **Swarm Intelligence (Chapter 11):** canonical PSO, constriction/FIPS, bare-bones with Lévy α = 1.4, binary sigmoid PSO, discrete PSO with swap operators and path relinking competitive with ACO on the TSP, rotation-invariant SPSO-2011 with adaptive random topology (K = 3), LSGS/SSS guidance systems.
+- **Ant Colony Optimization (Chapter 10):** pheromone-trail construction with evaporation, elitist ranking, and MAX–MIN pheromone ranges.
+- **Metaheuristic Hybrids (Chapter 12):** CMSA, EA inside CPLEX branch-and-cut (Rothberg), set-covering merging for dial-a-ride, relaxation-guided VND, LP-dual pseudo-utility ratios, Lagrangian GA with the volume algorithm, bound-guided crossover.
+- **Stochastic Search, Automated Algorithm Design, and Computational Comparison (Chapters 16-18):** search operators (random, greedy randomized, genetic), hyper-heuristic and reactive-search design, and performance-comparison methodology.
+
+## Swarm Intelligence & Hybrids (Ch. 11, 12)
+
+![[_papers/gendreau2019handbook/images/page_365_image_3.jpg]]
+*Fig. 11.1 (paper, verbatim): "The double-bridge experiment: ants find the shorter path of the two between the nest and the food source; (a) at the start, (b) after some period, more ants choose the shorter path."*
+
+![[_papers/gendreau2019handbook/images/page_380_image_10.jpg]]
+*Fig. 11.11 (paper, verbatim): "The points x_i′ is chosen at random inside the hypersphere H_i(G_i, ‖G_i − x_i‖)" — the rotation-invariant SPSO-2011 sampling.*
+
+Canonical PSO update with inertia weight $w$ and cognitive/social coefficients $c_1, c_2$ (component-wise $\otimes$, uniform $R[0,1]$):
+
+$$
+\mathbf{v}_i \leftarrow w\mathbf{v}_i + c_1 R[0,1]\otimes(\mathbf{p}_i - \mathbf{x}_i) + c_2 R[0,1]\otimes(\mathbf{p}_g - \mathbf{x}_i),\quad \mathbf{x}_i \leftarrow \mathbf{x}_i + \mathbf{v}_i
+$$
+
+The chapter's phase-space analysis on $f(x) = x^2$ shows why social information is required: if $\mathbf{x}$ and $\mathbf{v}$ start on the same side of the minimum, $p$ always equals $x$, the update collapses to $\mathbf{v} \leftarrow w\mathbf{v}$, velocity decays, and the particle converges prematurely to a non-optimum; with $\mathbf{x},\mathbf{v}$ straddling the minimum the trajectory spirals in. FIPS generalises the attractor to any neighbourhood set, making the influence graph the design knob; SPSO-2011 fixes the canonical scheme's lack of rotation invariance by sampling inside a hypersphere centred on a three-point centre of gravity, plus an adaptive random topology (each particle informs $K = 3$ random particles after an unsuccessful iteration). Discrete PSO with swap operators and path relinking is competitive with ACO on the TSP. ^[extracted]
+
+Chapter 12 (Raidl & Puchinger) classifies hybrids as solution-based (global/phase), objective-evaluation-based, system-based, and operator-based. The routing-relevant patterns: **exact merging** (CMSA over an incumbent sub-instance; Rothberg's EA inside CPLEX branch-and-cut fixing variables common to parents; set-covering merging of route pools for dial-a-ride with VNS-generated columns), **relaxation-guided ordering** (relaxation-guided VND, LP-dual pseudo-utility ratios for the MKP, Lagrangian GA with the volume algorithm), and **bound-guided crossover** (crossover must occur before the bound point of a partial solution). Details: [[concepts/metaheuristic-hybridization]], [[concepts/swarm-intelligence-pso-aco]], [[concepts/simulated-annealing-metropolis-cooling]].
 
 ![[_papers/gendreau2019handbook/images/page_115_image_2.jpg]]
+*Fig. 4.1 (paper): "a TSP solution. Right: A CVRP solution. In the CVRP, the depot is represented by a square and each customer *i* is represented by a node labeled with a demand *q_i*." The chapter's CVRP: graph *G = (V, E)*, vertex 0 the depot, customers *N = {1…n}* with demand *q_i*, *m* homogeneous vehicles of capacity *Q*, minimize total edge cost over exactly *m* routes, each customer visited exactly once.*
+
 ![[_papers/gendreau2019handbook/images/page_117_image_2.jpg]]
-*Fig. 4.1 (paper): a 100-customer CVRP solution with 15 customers removed (43 vehicles); Fig. 4.2 (paper): the LNS destroy-and-repair process with the accept() step.*
+*Fig. 4.2 (paper): "Destroy and repair example. The top left figure shows a CVRP solution before the destroy operation. The top right figure shows the solution after a destroy operation that removed six customers (now disconnected from the routes). The bottom figure shows the solution obtained after reinsertion of the customers by the repair operation."*
 
 ## LNS Chapter Numbers (Pisinger & Ropke, Chapter 4)
 
@@ -109,6 +140,9 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]]
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
+- [[concepts/simulated-annealing-metropolis-cooling]]
+- [[concepts/swarm-intelligence-pso-aco]]
+- [[concepts/metaheuristic-hybridization]]
 
 ## Open Questions
 

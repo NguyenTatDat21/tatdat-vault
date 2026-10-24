@@ -17,6 +17,10 @@ relationships:
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
+  - _papers/ganjia2026multiobjective/images/page_20_chart_6.jpg
+  - _papers/ganjia2026multiobjective/images/page_24_chart_5.jpg
 summary: >-
   Maritime cargo route and schedule planning where makespan, freight cost, and delivery delays are
   optimized together, so the answer is a Pareto front a charterer can choose from.
@@ -71,7 +75,7 @@ The charterer's planning problem is intrinsically multi-objective: shipping a co
 
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md]]
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective.md]]
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
-  - _papers/ganjia2026multiobjective/images/page_3_chart_1.jpg
-  - _papers/ganjia2026multiobjective/images/page_4_chart_1.jpg
+- [[_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md]]
+- [[_papers/ganjia2026multiobjective/ganjia2026multiobjective.md]]
+- [[_papers/ganjia2026multiobjective/images/page_20_chart_6.jpg]]
+- [[_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg]]

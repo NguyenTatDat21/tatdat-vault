@@ -50,7 +50,7 @@ updated: 2026-10-24T03:00:25Z
 > [!tldr] A ship-pair destroy/repair neighborhood: remove **all voyages of two ships** (a 2-opt-inspired destroy), keep the rest of the schedule fixed, and repair by re-solving the time-space MIP for the freed pair. Pairs are ranked by two metrics — lost production/stockouts eliminated by removing waiting, and the number of times one ship delays the other at the same terminal — and the pair with the highest combined value is chosen. Random-pair LNS already beats a strong MIP heuristic; metric-based selection makes it faster.
 
 ![[_papers/gendreau2019handbook/images/page_117_image_2.jpg]]
-*Fig. 4.2 (Handbook of Metaheuristics, Ch. 4): the destroy-and-repair process — a destroy method removes part of a solution, a repair method rebuilds it, and the accept() step decides which solution continues the search.*
+*Fig. 4.2 (Handbook of Metaheuristics, Ch. 4, verbatim): "Destroy and repair example. The top left figure shows a CVRP solution before the destroy operation. The top right figure shows the solution after a destroy operation that removed six customers (now disconnected from the routes). The bottom figure shows the solution obtained after reinsertion of the customers by the repair operation." The chapter's LNS loop is destroy, repair, then an acceptance step that decides which solution continues the search; the destroy/repair/accept() naming is the chapter's own terminology, not part of this figure caption.*
 
 ## Destroy / Repair Structure
 

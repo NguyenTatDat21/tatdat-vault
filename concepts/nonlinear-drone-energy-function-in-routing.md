@@ -20,10 +20,13 @@ sources:
   - _papers/cheng2020drone/cheng2020drone.md
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md
+  - _papers/fuertes2023solving/fuertes2023solving-extracted.md
+  - _papers/fuertes2023solving/fuertes2023solving.md
+  - _papers/fuertes2023solving/images/page_4_image_3.jpg
 summary: >-
   Models payload-aware convex drone energy and extends routing formulations to arbitrary energy functions while preserving tractable optimization structure.
 provenance:
-  extracted: 0.86
+  extracted: 0.82
   inferred: 0.14
   ambiguous: 0.04
 base_confidence: 0.90
@@ -92,6 +95,3 @@ In a learned solver the decoder state is the current node plus remaining time, s
 - [[_papers/fuertes2023solving/fuertes2023solving-extracted.md]]
 - [[_papers/fuertes2023solving/fuertes2023solving.md]]
 - [[_papers/fuertes2023solving/images/page_4_image_3.jpg]]
-  - _papers/fuertes2023solving/fuertes2023solving-extracted.md
-  - _papers/fuertes2023solving/fuertes2023solving.md
-  - _papers/fuertes2023solving/images/page_4_image_3.jpg

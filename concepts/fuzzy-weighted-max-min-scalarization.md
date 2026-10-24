@@ -10,11 +10,15 @@ relationships:
     type: uses
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
-sources:
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
+sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
+  - _papers/ganjia2026multiobjective/images/page_20_chart_6.jpg
+  - _papers/ganjia2026multiobjective/images/page_24_chart_5.jpg
 summary: >-
   Scalarize several objectives by maximizing a weighted minimum of fuzzy membership values, so one MIP solve
   per weight vector traces out a Pareto approximation without an evolutionary algorithm.
@@ -85,7 +89,7 @@ $$
 
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md]]
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective.md]]
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
-  - _papers/ganjia2026multiobjective/images/page_3_chart_1.jpg
-  - _papers/ganjia2026multiobjective/images/page_4_chart_1.jpg
+- [[_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md]]
+- [[_papers/ganjia2026multiobjective/ganjia2026multiobjective.md]]
+- [[_papers/ganjia2026multiobjective/images/page_20_chart_6.jpg]]
+- [[_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg]]

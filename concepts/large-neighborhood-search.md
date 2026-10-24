@@ -50,7 +50,7 @@ LNS is a destroy-and-repair metaheuristic: remove a substantial part of a curren
 - In routing, LNS-style methods are attractive when exact neighborhood scans are too expensive.
 
 ![[_papers/gendreau2019handbook/images/page_117_image_2.jpg]]
-*Fig. 4.2 (Handbook of Metaheuristics, Ch. 4): the destroy-and-repair process with the accept() step.*
+*Fig. 4.2 (Handbook of Metaheuristics, Ch. 4, verbatim): "Destroy and repair example. The top left figure shows a CVRP solution before the destroy operation. The top right figure shows the solution after a destroy operation that removed six customers (now disconnected from the routes). The bottom figure shows the solution obtained after reinsertion of the customers by the repair operation." The accept() step is the chapter's terminology for the acceptance stage of the LNS loop, not part of this caption.*
 
 ## Census, Acceptance, and an Industrial Instance
 

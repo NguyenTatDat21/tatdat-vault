@@ -14,10 +14,14 @@ relationships:
 sources:
   - _papers/asghari2021green/asghari2021green-extracted.md
   - _papers/asghari2021green/asghari2021green.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
+  - _papers/ganjia2026multiobjective/images/page_20_chart_6.jpg
+  - _papers/ganjia2026multiobjective/images/page_24_chart_5.jpg
 summary: >-
   Structured map of Green-VRP variants by vehicle technology, objective type, operational scenario, and solver family for comparing environmental-routing models.
 provenance:
-  extracted: 0.86
+  extracted: 0.84
   inferred: 0.14
   ambiguous: 0.02
 base_confidence: 0.67
@@ -66,7 +70,5 @@ Green-VRP research spans multiple fleet technologies and modeling assumptions, s
 - [[_papers/asghari2021green/asghari2021green.md]]
 - [[_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md]]
 - [[_papers/ganjia2026multiobjective/ganjia2026multiobjective.md]]
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
-  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
-  - _papers/ganjia2026multiobjective/images/page_3_chart_1.jpg
-  - _papers/ganjia2026multiobjective/images/page_4_chart_1.jpg
+- [[_papers/ganjia2026multiobjective/images/page_20_chart_6.jpg]]
+- [[_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg]]

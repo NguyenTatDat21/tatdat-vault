@@ -18,9 +18,12 @@ relationships:
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md
+  - _papers/fuertes2023solving/fuertes2023solving-extracted.md
+  - _papers/fuertes2023solving/fuertes2023solving.md
+  - _papers/fuertes2023solving/images/page_4_image_3.jpg
 summary: Battery draw grows with payload in drone delivery, and this dependency should be modeled explicitly in feasibility and scheduling decisions.
 provenance:
-  extracted: 0.86
+  extracted: 0.82
   inferred: 0.14
   ambiguous: 0.04
 base_confidence: 0.67
@@ -50,7 +53,7 @@ Payload-induced BCR models battery consumption as a function of carried payload 
 
 Ignoring payload-sensitive BCR tends to overestimate operational feasibility in heterogeneous-demand settings. ^[inferred]
 
-, [[concepts/cooperative-multi-agent-uav-routing]], [[concepts/transformer-seq2seq-routing-solver]]
+Extended related pages: [[concepts/cooperative-multi-agent-uav-routing]], [[concepts/transformer-seq2seq-routing-solver]].
 Related pages: [[references/torabbeigi2020-payload-bcr-drone-scheduling]], [[concepts/drone-speed-selection-in-routing]], [[concepts/min-cost-tsp-with-drone]], [[references/tamke2023-vrpd-dss]], [[references/poikonen2020-k-mvdrp]].
 
 ## Open Questions
@@ -65,6 +68,3 @@ Related pages: [[references/torabbeigi2020-payload-bcr-drone-scheduling]], [[con
 - [[_papers/fuertes2023solving/fuertes2023solving-extracted.md]]
 - [[_papers/fuertes2023solving/fuertes2023solving.md]]
 - [[_papers/fuertes2023solving/images/page_4_image_3.jpg]]
-  - _papers/fuertes2023solving/fuertes2023solving-extracted.md
-  - _papers/fuertes2023solving/fuertes2023solving.md
-  - _papers/fuertes2023solving/images/page_4_image_3.jpg

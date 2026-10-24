@@ -499,18 +499,20 @@
     },
     "_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md": {
       "content_hash": "d25922a7fa539937bc447ec2e0d66db9ba8b4dc5e57f8402ec085bff9f235370",
-      "last_ingested": "2026-10-24T01:27:44.009849+00:00",
+      "last_ingested": "2026-10-24T07:17:09.343908+00:00",
       "pages_produced": [
-        "references/dossantos2024-multiobjective-maritime-cargo-routing.md",
-        "concepts/multi-objective-maritime-cargo-routing-scheduling.md",
-        "concepts/fuzzy-weighted-max-min-scalarization.md"
+        "references/dossantos2024-multiobjective-maritime-cargo-routing",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization"
       ]
     },
     "_papers/dossantos2024multiobjective/dossantos2024multiobjective.md": {
       "content_hash": "32ea0e7eda4ff47f494b7176957e43a8223b4b49e67f261a4c719c30120f1a39",
-      "last_ingested": "2026-10-24T01:27:44.115076+00:00",
+      "last_ingested": "2026-10-24T07:17:09.524263+00:00",
       "pages_produced": [
-        "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
+        "references/dossantos2024-multiobjective-maritime-cargo-routing",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization"
       ]
     },
     "_papers/dossantos2024multiobjective/images/page_17_chart_2.jpg": {
@@ -587,18 +589,24 @@
     },
     "_papers/fuertes2023solving/fuertes2023solving-extracted.md": {
       "content_hash": "4f130665a0c3fdea989200bd15c1da8fa7d1b26f507f2e30f3d65472b006695c",
-      "last_ingested": "2026-10-24T01:30:35.122803+00:00",
+      "last_ingested": "2026-10-24T07:17:09.671695+00:00",
       "pages_produced": [
-        "references/fuertes2023-transformer-multi-uav-routing.md",
-        "concepts/transformer-seq2seq-routing-solver.md",
-        "concepts/cooperative-multi-agent-uav-routing.md"
+        "references/fuertes2023-transformer-multi-uav-routing",
+        "concepts/cooperative-multi-agent-uav-routing",
+        "concepts/transformer-seq2seq-routing-solver",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate"
       ]
     },
     "_papers/fuertes2023solving/fuertes2023solving.md": {
       "content_hash": "4c36e3c5638c3739c46373cfba49d601df66f8e15850edfd6d7e76a7944cddb8",
-      "last_ingested": "2026-10-24T01:30:35.209767+00:00",
+      "last_ingested": "2026-10-24T07:17:09.844992+00:00",
       "pages_produced": [
-        "references/fuertes2023-transformer-multi-uav-routing.md"
+        "references/fuertes2023-transformer-multi-uav-routing",
+        "concepts/cooperative-multi-agent-uav-routing",
+        "concepts/transformer-seq2seq-routing-solver",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate"
       ]
     },
     "_papers/fuertes2023solving/images/page_1_image_2.jpg": {
@@ -617,10 +625,13 @@
     },
     "_papers/fuertes2023solving/images/page_4_image_3.jpg": {
       "content_hash": "9e6faa564ce4faf13e105a05183cea0c5b195a5cda3d79892272f7b9e992bc33",
-      "last_ingested": "2026-10-24T01:30:35.429383+00:00",
+      "last_ingested": "2026-10-24T07:17:10.024857+00:00",
       "pages_produced": [
-        "references/fuertes2023-transformer-multi-uav-routing.md",
-        "concepts/transformer-seq2seq-routing-solver.md"
+        "references/fuertes2023-transformer-multi-uav-routing",
+        "concepts/cooperative-multi-agent-uav-routing",
+        "concepts/transformer-seq2seq-routing-solver",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate"
       ]
     },
     "_papers/fuertes2023solving/images/page_8_chart_2.jpg": {
@@ -679,18 +690,26 @@
     },
     "_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md": {
       "content_hash": "c8a02387fba4d215e19681a71739a103e70a8214f474a251a18ac8059bb841e4",
-      "last_ingested": "2026-10-24T02:59:40.063076+00:00",
+      "last_ingested": "2026-10-24T07:38:17.575336+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization",
+        "concepts/green-vehicle-routing-problem-taxonomy",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate",
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
       ]
     },
     "_papers/ganjia2026multiobjective/ganjia2026multiobjective.md": {
       "content_hash": "02cf3a8a1e12e53c6816e4b7a7530ae0c22a9278a770510d0ff8ce165d25e1b6",
-      "last_ingested": "2026-10-24T02:59:40.120942+00:00",
+      "last_ingested": "2026-10-24T07:38:17.762305+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization",
+        "concepts/green-vehicle-routing-problem-taxonomy",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate",
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
       ]
     },
     "_papers/ganjia2026multiobjective/images/page_10_image_3.jpg": {
@@ -702,10 +721,14 @@
     },
     "_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg": {
       "content_hash": "b3d512b79cfef8fba21c5d82a430e22efda42d4914f4fc8368b61fcc3fe58f2d",
-      "last_ingested": "2026-10-24T02:59:40.234110+00:00",
+      "last_ingested": "2026-10-24T07:38:18.169597+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization",
+        "concepts/green-vehicle-routing-problem-taxonomy",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate",
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
       ]
     },
     "_papers/garg2022iqlearn/garg2022iqlearn-extracted.md": {
@@ -777,22 +800,21 @@
     },
     "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
       "content_hash": "974311a81a7f0b11f1f6f9b59ae118b65ca4f8e49d7bb6a2b6612a875cf7206f",
-      "last_ingested": "2026-10-24T02:59:40.820070+00:00",
+      "last_ingested": "2026-10-24T08:03:04.729807+00:00",
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+        "concepts/simulated-annealing-metropolis-cooling.md",
+        "concepts/swarm-intelligence-pso-aco.md",
+        "concepts/metaheuristic-hybridization.md"
       ]
     },
     "_papers/gendreau2019handbook/gendreau2019handbook.md": {
       "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
-      "last_ingested": "2026-10-24T02:59:40.874891+00:00",
+      "last_ingested": "2026-10-24T08:03:04.825090+00:00",
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+        "concepts/simulated-annealing-metropolis-cooling.md",
+        "concepts/swarm-intelligence-pso-aco.md"
       ]
     },
     "_papers/gendreau2019handbook/images/page_115_image_2.jpg": {
@@ -841,26 +863,30 @@
     },
     "_papers/goel2012large/goel2012large-extracted.md": {
       "content_hash": "8847ffe12e17d6af416ebc1436b98c1f236650b1baeec476d5610dfd6e02d0ce",
-      "last_ingested": "2026-10-24T02:59:39.342766+00:00",
+      "last_ingested": "2026-10-24T07:17:10.219863+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/time-space-network-ship-flow-model.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing",
+        "concepts/time-space-network-ship-flow-model",
+        "concepts/large-neighborhood-ship-pair-destroy-repair",
+        "concepts/large-neighborhood-search",
+        "concepts/variable-neighborhood-search",
+        "concepts/maritime-inventory-routing-problem",
+        "concepts/mirp-modeling-continuous-vs-discrete-time",
+        "concepts/annual-lng-delivery-program"
       ]
     },
     "_papers/goel2012large/goel2012large.md": {
       "content_hash": "83367accf7d9520d4055a4c5c5f19154c3bf17dde3ef7926ac0a1bd33344ba0c",
-      "last_ingested": "2026-10-24T02:59:39.440631+00:00",
+      "last_ingested": "2026-10-24T07:17:10.334346+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/time-space-network-ship-flow-model.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing",
+        "concepts/time-space-network-ship-flow-model",
+        "concepts/large-neighborhood-ship-pair-destroy-repair",
+        "concepts/large-neighborhood-search",
+        "concepts/variable-neighborhood-search",
+        "concepts/maritime-inventory-routing-problem",
+        "concepts/mirp-modeling-continuous-vs-discrete-time",
+        "concepts/annual-lng-delivery-program"
       ]
     },
     "_papers/goel2012large/images/page_22_chart_2.jpg": {
@@ -882,22 +908,28 @@
     },
     "_papers/goel2015constraint/goel2015constraint-extracted.md": {
       "content_hash": "fb190f85f709d2b528f29b67f422d1e2dfb6c57bbf7cb488de24a13ca920958e",
-      "last_ingested": "2026-10-24T02:59:39.679613+00:00",
+      "last_ingested": "2026-10-24T07:17:10.458845+00:00",
       "pages_produced": [
-        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
-        "concepts/cumulative-volume-lower-bound-cp-search.md",
-        "concepts/disjunctive-scheduling-constraint-programming-model.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "references/goel2015-constraint-programming-lng-ship-scheduling",
+        "concepts/disjunctive-scheduling-constraint-programming-model",
+        "concepts/cumulative-volume-lower-bound-cp-search",
+        "concepts/maritime-inventory-routing-problem",
+        "concepts/mirp-modeling-continuous-vs-discrete-time",
+        "concepts/annual-lng-delivery-program",
+        "concepts/time-space-network-ship-flow-model"
       ]
     },
     "_papers/goel2015constraint/goel2015constraint.md": {
       "content_hash": "ee025fac7005981aa1d689bc5788a4db724055ce25479edd42d070f048abf0e3",
-      "last_ingested": "2026-10-24T02:59:39.747640+00:00",
+      "last_ingested": "2026-10-24T07:17:10.560629+00:00",
       "pages_produced": [
-        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
-        "concepts/cumulative-volume-lower-bound-cp-search.md",
-        "concepts/disjunctive-scheduling-constraint-programming-model.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "references/goel2015-constraint-programming-lng-ship-scheduling",
+        "concepts/disjunctive-scheduling-constraint-programming-model",
+        "concepts/cumulative-volume-lower-bound-cp-search",
+        "concepts/maritime-inventory-routing-problem",
+        "concepts/mirp-modeling-continuous-vs-discrete-time",
+        "concepts/annual-lng-delivery-program",
+        "concepts/time-space-network-ship-flow-model"
       ]
     },
     "_papers/goel2015constraint/images/page_2_chart_15.jpg": {
@@ -1115,10 +1147,12 @@
     },
     "_papers/lu2024effective/lu2024effective-extracted.md": {
       "content_hash": "070d00b87a24b8868b39c0471ef00bda5f3e5f54095fe84a2c77ae79fe810fce",
-      "last_ingested": "2026-10-22T18:14:27.583801+00:00",
+      "last_ingested": "2026-10-24T07:17:10.957056+00:00",
       "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md",
-        "concepts/set-orienteering-problem.md"
+        "references/lu2024-hybrid-evolutionary-algorithm-sop",
+        "concepts/set-orienteering-problem",
+        "concepts/tabu-search",
+        "concepts/transformer-seq2seq-routing-solver"
       ]
     },
     "_papers/lu2024effective/lu2024effective.md": {
@@ -1342,10 +1376,14 @@
     },
     "_papers/murray2020multiple/murray2020multiple-extracted.md": {
       "content_hash": "a8ae2073e3d08fc1f12b9dc9a84cc1038e3d83e0ed82972e88a97313bb47e747",
-      "last_ingested": "2026-10-22T18:14:28.043237+00:00",
+      "last_ingested": "2026-10-24T07:17:11.202093+00:00",
       "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md",
-        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+        "references/murray2020-multiple-flying-sidekicks-tsp",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem",
+        "concepts/k-multi-visit-drone-routing-problem",
+        "concepts/vehicle-routing-with-synchronization-constraints",
+        "concepts/min-cost-parallel-drone-scheduling-vrp",
+        "concepts/cooperative-multi-agent-uav-routing"
       ]
     },
     "_papers/murray2020multiple/murray2020multiple.md": {
@@ -1496,10 +1534,14 @@
     },
     "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
       "content_hash": "1a89e41609f8ecde283e71ee475fe836a61ba7b135c1489e1291495e972ed435",
-      "last_ingested": "2026-10-22T18:14:28.806661+00:00",
+      "last_ingested": "2026-10-24T07:17:10.719100+00:00",
       "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md",
-        "concepts/k-multi-visit-drone-routing-problem.md"
+        "references/poikonen2020-k-mvdrp",
+        "concepts/k-multi-visit-drone-routing-problem",
+        "concepts/pdsvrp-c",
+        "references/montemanni2024-pdsvrp-collective-drones",
+        "concepts/cooperative-multi-agent-uav-routing",
+        "concepts/transformer-seq2seq-routing-solver"
       ]
     },
     "_papers/poikonen2020multivisit/poikonen2020multivisit.md": {
@@ -1682,6 +1724,34 @@
       "last_ingested": "2026-10-22T11:32:22.209060+00:00",
       "pages_produced": [
         "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/images/page_20_chart_6.jpg": {
+      "content_hash": "f7a6d106b6b56efa60a9e987048fa0fa1ab2005ac48bec258104fb0e3fb0c066",
+      "last_ingested": "2026-10-24T07:38:17.908110+00:00",
+      "pages_produced": [
+        "concepts/multi-objective-maritime-cargo-routing-scheduling",
+        "concepts/fuzzy-weighted-max-min-scalarization",
+        "concepts/green-vehicle-routing-problem-taxonomy",
+        "concepts/nonlinear-drone-energy-function-in-routing",
+        "concepts/payload-induced-drone-battery-consumption-rate",
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_365_image_3.jpg": {
+      "content_hash": "0d4078c6eeab080078cc3c8e2c28457781a9505a0fa3e023a8adacf15da1ea2e",
+      "last_ingested": "2026-10-24T08:03:04.909925+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/swarm-intelligence-pso-aco.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_380_image_10.jpg": {
+      "content_hash": "6f0f0377a18a1c2a4f46ece5d6c2de30c1745663803db3d9182d6820e7b92205",
+      "last_ingested": "2026-10-24T08:03:04.987878+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/swarm-intelligence-pso-aco.md"
       ]
     }
   },

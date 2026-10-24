@@ -75,3 +75,5 @@ title: Wiki Log
 - [2026-10-24T03:00:25Z] INGEST source=_papers/goel2012large pages_created=3 pages_updated=3 mode=append
 - [2026-10-24T03:00:25Z] INGEST source=_papers/goel2015constraint pages_created=3 pages_updated=1 mode=append
 - [2026-10-24T04:37:31Z] INGEST source=_papers/goel2012large pages_created=0 pages_updated=15 mode=append
+- [2026-10-24T07:25:58Z] INGEST source=_papers/ganjia2026multiobjective pages_created=0 pages_updated=5 mode=append
+- [2026-10-24T08:03:05Z] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted.md pages_created=3 pages_updated=1 mode=append

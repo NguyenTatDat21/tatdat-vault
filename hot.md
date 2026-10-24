@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T04:37:31Z
-pages: 339
+updated: 2026-10-24T08:03:05Z
+pages: 342
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/goel2012large pages_created=3 pages_updated=3 ...
-- [2026-10-24] INGEST source=_papers/goel2015constraint pages_created=3 pages_updated=1 ...
 - [2026-10-24] INGEST source=_papers/goel2012large pages_created=0 pages_updated=15 ...
+- [2026-10-24] INGEST source=_papers/ganjia2026multiobjective pages_created=0 pages_updated=5 ...
+- [2026-10-24] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted... pages_created=3 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,11 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-- The MIRP modeling fork is now explicit: discrete time-expanded port-time nodes beat continuous-time port-visit nodes once time-dependent parameters, multiple berths, or rolling horizons appear (30/53 recent papers use discrete time); CP with interval and cumul variables runs 4-10x faster than MILP on steady-state instances.
-- Fuzzy weighted max-min scalarization with fixed weight sweeps is the practical multi-objective engine for maritime cargo routing (dossantos) and sustainable supply-chain scheduling (ganjia); Taguchi-tuned NSGA-II beats MOPSO on cost gap, hypervolume, and CO2.
-- The Fama-MacBeth two-stage design (form portfolios on one window, regress on a fresh window) is the template for cross-sectional factor tests: beta risk is priced, non-beta risk is not, and the intercept is a zero-beta minimum-variance portfolio return, not a risk-free rate.
-- Plate-and-position guillotine MIPs cover every feasible cut at pseudo-polynomial cost; LP dual pricing keeps under 40% of variables for ~80% of instances, so 16 of 21 large instances solve to optimality where the plain model solved none.
-- Handbook LNS/VNS census now ties destroy size, acceptance criteria (LNS with SA acceptance = SA on a complex neighborhood), and VLSN families to an industrial LNG instance where ship-pair destroy plus inventory heuristic beat CPLEX's first feasible solution by 13.6-15.7x.
+Handbook figure captions are now verbatim: a fabricated combined Fig. 4.1/Fig. 4.2 caption (100-customer CVRP, 43 vehicles, accept() step) was replaced by the handbook's real captions, and the same repair made in the two LNS concept pages. Simulated annealing is distilled as the acceptance rule — Metropolis probability, control-parameter cooling, and acceptance rate χ(c) ≈ 0.5 near the target temperature, which is the rule LNS+SA reuses on a complex neighborhood. Swarm intelligence is distilled from population-level problem solving with no central control (double-bridge, termite domes, Kennedy's three levels) through canonical PSO to its single-particle premature-convergence failure, which is why social information and influence topologies matter. Hybrids split into solution-based, objective-evaluation-based, system-based and operator-based, with exact merging and relaxation-guided ordering as the two routing-relevant patterns.
 
 ## Flagged Contradictions
 
