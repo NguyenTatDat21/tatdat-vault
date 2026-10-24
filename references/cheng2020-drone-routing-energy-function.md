@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
     type: related_to
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -27,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Drone Routing with Nonlinear Energy Function (Cheng et al.)
@@ -82,6 +84,7 @@ The paper notes that the energy model omits some effects (e.g., takeoff/landing 
 - [[concepts/exact-multitrip-vrptw-framework]]
 - [[references/poikonen2020-k-mvdrp]]
 - [[references/ahmadi-javid2022-drone-delivery-energy-formulation]]
+- [[references/dorling2017-drone-delivery-vrp]]
 - [[_papers/cheng2020drone/cheng2020drone-extracted]]
 
 ## Sources

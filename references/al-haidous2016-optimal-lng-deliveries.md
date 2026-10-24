@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
+  - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
+    type: related_to
 sources:
   - _papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md
   - _papers/al-haidous2016optimal/al-haidous2016optimal.md
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Optimal planning of liquefied natural gas deliveries
@@ -82,6 +84,7 @@ $$
 - [[concepts/annual-lng-delivery-program]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
+- [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
 
 ## Sources

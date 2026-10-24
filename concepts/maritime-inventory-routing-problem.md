@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
+  - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
+    type: related_to
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -25,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-22T23:17:15Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Maritime Inventory Routing Problem
@@ -78,6 +80,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
+- [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/annual-lng-delivery-program]]
 - [[concepts/maritime-routing-under-uncertainty]]
 

@@ -10,6 +10,8 @@ relationships:
     type: extends
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
+  - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
+    type: related_to
 sources:
   - _papers/andersson2017creating/andersson2017creating-extracted.md
   - _papers/andersson2017creating/andersson2017creating.md
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Creating annual delivery programs of liquefied natural gas
@@ -83,6 +85,7 @@ $$
 - [[concepts/annual-lng-delivery-program]]
 - [[references/al-haidous2016-optimal-lng-deliveries]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
+- [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
 
 ## Sources

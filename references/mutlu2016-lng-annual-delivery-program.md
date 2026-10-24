@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
+  - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
+    type: related_to
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -33,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T23:32:21Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)
@@ -85,6 +87,7 @@ From the reported computational study on 18 benchmark instances:
 - [[_papers/andersson2017creating/andersson2017creating-extracted]]
 - [[references/al-haidous2016-optimal-lng-deliveries]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
+- [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[_papers/al-haidous2016optimal/al-haidous2016optimal-extracted]]
 - [[_papers/goel2015constraint/goel2015constraint-extracted]]
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted]]

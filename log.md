@@ -67,3 +67,4 @@ title: Wiki Log
 - [2026-10-22T23:22:11Z] INGEST source="_papers wave W05 (cheng/christiansen2007/christiansen2008/christiansen2013/christiansen2020)" pages_created=6 pages_updated=2 mode=full
 - [2026-10-22T23:34:00Z] CROSS_LINK pages_scanned=316 links_added=8 typed_relations_written=8 pages_modified=3 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-22T23:52:56Z] INGEST source="_papers wave W06 (clautiaux/dellamico/deshpande/dinh/dorling)" pages_created=7 pages_updated=2 mode=full
+- [2026-10-24T00:06:40Z] CROSS_LINK pages_scanned=82 links_added=11 typed_relations_written=11 pages_modified=10 orphans_remaining=1 misc_affinity_updated=0 promotion_candidates=0

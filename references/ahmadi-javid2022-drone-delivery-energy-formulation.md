@@ -10,6 +10,8 @@ relationships:
     type: uses
   - target: "[[references/cheng2020-drone-routing-energy-function]]"
     type: related_to
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
 sources:
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md
@@ -24,12 +26,12 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach
 
-> [!tldr] Reformulates multi-trip drone delivery so general energy models can be used directly, with major runtime gains on benchmark instances.
+> [!tldr] Reformulates [[references/dorling2017-drone-delivery-vrp|multi-trip drone delivery]] so general energy models can be used directly, with major runtime gains on benchmark instances.
 
 ## Problem & Motivation
 
@@ -84,6 +86,7 @@ $$
 - [[concepts/payload-induced-drone-battery-consumption-rate]]
 - [[references/cheng2020-drone-routing-energy-function]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
+- [[references/dorling2017-drone-delivery-vrp]]
 
 ## Sources
 

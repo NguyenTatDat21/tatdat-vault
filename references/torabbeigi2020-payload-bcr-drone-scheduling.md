@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: related_to
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md
@@ -30,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Payload-induced Battery Consumption in Drone Delivery Scheduling (Torabbeigi et al., 2020)
@@ -75,6 +77,7 @@ The OP stage is formulated as an optimization model with preprocessing and bound
 ## Related
 
 - [[concepts/payload-induced-drone-battery-consumption-rate]]
+- [[references/dorling2017-drone-delivery-vrp]]
 - [[concepts/min-cost-tsp-with-drone]]
 - [[concepts/drone-speed-selection-in-routing]]
 - [[references/tamke2023-vrpd-dss]]

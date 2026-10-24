@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: related_to
+  - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
+    type: related_to
 sources:
   - _papers/ha2018mincost/ha2018mincost-extracted.md
   - _papers/ha2018mincost/ha2018mincost.md
@@ -28,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # Min-cost Traveling Salesman Problem with Drone (Ha et al., 2018)
@@ -99,6 +101,7 @@ The authors also report that min-cost solutions tend to use drones more frequent
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted]]
 - [[_papers/sacramento2019adaptive/sacramento2019adaptive-extracted]]
 - [[_papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted]]
+- [[references/dellamico2020-matheuristics-pdstsp]]
 
 ## Bibliographic Record
 

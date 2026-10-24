@@ -11,6 +11,12 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
+  - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
+    type: uses
+  - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
+    type: related_to
+  - target: "[[references/dinh2021-haco-pdstsp]]"
+    type: related_to
 sources:
   - _papers/nguyen2022mincost/nguyen2022mincost-extracted.md
   - _papers/nguyen2022mincost/nguyen2022mincost.md
@@ -31,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:13:25Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-23T00:04:12Z
 ---
 
 # The Min-cost Parallel Drone Scheduling Vehicle Routing Problem (Nguyen et al., 2022)
@@ -67,7 +73,7 @@ Key reported outcomes include:
 - On 100/200/400-customer sets, SISSRs remained stable with average gaps reported below about 5.59% and runtimes generally below 10 minutes.
 - Component study shows **full SISSRs configuration** is strongest; local search and threshold acceptance contribute most.
 - Sensitivity analysis (CART over 1000 generated instances) reports average drone-enabled cost saving around **20.42%**, with battery endurance and truck-drone cost ratio as dominant factors.
-- PDSTSP adaptation produced **26 new best-known solutions**, outperforming compared metaheuristics in solution quality.
+- [[concepts/parallel-drone-scheduling-traveling-salesman-problem|PDSTSP]] adaptation produced **26 new best-known solutions**, outperforming compared metaheuristics in solution quality.
 
 ## Limitations
 
@@ -79,6 +85,9 @@ Key reported outcomes include:
 
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[concepts/min-cost-tsp-with-drone]]
+- [[concepts/parallel-drone-scheduling-traveling-salesman-problem]]
+- [[references/dellamico2020-matheuristics-pdstsp]]
+- [[references/dinh2021-haco-pdstsp]]
 - [[concepts/pdsvrp-c]]
 - [[references/montemanni2024-pdsvrp-collective-drones]]
 - [[references/yang2022-vrpd-bilevel-heuristic]]
