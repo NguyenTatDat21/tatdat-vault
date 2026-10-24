@@ -10,12 +10,17 @@ relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
+  - target: "[[concepts/maritime-routing-under-uncertainty]]"
+    type: related_to
+  - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
+  - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
+  - _papers/fagerholt2023maritime/fagerholt2023maritime.md
 summary: >-
   Defines integrated maritime planning where ship routing/scheduling and port inventory dynamics are optimized jointly, plus common extension patterns used in industrial shipping models.
 provenance:
@@ -27,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-23T00:04:12Z
+updated: 2026-10-24T00:32:00Z
 ---
 
 # Maritime Inventory Routing Problem
@@ -69,6 +74,9 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - multi-product and compartment constraints,
 - spot charters and contract heterogeneity,
 - weather/speed uncertainty and rolling-horizon replanning.
+- the discrete-time vs continuous-time modeling fork, which the 2013–2023 survey splits 30/27 papers, with 4 using both ([[concepts/mirp-modeling-continuous-vs-discrete-time]]),
+- fixed-charge network-flow reformulations with lot-sizing valid inequalities, and constraint-programming models that ran ~4–10× faster than MILP on average,
+- evaporative cargo (LNG, ammonia) that can be used as ship fuel, adding a second use dimension to the delivery decision.
 
 ## Open Questions
 
@@ -83,8 +91,14 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/annual-lng-delivery-program]]
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[concepts/mirp-modeling-continuous-vs-discrete-time]]
+- [[references/fagerholt2023-maritime-inventory-routing-survey]]
 
 ## Sources
 
 - [[_papers/christiansen2008maritime/christiansen2008maritime-extracted.md]]
 - [[_papers/christiansen2013ship/christiansen2013ship-extracted.md]]
+- [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md]]
+- [[_papers/fagerholt2023maritime/fagerholt2023maritime.md]]
+- [[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
+- [[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]

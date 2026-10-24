@@ -1295,6 +1295,186 @@
       "pages_produced": [
         "references/dorling2017-drone-delivery-vrp.md"
       ]
+    },
+    "_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md": {
+      "content_hash": "d25922a7fa539937bc447ec2e0d66db9ba8b4dc5e57f8402ec085bff9f235370",
+      "last_ingested": "2026-10-24T01:27:44.009849+00:00",
+      "pages_produced": [
+        "references/dossantos2024-multiobjective-maritime-cargo-routing.md",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling.md",
+        "concepts/fuzzy-weighted-max-min-scalarization.md"
+      ]
+    },
+    "_papers/dossantos2024multiobjective/dossantos2024multiobjective.md": {
+      "content_hash": "32ea0e7eda4ff47f494b7176957e43a8223b4b49e67f261a4c719c30120f1a39",
+      "last_ingested": "2026-10-24T01:27:44.115076+00:00",
+      "pages_produced": [
+        "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
+      ]
+    },
+    "_papers/dossantos2024multiobjective/images/page_5_image_2.jpg": {
+      "content_hash": "f3c4e1a465df1e4bdab6a092625a4380654062d600e16f79456bd77a5963328c",
+      "last_ingested": "2026-10-24T01:27:44.193841+00:00",
+      "pages_produced": [
+        "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
+      ]
+    },
+    "_papers/dossantos2024multiobjective/images/page_17_chart_2.jpg": {
+      "content_hash": "e637bfbd3ba03f200eff8cd5a63f0500c9f382eb2ca8639eb1323853f63478e8",
+      "last_ingested": "2026-10-24T01:27:44.268458+00:00",
+      "pages_produced": [
+        "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md": {
+      "content_hash": "5f8bc90b54ec4a79ec85a0eb76529f1c6ce3c9aea070a08d86e7f594613c2c5d",
+      "last_ingested": "2026-10-24T01:27:44.338905+00:00",
+      "pages_produced": [
+        "references/fagerholt2023-maritime-inventory-routing-survey.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/maritime-routing-under-uncertainty.md",
+        "references/ksciuk2023-maritime-uncertainty-review.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/fagerholt2023maritime.md": {
+      "content_hash": "9bc038131e13dae67dd757117f5ea97dcba8ac1664063473d632b3d802f7c844",
+      "last_ingested": "2026-10-24T01:27:44.405027+00:00",
+      "pages_produced": [
+        "references/fagerholt2023-maritime-inventory-routing-survey.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/images/page_8_image_2.jpg": {
+      "content_hash": "74b684969542e02cf7131aa7ff4cefa84062ba0ef3abaad6b5eb27a0299112ef",
+      "last_ingested": "2026-10-24T01:27:44.468282+00:00",
+      "pages_produced": [
+        "references/fagerholt2023-maritime-inventory-routing-survey.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/images/page_11_image_2.jpg": {
+      "content_hash": "b86c50d2c637a66495967c13e2634ae2f499bc8df106521774f497f14a4dfe64",
+      "last_ingested": "2026-10-24T01:27:44.530421+00:00",
+      "pages_produced": [
+        "references/fagerholt2023-maritime-inventory-routing-survey.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/images/page_22_image_2.jpg": {
+      "content_hash": "104b8cebb43e99157fbe7fc05ae60c5771e28fed61862397eccd9333b61eb640",
+      "last_ingested": "2026-10-24T01:30:35.919741+00:00",
+      "pages_produced": [
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/fama1973risk/fama1973risk-extracted.md": {
+      "content_hash": "e8b9e1a46d343c3f91795e59609864799b805b91edc62c67255282163c70944d",
+      "last_ingested": "2026-10-24T01:30:35.027452+00:00",
+      "pages_produced": [
+        "references/fama1973-risk-return-equilibrium-empirical-tests.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
+        "concepts/ordering-information-portfolio-selection.md",
+        "references/black1992-global-portfolio-optimization.md"
+      ]
+    },
+    "_papers/fama1973risk/fama1973risk.md": {
+      "content_hash": "54149720b28445b918badaf532013f020dcea9729c47ad960ca0035364e66ee9",
+      "last_ingested": "2026-10-24T01:27:44.707705+00:00",
+      "pages_produced": [
+        "references/fama1973-risk-return-equilibrium-empirical-tests.md"
+      ]
+    },
+    "_papers/fuertes2023solving/fuertes2023solving-extracted.md": {
+      "content_hash": "4f130665a0c3fdea989200bd15c1da8fa7d1b26f507f2e30f3d65472b006695c",
+      "last_ingested": "2026-10-24T01:30:35.122803+00:00",
+      "pages_produced": [
+        "references/fuertes2023-transformer-multi-uav-routing.md",
+        "concepts/transformer-seq2seq-routing-solver.md",
+        "concepts/cooperative-multi-agent-uav-routing.md"
+      ]
+    },
+    "_papers/fuertes2023solving/fuertes2023solving.md": {
+      "content_hash": "4c36e3c5638c3739c46373cfba49d601df66f8e15850edfd6d7e76a7944cddb8",
+      "last_ingested": "2026-10-24T01:30:35.209767+00:00",
+      "pages_produced": [
+        "references/fuertes2023-transformer-multi-uav-routing.md"
+      ]
+    },
+    "_papers/fuertes2023solving/images/page_1_image_2.jpg": {
+      "content_hash": "422f6e967e7dd8c3873c89995a2a899f08f295a47c3342497724f27377a5941f",
+      "last_ingested": "2026-10-24T01:30:35.286670+00:00",
+      "pages_produced": [
+        "references/fuertes2023-transformer-multi-uav-routing.md"
+      ]
+    },
+    "_papers/fuertes2023solving/images/page_1_image_4.jpg": {
+      "content_hash": "4d329868ab714c7fb75cd59b208062c226422edbf5d6de77b5188220acbeb961",
+      "last_ingested": "2026-10-24T01:30:35.359702+00:00",
+      "pages_produced": [
+        "concepts/cooperative-multi-agent-uav-routing.md"
+      ]
+    },
+    "_papers/fuertes2023solving/images/page_4_image_3.jpg": {
+      "content_hash": "9e6faa564ce4faf13e105a05183cea0c5b195a5cda3d79892272f7b9e992bc33",
+      "last_ingested": "2026-10-24T01:30:35.429383+00:00",
+      "pages_produced": [
+        "references/fuertes2023-transformer-multi-uav-routing.md",
+        "concepts/transformer-seq2seq-routing-solver.md"
+      ]
+    },
+    "_papers/fuertes2023solving/images/page_8_chart_2.jpg": {
+      "content_hash": "153adba87b55b873089adf5dca17cf2d1a7cf3ee9e8a9faaeed874f05a31cf1d",
+      "last_ingested": "2026-10-24T01:30:35.496056+00:00",
+      "pages_produced": [
+        "references/fuertes2023-transformer-multi-uav-routing.md"
+      ]
+    },
+    "_papers/furini2016modeling/furini2016modeling-extracted.md": {
+      "content_hash": "4e2a47161cb5eea4da3a854b2f4cee1380222aaf03665b2756c45c9b06592a98",
+      "last_ingested": "2026-10-24T01:30:35.561010+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md",
+        "concepts/plate-cut-position-guillotine-mip.md",
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md",
+        "references/clautiaux2018-hypergraph-guillotine-knapsack.md"
+      ]
+    },
+    "_papers/furini2016modeling/furini2016modeling.md": {
+      "content_hash": "6433b4c597fb6f232a5d24c6d66686e94f8c2df335f37c058f563f3513daaeff",
+      "last_ingested": "2026-10-24T01:30:35.621196+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
+    "_papers/furini2016modeling/images/page_1_image_0.jpg": {
+      "content_hash": "355a42c57f0a6e47c9956f4a427888b99512a0ad3910c54af9ed4a1b1cf16d7f",
+      "last_ingested": "2026-10-24T01:30:35.680261+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
+    "_papers/furini2016modeling/images/page_3_image_5.jpg": {
+      "content_hash": "417fe722e89159e3fb0c0dc973b071493af08c61331bdd0f7f8830199c33f105",
+      "last_ingested": "2026-10-24T01:30:35.739527+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md",
+        "concepts/plate-cut-position-guillotine-mip.md",
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
+      ]
+    },
+    "_papers/furini2016modeling/images/page_13_chart_3.jpg": {
+      "content_hash": "642736e10c84c616fe829274a7969d298f4222b309815abdbdd8d3be6324dc64",
+      "last_ingested": "2026-10-24T01:30:35.797149+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
+    "_papers/furini2016modeling/images/page_19_chart_0.jpg": {
+      "content_hash": "e27211c22f81de5296644e0202ff61795e081a287f5647d6d4d5f6d715c587b6",
+      "last_ingested": "2026-10-24T01:30:35.856073+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
     }
   }
 }

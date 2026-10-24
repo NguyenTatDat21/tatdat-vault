@@ -5,6 +5,8 @@ tags: [portfolio-optimization, black-litterman, capm, asset-allocation]
 relationships:
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
+  - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
+    type: related_to
   - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
@@ -17,15 +19,15 @@ sources:
 summary: >-
   Uses CAPM equilibrium returns as a neutral prior and blends investor views by confidence, yielding more stable global asset-allocation portfolios than naive mean assumptions.
 provenance:
-  extracted: 0.87
-  inferred: 0.11
+  extracted: 0.85
+  inferred: 0.13
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-22T20:40:00Z
+updated: 2026-10-24T00:32:00Z
 ---
 
 # Global Portfolio Optimization
@@ -93,6 +95,7 @@ $$
 - Equilibrium assumptions and confidence calibration still require judgment.
 - Practical outputs remain sensitive to [[concepts/mmse-covariance-shrinkage|covariance estimates]] and view specification.
 - Original exposition is partly heuristic and uses illustrative examples rather than one unified empirical testbed. ^[inferred]
+- The paper's premise that the value-weighted market portfolio is efficient under homogeneous expectations and unrestricted short selling is the structural argument Fama & MacBeth (1973) used to justify testing the two-parameter model against the observed market — see [[references/fama1973-risk-return-equilibrium-empirical-tests]].
 
 ## Related
 
@@ -100,8 +103,12 @@ $$
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[concepts/cash-based-operating-profitability]]
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
+- [[references/ball2016-accruals-cash-flows-operating-profitability]]
+- [[references/fama1973-risk-return-equilibrium-empirical-tests]]
+- [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]
 
 ## Sources
 
 - [[_papers/black1992global/black1992global-extracted.md]]
 - [[_papers/black1992global/black1992global.md]]
+- [[_papers/fama1973risk/fama1973risk-extracted.md]]

@@ -14,13 +14,14 @@ relationships:
 sources:
   - _papers/clautiaux2018combining/clautiaux2018combining-extracted.md
   - _papers/clautiaux2018combining/clautiaux2018combining.md
+  - _papers/furini2016modeling/furini2016modeling-extracted.md
 summary: >-
   Exact hypergraph-flow and dynamic-programming framework for four-stage
   guillotine bounded knapsack, accelerated by preprocessing and Lagrangian
   filtering.
 provenance:
-  extracted: 0.89
-  inferred: 0.09
+  extracted: 0.85
+  inferred: 0.13
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
@@ -71,12 +72,15 @@ Pipeline used in the paper:
 - Gains depend strongly on bound quality and multiplier quality in Lagrangian filtering.
 - Performance varies by instance family; some classes remain easier for alternative exact procedures. ^[ambiguous]
 - The method is specialized to guillotine-cut structure and does not directly transfer to unrestricted 2D packing.
+- The four-stage pattern is a modeling restriction; a plate-and-cut-position MIP over all feasible guillotine cuts covers strictly more patterns, at the cost of a pseudo-polynomial variable count — see [[references/furini2016-two-dimensional-guillotine-cutting-ip]]. ^[inferred]
 
 ## Related
 
 - [[concepts/four-stage-guillotine-cut-bounded-knapsack]]
 - [[concepts/branch-and-price-column-generation]]
 - [[references/barnhart1998-branch-and-price-column-generation]]
+- [[references/furini2016-two-dimensional-guillotine-cutting-ip]]
+- [[concepts/plate-cut-position-guillotine-mip]]
 
 ## Bibliographic Record
 
@@ -91,3 +95,4 @@ Pipeline used in the paper:
 
 - [[_papers/clautiaux2018combining/clautiaux2018combining-extracted.md]]
 - [[_papers/clautiaux2018combining/clautiaux2018combining.md]]
+- [[_papers/furini2016modeling/furini2016modeling-extracted.md]]

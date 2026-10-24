@@ -15,18 +15,19 @@ sources:
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2020liner/christiansen2020liner-extracted.md
+  - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
 summary: >-
   A planning-level concept for uncertainty in maritime routing, spanning demand, travel time, fuel and disruption risk, plus robust and rolling-horizon mitigation strategies.
 provenance:
-  extracted: 0.8
-  inferred: 0.17
+  extracted: 0.82
+  inferred: 0.15
   ambiguous: 0.03
 base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T23:17:15Z
+updated: 2026-10-24T00:32:00Z
 ---
 
 # Maritime Routing Under Uncertainty
@@ -39,6 +40,7 @@ Maritime routing and scheduling are uncertainty-sensitive across planning horizo
 - **Tactical uncertainty**: schedule reliability, inventory-routing feasibility, speed/bunkering policy, and transshipment delays.
 - **Operational uncertainty**: weather, port congestion, disruptions, and short-horizon network imbalance.
 - In practice, robust buffers, decomposition, and rolling-horizon replanning are often preferred over fully stochastic monoliths when deployment constraints dominate. ^[inferred]
+- In maritime inventory routing specifically, uncertainty modeling is still in its infancy: the 2013–2023 survey counts few stochastic MIRP studies and calls for a standardized instance set plus an open-source simulation framework to compare stochastic policies — see [[references/fagerholt2023-maritime-inventory-routing-survey]].
 
 The central tension is realism vs deployability: richer stochastic models can improve policy quality, but adoption depends on data quality, computation time, and planner trust.
 
@@ -62,6 +64,8 @@ The central tension is realism vs deployability: richer stochastic models can im
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[references/christiansen2020-liner-shipping-network-design]]
 - [[concepts/maritime-inventory-routing-problem]]
+- [[references/fagerholt2023-maritime-inventory-routing-survey]]
+- [[concepts/mirp-modeling-continuous-vs-discrete-time]]
 - [[concepts/liner-shipping-network-design]]
 
 ## Sources
@@ -69,3 +73,5 @@ The central tension is realism vs deployability: richer stochastic models can im
 - [[_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md]]
 - [[_papers/christiansen2013ship/christiansen2013ship-extracted.md]]
 - [[_papers/christiansen2020liner/christiansen2020liner-extracted.md]]
+- [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md]]
+- [[_papers/fagerholt2023maritime/images/page_22_image_2.jpg]]

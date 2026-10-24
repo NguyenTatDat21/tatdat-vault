@@ -60,7 +60,10 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
   - ✅ Completed 2026-10-22T23:22Z — pages_created=6, pages_updated=2; cache-check unchanged (10/10); qmd update+embed+verify complete.
 - [x] **W06** `_papers/clautiaux2018combining/...` → `_papers/dorling2017vehicle/...`
   - ✅ Completed 2026-10-22T23:54Z — pages_created=7, pages_updated=2; cache-check unchanged (10/10); qmd update+embed+verify complete.
-- [ ] **W07** `_papers/dossantos2024multiobjective/...` → `_papers/furini2016modeling/...`
+- [x] **W07** `_papers/dossantos2024multiobjective/...` → `_papers/furini2016modeling/...`
+  - ✅ Completed 2026-10-24T01:31Z — pages_created=12, pages_updated=7; cache-check unchanged (10/10); qmd update+embed+verify complete.
+  - ⚠️ Note: `fama1973risk` extracted markdown has no image links, so its page is text-only; equation/table image files exist on disk but their page-to-content mapping is unverified, and no image was embedded.
+  - ⚠️ Deferred to a follow-up wave: adding back-links from `references/poikonen2020-k-mvdrp`, `references/lu2024-hybrid-evolutionary-algorithm-sop`, and `references/murray2020-multiple-flying-sidekicks-tsp` into the new UAV routing concept pages.
 - [ ] **W08** `_papers/ganjia2026multiobjective/...` → `_papers/goel2015constraint/...`
 - [ ] **W09** `_papers/gronhaug2009supply/...` → `_papers/ha2020new/...`
 - [ ] **W10** `_papers/hadjsalem2023mathematical/...` → `_papers/he2002intuition/...`
@@ -87,4 +90,4 @@ Use **5-paper waves** (safe with `max_pages_per_ingest=15`).
 - [ ] QMD refreshed and verified
 
 ## Next Action
-Start **W07** and log deltas (created/updated pages, QMD status, blockers) in this file.
+Start **W08** (`_papers/ganjia2026multiobjective/...` → `_papers/goel2015constraint/...`) and log deltas (created/updated pages, QMD status, blockers) in this file. Carry over the deferred UAV back-links listed under W07.

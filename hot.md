@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T00:06:40Z
-pages: 317
+updated: 2026-10-24T01:30:47Z
+pages: 329
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] CROSS_LINK pages_scanned=316 links_added=8 typed_relations_written=8 ...
 - [2026-10-22] INGEST source=_papers wave W06 (clautiaux/dellamico/deshpande/dinh/dorlin... pages_created=7 pages_updated=2 ...
 - [2026-10-24] CROSS_LINK pages_scanned=82 links_added=11 typed_relations_written=11 ...
+- [2026-10-24] INGEST source=_papers/dossantos2024multiobjective pages_created=12 pages_updated=7 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Wove the W06 clusters into the graph: PDSTSP papers (Dell'Amico, Dinh, Nguyen, Ha) and the drone-delivery energy lineage now converge on Dorling 2017; the LNG ADP cluster converges on the berth-aware Deshpande extension, leaving no W06 orphan.
+Multi-objective maritime cargo routing is now anchored by fuzzy weighted max-min scalarization over three objectives (makespan, freight+demurrage cost, service delay), and the continuous-vs-discrete-time fork in MIRP modeling is a named concept with the 2013-2023 census. The Fama-MacBeth two-stage design gives the empirical basis for ranking-driven portfolio work, and plate-and-position guillotine MIPs now sit alongside the four-stage hypergraph model as the exact-family choice.
 
 ## Flagged Contradictions
 

@@ -9,22 +9,28 @@ relationships:
     type: related_to
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
     type: related_to
+  - target: "[[concepts/plate-cut-position-guillotine-mip]]"
+    type: related_to
+  - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
+    type: related_to
 sources:
   - _papers/clautiaux2018combining/clautiaux2018combining-extracted.md
   - _papers/clautiaux2018combining/clautiaux2018combining.md
+  - _papers/furini2016modeling/furini2016modeling-extracted.md
+  - _papers/furini2016modeling/furini2016modeling.md
 summary: >-
   Exact 2D cutting/packing concept where bounded item production and four-stage
   guillotine cuts are solved via DP-derived hypergraph flow with strong pruning.
 provenance:
-  extracted: 0.88
-  inferred: 0.1
+  extracted: 0.86
+  inferred: 0.12
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-22T23:45:17Z
+updated: 2026-10-24T00:32:00Z
 ---
 
 # Four-stage Guillotine-cut Bounded Knapsack
@@ -43,12 +49,15 @@ This concept models 2D cutting where each cut must be guillotine-compatible and 
 - It turns a combinatorially large cutting-pattern space into a structured optimization pipeline.
 - Hypergraph preprocessing + reduced-cost filtering can make exact solving practical on larger industrial instances.
 - It illustrates a reusable pattern: derive exact recursion, convert to flow-like master model, then prune aggressively. ^[inferred]
+- The same problem space admits a **plate-and-cut-position** MIP (one variable per plate, orientation, and cut position) that covers all feasible guillotine cuts; restricted positions (cuts at item sizes) suffice when a plate fits at most five items — see [[concepts/plate-cut-position-guillotine-mip]]. ^[inferred]
 
 ## Related
 
 - [[references/clautiaux2018-hypergraph-guillotine-knapsack]]
 - [[concepts/branch-and-price-column-generation]]
 - [[references/barnhart1998-branch-and-price-column-generation]]
+- [[concepts/plate-cut-position-guillotine-mip]]
+- [[references/furini2016-two-dimensional-guillotine-cutting-ip]]
 
 ## Open Questions
 
@@ -59,3 +68,5 @@ This concept models 2D cutting where each cut must be guillotine-compatible and 
 
 - [[_papers/clautiaux2018combining/clautiaux2018combining-extracted.md]]
 - [[_papers/clautiaux2018combining/clautiaux2018combining.md]]
+- [[_papers/furini2016modeling/furini2016modeling-extracted.md]]
+- [[_papers/furini2016modeling/images/page_3_image_5.jpg]]
