@@ -69,3 +69,8 @@ title: Wiki Log
 - [2026-10-22T23:52:56Z] INGEST source="_papers wave W06 (clautiaux/dellamico/deshpande/dinh/dorling)" pages_created=7 pages_updated=2 mode=full
 - [2026-10-24T00:06:40Z] CROSS_LINK pages_scanned=82 links_added=11 typed_relations_written=11 pages_modified=10 orphans_remaining=1 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-24T01:30:47Z] INGEST source=_papers/dossantos2024multiobjective pages_created=12 pages_updated=7 mode=append
+- [2026-10-24T03:00:24Z] INGEST source=_papers/ganjia2026multiobjective pages_created=2 pages_updated=0 mode=append
+- [2026-10-24T03:00:24Z] INGEST source=_papers/garg2022iqlearn pages_created=2 pages_updated=0 mode=append
+- [2026-10-24T03:00:24Z] INGEST source=_papers/gendreau2019handbook pages_created=1 pages_updated=3 mode=append
+- [2026-10-24T03:00:25Z] INGEST source=_papers/goel2012large pages_created=3 pages_updated=3 mode=append
+- [2026-10-24T03:00:25Z] INGEST source=_papers/goel2015constraint pages_created=3 pages_updated=1 mode=append

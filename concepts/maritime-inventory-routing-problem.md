@@ -10,7 +10,6 @@ relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
-  - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to

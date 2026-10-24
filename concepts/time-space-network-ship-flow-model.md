@@ -1,0 +1,109 @@
+---
+title: >-
+  Time-Space Network Ship-Flow Model
+category: concepts
+tags: [modeling-pattern, network-flow, time-space-network, lng, maritime, mixed-integer-programming]
+relationships:
+  - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
+    type: derived_from
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: related_to
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+  - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
+    type: related_to
+  - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
+    type: related_to
+  - target: "[[concepts/annual-lng-delivery-program]]"
+    type: related_to
+  - target: "[[concepts/maritime-inventory-routing-problem]]"
+    type: related_to
+  - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
+    type: related_to
+  - target: "[[concepts/plate-cut-position-guillotine-mip]]"
+    type: related_to
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: related_to
+sources:
+  - _papers/goel2012large/goel2012large-extracted.md
+  - _papers/goel2012large/goel2012large.md
+  - _papers/goel2012large/images/page_6_image_2.jpg
+summary: >-
+  Ship as flow commodity on a location-by-day network: path cover plus node conservation encodes the schedule, so inventory, berth limits and losses become linear constraints.
+provenance:
+  extracted: 0.82
+  inferred: 0.15
+  ambiguous: 0.03
+base_confidence: 0.67
+lifecycle: draft
+lifecycle_changed: 2026-10-24
+tier: supporting
+created: 2026-10-24T12:25:00Z
+updated: 2026-10-24T12:25:00Z
+---
+
+# Time-Space Network Ship-Flow Model
+
+> [!tldr] The time-space network models ship scheduling as **integer multi-commodity net flow with each ship as a commodity** (Savelsbergh & Song, 2008): node $(j,t)$ marks that ship $v$ is at terminal $j$ at the start of day $t$, arcs carry one ship's path, and flow conservation, path-cover constraints and berth capacity turn the schedule into linear structure. It is the MIP backbone of the LNG inventory-routing literature.
+
+![[_papers/goel2012large/images/page_6_image_2.jpg]]
+*Fig. 1 (Goel et al. 2012 paper): the time-space network with single-visit nodes and travel-time-dependent arcs — loading at a production terminal, waiting, travel, discharge at a regasification terminal, plus source and sink arcs for unused ships.*
+
+## Core Structure
+
+```mermaid
+flowchart LR
+  SRC["SRC (node 0)"] --> I0["(j_v0, t_v0) initial-visit arc I"]
+  I0 --> F["waiting arcs D: (j,t) -> (j,t+1), no service, no berth occupancy"]
+  F --> T["travel arcs T: (j,t) -> (j', t + tau_{j,j',t}), loading/discharge immediately followed by travel"]
+  T --> SNK["SNK: ship no longer in service (F arcs)"]
+  SNK -.-> SNK
+  T --> F
+```
+
+Node set $N_v=\{(j,t)\}\cup\{SRC,SNK\}$ for ship $v$; arc set $A_v=I\cup D\cup F\cup T$. The key device: a loading or discharging visit is **immediately followed by a travel arc**, which removes the symmetry between waiting at a terminal and starting travel from it.
+
+Ship flow conservation and path cover (paper Eqs. 2–4):
+
+$$\sum_{a\in O_v(j,t)}x^v_a=\sum_{a\in I_v(j,t)}x^v_a\ \ \forall(j,t)\in N_v,\qquad \sum_{a\in I_v}x^v_a=\sum_{a\in F_v}x^v_a=1,\qquad \sum_{a\in A_{v'}}x^{v'}_a\le 1$$
+
+Cargo delivered to regasification terminal $r$ (paper Eq. 6): $Q^v_r=\sum_{a\in T^{(r)}_v}\gamma^{V}_vx^v_a$, with inventory balance $g_{r,t}=g_{r,t-1}+Q^v_r-d_{r,t}+s_{r,t}$, berth capacity $\sum_{v\in V}\sum_{a\in B(j,t)}x^v_a\le b_j$, and the annual-demand shortfall $\delta^D_r\ge D_r-\sum_{v}\sum_{a\in T^{(r)}_v}\gamma^V_vx^v_a$. Objective is the penalty sum $\min\sum_{l}w_{l,t}o_{l,t}+\sum_{r}w_{r,t}s_{r,t}+\sum_{r}w^D_r\delta^D_r$.
+
+## Census and Numbers
+
+Goel et al. (2012), Table 1 instance sizes: 39/40 ship-day nodes per ship in production (33/40 in regasification) for a 365-day horizon; binary variables 12,812 (P1, 6 ships) up to 232,856 (P14, 69 ships, 10 regas terminals); constraints 6,406 → 79,425; continuous variables 1,827 → 11,691. Goel et al. (2015), Table 1: the same MIP has 232,856 0-1 variables for P14 while a ship-perspective CP model needs 15,375 variables — the time-space grid is the size driver.
+
+Travel-time structure is monotone: $\tau_{j,j',t}\le\tau_{j,j',t+1}+1$; travel times are integer days, one full day loading/discharging occupies a berth, no seasonality.
+
+The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1}$ (monotonically decreasing, e.g. 1,2,4,8,16) so a lost unit of production/regasification is reported at the time it is lost, preventing the model from shifting losses to cheaper days.
+
+## Why It Matters
+
+- The network makes ship routes, inventory and berth competition linear, so the model supports **supply-chain design analysis** — the paper's stated purpose — including the two extensions: inventory smoothening (maximize production inventory, minimize regasification inventory under an objective ceiling $\hat z^*+g$) and boundary-effect analysis (initial inventories and ship positions as decision variables).
+- Discrete daily discretization is the price of this linearity: the number of nodes grows with the horizon, so a 365-day problem with 69 ships produces a quarter of a million binaries.^[extracted]
+- The waiting/travel decomposition plus the path-cover constraint is the symmetry-reduction device that keeps the model solvable enough for large-neighborhood search; see [[concepts/large-neighborhood-ship-pair-destroy-repair]].
+- The same location-by-day network underlies time-expanded routing formulations such as [[references/paradiso2020-esf-multitrip-vrptw]] and discretized continuous-time models such as [[references/boland2017-continuous-time-service-network-design]].
+
+## Related
+
+- [[concepts/mirp-modeling-continuous-vs-discrete-time]]
+- [[concepts/large-neighborhood-ship-pair-destroy-repair]]
+- [[concepts/maritime-inventory-routing-problem]]
+- [[concepts/annual-lng-delivery-program]]
+- [[concepts/cumulative-volume-lower-bound-cp-search]]
+- [[concepts/disjunctive-scheduling-constraint-programming-model]]
+- [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
+- [[references/goel2015-constraint-programming-lng-ship-scheduling]]
+- [[references/fagerholt2023-maritime-inventory-routing-survey]]
+- [[references/christiansen2008-maritime-inventory-routing-problems]]
+
+## Open Questions
+
+- Does the network admit split deliveries without exploding the arc set? Goel et al. note the MIP "may be extended" to multiple loads; the CP encoding CP2 does not. ^[ambiguous]
+- The time-space grid is daily; the CP representation has no discretization. Which representation wins as horizons and fleets grow, given the CP model already scales to 100 ships? ^[inferred]
+
+## Sources
+
+- [[_papers/goel2012large/goel2012large-extracted.md]]
+- [[_papers/goel2012large/goel2012large.md]]
+- [[_papers/goel2012large/images/page_6_image_2.jpg]]

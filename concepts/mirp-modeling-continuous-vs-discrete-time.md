@@ -12,9 +12,21 @@ relationships:
     type: related_to
   - target: "[[references/boland2017-continuous-time-service-network-design]]"
     type: related_to
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: extends
+  - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
+    type: related_to
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: related_to
 sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
+  - _papers/goel2012large/goel2012large-extracted.md
+  - _papers/goel2012large/goel2012large.md
+  - _papers/goel2015constraint/goel2015constraint-extracted.md
+  - _papers/goel2015constraint/goel2015constraint.md
+  - _papers/fagerholt2023maritime/images/page_8_image_2.jpg
+  - _papers/fagerholt2023maritime/images/page_11_image_2.jpg
 summary: >-
   The MIRP modeling fork: a discrete time-expanded port-time node grid versus a continuous-time
   port-visit node grid, with the trade-offs that decide which one a study should use.
@@ -22,12 +34,12 @@ provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T13:10:00Z
 ---
 
 # Continuous vs Discrete Time in Maritime Inventory Routing Models
@@ -58,7 +70,7 @@ $$
 
 **Guidance**: continuous time when the study is steady-state, ports have one berth, and the model is bespoke; discrete time otherwise.
 
-Variants beyond the fork: **location-event** and **vessel-event** continuous models; an event-point model for ports with multiple berths; hybrid discrete/continuous models; nonlinear speed, fuel-consumption, and tide models; path-flow models with set-partitioning structure; fixed-charge network-flow models with lot-sizing valid inequalities; constraint programming with interval/sequence variables and cumul functions.
+Variants beyond the fork: **location-event** and **vessel-event** continuous models; an event-point model for ports with multiple berths; hybrid discrete/continuous models; nonlinear speed, fuel-consumption, and tide models; path-flow models with set-partitioning structure; fixed-charge network-flow models with lot-sizing valid inequalities; constraint programming with interval/sequence variables and cumul functions — the Goel et al. LNG port-visit model is the clearest CP instantiation (see [[concepts/cumulative-volume-lower-bound-cp-search]]).
 
 ![[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
 *Fig. 1 (paper): time-expanded network — one node per (port, period), sailing arcs and inventory arcs, source and sink nodes.*
@@ -72,6 +84,7 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 - The discrete-time approximation is not harmless: inventory bounds are only checked at period boundaries, so a "feasible" plan can violate bounds between periods. ^[inferred]
 - Fixed-charge network-flow reformulations tighten LP relaxations via lot-sizing cuts, yet the literature has no proof that they yield better primal solutions on large instances — the model that is "stronger" on paper is not necessarily better in practice.
 - Constraint programming was ~4–10× faster than MILP on average in one comparison, showing that the modeling paradigm, not just the solver, drives performance.
+- The Goel et al. LNG case quantifies the fork on one instance: the discrete time-space MIP has 232,856 binary variables and 79,425 constraints, while the continuous CP port-visit model has 15,375 variables (no binaries), 52,149 constraints, 37% fewer nonzeros, solves in 1.8 s versus 14 s, and finds a strictly better solution.
 - Horizon length is a trap: optimal MIRP decisions depend on the horizon $T$, so a planning system cannot claim "steady state" without stating the horizon. ^[inferred]
 
 ## Related
@@ -81,6 +94,10 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 - [[concepts/annual-lng-delivery-program]]
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[references/boland2017-continuous-time-service-network-design]]
+- [[concepts/time-space-network-ship-flow-model]]
+- [[concepts/cumulative-volume-lower-bound-cp-search]]
+- [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
+- [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[concepts/branch-and-price-column-generation]]
 
 ## Open Questions
@@ -95,3 +112,7 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime.md]]
 - [[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
 - [[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]
+- [[_papers/goel2012large/goel2012large-extracted.md]]
+- [[_papers/goel2012large/goel2012large.md]]
+- [[_papers/goel2015constraint/goel2015constraint-extracted.md]]
+- [[_papers/goel2015constraint/goel2015constraint.md]]

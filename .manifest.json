@@ -18,21 +18,22 @@
     },
     "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
       "content_hash": "974311a81a7f0b11f1f6f9b59ae118b65ca4f8e49d7bb6a2b6612a875cf7206f",
-      "last_ingested": "2026-10-22T18:14:26.570456+00:00",
+      "last_ingested": "2026-10-24T02:59:40.820070+00:00",
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/tabu-search.md",
-        "concepts/variable-neighborhood-search.md",
         "concepts/large-neighborhood-search.md",
-        "concepts/parallel-metaheuristics-cooperative-search.md",
-        "concepts/hyper-heuristics.md"
+        "concepts/variable-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     },
     "_papers/gendreau2019handbook/gendreau2019handbook.md": {
       "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
-      "last_ingested": "2026-10-22T08:46:42.633260+00:00",
+      "last_ingested": "2026-10-24T02:59:40.874891+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     },
     "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
@@ -1474,6 +1475,213 @@
       "last_ingested": "2026-10-24T01:30:35.856073+00:00",
       "pages_produced": [
         "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
+    "_papers/goel2012large/goel2012large-extracted.md": {
+      "content_hash": "8847ffe12e17d6af416ebc1436b98c1f236650b1baeec476d5610dfd6e02d0ce",
+      "last_ingested": "2026-10-24T02:59:39.342766+00:00",
+      "pages_produced": [
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/goel2012large/goel2012large.md": {
+      "content_hash": "83367accf7d9520d4055a4c5c5f19154c3bf17dde3ef7926ac0a1bd33344ba0c",
+      "last_ingested": "2026-10-24T02:59:39.440631+00:00",
+      "pages_produced": [
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/goel2012large/images/page_6_image_2.jpg": {
+      "content_hash": "b4a42bc1ddcdeb844d1839d38c747d5964403b86e87189998408b3769d7021de",
+      "last_ingested": "2026-10-24T02:59:39.527621+00:00",
+      "pages_produced": [
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md"
+      ]
+    },
+    "_papers/goel2012large/images/page_22_chart_2.jpg": {
+      "content_hash": "d2e4fffe720eecd97d9b6a8e722e38a413821fb59161d06c7b45d4859df827bc",
+      "last_ingested": "2026-10-24T02:59:39.606563+00:00",
+      "pages_produced": [
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/large-neighborhood-search.md"
+      ]
+    },
+    "_papers/goel2015constraint/goel2015constraint-extracted.md": {
+      "content_hash": "fb190f85f709d2b528f29b67f422d1e2dfb6c57bbf7cb488de24a13ca920958e",
+      "last_ingested": "2026-10-24T02:59:39.679613+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/cumulative-volume-lower-bound-cp-search.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/goel2015constraint/goel2015constraint.md": {
+      "content_hash": "ee025fac7005981aa1d689bc5788a4db724055ce25479edd42d070f048abf0e3",
+      "last_ingested": "2026-10-24T02:59:39.747640+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/cumulative-volume-lower-bound-cp-search.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+      ]
+    },
+    "_papers/goel2015constraint/images/page_2_chart_15.jpg": {
+      "content_hash": "43ea4c4ef8c64cf42d57b235570c36ac46d77818e4735b90220d990d644c3f6b",
+      "last_ingested": "2026-10-24T02:59:39.815943+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/goel2015constraint/images/page_2_chart_16.jpg": {
+      "content_hash": "d5cbfa92d7a9d93d5768bfb1dc7a3eec07221047d5e628868f607794db916923",
+      "last_ingested": "2026-10-24T02:59:39.881390+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/goel2015constraint/images/page_2_chart_19.jpg": {
+      "content_hash": "2d1a10bd51394bac92099402041ef367d6de78f767667b96c0d8fd72a4db451e",
+      "last_ingested": "2026-10-24T02:59:39.943348+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/goel2015constraint/images/page_6_chart_2.jpg": {
+      "content_hash": "55b3eced258c8b5dcf1ccc741e1152b5809587b518b682d8682e909ecdb96a14",
+      "last_ingested": "2026-10-24T02:59:40.003685+00:00",
+      "pages_produced": [
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "concepts/cumulative-volume-lower-bound-cp-search.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md": {
+      "content_hash": "c8a02387fba4d215e19681a71739a103e70a8214f474a251a18ac8059bb841e4",
+      "last_ingested": "2026-10-24T02:59:40.063076+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/ganjia2026multiobjective.md": {
+      "content_hash": "02cf3a8a1e12e53c6816e4b7a7530ae0c22a9278a770510d0ff8ce165d25e1b6",
+      "last_ingested": "2026-10-24T02:59:40.120942+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/images/page_10_image_3.jpg": {
+      "content_hash": "384f40caa2bb2e6c0c0a14e201285c11f193226daefc56b0d48599a86b827c52",
+      "last_ingested": "2026-10-24T02:59:40.176941+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg": {
+      "content_hash": "b3d512b79cfef8fba21c5d82a430e22efda42d4914f4fc8368b61fcc3fe58f2d",
+      "last_ingested": "2026-10-24T02:59:40.234110+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/garg2022iqlearn-extracted.md": {
+      "content_hash": "45eed536714219ffe7c3ab0b1c344f3c694920197b91eef57fb1b22ae137103a",
+      "last_ingested": "2026-10-24T02:59:40.292561+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/garg2022iqlearn.md": {
+      "content_hash": "cd82e390dfff018e6538c6c37ef19f40dcdf756ef14633cf03c967f4f7dcbf6a",
+      "last_ingested": "2026-10-24T02:59:40.349729+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_4_chart_9.jpg": {
+      "content_hash": "f8df239ab8fe07469a2c8dddd4c617f8dd360d660493ff286b82609b78c48eb0",
+      "last_ingested": "2026-10-24T02:59:40.407739+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_4_chart_10.jpg": {
+      "content_hash": "520ae825e0928098c867782ad15c5908c033a57215059c0df6e3088eebc46fb2",
+      "last_ingested": "2026-10-24T02:59:40.468327+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_5.jpg": {
+      "content_hash": "f75eb5ae207b1f148713ba9c9305edc7df7de2a45a532bddea2264ce822b4960",
+      "last_ingested": "2026-10-24T02:59:40.527158+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_6.jpg": {
+      "content_hash": "51ed64feb56f7e21e258e6be1f020f2a3690cca882035089950f31a8427a4e05",
+      "last_ingested": "2026-10-24T02:59:40.583966+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_7.jpg": {
+      "content_hash": "7cbafa97d8efcaf0f20015c2abf5a534c596c9eada821a76a3d4a525ec44431b",
+      "last_ingested": "2026-10-24T02:59:40.644621+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_13_image_1.jpg": {
+      "content_hash": "9af0c42b640d8dae16160a7e3b5a058fb72f76530a4c4f6e7f67dc947e49c8b5",
+      "last_ingested": "2026-10-24T02:59:40.703149+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_27_image_0.jpg": {
+      "content_hash": "58ba075d28b3dce3a8e091b36d1f878ec77fe2c553dcc4c969cd9ef0e0b342a4",
+      "last_ingested": "2026-10-24T02:59:40.761792+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_115_image_2.jpg": {
+      "content_hash": "02b3f219a8942c2bb30c7a3cd5f9102d1cf6889c05d31f7731363f0f017268eb",
+      "last_ingested": "2026-10-24T02:59:40.924084+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_117_image_2.jpg": {
+      "content_hash": "c5652fc16dc13af51d7dd6df2347210754ac70ab9276c28812f9497d86e10631",
+      "last_ingested": "2026-10-24T02:59:40.982052+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     }
   }

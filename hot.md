@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T01:30:47Z
-pages: 329
+updated: 2026-10-24T03:00:25Z
+pages: 339
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-22] INGEST source=_papers wave W06 (clautiaux/dellamico/deshpande/dinh/dorlin... pages_created=7 pages_updated=2 ...
-- [2026-10-24] CROSS_LINK pages_scanned=82 links_added=11 typed_relations_written=11 ...
-- [2026-10-24] INGEST source=_papers/dossantos2024multiobjective pages_created=12 pages_updated=7 ...
+- [2026-10-24] INGEST source=_papers/gendreau2019handbook pages_created=1 pages_updated=3 ...
+- [2026-10-24] INGEST source=_papers/goel2012large pages_created=3 pages_updated=3 ...
+- [2026-10-24] INGEST source=_papers/goel2015constraint pages_created=3 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Multi-objective maritime cargo routing is now anchored by fuzzy weighted max-min scalarization over three objectives (makespan, freight+demurrage cost, service delay), and the continuous-vs-discrete-time fork in MIRP modeling is a named concept with the 2013-2023 census. The Fama-MacBeth two-stage design gives the empirical basis for ranking-driven portfolio work, and plate-and-position guillotine MIPs now sit alongside the four-stage hypergraph model as the exact-family choice.
+The CP-for-scheduling pattern: port-visit/sequence variables, cumulative over demand functions for berth capacity, disjunctive pairwise-ordered visit constraints for single berths, and time-window constraints on vessel events, plus a cumulative volume bound used as an in-search lower bound with a two-phase iterative heuristic that prunes infeasible sub-solutions by cumulative demand. Continuous CP solves the same instance 4-10x faster than the discrete time-space MIP (15,375 vs 232,856 variables, 37% fewer nonzeros) and finds strictly better solutions, so the modeling paradigm drives performance more than the solver.
 
 ## Flagged Contradictions
 
