@@ -42,12 +42,12 @@ updated: 2026-10-24T03:00:25Z
 
 # Disjunctive Scheduling Constraint-Programming Model
 
-> [!tldr] The CP representation of a scheduling-plus-inventory problem built from interval variables, `SequenceVar`/`NoOverlap` disjunctive constraints, and cumul functions (`pulse`, `step`, `stepAtEnd`, `alwaysIn`, `alwaysEqual`, `Alternative`, `First`, `typeOfNext`). Goel et al. show the encoding choice matters: the **task-perspective** model (CP1) uses 215,290 variables and 1.9 GB on the P14 instance and runs out of memory, while the **resource/ship-perspective** model (CP2) uses 15,375 variables and 203 MB on the same instance.
+> [!tldr] The CP representation of a scheduling-plus-inventory problem built from interval variables, `SequenceVar`/`NoOverlap` disjunctive constraints, cumul functions (`pulse`, `stepAtEnd`, `step`, `alwaysIn`, `alwaysEqual`) and presence/sequence primitives (`Alternative`, `First`, `typeOfNext`). Goel et al. show the encoding choice matters: the **task-perspective** model (CP1) uses 215,290 variables and 1.9 GB on the P14 instance and cannot find a feasible solution, while the **resource/ship-perspective** model (CP2) uses 15,375 variables and 203 MB on the same instance.
 
 ![[_papers/goel2015constraint/images/page_2_chart_15.jpg]]
 ![[_papers/goel2015constraint/images/page_2_chart_16.jpg]]
 ![[_papers/goel2015constraint/images/page_2_chart_19.jpg]]
-*Fig. 1 (paper): the elementary cumul functions `pulse(x,k)`, `stepAtEnd(x,k,kmin,kmax)` and `step(t,k)` — the primitives used to write inventory profiles as cumulative curves over interval variables.*
+*Fig. 1 (verbatim): Example of three elementary cumul functions. Here, $x$ is an interval variable, and $k$, $t$ are integers.* Subfigures (a) `pulse(x,k)`, (b) `stepAtEnd(x,k,kmin,kmax)`, (c) `step(t,k)` — the primitives used to write inventory profiles as cumulative curves over interval variables.
 
 ## Encoding Primitives
 
@@ -84,7 +84,7 @@ Model sizes (paper Table 1):
 |---|---|---|---|---|
 | P13 (1,8,40) | 132,995 | 54,588 (503 MB) | 10,077 (141 MB) | 0.18 |
 | P14 (1,10,69) | 232,856 | 215,290 (1.9 GB) | 15,375 (203 MB) | 0.07 |
-| P18 (1,13,56) | 232,412 | 144,791 (1.2 GB) | 12,718 (216 MB) | 0.09 |
+| P18 (1,13,56) | 320,988 | 128,152 (1.2 GB) | 19,112 (272.3 MB) | 0.15 |
 | P20 (1,18,100) | 476,426 | 337,155 (3.0 GB) | 26,783 (380 MB) | 0.08 |
 
 ## Why It Matters
@@ -107,7 +107,7 @@ Model sizes (paper Table 1):
 
 ## Limitations
 
-- CP1 is memory-bound at large size (1.2–3.0 GB), so only CP2 is usable at 69–100 ships.
+- CP1 reaches 1.2–3.0 GB memory and cannot find a feasible solution on P14 (69 ships), P18 (56), P20 (100), so only CP2 is usable at those sizes.
 - CP2 cannot represent split delivery/split load; the encoding choice is a modeling commitment, not a tuning knob.
 - The paper compares CP against a specialized MIP heuristic, not against an exact MIP bound, so "4–10× faster" is a heuristic-to-heuristic statement. ^[ambiguous]
 - The transition matrix formulation requires full-load/full-discharge services with fixed duration. ^[inferred]
