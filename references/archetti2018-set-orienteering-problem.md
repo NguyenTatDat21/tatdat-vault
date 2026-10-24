@@ -36,17 +36,24 @@ updated: 2026-10-22T19:23:44Z
 SOP generalizes the Orienteering Problem by assigning profit to clusters instead of individual customers. Profit is collected if at least one node of a cluster is visited, under a route-duration limit.
 
 ## Method / Architecture
+## Bibliographic Record
+
+- Publication: *European Journal of Operational Research*, 2018 (issue: May 2018; volume/pages not recorded in the Zotero metadata)
+- Authors: Claudia Archetti; Francesco Carrabs; Raffaele Cerulli
+- DOI: 10.1016/j.ejor.2017.11.009
+- Companion metadata note: [[_papers/archetti2018set/archetti2018set.md]]
+
 
 The paper combines:
 - an exact MIP formulation for SOP,
 - a greedy randomized construction,
-- tabu-search improvement,
+- a greedy construction heuristic,
 - a MIP-based neighborhood move (MIPMove) inside a matheuristic loop.
 
 ```mermaid
 flowchart LR
   A[Clustered customers + profits] --> B[SOP MIP model]
-  B --> C[Greedy randomized initialization]
+  B --> C[Greedy initialization]
   C --> D[Tabu search refinement]
   D --> E[MIPMove neighborhood optimization]
   E --> F[Best feasible route under T_max]
