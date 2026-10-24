@@ -69,7 +69,7 @@ flowchart LR
 ```
 
 ![[_papers/goel2012large/images/page_6_image_2.jpg]]
-*Fig. 1 (paper): example of the time-space network structure — source/sink nodes, (terminal, day) nodes, and per-ship arcs for unused ships, loading, travel, discharge, and waiting.*
+*Fig. 1 Example of time-space network structure*
 
 Node $(j,t)$ = terminal $j$ on day $t$. Per-ship arcs: $\varphi_{SRC,SNK}$ (ship unused), $I_{SRC,(j^0_v,t^0_v)}$ (initial position), $D_{(j,t),(j,t+1)}$ (waiting, which **does not** occupy a berth), travel arcs $T$ (a loading or discharge is immediately followed by travel, which kills symmetric solutions), and arcs to the sink. Travel times are monotone: $\tau_{j,j',t} \le \tau_{j,j',t+1} + 1$.
 
@@ -109,7 +109,7 @@ CPLEX proves optimality for 3 problems, is best-known for 8, and produces no goo
 | Oracle (perfect pair selection) vs H-Randm avg | 2.22 CPU; 2.05 subproblems |
 
 ![[_papers/goel2012large/images/page_22_chart_2.jpg]]
-*Fig. 2 (paper): cumulative CPU-time frequency for H-Randm runs on P11 — 77% of the runs are slower than the model-based heuristic (H-Model).*
+*Fig. 2 Cumulative frequency distribution for total CPU time for H-Randm on P11. CPU time for H-Model is indicated by vertical line*
 
 Pair-selection quality matters most for **number of subproblems**, less for CPU: on P10, H-Model wins 91% of runs by subproblem count but only 30% by CPU (6.6 s average subproblem vs 1.98 s for metrics-based); on P3 it solves the fewest subproblems yet wins only 2% of runs in CPU; LP-selection overhead reaches 35% of total CPU on P10.
 
