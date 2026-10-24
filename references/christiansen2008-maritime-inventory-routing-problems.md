@@ -42,24 +42,28 @@ The work defines the **Inventory Ship Routing Problem (ISRP)** as a combined:
 
 Its key contribution is a clean baseline formulation that later MIR/LNG studies extend.
 
+![[_papers/christiansen2008maritime/images/page_2_image_9.jpg]]
+*Figure 2: A simplified planning situation with seven ports and two ships (cement producer in Norway: two production factories, five consumption ports, fleet of two ships).*
+
+
 ## Core Formulation (Basic ISRP)
 
 A representative objective is transportation-cost minimization:
 
 $$
-\min \sum_{(i,m,j,n,v)} c_{imjnv} x_{imjnv}
+\min \sum_{v \in \mathcal{V}} \sum_{(i,m,j,n) \in \mathcal{A}_v} C_{ijv}\, x_{imjnv}
 $$
 
 with coupled inventory balance at each port call:
 
 $$
-S_{i,m} = S_{i,m-1} + R_i\Delta t_{i,m} - q_{i,m}
+s_{i,m} = s_{i,m-1} - \sum_{v \in \mathcal{V}} I_i\, q_{i(m-1),v} + R_i (t_{i,m} - t_{i,m-1}) \quad \forall i \in \mathcal{N},\ m \in \mathcal{M}_i \setminus \{1\}
 $$
 
 and inventory safety bounds:
 
 $$
-S_{min,i} \le S_{i,m} \le S_{max,i}
+S_{MN,i} \le s_{i,m} \le S_{MX,i} \quad \forall i \in \mathcal{N},\ m \in \mathcal{M}_i
 $$
 
 The paper also details routing flow constraints, ship-capacity constraints, service-time/scheduling constraints, and inventory-feasibility constraints over time.
@@ -78,10 +82,9 @@ The article identifies major practical extensions beyond the basic ISRP:
 
 | Observation | Implication |
 |---|---|
-| ISRP is harder than standard VRP due to inventory state coupling | Exact methods scale poorly without decomposition |
+| ISRP is harder than standard VRP due to inventory state coupling | Exact methods scale poorly without decomposition ^[inferred] |
 | Real cases frequently combine several extensions at once | Single-purpose models are often insufficient in deployment |
-| Maritime operations include weather and production/consumption uncertainty | Deterministic plans can degrade under disturbances |
-
+| Maritime operations include weather and production/consumption uncertainty | Deterministic plans can degrade under disturbances ^[inferred] |
 ## Limitations
 
 - This is a survey/introductory synthesis, so numerical comparison across all extension classes is limited.

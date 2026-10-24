@@ -48,10 +48,10 @@ The paper studies annual LNG delivery planning for suppliers serving LTC custome
 
 ## Mathematical Program
 
-Objective is supplier profit over the horizon:
+Objective (L271–277): minimize oversupply, maximize spot-market sales, minimize transport cost. LTC revenue is **removed** from the objective because LTC volumes are fixed by the signed contracts.
 
 $$
-\max (\text{LTC revenue} + \text{spot revenue} - \text{transport cost} - \text{oversupply penalties})
+\max \; (\text{spot revenue} - \text{transport cost} - \text{oversupply penalty})
 $$
 
 The formulation is slot-based and integrates:
@@ -86,7 +86,7 @@ The formulation is slot-based and integrates:
 - DOI: `10.1021/acs.iecr.3c01769`
 - Canonical URL: <https://doi.org/10.1021/acs.iecr.3c01769>
 - Publication: *Industrial & Engineering Chemistry Research* (2023)
-- Authors: Rahul Deshpande; Santanu De; Kunal Sankhe; Pradeep Varakantham; Kameshwar Poolla
+- Authors: Dnyanesh Deshpande; Mohd Shahrukh; Rajagopalan Srinivasan; Iftekhar A. Karimi
 - Companion metadata note: [[_papers/deshpande2023optimal/deshpande2023optimal.md]]
 
 ## Sources

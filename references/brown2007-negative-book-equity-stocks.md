@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
+  - target: "[[references/beatty2014-financial-accounting-in-banking]]"
+    type: related_to
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md

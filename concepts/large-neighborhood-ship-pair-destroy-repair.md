@@ -32,7 +32,7 @@ sources:
   - _papers/gendreau2019handbook/images/page_117_image_2.jpg
   - _papers/goel2012large/images/page_22_chart_2.jpg
 summary: >-
-  Destroy all voyages of two ships and repair with the MIP; metrics-based pair selection cuts two-ship subproblems and CPU by geometric means of 1.68x and 1.22x versus random pairs (Set 1); LP-based selection 1.22x/1.68x.
+  Destroy all voyage arcs of two ships, repair by re-solving the MIP with others fixed; metric pair selection cuts subproblems and CPU by geometric means 1.68x/1.22x vs random pairs.
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -47,7 +47,7 @@ updated: 2026-10-24T14:22:50Z
 
 # Large Neighborhood Ship-Pair Destroy and Repair
 
-> [!tldr] A ship-pair destroy/repair neighborhood: remove **all voyages of two ships** (a 2-opt-inspired destroy), keep the rest of the schedule fixed, and repair by re-solving the time-space MIP for the freed pair. Pairs are ranked by two metrics — lost production/stockouts eliminated by removing waiting, and the number of times one ship delays the other at the same terminal — and the pair with the highest combined value is chosen. Random-pair LNS already beats a strong MIP heuristic; metric-based selection makes it faster.
+> [!tldr] A ship-pair destroy/repair neighborhood: remove **all voyages of two ships** (a 2-opt-inspired destroy), keep the rest of the schedule fixed, and repair by re-solving the time-space MIP for the freed pair. Pairs are ranked by two metrics — estimated production/stockouts eliminated by removing waiting, and the number of times one ship delays the other at the same terminal — candidates with the top potential (within 20% of the range) are kept, then the pair with the largest delay-likelihood is chosen. Random-pair LNS already beats a strong MIP heuristic; metric-based selection makes it faster.
 
 ![[_papers/gendreau2019handbook/images/page_117_image_2.jpg]]
 *Fig. 4.2 (Handbook of Metaheuristics, Ch. 4, verbatim): "Destroy and repair example. The top left figure shows a CVRP solution before the destroy operation. The top right figure shows the solution after a destroy operation that removed six customers (now disconnected from the routes). The bottom figure shows the solution obtained after reinsertion of the customers by the repair operation." The chapter's LNS loop is destroy, repair, then an acceptance step that decides which solution continues the search; the destroy/repair/accept() naming is the chapter's own terminology, not part of this figure caption.*
