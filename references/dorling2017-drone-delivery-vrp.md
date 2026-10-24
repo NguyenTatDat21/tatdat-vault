@@ -1,7 +1,7 @@
 ---
 title: Vehicle Routing Problems for Drone Delivery (Dorling et al., 2017)
 category: references
-tags: [paper, drones, vehicle-routing, energy-modeling]
+tags: [VRP, drone-delivery, multirotor-energy-model, battery-weight, simulated-annealing, Dantzig-Wolfe]
 relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: uses
@@ -56,27 +56,27 @@ $$
 where `m` is battery+payload mass, `\alpha` is marginal power-per-kg, and `\beta` is baseline hover power.
 
 The paper reports fitted values (hexacopter setting) around:
-- `\alpha \approx 46.7 W/kg`
-- `\beta \approx 26.9 W`
+- $\alpha \approx 46.7$ W/kg
+- $\beta \approx 26.9$ W
 
-and low approximation error in the tested mass range.
+- Hover, straight flight and altitude-change power measurements on the same airframe are close: 15.6/19.9 W/kg with 311 W hover, 15.3/19.8 W/kg with 304 W straight flight, 14.7/20.3 W/kg with 297 W altitude change (Table I).
 
 ## Optimization Pattern
 
 - MILP captures routing, reuse, timing, energy, capacity, and budget constraints.
-- Simulated annealing is proposed for larger instances where MILP runtime is high.
-- Cost functions penalize infeasible solutions and account for route-level battery/energy coupling.
+| Measured power | Hover 15.6 W/kg with 311 W, straight flight 15.3 W/kg with 304 W, altitude change 14.7 W/kg with 297 W — power is nearly equal in hover and level flight (Table I) |
+| Hardware | 3D Robotics ArduCopter Hexa-B hexacopter, six 850 RPM/V motors, 10×4.6 APC slow-fly propellers, Arduino flight controller running firmware 3.0.1 of the APM 2.5 autopilot, u-blox LEA-6 GPS with 4 mm ceramic patch antenna, 4-cell 14.8 V LiPo battery |
 
 ## Results
 
-- Experiments validate that battery and payload weight materially affect feasible route plans.
-- Allowing drone reuse can reduce total fleet cost substantially versus one-trip assumptions.
-- Sensitivity analyses show battery assumptions materially shift optimal route structure.
+| Small MILP and SA comparison | SA is near-optimal for up to 8 locations; MT-DDP: MILP 5.40–9.63 min with runtimes from 0.97 s to 116.98 s, SA 5.48–9.83 min in 0.24–0.31 s; MC-DDP: MILP 0.99–1.22 k$ with runtimes from 9.47 s to 1,116.87 s, SA 1.00–1.26 k$ in 0.19–0.24 s |
+| Larger SA runs | MT-DDP: 12.19–104.75 min with $\mu = 0.99$ vs 13.28–117.82 min with $\mu = 0.9$; MC-DDP: 13.52–65.57 k$ vs 13.99–75.13 k$ |
+| Simulation parameters | Drone cost $F = $500$, carrying capacity $Q = 3$ kg including battery and payload, $\alpha = 0.217$ kW/kg, $\beta = 0.185$ kW, speed $v = 6$ m/s, service time $\tau = 60$ s per location, energy density $\xi = 650$ kJ/kg, energy price $\varepsilon = $0.1$ per kJ |
 
 ## Limitations
 
-- Assumptions simplify weather, takeoff/landing dynamics, and charging logistics.
-- Source extraction required NUL-byte cleanup for reading; exact table values should be rechecked against PDF for audit-critical use. ^[ambiguous]
+| Cooling schedule | Raising $\mu$ from 0.9 to 0.99 improves MT-DDP time and MC-DDP cost by up to 15% for about 10× runtime (18.45 → 181.41 s, 57.11 → 497.65 s); 0.99 → 0.999 gives at most 5% for another 10×, so the paper uses $\mu = 0.99$; standard deviations are largest when the number of locations is high and $\mu$ is low |
+| Reuse and battery optimization | In the min-cost time-limited case, drone reuse passes the about $113,000 limit reached without reuse; optimizing battery weight per route improves cost by 13% over a fixed 0.3 kg battery, improves delivery time by about 22% over a fixed 0.25 kg, and gives a 15% cost gain at $b = 0.3$ kg vs 0.5 kg and an 80% time gain at $b = 0.25$ kg vs 0.45 kg (500 locations, 1 km²) |
 
 ## Related
 

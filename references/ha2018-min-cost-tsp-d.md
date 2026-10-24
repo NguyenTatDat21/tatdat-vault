@@ -45,6 +45,11 @@ Unlike earlier min-time focus, this work defines **min-cost TSP-D** where truck 
 
 The framing emphasizes cost-aware coordination rather than pure completion-time minimization.
 
+![[_papers/ha2018mincost/images/page_8_image_2.jpg]]
+![[_papers/ha2018mincost/images/page_8_image_4.jpg]]
+*Figure 1: Optimal solution: TSP vs. min-cost TSP-D. TSP Objective = 1500, min-cost TSP-D Objective = 1000.82. The solid arcs are truck’s path. The dash arcs are drone’s path*
+
+
 ## Method / Architecture
 
 The paper contributes:
@@ -58,7 +63,15 @@ GRASP structure:
 - apply a shortest-path-based split on an auxiliary graph,
 - improve via local operators (truck relocation, drone relocation, drone removal, two-exchange).
 
+![[_papers/ha2018mincost/images/page_29_image_0.jpg]]
+*Figure 3: A truck relocation move operator : relocate$_T$((TD, DD), 1, 2)*
+
+
 The split procedure is the central design element enabling scalable solution construction.
+
+![[_papers/ha2018mincost/images/page_23_image_6.jpg]]
+*Figure 2: Auxiliary graph for TSP tour in Figure 1*
+
 
 ## Results
 
@@ -85,7 +98,7 @@ From the paper’s aggregate comparison:
 - min-time solutions improve completion time more,
 - min-cost solutions save more operational cost (about 30% average vs about 20% for min-time in their summary table).
 
-The authors also report that min-cost solutions tend to use drones more frequently than min-time solutions.
+The authors also report that min-cost solutions use drones for up to 40% of customers, whereas min-time solutions use drones for up to 22% (higher drone speed raises the frequency).
 
 ## Limitations
 

@@ -17,15 +17,15 @@ sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
 summary: "MILP for multi-objective bulk-carrier cargo routing with time windows, draft limits and split loads, solved by fuzzy max-min scalarization plus two heuristics."
 provenance:
-  extracted: 0.85
-  inferred: 0.12
+  extracted: 0.88
+  inferred: 0.09
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # Multi-Objective Maritime Cargo Routing and Scheduling (dos Santos & Borenstein, 2024)
@@ -34,26 +34,14 @@ updated: 2026-10-24T00:32:00Z
 
 ## Problem & Contribution
 
-The problem (MO-m-CRSPTW-DL-SL) moves bulk products from origin ports to delivery ports using a heterogeneous fleet of bulk carriers (handymax / handysize, 35–60k DWT). Each product travels in a dedicated vessel compartment, loads are splittable, and transshipment is not allowed. A vessel route is a sequence of pickup ports followed by a sequence of delivery ports (P,P,...,P,D,D,...,D), with dummy start/finish depot nodes s and f, port berth limits, port draft limits, a minimum total load per vessel, a minimum quantity per product, and a fixed 15-knot cruise speed.
+The problem (MO-m-CRSPTW-DL-SL) moves bulk products from origin ports to delivery ports using a heterogeneous fleet of bulk carriers. Each product travels in a dedicated vessel compartment, loads are splittable, and transshipment is not allowed. A vessel route is a sequence of pickup ports followed by a sequence of delivery ports (P,P,...,P,D,D,...,D), with dummy start/finish depot nodes s and f, port berth limits, port draft limits, a minimum total load per vessel, a minimum quantity per product, and a fixed 15-knot cruise speed.
 
 Three objectives are optimized simultaneously:
 
-$$
-\min Z_1 = \alpha \quad \text{with } \alpha \ge t^{A}_{ifv} \; \text{(makespan)}
-$$
-
-$$
-\min Z_2 = \sum_v C^V_v\sum_j t^{A}_{jfv} + \sum_{i,j,v} P^C_j\,x_{ijv} + \sum_{i,j,p,v} H^C\,t^{E}_{ijpv} + \sum_v W^C_v\sum_j E^T_j\,x_{ijv}
-$$
-
-$$
-\min Z_3 = \sum_{i,j}\sum_{p \in P'}\sum_{j \in N'} t^{L}_{ijpv} \quad \text{(delays of selected products at selected ports)}
-$$
-
-$Z_2$ aggregates chartering cost proportional to arrival time, port facility fees, time-window penalties, and demurrage from late port departures; $Z_3$ isolates the delays the charterer actually cares about. Decision variables are per-compartment product quantity on each arc, arrival/departure/lateness/delay times, arc-usage binaries, visit binaries, and berth-occupancy binaries.
+Z1 is the makespan: a scalar α constrained by α ≥ t^{A}_{ifv} for every vessel v arriving at the final depot node f (the paper writes min Z1 = α; the full objective expressions are truncated in the extracted source). Z2 is the freight cost: chartering cost proportional to vessel arrival time, port facility fees, time-window penalties, and demurrage from late port departures. Z3 isolates the lateness of the selected products at the selected ports. Decision variables are per-compartment product quantity on each arc, arrival/departure/lateness/delay times, arc-usage binaries, visit binaries, and berth-occupancy binaries.
 
 ![[_papers/dossantos2024multiobjective/images/page_5_image_2.jpg]]
-*Figure 1 (paper): two vessel routes in a three-origin / four-destination network — every pickup precedes every delivery, and loads split across compartments.*
+*Figure 1 (paper): "Illustration of two vessel routes."*
 
 ## Method / Architecture
 
@@ -76,24 +64,24 @@ $$
 \max_x \; \lambda \;\; \text{s.t. } \theta_k\lambda \le \mu_{Z_k}(x),\;\; \sum_k \theta_k = 1,\;\; \theta_k \ge 0
 $$
 
-$Z_l^{+}$ comes from a single-objective optimum (the matheuristic of dos Santos et al. 2020) and $Z_l^{-}$ from the nadir point, so the membership normalization is anchored by real runs rather than by assumptions. A weight sweep ($\theta \in \{0, 0.05, \dots, 1\}$, 21 combinations) at three CPU budgets (300 / 900 / 1800 s per combination) generates the Pareto set.
+$Z_l^{+}$ = best attainable value, $Z_l^{-}$ = nadir. The paper's own convention is the mirror image (eq. 58): membership = 1 when $Z$ hits the single-objective optimum and 0 when it hits the worst value, labelling the single-objective optimum $Z^{-}$ and the worst value $Z^{+}$. The extracted text's middle formula $f_{\mu}Z_l = \frac{Z_l(x)-Z_l^{-}}{Z_l^{+}-Z_l^{-}}$ contradicts its own boundary cases, so the labels appear swapped in the extraction; the page keeps the equivalent convention above. ^[ambiguous] A weight sweep ($\theta \in \{0, 0.05, \dots, 1\}$, 21 combinations) with CPU time budgets of 300 / 900 / 1800 s (assigned by instance group in Table 2) generates the Pareto set.
 
 Two heuristics are required because the generated MILPs blow up (big-M = 1000, dense time-window structure):
 
-- **PC++** — CPLEX 12.9 priority cut search, Rothberg's *PolishAfterIntSol* polish, then Fischetti & Lodi repair / local branching (feasibility pump), with time split $t_1 = 2t_2$.
-- **Relax-and-define matheuristic** — a strategy vector $SB = [x_{ijv}, y_{ijpv}, y^D_{ijpv}]$ fixed integer-block by integer-block with the remainder relaxed ($t_s = \text{CPU}/6$), followed by an improvement phase identical to the last two steps of PC++.
+- **PC++** — CPLEX 12.9 priority cut search, Rothberg's *PolishAfterIntSol* polish, then Fischetti & Lodi repair / local branching (feasibility pump); the time limits $t_1, t_2$ depend on the number of products and ports.
+- **Relax-and-define matheuristic** — a strategy vector $SB = [x_{ijv}, y_{ijpv}, y^D_{ijpv}]$ fixed integer-block by integer-block with the remainder relaxed (time limit $t_s$), followed by an improvement phase identical to the last two steps of PC++.
 
 Real-world business rules added for the case study: at most 6 origin and 13 delivery ports, one berth per chartered vessel, minimum 20 kt per vessel and 4 kt per product, at most 2 pickups and 3 deliveries per vessel, no two vessels in the same port simultaneously (a binary $a_{vw}$ replaces the vessel-visit indicator), and a north↔south direction-change fee added to the second objective, giving $Z_2' = Z_2 + \beta_{ij}^V\gamma_v^C M_v^V$.
 
 ## Results
 
-16 real fertilizer-company instances (2–4–7 up to 5–7–5 origins / destinations / products), three instance sizes, 15 product types.
+16 real fertilizer-company planning cases (not benchmark instances), with 2 origins / 4 destinations / 7 products up to 5 origins / 7 destinations / 6 products.
 
 | Metric | PC++ | Matheuristic | Reading |
 |---|---|---|---|
 | Avg $C(PC++,\text{Mat})$ | 0.3571 | — | Convergence toward the PC++ front |
 | Avg $C(\text{Mat},PC++)$ | — | 0.3273 | Convergence toward the matheuristic front |
-| Avg hypervolume | **2.9917** | 2.8173 | PC++ ≥ matheuristic on 10 of 16 instances, especially with >5 origin/destination ports |
+| Avg hypervolume | **2.9917** | 2.8173 | PC++ hypervolume ≥ matheuristic on 10 of 16 instances, mainly instances with 5 origin ports and more than 6 destination ports |
 
 Case study (8 products, 5 delivery ports) — Pareto points compared to the company's Excel plan:
 
@@ -101,10 +89,10 @@ Case study (8 products, 5 delivery ports) — Pareto points compared to the comp
 |---|---|---|---|---|---|
 | 6 | 0.5, 0, 0.5 | 87 | 2,769,750 | 1 | −34% cost, −17% makespan, −90% delay |
 | 8 | 0.75, 0, 0.25 | 75 | 2,336,380 | 5 | — |
-| 17 | 0.6, 0.1, 0.3 | 78 | 2,719,640 | 4 | −40% cost, −13% makespan, −70% delay |
+| 17 | 0.6, 0.1, 0.3 | 80 | 2,534,750 | 3 | −40% cost, −13% makespan, −70% delay |
 
 ![[_papers/dossantos2024multiobjective/images/page_17_chart_2.jpg]]
-*Figure 2 (paper, instance 7): projection of the Pareto front produced by the weight sweep on one origin–destination–product size.*
+*Figure 2 (paper, instance 7): "Solutions obtained by PC++ (denoted as ◦) and the matheuristic (denoted as ×) on the selected instance 7 for (a) Z1-Z2, (b) Z1-Z3, and (c) Z2-Z3 planes, respectively."*
 
 Cost is dominated by route direction changes: the company's own plan changed direction on 75% of routes. Discounting the direction-change fee by 10/15/20% cuts cost by 2.73/6.59/9.01% (Run 6), 3.54/5.80/6.84% (Run 8), and 8.38/12.51/13.58% (Run 17); at a 20% discount Run 6 reaches zero delay — the fee is the binding lever that trades cost against lateness.
 
