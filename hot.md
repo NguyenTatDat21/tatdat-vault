@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T21:25:43Z
+updated: 2026-10-24T21:49:46Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/chatfieldProblemSolvingStatisticians1995/chatfieldP... pages_created=0 pages_updated=1 ...
-- [2026-10-24] INGEST source=_papers/bertsimas2020predictive/bertsimas2020predictive-ext... pages_created=0 pages_updated=1 ...
-- [2026-10-24] INGEST source=_papers/yu2024simulated/yu2024simulated-extracted.md pages_created=0 pages_updated=1 ...
+- [2026-10-24] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=3 ...
+- [2026-10-24] INGEST source=_papers/tamke2023vehicle/tamke2023vehicle-extracted.md pages_created=0 pages_updated=0 ...
+- [2026-10-24] INGEST source=_papers/montemanni2024combining/montemanni2024combining-ext... pages_created=0 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Replaced the unverified 'feasibility-by-construction' decode step with an inferred statement grounded in the paper's time-window/working-hours/endurance checks; all SA_RL numbers (8 optimal + 12 better small, 28/29 better large, 13 better vs SA, 265.24/235.14/197.74 profit gains, Taguchi T0=1.0 Iiter=6000 alpha=0.98 epsilon=0.6) verified verbatim against the extracted source.
+Hint-starting CP-SAT with a truck-only VRP solution benefits both lower bounds and heuristic solutions for M2/M3 despite the hint ignoring drones; CP-SAT moves customers from truck tours to drones; page claims verified against chapter, no edits needed.
 
 ## Flagged Contradictions
 
