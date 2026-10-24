@@ -63,7 +63,7 @@ CP1 primitives (paper §3, Laborie-style semantics): interval variable $c^J_{j,i
 ![[_papers/goel2015constraint/images/page_2_chart_15.jpg]]
 ![[_papers/goel2015constraint/images/page_2_chart_16.jpg]]
 ![[_papers/goel2015constraint/images/page_2_chart_19.jpg]]
-*Fig. 1 (paper): the elementary cumul functions `pulse(x,k)` (left), `stepAtEnd(x,k,kmin,kmax)` (middle), `step(t,k)` (right) used to write the inventory profiles.*
+*Fig. 1 (verbatim): Example of three elementary cumul functions. Here, $x$ is an interval variable, and $k$, $t$ are integers.* Subfigures (a) `pulse(x,k)`, (b) `stepAtEnd(x,k,kmin,kmax)`, (c) `step(t,k)`.
 
 CP2 flips the perspective: variables are maximal ship visits $c^V_{v,i}$, each split by `Alternative` into cargo-side copies $c^{VJ}_{v,i,j}$, and parity sets $J^V_{v,i}$ force alternation — if ship $v$ starts at a production terminal then odd visits draw from the production set and even visits from the regas set, and vice versa. Full-load/full-discharge is therefore enforced **inside the variable domains**, so CP1's explicit alternation constraint is unnecessary; the cost is that CP2 cannot be extended to split deliveries.
 
@@ -71,7 +71,7 @@ The iterative search (paper §6, Algorithm 1):
 
 ```mermaid
 flowchart TD
-  P0["Phase 0: full-space CP search, branch limit n x sum_v |J^V_v|, solution limit k -> first feasible (objective Phi, loss vector lambda)"]
+  P0["Phase 0: solve CP in full space until first feasible -> Phi^inc, lambda^inc, lambda^prev"]
   P1["Phase 1: bound ALL terminals at once: lambda_j^max = lambda_j^inc x xi^1_k, xi = 0.9, 0.95, 0.97, 0.99"]
   P2["Phase 2: per-terminal: terminals sorted by descending incumbent loss, tighten one at a time, others fixed"]
   P3["Phase 3: add objective cut Phi^inc -> solve CP'(lambda^prev, Phi^inc)"]
@@ -89,7 +89,7 @@ $$\tilde z_j \ \ge\ \text{step}\big(1,\ g^0_j-\gamma_j-\lambda_j\big)+\tilde p_j
 where $g^0_j$ is initial inventory, $\gamma_j$ the inventory bound, $\lambda_j$ the total allowed loss. Theorem 1: no feasible solution with $\lambda^s_j > \lambda^*_j$ can satisfy the bound set built for $\lambda^*$ — the search prunes loss levels, not schedules. The objective cut is $\Phi \le \Phi^{inc}$.
 
 ![[_papers/goel2015constraint/images/page_6_chart_2.jpg]]
-*Fig. 2 (paper): a feasible and an infeasible loading schedule under constraint (45) — $p_{j,t}=60$, $g^0_j=0$, $\gamma_j=320$, $\lambda_j=0$; loading 900 units, the shaded region is infeasible.*
+*Fig. 2 (verbatim): A feasible and an infeasible loading schedule based on constraint (45) for illustrative example.* Example parameters: $p_{j,t}=60$, $g^0_j=0$, $\gamma_j=320$, $\lambda_j=0$; the two loading profiles load 900 units, the shaded region is infeasible.
 
 Objective (paper Eq. 41, paraphrased):
 
@@ -122,7 +122,7 @@ Speed-up on reaching the same solution quality (paper Table 4, geometric mean ov
 | Configuration | Geometric mean speed-up vs MIP-Heur |
 |---|---|
 | CP2 (plain, 5 h) | 4.55 |
-| CP-Heur-nxksol 4x, 1 solution | **10.5** (outliers P24 1,300, P7 916, P11 384.7) |
+| CP-Heur-4x-1sol (CP-Heur-nxksol, n x sum_v |J^V_v|, k=1) | **10.5** (outliers P24 1,300, P7 916, P11 384.67) |
 | CP-Heur-nx 32x | 7.86 |
 
 Quality at matched time (paper Table 5, % gap vs best known, positive = CP better): CP2 is better on 13 of 18 instances, CP-Heur-4x-1sol on 17, CP-Heur-32x on 16; P13 +17.6/+45.6/+101.1, P11 +4.4/+39.1/+42.0, P16 −1.8/+66.2/+65.2, P2 −24.2/+4.1/−1.1, P4 (best known = 0, absolute gaps −350/+244/−393).

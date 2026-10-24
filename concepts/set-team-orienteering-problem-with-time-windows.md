@@ -42,7 +42,7 @@ STOPTW is a clustered orienteering variant where profit is collected at the **cl
 A practical pattern for STOPTW is:
 
 1. represent route/cluster decisions as a two-part encoding,
-2. decode with feasibility-by-construction,
+2. decode the encoding into full itineraries, checking customer/depot time windows, vehicle endurance, and total time limits as the solution is built, ^[inferred]
 3. improve via neighborhood moves (swap/insertion/reversion/customer-switch),
 4. use adaptive move-selection (ε-greedy) inside simulated annealing.
 

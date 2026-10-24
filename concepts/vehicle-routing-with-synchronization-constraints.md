@@ -37,10 +37,10 @@ VRPMS extends VRPTW by requiring time-consistent coordination between at least t
 - A common form enforces:
 
 \[
-t - \delta_i \le t'_i \le t + \gamma_i
+t - \delta \le t'_i \le t + \gamma
 \]
 
-where \(t\) is regular-service time and \(t'_i\) is synchronized special-service time.
+where \(t\) is the delivery time at the regular vertex of a special customer and \(t'_i\) is the start time of its special service; \(\delta\) and \(\gamma\) are model parameters. The paper writes a single pair $\delta$, $\gamma$ for all customers.
 
 - Even a small number of synchronization constraints can alter route structure and search difficulty.
 - Hybrid solve patterns (metaheuristic destroy/repair + CP feasibility reconstruction) are effective for these tightly coupled constraints.

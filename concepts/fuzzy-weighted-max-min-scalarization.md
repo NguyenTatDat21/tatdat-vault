@@ -46,7 +46,7 @@ $$
 \mu_{Z_l}(x) = \frac{Z_l^+ - Z_l(x)}{Z_l^+ - Z_l^-}
 $$
 
-- $Z_l^+$ comes from the single-objective optimum (in the maritime case, a matheuristic run on that objective); $Z_l^-$ is the **nadir** value from the full solution.
+- $Z_l^+$ comes from the single-objective optimum (in the maritime case, a matheuristic run on that objective); $Z_l^-$ is the **nadir** value from the full solution. The source paper labels these anchors the other way round (single-objective optimum $Z^-$, worst value $Z^+$, eq. 58), and the extracted text's middle formula contradicts its own boundary cases, so the label naming is swapped in extraction; the normalization here is the same behavior. ^[ambiguous]
 - Decision-maker weights $\theta_k$ with $\sum_k \theta_k = 1$, $\theta_k \ge 0$; solve:
 
 $$

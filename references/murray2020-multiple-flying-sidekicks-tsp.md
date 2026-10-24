@@ -50,6 +50,21 @@ The paper defines the **multiple flying sidekicks traveling salesman problem (mF
 
 Compared with the earlier FSTSP setting, this version models multiple drones and operational synchronization at launch/retrieval events.
 
+![[_papers/murray2020multiple/images/page_2_image_0.jpg]]
+![[_papers/murray2020multiple/images/page_2_image_2.jpg]]
+![[_papers/murray2020multiple/images/page_2_image_4.jpg]]
+*Figure 1: A comparison of routes for a small eight-customer problem in the Seattle region*
+
+![[_papers/murray2020multiple/images/page_2_chart_7.jpg]]
+*Figure 2: Detailed vehicle timing for the small Seattle example, using either a single truck (TSP), a truck with one UAV, or a truck with three UAVs. Numbers on the bars identify each of the eight customers.*
+
+![[_papers/murray2020multiple/images/page_6_image_1.jpg]]
+![[_papers/murray2020multiple/images/page_6_image_3.jpg]]
+![[_papers/murray2020multiple/images/page_6_image_5.jpg]]
+![[_papers/murray2020multiple/images/page_6_image_7.jpg]]
+*Figure 3: A notional example depicting the scheduling activities required at truck customer locations.*
+
+
 ## Method / Architecture
 
 The authors formulate mFSTSP as a MILP, but solve practical instances with a **three-phase heuristic**:
