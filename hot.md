@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T08:03:05Z
+updated: 2026-10-24T13:23:39Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/goel2012large pages_created=0 pages_updated=15 ...
-- [2026-10-24] INGEST source=_papers/ganjia2026multiobjective pages_created=0 pages_updated=5 ...
 - [2026-10-24] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted... pages_created=3 pages_updated=1 ...
+- [2026-10-24] INGEST source=_papers/fama1973risk/fama1973risk-extracted.md pages_created=0 pages_updated=2 ...
+- [2026-10-24] INGEST source=_papers/black1992global/black1992global-extracted.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Handbook figure captions are now verbatim: a fabricated combined Fig. 4.1/Fig. 4.2 caption (100-customer CVRP, 43 vehicles, accept() step) was replaced by the handbook's real captions, and the same repair made in the two LNS concept pages. Simulated annealing is distilled as the acceptance rule — Metropolis probability, control-parameter cooling, and acceptance rate χ(c) ≈ 0.5 near the target temperature, which is the rule LNS+SA reuses on a complex neighborhood. Swarm intelligence is distilled from population-level problem solving with no central control (double-bridge, termite domes, Kennedy's three levels) through canonical PSO to its single-particle premature-convergence failure, which is why social information and influence topologies matter. Hybrids split into solution-based, objective-evaluation-based, system-based and operator-based, with exact merging and relaxation-guided ordering as the two routing-relevant patterns.
+Marked the mean-variance objective lambda as the paper's universal hedging constant (symbol collision), re-sourced the market-portfolio-efficiency premise to Black (1972) via Fama-MacBeth as an inferred cross-paper link rather than a 1992-paper premise, removed a duplicated Related link, raised base_confidence to two-paper lineage (Black + Fama-MacBeth sources).
 
 ## Flagged Contradictions
 

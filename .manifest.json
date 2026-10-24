@@ -224,17 +224,15 @@
     },
     "_papers/black1992global/black1992global-extracted.md": {
       "content_hash": "f6decd4d6581d140d0893983d2c0a2c5dd400fc9850926c3bf9457df29376097",
-      "last_ingested": "2026-10-22T19:58:08.738743+00:00",
+      "last_ingested": "2026-10-24T13:21:14.218273+00:00",
       "pages_produced": [
         "references/black1992-global-portfolio-optimization.md"
       ]
     },
     "_papers/black1992global/black1992global.md": {
       "content_hash": "a810abc1552fd9ebc4fcc8bc502a80ce6f72f6802cd3c536af51e4d95f3afc87",
-      "last_ingested": "2026-10-22T19:58:08.786196+00:00",
-      "pages_produced": [
-        "references/black1992-global-portfolio-optimization.md"
-      ]
+      "last_ingested": "2026-10-24T13:21:14.448654+00:00",
+      "pages_produced": []
     },
     "_papers/boland2017continuoustime/boland2017continuoustime-extracted.md": {
       "content_hash": "6f107f9ed811dee4a58a3acb5782c0fff81d0654510a984adbd8ea360872d490",
@@ -572,20 +570,16 @@
     },
     "_papers/fama1973risk/fama1973risk-extracted.md": {
       "content_hash": "e8b9e1a46d343c3f91795e59609864799b805b91edc62c67255282163c70944d",
-      "last_ingested": "2026-10-24T01:30:35.027452+00:00",
+      "last_ingested": "2026-10-24T13:20:02.431460+00:00",
       "pages_produced": [
         "references/fama1973-risk-return-equilibrium-empirical-tests.md",
-        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
-        "concepts/ordering-information-portfolio-selection.md",
-        "references/black1992-global-portfolio-optimization.md"
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md"
       ]
     },
     "_papers/fama1973risk/fama1973risk.md": {
       "content_hash": "54149720b28445b918badaf532013f020dcea9729c47ad960ca0035364e66ee9",
-      "last_ingested": "2026-10-24T01:27:44.707705+00:00",
-      "pages_produced": [
-        "references/fama1973-risk-return-equilibrium-empirical-tests.md"
-      ]
+      "last_ingested": "2026-10-24T13:20:02.538915+00:00",
+      "pages_produced": []
     },
     "_papers/fuertes2023solving/fuertes2023solving-extracted.md": {
       "content_hash": "4f130665a0c3fdea989200bd15c1da8fa7d1b26f507f2e30f3d65472b006695c",

@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T12:28:15Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression
@@ -36,7 +36,7 @@ The design that made asset-pricing tests possible: estimate the risk characteris
 
 ## Core Structure
 
-- **Stage 1 — form portfolios on the characteristic.** Rank securities by an estimated β from a formation window (7 years), sort into 20 portfolios.
+- **Stage 1 — form portfolios on the characteristic.** Rank securities by an estimated β from a formation window (4 years), sort into 20 portfolios.
 - **Stage 2 — re-estimate the characteristic on fresh data.** Recompute portfolio β over the next 5 years, and update it monthly during the testing period. The key move: the β used in the test comes from data not used for formation, which kills the "regression phenomenon" (extreme-β portfolios re-forming toward the middle) that had plagued earlier tests. ^[extracted]
 - **Stage 3 — per-period cross-sectional regression.** Each month regress the 20 portfolio returns on the characteristic(s):
 

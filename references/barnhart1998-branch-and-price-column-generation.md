@@ -36,6 +36,13 @@ updated: 2026-10-22T20:40:00Z
 
 Large-scale integer programs in scheduling, assignment, and routing often have too many feasible columns to enumerate up front. The paper formalizes a practical way to combine decomposition and exact search so these models remain solvable.
 
+## Bibliographic Record
+
+- Publication: *Operations Research*, Vol. 46, No. 3, pp. 316–334, June 1998
+- Authors: Cynthia Barnhart; Ellis L. Johnson; George L. Nemhauser; Martin W. P. Savelsbergh; Pamela H. Vance
+- DOI: 10.1287/opre.46.3.316
+- Companion metadata note: [[_papers/barnhart1998branchandprice/barnhart1998branchandprice.md]]
+
 ## Method / Architecture
 
 Branch-and-price combines:

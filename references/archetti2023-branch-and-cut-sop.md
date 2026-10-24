@@ -16,15 +16,15 @@ sources:
 summary: >-
   Exact SOP branch-and-cut with a lower-variable formulation and new cut families, reaching state-of-the-art performance on benchmark instances up to 100 customers.
 provenance:
-  extracted: 0.90
-  inferred: 0.08
+  extracted: 0.92
+  inferred: 0.06
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-24T11:01:08Z
 ---
 
 # A new formulation and a branch-and-cut algorithm for the set orienteering problem
@@ -64,14 +64,15 @@ $$
 
 | Setting | Result |
 |---|---|
-| SOP benchmark instances | Branch-and-cut solves instances up to 100 customers |
-| Runtime behavior | Valid inequalities materially reduce solve time |
+| SOP benchmark instances (Set1, 52–1084 vertices; tested up to 198) | Branch-and-cut solves instances with up to 100 customers; at the tightest duration limit ω = 0.4 it reaches optimality on 48 of 54 instances with rule g₁ and 47 with g₂ |
+| Runtime behavior (Table 6, ω = 0.4) | Average branch-and-cut time 624/800 s vs 1342/1367 s for the relaxed formulation, average gap 6.32%/5.84% vs 16.15%/14.33%; cover and path inequalities add ~70–100% runtime improvement at ω = 0.4 |
 | Comparison against earlier exact methods | Reported as new exact state-of-the-art |
-| Sensitivity | Difficulty strongly depends on route-duration limit `T_max` |
+| Sensitivity | Difficulty strongly depends on route-duration limit `T_max` (= ω × GTSF*, ω ∈ 0.4–0.8): small ω solves almost all instances up to 200 vertices, while larger ω fails for instances with more than 107 customers |
 
 ## Limitations
 
 - Focuses on single-vehicle SOP, so direct transfer to richer multi-vehicle variants needs new modeling work.
+- The cluster-cover inequalities are almost never effective and are removed from the final algorithm, and the value of the conditional cuts is described as debatable, so the cut portfolio is tuned for these benchmarks. ^[inferred]
 - Runtime advantage depends on benchmark structure and on how restrictive `T_max` is. ^[inferred]
 
 ## Related

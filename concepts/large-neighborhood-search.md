@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-24T13:15:16Z
 ---
 
 # Large Neighborhood Search (LNS)
@@ -46,7 +46,7 @@ LNS is a destroy-and-repair metaheuristic: remove a substantial part of a curren
 - Large neighborhoods can offer better-quality moves per iteration than small local neighborhoods.
 - Explicit neighborhood enumeration is often intractable, so LNS explores neighborhoods implicitly via destroy/repair operators.
 - **ALNS** (Adaptive LNS) learns operator usefulness and shifts selection probabilities over time.
-- LNS sits within the broader very-large-scale neighborhood (VLSN) family, defined in the handbook as $f(n)=O(n^k)$ with $k\le 3$ (2-opt, relocate, swap are $O(n^2)$; exchange is $O(n^3)$).
+- The handbook defines small neighborhood search as $f(n)=O(n^k)$ with low $k$ ($k\le 3$; 2-opt, relocate, swap are $O(n^2)$), while very-large-scale neighborhoods grow exponentially and are too large to search explicitly.
 - In routing, LNS-style methods are attractive when exact neighborhood scans are too expensive.
 
 ![[_papers/gendreau2019handbook/images/page_117_image_2.jpg]]
@@ -54,14 +54,14 @@ LNS is a destroy-and-repair metaheuristic: remove a substantial part of a curren
 
 ## Census, Acceptance, and an Industrial Instance
 
-- Destroy size: a 15% destroy on 100 customers gives $C(100,15)=2.5\times10^{17}$ removal choices; a 20% destroy on 1000 customers gives $4.2\times10^{208}$.
-- LNS was proposed by Shaw, based on ruin-and-recreate; destroy methods are stochastic, so LNS **samples** the neighborhood rather than searching it. The handbook pairs randomized removal of customers (satisfaction-based), related removal, and route removal with constructive/repair heuristics.
+- Destroy size: the chapter's example destroy method for the CVRP removes, say, 15% of the customers in the current solution (selecting them at random), and a repair method rebuilds by inserting removed customers with a greedy heuristic.
+- LNS was proposed by Shaw, based on ideas similar to the ruin-and-recreate method of Schrimpf et al.; destroy methods contain stochasticity, so LNS **samples** the neighborhood rather than searching it. Shaw gradually increases the degree of destruction; Ropke and Pisinger choose it randomly each iteration from a range dependent on instance size.
 - Acceptance: the original LNS accepted improving solutions only, i.e. a hill-climber. With simulated-annealing acceptance — accept if $c(x^t)\le c(x)$, otherwise accept $x^t$ with probability $\exp(-(c(x^t)-c(x))/T)$, $T_{new}=\alpha T_{old}$ with $0<\alpha<1$ and $T_0$ high, decaying — LNS becomes standard simulated annealing with a complex neighborhood.
 - Stated advantage: a large neighborhood lets the method navigate easily on tightly constrained instances where small-scale neighborhoods struggle to reach distant regions of the search space.
-- Industrial instance: Goel et al. (2012) destroy **all voyages of two ships** in a time-space MIP and repair by re-solving with the other ships' schedules fixed, in a variable-neighborhood loop; the geometric-mean speed-up over CPLEX's first feasible solution is 13.60 (random pair) to 15.72 (LP-selected pair) on LNG inventory-routing instances with 232,856 binaries. See [[concepts/large-neighborhood-ship-pair-destroy-repair]].
+- Industrial instance: Goel et al. (2012) destroy **all voyages of two ships** in a time-space MIP and repair by re-solving with the other ships' schedules fixed, in a variable-neighborhood loop. Table 11 defines speed-up as the ratio of CPU time CPLEX needs to generate a solution at least as good as the heuristic's, relative to the heuristic's own CPU time; geometric means over solvable instances are 13.61 (lexicographic), 13.60 (random pair), 14.47 (metrics), 15.72 (LP-selected pair) on LNG inventory-routing instances with up to 232,856 binary variables. See [[concepts/large-neighborhood-ship-pair-destroy-repair]].
 
 ![[_papers/goel2012large/images/page_22_chart_2.jpg]]
-*Fig. 2 (Goel et al. 2012 paper): cumulative frequency of CPU time over 100 random-pair runs on instance P13.*
+*Fig. 2 (Goel et al. 2012, verbatim): "Cumulative frequency distribution for total CPU time for H-Randm on P11. CPU time for H-Model is indicated by vertical line" — over the 100 randomized runs on P11, 77% take more CPU time than H-Model.*
 
 LNS and ALNS can also be viewed as low-level heuristic families that a higher-level hyper-heuristic can orchestrate. ^[inferred]
 

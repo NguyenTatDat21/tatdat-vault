@@ -19,15 +19,15 @@ sources:
 summary: >-
   Uses CAPM equilibrium returns as a neutral prior and blends investor views by confidence, yielding more stable global asset-allocation portfolios than naive mean assumptions.
 provenance:
-  extracted: 0.85
-  inferred: 0.13
+  extracted: 0.83
+  inferred: 0.15
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T12:28:15Z
 ---
 
 # Global Portfolio Optimization
@@ -57,7 +57,7 @@ flowchart LR
 
 ## Key Equations
 
-Mean-variance objective:
+Mean-variance objective (standard form implied by the paper's "maximize expected return for a given level of risk"; the paper's own λ is the universal hedging constant, not this objective's risk aversion): ^[inferred]
 
 $$
 \max_w\; w'\mu - \frac{\lambda}{2}w'\Sigma w
@@ -95,14 +95,13 @@ $$
 - Equilibrium assumptions and confidence calibration still require judgment.
 - Practical outputs remain sensitive to [[concepts/mmse-covariance-shrinkage|covariance estimates]] and view specification.
 - Original exposition is partly heuristic and uses illustrative examples rather than one unified empirical testbed. ^[inferred]
-- The paper's premise that the value-weighted market portfolio is efficient under homogeneous expectations and unrestricted short selling is the structural argument Fama & MacBeth (1973) used to justify testing the two-parameter model against the observed market — see [[references/fama1973-risk-return-equilibrium-empirical-tests]].
+- The efficiency of the value-weighted market portfolio under homogeneous expectations and unrestricted short selling is Black (1972)'s argument, used by Fama & MacBeth (1973) to justify testing the two-parameter model on the observed market; it is not part of this 1992 paper's argument, which takes equilibrium value weights as given — see [[references/fama1973-risk-return-equilibrium-empirical-tests]]. ^[inferred]
 
 ## Related
 
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[concepts/cash-based-operating-profitability]]
-- [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[references/fama1973-risk-return-equilibrium-empirical-tests]]
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]

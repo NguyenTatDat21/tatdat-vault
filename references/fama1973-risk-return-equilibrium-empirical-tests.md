@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T12:28:15Z
 ---
 
 # Risk, Return, and Equilibrium: Empirical Tests (Fama & MacBeth, 1973)
@@ -63,7 +63,7 @@ with hypotheses: **C1** linearity in β ($E(\tilde\gamma_2)=0$), **C2** no syste
 
 ```mermaid
 flowchart LR
-  A["1926-61 data: rank securities by beta"] --> B["Form 20 portfolios over 7-year formation window"]
+  A["1926-61 data: rank securities by beta"] --> B["Form 20 portfolios over 4-year formation window"]
   B --> C["Re-estimate beta on the NEXT 5 years: portfolio beta is fresh data"]
   C --> D["Per-month cross-sectional regression over the 20 portfolios in the 4-year testing period"]
   D --> E["Panel A: beta only"]
@@ -100,15 +100,15 @@ The market proxy is **Fisher's Arithmetic Index** — the equally weighted avera
 |---|---|---|---|---|---|---|
 | A | $\gamma_0+\gamma_1\beta$ | .0061 | .0085 | — | — | **2.55** |
 | B | $+\gamma_2\beta^2$ | .0049 | .0105 | **−.0008 (t = −.29)** | — | 1.42 |
-| C | $+\gamma_3 s$ | .0043 | .0082 | — | **.0198 (t = .46)** | 2.23 |
-| D | all three | .0020 | .0114 | −.0026 (t = −.86) | .0516 (t = 1.11) | .54 |
+| C | $+\gamma_3 s$ | .0054 | .0072 | — | **.0198 (t = .46)** | 1.59 |
+| D | all three | .0020 | .0114 | −.0026 (t = −.86) | .0516 (t = 1.11) | .20 |
 
 - **C1, C2, C3 not rejected** over the overall period: linearity in β holds, non-β risk is not systematically priced, the β premium is positive. ^[extracted]
 - **Fair games**: serial correlations of $\hat\gamma_1, \hat\gamma_2, \hat\gamma_3, \hat\eta$ are close to zero relative to $\sigma(\rho)\approx1/\sqrt{n}$ (.05 overall, .09 in 10-year, .13 in 5-year windows) → consistent with market efficiency in the weak form.
 - **S-L rejected**: $\bar\gamma_0$ exceeds $R_f$ by more than 0.4% per month in most periods; γ₀ is the return on the minimum-variance zero-β portfolio, so the finding is essentially the same as Black, Jensen & Scholes (1972).
-- **Subperiod nonlinearity**: $t(\bar\gamma_2)\approx-2.7$ in 1951-55, the only window with significant curvature.
-- **Variance decomposition** ($F = s^2(\hat\gamma_j)/s^2(\phi_j)$): F ≈ 1.2–2.8 for γ₂ and 1.1–3.4 for γ₃ — there is *real* month-to-month variation in γ₂ and γ₃ (so their means are zero but they are not identically zero), and adding β² and $s$ inflates the noise in $\hat\gamma_0$ and $\hat\gamma_1$.
-- **Behaviour of the market**: dividing risk premia by $\sigma(R_m)$ makes the tradeoff more constant across the pre-war (1926-40) and post-war (1946-68) periods than the raw β premium, which falls with the post-war drop in market volatility.
+- **Subperiod nonlinearity**: $t(\bar\gamma_2)$ = −2.83 (1946-55, Panel B), −2.72 (1951-55, Panel B), −2.16/−2.54 (Panels D); significant curvature in the two long subperiods, not a single window.
+- **Variance decomposition** ($F = s^2(\hat\gamma_j)/s^2(\phi_j)$): F ≈ 0.8–2.8 for γ₂ and 1.1–3.4 for γ₃ — there is *real* month-to-month variation in γ₂ and γ₃ (so their means are zero but they are not identically zero), and adding β² and $s$ inflates the noise in $\hat\gamma_0$ and $\hat\gamma_1$ (Panel A F reaches 11.75 for γ₀ and 28.0 for γ₁).
+- **Behaviour of the market**: dividing $\overline{R_m-R_f}$ and $\hat\gamma_1$ by $\sigma(R_m)$ yields estimated risk premia that are more constant through time, especially across the three long subperiods (1946-55, 1951-55, 1956-60), because the post-war drop in $\hat\gamma_1$ is matched by a downward shift in $s(R_m)$.
 - **Appendix A1 — event studies**: substituting $\hat\gamma_1 = R_m - \hat\gamma_0$ gives a two-factor model $R_{it} = \hat\gamma_0(1-\hat\beta_i) + \hat\beta_i R_{mt} + \hat\eta_{it}$; the one-factor market model's residuals contain the market factors γ₀, γ₂, γ₃, so the two-factor form cleans event studies (accounting-standard changes, insider trading, mergers), with residual-variance reduction proportional to $(1-\hat\beta)^2$.
 
 ## Limitations
