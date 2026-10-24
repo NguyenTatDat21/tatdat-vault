@@ -88,6 +88,15 @@ $$
 - [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
 
+## Bibliographic Record
+
+- Citation key: andersson2017creating
+- DOI: `10.1007/s11081-015-9305-y`
+- Canonical URL: <https://doi.org/10.1007/s11081-015-9305-y>
+- Publication: *Optimization and Engineering*, 2017-03-01
+- Authors: Henrik Andersson; Marielle Christiansen; Guy Desaulniers; Jørgen Glomvik Rakke
+- Companion metadata note: [[_papers/andersson2017creating/andersson2017creating.md]]
+
 ## Sources
 
 - [[_papers/andersson2017creating/andersson2017creating-extracted.md]]

@@ -35,6 +35,14 @@ updated: 2026-10-22T21:08:00Z
 A full discretization of time windows can make TSPTW models too large, but coarse discretization can miss optimal paths. The paper targets exact solution quality while controlling model size through adaptive time-point generation.
 
 ## Method / Architecture
+## Bibliographic Record
+
+- Publication: Conference paper, Springer, 2017-06 (LNCS series; exact volume not recorded in the Zotero metadata)
+- Authors: Natashia Boland; Mike Hewitt; Martin Savelsbergh; Vu Duc Minh
+- DOI: 10.1007/978-3-319-59776-8_21
+- Implementation: C++ with Gurobi 6.5.0 (single thread), Intel Xeon E5-4610 v2 2.30 GHz, Ubuntu 14.04.3
+- Companion metadata note: [[_papers/boland2017solving/boland2017solving.md]]
+
 
 Dynamic Discretization Discovery alternates between optimization and targeted time expansion:
 
@@ -49,19 +57,19 @@ Dynamic Discretization Discovery alternates between optimization and targeted ti
 Time-expanded objective:
 
 $$
-\min \sum_{((i,t),(j,\theta_j(t)))\in\mathcal{A}'} c_{ij}(\theta_j(t)-t)x_{ijt}
+\min \sum_{a \in \mathcal{A}} c_a\, x_a
 $$
 
 Flow conservation over expanded nodes:
 
 $$
-\sum_{j\in\delta^+(i)} x_{ijt} - \sum_{j\in\delta^-(i)} x_{ji\,\theta_i^{-1}(t)} = 0
+\sum_{a \in \delta^-((i,t))} x_a - \sum_{a \in \delta^+((i,t))} x_a = 0 \quad \forall (i,t) \in \mathcal{N},\ i \neq 0
 $$
 
 Each customer visited once:
 
 $$
-\sum_{t\in\mathcal{T}_i}\sum_{j\in\delta^+(i)} x_{ijt} = 1
+\sum_{a = ((i,t),(j,t')) \in \mathcal{A}} x_a = 1 \quad \forall i \in N, \qquad x_a \in \{0,1\} \ \forall a \in \mathcal{A}
 $$
 
 ## Results

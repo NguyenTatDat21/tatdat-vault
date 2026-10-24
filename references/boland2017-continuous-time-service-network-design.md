@@ -89,6 +89,15 @@ $$
 - [[concepts/branch-and-price-column-generation]]
 - [[references/barnhart1998-branch-and-price-column-generation]]
 
+## Bibliographic Record
+
+- Citation key: boland2017continuoustime
+- DOI: `10.1287/opre.2017.1624`
+- Canonical URL: <https://pubsonline.informs.org/doi/10.1287/opre.2017.1624>
+- Publication: *Operations Research*, 2017
+- Authors: Natashia Boland; Mike Hewitt; Luke Marshall; Martin Savelsbergh
+- Companion metadata note: [[_papers/boland2017continuoustime/boland2017continuoustime.md]]
+
 ## Sources
 
 - [[_papers/boland2017continuoustime/boland2017continuoustime-extracted.md]]

@@ -51,12 +51,12 @@ flowchart LR
 ## Key Equations
 
 $$
-\text{ratio}_i = \frac{r_i}{f_i}
+\text{ratio}_i = \frac{a_i}{b_i}
 $$
 
 $$
-\text{MAX} = \max_i \{ w_i \cdot \text{ratio}_i \}, \qquad
-\text{AVE} = \sum_i w_i \cdot \text{ratio}_i
+\text{MAX} = \max_i \left\{ \frac{a_i}{b_i} \right\} \ \text{(unweighted)}, \qquad
+\text{AVE} = \sum_i a_i \cdot \frac{a_i}{b_i} = \sum_i \frac{a_i^2}{b_i} \ \text{(weighted by requested share)}
 $$
 
 ## Results
@@ -78,6 +78,15 @@ $$
 - [[concepts/periodic-scheduling-under-capacity-constraints]]
 - [[references/bar-noy2002-minimizing-periodic-scheduling-costs]]
 - [[concepts/set-team-orienteering-problem-with-time-windows]]
+
+## Bibliographic Record
+
+- Citation key: bar-noy2004efficient
+- DOI: `10.1016/j.comnet.2003.12.017`
+- Canonical URL: <https://www.sciencedirect.com/science/article/pii/S1389128604000052>
+- Publication: *Computer Networks*, 2004-06-05
+- Authors: Amotz Bar-Noy; Vladimir Dreizin; Boaz Patt-Shamir
+- Companion metadata note: [[_papers/bar-noy2004efficient/bar-noy2004efficient.md]]
 
 ## Sources
 

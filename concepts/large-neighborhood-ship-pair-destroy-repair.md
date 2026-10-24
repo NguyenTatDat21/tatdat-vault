@@ -32,17 +32,17 @@ sources:
   - _papers/gendreau2019handbook/images/page_117_image_2.jpg
   - _papers/goel2012large/images/page_22_chart_2.jpg
 summary: >-
-  Destroy all voyages of two ships and repair with the MIP; choosing the right pair by a two-step metric cuts subproblem count about 68% and CPU about 22% versus random pairs.
+  Destroy all voyages of two ships and repair with the MIP; metrics-based pair selection cuts two-ship subproblems and CPU by geometric means of 1.68x and 1.22x versus random pairs (Set 1); LP-based selection 1.22x/1.68x.
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-24T14:22:50Z
 ---
 
 # Large Neighborhood Ship-Pair Destroy and Repair
@@ -76,7 +76,7 @@ Pair metrics (paper §3.5.2):
 
 $$\pi^1_v=\sum_{l\in L}\sum_{t\in T}w_{l,t}o_{l,t}+\sum_{r\in R}\sum_{t\in T}w_{r,t}s_{r,t}\ \text{(with all waiting for }v\text{ removed, terminal sequence unchanged)},\qquad \Pi^1_{v',v''}=\max(\pi^1_{v'},\pi^1_{v''})$$
 
-$$\pi^2_{v',v''}=\big|\{t\in T:\exists j\in J\ \text{with}\ t\in I_{v',j}\cap I_{v'',j}\}\big|,\qquad \Pi^2_{v',v''}=\begin{cases}\pi^2_{v',v''}&\pi^1_{v'}\le\pi^1_{v''}\\ 0&\text{otherwise}\end{cases}$$
+> $$\pi^2_{v',v''}=\big|\{t\in T:\exists j\in J\ \text{with}\ t\in I_{v',j}\cap I_{v'',j}\}\big|,\qquad \Pi^2_{v',v''}=\begin{cases}\pi^2_{v',v''}&\pi^1_{v'}\le\pi^1_{v''}\\ \pi^2_{v'',v'}&\pi^1_{v'}>\pi^1_{v''}\end{cases}$$
 
 Candidate set: normalize $\Pi^1$ to $[\bar\pi^1_{min},\bar\pi^1_{max}]$, take pairs whose normalized $\Pi^1$ is within $\alpha=20\%$ of the max, then pick the pair with the largest $\Pi^2$.
 
@@ -84,16 +84,16 @@ The reduced model rP adds $\sum_{v\in V}y_v\le 2$, $y_v=1\Leftrightarrow\exists 
 
 ## Measured Effect
 
-Geometric mean speed-up vs CPLEX first feasible solution (paper Table 11, higher is better):
+Table 11 (verbatim caption: "Speed-up for each deterministic version of heuristic relative to CPLEX"): per instance, the ratio of CPU time CPLEX needs to generate a solution at least as good as the heuristic's, relative to the heuristic's CPU time; geometric means over instances where CPLEX matches (higher is better):
 
 | Configuration | Geometric mean speed-up |
 |---|---|
 | H-Lexic | 13.61 |
-| H-Randm (avg of 100 runs) | 13.60 |
+| H-Randm (avg; 100 runs on P1–P12, 50 on P13–P14) | 13.60 |
 | H-Mtrcs | 14.47 |
 | **H-Model** | **15.72** |
 
-Set 1, geometric mean vs H-Randm average (paper Table 12):
+Set 1, geometric means relative to the average performance of H-Randm (paper Table 8):
 
 | Configuration | CPU speed-up | Subproblem-count reduction |
 |---|---|---|
@@ -103,13 +103,13 @@ Set 1, geometric mean vs H-Randm average (paper Table 12):
 | Ideal oracle (upper bound) | 2.22 | 2.05 |
 
 ![[_papers/goel2012large/images/page_22_chart_2.jpg]]
-*Fig. 2 (Goel et al. 2012 paper): cumulative frequency of CPU time for 100 H-Randm runs on P13; 77% of random-pair runs are slower than the LP-selected-pair H-Model run.*
+*Fig. 2 (Goel et al. 2012, verbatim): "Cumulative frequency distribution for total CPU time for H-Randm on P11. CPU time for H-Model is indicated by vertical line" — 77% of the 100 random-pair runs on P11 take more CPU time than H-Model.*
 
 ## Limitations
 
 - LP-selection overhead is real: 4–35% of total CPU (P10 35%), and on P3/P10 H-Model needs the fewest subproblems yet beats H-Randm in CPU only 2% and 30% of the time, because its average subproblem takes 6.6 s vs 1.98 s for metric pairs.
-- Solution quality is not uniformly better: in Set 2 (P5, P7, P13) the best-of-100 gap ranges 0.10%–108% from CPLEX first feasible, and metric-based selection wins 50%, 46%, 48% of runs by objective on P13/P14.
-- The ship-pair neighborhood is bounded by $C(|V|,2)$ — the authors' stated motivation for using **four** ships to get a richer neighborhood, which they leave unimplemented.
+- Solution quality is not uniformly better: in Set 2 (P5, P7, P13) solutions from the deterministic schemes differ significantly from H-Randm, and no scheme beats all runs; Table 10: H-Mtrcs is at least as good as H-Randm on 24/76/18% of runs (P5/P7/P13), H-Model on 36/86/100%.
+- The ship-pair neighborhood is bounded by $C(|V|,2)$ subproblems per cycle, and no richer multi-ship neighborhood is implemented; multi-ship extensions are an open direction. ^[inferred]
 - The ideal-oracle upper bound (2.05× subproblem reduction) shows a substantial gap remains between LP-based selection and optimal pair choice.
 
 ## Related
@@ -128,7 +128,7 @@ Set 1, geometric mean vs H-Randm average (paper Table 12):
 ## Open Questions
 
 - The handbook's LNS chapter prescribes simulated-annealing acceptance for escaping local optima; Goel et al. accept improving solutions only. Does SA acceptance on the ship-pair neighborhood improve the hard-instance gaps? ^[inferred]
-- Four-ship neighborhoods are named as the richer next step. No published result quantifies their subproblem cost on quarter-million-binary models. ^[inferred]
+- No published result quantifies the subproblem cost of multi-ship neighborhoods on quarter-million-binary models. ^[inferred]
 
 ## Sources
 

@@ -54,7 +54,7 @@ $$
 $$
 
 $$
-\sum_{r\in\mathcal{R}_v} T^{V}_{vr}u_{vr} \le T s_v \quad \forall v
+\sum_{r\in\mathcal{R}_v} T^{V}_{vr}u_{vr} \le T \quad \forall v
 $$
 
 The chapter also details arc-flow formulations for industrial/tramp scheduling and route-design models for liner services.
