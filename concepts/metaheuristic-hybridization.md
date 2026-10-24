@@ -17,8 +17,7 @@ relationships:
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
-summary: >-
-  The handbook's classification of metaheuristic hybrids: solution-based, objective-evaluation-based, system-based, operator-based, and the two working patterns — merge solutions exactly, and let a relaxation guide the search.
+summary: "Handbook Ch. 12 classification of metaheuristic hybrids into four classes, plus two working patterns: exact solution merging, and relaxation-guided search."
 provenance:
   extracted: 0.86
   inferred: 0.11
@@ -91,4 +90,3 @@ hybrid recipe (routing form):
 
 - [[_papers/gendreau2019handbook/gendreau2019handbook-extracted.md]]
 - [[_papers/gendreau2019handbook/gendreau2019handbook.md]]
-- [[_papers/gendreau2019handbook/images/page_405_image_1.jpg]]

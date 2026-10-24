@@ -17,10 +17,7 @@ relationships:
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
-summary: >-
-  The canonical 1973 test of the two-parameter CAPM using 42 years of NYSE data: form 20 beta portfolios,
-  run monthly cross-sectional regressions, and find beta risk priced, non-beta risk not priced, and no
-  significant nonlinearities.
+summary: "The 1973 two-parameter CAPM test on 42 years of NYSE data: 20 beta portfolios, monthly cross-sectional regressions, beta priced, non-beta risk not, no nonlinearity."
 provenance:
   extracted: 0.86
   inferred: 0.11

@@ -18,9 +18,7 @@ sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md
   - _papers/fuertes2023solving/images/page_1_image_4.jpg
-summary: >-
-  Fleet routing where agents earn different rewards for their own versus other agents' regions; cooperation
-  is what makes adding vehicles pay, turning 4-agent reward from 100 to 150 on the same instance.
+summary: "Fleet routing where agents earn different rewards for their own versus other agents' regions; cooperation is what makes adding vehicles pay (4-agent reward 100 to 150)."
 provenance:
   extracted: 0.85
   inferred: 0.12

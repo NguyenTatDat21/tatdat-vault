@@ -19,10 +19,7 @@ sources:
   - _papers/furini2016modeling/images/page_3_image_5.jpg
   - _papers/furini2016modeling/images/page_13_chart_3.jpg
   - _papers/furini2016modeling/images/page_19_chart_0.jpg
-summary: >-
-  A plate-and-cut-position MIP over all feasible guillotine cuts, plus variable pricing, solves 16 of 21
-  large 2D guillotine instances to optimality where the plain model solved none, and beats the prior
-  guillotine MIP by up to two orders of magnitude.
+summary: "Plate-and-cut-position MIP over all feasible guillotine cuts plus variable pricing solves 16 of 21 large instances to optimality where the plain model solved none."
 provenance:
   extracted: 0.85
   inferred: 0.12

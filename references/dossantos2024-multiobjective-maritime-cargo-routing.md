@@ -15,9 +15,7 @@ relationships:
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
-summary: >-
-  MILP for multi-objective bulk-carrier cargo routing with time windows, draft limits and split loads,
-  solved by fuzzy weighted max-min scalarization plus two heuristics on real fertilizer-company instances.
+summary: "MILP for multi-objective bulk-carrier cargo routing with time windows, draft limits and split loads, solved by fuzzy max-min scalarization plus two heuristics."
 provenance:
   extracted: 0.85
   inferred: 0.12

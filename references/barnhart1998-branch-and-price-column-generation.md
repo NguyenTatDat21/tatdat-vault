@@ -1,5 +1,5 @@
 ---
-title: Branch-and-Price: Column Generation for Solving Huge Integer Programs
+title: "Branch-and-Price: Column Generation for Solving Huge Integer Programs"
 category: references
 tags: [integer-programming, column-generation, branch-and-price, decomposition]
 relationships:

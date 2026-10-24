@@ -20,10 +20,7 @@ sources:
   - _papers/fuertes2023solving/images/page_4_image_3.jpg
   - _papers/fuertes2023solving/images/page_1_image_2.jpg
   - _papers/fuertes2023solving/images/page_8_chart_2.jpg
-summary: >-
-  A two-stage multi-UAV mission planner: fuzzy C-means assigns regions to UAVs, then a trained Transformer
-  writes the tour; it reaches near-Compass reward at 100x lower inference time and shows cooperation
-  roughly doubles fleet reward as UAV count grows.
+summary: "Two-stage multi-UAV planner: fuzzy C-means assigns regions, a trained Transformer writes the tour; near-Compass reward at 100x lower inference time."
 provenance:
   extracted: 0.85
   inferred: 0.12

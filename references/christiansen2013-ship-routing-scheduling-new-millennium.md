@@ -14,8 +14,7 @@ relationships:
 sources:
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship.md
-summary: >-
-  Reviews 2002–2011 ship routing and scheduling research, providing canonical liner network-design and fleet-deployment formulations and highlighting growth, decomposition trends, and open maritime optimization gaps.
+summary: "Reviews 2002–2011 ship routing and scheduling research, giving canonical liner network-design and fleet-deployment formulations and open maritime gaps."
 provenance:
   extracted: 0.89
   inferred: 0.09

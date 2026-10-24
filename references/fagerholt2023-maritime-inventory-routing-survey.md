@@ -17,9 +17,7 @@ relationships:
 sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
-summary: >-
-  Decade survey of 53 MIRP papers (2013-2023): what makes maritime IRP unlike land IRP, discrete vs continuous
-  time modeling trade-offs, solution-method census, public benchmark sources, and future research directions.
+summary: "Decade survey of 53 MIRP papers: what makes maritime IRP unlike land IRP, discrete vs continuous time trade-offs, solution-method census, benchmarks, directions."
 provenance:
   extracted: 0.86
   inferred: 0.11
