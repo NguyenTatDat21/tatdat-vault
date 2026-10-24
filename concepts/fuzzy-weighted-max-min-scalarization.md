@@ -11,21 +11,23 @@ relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
 sources:
+  - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
+    type: related_to
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
 summary: >-
   Scalarize several objectives by maximizing a weighted minimum of fuzzy membership values, so one MIP solve
   per weight vector traces out a Pareto approximation without an evolutionary algorithm.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.75
+  inferred: 0.20
+  ambiguous: 0.05
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP
@@ -62,20 +64,28 @@ $$
 - It does not deliver a certified Pareto front: the quality of the approximation depends on the anchors, so gaps between weight vectors are not quantified. ^[inferred]
 - The scheme is used on maritime cargo routing, multi-objective energy-military logistics, power generation and product-line planning — it is the standard scalarization when the solver is a MIP.
 
+- **Anchoring evidence from ganjia**: its economic / customer / compromise orientations reproduce the frontier endpoints from single-objective extremes (74.52 MLCU & 9.43 h vs 2.17 h & 245.11 MLCU), exactly the $Z^+/Z^-$ anchor roles the membership function needs. The tuned NSGA-II sits within 0.002% of the $\varepsilon$-constraint cost front, MOPSO within 0.020%. ^[inferred]
+- **Ganjia 2026 instantiation** (cost + tardiness, production-scheduling / due-date / batch-delivery / heterogeneous VRPTW MINLP): ganjia does **not** use fuzzy max-min — it builds the front with the $\varepsilon$-constraint method, tunes NSGA-II / MOPSO parameters by Taguchi L27 (smaller-the-better S/N), and lists fuzzy approaches as future work. The Taguchi dial is a *parameter* analogue of the $\theta$ sweep, and due-date setting is part of the objective. ^[inferred] [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
 ## Related
 
 - [[references/dossantos2024-multiobjective-maritime-cargo-routing]]
 - [[concepts/multi-objective-maritime-cargo-routing-scheduling]]
 - [[concepts/maritime-inventory-routing-problem]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
+- [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
 
 ## Open Questions
 
 - How dense must the weight sweep be for the approximation to be usable, and how far apart are consecutive weight vectors in solution space?
 - Can the anchors be computed cheaply for a new objective (e.g. CO₂ emissions) without a full single-objective run?
 - Does a max-min scheme ever produce solutions that a weighted-sum sweep misses, and how often? ^[inferred]
+- Do Taguchi-tuned algorithm parameters produce the same front as a fuzzy $\theta$ sweep on a bi-objective scheduling MINLP (the ganjia cost + tardiness case)? ^[inferred]
 
 ## Sources
 
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md]]
 - [[_papers/dossantos2024multiobjective/dossantos2024multiobjective.md]]
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
+  - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
+  - _papers/ganjia2026multiobjective/images/page_3_chart_1.jpg
+  - _papers/ganjia2026multiobjective/images/page_4_chart_1.jpg
