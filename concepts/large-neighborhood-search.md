@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-24T13:00:00Z
+updated: 2026-10-24T03:00:25Z
 ---
 
 # Large Neighborhood Search (LNS)

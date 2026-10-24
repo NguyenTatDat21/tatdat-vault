@@ -39,8 +39,8 @@ base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
-created: 2026-10-24T12:15:00Z
-updated: 2026-10-24T12:15:00Z
+created: 2026-10-24T03:00:25Z
+updated: 2026-10-24T03:00:25Z
 ---
 
 # Multi-Objective Sustainable Supply Chain Scheduling (Ganjia, Rabet, Sajadi & Daneshvar Kakhki, 2026)

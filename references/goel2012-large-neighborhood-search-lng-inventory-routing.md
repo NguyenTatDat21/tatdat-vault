@@ -39,8 +39,8 @@ base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
-created: 2026-10-24T12:05:00Z
-updated: 2026-10-24T12:05:00Z
+created: 2026-10-24T03:00:25Z
+updated: 2026-10-24T03:00:25Z
 ---
 
 # Large Neighborhood Search for LNG Inventory Routing (Goel, Furman, Song & El-Bakry, 2012)

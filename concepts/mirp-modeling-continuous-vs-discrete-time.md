@@ -34,12 +34,12 @@ provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.87
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T13:10:00Z
+updated: 2026-10-24T03:00:25Z
 ---
 
 # Continuous vs Discrete Time in Maritime Inventory Routing Models

@@ -41,8 +41,8 @@ base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
-created: 2026-10-24T12:30:00Z
-updated: 2026-10-24T12:30:00Z
+created: 2026-10-24T03:00:25Z
+updated: 2026-10-24T03:00:25Z
 ---
 
 # Large Neighborhood Ship-Pair Destroy and Repair

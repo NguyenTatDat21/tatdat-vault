@@ -1,842 +1,5 @@
 {
   "sources": {
-    "_papers/montemanni2024combining/montemanni2024combining-extracted.md": {
-      "content_hash": "a81d80d023976ac4622a26dc2d1c94c2d7dd87fa4038f5e2288a3af88676124e",
-      "last_ingested": "2026-10-22T18:14:27.811227+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md",
-        "concepts/pdsvrp-c.md",
-        "concepts/cp-sat-hint-start.md"
-      ]
-    },
-    "_papers/montemanni2024combining/montemanni2024combining.md": {
-      "content_hash": "60f3f962787f9fcdae356899e49833e22a80aba53784a6ea18be946add9fbe3f",
-      "last_ingested": "2026-10-22T08:25:14.530079+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
-      "content_hash": "974311a81a7f0b11f1f6f9b59ae118b65ca4f8e49d7bb6a2b6612a875cf7206f",
-      "last_ingested": "2026-10-24T02:59:40.820070+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/gendreau2019handbook.md": {
-      "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
-      "last_ingested": "2026-10-24T02:59:40.874891+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/variable-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
-      "content_hash": "1a89e41609f8ecde283e71ee475fe836a61ba7b135c1489e1291495e972ed435",
-      "last_ingested": "2026-10-22T18:14:28.806661+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md",
-        "concepts/k-multi-visit-drone-routing-problem.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/poikonen2020multivisit.md": {
-      "content_hash": "a0550e47d86ca29c38a2e930667d3eb95b6daf66a172c51ef9a0b39bc6279f66",
-      "last_ingested": "2026-10-22T08:46:51.042958+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md",
-        "concepts/k-multi-visit-drone-routing-problem.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/tamke2023vehicle-extracted.md": {
-      "content_hash": "03e866b2a9e72afc912543fa42a3afbed17bc899250ea9689303a896b134b7f3",
-      "last_ingested": "2026-10-22T18:14:29.030865+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md",
-        "concepts/drone-speed-selection-in-routing.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/tamke2023vehicle.md": {
-      "content_hash": "f2cb9577f5e8b8574631e47cdc6a42476f4462e5a19ec8a82687eab837ae3b81",
-      "last_ingested": "2026-10-22T09:16:16.500035+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md",
-        "concepts/drone-speed-selection-in-routing.md"
-      ]
-    },
-    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md": {
-      "content_hash": "01b05e25113d12c25f68747ab470595e8cc1210dffa700863f0f0b27544ec232",
-      "last_ingested": "2026-10-22T18:14:27.397481+00:00",
-      "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md",
-        "concepts/maritime-routing-under-uncertainty.md"
-      ]
-    },
-    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md": {
-      "content_hash": "dca59bd71ed0b89828855b10558a5118ac916b3004b43e1d7dc4bae9af9d9c5d",
-      "last_ingested": "2026-10-22T09:16:16.624843+00:00",
-      "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md",
-        "concepts/maritime-routing-under-uncertainty.md"
-      ]
-    },
-    "_papers/paradiso2020exact/paradiso2020exact-extracted.md": {
-      "content_hash": "b75fb36a5c51f70527f44e8523afdd22368a5bff49048e3b7b85509eadd56ae1",
-      "last_ingested": "2026-10-22T18:14:28.673212+00:00",
-      "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md",
-        "concepts/exact-multitrip-vrptw-framework.md"
-      ]
-    },
-    "_papers/paradiso2020exact/paradiso2020exact.md": {
-      "content_hash": "9e5966d4e8a3e27cd73025dc0f56ceadb1ddb75bce24089aae4500f51bb358e4",
-      "last_ingested": "2026-10-22T09:16:16.744565+00:00",
-      "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md",
-        "concepts/exact-multitrip-vrptw-framework.md"
-      ]
-    },
-    "_papers/yang2022solving/yang2022solving-extracted.md": {
-      "content_hash": "4bde83238fe11d829eaa174447d9999d9bfbeb9774af93fbb61f3f359932e928",
-      "last_ingested": "2026-10-22T18:14:29.491890+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md",
-        "concepts/bilevel-vrpd-task-assignment-routing.md"
-      ]
-    },
-    "_papers/yang2022solving/yang2022solving.md": {
-      "content_hash": "805bf822ee8e24e812c24b447e5d309cae4394886ca197dec33fd36dde4bcc83",
-      "last_ingested": "2026-10-22T09:54:08.746571+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md",
-        "concepts/bilevel-vrpd-task-assignment-routing.md"
-      ]
-    },
-    "_papers/ha2018mincost/ha2018mincost-extracted.md": {
-      "content_hash": "6b008105a25e1d84e0ead3836899905fd1169ef4061559ff2d140571bf7a8813",
-      "last_ingested": "2026-10-22T18:14:26.803711+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md",
-        "concepts/min-cost-tsp-with-drone.md"
-      ]
-    },
-    "_papers/ha2018mincost/ha2018mincost.md": {
-      "content_hash": "9b2f1e215e43cada82da6a222e4df87618ce19ca4ac281f516d24baf7d2bf49d",
-      "last_ingested": "2026-10-22T09:54:08.868553+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md",
-        "concepts/min-cost-tsp-with-drone.md"
-      ]
-    },
-    "_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md": {
-      "content_hash": "51fdb8c4d80c185dadebf225b0af9468e6d9d07b32b1eebe037e6fe8e1718b0d",
-      "last_ingested": "2026-10-22T18:14:28.264555+00:00",
-      "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md",
-        "concepts/annual-lng-delivery-program.md"
-      ]
-    },
-    "_papers/mutlu2016comprehensive/mutlu2016comprehensive.md": {
-      "content_hash": "c2cf17ab00444d670e894c634472093d942c60e4c9dfe5d32194a35011e21837",
-      "last_ingested": "2026-10-22T09:54:08.995490+00:00",
-      "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md",
-        "concepts/annual-lng-delivery-program.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/hendel2022adaptive-extracted.md": {
-      "content_hash": "fe569d6fc052c69af0b3931883d74360683b95168f81babf917d201dad340338",
-      "last_ingested": "2026-10-22T18:14:27.031542+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md",
-        "concepts/adaptive-large-neighborhood-search-for-mip.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/hendel2022adaptive.md": {
-      "content_hash": "4b589d6c56e639bf1f9d65912b7c9ef9bcb853a26fc099dc41ad124a15337c3c",
-      "last_ingested": "2026-10-22T10:02:44.130734+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md": {
-      "content_hash": "dfb2f92050793b6bb5a4551a7e045cc0243f77fdca5f4fc9f6707b6736790129",
-      "last_ingested": "2026-10-22T18:14:29.259743+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md",
-        "concepts/payload-induced-drone-battery-consumption-rate.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/torabbeigi2020drone.md": {
-      "content_hash": "d433906c78e15f3af145736dddbe717131db25db380cf77a6e7ad1ef6e54e2f6",
-      "last_ingested": "2026-10-22T10:02:44.251665+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
-      ]
-    },
-    "_papers/hojabri2018large/hojabri2018large-extracted.md": {
-      "content_hash": "48c413e581de81017231f92ebe52564ddf99716b859111d7d1f33d0928cdd6f9",
-      "last_ingested": "2026-10-22T18:14:27.259926+00:00",
-      "pages_produced": [
-        "references/hojabri2018-vrp-synchronization-alns-cp.md",
-        "concepts/vehicle-routing-with-synchronization-constraints.md"
-      ]
-    },
-    "_papers/hojabri2018large/hojabri2018large.md": {
-      "content_hash": "7eecdbca63e3f9cf21a6f9bad005dad7a68d7a5556ac4df6e4c129314290c3a5",
-      "last_ingested": "2026-10-22T10:02:44.376492+00:00",
-      "pages_produced": [
-        "references/hojabri2018-vrp-synchronization-alns-cp.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/nguyen2022mincost-extracted.md": {
-      "content_hash": "43272765b8938ca05562d45ca42ed46edd21f116022da19fd2d7985658a0937d",
-      "last_ingested": "2026-10-22T18:14:28.445450+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md",
-        "concepts/min-cost-parallel-drone-scheduling-vrp.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/nguyen2022mincost.md": {
-      "content_hash": "cd3f41b55cc608213711da9ae183b11f031bf06dc2c1800ba316e090f3ab56d1",
-      "last_ingested": "2026-10-22T11:15:19.613151+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md"
-      ]
-    },
-    "_papers/lu2024effective/lu2024effective-extracted.md": {
-      "content_hash": "070d00b87a24b8868b39c0471ef00bda5f3e5f54095fe84a2c77ae79fe810fce",
-      "last_ingested": "2026-10-22T18:14:27.583801+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md",
-        "concepts/set-orienteering-problem.md"
-      ]
-    },
-    "_papers/lu2024effective/lu2024effective.md": {
-      "content_hash": "b06e2e79d749ad2e472ed96bab8110e9c8b21d1e1d8de522b0d06c404bb8e198",
-      "last_ingested": "2026-10-22T11:32:22.084287+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
-      ]
-    },
-    "_papers/yu2024simulated/yu2024simulated-extracted.md": {
-      "content_hash": "717ed426cc12243f9afd129fe90fd9b92f968d9c0f1e3f6926b94033a011c956",
-      "last_ingested": "2026-10-22T18:14:29.720778+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md",
-        "concepts/set-team-orienteering-problem-with-time-windows.md"
-      ]
-    },
-    "_papers/yu2024simulated/yu2024simulated.md": {
-      "content_hash": "e75c4e352a74182e04f5616293a2844cc64c06749f81094bac77dca905bd79f5",
-      "last_ingested": "2026-10-22T11:32:22.209060+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md"
-      ]
-    },
-    "_papers/cheng2020drone/cheng2020drone-extracted.md": {
-      "content_hash": "afb3aa2fbac72a2e32b9a77ebb31051b38b610f8c1346d5c6b9c385121fd042f",
-      "last_ingested": "2026-10-22T23:22:03.219772+00:00",
-      "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md",
-        "concepts/nonlinear-drone-energy-function-in-routing.md"
-      ]
-    },
-    "_papers/cheng2020drone/cheng2020drone.md": {
-      "content_hash": "0c65ef6f5b4eb1d49ae6c12c54b1a7227645eb79a78534b67c535788623ce4ce",
-      "last_ingested": "2026-10-22T23:22:03.282176+00:00",
-      "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md",
-        "concepts/nonlinear-drone-energy-function-in-routing.md"
-      ]
-    },
-    "_papers/murray2020multiple/murray2020multiple-extracted.md": {
-      "content_hash": "a8ae2073e3d08fc1f12b9dc9a84cc1038e3d83e0ed82972e88a97313bb47e747",
-      "last_ingested": "2026-10-22T18:14:28.043237+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md",
-        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
-      ]
-    },
-    "_papers/murray2020multiple/murray2020multiple.md": {
-      "content_hash": "45848b0027211a6a9ba0b01cc95e3bf36ab0404343a466ef6d0b48e1cc266cfd",
-      "last_ingested": "2026-10-22T11:40:28.804706+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md",
-        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
-      ]
-    },
-    "_papers/cheng2020drone/images/page_0_image_9.jpg": {
-      "content_hash": "c397db8ca3ebb91cc71a80f41a1d430b72f70bd860dbd94d921d8bc34cc2ce1a",
-      "last_ingested": "2026-10-22T18:14:26.382716+00:00",
-      "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md"
-      ]
-    },
-    "_papers/cheng2020drone/images/page_5_chart_2.jpg": {
-      "content_hash": "b047d7c9ee5ed320544de7cd4d2b7ae90695e084102ee4aaf237996a19defc11",
-      "last_ingested": "2026-10-22T18:14:26.446103+00:00",
-      "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md"
-      ]
-    },
-    "_papers/cheng2020drone/images/page_7_chart_2.jpg": {
-      "content_hash": "87278d6867c2351333b64f6d8447c84b5dc9f213060fe655fdb8fcfbe982c859",
-      "last_ingested": "2026-10-22T18:14:26.509889+00:00",
-      "pages_produced": [
-        "references/cheng2020-drone-routing-energy-function.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/images/page_47_image_7.jpg": {
-      "content_hash": "c41c7972bdbbd4fb1e1e10923fbc84e128d40be6e16ccb7dd5229db8f7a8af6c",
-      "last_ingested": "2026-10-22T18:14:26.625200+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/images/page_85_image_2.jpg": {
-      "content_hash": "5c5352723116774a77d66c0d15fadb240bbd80fda60791f19e249c4b7b36f4cd",
-      "last_ingested": "2026-10-22T18:14:26.668254+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/images/page_123_image_2.jpg": {
-      "content_hash": "bd264d9d7a34c3b6ed9b760616562fe46d043245d4d93f2dbd7740a53c3a6549",
-      "last_ingested": "2026-10-22T18:14:26.713396+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
-      ]
-    },
-    "_papers/gendreau2019handbook/images/page_257_image_2.jpg": {
-      "content_hash": "56aba6f2a1409f4161d5181773826b45ab6d271f5327e27eabc08b00bda69a3d",
-      "last_ingested": "2026-10-22T18:14:26.757886+00:00",
-      "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
-      ]
-    },
-    "_papers/ha2018mincost/images/page_23_image_6.jpg": {
-      "content_hash": "11c1763aa2a2a9172b74d24500a256f63ffc604d3ce9e3746aeb763e8c4d8836",
-      "last_ingested": "2026-10-22T18:14:26.850131+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md"
-      ]
-    },
-    "_papers/ha2018mincost/images/page_8_image_2.jpg": {
-      "content_hash": "e755218e6f922d0556f49de8996ddd1c28dcbb4318483c8cb01ac5894ba0a6c0",
-      "last_ingested": "2026-10-22T18:14:26.895782+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md"
-      ]
-    },
-    "_papers/ha2018mincost/images/page_8_image_4.jpg": {
-      "content_hash": "dd2e94b5eaf58e86fc37eba74f4799adddfec7385466d7d91d1ca939d3d2676d",
-      "last_ingested": "2026-10-22T18:14:26.940684+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md"
-      ]
-    },
-    "_papers/ha2018mincost/images/page_29_image_0.jpg": {
-      "content_hash": "6f0680f7a40b33060176f1e6e831de57c77031a4d6b3725a896d5a2c61219c62",
-      "last_ingested": "2026-10-22T18:14:26.985495+00:00",
-      "pages_produced": [
-        "references/ha2018-min-cost-tsp-d.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/images/page_19_chart_2.jpg": {
-      "content_hash": "b669e90265a30bc99c03e680d658b66f8780958fb1150f1e7b654bac617104d3",
-      "last_ingested": "2026-10-22T18:14:27.074566+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/images/page_24_chart_2.jpg": {
-      "content_hash": "0c54387ef8ac016d292790f7e5b8e20d5771c96c4853412949483a2fb49887fe",
-      "last_ingested": "2026-10-22T18:14:27.122353+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/images/page_25_chart_2.jpg": {
-      "content_hash": "513cab7f2c1a02d76d240ac1ac1358877d039856cef02133c877294f3d40138f",
-      "last_ingested": "2026-10-22T18:14:27.167115+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md"
-      ]
-    },
-    "_papers/hendel2022adaptive/images/page_27_chart_2.jpg": {
-      "content_hash": "6cb3905921e68b60ebc52beb39a8e67fc0401a24ebde6693fd0bd30c3f07765f",
-      "last_ingested": "2026-10-22T18:14:27.214108+00:00",
-      "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md"
-      ]
-    },
-    "_papers/hojabri2018large/images/page_0_image_8.jpg": {
-      "content_hash": "336dc5cf7d90afd9fe64d4f20c3e0e711888891b4d022a859b4704dbbfd21205",
-      "last_ingested": "2026-10-22T18:14:27.306189+00:00",
-      "pages_produced": [
-        "references/hojabri2018-vrp-synchronization-alns-cp.md"
-      ]
-    },
-    "_papers/hojabri2018large/images/page_2_image_2.jpg": {
-      "content_hash": "8239301c00dc28467f6f17666e304101155cc4b751483dd3fdf303a114296fb8",
-      "last_ingested": "2026-10-22T18:14:27.351145+00:00",
-      "pages_produced": [
-        "references/hojabri2018-vrp-synchronization-alns-cp.md"
-      ]
-    },
-    "_papers/ksciuk2023uncertainty/images/page_0_image_9.jpg": {
-      "content_hash": "9211699853293caa808580d98af3418e1b43c390b6f55a534fb681dad876c61b",
-      "last_ingested": "2026-10-22T18:14:27.442427+00:00",
-      "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md"
-      ]
-    },
-    "_papers/ksciuk2023uncertainty/images/page_2_image_2.jpg": {
-      "content_hash": "954cef9d0da0e366e0af29fe20314ae857eb4fabe2fa7afe2d3960cfe321d5a5",
-      "last_ingested": "2026-10-22T18:14:27.489552+00:00",
-      "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md"
-      ]
-    },
-    "_papers/ksciuk2023uncertainty/images/page_2_image_4.jpg": {
-      "content_hash": "cc0cfeb343952ae92d84dd5439ed98e34a3783de04ec949caeaa69f415f256e5",
-      "last_ingested": "2026-10-22T18:14:27.536897+00:00",
-      "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md"
-      ]
-    },
-    "_papers/lu2024effective/images/page_0_image_8.jpg": {
-      "content_hash": "8e4eca4c325758eb2d0a6ab22c6ef8942cff75ce9eda4ded60fa9e3702a8af31",
-      "last_ingested": "2026-10-22T18:14:27.628978+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
-      ]
-    },
-    "_papers/lu2024effective/images/page_3_image_2.jpg": {
-      "content_hash": "97d97aedeea503cf8c1b6be6d27e506330790027b44b373af7fc23b03037e752",
-      "last_ingested": "2026-10-22T18:14:27.673574+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
-      ]
-    },
-    "_papers/lu2024effective/images/page_17_chart_5.jpg": {
-      "content_hash": "c4cca6de549fe1f19618b854c68d064731a12ffd8c3ea1a27a168c57ab773c4e",
-      "last_ingested": "2026-10-22T18:14:27.718036+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
-      ]
-    },
-    "_papers/lu2024effective/images/page_17_chart_7.jpg": {
-      "content_hash": "3a122559f4696a211a3d3087519742c096bb9ed762b08e51481833e31adc22d1",
-      "last_ingested": "2026-10-22T18:14:27.764369+00:00",
-      "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_52_image_8.jpg": {
-      "content_hash": "194ce552ca163b42fdb48ba02051cc07c9d2628e4a5614ce00737dfc04c8aa00",
-      "last_ingested": "2026-10-22T18:14:27.853553+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_53_image_3.jpg": {
-      "content_hash": "710e36837b7d94a6421f001e0c27009cdadaab5871d18a70098b57732e6a730e",
-      "last_ingested": "2026-10-22T18:14:27.902889+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_54_image_2.jpg": {
-      "content_hash": "637a72682af65e6d5d1c3e35005610475b2140baf56e2b297052759ab04ab919",
-      "last_ingested": "2026-10-22T18:14:27.949464+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_54_image_5.jpg": {
-      "content_hash": "34d00f0df611b50ece778d2d67e86ab00841c4c31032a6206dc22704bc3eef50",
-      "last_ingested": "2026-10-22T18:14:27.998488+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/murray2020multiple/images/page_6_image_1.jpg": {
-      "content_hash": "ef0274270a5fea956ea6823bead13b34149a17a5c166e21bd296f9ec57c781d9",
-      "last_ingested": "2026-10-22T18:14:28.086222+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md"
-      ]
-    },
-    "_papers/murray2020multiple/images/page_6_image_3.jpg": {
-      "content_hash": "ade2fb6aed602ba38a3a3323a33fb5ca9866ada4448048a2c0b08d3d8b49c56f",
-      "last_ingested": "2026-10-22T18:14:28.130467+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md"
-      ]
-    },
-    "_papers/murray2020multiple/images/page_6_image_5.jpg": {
-      "content_hash": "52c019e490db8e0a215297cd0150b63bf1eb7a0715046ad1778652b56c315f86",
-      "last_ingested": "2026-10-22T18:14:28.175451+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md"
-      ]
-    },
-    "_papers/murray2020multiple/images/page_6_image_7.jpg": {
-      "content_hash": "aa7865c8e1ed0dab2379c87588e0ec19dbd04d53b2848ab4a1f216da710b9d24",
-      "last_ingested": "2026-10-22T18:14:28.219610+00:00",
-      "pages_produced": [
-        "references/murray2020-multiple-flying-sidekicks-tsp.md"
-      ]
-    },
-    "_papers/mutlu2016comprehensive/images/page_8_chart_5.jpg": {
-      "content_hash": "e3c9844f9401e9e4893c899672a8040dcbc2a5c39484ee2fbfe52b085d40e225",
-      "last_ingested": "2026-10-22T18:14:28.308604+00:00",
-      "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md"
-      ]
-    },
-    "_papers/mutlu2016comprehensive/images/page_9_chart_2.jpg": {
-      "content_hash": "aeb0574fcc601675e93e280445211314fb3d940081471448d8039d593cbb4442",
-      "last_ingested": "2026-10-22T18:14:28.352682+00:00",
-      "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md"
-      ]
-    },
-    "_papers/mutlu2016comprehensive/images/page_9_chart_4.jpg": {
-      "content_hash": "81046a0991f16690bfe2107d1a0df3e983cf5564e07f3e7c9edb63fb473b4f9d",
-      "last_ingested": "2026-10-22T18:14:28.397595+00:00",
-      "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/images/page_16_chart_4.jpg": {
-      "content_hash": "56dc1b84157bd1f9064aabbf4f1f67542a8e2ff2084021f92cda3b49448e890c",
-      "last_ingested": "2026-10-22T18:14:28.489841+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/images/page_18_chart_2.jpg": {
-      "content_hash": "95ec2fcc1d9fb75388a235074f35bed025f1c35cb403f474d4b23a6de5565984",
-      "last_ingested": "2026-10-22T18:14:28.538147+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/images/page_18_chart_4.jpg": {
-      "content_hash": "afb29d548912b91766f8ab67b27fec1ea6b991b7d068d976cbe9acd85ff7335e",
-      "last_ingested": "2026-10-22T18:14:28.582669+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md"
-      ]
-    },
-    "_papers/nguyen2022mincost/images/page_0_image_10.jpg": {
-      "content_hash": "9211699853293caa808580d98af3418e1b43c390b6f55a534fb681dad876c61b",
-      "last_ingested": "2026-10-22T18:14:28.628730+00:00",
-      "pages_produced": [
-        "references/nguyen2022-min-cost-pdsvrp.md"
-      ]
-    },
-    "_papers/paradiso2020exact/images/page_1_image_2.jpg": {
-      "content_hash": "7e854543a2c501dac785acaf8a1e7fd12b2dc169787d70d9dce64432a896a231",
-      "last_ingested": "2026-10-22T18:14:28.716782+00:00",
-      "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md"
-      ]
-    },
-    "_papers/paradiso2020exact/images/page_9_image_13.jpg": {
-      "content_hash": "4c96eda95e75492903d49f1141a420f415651419f15a3327e3ada19aab1d1335",
-      "last_ingested": "2026-10-22T18:14:28.760534+00:00",
-      "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/images/page_8_chart_2.jpg": {
-      "content_hash": "6a80cd359712519ed7cf11c2641f85a02607f83cc42dda4ac82ed7a8da8d4c84",
-      "last_ingested": "2026-10-22T18:14:28.850582+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/images/page_15_image_1.jpg": {
-      "content_hash": "6ca74c6cff9feeaf3525b2c10c33cd5a03cfc856e832f95cc251a324282b1d99",
-      "last_ingested": "2026-10-22T18:14:28.895352+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/images/page_21_chart_1.jpg": {
-      "content_hash": "cba179d08386f8676555b78bead66a6396ac57aaab106ea9be77678545b4de01",
-      "last_ingested": "2026-10-22T18:14:28.938989+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md"
-      ]
-    },
-    "_papers/poikonen2020multivisit/images/page_21_chart_3.jpg": {
-      "content_hash": "4366b6375de6a4c731c54d0c14d1eda4edb2c2f64815a8b77f1a4cb81508a8da",
-      "last_ingested": "2026-10-22T18:14:28.983358+00:00",
-      "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/images/page_7_chart_0.jpg": {
-      "content_hash": "299b001328e268be97c3e28cc415090a0b98af885c61f5ae426eb4b55500a083",
-      "last_ingested": "2026-10-22T18:14:29.073366+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/images/page_7_chart_2.jpg": {
-      "content_hash": "64cdb523e5dbf155c2cb563337e191332d9125c4139e26825b3bbce53ccbf340",
-      "last_ingested": "2026-10-22T18:14:29.119453+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/images/page_7_chart_4.jpg": {
-      "content_hash": "116fc0c6bf5fbf1a0880dc6bcdd2d312db13b4caea221b0971209772ee32a966",
-      "last_ingested": "2026-10-22T18:14:29.166628+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md"
-      ]
-    },
-    "_papers/tamke2023vehicle/images/page_10_chart_0.jpg": {
-      "content_hash": "159249908e4afce13c2d4f448649c9d2d6ea88bbd9332333dcac22551c08a201",
-      "last_ingested": "2026-10-22T18:14:29.211877+00:00",
-      "pages_produced": [
-        "references/tamke2023-vrpd-dss.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/images/page_6_image_9.jpg": {
-      "content_hash": "86ce6ba59402480a55be0aea9cefb4d91919c3b47a2dbf81d47058229f2fd9e8",
-      "last_ingested": "2026-10-22T18:14:29.306371+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/images/page_10_image_1.jpg": {
-      "content_hash": "edd8faf9ff1653d8ccd257ecfc0a042f7c267316787279bdbe989e0d342ca41c",
-      "last_ingested": "2026-10-22T18:14:29.352018+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/images/page_2_chart_2.jpg": {
-      "content_hash": "bd410e460888703bad796d97e801bb2e6dd4f0dc2e191e82ed388b021f15b3fe",
-      "last_ingested": "2026-10-22T18:14:29.399840+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
-      ]
-    },
-    "_papers/torabbeigi2020drone/images/page_3_chart_1.jpg": {
-      "content_hash": "2cd7251b6fe7f219d6aa59f8f510e25dc23c5e4ced992f13aa8fa180c2a94ab8",
-      "last_ingested": "2026-10-22T18:14:29.447108+00:00",
-      "pages_produced": [
-        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
-      ]
-    },
-    "_papers/yang2022solving/images/page_2_image_0.jpg": {
-      "content_hash": "1d16665cbd8df3d98623f81c0375d71a4272112b03184310f623374205fc6e03",
-      "last_ingested": "2026-10-22T18:14:29.534346+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md"
-      ]
-    },
-    "_papers/yang2022solving/images/page_4_image_8.jpg": {
-      "content_hash": "caaecbf58411d50ed2dc1311e9e2a769555294eb6ff9308195aaf55cccc6ce07",
-      "last_ingested": "2026-10-22T18:14:29.578936+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md"
-      ]
-    },
-    "_papers/yang2022solving/images/page_5_chart_0.jpg": {
-      "content_hash": "89b144471a2345dc9d4845cdfee2b1dcca48a5a434a33be3353a01f148ac6474",
-      "last_ingested": "2026-10-22T18:14:29.627338+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md"
-      ]
-    },
-    "_papers/yang2022solving/images/page_5_chart_2.jpg": {
-      "content_hash": "534b27c76d868f6740eff8000402b06c84101b1cc8c3404858958c17b9676ca8",
-      "last_ingested": "2026-10-22T18:14:29.673039+00:00",
-      "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md"
-      ]
-    },
-    "_papers/yu2024simulated/images/page_9_chart_2.jpg": {
-      "content_hash": "57e48c92520064069f1c1e2d7b2c554c47f05762377d64c9005defd26a125d45",
-      "last_ingested": "2026-10-22T18:14:29.767420+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md"
-      ]
-    },
-    "_papers/yu2024simulated/images/page_9_chart_4.jpg": {
-      "content_hash": "0dd78b3a28c3966dd63e4d3fa4e661b235f2156cb8904008bd37841ed628a2b3",
-      "last_ingested": "2026-10-22T18:14:29.812563+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md"
-      ]
-    },
-    "_papers/yu2024simulated/images/page_9_chart_6.jpg": {
-      "content_hash": "9885eb27c849234a03ab5a61027b5065b9f18ae69a2a7aa985b897790af1754b",
-      "last_ingested": "2026-10-22T18:14:29.859919+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md"
-      ]
-    },
-    "_papers/yu2024simulated/images/page_9_chart_8.jpg": {
-      "content_hash": "ef0f787f04fbd8c2422ad161dacc14fa2c5c0f1aa6d9c05c5459451b19459a5e",
-      "last_ingested": "2026-10-22T18:14:29.905285+00:00",
-      "pages_produced": [
-        "references/yu2024-sarl-stoptw.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_102_image_3.jpg": {
-      "content_hash": "4deb7cd7ffd46725d6ec05d918069d8936b89ecaeecf3575465942acf387d549",
-      "last_ingested": "2026-10-22T19:01:52.284381+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_105_table_3.jpg": {
-      "content_hash": "8645838da4b1a0f2d0d0ab2fed6524c578a2fe3c71b058805bbf1290331d83da",
-      "last_ingested": "2026-10-22T19:01:52.352205+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_105_table_5.jpg": {
-      "content_hash": "b1410b343f4324218ae7d409bec526f43c34aee07c5d233782169d4a335bf10e",
-      "last_ingested": "2026-10-22T19:01:52.416935+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_111_image_10.jpg": {
-      "content_hash": "e8828ec0da28e11d78e82d57060f4a054af59c09f5127aa988908aec693edc7e",
-      "last_ingested": "2026-10-22T19:01:52.482077+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_10.jpg": {
-      "content_hash": "5365c916f2b038157d5658f4558dccef400fe62540064ebddc8fa6f4f2f32365",
-      "last_ingested": "2026-10-22T19:01:52.536761+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_12.jpg": {
-      "content_hash": "27f2b1d7223a9186f5d08ff5de1a79fef4c891c8f33ef645a08139630f4d2949",
-      "last_ingested": "2026-10-22T19:01:52.583336+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_13.jpg": {
-      "content_hash": "41aa4fbd7a13f5d8e39e0b2f58f37a229e1842d5dd0e58ab28fcd6c5dfba7fab",
-      "last_ingested": "2026-10-22T19:01:52.630271+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_16.jpg": {
-      "content_hash": "2714758d423239a1c84ba5250392f4a0f3ad78bd44a7542990821392854a7b6f",
-      "last_ingested": "2026-10-22T19:01:52.677453+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_2.jpg": {
-      "content_hash": "74e76074a3fa930424735d3bf093f45a88f34e3c721478f28f7782e968f7901f",
-      "last_ingested": "2026-10-22T19:01:52.724072+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_4.jpg": {
-      "content_hash": "0bd63d8a70e8034ed731e5d6428e7e98513f7eb2d3f7076cb2db96ee992231ca",
-      "last_ingested": "2026-10-22T19:01:52.772148+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_5.jpg": {
-      "content_hash": "615f474f5e35d00ef80ba58d04531044ed14aa502d9064ebfd01a8adec34f55a",
-      "last_ingested": "2026-10-22T19:01:52.818374+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_image_8.jpg": {
-      "content_hash": "5cee23f44e67d4b26f8132c9a17a70891d013548fec8dc04dcb73f7399ec242d",
-      "last_ingested": "2026-10-22T19:01:52.865032+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_112_table_23.jpg": {
-      "content_hash": "0035d3ecdd30bb79ab73c92639df455092671495794f2182a51c76fd5e51093a",
-      "last_ingested": "2026-10-22T19:01:52.911556+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_113_equation_8.jpg": {
-      "content_hash": "08409a1da0b3dfbb9641efc86210002a4e683439b41c5cf6d97e1dc343b616d7",
-      "last_ingested": "2026-10-22T19:01:52.959180+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_113_table_11.jpg": {
-      "content_hash": "2de0f0ebb30b6a51913d6de64fecb27fc2209fbc5b1bfad0ba86cc3c09b7dbc7",
-      "last_ingested": "2026-10-22T19:01:53.007451+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_119_equation_4.jpg": {
-      "content_hash": "b1dc77bf8452243e967eff1b1d3d3a82101bd4e149f2a5f3feb92d958cab37b3",
-      "last_ingested": "2026-10-22T19:01:53.056572+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_121_table_4.jpg": {
-      "content_hash": "d8da188edb3bb6a29b4139a6d0a15b6e46bcdfe41224b5865984bf5af5584d99",
-      "last_ingested": "2026-10-22T19:01:53.102780+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_122_table_3.jpg": {
-      "content_hash": "6bc877ce5ef25bac6007ca9178d20287736f37bceddf93736c53c50f24ad8e14",
-      "last_ingested": "2026-10-22T19:01:53.149102+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_128_chart_6.jpg": {
-      "content_hash": "67cbaa603d8b90bb1e475ad6797cce30cf5b5181fa9844eee322dd3dfc972f40",
-      "last_ingested": "2026-10-22T19:01:53.198518+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
-    "_papers/montemanni2024combining/images/page_129_chart_2.jpg": {
-      "content_hash": "fdf5ffdf11e9e6bce2f3dc10c19f3ddf5868670517a42f38e20ef1a298f9937d",
-      "last_ingested": "2026-10-22T19:01:53.245474+00:00",
-      "pages_produced": [
-        "references/montemanni2024-pdsvrp-collective-drones.md"
-      ]
-    },
     "_papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md": {
       "content_hash": "c8c9ca6679ff3fdcb0c9ba13158da1117305a94763df6c4be6c1bfbc6fe44f4c",
       "last_ingested": "2026-10-22T19:26:44.981330+00:00",
@@ -869,6 +32,22 @@
         "concepts/annual-lng-delivery-program.md"
       ]
     },
+    "_papers/almgren2004optimal/almgren2004optimal-extracted.md": {
+      "content_hash": "3267e365847fb493580a897af78b67cda8ed721299f2f36df77e00f082fa82bd",
+      "last_ingested": "2026-10-22T19:26:45.418013+00:00",
+      "pages_produced": [
+        "references/almgren2004-optimal-portfolios-ordering-information.md",
+        "concepts/ordering-information-portfolio-selection.md"
+      ]
+    },
+    "_papers/almgren2004optimal/almgren2004optimal.md": {
+      "content_hash": "eb5984aaae918ed0eee32596237b4982a1ac5bc90aa00fb53ed63725bd0c1061",
+      "last_ingested": "2026-10-22T19:26:45.468161+00:00",
+      "pages_produced": [
+        "references/almgren2004-optimal-portfolios-ordering-information.md",
+        "concepts/ordering-information-portfolio-selection.md"
+      ]
+    },
     "_papers/andersson2017creating/andersson2017creating-extracted.md": {
       "content_hash": "bd22d74e52bd8b4c17b2ff01a3cc394f592c025193325e5447cabde2c4f00a53",
       "last_ingested": "2026-10-22T19:26:45.224234+00:00",
@@ -899,22 +78,6 @@
       "pages_produced": [
         "references/archetti2018-set-orienteering-problem.md",
         "concepts/set-orienteering-problem.md"
-      ]
-    },
-    "_papers/almgren2004optimal/almgren2004optimal-extracted.md": {
-      "content_hash": "3267e365847fb493580a897af78b67cda8ed721299f2f36df77e00f082fa82bd",
-      "last_ingested": "2026-10-22T19:26:45.418013+00:00",
-      "pages_produced": [
-        "references/almgren2004-optimal-portfolios-ordering-information.md",
-        "concepts/ordering-information-portfolio-selection.md"
-      ]
-    },
-    "_papers/almgren2004optimal/almgren2004optimal.md": {
-      "content_hash": "eb5984aaae918ed0eee32596237b4982a1ac5bc90aa00fb53ed63725bd0c1061",
-      "last_ingested": "2026-10-22T19:26:45.468161+00:00",
-      "pages_produced": [
-        "references/almgren2004-optimal-portfolios-ordering-information.md",
-        "concepts/ordering-information-portfolio-selection.md"
       ]
     },
     "_papers/archetti2023new/archetti2023new-extracted.md": {
@@ -1153,6 +316,43 @@
         "concepts/mmse-covariance-shrinkage.md"
       ]
     },
+    "_papers/cheng2020drone/cheng2020drone-extracted.md": {
+      "content_hash": "afb3aa2fbac72a2e32b9a77ebb31051b38b610f8c1346d5c6b9c385121fd042f",
+      "last_ingested": "2026-10-22T23:22:03.219772+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
+      ]
+    },
+    "_papers/cheng2020drone/cheng2020drone.md": {
+      "content_hash": "0c65ef6f5b4eb1d49ae6c12c54b1a7227645eb79a78534b67c535788623ce4ce",
+      "last_ingested": "2026-10-22T23:22:03.282176+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md",
+        "concepts/nonlinear-drone-energy-function-in-routing.md"
+      ]
+    },
+    "_papers/cheng2020drone/images/page_0_image_9.jpg": {
+      "content_hash": "c397db8ca3ebb91cc71a80f41a1d430b72f70bd860dbd94d921d8bc34cc2ce1a",
+      "last_ingested": "2026-10-22T18:14:26.382716+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md"
+      ]
+    },
+    "_papers/cheng2020drone/images/page_5_chart_2.jpg": {
+      "content_hash": "b047d7c9ee5ed320544de7cd4d2b7ae90695e084102ee4aaf237996a19defc11",
+      "last_ingested": "2026-10-22T18:14:26.446103+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md"
+      ]
+    },
+    "_papers/cheng2020drone/images/page_7_chart_2.jpg": {
+      "content_hash": "87278d6867c2351333b64f6d8447c84b5dc9f213060fe655fdb8fcfbe982c859",
+      "last_ingested": "2026-10-22T18:14:26.509889+00:00",
+      "pages_produced": [
+        "references/cheng2020-drone-routing-energy-function.md"
+      ]
+    },
     "_papers/christiansen2007chapter/christiansen2007chapter-extracted.md": {
       "content_hash": "d8611e92d52019503cc43e1b91043acd5bd8ad36b20800ab5f87d6786c9ee364",
       "last_ingested": "2026-10-22T23:22:03.345216+00:00",
@@ -1313,16 +513,16 @@
         "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
       ]
     },
-    "_papers/dossantos2024multiobjective/images/page_5_image_2.jpg": {
-      "content_hash": "f3c4e1a465df1e4bdab6a092625a4380654062d600e16f79456bd77a5963328c",
-      "last_ingested": "2026-10-24T01:27:44.193841+00:00",
+    "_papers/dossantos2024multiobjective/images/page_17_chart_2.jpg": {
+      "content_hash": "e637bfbd3ba03f200eff8cd5a63f0500c9f382eb2ca8639eb1323853f63478e8",
+      "last_ingested": "2026-10-24T01:27:44.268458+00:00",
       "pages_produced": [
         "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
       ]
     },
-    "_papers/dossantos2024multiobjective/images/page_17_chart_2.jpg": {
-      "content_hash": "e637bfbd3ba03f200eff8cd5a63f0500c9f382eb2ca8639eb1323853f63478e8",
-      "last_ingested": "2026-10-24T01:27:44.268458+00:00",
+    "_papers/dossantos2024multiobjective/images/page_5_image_2.jpg": {
+      "content_hash": "f3c4e1a465df1e4bdab6a092625a4380654062d600e16f79456bd77a5963328c",
+      "last_ingested": "2026-10-24T01:27:44.193841+00:00",
       "pages_produced": [
         "references/dossantos2024-multiobjective-maritime-cargo-routing.md"
       ]
@@ -1345,14 +545,6 @@
         "references/fagerholt2023-maritime-inventory-routing-survey.md"
       ]
     },
-    "_papers/fagerholt2023maritime/images/page_8_image_2.jpg": {
-      "content_hash": "74b684969542e02cf7131aa7ff4cefa84062ba0ef3abaad6b5eb27a0299112ef",
-      "last_ingested": "2026-10-24T01:27:44.468282+00:00",
-      "pages_produced": [
-        "references/fagerholt2023-maritime-inventory-routing-survey.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
-      ]
-    },
     "_papers/fagerholt2023maritime/images/page_11_image_2.jpg": {
       "content_hash": "b86c50d2c637a66495967c13e2634ae2f499bc8df106521774f497f14a4dfe64",
       "last_ingested": "2026-10-24T01:27:44.530421+00:00",
@@ -1366,6 +558,14 @@
       "last_ingested": "2026-10-24T01:30:35.919741+00:00",
       "pages_produced": [
         "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/fagerholt2023maritime/images/page_8_image_2.jpg": {
+      "content_hash": "74b684969542e02cf7131aa7ff4cefa84062ba0ef3abaad6b5eb27a0299112ef",
+      "last_ingested": "2026-10-24T01:27:44.468282+00:00",
+      "pages_produced": [
+        "references/fagerholt2023-maritime-inventory-routing-survey.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
       ]
     },
     "_papers/fama1973risk/fama1973risk-extracted.md": {
@@ -1447,6 +647,20 @@
         "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
       ]
     },
+    "_papers/furini2016modeling/images/page_13_chart_3.jpg": {
+      "content_hash": "642736e10c84c616fe829274a7969d298f4222b309815abdbdd8d3be6324dc64",
+      "last_ingested": "2026-10-24T01:30:35.797149+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
+    "_papers/furini2016modeling/images/page_19_chart_0.jpg": {
+      "content_hash": "e27211c22f81de5296644e0202ff61795e081a287f5647d6d4d5f6d715c587b6",
+      "last_ingested": "2026-10-24T01:30:35.856073+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+      ]
+    },
     "_papers/furini2016modeling/images/page_1_image_0.jpg": {
       "content_hash": "355a42c57f0a6e47c9956f4a427888b99512a0ad3910c54af9ed4a1b1cf16d7f",
       "last_ingested": "2026-10-24T01:30:35.680261+00:00",
@@ -1463,18 +677,166 @@
         "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
       ]
     },
-    "_papers/furini2016modeling/images/page_13_chart_3.jpg": {
-      "content_hash": "642736e10c84c616fe829274a7969d298f4222b309815abdbdd8d3be6324dc64",
-      "last_ingested": "2026-10-24T01:30:35.797149+00:00",
+    "_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md": {
+      "content_hash": "c8a02387fba4d215e19681a71739a103e70a8214f474a251a18ac8059bb841e4",
+      "last_ingested": "2026-10-24T02:59:40.063076+00:00",
       "pages_produced": [
-        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
       ]
     },
-    "_papers/furini2016modeling/images/page_19_chart_0.jpg": {
-      "content_hash": "e27211c22f81de5296644e0202ff61795e081a287f5647d6d4d5f6d715c587b6",
-      "last_ingested": "2026-10-24T01:30:35.856073+00:00",
+    "_papers/ganjia2026multiobjective/ganjia2026multiobjective.md": {
+      "content_hash": "02cf3a8a1e12e53c6816e4b7a7530ae0c22a9278a770510d0ff8ce165d25e1b6",
+      "last_ingested": "2026-10-24T02:59:40.120942+00:00",
       "pages_produced": [
-        "references/furini2016-two-dimensional-guillotine-cutting-ip.md"
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/images/page_10_image_3.jpg": {
+      "content_hash": "384f40caa2bb2e6c0c0a14e201285c11f193226daefc56b0d48599a86b827c52",
+      "last_ingested": "2026-10-24T02:59:40.176941+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md"
+      ]
+    },
+    "_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg": {
+      "content_hash": "b3d512b79cfef8fba21c5d82a430e22efda42d4914f4fc8368b61fcc3fe58f2d",
+      "last_ingested": "2026-10-24T02:59:40.234110+00:00",
+      "pages_produced": [
+        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
+        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/garg2022iqlearn-extracted.md": {
+      "content_hash": "45eed536714219ffe7c3ab0b1c344f3c694920197b91eef57fb1b22ae137103a",
+      "last_ingested": "2026-10-24T02:59:40.292561+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/garg2022iqlearn.md": {
+      "content_hash": "cd82e390dfff018e6538c6c37ef19f40dcdf756ef14633cf03c967f4f7dcbf6a",
+      "last_ingested": "2026-10-24T02:59:40.349729+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_13_image_1.jpg": {
+      "content_hash": "9af0c42b640d8dae16160a7e3b5a058fb72f76530a4c4f6e7f67dc947e49c8b5",
+      "last_ingested": "2026-10-24T02:59:40.703149+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_27_image_0.jpg": {
+      "content_hash": "58ba075d28b3dce3a8e091b36d1f878ec77fe2c553dcc4c969cd9ef0e0b342a4",
+      "last_ingested": "2026-10-24T02:59:40.761792+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_4_chart_10.jpg": {
+      "content_hash": "520ae825e0928098c867782ad15c5908c033a57215059c0df6e3088eebc46fb2",
+      "last_ingested": "2026-10-24T02:59:40.468327+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_4_chart_9.jpg": {
+      "content_hash": "f8df239ab8fe07469a2c8dddd4c617f8dd360d660493ff286b82609b78c48eb0",
+      "last_ingested": "2026-10-24T02:59:40.407739+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md",
+        "concepts/inverse-soft-q-imitation-learning.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_5.jpg": {
+      "content_hash": "f75eb5ae207b1f148713ba9c9305edc7df7de2a45a532bddea2264ce822b4960",
+      "last_ingested": "2026-10-24T02:59:40.527158+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_6.jpg": {
+      "content_hash": "51ed64feb56f7e21e258e6be1f020f2a3690cca882035089950f31a8427a4e05",
+      "last_ingested": "2026-10-24T02:59:40.583966+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/garg2022iqlearn/images/page_8_chart_7.jpg": {
+      "content_hash": "7cbafa97d8efcaf0f20015c2abf5a534c596c9eada821a76a3d4a525ec44431b",
+      "last_ingested": "2026-10-24T02:59:40.644621+00:00",
+      "pages_produced": [
+        "references/garg2022-iq-learn-inverse-soft-q.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
+      "content_hash": "974311a81a7f0b11f1f6f9b59ae118b65ca4f8e49d7bb6a2b6612a875cf7206f",
+      "last_ingested": "2026-10-24T02:59:40.820070+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/gendreau2019handbook.md": {
+      "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
+      "last_ingested": "2026-10-24T02:59:40.874891+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_115_image_2.jpg": {
+      "content_hash": "02b3f219a8942c2bb30c7a3cd5f9102d1cf6889c05d31f7731363f0f017268eb",
+      "last_ingested": "2026-10-24T02:59:40.924084+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_117_image_2.jpg": {
+      "content_hash": "c5652fc16dc13af51d7dd6df2347210754ac70ab9276c28812f9497d86e10631",
+      "last_ingested": "2026-10-24T02:59:40.982052+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_123_image_2.jpg": {
+      "content_hash": "bd264d9d7a34c3b6ed9b760616562fe46d043245d4d93f2dbd7740a53c3a6549",
+      "last_ingested": "2026-10-22T18:14:26.713396+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_257_image_2.jpg": {
+      "content_hash": "56aba6f2a1409f4161d5181773826b45ab6d271f5327e27eabc08b00bda69a3d",
+      "last_ingested": "2026-10-22T18:14:26.757886+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_47_image_7.jpg": {
+      "content_hash": "c41c7972bdbbd4fb1e1e10923fbc84e128d40be6e16ccb7dd5229db8f7a8af6c",
+      "last_ingested": "2026-10-22T18:14:26.625200+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_85_image_2.jpg": {
+      "content_hash": "5c5352723116774a77d66c0d15fadb240bbd80fda60791f19e249c4b7b36f4cd",
+      "last_ingested": "2026-10-22T18:14:26.668254+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/goel2012large/goel2012large-extracted.md": {
@@ -1501,14 +863,6 @@
         "concepts/mirp-modeling-continuous-vs-discrete-time.md"
       ]
     },
-    "_papers/goel2012large/images/page_6_image_2.jpg": {
-      "content_hash": "b4a42bc1ddcdeb844d1839d38c747d5964403b86e87189998408b3769d7021de",
-      "last_ingested": "2026-10-24T02:59:39.527621+00:00",
-      "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/time-space-network-ship-flow-model.md"
-      ]
-    },
     "_papers/goel2012large/images/page_22_chart_2.jpg": {
       "content_hash": "d2e4fffe720eecd97d9b6a8e722e38a413821fb59161d06c7b45d4859df827bc",
       "last_ingested": "2026-10-24T02:59:39.606563+00:00",
@@ -1516,6 +870,14 @@
         "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
         "concepts/large-neighborhood-ship-pair-destroy-repair.md",
         "concepts/large-neighborhood-search.md"
+      ]
+    },
+    "_papers/goel2012large/images/page_6_image_2.jpg": {
+      "content_hash": "b4a42bc1ddcdeb844d1839d38c747d5964403b86e87189998408b3769d7021de",
+      "last_ingested": "2026-10-24T02:59:39.527621+00:00",
+      "pages_produced": [
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md"
       ]
     },
     "_papers/goel2015constraint/goel2015constraint-extracted.md": {
@@ -1570,119 +932,762 @@
         "concepts/cumulative-volume-lower-bound-cp-search.md"
       ]
     },
-    "_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md": {
-      "content_hash": "c8a02387fba4d215e19681a71739a103e70a8214f474a251a18ac8059bb841e4",
-      "last_ingested": "2026-10-24T02:59:40.063076+00:00",
+    "_papers/ha2018mincost/ha2018mincost-extracted.md": {
+      "content_hash": "6b008105a25e1d84e0ead3836899905fd1169ef4061559ff2d140571bf7a8813",
+      "last_ingested": "2026-10-22T18:14:26.803711+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "references/ha2018-min-cost-tsp-d.md",
+        "concepts/min-cost-tsp-with-drone.md"
       ]
     },
-    "_papers/ganjia2026multiobjective/ganjia2026multiobjective.md": {
-      "content_hash": "02cf3a8a1e12e53c6816e4b7a7530ae0c22a9278a770510d0ff8ce165d25e1b6",
-      "last_ingested": "2026-10-24T02:59:40.120942+00:00",
+    "_papers/ha2018mincost/ha2018mincost.md": {
+      "content_hash": "9b2f1e215e43cada82da6a222e4df87618ce19ca4ac281f516d24baf7d2bf49d",
+      "last_ingested": "2026-10-22T09:54:08.868553+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "references/ha2018-min-cost-tsp-d.md",
+        "concepts/min-cost-tsp-with-drone.md"
       ]
     },
-    "_papers/ganjia2026multiobjective/images/page_10_image_3.jpg": {
-      "content_hash": "384f40caa2bb2e6c0c0a14e201285c11f193226daefc56b0d48599a86b827c52",
-      "last_ingested": "2026-10-24T02:59:40.176941+00:00",
+    "_papers/ha2018mincost/images/page_23_image_6.jpg": {
+      "content_hash": "11c1763aa2a2a9172b74d24500a256f63ffc604d3ce9e3746aeb763e8c4d8836",
+      "last_ingested": "2026-10-22T18:14:26.850131+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md"
+        "references/ha2018-min-cost-tsp-d.md"
       ]
     },
-    "_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg": {
-      "content_hash": "b3d512b79cfef8fba21c5d82a430e22efda42d4914f4fc8368b61fcc3fe58f2d",
-      "last_ingested": "2026-10-24T02:59:40.234110+00:00",
+    "_papers/ha2018mincost/images/page_29_image_0.jpg": {
+      "content_hash": "6f0680f7a40b33060176f1e6e831de57c77031a4d6b3725a896d5a2c61219c62",
+      "last_ingested": "2026-10-22T18:14:26.985495+00:00",
       "pages_produced": [
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md",
-        "concepts/multi-objective-metaheuristic-tuning-validation.md"
+        "references/ha2018-min-cost-tsp-d.md"
       ]
     },
-    "_papers/garg2022iqlearn/garg2022iqlearn-extracted.md": {
-      "content_hash": "45eed536714219ffe7c3ab0b1c344f3c694920197b91eef57fb1b22ae137103a",
-      "last_ingested": "2026-10-24T02:59:40.292561+00:00",
+    "_papers/ha2018mincost/images/page_8_image_2.jpg": {
+      "content_hash": "e755218e6f922d0556f49de8996ddd1c28dcbb4318483c8cb01ac5894ba0a6c0",
+      "last_ingested": "2026-10-22T18:14:26.895782+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md",
-        "concepts/inverse-soft-q-imitation-learning.md"
+        "references/ha2018-min-cost-tsp-d.md"
       ]
     },
-    "_papers/garg2022iqlearn/garg2022iqlearn.md": {
-      "content_hash": "cd82e390dfff018e6538c6c37ef19f40dcdf756ef14633cf03c967f4f7dcbf6a",
-      "last_ingested": "2026-10-24T02:59:40.349729+00:00",
+    "_papers/ha2018mincost/images/page_8_image_4.jpg": {
+      "content_hash": "dd2e94b5eaf58e86fc37eba74f4799adddfec7385466d7d91d1ca939d3d2676d",
+      "last_ingested": "2026-10-22T18:14:26.940684+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md",
-        "concepts/inverse-soft-q-imitation-learning.md"
+        "references/ha2018-min-cost-tsp-d.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_4_chart_9.jpg": {
-      "content_hash": "f8df239ab8fe07469a2c8dddd4c617f8dd360d660493ff286b82609b78c48eb0",
-      "last_ingested": "2026-10-24T02:59:40.407739+00:00",
+    "_papers/hendel2022adaptive/hendel2022adaptive-extracted.md": {
+      "content_hash": "fe569d6fc052c69af0b3931883d74360683b95168f81babf917d201dad340338",
+      "last_ingested": "2026-10-22T18:14:27.031542+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md",
-        "concepts/inverse-soft-q-imitation-learning.md"
+        "references/hendel2022-adaptive-lns-for-mip.md",
+        "concepts/adaptive-large-neighborhood-search-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_4_chart_10.jpg": {
-      "content_hash": "520ae825e0928098c867782ad15c5908c033a57215059c0df6e3088eebc46fb2",
-      "last_ingested": "2026-10-24T02:59:40.468327+00:00",
+    "_papers/hendel2022adaptive/hendel2022adaptive.md": {
+      "content_hash": "4b589d6c56e639bf1f9d65912b7c9ef9bcb853a26fc099dc41ad124a15337c3c",
+      "last_ingested": "2026-10-22T10:02:44.130734+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md"
+        "references/hendel2022-adaptive-lns-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_8_chart_5.jpg": {
-      "content_hash": "f75eb5ae207b1f148713ba9c9305edc7df7de2a45a532bddea2264ce822b4960",
-      "last_ingested": "2026-10-24T02:59:40.527158+00:00",
+    "_papers/hendel2022adaptive/images/page_19_chart_2.jpg": {
+      "content_hash": "b669e90265a30bc99c03e680d658b66f8780958fb1150f1e7b654bac617104d3",
+      "last_ingested": "2026-10-22T18:14:27.074566+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md"
+        "references/hendel2022-adaptive-lns-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_8_chart_6.jpg": {
-      "content_hash": "51ed64feb56f7e21e258e6be1f020f2a3690cca882035089950f31a8427a4e05",
-      "last_ingested": "2026-10-24T02:59:40.583966+00:00",
+    "_papers/hendel2022adaptive/images/page_24_chart_2.jpg": {
+      "content_hash": "0c54387ef8ac016d292790f7e5b8e20d5771c96c4853412949483a2fb49887fe",
+      "last_ingested": "2026-10-22T18:14:27.122353+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md"
+        "references/hendel2022-adaptive-lns-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_8_chart_7.jpg": {
-      "content_hash": "7cbafa97d8efcaf0f20015c2abf5a534c596c9eada821a76a3d4a525ec44431b",
-      "last_ingested": "2026-10-24T02:59:40.644621+00:00",
+    "_papers/hendel2022adaptive/images/page_25_chart_2.jpg": {
+      "content_hash": "513cab7f2c1a02d76d240ac1ac1358877d039856cef02133c877294f3d40138f",
+      "last_ingested": "2026-10-22T18:14:27.167115+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md"
+        "references/hendel2022-adaptive-lns-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_13_image_1.jpg": {
-      "content_hash": "9af0c42b640d8dae16160a7e3b5a058fb72f76530a4c4f6e7f67dc947e49c8b5",
-      "last_ingested": "2026-10-24T02:59:40.703149+00:00",
+    "_papers/hendel2022adaptive/images/page_27_chart_2.jpg": {
+      "content_hash": "6cb3905921e68b60ebc52beb39a8e67fc0401a24ebde6693fd0bd30c3f07765f",
+      "last_ingested": "2026-10-22T18:14:27.214108+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md"
+        "references/hendel2022-adaptive-lns-for-mip.md"
       ]
     },
-    "_papers/garg2022iqlearn/images/page_27_image_0.jpg": {
-      "content_hash": "58ba075d28b3dce3a8e091b36d1f878ec77fe2c553dcc4c969cd9ef0e0b342a4",
-      "last_ingested": "2026-10-24T02:59:40.761792+00:00",
+    "_papers/hojabri2018large/hojabri2018large-extracted.md": {
+      "content_hash": "48c413e581de81017231f92ebe52564ddf99716b859111d7d1f33d0928cdd6f9",
+      "last_ingested": "2026-10-22T18:14:27.259926+00:00",
       "pages_produced": [
-        "references/garg2022-iq-learn-inverse-soft-q.md",
-        "concepts/inverse-soft-q-imitation-learning.md"
+        "references/hojabri2018-vrp-synchronization-alns-cp.md",
+        "concepts/vehicle-routing-with-synchronization-constraints.md"
       ]
     },
-    "_papers/gendreau2019handbook/images/page_115_image_2.jpg": {
-      "content_hash": "02b3f219a8942c2bb30c7a3cd5f9102d1cf6889c05d31f7731363f0f017268eb",
-      "last_ingested": "2026-10-24T02:59:40.924084+00:00",
+    "_papers/hojabri2018large/hojabri2018large.md": {
+      "content_hash": "7eecdbca63e3f9cf21a6f9bad005dad7a68d7a5556ac4df6e4c129314290c3a5",
+      "last_ingested": "2026-10-22T10:02:44.376492+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md"
+        "references/hojabri2018-vrp-synchronization-alns-cp.md"
       ]
     },
-    "_papers/gendreau2019handbook/images/page_117_image_2.jpg": {
-      "content_hash": "c5652fc16dc13af51d7dd6df2347210754ac70ab9276c28812f9497d86e10631",
-      "last_ingested": "2026-10-24T02:59:40.982052+00:00",
+    "_papers/hojabri2018large/images/page_0_image_8.jpg": {
+      "content_hash": "336dc5cf7d90afd9fe64d4f20c3e0e711888891b4d022a859b4704dbbfd21205",
+      "last_ingested": "2026-10-22T18:14:27.306189+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+        "references/hojabri2018-vrp-synchronization-alns-cp.md"
+      ]
+    },
+    "_papers/hojabri2018large/images/page_2_image_2.jpg": {
+      "content_hash": "8239301c00dc28467f6f17666e304101155cc4b751483dd3fdf303a114296fb8",
+      "last_ingested": "2026-10-22T18:14:27.351145+00:00",
+      "pages_produced": [
+        "references/hojabri2018-vrp-synchronization-alns-cp.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/images/page_0_image_9.jpg": {
+      "content_hash": "9211699853293caa808580d98af3418e1b43c390b6f55a534fb681dad876c61b",
+      "last_ingested": "2026-10-22T18:14:27.442427+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/images/page_2_image_2.jpg": {
+      "content_hash": "954cef9d0da0e366e0af29fe20314ae857eb4fabe2fa7afe2d3960cfe321d5a5",
+      "last_ingested": "2026-10-22T18:14:27.489552+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/images/page_2_image_4.jpg": {
+      "content_hash": "cc0cfeb343952ae92d84dd5439ed98e34a3783de04ec949caeaa69f415f256e5",
+      "last_ingested": "2026-10-22T18:14:27.536897+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md": {
+      "content_hash": "01b05e25113d12c25f68747ab470595e8cc1210dffa700863f0f0b27544ec232",
+      "last_ingested": "2026-10-22T18:14:27.397481+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md": {
+      "content_hash": "dca59bd71ed0b89828855b10558a5118ac916b3004b43e1d7dc4bae9af9d9c5d",
+      "last_ingested": "2026-10-22T09:16:16.624843+00:00",
+      "pages_produced": [
+        "references/ksciuk2023-maritime-uncertainty-review.md",
+        "concepts/maritime-routing-under-uncertainty.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_0_image_8.jpg": {
+      "content_hash": "8e4eca4c325758eb2d0a6ab22c6ef8942cff75ce9eda4ded60fa9e3702a8af31",
+      "last_ingested": "2026-10-22T18:14:27.628978+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_17_chart_5.jpg": {
+      "content_hash": "c4cca6de549fe1f19618b854c68d064731a12ffd8c3ea1a27a168c57ab773c4e",
+      "last_ingested": "2026-10-22T18:14:27.718036+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_17_chart_7.jpg": {
+      "content_hash": "3a122559f4696a211a3d3087519742c096bb9ed762b08e51481833e31adc22d1",
+      "last_ingested": "2026-10-22T18:14:27.764369+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_3_image_2.jpg": {
+      "content_hash": "97d97aedeea503cf8c1b6be6d27e506330790027b44b373af7fc23b03037e752",
+      "last_ingested": "2026-10-22T18:14:27.673574+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/lu2024effective-extracted.md": {
+      "content_hash": "070d00b87a24b8868b39c0471ef00bda5f3e5f54095fe84a2c77ae79fe810fce",
+      "last_ingested": "2026-10-22T18:14:27.583801+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md",
+        "concepts/set-orienteering-problem.md"
+      ]
+    },
+    "_papers/lu2024effective/lu2024effective.md": {
+      "content_hash": "b06e2e79d749ad2e472ed96bab8110e9c8b21d1e1d8de522b0d06c404bb8e198",
+      "last_ingested": "2026-10-22T11:32:22.084287+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_102_image_3.jpg": {
+      "content_hash": "4deb7cd7ffd46725d6ec05d918069d8936b89ecaeecf3575465942acf387d549",
+      "last_ingested": "2026-10-22T19:01:52.284381+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_105_table_3.jpg": {
+      "content_hash": "8645838da4b1a0f2d0d0ab2fed6524c578a2fe3c71b058805bbf1290331d83da",
+      "last_ingested": "2026-10-22T19:01:52.352205+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_105_table_5.jpg": {
+      "content_hash": "b1410b343f4324218ae7d409bec526f43c34aee07c5d233782169d4a335bf10e",
+      "last_ingested": "2026-10-22T19:01:52.416935+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_111_image_10.jpg": {
+      "content_hash": "e8828ec0da28e11d78e82d57060f4a054af59c09f5127aa988908aec693edc7e",
+      "last_ingested": "2026-10-22T19:01:52.482077+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_10.jpg": {
+      "content_hash": "5365c916f2b038157d5658f4558dccef400fe62540064ebddc8fa6f4f2f32365",
+      "last_ingested": "2026-10-22T19:01:52.536761+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_12.jpg": {
+      "content_hash": "27f2b1d7223a9186f5d08ff5de1a79fef4c891c8f33ef645a08139630f4d2949",
+      "last_ingested": "2026-10-22T19:01:52.583336+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_13.jpg": {
+      "content_hash": "41aa4fbd7a13f5d8e39e0b2f58f37a229e1842d5dd0e58ab28fcd6c5dfba7fab",
+      "last_ingested": "2026-10-22T19:01:52.630271+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_16.jpg": {
+      "content_hash": "2714758d423239a1c84ba5250392f4a0f3ad78bd44a7542990821392854a7b6f",
+      "last_ingested": "2026-10-22T19:01:52.677453+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_2.jpg": {
+      "content_hash": "74e76074a3fa930424735d3bf093f45a88f34e3c721478f28f7782e968f7901f",
+      "last_ingested": "2026-10-22T19:01:52.724072+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_4.jpg": {
+      "content_hash": "0bd63d8a70e8034ed731e5d6428e7e98513f7eb2d3f7076cb2db96ee992231ca",
+      "last_ingested": "2026-10-22T19:01:52.772148+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_5.jpg": {
+      "content_hash": "615f474f5e35d00ef80ba58d04531044ed14aa502d9064ebfd01a8adec34f55a",
+      "last_ingested": "2026-10-22T19:01:52.818374+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_image_8.jpg": {
+      "content_hash": "5cee23f44e67d4b26f8132c9a17a70891d013548fec8dc04dcb73f7399ec242d",
+      "last_ingested": "2026-10-22T19:01:52.865032+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_112_table_23.jpg": {
+      "content_hash": "0035d3ecdd30bb79ab73c92639df455092671495794f2182a51c76fd5e51093a",
+      "last_ingested": "2026-10-22T19:01:52.911556+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_113_equation_8.jpg": {
+      "content_hash": "08409a1da0b3dfbb9641efc86210002a4e683439b41c5cf6d97e1dc343b616d7",
+      "last_ingested": "2026-10-22T19:01:52.959180+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_113_table_11.jpg": {
+      "content_hash": "2de0f0ebb30b6a51913d6de64fecb27fc2209fbc5b1bfad0ba86cc3c09b7dbc7",
+      "last_ingested": "2026-10-22T19:01:53.007451+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_119_equation_4.jpg": {
+      "content_hash": "b1dc77bf8452243e967eff1b1d3d3a82101bd4e149f2a5f3feb92d958cab37b3",
+      "last_ingested": "2026-10-22T19:01:53.056572+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_121_table_4.jpg": {
+      "content_hash": "d8da188edb3bb6a29b4139a6d0a15b6e46bcdfe41224b5865984bf5af5584d99",
+      "last_ingested": "2026-10-22T19:01:53.102780+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_122_table_3.jpg": {
+      "content_hash": "6bc877ce5ef25bac6007ca9178d20287736f37bceddf93736c53c50f24ad8e14",
+      "last_ingested": "2026-10-22T19:01:53.149102+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_128_chart_6.jpg": {
+      "content_hash": "67cbaa603d8b90bb1e475ad6797cce30cf5b5181fa9844eee322dd3dfc972f40",
+      "last_ingested": "2026-10-22T19:01:53.198518+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_129_chart_2.jpg": {
+      "content_hash": "fdf5ffdf11e9e6bce2f3dc10c19f3ddf5868670517a42f38e20ef1a298f9937d",
+      "last_ingested": "2026-10-22T19:01:53.245474+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_52_image_8.jpg": {
+      "content_hash": "194ce552ca163b42fdb48ba02051cc07c9d2628e4a5614ce00737dfc04c8aa00",
+      "last_ingested": "2026-10-22T18:14:27.853553+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_53_image_3.jpg": {
+      "content_hash": "710e36837b7d94a6421f001e0c27009cdadaab5871d18a70098b57732e6a730e",
+      "last_ingested": "2026-10-22T18:14:27.902889+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_54_image_2.jpg": {
+      "content_hash": "637a72682af65e6d5d1c3e35005610475b2140baf56e2b297052759ab04ab919",
+      "last_ingested": "2026-10-22T18:14:27.949464+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/images/page_54_image_5.jpg": {
+      "content_hash": "34d00f0df611b50ece778d2d67e86ab00841c4c31032a6206dc22704bc3eef50",
+      "last_ingested": "2026-10-22T18:14:27.998488+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/montemanni2024combining/montemanni2024combining-extracted.md": {
+      "content_hash": "a81d80d023976ac4622a26dc2d1c94c2d7dd87fa4038f5e2288a3af88676124e",
+      "last_ingested": "2026-10-22T18:14:27.811227+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md",
+        "concepts/pdsvrp-c.md",
+        "concepts/cp-sat-hint-start.md"
+      ]
+    },
+    "_papers/montemanni2024combining/montemanni2024combining.md": {
+      "content_hash": "60f3f962787f9fcdae356899e49833e22a80aba53784a6ea18be946add9fbe3f",
+      "last_ingested": "2026-10-22T08:25:14.530079+00:00",
+      "pages_produced": [
+        "references/montemanni2024-pdsvrp-collective-drones.md"
+      ]
+    },
+    "_papers/murray2020multiple/images/page_6_image_1.jpg": {
+      "content_hash": "ef0274270a5fea956ea6823bead13b34149a17a5c166e21bd296f9ec57c781d9",
+      "last_ingested": "2026-10-22T18:14:28.086222+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md"
+      ]
+    },
+    "_papers/murray2020multiple/images/page_6_image_3.jpg": {
+      "content_hash": "ade2fb6aed602ba38a3a3323a33fb5ca9866ada4448048a2c0b08d3d8b49c56f",
+      "last_ingested": "2026-10-22T18:14:28.130467+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md"
+      ]
+    },
+    "_papers/murray2020multiple/images/page_6_image_5.jpg": {
+      "content_hash": "52c019e490db8e0a215297cd0150b63bf1eb7a0715046ad1778652b56c315f86",
+      "last_ingested": "2026-10-22T18:14:28.175451+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md"
+      ]
+    },
+    "_papers/murray2020multiple/images/page_6_image_7.jpg": {
+      "content_hash": "aa7865c8e1ed0dab2379c87588e0ec19dbd04d53b2848ab4a1f216da710b9d24",
+      "last_ingested": "2026-10-22T18:14:28.219610+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md"
+      ]
+    },
+    "_papers/murray2020multiple/murray2020multiple-extracted.md": {
+      "content_hash": "a8ae2073e3d08fc1f12b9dc9a84cc1038e3d83e0ed82972e88a97313bb47e747",
+      "last_ingested": "2026-10-22T18:14:28.043237+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/murray2020multiple/murray2020multiple.md": {
+      "content_hash": "45848b0027211a6a9ba0b01cc95e3bf36ab0404343a466ef6d0b48e1cc266cfd",
+      "last_ingested": "2026-10-22T11:40:28.804706+00:00",
+      "pages_produced": [
+        "references/murray2020-multiple-flying-sidekicks-tsp.md",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/images/page_8_chart_5.jpg": {
+      "content_hash": "e3c9844f9401e9e4893c899672a8040dcbc2a5c39484ee2fbfe52b085d40e225",
+      "last_ingested": "2026-10-22T18:14:28.308604+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/images/page_9_chart_2.jpg": {
+      "content_hash": "aeb0574fcc601675e93e280445211314fb3d940081471448d8039d593cbb4442",
+      "last_ingested": "2026-10-22T18:14:28.352682+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/images/page_9_chart_4.jpg": {
+      "content_hash": "81046a0991f16690bfe2107d1a0df3e983cf5564e07f3e7c9edb63fb473b4f9d",
+      "last_ingested": "2026-10-22T18:14:28.397595+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md": {
+      "content_hash": "51fdb8c4d80c185dadebf225b0af9468e6d9d07b32b1eebe037e6fe8e1718b0d",
+      "last_ingested": "2026-10-22T18:14:28.264555+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/mutlu2016comprehensive/mutlu2016comprehensive.md": {
+      "content_hash": "c2cf17ab00444d670e894c634472093d942c60e4c9dfe5d32194a35011e21837",
+      "last_ingested": "2026-10-22T09:54:08.995490+00:00",
+      "pages_produced": [
+        "references/mutlu2016-lng-annual-delivery-program.md",
+        "concepts/annual-lng-delivery-program.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/images/page_0_image_10.jpg": {
+      "content_hash": "9211699853293caa808580d98af3418e1b43c390b6f55a534fb681dad876c61b",
+      "last_ingested": "2026-10-22T18:14:28.628730+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/images/page_16_chart_4.jpg": {
+      "content_hash": "56dc1b84157bd1f9064aabbf4f1f67542a8e2ff2084021f92cda3b49448e890c",
+      "last_ingested": "2026-10-22T18:14:28.489841+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/images/page_18_chart_2.jpg": {
+      "content_hash": "95ec2fcc1d9fb75388a235074f35bed025f1c35cb403f474d4b23a6de5565984",
+      "last_ingested": "2026-10-22T18:14:28.538147+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/images/page_18_chart_4.jpg": {
+      "content_hash": "afb29d548912b91766f8ab67b27fec1ea6b991b7d068d976cbe9acd85ff7335e",
+      "last_ingested": "2026-10-22T18:14:28.582669+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/nguyen2022mincost-extracted.md": {
+      "content_hash": "43272765b8938ca05562d45ca42ed46edd21f116022da19fd2d7985658a0937d",
+      "last_ingested": "2026-10-22T18:14:28.445450+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md",
+        "concepts/min-cost-parallel-drone-scheduling-vrp.md"
+      ]
+    },
+    "_papers/nguyen2022mincost/nguyen2022mincost.md": {
+      "content_hash": "cd3f41b55cc608213711da9ae183b11f031bf06dc2c1800ba316e090f3ab56d1",
+      "last_ingested": "2026-10-22T11:15:19.613151+00:00",
+      "pages_produced": [
+        "references/nguyen2022-min-cost-pdsvrp.md"
+      ]
+    },
+    "_papers/paradiso2020exact/images/page_1_image_2.jpg": {
+      "content_hash": "7e854543a2c501dac785acaf8a1e7fd12b2dc169787d70d9dce64432a896a231",
+      "last_ingested": "2026-10-22T18:14:28.716782+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md"
+      ]
+    },
+    "_papers/paradiso2020exact/images/page_9_image_13.jpg": {
+      "content_hash": "4c96eda95e75492903d49f1141a420f415651419f15a3327e3ada19aab1d1335",
+      "last_ingested": "2026-10-22T18:14:28.760534+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md"
+      ]
+    },
+    "_papers/paradiso2020exact/paradiso2020exact-extracted.md": {
+      "content_hash": "b75fb36a5c51f70527f44e8523afdd22368a5bff49048e3b7b85509eadd56ae1",
+      "last_ingested": "2026-10-22T18:14:28.673212+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md",
+        "concepts/exact-multitrip-vrptw-framework.md"
+      ]
+    },
+    "_papers/paradiso2020exact/paradiso2020exact.md": {
+      "content_hash": "9e5966d4e8a3e27cd73025dc0f56ceadb1ddb75bce24089aae4500f51bb358e4",
+      "last_ingested": "2026-10-22T09:16:16.744565+00:00",
+      "pages_produced": [
+        "references/paradiso2020-esf-multitrip-vrptw.md",
+        "concepts/exact-multitrip-vrptw-framework.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/images/page_15_image_1.jpg": {
+      "content_hash": "6ca74c6cff9feeaf3525b2c10c33cd5a03cfc856e832f95cc251a324282b1d99",
+      "last_ingested": "2026-10-22T18:14:28.895352+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/images/page_21_chart_1.jpg": {
+      "content_hash": "cba179d08386f8676555b78bead66a6396ac57aaab106ea9be77678545b4de01",
+      "last_ingested": "2026-10-22T18:14:28.938989+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/images/page_21_chart_3.jpg": {
+      "content_hash": "4366b6375de6a4c731c54d0c14d1eda4edb2c2f64815a8b77f1a4cb81508a8da",
+      "last_ingested": "2026-10-22T18:14:28.983358+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/images/page_8_chart_2.jpg": {
+      "content_hash": "6a80cd359712519ed7cf11c2641f85a02607f83cc42dda4ac82ed7a8da8d4c84",
+      "last_ingested": "2026-10-22T18:14:28.850582+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
+      "content_hash": "1a89e41609f8ecde283e71ee475fe836a61ba7b135c1489e1291495e972ed435",
+      "last_ingested": "2026-10-22T18:14:28.806661+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md",
+        "concepts/k-multi-visit-drone-routing-problem.md"
+      ]
+    },
+    "_papers/poikonen2020multivisit/poikonen2020multivisit.md": {
+      "content_hash": "a0550e47d86ca29c38a2e930667d3eb95b6daf66a172c51ef9a0b39bc6279f66",
+      "last_ingested": "2026-10-22T08:46:51.042958+00:00",
+      "pages_produced": [
+        "references/poikonen2020-k-mvdrp.md",
+        "concepts/k-multi-visit-drone-routing-problem.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/images/page_10_chart_0.jpg": {
+      "content_hash": "159249908e4afce13c2d4f448649c9d2d6ea88bbd9332333dcac22551c08a201",
+      "last_ingested": "2026-10-22T18:14:29.211877+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/images/page_7_chart_0.jpg": {
+      "content_hash": "299b001328e268be97c3e28cc415090a0b98af885c61f5ae426eb4b55500a083",
+      "last_ingested": "2026-10-22T18:14:29.073366+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/images/page_7_chart_2.jpg": {
+      "content_hash": "64cdb523e5dbf155c2cb563337e191332d9125c4139e26825b3bbce53ccbf340",
+      "last_ingested": "2026-10-22T18:14:29.119453+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/images/page_7_chart_4.jpg": {
+      "content_hash": "116fc0c6bf5fbf1a0880dc6bcdd2d312db13b4caea221b0971209772ee32a966",
+      "last_ingested": "2026-10-22T18:14:29.166628+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/tamke2023vehicle-extracted.md": {
+      "content_hash": "03e866b2a9e72afc912543fa42a3afbed17bc899250ea9689303a896b134b7f3",
+      "last_ingested": "2026-10-22T18:14:29.030865+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md",
+        "concepts/drone-speed-selection-in-routing.md"
+      ]
+    },
+    "_papers/tamke2023vehicle/tamke2023vehicle.md": {
+      "content_hash": "f2cb9577f5e8b8574631e47cdc6a42476f4462e5a19ec8a82687eab837ae3b81",
+      "last_ingested": "2026-10-22T09:16:16.500035+00:00",
+      "pages_produced": [
+        "references/tamke2023-vrpd-dss.md",
+        "concepts/drone-speed-selection-in-routing.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/images/page_10_image_1.jpg": {
+      "content_hash": "edd8faf9ff1653d8ccd257ecfc0a042f7c267316787279bdbe989e0d342ca41c",
+      "last_ingested": "2026-10-22T18:14:29.352018+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/images/page_2_chart_2.jpg": {
+      "content_hash": "bd410e460888703bad796d97e801bb2e6dd4f0dc2e191e82ed388b021f15b3fe",
+      "last_ingested": "2026-10-22T18:14:29.399840+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/images/page_3_chart_1.jpg": {
+      "content_hash": "2cd7251b6fe7f219d6aa59f8f510e25dc23c5e4ced992f13aa8fa180c2a94ab8",
+      "last_ingested": "2026-10-22T18:14:29.447108+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/images/page_6_image_9.jpg": {
+      "content_hash": "86ce6ba59402480a55be0aea9cefb4d91919c3b47a2dbf81d47058229f2fd9e8",
+      "last_ingested": "2026-10-22T18:14:29.306371+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md": {
+      "content_hash": "dfb2f92050793b6bb5a4551a7e045cc0243f77fdca5f4fc9f6707b6736790129",
+      "last_ingested": "2026-10-22T18:14:29.259743+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md",
+        "concepts/payload-induced-drone-battery-consumption-rate.md"
+      ]
+    },
+    "_papers/torabbeigi2020drone/torabbeigi2020drone.md": {
+      "content_hash": "d433906c78e15f3af145736dddbe717131db25db380cf77a6e7ad1ef6e54e2f6",
+      "last_ingested": "2026-10-22T10:02:44.251665+00:00",
+      "pages_produced": [
+        "references/torabbeigi2020-payload-bcr-drone-scheduling.md"
+      ]
+    },
+    "_papers/yang2022solving/images/page_2_image_0.jpg": {
+      "content_hash": "1d16665cbd8df3d98623f81c0375d71a4272112b03184310f623374205fc6e03",
+      "last_ingested": "2026-10-22T18:14:29.534346+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md"
+      ]
+    },
+    "_papers/yang2022solving/images/page_4_image_8.jpg": {
+      "content_hash": "caaecbf58411d50ed2dc1311e9e2a769555294eb6ff9308195aaf55cccc6ce07",
+      "last_ingested": "2026-10-22T18:14:29.578936+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md"
+      ]
+    },
+    "_papers/yang2022solving/images/page_5_chart_0.jpg": {
+      "content_hash": "89b144471a2345dc9d4845cdfee2b1dcca48a5a434a33be3353a01f148ac6474",
+      "last_ingested": "2026-10-22T18:14:29.627338+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md"
+      ]
+    },
+    "_papers/yang2022solving/images/page_5_chart_2.jpg": {
+      "content_hash": "534b27c76d868f6740eff8000402b06c84101b1cc8c3404858958c17b9676ca8",
+      "last_ingested": "2026-10-22T18:14:29.673039+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md"
+      ]
+    },
+    "_papers/yang2022solving/yang2022solving-extracted.md": {
+      "content_hash": "4bde83238fe11d829eaa174447d9999d9bfbeb9774af93fbb61f3f359932e928",
+      "last_ingested": "2026-10-22T18:14:29.491890+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md",
+        "concepts/bilevel-vrpd-task-assignment-routing.md"
+      ]
+    },
+    "_papers/yang2022solving/yang2022solving.md": {
+      "content_hash": "805bf822ee8e24e812c24b447e5d309cae4394886ca197dec33fd36dde4bcc83",
+      "last_ingested": "2026-10-22T09:54:08.746571+00:00",
+      "pages_produced": [
+        "references/yang2022-vrpd-bilevel-heuristic.md",
+        "concepts/bilevel-vrpd-task-assignment-routing.md"
+      ]
+    },
+    "_papers/yu2024simulated/images/page_9_chart_2.jpg": {
+      "content_hash": "57e48c92520064069f1c1e2d7b2c554c47f05762377d64c9005defd26a125d45",
+      "last_ingested": "2026-10-22T18:14:29.767420+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/yu2024simulated/images/page_9_chart_4.jpg": {
+      "content_hash": "0dd78b3a28c3966dd63e4d3fa4e661b235f2156cb8904008bd37841ed628a2b3",
+      "last_ingested": "2026-10-22T18:14:29.812563+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/yu2024simulated/images/page_9_chart_6.jpg": {
+      "content_hash": "9885eb27c849234a03ab5a61027b5065b9f18ae69a2a7aa985b897790af1754b",
+      "last_ingested": "2026-10-22T18:14:29.859919+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/yu2024simulated/images/page_9_chart_8.jpg": {
+      "content_hash": "ef0f787f04fbd8c2422ad161dacc14fa2c5c0f1aa6d9c05c5459451b19459a5e",
+      "last_ingested": "2026-10-22T18:14:29.905285+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
+      ]
+    },
+    "_papers/yu2024simulated/yu2024simulated-extracted.md": {
+      "content_hash": "717ed426cc12243f9afd129fe90fd9b92f968d9c0f1e3f6926b94033a011c956",
+      "last_ingested": "2026-10-22T18:14:29.720778+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md",
+        "concepts/set-team-orienteering-problem-with-time-windows.md"
+      ]
+    },
+    "_papers/yu2024simulated/yu2024simulated.md": {
+      "content_hash": "e75c4e352a74182e04f5616293a2844cc64c06749f81094bac77dca905bd79f5",
+      "last_ingested": "2026-10-22T11:32:22.209060+00:00",
+      "pages_produced": [
+        "references/yu2024-sarl-stoptw.md"
       ]
     }
-  }
+  },
+  "stats": {
+    "total_pages": 104,
+    "total_sources_ingested": 221
+  },
+  "version": 1
 }
