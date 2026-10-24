@@ -27,8 +27,8 @@ sources:
 summary: >-
   One soft-Q function encodes reward and policy so imitation learning needs no adversarial min-max; state-of-the-art offline/online returns, 0.99 reward correlation, and goal-shift generalization.
 provenance:
-  extracted: 0.82
-  inferred: 0.15
+  extracted: 0.85
+  inferred: 0.12
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
@@ -54,7 +54,7 @@ updated: 2026-10-24T03:00:25Z
 
 ![[_papers/garg2022iqlearn/images/page_4_chart_9.jpg]]
 ![[_papers/garg2022iqlearn/images/page_4_chart_10.jpg]]
-*Fig. 1 (paper): properties of the IRL objective in reward-policy and Q-policy space; the saddle point moves with the choice of divergence, and the policy minima manifold is a fixed energy-based model of Q.*
+*Fig. 1 (paper): "Properties of IRL objective in reward-policy space and Q-policy space."*
 
 Soft optimality and the IQ objective (paper Eqs. 1–2, 9):
 
@@ -68,7 +68,7 @@ $$r(s,a,s')=Q(s,a)-\gamma\,\mathbb E_{s'}V^\pi(s'),\qquad \min_Q\ -\mathbb E_{\r
 
 ```mermaid
 flowchart TD
-  S["Sample half transitions from the policy buffer, half from expert demos (online); offline uses expert samples only"]
+  S["Transitions for the phi term: expert demos (offline); expert demos plus policy rollouts feeding the value term (online)"]
   Q["Maximize J over Q: phi(T^pi Q) term minus initial-state value term"]
   P["Policy = softmax(Q)"]
   A["SAC actor update = minimize KL(pi || pi_Q); converges toward the policy minima manifold"]
@@ -77,18 +77,18 @@ flowchart TD
   Q --> R
 ```
 
-Implementation is <15 lines on top of soft DQN (discrete) or SAC (continuous); divergence choice = the φ/ψ pair (KL, Jensen-Shannon, Hellinger, χ², Wasserstein-1 with gradient penalty, total variation with a $|Q|\le\frac{1}{1-\gamma}(\frac12+\log|A|)$ tanh bound). Divergence ablation on LunarLander: JS, Hellinger and χ² perform similarly; KL is worse. A "KL-fix" f-divergence form ($f(t)=t\log t-t+1$) unbiasess ValueDICE's Donsker–Varadhan representation.
+Implementation is <15 lines on top of DQN (discrete) or SAC (continuous); divergence choice = the φ/ψ pair (KL, Jensen-Shannon, Hellinger, χ², Wasserstein-1 with gradient penalty, total variation with a tanh Q-bound; the exact bound expression $\frac{1}{1-\gamma}(\frac12+\log|A|)$ is not stated verbatim in the extracted source ^[ambiguous]). Divergence ablation on LunarLander (1 demo, 10 seeds): JS, Hellinger and χ² perform similarly; KL is worse. A "KL-fix" f-divergence form (one line, written in the source as `f(t)=t log t − t + 1` in prose, not as a formula ^[ambiguous]) unbiases ValueDICE's Donsker–Varadhan representation.
 
 ![[_papers/garg2022iqlearn/images/page_8_chart_5.jpg]]
 ![[_papers/garg2022iqlearn/images/page_8_chart_6.jpg]]
 ![[_papers/garg2022iqlearn/images/page_8_chart_7.jpg]]
-*Fig. 2 (paper): offline IL results — average environment returns vs number of expert trajectories; IQ reaches expert performance from 1 demo on Acrobot, near-expert on CartPole, and strongly beats EDM, AVRIL, ValueDICE and BC.*
+*Fig. 2 (paper): "Offline IL results. We plot the average environment returns vs the number of expert trajectories."*
 
 ![[_papers/garg2022iqlearn/images/page_13_image_1.jpg]]
-*Fig. 4 (paper): reward visualization on a 5-action GridWorld with 30 expert demos — recovered rewards match the environment structure.*
+*Fig. 4 (paper): "Reward Visualization. We use a discrete GridWorld environment with 5 possible actions: up, down, left, right, stay. Agent starts in a random state. (With 30 expert demos)"*
 
 ![[_papers/garg2022iqlearn/images/page_27_image_0.jpg]]
-*Fig. 14 (paper): a Loop MDP variant. BC visits only the expert's states and learns the wrong action in $s_2$; dynamics-aware methods infer that $a_1$ from $s_2$ returns to $s_1$.*
+*Fig. 14 (paper): "A variant of the Loop MDP from [34]. Taking actions labelled in green gives 1 reward, while actions in black give reward 0. The MDP is stochastic for action a1 in state s0, which with probability p leads to state s2, and with probability 1-p leads to state s1." BC visits only the expert's visited states (54 ± 5); dynamics-aware methods master the loop (100 ± 0, averaged over 5 seeds).*
 
 ## Results
 
@@ -123,7 +123,7 @@ Distribution shift: offline IQ **cannot** recover from an initial-state shift (t
 - Deployment needs safety and uncertainty handling; errors in expert data propagate through the learned Q.
 - Offline IQ fails under initial-state distribution shift, and reward quality degrades in visually complex Atari games (Pong 0.67).
 - Offline ILO with 1 demo is below expert level; 10 demos recover expert level only on simple environments.
-- Hyperparameters matter (entropy coefficient 1e-2/1e-3, learning rate 1e-4 for discrete, 3e-5 for complex continuous tasks); target updates help in continuous settings and in ILO, not in discrete offline runs.
+- Hyperparameters matter (discrete: batch 32, Q learning rate 1e-4, entropy coefficient 1e-2, 1e-3 optimal in some environments; continuous SAC: batch 256, critic/policy learning rates 3e-4, 3e-5 for complex tasks, soft target updates τ = 0.05); target networks gave no visible improvement in discrete training and slowed it down.
 - Preprint status (arXiv); the reported "3×" comparisons span settings whose baseline code differs per method. ^[ambiguous]
 
 ## Related

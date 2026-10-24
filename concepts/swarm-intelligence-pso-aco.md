@@ -73,7 +73,7 @@ $$
 $$
 
   with $\mathbf{x}'_i$ drawn in the hypersphere centred at $\mathbf{G}_i$ with radius $\|\mathbf{G}_i-\mathbf{x}_i\|$ — rotation invariant. Plus an **adaptive random topology**: after each unsuccessful iteration, each particle informs $K$ random particles (typically $K=3$), so on average each particle is informed by $K$ others, occasionally by many. Competitive against state-of-the-art metaheuristics on the CEC'2013 real-parameter suite.
-- **Guidance systems** from the chapter's SI framework: **LSGS** (learning social guidance system) — an environment description guides agents, and a learning model of the environment updates as agents change it; **SSS** (self-sufficient search system) — agent behaviour + local rules + environment dynamics generate emergent patterns; LSGS is a special case of SSS.
+- **Function evaluation environments** (SPSO-2011 niching): in dynamic landscapes, a change in the best known function value alerts the whole swarm; strategies include periodically resetting personal bests to current positions, injecting neutral particles, and speciation with a local "species seed" providing the local $\mathbf{p}_g$ within a user-specified radius; CEC'2013 multi-modal benchmarks show niching topologies forming stable niches that locate multiple optima.
 
 ![[_papers/gendreau2019handbook/images/page_365_image_3.jpg]]
 *Fig. 11.1 (paper, verbatim): "The double-bridge experiment: ants find the shorter path of the two between the nest and the food source; (a) at the start, (b) after some period, more ants choose the shorter path."*
