@@ -20,15 +20,15 @@ sources:
   - _papers/fuertes2023solving/images/page_1_image_4.jpg
 summary: "Fleet routing where agents earn different rewards for their own versus other agents' regions; cooperation is what makes adding vehicles pay (4-agent reward 100 to 150)."
 provenance:
-  extracted: 0.85
-  inferred: 0.12
+  extracted: 0.84
+  inferred: 0.13
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T12:28:15Z
 ---
 
 # Cooperative Multi-Agent Routing with Shared Reward
@@ -44,10 +44,10 @@ A fleet of $m$ agents serves $n$ regions. Task assignment is by clustering (fuzz
 - Clustering comparison: FCM vs K-Means vs size-constrained K-Means showed no clear winner; FCM chosen for low computational cost. ^[extracted]
 - Measured effect at $n=100$: 2 agents cooperative 92.932 reward / 99.034 nodes vs 89.703 / 91.028 non-cooperative; 4 agents cooperative **149.538 / 204.566** vs 99.897 / 108.561.
 - Two agents alone cover almost all nodes, so a non-cooperative 4-agent fleet gains almost nothing from doubling fleet size — **reward scales with fleet size only under cooperation**. ^[inferred]
-- Cooperation also mitigates lost agents (battery, comms loss), since shared regions remain reachable by the rest.
+- Cooperation also mitigates lost agents (battery, comms loss), since shared regions remain reachable by the rest. ^[inferred]
 
 ![[_papers/fuertes2023solving/images/page_1_image_4.jpg]]
-*Fig. 1b (paper): initial planning — fuzzy C-means assigns each region to a UAV; unassigned regions become shared, reachable by more than one agent.*
+*Fig. 1. Representation of an example of a mission completed by a swarm of 4 UAVs: (a) A scenario consisting of a depot (square box) containing four UAVs and a collection of regions (circles). (b) Initial planning is performed by clustering the regions. (c) Routing problem solving entails visiting as many regions as possible within a given time limit in order to maximize the total reward received.*
 
 ## Why It Matters
 

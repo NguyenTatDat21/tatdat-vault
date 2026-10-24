@@ -26,25 +26,25 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-24T04:37:31Z
+updated: 2026-10-24T16:34:17Z
 ---
 
 # Simulated Annealing: Metropolis Acceptance and Cooling
 
-Chapter 1 (Vanier, Melonim & Taieb) treats SA as the method for **black-box global optimization** where the objective can only be evaluated through costly simulation — the case where population-based algorithms are inapplicable because evaluating a full population is too expensive. SA's main advantage is simplicity; it escapes Monte-Carlo local-minimum trapping via the Metropolis acceptance criterion, in analogy with physical annealing.
+Chapter 1 (Delahaye, Chaimatanan & Mongeau) treats SA as the method for **black-box global optimization** where the objective can only be evaluated through costly simulation — the case where population-based algorithms are inapplicable because evaluating a full population over a large-dimension state space is too expensive. SA's main advantage is simplicity; it escapes the local-minimum trapping of the Monte-Carlo approach via the Metropolis acceptance criterion, in analogy with physical annealing.
 
 ## Core Structure
 
-- **State space** $U$ of feasible states, $E$ energy = objective, $u^*$ optimal state ($E(u^*) \le E(u)$ for all $u$).
+- **Notation** $(S, f)$: $S$ = set of feasible solutions, $f$ = objective to minimize; in the SA analogy $f$ plays the role of the solid's energy, and a **control parameter** $c$ with the same units as $f$ acts as a temperature. The physical Boltzmann probability $p_i = e^{-E_i/(k_b T)} / Z(T)$, $Z(T) = \sum_{j \in S} e^{-E_j/(k_b T)}$, motivates the acceptance rule.
 - **Boltzmann distribution** gives the probability of a state $i$ with energy $E_i$ at temperature $T$.
-- **Definition 5 — acceptance criterion:** accepting solution $j$ from current $i$ is a **probability** (Metropolis criterion).
+- **Definition 5 — acceptance criterion:** for current $i$ and neighbor $j$, $\Pr\{accept\, j\} = 1$ if $f(j) < f(i)$, else $e^{(f(i)-f(j))/c}$ (Metropolis criterion).
 - **Definition 6 — transition:** generation + acceptance. A Markov-chain transition corresponds to a **move** in the state space.
 - **Control parameter $c$:** high $c$ accepts high degradation and explores thoroughly; as $c$ decreases, only improving and low-degradation transitions are accepted; as $c \to 0$, SA behaves like Monte Carlo.
 - **Definition 9 — acceptance rate** $\chi(c)$ = accepted transitions / proposed transitions. $\chi(c)\approx 1$ at high $c$; it falls to 0 as $c$ decreases, and **$\chi(c) \approx 0.5$ as $c$ approaches the target $c_t$** — the practical tuning signal.
 - **Theorem 1 (statistical equilibrium):** after a sufficient number of transitions at fixed $c$, the state distribution matches the Boltzmann distribution — i.e. the chain reaches equilibrium.
-- **Asymptotic convergence** (S2) is proved with Markov chain theory; **S3** covers practical issues: finite-time approximation, polynomial-time cooling, Markov chain length, stopping criteria, and simulation-based evaluations.
-- **S4** applies SA to the knapsack problem, the TSP, and a **real aircraft trajectory-planning problem at European continental scale with nearly 30,000 flights** — the case where the objective is a simulation.
-- **Objective-value distribution $q(c)$** shifts as transitions are rejected at lower temperature (Fig. 1.2): the population of accepted values tightens around improvements.
+- **Asymptotic convergence** (§1.3.2) is proved with Markov chain theory; §1.4 covers practical issues: finite-time approximation, geometric cooling, cooling in polynomial time (initial temperature, decay of $c$, length of Markov chains, stopping criterion), and simulation-based evaluations.
+- **§1.5–1.6** apply SA to the knapsack problem, the TSP, then deploy it on a real large-scale aircraft trajectory-planning problem involving **nearly 30,000 flights at European continental scale** — the case where the objective is a simulation.
+- **Objective-value distribution $q(c)$:** at large $c$ this equals the objective distribution; at lower $c$ some transitions are not accepted, shifting $q(c)$ toward lower objective values (Fig. 1.2, verbatim: "Distribution of the objective function values at some high temperature $c_1$ and at a lower temperature $c_2$").
 
 ```
 SA loop:
@@ -55,9 +55,9 @@ SA loop:
 ```
 
 The LNS + SA combination is this acceptance rule applied to a **complex neighborhood**: the destroy/repair step proposes a large jump, and SA decides acceptance. The handbook's LNS chapter notes this hybrid (and the Goel LNG LNS uses SA acceptance in the same way). ^[extracted]
-
+The LNS + SA combination is this acceptance rule applied to a **complex neighborhood**: the destroy/repair step proposes a large jump, and SA decides acceptance — the handbook's LNS chapter says LNS with SA acceptance is standard SA with a complex neighborhood. Goel et al.'s ship-pair LNS keeps improving solutions only, i.e. the original hill-climber acceptance. ^[extracted]
 ![[_papers/gendreau2019handbook/images/page_20_image_3.jpg]]
-*Fig. 1.2 (handbook, PDF p. 21): the objective-value distribution $q(c)$ shifting as transitions are rejected at lower temperature — the annealing curve, quoted in the chapter's SA introduction.*
+*Fig. 1.1 (handbook, PDF p. 21, verbatim): "When the temperature is high, the material is in a liquid state (left). For a hardening process, the material reaches a solid state with non-minimal energy (metastable state; top right). In this case, the structure of the atoms has no symmetry. During a slow annealing process, the material reaches also a solid state but for which atoms are organized with symmetry (crystal; bottom right)" — the physical-annealing analogy behind SA.*
 
 ## Why It Matters
 

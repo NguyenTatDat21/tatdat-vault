@@ -55,9 +55,9 @@ The `nb_l` label parameter controls the runtime-quality trade-off in the split p
 
 ## Results
 
-- Benchmark comparison shows HACO improves over prior reference methods on multiple instance classes.
-- Reported runtime is typically practical for benchmark-scale experiments (hundreds of seconds per run budget).
-- The paper reports many best-known updates on classic PDSTSP benchmark families.
+- HACO outperforms the two state-of-the-art metaheuristics it is compared against (the paper's SDFGQ18 and DMN20) in both running time and solution quality.
+- Instances are typically solved in under 200 s per run; the fair comparison runs HACO 10 times at 300 s per instance.
+- 23 new best known solutions found out of the 90 benchmark instances considered.
 
 ## Limitations
 
@@ -77,8 +77,8 @@ The `nb_l` label parameter controls the runtime-quality trade-off in the split p
 - Citation key: `dinh2021ants`
 - DOI: `10.1145/3449639.3459342`
 - Canonical URL: <https://doi.org/10.1145/3449639.3459342>
-- Publication: *GECCO Companion* (2021)
-- Authors: Huy Q. Dinh; Duc D. Do; Bruno Le Cun; Thierry Vidal; Christian Artigues
+- Publication: *Proceedings of the Genetic and Evolutionary Computation Conference (GECCO)*, June 2021
+- Authors: Quoc Trung Dinh; Duc Dong Do; Minh Hoàng Hà
 - Companion metadata note: [[_papers/dinh2021ants/dinh2021ants.md]]
 
 ## Sources
