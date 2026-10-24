@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-22T23:17:15Z
+updated: 2026-10-24T19:52:48Z
 ---
 
 # Maritime Transportation OR Models Across Planning Levels (Christiansen et al., 2007)

@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-23T00:04:12Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # Min-cost Traveling Salesman Problem with Drone (Ha et al., 2018)

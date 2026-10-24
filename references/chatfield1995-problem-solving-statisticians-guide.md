@@ -15,15 +15,15 @@ sources:
 summary: >-
   Practical statistics handbook emphasizing end-to-end problem solving: framing questions, collecting and exploring data, choosing robust analyses, and communicating results.
 provenance:
-  extracted: 0.84
-  inferred: 0.14
+  extracted: 0.87
+  inferred: 0.11
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:12:00Z
-updated: 2026-10-22T21:12:00Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # Problem Solving — A Statistician's Guide (2nd ed.)
@@ -38,11 +38,17 @@ Many analyses fail not because formulas are wrong, but because the original prob
 
 Core workflow distilled from the text:
 
-1. Clarify objectives and decision context.
-2. Design/collect suitable data.
-3. Perform initial data examination (graphs, diagnostics, anomalies).
-4. Build and validate models aligned with assumptions.
-5. Interpret and communicate results with limitations.
+The book's chapter on the stages of a statistical investigation lists seven steps (the text notes the list "is not sacrosanct"):
+
+1. Understand and formulate the problem in statistical terms, clarifying the objectives and searching the literature.
+2. Plan the investigation and collect the data, balancing collection and analysis effort (the data-collection method is crucial).
+3. Assess the structure and quality of the collected data (processing, errors, outliers, missing values).
+4. Carry out an initial examination — summary statistics, graphs, tables; descriptive analysis may suffice.
+5. Select and perform appropriate analyses, checking fitted models via residual analysis and refining as needed.
+6. Compare the findings with previous results, acquiring further data where needed.
+7. Interpret and communicate the results, with extra care over graphs, tables, and output.
+
+The book opens this chapter with the quote: "An approximate answer to the right question is worth a great deal more than a precise answer to the wrong question."
 
 ## Main Contributions
 

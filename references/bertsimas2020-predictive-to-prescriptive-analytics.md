@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-22T20:40:00Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # From Predictive to Prescriptive Analytics
@@ -76,7 +76,7 @@ $$
 | Setting | Result |
 |---|---|
 | Synthetic decision settings | Local-learning prescriptions outperform data-poor baselines once sample size is sufficient |
-| Theoretical guarantees | kNN, kernel, CART, and RF-style prescriptions shown asymptotically optimal under stated assumptions |
+| Theoretical guarantees | Theorems 5–10 prove asymptotic optimality/consistency for kNN, kernel, recursive kernel, LOESS, local linear, and nonnegative local linear regression; the abstract names LOESS, CART, and random forests as asymptotically optimal under mild conditions |
 | Real inventory case | Reported out-of-sample $P = 0.88$, i.e., 88% of the gap to perfect foresight closed |
 
 ## Limitations

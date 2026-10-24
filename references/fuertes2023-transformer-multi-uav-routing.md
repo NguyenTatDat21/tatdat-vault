@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T19:52:48Z
 ---
 
 # Solving Routing Problems for Multiple Cooperative UAVs Using Transformer Networks (Fuertes et al., 2023)

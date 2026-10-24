@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T13:23:39Z
+updated: 2026-10-24T20:47:25Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted... pages_created=3 pages_updated=1 ...
 - [2026-10-24] INGEST source=_papers/fama1973risk/fama1973risk-extracted.md pages_created=0 pages_updated=2 ...
 - [2026-10-24] INGEST source=_papers/black1992global/black1992global-extracted.md pages_created=0 pages_updated=1 ...
+- [2026-10-24] INGEST source=furini2016modeling pages_created=0 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Marked the mean-variance objective lambda as the paper's universal hedging constant (symbol collision), re-sourced the market-portfolio-efficiency premise to Black (1972) via Fama-MacBeth as an inferred cross-paper link rather than a 1992-paper premise, removed a duplicated Related link, raised base_confidence to two-paper lineage (Black + Fama-MacBeth sources).
+Furini et al. 2016 guillotine plate-and-position MIP: Dyckhoff-type cut/residual model lifted to 2D; plate-balance and priced-position machinery verified against the paper; restricted-position theorem (<=5 items per plate, tight 5/6 bound, 102x51 six-item example) confirmed; gcut12 has 66,415,467 variables; pricing alpha=0.20, beta=0.25; FMT beats BCE by two orders of magnitude on 6 of 8 classes.
 
 ## Flagged Contradictions
 

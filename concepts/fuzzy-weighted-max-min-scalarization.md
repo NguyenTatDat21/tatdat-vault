@@ -23,15 +23,15 @@ summary: >-
   Scalarize several objectives by maximizing a weighted minimum of fuzzy membership values, so one MIP solve
   per weight vector traces out a Pareto approximation without an evolutionary algorithm.
 provenance:
-  extracted: 0.75
-  inferred: 0.20
+  extracted: 0.78
+  inferred: 0.17
   ambiguous: 0.05
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T04:15:00Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP

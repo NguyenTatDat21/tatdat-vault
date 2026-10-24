@@ -16,15 +16,15 @@ sources:
   - _papers/hojabri2018large/hojabri2018large.md
 summary: VRPMS couples route design with temporal synchronization windows between service layers, requiring specialized repair and feasibility handling.
 provenance:
-  extracted: 0.84
-  inferred: 0.13
+  extracted: 0.85
+  inferred: 0.12
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T10:00:17Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # Vehicle Routing with Synchronization Constraints (VRPMS)

@@ -32,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-24T04:15:00Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (Murray & Raj, 2020)

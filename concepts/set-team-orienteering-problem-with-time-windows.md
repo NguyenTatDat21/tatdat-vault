@@ -14,15 +14,15 @@ sources:
   - _papers/yu2024simulated/yu2024simulated.md
 summary: STOPTW extends SOP/TOPTW by assigning profits to customer clusters while enforcing customer and depot time windows over multiple tours.
 provenance:
-  extracted: 0.86
-  inferred: 0.12
+  extracted: 0.84
+  inferred: 0.14
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T11:29:44Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # Set Team Orienteering Problem with Time Windows (STOPTW)

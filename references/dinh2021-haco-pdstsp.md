@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-22T23:45:17Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # Hybrid Ant Colony Optimization for PDSTSP (Dinh et al., 2021)

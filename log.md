@@ -79,3 +79,4 @@ title: Wiki Log
 - [2026-10-24T08:03:05Z] INGEST source=_papers/gendreau2019handbook/gendreau2019handbook-extracted.md pages_created=3 pages_updated=1 mode=append
 - [2026-10-24T13:21:14Z] INGEST source=_papers/fama1973risk/fama1973risk-extracted.md pages_created=0 pages_updated=2 mode=append
 - [2026-10-24T13:23:38Z] INGEST source=_papers/black1992global/black1992global-extracted.md pages_created=0 pages_updated=1 mode=append
+- [2026-10-24T20:47:24Z] INGEST source=furini2016modeling pages_created=0 pages_updated=2 mode=append

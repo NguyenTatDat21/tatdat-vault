@@ -1747,6 +1747,54 @@
         "references/gendreau2019-handbook-metaheuristics.md",
         "concepts/swarm-intelligence-pso-aco.md"
       ]
+    },
+    "_papers/furini2016modeling": {
+      "content_hash": "17b8df1cdc0b42652205b9e4f60f3250d697a808e047c2ce74691406ebacba9c",
+      "last_ingested": "2026-10-24T20:53:41.002114+00:00",
+      "pages_produced": [
+        "references/furini2016-two-dimensional-guillotine-cutting-ip.md",
+        "concepts/plate-cut-position-guillotine-mip.md"
+      ]
+    },
+    "_papers/archetti2018set": {
+      "content_hash": "837c5b8f971aa47b2eea790bc81f22417ae8fb76584814111e6ced7110206b3f",
+      "last_ingested": "2026-10-24T20:53:41.116879+00:00",
+      "pages_produced": []
+    },
+    "_papers/barnhart1998branchandprice": {
+      "content_hash": "0fae73e231a9fb8ddca3f6821af6eaecf78f4943dfd66e2f42865f5690c1a26c",
+      "last_ingested": "2026-10-24T20:53:41.214955+00:00",
+      "pages_produced": []
+    },
+    "_papers/boland2017solving": {
+      "content_hash": "759cf82cffb830dc19c4302bc9beca719985b5c30ac164ddf9d18ea80189bad7",
+      "last_ingested": "2026-10-24T20:53:41.312169+00:00",
+      "pages_produced": []
+    },
+    "_papers/christiansen2008maritime": {
+      "content_hash": "718b61d1147b0cc885e9fe80071aba71cb8c2624255b0dc8c2639d7da18ecadf",
+      "last_ingested": "2026-10-24T20:53:41.398936+00:00",
+      "pages_produced": []
+    },
+    "_papers/dinh2021ants": {
+      "content_hash": "89a2c193ce452c9fc83b1709eca791dbc1a8127d00e1be0794674a1652b41b56",
+      "last_ingested": "2026-10-24T20:53:41.486984+00:00",
+      "pages_produced": []
+    },
+    "_papers/ha2018mincost": {
+      "content_hash": "6abaa478ad68191f65588bbee9ffcf18dfc9d56ddf56cb326ef80720ce06af36",
+      "last_ingested": "2026-10-24T20:53:41.570174+00:00",
+      "pages_produced": []
+    },
+    "_papers/murray2020multiple": {
+      "content_hash": "6d12912da6df6d2f174fb20602d3bd37ac9afb689d9bc8b031a8ec475f7b4bb6",
+      "last_ingested": "2026-10-24T20:53:41.665892+00:00",
+      "pages_produced": []
+    },
+    "_papers/torabbeigi2020drone": {
+      "content_hash": "d3ee6f6db2d00d33cf94b1f72fa4194c06ca6d83efdb16108590fb943b8b140d",
+      "last_ingested": "2026-10-24T20:53:41.769077+00:00",
+      "pages_produced": []
     }
   },
   "stats": {

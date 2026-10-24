@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-22T23:45:17Z
+updated: 2026-10-24T19:52:48Z
 ---
 
 # Optimal LNG ADP with Customer Inventory and Berth Management (Deshpande et al., 2023)

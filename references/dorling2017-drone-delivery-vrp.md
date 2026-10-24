@@ -89,10 +89,10 @@ The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest d
 | --- | --- |
 | Small MILP and SA comparison | SA is near-optimal for up to 8 locations; MT-DDP: MILP 5.40–9.63 min with runtimes from 0.97 s to 116.98 s, SA 5.48–9.83 min in 0.24–0.31 s; MC-DDP: MILP 0.99–1.22 k$ with runtimes from 9.47 s to 1,116.87 s, SA 1.00–1.26 k$ in 0.19–0.24 s |
 | Hardware | 3D Robotics ArduCopter Hexa-B hexacopter, six 850 RPM/V motors, 10×4.6 APC slow-fly propellers, Arduino flight controller running firmware 3.0.1 of the APM 2.5 autopilot, u-blox LEA-6 GPS with 4 mm ceramic patch antenna, 4-cell 14.8 V LiPo battery |
-| Simulation parameters | Drone cost F = $500, carrying capacity Q = 3 kg including battery and payload, α = 0.217 kW/kg, β = 0.185 kW, speed v = 6 m/s, service time τ = 60 s per location, energy density ξ = 650 kJ/kg, energy price ε = $0.1 per kJ |
+| Simulation parameters | Drone cost F = \$500, carrying capacity Q = 3 kg including battery and payload, α = 0.217 kW/kg, β = 0.185 kW, speed v = 6 m/s, service time τ = 60 s per location, energy density ξ = 650 kJ/kg, energy price ε = \$0.1 per kJ |
 | Larger SA runs | MT-DDP: 12.19–104.75 min with μ = 0.99 vs 13.28–117.82 min with μ = 0.9; MC-DDP: 13.52–65.57 k$ vs 13.99–75.13 k$ |
 | Cooling schedule | Raising μ from 0.9 to 0.99 improves MT-DDP time and MC-DDP cost by up to 15% for about 10× runtime (18.45 → 181.41 s, 57.11 → 497.65 s); 0.99 → 0.999 adds at most 5% for another 10×, so the paper uses μ = 0.99; standard deviations are largest when location counts are high and μ is low |
-| Reuse and battery optimization | Drone reuse passes the about $113,000 cost limit reached without reuse at 500 nodes; optimizing battery weight per route improves cost by 13% over a fixed 0.3 kg battery and delivery time by about 22% over a fixed 0.25 kg, and a 15% cost gain at b = 0.3 kg vs 0.5 kg and an 80% time gain at b = 0.25 kg vs 0.45 kg (500 locations, 1 km²) |
+| Reuse and battery optimization | Drone reuse passes the about \$113,000 cost limit reached without reuse at 500 nodes; optimizing battery weight per route improves cost by 13% over a fixed 0.3 kg battery and delivery time by about 22% over a fixed 0.25 kg, and a 15% cost gain at b = 0.3 kg vs 0.5 kg and an 80% time gain at b = 0.25 kg vs 0.45 kg (500 locations, 1 km²) |
 
 ![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_13_chart_12.jpg]]
 
@@ -100,7 +100,7 @@ The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest d
 
 ![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_13_chart_14.jpg]]
 
-*Fig. 10 (paper): Delivery times found by the MT-DDP when every drone’s battery weighs b kg, with a budget of $10,000 on a 1 km² field with 500 nodes.*
+*Fig. 10 (paper): Delivery times found by the MT-DDP when every drone’s battery weighs b kg, with a budget of \$10,000 on a 1 km² field with 500 nodes.*
 
 ## Limitations
 - The linear power model is fitted over 0–3 kg: mean percent error 3.1% and largest difference 6.3 W. Widening the fit to 0–10 kg raises mean percent error to 12.8% and the largest difference to about 51 W, so the approximation should not be extrapolated to heavier payloads.

@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-22T20:40:00Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # Branch-and-Price: Column Generation for Solving Huge Integer Programs

@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # IQ-Learn: Inverse soft-Q Learning for Imitation (Garg, Chakraborty, Cundy, Song, Geist & Ermon, 2022)

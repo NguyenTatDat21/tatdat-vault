@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-24T19:52:48Z
 ---
 
 # Efficient algorithms for periodic scheduling

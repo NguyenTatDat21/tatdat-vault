@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-22T19:23:44Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # The Set Orienteering Problem

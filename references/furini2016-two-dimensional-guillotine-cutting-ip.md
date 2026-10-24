@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-24T20:22:59Z
 ---
 
 # Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming (Furini, Malaguti & Thomopulos, 2016)

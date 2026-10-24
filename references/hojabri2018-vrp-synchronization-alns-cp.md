@@ -18,15 +18,15 @@ sources:
   - _papers/hojabri2018large/images/page_2_image_2.jpg
 summary: Presents an ALNS framework with CP-based reinsertion for VRP synchronization constraints, showing robust improvements on benchmark sets.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
+  extracted: 0.88
+  inferred: 0.09
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-24T18:36:02Z
 ---
 
 # ALNS + Constraint Programming for VRP with Synchronization (Hojabri et al., 2018)
@@ -40,7 +40,7 @@ The studied problem (VRPMS) extends VRPTW with synchronization constraints betwe
 A special service at customer \(i\) must start within a relative window around regular-service time \(t\):
 
 \[
-t - \delta_i \le t'_i \le t + \gamma_i
+t - \delta \le t'_i \le t + \gamma
 \]
 
 Objective: minimize total travel distance while satisfying both standard VRPTW constraints and synchronization rules.
@@ -84,7 +84,7 @@ From the tested operator set, **route removal** and **historical node-pair remov
 - DOI: `10.1016/j.cor.2017.11.011`
 - Canonical URL: <https://www.sciencedirect.com/science/article/pii/S0305054817302885>
 - Publication: *Computers & Operations Research* (2018)
-- Authors: Hossein Hojabri; Niels Møller Andersen; Mads M. Sørensen; Thomas G. Crainic
+- Authors: Hossein Hojabri; Michel Gendreau; Jean-Yves Potvin; Louis-Martin Rousseau
 - Companion metadata note: [[_papers/hojabri2018large/hojabri2018large.md]]
 
 ## Sources
