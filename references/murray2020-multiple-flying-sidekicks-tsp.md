@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
+  - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
+    type: related_to
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md
@@ -25,12 +27,12 @@ provenance:
   extracted: 0.92
   inferred: 0.06
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.63
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (Murray & Raj, 2020)
@@ -74,6 +76,7 @@ Reported computational findings include:
 - Heuristic runtime is dramatically lower (e.g., average 0.08s in 8-customer set) with an average 4.5% gap to known optimum in that set.
 - Relative to truck-only TSP baselines, average delivery-time improvements are substantial in larger cases (about 14% at 10 customers, 23% at 25, 21% at 50, 18% at 100).
 - Additional UAVs yield **diminishing marginal benefit** in time savings.
+The diminishing marginal benefit of extra UAVs mirrors the cooperative multi-agent finding [[concepts/cooperative-multi-agent-uav-routing]] that fleet size converts into payoff only when the coordination structure lets added agents do useful work. ^[inferred]
 - Automation scenarios further improve outcomes; reported average gains versus default range from 4.5% up to 13.0% depending on automation variant.
 
 ## Limitations
@@ -95,6 +98,7 @@ The study highlights that several realistic dimensions remain simplified (e.g., 
 - [[concepts/k-multi-visit-drone-routing-problem]]
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[references/poikonen2020-k-mvdrp]]
+- [[concepts/cooperative-multi-agent-uav-routing]]
 - [[references/tamke2023-vrpd-dss]]
 - [[_papers/raj2020multiple/raj2020multiple-extracted]]
 

@@ -8,6 +8,8 @@ relationships:
   - target: "[[concepts/tabu-search]]"
     type: uses
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
+  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
+    type: related_to
     type: related_to
 sources:
   - _papers/lu2024effective/lu2024effective-extracted.md
@@ -25,10 +27,10 @@ provenance:
   ambiguous: 0.02
 base_confidence: 0.57
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)
@@ -52,6 +54,7 @@ The HEA combines:
 5. population update with quality/diversity control.
 
 The two-phase refinement uses tabu-search style move control and explicitly explores infeasible regions to escape local traps before returning to feasibility.
+The cluster-based crossover is the evolutionary analogue of the clustering + masked-construction pipeline of learned routing policies [[concepts/transformer-seq2seq-routing-solver]]: both exploit cluster structure under a travel-time budget, one by population operators, one by a state-conditioned policy. ^[inferred]
 
 ## Results
 
@@ -82,6 +85,7 @@ From the source text:
 - [[concepts/tabu-search]]
 - [[concepts/hyper-heuristics]]
 - [[references/gendreau2019-handbook-metaheuristics]]
+- [[concepts/transformer-seq2seq-routing-solver]]
 - [[_papers/lu2024effective/lu2024effective-extracted]]
 
 ## Sources

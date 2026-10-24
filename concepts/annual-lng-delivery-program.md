@@ -18,6 +18,12 @@ relationships:
     type: derived_from
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: extends
+  - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
+    type: related_to
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: related_to
+  - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
+    type: related_to
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -25,18 +31,22 @@ sources:
   - _papers/al-haidous2016optimal/al-haidous2016optimal.md
   - _papers/andersson2017creating/andersson2017creating-extracted.md
   - _papers/andersson2017creating/andersson2017creating.md
+  - _papers/goel2012large/goel2012large-extracted.md
+  - _papers/goel2012large/goel2012large.md
+  - _papers/goel2015constraint/goel2015constraint-extracted.md
+  - _papers/goel2015constraint/goel2015constraint.md
 summary: >-
   Tactical LNG planning problem that coordinates inventory, vessel schedules, contract obligations, and optional spot-market actions over annual horizons.
 provenance:
   extracted: 0.85
-  inferred: 0.13
-  ambiguous: 0.02
+  inferred: 0.12
+  ambiguous: 0.03
 base_confidence: 0.90
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T23:50:19Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Annual LNG Delivery Program (ADP)
@@ -50,6 +60,9 @@ Annual Delivery Program (ADP) is a tactical planning problem for LNG suppliers t
 - Inventory-production balance at loading terminals is tightly coupled to [[concepts/maritime-inventory-routing-problem|inventory-routing]] feasibility.
 - Al-Haidous et al. formulate ADP with a compact arc-flow MIP that minimizes required fleet size while preserving operational detail.
 - Andersson et al. extend the annual LNG setup with explicit spot-market economics and branch-and-cut valid inequalities that tighten the model.
+- The annual program sits on the MIRP time fork: the day-grid arc-flow MIP is the discrete-time side, the CP port-visit model the continuous-time side, and the same instance solves ~8x faster with 37% fewer nonzeros in CP form — see [[concepts/mirp-modeling-continuous-vs-discrete-time]]. ^[inferred]
+- Goel et al. (2015) cover the same program as a **disjunctive berth/scheduling CP model**: CPOptimizer interval variables per cargo and ship visit, `SequenceVar` + `NoOverlap` for berths, inventory profiles as cumul functions, plus a cumulative-volume lower bound that turns the inventory equations into valid bounds on total losses — 15,375 variables (no binaries) vs 232,856 binaries in the MIP, 4.55x (10.5x with the iterative search) faster than the MIP heuristic, better solutions on most large instances [[references/goel2015-constraint-programming-lng-ship-scheduling]].
+- Goel et al. (2012) cast the annual horizon as a **daily time-space network**: nodes are (terminal, day), per-ship arcs for loading / travel / discharge / waiting, a daily inventory balance $I_{j,t+1} = I_{j,t} + p_{j,t} - d_{j,t} - \text{discharge} + \text{load}$ at every port-time node, berth caps $b_j$ per terminal-day, and an objective penalizing lost production, regas stockouts, and unmet annual demand with monotonically decreasing time weights [[references/goel2012-large-neighborhood-search-lng-inventory-routing]].
 
 ADP is a load-bearing bridge between strategic network design and short-horizon operational replanning in LNG supply chains. ^[inferred]
 
@@ -62,6 +75,9 @@ ADP is a load-bearing bridge between strategic network design and short-horizon 
 - [[concepts/maritime-routing-under-uncertainty]]
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/ksciuk2023-maritime-uncertainty-review]]
+- [[concepts/mirp-modeling-continuous-vs-discrete-time]]
+- [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
+- [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 
 ## Open Questions
 
@@ -76,3 +92,7 @@ ADP is a load-bearing bridge between strategic network design and short-horizon 
 - [[_papers/al-haidous2016optimal/al-haidous2016optimal.md]]
 - [[_papers/andersson2017creating/andersson2017creating-extracted.md]]
 - [[_papers/andersson2017creating/andersson2017creating.md]]
+- [[_papers/goel2012large/goel2012large-extracted.md]]
+- [[_papers/goel2012large/goel2012large.md]]
+- [[_papers/goel2015constraint/goel2015constraint-extracted.md]]
+- [[_papers/goel2015constraint/goel2015constraint.md]]

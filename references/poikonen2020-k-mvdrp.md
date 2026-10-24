@@ -10,6 +10,10 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
+  - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
+    type: related_to
+  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
+    type: related_to
 sources:
   - _papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md
   - _papers/poikonen2020multivisit/poikonen2020multivisit.md
@@ -24,12 +28,12 @@ provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.63
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Multi-visit Drone Routing Problem (Poikonen & Golden, 2020)
@@ -111,6 +115,7 @@ Additional reported findings:
 - RTS runtime was small (average **3.26 s**, about **7.32 s** on largest tested instances).
 - Average objective-to-lower-bound gap was large (**56.0%**), suggesting substantial room for stronger bounds.
 - The mTSP-derived lower bound exceeded the CETSP-derived bound in **85.8%** of instances.
+- The 56% average objective-to-bound gap is the accuracy slot that learned construction policies such as [[concepts/transformer-seq2seq-routing-solver]] claim to fill at millisecond inference, and the payload-dependent EMAX sortie-feasibility constraint is the per-agent energy family that cooperative multi-agent fleets [[concepts/cooperative-multi-agent-uav-routing]] must respect. ^[inferred]
 
 ## Limitations
 
@@ -126,6 +131,8 @@ These constraints indicate the approach prioritizes tractability over exactness 
 - [[concepts/k-multi-visit-drone-routing-problem]]
 - [[concepts/pdsvrp-c]]
 - [[references/montemanni2024-pdsvrp-collective-drones]]
+- [[concepts/cooperative-multi-agent-uav-routing]]
+- [[concepts/transformer-seq2seq-routing-solver]]
 - [[_papers/meng2023multivisit/meng2023multivisit-extracted]]
 - [[_papers/cheng2020drone/cheng2020drone-extracted]]
 - [[_papers/wang2019routing/wang2019routing-extracted]]

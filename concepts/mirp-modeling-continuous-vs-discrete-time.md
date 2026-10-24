@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-24T04:15:00Z
 ---
 
 # Continuous vs Discrete Time in Maritime Inventory Routing Models
@@ -91,6 +91,7 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[concepts/maritime-inventory-routing-problem]]
+- [[concepts/annual-lng-delivery-program]]
 - [[concepts/annual-lng-delivery-program]]
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[references/boland2017-continuous-time-service-network-design]]
