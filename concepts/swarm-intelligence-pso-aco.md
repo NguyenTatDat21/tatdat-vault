@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-24T04:37:31Z
+updated: 2026-10-24T21:02:52Z
 ---
 
 # Swarm Intelligence: PSO, ACO, and Emergent Coordination

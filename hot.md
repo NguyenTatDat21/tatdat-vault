@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T20:47:25Z
+updated: 2026-10-24T21:25:43Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/fama1973risk/fama1973risk-extracted.md pages_created=0 pages_updated=2 ...
-- [2026-10-24] INGEST source=_papers/black1992global/black1992global-extracted.md pages_created=0 pages_updated=1 ...
-- [2026-10-24] INGEST source=furini2016modeling pages_created=0 pages_updated=2 ...
+- [2026-10-24] INGEST source=_papers/chatfieldProblemSolvingStatisticians1995/chatfieldP... pages_created=0 pages_updated=1 ...
+- [2026-10-24] INGEST source=_papers/bertsimas2020predictive/bertsimas2020predictive-ext... pages_created=0 pages_updated=1 ...
+- [2026-10-24] INGEST source=_papers/yu2024simulated/yu2024simulated-extracted.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Furini et al. 2016 guillotine plate-and-position MIP: Dyckhoff-type cut/residual model lifted to 2D; plate-balance and priced-position machinery verified against the paper; restricted-position theorem (<=5 items per plate, tight 5/6 bound, 102x51 six-item example) confirmed; gcut12 has 66,415,467 variables; pricing alpha=0.20, beta=0.25; FMT beats BCE by two orders of magnitude on 6 of 8 classes.
+Replaced the unverified 'feasibility-by-construction' decode step with an inferred statement grounded in the paper's time-window/working-hours/endurance checks; all SA_RL numbers (8 optimal + 12 better small, 28/29 better large, 13 better vs SA, 265.24/235.14/197.74 profit gains, Taguchi T0=1.0 Iiter=6000 alpha=0.98 epsilon=0.6) verified verbatim against the extracted source.
 
 ## Flagged Contradictions
 
