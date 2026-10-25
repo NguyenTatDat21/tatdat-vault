@@ -1,11 +1,13 @@
 ---
 title: "The Intuition Behind Black-Litterman Model Portfolios"
 category: references
-tags: [paper, portfolio-optimization, black-litterman, asset-allocation, equilibrium-returns, views]
+tags: [paper, portfolio-optimization, black-litterman, asset-allocation, equilibrium-returns, views, mean-variance, reverse-optimization, risk-aversion, market-equilibrium, view-weights, factor-portfolio-views, goldman-sachs, portfolio-construction]
 relationships:
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: derived_from
   - target: "[[concepts/black-litterman-view-blending]]"
+    type: related_to
+  - target: "[[references/idzorek20072-bl-confidence-levels]]"
     type: related_to
 sources:
   - _papers/he2002intuition/he2002intuition-extracted.md
@@ -35,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # The Intuition Behind Black-Litterman Model Portfolios

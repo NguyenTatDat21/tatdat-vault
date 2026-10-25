@@ -1,7 +1,7 @@
 ---
 title: "Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports"
 category: references
-tags: [paper, maritime, lng, annual-delivery-program, speed-optimization, mixed-integer-programming]
+tags: [paper, maritime, lng, annual-delivery-program, speed-optimization, mixed-integer-programming, time-space-network, gurobi, real-life-instances, chartering, boil-off, profit-maximization, spot-cargoes, computational-logistics]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: extends
@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
 sources:
   - _papers/haug2023planning/haug2023planning-extracted.md
   - _papers/haug2023planning/haug2023planning.md
@@ -27,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports
@@ -43,7 +45,7 @@ updated: 2026-10-25T10:50:35Z
 
 ## Method
 
-Time-space network with one-day periods; each arc ((i,t),(j,t′)) covers sailing, potential waiting, purge/cool-down, and port operations, with sailing placed first to simplify berth constraints and reduce symmetry (lines 53-61).
+Time-space network ([[concepts/time-space-network-ship-flow-model]]) with one-day periods; each arc ((i,t),(j,t′)) covers sailing, potential waiting, purge/cool-down, and port operations, with sailing placed first to simplify berth constraints and reduce symmetry (lines 53-61).
 
 ![[_papers/haug2023planning/images/page_5_chart_2.jpg]]
 "Fig. 1. Illustration of an arc $((i,t),(j,t^{\\prime}))$ and the vessel activities it represents"
@@ -61,10 +63,13 @@ Average gap over 3 instances at 300/3600/10800 s, objective in mill USD, time to
 | n-1-2-2-18-30 | 0.00 | 0.00 | 0.00 | 73.1 | 0 |
 | n-1-6-16-18-45 | 0.40 | 0.30 | 0.27 | 426.3 | 3 |
 | n-1-6-16-18-60 | 0.39 | 0.23 | 0.23 | 668.1 | 12 |
+| n-1-6-10-18-75 | 0.37 | 0.26 | 0.19 | 675.7 | 12 |
+| n-1-7-21-18-90 | 0.34 | 0.21 | 0.17 | 867.7 | 23 |
 | n-1-7-27-23-120 | 0.71 | 0.51 | 0.48 | 1 168 | 58 |
 | n-1-7-40-23-180 | 1.55 | 0.42 | 0.22 | 1 615 | 240 |
 | n-1-17-75-23-365 | no feasible solution within limit | | | | |
 | a-1-6-12-11-60 | 1.63 | 1.32 | 1.30 | 263.1 | 33 |
+| a-2-6-12-11-60 | 2.27 | 1.70 | 1.48 | 294.4 | 26 |
 | a-2-6-38-15-180 | 1.11 | 1.10 | 0.42 | 1 400 | 154 |
 
 - The abstract's "gaps below 1% within 1 hour" headline holds for the single-loading-port instances, but a-1-6-12-11-60 shows 1.32% and a-2-6-12-11-60 1.70% at 3600 s (abstract line 7 vs Table 2, line 292). ^[ambiguous]
@@ -99,6 +104,7 @@ Speed optimization on instance n-1-7-27-23-120 at 1800 s, gap 0.24% → 0.19% (T
 - [[concepts/annual-lng-delivery-program]]
 - [[concepts/maritime-inventory-routing-problem]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
+- [[concepts/time-space-network-ship-flow-model]]
 
 ## Bibliographic Record
 

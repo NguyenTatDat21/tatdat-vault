@@ -1,13 +1,17 @@
 ---
 title: "Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints"
 category: references
-tags: [paper, maritime, lng, inventory-routing, berth-constraints, decomposition, mixed-integer-programming]
+tags: [paper, maritime, lng, inventory-routing, berth-constraints, decomposition, mixed-integer-programming, annual-delivery-program, time-space-network, local-search, heuristic, scheduling, time-windows, penalty-cost]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: implements
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
 sources:
   - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md
@@ -31,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints
@@ -61,6 +65,8 @@ $$
 
 with safety bounds $S_{MN}\le s_t\le S_{MX}$ (11).
 
+The routing model is a location-by-day time-space network: the binary arc-flow variable $x_{vijt}^{u}$ equals 1 when vessel $v$ in subproblem $u$ services node $j$ right after node $i$ starting in period $t$ (line 85), with each period one day long, equal to the loading time of one cargo, so berth occupancy is counted per day; with eight-hour periods the berth constraint (8) must be restated (eq. 14, lines 155-161) — the same location-by-day structure as [[concepts/time-space-network-ship-flow-model]].
+
 ![[_papers/halvorsen-weare2013routing/images/page_4_chart_2.jpg]]
 "Fig. 1 Example of penalty cost function for inner time window violations"
 
@@ -79,6 +85,24 @@ Heuristic routing: multi-start local search with biased-random insertion (RANDOM
 
 ## Results
 
+Instance sizes (Table 1, line 331): horizons, subproblems, berths, vessels and cargoes per subproblem, berth-to-cargo (B/C) and inventory-to-production (I/P) ratios; low ratios mark tightly constrained instances.
+
+| Instance | Days | Subproblems | Berths | Vessels | Cargoes | B/C | I/P |
+|---|---|---|---|---|---|---|---|
+| 1 | 30 | 1 | 2 | 12 | 8 | 7.50 | 8.17 |
+| 2 | 90 | 1 | 2 | 12 | 24 | 7.50 | 9.24 |
+| 3 | 180 | 1 | 2 | 12 | 52 | 6.92 | 9.05 |
+| 4 | 360 | 1 | 2 | 12 | 104 | 6.92 | 9.11 |
+| 5 | 30 | 2 | 1 | 14 (10+4) | 12 (8+4) | 2.50 | 13.06 |
+| 6 | 90 | 2 | 1 | 14 (10+4) | 37 (25+12) | 2.43 | 11.50 |
+| 7 | 180 | 2 | 1 | 14 (10+4) | 74 (50+24) | 2.43 | 9.42 |
+| 8 | 360 | 2 | 1 | 14 (10+4) | 148 (100+48) | 2.43 | 5.33 |
+| 9 | 30 | 3 | 1 | 11 (8+2+1) | 15 (7+7+1) | 2.00 | 5.81 |
+| 10 | 90 | 3 | 1 | 11 (8+2+1) | 46 (23+20+3) | 1.96 | 5.38 |
+| 11 | 180 | 3 | 1 | 11 (8+2+1) | 86 (39+40+7) | 2.09 | 5.98 |
+| 12 | 360 | 3 | 1 | 11 (8+2+1) | 171 (78+80+13) | 2.11 | 6.11 |
+
+In instances 9-12 the third subproblem has one vessel and one regasification port, so its routing decisions are fixed and only its scheduling is optimized (line 337).
 12 instances = 3 real-life problems × horizons 30/90/180/360 days; all use inner window width 7 days and outer window 21 days (line 333). Total CPU seconds per pairing (Table 3, line 365):
 
 | Instance (horizon) | Full model | Exact routing + FP | Heuristic routing + FP |
@@ -120,6 +144,8 @@ Heuristic routing: multi-start local search with biased-random insertion (RANDOM
 - [[concepts/maritime-inventory-routing-problem]]
 - [[concepts/annual-lng-delivery-program]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
+- [[concepts/time-space-network-ship-flow-model]]
+- [[references/mutlu2016-lng-annual-delivery-program]]
 
 ## Bibliographic Record
 
