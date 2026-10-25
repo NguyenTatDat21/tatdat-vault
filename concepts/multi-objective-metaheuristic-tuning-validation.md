@@ -19,6 +19,9 @@ relationships:
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
+  - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
+    type: related_to
+  - target: "[[concepts/tabu-search]]"
     type: related_to
 sources:
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
@@ -89,7 +92,7 @@ The single-objective tension is the cleanest evidence: 10-customer example, econ
 
 ## Open Questions
 
-- The handbook records multi-objective **tabu search** (EJOR 185:1192–1212, 2008) and GPU multi-objective search, neither benchmarked here; a three-algorithm benchmark on the same instances with the same metric set would settle the ranking. ^[inferred]
+- The handbook records multi-objective **[[concepts/tabu-search|tabu search]]** (EJOR 185:1192–1212, 2008) and GPU multi-objective search, neither benchmarked here; a three-algorithm benchmark on the same instances with the same metric set would settle the ranking. ^[inferred]
 - Taguchi S/N is applied to one response. A multi-response (per-objective) S/N analysis would tune the two objectives jointly, which is what the Pareto front requires. ^[inferred]
 
 ## Sources

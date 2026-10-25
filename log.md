@@ -139,3 +139,4 @@ title: Wiki Log
 - [2026-10-25T14:37:00Z] INGEST source="_papers/pisinger2019large/pisinger2019large-extracted.md" pages_created=1 pages_updated=2 mode=append
 - [2026-10-25T14:37:00Z] INGEST source="_papers/qian2001conditional/qian2001conditional-extracted.md" pages_created=1 pages_updated=2 mode=append
 - [2026-10-25T17:59:06Z] LINT issues_found=552 orphans=2 broken_links=6 stale=8 contradictions=0 prov_issues=1 missing_summary=242 fragmented_clusters=10 visibility_issues=4 promotion_candidates=0 synthesis_gaps=36 relationship_issues=5 lifecycle_issues=238 temporal_issues=0
+- [2026-10-25T19:16:46Z] CROSS_LINK pages_scanned=131 links_added=6 typed_relations_written=6 pages_modified=4 orphans_remaining=2 misc_affinity_updated=0 promotion_candidates=0

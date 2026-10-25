@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
+  - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
 sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md
@@ -83,7 +85,7 @@ The masking mechanism is what makes a general-purpose sequence model a legal-mov
 
 - Can the same masked-attention recipe handle heterogeneous per-agent constraints (payload, energy, time windows) in one network, as the paper's future work proposes? ^[inferred]
 - Is a decoder that conditions on remaining time sufficient, or should fuel-consumption functions (nonlinear in speed) enter the state? ^[inferred]
-- Do learned policies transfer to the instance families the vault's exact algorithms target, e.g. the LNS/MIP matheuristic setting? ^[inferred]
+- Do learned policies transfer to the instance families the vault's exact algorithms target, e.g. the [[concepts/large-neighborhood-search|LNS]]/MIP matheuristic setting? ^[inferred]
 
 ## Sources
 

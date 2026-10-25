@@ -14,6 +14,12 @@ relationships:
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
+  - target: "[[concepts/variable-neighborhood-search]]"
+    type: related_to
+  - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
+  - target: "[[concepts/swarm-intelligence-pso-aco]]"
+    type: related_to
 sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
@@ -96,7 +102,7 @@ Multi-product variants (survey Table 3) track demand style (ratable / demand / t
 | Constraint programming | 1 | Goel et al. 2015 |
 | Rolling horizon | 5 | |
 | Other matheuristics | 14 | largest heuristic family |
-| Non-model heuristics / metaheuristics | 9 | VNS, GRASP, PSO, GA |
+| Non-model heuristics / metaheuristics | 9 | [[concepts/variable-neighborhood-search|VNS]], GRASP, [[concepts/swarm-intelligence-pso-aco|PSO]], GA |
 
 Benchmarks: **MIRPLIB** (mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB instances appear in MIPLIB's Collection Set, and a subset was used in the NeurIPS 2021 ML for Combinatorial Optimization competition (Gasse et al. 2022). MIRPLIB is mostly discrete-time; continuous-time instances are not public. Hemmati et al. 2016 multiproduct short-sea instances and Rodrigues et al. 2019 uncertainty variants (7 base instances × 3 initial inventories) are at home.himolde.no/hvattum/benchmarks/.
 
@@ -105,7 +111,7 @@ Benchmarks: **MIRPLIB** (mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB i
 1. **New cargoes**: hydrogen, ammonia, liquefied CO$_2$ — including dual-use backhaul (cargo in, fuel out).
 2. **Holistic supply chains** mixing maritime and land IRP in one model.
 3. **Machine learning**: offline learning to strengthen models, RL / approximate dynamic programming online (Papageorgiou et al. 2015 was the first RL use in MIRP).
-4. **Compute**: parallel CPU/GPU, quantum computing (Harwood et al. 2021 assessed IRP formulations from a quantum-computing perspective after recasting them as VRPTW); Munguía et al. 2019's parallel alternating criteria search, a LNS-based primal heuristic, ran on a 96-core cluster.
+4. **Compute**: parallel CPU/GPU, quantum computing (Harwood et al. 2021 assessed IRP formulations from a quantum-computing perspective after recasting them as VRPTW); Munguía et al. 2019's parallel alternating criteria search, a [[concepts/large-neighborhood-search|LNS]]-based primal heuristic, ran on a 96-core cluster.
 5. **Speed optimization and emissions** (Eide et al. 2020; Norstad et al. 2011); IMO carbon-intensity regulation targets −40% by 2030 and −70% by 2050 vs 2008.
 6. **Standardized instances plus an open-source simulation framework** for open-ended, dynamic, stochastic MIRP — uncertainty modeling is described as being in its infancy.
 7. A **finer MIRP taxonomy**: load-then-unload route structure, route length / number of port calls, product separation, speed, uncertainty, time-varying parameters, hard vs soft inventory constraints, fleet homogeneity and chartering, short-sea vs deep-sea.

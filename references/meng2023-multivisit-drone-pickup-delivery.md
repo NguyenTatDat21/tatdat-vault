@@ -9,6 +9,8 @@ relationships:
     type: extends
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: uses
+  - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
 sources:
   - _papers/meng2023multivisit/meng2023multivisit-extracted.md
   - _papers/meng2023multivisit/meng2023multivisit.md
@@ -75,7 +77,7 @@ Parameters: truck capacity 90 kg at 30 km/h, drone 6 kg curb weight + 3 kg paylo
 | Valid inequalities | 2 h-unsolved instances drop from 7 to 4 | lines 739–788 |
 | Final vs initial solution, sets A / P | cost −18.15% / −25.18%; truck distance −23.25% / −34.97% | Table 7 avg rows, lines 793, 799 |
 | Combined mode vs truck-only | total cost −24.31%, truck distance −44.01% on average | line 807 |
-| MP-ISA vs IG / LNS baselines | avg best-solution gaps IG 13.94%, LNS 4.90% — MP-ISA best | Table 8, line 850 |
+| MP-ISA vs IG / [[concepts/large-neighborhood-search|LNS]] baselines | avg best-solution gaps IG 13.94%, LNS 4.90% — MP-ISA best | Table 8, line 850 |
 | Multi-visit vs single-visit mode | SV loses 37.90% drone-served customers, +22.65% cost, +38.60% truck distance | Table 9, line 902 |
 | Sensitivity, 96 scenarios | cost flattens once W > 6 kg or E > 500 Wh; at σ=10 MP-ISA saves 22.03% vs SV 16.90% | lines 940–1000 |
 
