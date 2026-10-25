@@ -20,6 +20,8 @@ relationships:
     type: related_to
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: related_to
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: related_to
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -37,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)
@@ -54,7 +56,7 @@ The paper targets tactical annual delivery planning (ADP) for LNG suppliers over
 - contracts $\mathcal{C}_i = \{C_{i1}, \dots, C_{iN_i}\}$ with required volume $D_{in}$, volume bounds $\underline{D}_{in}/\overline{D}_{in}$, an expected delivery window $\mathcal{T}_{in}^e$ and a wider allowed window $\mathcal{T}_{in}^a$,
 - over/under-delivery penalties $P_{in}^+/P_{in}^-$ per cubic meter and piecewise increasing early/late delivery penalties $P_{int}$,
 - excess production cleared by spot sales through one potential spot vessel per day (binary $y_t$, operational cost $S$; revenues are deliberately not modelled),
-- and split-delivery, where a vessel can deliver full-tank loads at several customer ports in one tour before returning to the loading port. Shipload delivery — one full cargo at one port per voyage, the rule in earlier ADP studies — is recovered by restricting the sailing set to $\mathcal{P}^{vi} = \{l_d, d\}$, so Halvorsen-Weare & Fagerholt (2013), Rakke et al. (2011) and Stålhane et al. (2012) are special cases of this model. Split-delivery is bounded in practice by sloshing: the American Bureau of Shipping requires tank filling above 70% or below 10%, which most 4–6-tank vessels meet for full-tank deliveries.
+- and split-delivery, where a vessel can deliver full-tank loads at several customer ports in one tour before returning to the loading port. Shipload delivery — one full cargo at one port per voyage, the rule in earlier ADP studies — is recovered by restricting the sailing set to $\mathcal{P}^{vi} = \{l_d, d\}$, so Halvorsen-Weare & Fagerholt (2013) ([[references/halvorsen-weare2013-lng-routing-berth-inventory]]), Rakke et al. (2011) and Stålhane et al. (2012) are special cases of this model. Split-delivery is bounded in practice by sloshing: the American Bureau of Shipping requires tank filling above 70% or below 10%, which most 4–6-tank vessels meet for full-tank deliveries.
 
 The objective (Eq. 1) minimizes vessel operating cost, over/under-delivery penalties, early/late delivery penalties, and spot-sales operating cost:
 

@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-25T21:35:24Z
+updated: 2026-10-25T22:43:08Z
 pages: 373
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] INGEST source=_papers/ha2020new/ha2020new-extracted.md pages_created=1 pages_updated=3 ...
-- [2026-10-25] INGEST source=_papers/hadjsalem2023mathematical/hadjsalem2023mathematical... pages_created=2 pages_updated=1 ...
-- [2026-10-25] CROSS_LINK pages_scanned=138 links_added=0 typed_relations_written=0 ...
+- [2026-10-25] INGEST source=_papers/he2002intuition/he2002intuition-extracted.md pages_created=0 pages_updated=2 ...
+- [2026-10-25] CROSS_LINK source=cross-linker pages_scanned=12 links_added=7 ...
+- [2026-10-25] CROSS_LINK source=cross-linker-correction pages_scanned=12 links_added=5 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Post-W09 cross-link sweep: all 11 candidate pairs already linked in body + typed in frontmatter; 0 unlinked author-year mentions vault-wide; 0 orphans; one provenance fix applied (vehicle-routing-sync page extracted 0.85->0.86, sums to 1.00).
+Correction to the previous CROSS_LINK line: the cross-linker pass proper (after the pre-cross-linker snapshot e9c94b1) modified 5 pages, adding 3 inline links (mutlu split-delivery special case, black-litterman-view-blending core structure, idzorek limitations), 2 Related entries (time-space network to haug, multi-objective maritime to hartman), 3 typed relationships and 4 sources entries; the earlier line counted ingest-pass link writes (7 links / 8 typed relations / 9 pages) into this verb.
 
 ## Flagged Contradictions
 

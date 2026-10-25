@@ -32,6 +32,8 @@ relationships:
     type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
+  - target: "[[references/haug2023-adp-speed-optimization-ports]]"
+    type: related_to
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -42,18 +44,20 @@ sources:
   - _papers/gronhaug2009supply/gronhaug2009supply.md
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md
+  - _papers/haug2023planning/haug2023planning-extracted.md
+  - _papers/haug2023planning/haug2023planning.md
 summary: >-
   Ship as flow commodity on a location-by-day network: path cover plus node conservation encodes the schedule, so inventory, berth limits and losses become linear constraints.
 provenance:
-  extracted: 0.84
-  inferred: 0.14
+  extracted: 0.85
+  inferred: 0.13
   ambiguous: 0.02
 base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # Time-Space Network Ship-Flow Model
@@ -76,6 +80,8 @@ flowchart LR
 ```
 
 Node set $N_v=\{(j,t)\}\cup\{SRC,SNK\}$ for ship $v$; arc set $A_v=I\cup D\cup F\cup T$. The key device: a loading or discharging visit is **immediately followed by a travel arc**, which removes the symmetry between waiting at a terminal and starting travel from it.
+
+Haug et al. use the same location-by-day grid with the sailing leg placed first inside each arc, so waiting, purge/cool-down and port operations follow the sail and berth occupancy is easier to count; the berth constraint counts own-vessel arcs, chartered vessels and FOB cargoes in the same period, and artificial origin arcs (to a vessel's first availability, and a zero-cost arc to the end of the horizon for unused vessels) close the flow [[references/haug2023-adp-speed-optimization-ports]] (lines 53-61, 101-265). Making vessel speed a decision adds binary speed variables that more than double the model's binary count, and the 365-day instance found no feasible solution within the time limit — grid size, not physics, is the binding constraint (lines 298-311, 319).
 
 Ship flow conservation and path cover (paper Eqs. 2–4 are network-flow conservation constraints for each ship; the path-cover term $\sum_{a\in A_{v'}}x^{v'}_a\le 1$ is the paper's single-visit-per-ship condition, stated separately): ^[inferred]
 
@@ -114,6 +120,7 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 - [[references/mutlu2016-lng-annual-delivery-program]] — shares lng + maritime tags with this page
 - [[references/gronhaug2009-supply-chain-optimization-lng]] — binary arc-flow x_ijvt formulation on the same daily grid
 - [[references/gronhaug2010-branch-and-price-lng-irp]] — prices duties on this network with side constraints and duty-limited paths
+- [[references/haug2023-adp-speed-optimization-ports]] — same daily grid with sailing-first arcs, speed variables and berth counting over own, chartered and FOB vessels
 
 ## Open Questions
 

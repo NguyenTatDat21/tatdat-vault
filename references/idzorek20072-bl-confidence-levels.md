@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # A Step-by-Step Guide to the Black-Litterman Model: Incorporating User-Specified Confidence Levels
@@ -93,7 +93,7 @@ Table 2.6 (lines 252-261): view tilts move final weights strongly while combined
 ## Limitations
 
 - Extraction garbles many table digits (glued spacing), so quoted table values carry digit-level uncertainty; qualitative directions are preserved. ^[ambiguous]
-- Implied-confidence results depend on the choice of τ and on P-row weighting, both judgment inputs inherited from He & Litterman's calibration (lines 214-236). ^[inferred]
+- Implied-confidence results depend on the choice of τ and on P-row weighting, both judgment inputs inherited from He & Litterman ([[references/he2002-black-litterman-intuition]])'s calibration (lines 214-236). ^[inferred]
 - Steps 5-7 require a nonlinear least-squares solve for ω_k, so the recipe needs an optimizer beyond spreadsheet arithmetic (eq. 2.17-2.18, lines 464-476). ^[inferred]
 - The chapter cites He & Litterman as Goldman Sachs & Company, December 1999, while the vault sidecar for the same paper lists SSRN 2002. ^[ambiguous]
 

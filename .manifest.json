@@ -7286,6 +7286,207 @@
       "content_hash": "dbf32ebb3eded7ae08bf0ea304a2d7fa6f5e0211fcaae0907f5bf8f28e4a3c25",
       "last_ingested": "2026-10-25T21:03:14.281993+00:00",
       "pages_produced": []
+    },
+    "_papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md": {
+      "content_hash": "032bd328d97ed283b6c31ba91fedf4c329c8eb64afdf79f29f57a2ac28ef5599",
+      "last_ingested": "2026-10-25T22:19:24.355785+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md",
+        "concepts/time-space-network-ship-flow-model.md",
+        "references/mutlu2016-lng-annual-delivery-program.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md": {
+      "content_hash": "b58ab7f3029221e8d0c7c40c20fc043ab5b82c1392531ebf7dc658021577df9c",
+      "last_ingested": "2026-10-25T22:19:24.517288+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_4_chart_2.jpg": {
+      "content_hash": "426d8c5529b2ac536f096bf5b41df9aa54c95d0b14dcff75133c916911901a63",
+      "last_ingested": "2026-10-25T22:19:24.655691+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_5_image_3.jpg": {
+      "content_hash": "900264ea56987b7469c25fc25badbcfa00dc0870305effe67eacce2b5f72e1d1",
+      "last_ingested": "2026-10-25T22:19:24.778243+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_9_image_3.jpg": {
+      "content_hash": "bf5bf1f2149c84dfbc94c0c5afebf0d8377fc78b42991be7e8c3196f62487df7",
+      "last_ingested": "2026-10-25T22:19:24.890130+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_10_image_3.jpg": {
+      "content_hash": "f21dbcf20e4e05f5dc32df011befa4e6e5fb8c4196744d6c438564ead505106b",
+      "last_ingested": "2026-10-25T22:19:24.996297+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_17_chart_2.jpg": {
+      "content_hash": "4968a58632f1c4478c6fd90a8dab16f8b8e3cf518ca18a8e44af7702eefef1e1",
+      "last_ingested": "2026-10-25T22:19:25.097402+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/halvorsen-weare2013routing/images/page_17_chart_4.jpg": {
+      "content_hash": "f3846d041db8f807920371d076feb3461301c4f05029c75850466f7ab139cbf4",
+      "last_ingested": "2026-10-25T22:19:25.198174+00:00",
+      "pages_produced": [
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
+    },
+    "_papers/hartman2023leximin/hartman2023leximin-extracted.md": {
+      "content_hash": "827bcaf8eb670d024f16357f899572a6e07e315c2a0e06398553ef42bc47a5dc",
+      "last_ingested": "2026-10-25T22:19:43.206171+00:00",
+      "pages_produced": [
+        "references/hartman2023-leximin-approximation.md",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling.md"
+      ]
+    },
+    "_papers/hartman2023leximin/hartman2023leximin.md": {
+      "content_hash": "5f164b0b4cce4dc5e0962c7e3c4366cd6e33a18113e46127c05acc42fcac5d48",
+      "last_ingested": "2026-10-25T22:19:43.372491+00:00",
+      "pages_produced": [
+        "references/hartman2023-leximin-approximation.md"
+      ]
+    },
+    "_papers/haug2023planning/haug2023planning-extracted.md": {
+      "content_hash": "f6eed2cf515fdd4d653f254a7d7d601efc4339a923275a3a09c8be3d91711ead",
+      "last_ingested": "2026-10-25T22:19:43.506751+00:00",
+      "pages_produced": [
+        "references/haug2023-adp-speed-optimization-ports.md",
+        "concepts/time-space-network-ship-flow-model.md"
+      ]
+    },
+    "_papers/haug2023planning/haug2023planning.md": {
+      "content_hash": "9b82d0d2a32db64e5ab62722e7916cc93b3efdee81dfab1dd939d89c4e12966b",
+      "last_ingested": "2026-10-25T22:19:43.629812+00:00",
+      "pages_produced": [
+        "references/haug2023-adp-speed-optimization-ports.md"
+      ]
+    },
+    "_papers/haug2023planning/images/page_5_chart_2.jpg": {
+      "content_hash": "52caf92becd0b943e7b95015f9ce4d6d45fc0446efd4af222c602ca29337a850",
+      "last_ingested": "2026-10-25T22:19:43.741017+00:00",
+      "pages_produced": [
+        "references/haug2023-adp-speed-optimization-ports.md"
+      ]
+    },
+    "_papers/haug2023planning/images/page_13_chart_2.jpg": {
+      "content_hash": "af74265dfcbd5c0f014220a365c8ca62f22b61d6431d3d6fa39c544c85a6053d",
+      "last_ingested": "2026-10-25T22:19:43.849578+00:00",
+      "pages_produced": [
+        "references/haug2023-adp-speed-optimization-ports.md"
+      ]
+    },
+    "_papers/he2002intuition/he2002intuition-extracted.md": {
+      "content_hash": "0619fdff48b398da561be212dc9867c1c508c46913b2f59e0009bb572b737d32",
+      "last_ingested": "2026-10-25T22:19:43.952381+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md",
+        "concepts/black-litterman-view-blending.md"
+      ]
+    },
+    "_papers/he2002intuition/he2002intuition.md": {
+      "content_hash": "5f7b6186083eafaed205260bed0b473f48367b7a187590061a6bdcd1e39a02e1",
+      "last_ingested": "2026-10-25T22:19:44.047156+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_3_chart_6.jpg": {
+      "content_hash": "4f45624d4533216980e49fbf13daa27d5da03c30aba642609b4d4ccc2442d200",
+      "last_ingested": "2026-10-25T22:19:44.139375+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_4_chart_6.jpg": {
+      "content_hash": "1b15b4f9f92cfc556459ad3db3de39aec91c7767635cf4a68ecc2078549778bb",
+      "last_ingested": "2026-10-25T22:19:44.235974+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_5_chart_5.jpg": {
+      "content_hash": "596b63e64add2cc4ddfbe514f5ef7ec2ba2e4fc78b6aaab0aa88ee8ee0aa56ff",
+      "last_ingested": "2026-10-25T22:19:44.331457+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_7_chart_4.jpg": {
+      "content_hash": "6ab2210e8e761a6f1b2290ae07d5dfb4fb70f555a07652477fa02f6e9f765302",
+      "last_ingested": "2026-10-25T22:19:44.428732+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_8_chart_3.jpg": {
+      "content_hash": "e1d0604c8f57463a96cf2f886d753809b2ac1a339d1a33aebfce3867b082fef3",
+      "last_ingested": "2026-10-25T22:19:44.526096+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_8_chart_7.jpg": {
+      "content_hash": "31422850e5036da1bad580b0b2626f526151796380b9e680e68d41bbc377d844",
+      "last_ingested": "2026-10-25T22:19:44.627049+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_9_chart_4.jpg": {
+      "content_hash": "d34e74abe5faba14a32c9aa8c91d84f5a1b43ebb70621cb5bf660bbe526a6acd",
+      "last_ingested": "2026-10-25T22:19:44.729648+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_9_chart_7.jpg": {
+      "content_hash": "063e11c00975615756fd9fb326b793ab25e2ef5fd8b26bfa5e55510e2524c7f2",
+      "last_ingested": "2026-10-25T22:19:44.836013+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_10_chart_7.jpg": {
+      "content_hash": "c5b1be075ac934800c4b2593ebace951e09d3302b2d3d078467db857926f6736",
+      "last_ingested": "2026-10-25T22:19:44.945385+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_11_chart_7.jpg": {
+      "content_hash": "f863acd611de5e2c02001023cbcf9e324f1f5d2e1a2f84055a45656a0a10e2a7",
+      "last_ingested": "2026-10-25T22:19:45.048394+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_12_chart_5.jpg": {
+      "content_hash": "c9180e6df01bcead4c3c5d7d7daa5d877389ee0d8695e03a154ef50537877828",
+      "last_ingested": "2026-10-25T22:19:45.150281+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
+    },
+    "_papers/he2002intuition/images/page_13_chart_3.jpg": {
+      "content_hash": "54d67e49e26952fe53a2c575229e3ed04838bc73407425c6c8f6bbe11f60732b",
+      "last_ingested": "2026-10-25T22:19:45.253381+00:00",
+      "pages_produced": [
+        "references/he2002-black-litterman-intuition.md"
+      ]
     }
   },
   "stats": {

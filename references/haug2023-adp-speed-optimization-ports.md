@@ -48,7 +48,7 @@ updated: 2026-10-25T21:41:00Z
 Time-space network ([[concepts/time-space-network-ship-flow-model]]) with one-day periods; each arc ((i,t),(j,t′)) covers sailing, potential waiting, purge/cool-down, and port operations, with sailing placed first to simplify berth constraints and reduce symmetry (lines 53-61).
 
 ![[_papers/haug2023planning/images/page_5_chart_2.jpg]]
-"Fig. 1. Illustration of an arc $((i,t),(j,t^{\\prime}))$ and the vessel activities it represents"
+"Fig. 1. Illustration of an arc $( ( i , t ) , ( j , t ^ { \prime } ) )$ and the vessel activities it represents"
 
 Key constraints (lines 101-265): inventory initialization, evolution, and limits $S_i \le s_{it} \le \bar{S}_i$ (2)-(4); maintenance exactly once for $V^M$ (5); start-position or unused vessel (6); flow conservation (7); DES demand per partition with boil-off bounds $\underline{D}_{jp} \le \cdot \le \overline{D}_{jp}$ (8); long-term FOB cargoes picked exactly once (9); spot FOB at most once, with an artificial unlimited-revenue-zero contract allowing surplus LNG disposal (10); berth capacity $B_{jt'}$ (11); charter load bounds $\underline{L}^C w \le g \le \overline{L}^C w$ (12). Boil-off runs 0.10-0.12% per day (line 19).
 

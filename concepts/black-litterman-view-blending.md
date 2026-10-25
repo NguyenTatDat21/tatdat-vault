@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T21:41:00Z
 ---
 
 # Black-Litterman View Blending
@@ -40,7 +40,7 @@ updated: 2026-10-25T10:50:35Z
 
 ## Core Structure
 
-- Reverse-optimized equilibrium prior Π = δΣw_mkt (He & Litterman's δ form; Idzorek's λ form, eq. 2.1) with prior covariance τΣ; views enter as P·E[R] = Q with diagonal view covariance Ω.
+- Reverse-optimized equilibrium prior Π = δΣw_mkt (He & Litterman ([[references/he2002-black-litterman-intuition]])'s δ form; Idzorek's λ form, eq. 2.1) with prior covariance τΣ; views enter as P·E[R] = Q with diagonal view covariance Ω.
 - Posterior mean:
 
 $$

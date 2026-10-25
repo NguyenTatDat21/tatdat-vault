@@ -146,3 +146,13 @@ title: Wiki Log
 - [2026-10-25T21:04:22Z] INGEST source=_papers/ha2020new/ha2020new-extracted.md pages_created=1 pages_updated=3 mode=append
 - [2026-10-25T21:04:22Z] INGEST source=_papers/hadjsalem2023mathematical/hadjsalem2023mathematical-extracted.md pages_created=2 pages_updated=1 mode=append
 - [2026-10-25T21:35:24Z] CROSS_LINK pages_scanned=138 links_added=0 typed_relations_written=0 pages_modified=1 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-25T22:25:29Z] INGEST source=_papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md pages_created=0 pages_updated=3 sources=1 mode=append
+- [2026-10-25T22:25:30Z] INGEST source=_papers/hartman2023leximin/hartman2023leximin-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:25:30Z] INGEST source=_papers/haug2023planning/haug2023planning-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:25:30Z] INGEST source=_papers/he2002intuition/he2002intuition-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:29:55Z] INGEST source=_papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md pages_created=0 pages_updated=3 sources=1 mode=append
+- [2026-10-25T22:29:55Z] INGEST source=_papers/hartman2023leximin/hartman2023leximin-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:29:55Z] INGEST source=_papers/haug2023planning/haug2023planning-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:29:56Z] INGEST source=_papers/he2002intuition/he2002intuition-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
+- [2026-10-25T22:33:12Z] CROSS_LINK source=cross-linker pages_scanned=12 links_added=7 typed_relations_written=8 pages_modified=9 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 mode=append
+- [2026-10-25T22:43:08Z] CROSS_LINK source=cross-linker-correction pages_scanned=12 links_added=5 typed_relations_written=3 pages_modified=5 sources_entries_added=4 inline_links_added=3 related_links_added=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 mode=append
