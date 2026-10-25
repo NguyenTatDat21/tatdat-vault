@@ -566,16 +566,17 @@
     },
     "_papers/fuertes2023solving/fuertes2023solving-extracted.md": {
       "content_hash": "4f130665a0c3fdea989200bd15c1da8fa7d1b26f507f2e30f3d65472b006695c",
-      "last_ingested": "2026-10-24T21:31:20.093612+00:00",
+      "last_ingested": "2026-10-25T01:26:23.264714+00:00",
       "pages_produced": [
-        "references/fuertes2023-transformer-multi-uav-routing.md",
-        "concepts/payload-induced-drone-battery-consumption-rate.md"
+        "concepts/cooperative-multi-agent-uav-routing.md"
       ]
     },
     "_papers/fuertes2023solving/fuertes2023solving.md": {
       "content_hash": "4c36e3c5638c3739c46373cfba49d601df66f8e15850edfd6d7e76a7944cddb8",
-      "last_ingested": "2026-10-24T21:19:54.802145+00:00",
-      "pages_produced": []
+      "last_ingested": "2026-10-25T01:26:23.327089+00:00",
+      "pages_produced": [
+        "concepts/cooperative-multi-agent-uav-routing.md"
+      ]
     },
     "_papers/fuertes2023solving/images/page_1_image_2.jpg": {
       "content_hash": "422f6e967e7dd8c3873c89995a2a899f08f295a47c3342497724f27377a5941f",
@@ -819,30 +820,18 @@
     },
     "_papers/goel2012large/goel2012large-extracted.md": {
       "content_hash": "8847ffe12e17d6af416ebc1436b98c1f236650b1baeec476d5610dfd6e02d0ce",
-      "last_ingested": "2026-10-24T07:17:10.219863+00:00",
+      "last_ingested": "2026-10-25T01:26:22.563499+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing",
-        "concepts/time-space-network-ship-flow-model",
-        "concepts/large-neighborhood-ship-pair-destroy-repair",
-        "concepts/large-neighborhood-search",
-        "concepts/variable-neighborhood-search",
-        "concepts/maritime-inventory-routing-problem",
-        "concepts/mirp-modeling-continuous-vs-discrete-time",
-        "concepts/annual-lng-delivery-program"
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md"
       ]
     },
     "_papers/goel2012large/goel2012large.md": {
       "content_hash": "83367accf7d9520d4055a4c5c5f19154c3bf17dde3ef7926ac0a1bd33344ba0c",
-      "last_ingested": "2026-10-24T07:17:10.334346+00:00",
+      "last_ingested": "2026-10-25T01:26:22.629122+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing",
-        "concepts/time-space-network-ship-flow-model",
-        "concepts/large-neighborhood-ship-pair-destroy-repair",
-        "concepts/large-neighborhood-search",
-        "concepts/variable-neighborhood-search",
-        "concepts/maritime-inventory-routing-problem",
-        "concepts/mirp-modeling-continuous-vs-discrete-time",
-        "concepts/annual-lng-delivery-program"
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "concepts/time-space-network-ship-flow-model.md"
       ]
     },
     "_papers/goel2012large/images/page_22_chart_2.jpg": {
@@ -864,17 +853,17 @@
     },
     "_papers/goel2015constraint/goel2015constraint-extracted.md": {
       "content_hash": "fb190f85f709d2b528f29b67f422d1e2dfb6c57bbf7cb488de24a13ca920958e",
-      "last_ingested": "2026-10-24T21:31:20.161600+00:00",
+      "last_ingested": "2026-10-25T01:26:22.909896+00:00",
       "pages_produced": [
-        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
-        "concepts/cumulative-volume-lower-bound-cp-search.md",
-        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+        "concepts/time-space-network-ship-flow-model.md"
       ]
     },
     "_papers/goel2015constraint/goel2015constraint.md": {
       "content_hash": "ee025fac7005981aa1d689bc5788a4db724055ce25479edd42d070f048abf0e3",
-      "last_ingested": "2026-10-24T21:19:59.106043+00:00",
-      "pages_produced": []
+      "last_ingested": "2026-10-25T01:26:22.966851+00:00",
+      "pages_produced": [
+        "concepts/time-space-network-ship-flow-model.md"
+      ]
     },
     "_papers/goel2015constraint/images/page_2_chart_15.jpg": {
       "content_hash": "43ea4c4ef8c64cf42d57b235570c36ac46d77818e4735b90220d990d644c3f6b",
@@ -1414,22 +1403,16 @@
     },
     "_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md": {
       "content_hash": "1a89e41609f8ecde283e71ee475fe836a61ba7b135c1489e1291495e972ed435",
-      "last_ingested": "2026-10-24T07:17:10.719100+00:00",
+      "last_ingested": "2026-10-25T01:26:22.077254+00:00",
       "pages_produced": [
-        "references/poikonen2020-k-mvdrp",
-        "concepts/k-multi-visit-drone-routing-problem",
-        "concepts/pdsvrp-c",
-        "references/montemanni2024-pdsvrp-collective-drones",
-        "concepts/cooperative-multi-agent-uav-routing",
-        "concepts/transformer-seq2seq-routing-solver"
+        "references/poikonen2020-k-mvdrp.md"
       ]
     },
     "_papers/poikonen2020multivisit/poikonen2020multivisit.md": {
       "content_hash": "a0550e47d86ca29c38a2e930667d3eb95b6daf66a172c51ef9a0b39bc6279f66",
-      "last_ingested": "2026-10-22T08:46:51.042958+00:00",
+      "last_ingested": "2026-10-25T01:26:22.200326+00:00",
       "pages_produced": [
-        "references/poikonen2020-k-mvdrp.md",
-        "concepts/k-multi-visit-drone-routing-problem.md"
+        "references/poikonen2020-k-mvdrp.md"
       ]
     },
     "_papers/tamke2023vehicle/images/page_10_chart_0.jpg": {

@@ -28,18 +28,20 @@ sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
   - _papers/goel2012large/images/page_6_image_2.jpg
+  - _papers/goel2015constraint/goel2015constraint-extracted.md
+  - _papers/goel2015constraint/goel2015constraint.md
 summary: >-
   Ship as flow commodity on a location-by-day network: path cover plus node conservation encodes the schedule, so inventory, berth limits and losses become linear constraints.
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-25T00:14:48Z
 ---
 
 # Time-Space Network Ship-Flow Model
@@ -63,7 +65,7 @@ flowchart LR
 
 Node set $N_v=\{(j,t)\}\cup\{SRC,SNK\}$ for ship $v$; arc set $A_v=I\cup D\cup F\cup T$. The key device: a loading or discharging visit is **immediately followed by a travel arc**, which removes the symmetry between waiting at a terminal and starting travel from it.
 
-Ship flow conservation and path cover (paper Eqs. 2–4):
+Ship flow conservation and path cover (paper Eqs. 2–4 are network-flow conservation constraints for each ship; the path-cover term $\sum_{a\in A_{v'}}x^{v'}_a\le 1$ is the paper's single-visit-per-ship condition, stated separately): ^[inferred]
 
 $$\sum_{a\in O_v(j,t)}x^v_a=\sum_{a\in I_v(j,t)}x^v_a\ \ \forall(j,t)\in N_v,\qquad \sum_{a\in I_v}x^v_a=\sum_{a\in F_v}x^v_a=1,\qquad \sum_{a\in A_{v'}}x^{v'}_a\le 1$$
 
@@ -72,10 +74,11 @@ Cargo delivered to regasification terminal $r$ (paper Eq. 6): $Q^v_r=\sum_{a\in 
 ## Census and Numbers
 
 Goel et al. (2012), Table 1 instance sizes: binary variables 12,812 (P1, 6 ships) up to 232,856 (P14, 69 ships, 10 regas terminals); constraints 6,406 (P6, 4 ships) → 79,425 (P14); continuous variables 1,827 (P8) → 11,691 (P14). Goel et al. (2015), Table 2: the same MIP has 232,856 0-1 variables for P14 while the ship-perspective CP model CP2 needs 15,375 variables (203.1 MB vs 1.9 GB) — the time-space grid is the size driver.
+
 Travel-time structure is monotone: $\tau_{j,j',t}\le\tau_{j,j',t+1}+1$; travel times are seasonal time-dependent integers (the paper lists seasonal travel times and seasonality in production rates among the complicating characteristics), and a loading/discharging visit occupies a berth for the period it is scheduled.
-Travel-time structure is monotone: $\tau_{j,j',t}\le\tau_{j,j',t+1}+1$; travel times are integer days, one full day loading/discharging occupies a berth, no seasonality.
+
 The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1}$ (monotonically decreasing) so a lost unit of production/regasification is reported at the time it is lost, preventing the model from shifting losses to cheaper days.
-The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1}$ (monotonically decreasing, e.g. 1,2,4,8,16) so a lost unit of production/regasification is reported at the time it is lost, preventing the model from shifting losses to cheaper days.
+
 
 ## Why It Matters
 

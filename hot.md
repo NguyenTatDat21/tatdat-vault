@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-24T21:49:46Z
+updated: 2026-10-25T01:26:23Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-24] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=3 ...
-- [2026-10-24] INGEST source=_papers/tamke2023vehicle/tamke2023vehicle-extracted.md pages_created=0 pages_updated=0 ...
-- [2026-10-24] INGEST source=_papers/montemanni2024combining/montemanni2024combining-ext... pages_created=0 pages_updated=0 ...
+- [2026-10-25] INGEST source=_papers/goel2012large/goel2012large-extracted.md pages_created=0 pages_updated=2 ...
+- [2026-10-25] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=1 ...
+- [2026-10-25] INGEST source=_papers/fuertes2023solving/fuertes2023solving-extracted.md pages_created=0 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Hint-starting CP-SAT with a truck-only VRP solution benefits both lower bounds and heuristic solutions for M2/M3 despite the hint ignoring drones; CP-SAT moves customers from truck tours to drones; page claims verified against chapter, no edits needed.
+Fuertes cooperative UAV page: Fig. 1 caption rewritten verbatim from source; lost-agents resilience bullet marked inferred (source has no resilience discussion); FCM-vs-KMeans claim, Table 4 rewards (92.93/89.70, 149.54/99.90), t_max half-node normalization, MTZ subtour elimination all verified with zero changes.
 
 ## Flagged Contradictions
 

@@ -103,3 +103,7 @@ title: Wiki Log
 - [2026-10-24T21:49:46Z] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=3 mode=append
 - [2026-10-24T21:49:46Z] INGEST source=_papers/tamke2023vehicle/tamke2023vehicle-extracted.md pages_created=0 pages_updated=0 mode=append
 - [2026-10-24T21:49:46Z] INGEST source=_papers/montemanni2024combining/montemanni2024combining-extracted.md pages_created=0 pages_updated=0 mode=append
+- [2026-10-25T01:26:22Z] INGEST source=_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md pages_created=0 pages_updated=1 mode=append
+- [2026-10-25T01:26:22Z] INGEST source=_papers/goel2012large/goel2012large-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T01:26:23Z] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=1 mode=append
+- [2026-10-25T01:26:23Z] INGEST source=_papers/fuertes2023solving/fuertes2023solving-extracted.md pages_created=0 pages_updated=1 mode=append
