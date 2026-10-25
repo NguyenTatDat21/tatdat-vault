@@ -7138,11 +7138,135 @@
       "content_hash": "95bcc3d919c40c575af50bfd60a2c031f1b09372838cd7aa26cc4944ed2c6dfb",
       "last_ingested": "2026-10-25T15:44:05.382599+00:00",
       "pages_produced": []
+    },
+    "_papers/pham2023efficient/pham2023efficient-extracted.md": {
+      "content_hash": "0b03c6d702172c0e18cf88b92ef23ae9a2ce11a861a035a9e8a4cc0a03ab1834",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pham2023-efficient-ga-quadratic-tsp.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/metaheuristic-hybridization.md",
+        "_papers/pham2023efficient/images/page_2_image_0.jpg",
+        "_papers/pham2023efficient/images/page_4_image_0.jpg",
+        "_papers/pham2023efficient/images/page_4_image_9.jpg",
+        "_papers/pham2023efficient/images/page_4_image_11.jpg",
+        "_papers/pham2023efficient/images/page_7_chart_8.jpg",
+        "_papers/pham2023efficient/pham2023efficient-extracted.md",
+        "_papers/pham2023efficient/pham2023efficient.md"
+      ]
+    },
+    "_papers/pham2023efficient/pham2023efficient.md": {
+      "content_hash": "fe5f8d7411beefde838a6fa797bdc46640b6b3625348ddb59d30e98c5c3d1caf",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pham2023-efficient-ga-quadratic-tsp.md",
+        "concepts/large-neighborhood-search.md"
+      ]
+    },
+    "_papers/phanduc2025pareto/phanduc2025pareto-extracted.md": {
+      "content_hash": "73dd0dc65b8f226196be1589c654c8669f29e32c364deb11f205f44e02125719",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/phanduc2025-pareto-front-grid-fairness-dpdptw.md",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling.md",
+        "concepts/fuzzy-weighted-max-min-scalarization.md",
+        "_papers/phanduc2025pareto/images/page_4_image_2.jpg",
+        "_papers/phanduc2025pareto/images/page_5_image_1.jpg",
+        "_papers/phanduc2025pareto/images/page_6_image_2.jpg",
+        "_papers/phanduc2025pareto/images/page_7_chart_5.jpg",
+        "_papers/phanduc2025pareto/images/page_8_chart_2.jpg",
+        "_papers/phanduc2025pareto/images/page_8_chart_4.jpg",
+        "_papers/phanduc2025pareto/phanduc2025pareto-extracted.md",
+        "_papers/phanduc2025pareto/phanduc2025pareto.md"
+      ]
+    },
+    "_papers/phanduc2025pareto/phanduc2025pareto.md": {
+      "content_hash": "19c11686b5af2c6dad4fff77c6349d9d62c03421f04be2a1df423cb55f85fd91",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/phanduc2025-pareto-front-grid-fairness-dpdptw.md",
+        "concepts/multi-objective-maritime-cargo-routing-scheduling.md"
+      ]
+    },
+    "_papers/pincus2007accrual/pincus2007accrual-extracted.md": {
+      "content_hash": "1dd51a9c223b251edd3dc2bd6a5dc9763bf8c0503e8c3eec819cc64a8440cd7a",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pincus2007-accrual-anomaly-international-evidence.md",
+        "references/ball2016-accruals-cash-flows-operating-profitability.md",
+        "references/beatty2014-financial-accounting-in-banking.md",
+        "references/brown2007-negative-book-equity-stocks.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
+        "concepts/cash-based-operating-profitability.md",
+        "_papers/pincus2007accrual/pincus2007accrual-extracted.md",
+        "_papers/pincus2007accrual/pincus2007accrual.md"
+      ]
+    },
+    "_papers/pincus2007accrual/pincus2007accrual.md": {
+      "content_hash": "43831b04b5414df17ef82c90ae73b0c1588622cae6341c71e3b9820d9244b716",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pincus2007-accrual-anomaly-international-evidence.md",
+        "references/ball2016-accruals-cash-flows-operating-profitability.md"
+      ]
+    },
+    "_papers/pisinger2019large/pisinger2019large-extracted.md": {
+      "content_hash": "d00b08d048e90705443d1fb191a7b96bc8eb7877f17aa5cbe1af749ed099616d",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pisinger2019-large-neighborhood-search.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/metaheuristic-hybridization.md",
+        "references/gendreau2019-handbook-metaheuristics.md",
+        "_papers/pisinger2019large/images/page_3_image_2.jpg",
+        "_papers/pisinger2019large/images/page_5_image_2.jpg",
+        "_papers/pisinger2019large/images/page_8_image_2.jpg",
+        "_papers/pisinger2019large/images/page_14_image_2.jpg",
+        "_papers/pisinger2019large/pisinger2019large-extracted.md",
+        "_papers/pisinger2019large/pisinger2019large.md"
+      ]
+    },
+    "_papers/pisinger2019large/pisinger2019large.md": {
+      "content_hash": "dd02af53a3395d7217414a0e5ab91647b562222c707ea7cb65947e58497ec3cd",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/pisinger2019-large-neighborhood-search.md",
+        "concepts/large-neighborhood-search.md"
+      ]
+    },
+    "_papers/qian2001conditional/qian2001conditional-extracted.md": {
+      "content_hash": "d6cdd92bd295f048e6b550bd5455c36d2a1d954e711a99398a28707221905733",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/qian2001-conditional-distribution-portfolio-theory.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
+        "concepts/mmse-covariance-shrinkage.md",
+        "concepts/ordering-information-portfolio-selection.md",
+        "references/he2002-black-litterman-intuition.md",
+        "references/meucci2006-beyond-black-litterman-copula.md",
+        "references/meucci2010-fully-flexible-views.md",
+        "_papers/qian2001conditional/images/page_3_chart_16.jpg",
+        "_papers/qian2001conditional/images/page_3_chart_18.jpg",
+        "_papers/qian2001conditional/images/page_5_chart_2.jpg",
+        "_papers/qian2001conditional/images/page_5_chart_4.jpg",
+        "_papers/qian2001conditional/images/page_5_chart_6.jpg",
+        "_papers/qian2001conditional/qian2001conditional-extracted.md",
+        "_papers/qian2001conditional/qian2001conditional.md"
+      ]
+    },
+    "_papers/qian2001conditional/qian2001conditional.md": {
+      "content_hash": "7ab49f433fcc8d7f4b3dc255385720010d2f5fb8dea4217b467a45bec065c47b",
+      "last_ingested": "2026-10-25T16:56:13.904021+00:00",
+      "pages_produced": [
+        "references/qian2001-conditional-distribution-portfolio-theory.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md"
+      ]
     }
   },
   "stats": {
     "total_pages": 104,
-    "total_sources_ingested": 221
+    "total_sources_ingested": 221,
+    "last_updated": "2026-10-25T16:56:13.904021+00:00"
   },
   "version": 1
 }

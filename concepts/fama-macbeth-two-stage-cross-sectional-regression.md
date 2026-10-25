@@ -16,6 +16,10 @@ relationships:
     type: related_to
   - target: "[[references/kim2020-profitability-asean-stocks]]"
     type: related_to
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: related_to
+  - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
+    type: related_to
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
@@ -34,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-25T14:36:00Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression
@@ -78,6 +82,8 @@ $$
 - [[references/chen2010-shrinkage-mmse-covariance-estimation]]
 - [[references/kakinuma2020-empirical-profitability-thailand]]
 - [[references/kim2020-profitability-asean-stocks]]
+- [[references/qian2001-conditional-distribution-portfolio-theory]] — the equilibrium-extraction and portfolio-weight algebra qian2001 uses (P-matrix view regression, Theorems 1-2) parallels the design's cross-sectional logic: equilibrium as reference, deviations priced.
+- [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007's country-by-country zero-investment accrual deciles with GMM cross-sectional regressions (its Eq. 6) are a direct application of this template.
 
 ## Open Questions
 

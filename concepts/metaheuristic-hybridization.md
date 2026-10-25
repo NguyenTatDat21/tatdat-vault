@@ -14,9 +14,14 @@ relationships:
     type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
     type: related_to
+  - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
+    type: related_to
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
+  - _papers/pisinger2019large/pisinger2019large-extracted.md
 summary: "Handbook Ch. 12 taxonomy of metaheuristic hybrids by four criteria, plus two working patterns: exact solution merging, and relaxation-guided search."
 provenance:
   extracted: 0.86
@@ -27,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-25T01:12:00Z
+updated: 2026-10-25T14:36:00Z
 ---
 
 # Metaheuristic Hybridization Classes
@@ -79,6 +84,8 @@ hybrid recipe (routing form):
 - [[concepts/parallel-metaheuristics-cooperative-search]]
 - [[concepts/variable-neighborhood-search]]
 - [[concepts/swarm-intelligence-pso-aco]]
+- [[references/pham2023-efficient-ga-quadratic-tsp]] — a GA (genetic operators) low-level hybridized with ruin-and-recreate LNS operators and local search: a metaheuristic-with-metaheuristic hybrid in this taxonomy.
+- [[references/pisinger2019-large-neighborhood-search]] — the chapter that underwrites the LNS/ALNS component of matheuristic hybrids and the hybrid-neighborhood conclusion (small + large combinations beat either alone).
 
 ## Open Questions
 

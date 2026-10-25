@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/beatty2014-financial-accounting-in-banking]]"
     type: related_to
+  - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
+    type: related_to
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -25,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-25T02:15:50Z
+updated: 2026-10-25T14:36:00Z
 ---
 
 # Accruals, cash flows, and operating profitability in the cross section of stock returns
@@ -73,6 +75,7 @@ Regression forms summarize the empirical specification family described in the e
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[references/beatty2014-financial-accounting-in-banking]] — same accrual-versus-cash valuation question in a regulated bank setting: Beatty/Harris/Holthausen/Zull (2014) shows loan-loss reporting lets managers manage earnings via loan-loss provisions and general reserves, so bank accruals carry information beyond cash flows, exactly the accruals-versus-cash-flows valuation gap CbOP exploits for stocks.
+- [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007 tests the accrual-versus-cash valuation gap in 20 countries: adding OCF deciles subsumes the accrual coefficient exactly in the four anomaly countries, the same subsumption ball2016 documents for CbOP in the US.
 
 ## Sources
 

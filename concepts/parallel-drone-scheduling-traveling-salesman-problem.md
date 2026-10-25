@@ -24,18 +24,17 @@ sources:
   - _papers/montemanni2024parallel/montemanni2024parallel.md
   - _papers/montemanni2024parallel/images/page_3_image_0.jpg
 summary: >-
-  Truck-and-parallel-drone routing problem minimizing makespan, typically solved
-  via giant-tour decomposition plus MILP/DP split assignment and local search.
+  Truck-and-parallel-drone routing minimizing makespan via giant-tour split, MILP/DP, local search; collective-drone variant PDSTSP-c extends it.
 provenance:
   extracted: 0.87
-  inferred: 0.11
-  ambiguous: 0.02
-base_confidence: 0.83
+  inferred: 0.13
+  ambiguous: 0.0
+base_confidence: 1.0
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-22T23:45:17Z
+updated: 2026-10-25T15:16:50Z
 ---
 
 # Parallel Drone Scheduling Traveling Salesman Problem (PDSTSP)
@@ -50,6 +49,7 @@ PDSTSP coordinates one truck and multiple depot-based drones to serve customers 
   1. build/improve a truck-oriented sequence,
   2. decode into truck/drone operations via MILP or DP-based split.
 - Local search then refines assignment and sequencing decisions.
+- In the collective-drone variant PDSTSP-c, drones connect in clusters of k ∈ {1,2,3} for one mission: the connected drone carries more payload and the group flies faster, captured by precomputed per-cluster mission times; CP-SAT plus a workload-balancing valid inequality gave first-ever lower bounds on all large instances and closed all small instances but three.
 
 ## Why It Matters
 
@@ -69,6 +69,7 @@ PDSTSP coordinates one truck and multiple depot-based drones to serve customers 
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[concepts/min-cost-tsp-with-drone]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
+- [[references/montemanni2024-parallel-collective-drones]]
 
 ## Open Questions
 
@@ -81,3 +82,6 @@ PDSTSP coordinates one truck and multiple depot-based drones to serve customers 
 - [[_papers/dellamico2020matheuristic/dellamico2020matheuristic.md]]
 - [[_papers/dinh2021ants/dinh2021ants-extracted.md]]
 - [[_papers/dinh2021ants/dinh2021ants.md]]
+- [[_papers/montemanni2024parallel/montemanni2024parallel-extracted.md]]
+- [[_papers/montemanni2024parallel/montemanni2024parallel.md]]
+- [[_papers/montemanni2024parallel/images/page_3_image_0.jpg]]

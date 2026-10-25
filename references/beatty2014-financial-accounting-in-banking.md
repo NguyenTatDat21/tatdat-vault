@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/negative-book-equity-style-classification]]"
     type: related_to
+  - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
+    type: related_to
 sources:
   - _papers/beatty2014financial/beatty2014financial-extracted.md
   - _papers/beatty2014financial/beatty2014financial.md
@@ -25,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-25T14:36:00Z
 ---
 
 # Financial Accounting in the Banking Industry — Empirical Literature Review
@@ -96,6 +98,7 @@ This decomposition is a synthesis device rather than a tested equation in the so
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[concepts/negative-book-equity-style-classification]]
+- [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007 shows earnings management via income-increasing accruals drives the anomaly in common-law markets, the stock-side counterpart of bank provisioning discretion catalogued here.
 
 ## Sources
 

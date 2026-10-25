@@ -128,3 +128,13 @@ title: Wiki Log
 - [2026-10-25T03:57:18Z] INGEST source="_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md + _papers/paradiso2020exact/paradiso2020exact-extracted.md" pages_created=0 pages_updated=2 mode=append
 - [2026-10-25T03:58:49Z] INGEST source="_papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md + _papers/ball2016accruals/ball2016accruals-extracted.md" pages_created=0 pages_updated=3 mode=append
 - [2026-10-25T03:58:49Z] INGEST source="_papers/chen2010shrinkage/chen2010shrinkage-extracted.md + _papers/clautiaux2018combining/clautiaux2018combining-extracted.md + _papers/bertsimas2022bootstrap/bertsimas2022bootstrap-extracted.md" pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T16:35:56Z] INGEST source=_papers/isik2023constraint/isik2023constraint-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T16:35:56Z] INGEST source=_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T16:35:57Z] INGEST source=_papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T16:35:57Z] INGEST source=_papers/kim2020profitability/kim2020profitability-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T16:35:57Z] INGEST source=_papers/ku2016mixed/ku2016mixed-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T14:37:00Z] INGEST source="_papers/pham2023efficient/pham2023efficient-extracted.md" pages_created=1 pages_updated=3 mode=append
+- [2026-10-25T14:37:00Z] INGEST source="_papers/phanduc2025pareto/phanduc2025pareto-extracted.md" pages_created=1 pages_updated=1 mode=append
+- [2026-10-25T14:37:00Z] INGEST source="_papers/pincus2007accrual/pincus2007accrual-extracted.md" pages_created=1 pages_updated=4 mode=append
+- [2026-10-25T14:37:00Z] INGEST source="_papers/pisinger2019large/pisinger2019large-extracted.md" pages_created=1 pages_updated=2 mode=append
+- [2026-10-25T14:37:00Z] INGEST source="_papers/qian2001conditional/qian2001conditional-extracted.md" pages_created=1 pages_updated=2 mode=append
