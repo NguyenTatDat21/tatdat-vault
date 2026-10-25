@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/metaheuristic-hybridization]]"
     type: related_to
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: uses
 sources:
   - _papers/pham2023efficient/pham2023efficient-extracted.md
   - _papers/pham2023efficient/pham2023efficient.md
@@ -102,6 +104,7 @@ Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = me
 - [[concepts/large-neighborhood-search]] — the ruin-and-recreate mutation is LNS-style destruction, adapted to a genetic setting where mutation is for diversification, not improvement.
 - [[references/pisinger2019-large-neighborhood-search]] — the LNS/ALNS chapter that defines destroy-repair design principles HGA borrows; the paper also cites Ropke & Pisinger 2006 for worst removal.
 - [[concepts/metaheuristic-hybridization]] — HGA is a population metaheuristic hybridized with local search and ruin-and-recreate operators.
+- [[concepts/large-neighborhood-ship-pair-destroy-repair]] — shares matheuristics + metaheuristics tags with this page
 
 ## Sources
 

@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[concepts/drone-speed-selection-in-routing]]"
+    type: uses
 sources:
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md
@@ -87,6 +89,7 @@ $$
 - [[references/cheng2020-drone-routing-energy-function]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
 - [[references/dorling2017-drone-delivery-vrp]]
+- [[concepts/drone-speed-selection-in-routing]] — shares drones + routing tags with this page
 
 ## Sources
 

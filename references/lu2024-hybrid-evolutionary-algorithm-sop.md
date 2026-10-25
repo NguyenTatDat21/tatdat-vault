@@ -11,6 +11,8 @@ relationships:
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
     type: related_to
+  - target: "[[references/archetti2018-set-orienteering-problem]]"
+    type: related_to
 sources:
   - _papers/lu2024effective/lu2024effective-extracted.md
   - _papers/lu2024effective/lu2024effective.md
@@ -39,7 +41,7 @@ updated: 2026-10-24T04:15:00Z
 
 ## Problem & Contribution
 
-The Set Orienteering Problem (SOP) maximizes collected cluster profit under a travel-time budget. Vertices are grouped into clusters, and a cluster contributes profit if at least one of its vertices is visited.
+[[references/archetti2018-set-orienteering-problem|The Set Orienteering Problem]] (SOP) maximizes collected cluster profit under a travel-time budget. Vertices are grouped into clusters, and a cluster contributes profit if at least one of its vertices is visited.
 
 The paper proposes an HEA tailored to SOP and positions it against existing SOP heuristics.
 

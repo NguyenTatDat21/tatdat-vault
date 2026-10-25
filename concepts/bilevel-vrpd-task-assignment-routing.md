@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
+    type: derived_from
+  - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
+    type: derived_from
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md
@@ -57,6 +61,11 @@ Related pages: [[references/yang2022-vrpd-bilevel-heuristic]], [[concepts/large-
 - Which assignment encodings best preserve useful route structure during crossover/mutation?
 - When does bi-level separation outperform single-level ALNS on larger, noisier urban instances? ^[inferred]
 
+
+## Related
+
+- [[references/montemanni2024-pdsvrp-collective-drones]] — shares drones + vrp tags with this page
+- [[references/nguyen2022-min-cost-pdsvrp]] — shares drones + vrp tags with this page
 ## Sources
 
 - [[_papers/yang2022solving/yang2022solving-extracted.md]]

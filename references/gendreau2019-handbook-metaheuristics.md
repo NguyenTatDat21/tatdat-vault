@@ -20,6 +20,8 @@ relationships:
     type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: related_to
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -66,7 +68,7 @@ This handbook consolidates core metaheuristic design patterns and compares how t
 
 - **Tabu Search (Chapter 2):** tabu tenure, multiple tabu lists per move type, aspiration rules (a tabu move is allowed when it beats the best known solution), candidate-list strategies for the admissible neighborhood, and granular tabu search keeping only short arcs.
 - **Variable Neighborhood Search (Chapter 3):** formal neighborhood-change logic (VND, RVNS, BVNS).
-- **Large Neighborhood Search (Chapter 4):** destroy/repair framing and ALNS-style adaptive operator control.
+- **[[references/pisinger2019-large-neighborhood-search|Large Neighborhood Search]] (Chapter 4):** destroy/repair framing and ALNS-style adaptive operator control.
 - **Intelligent Multi-Start (Chapter 7, Martí et al.):** re-starts for diversification against local optimality, classified by degree of randomization, memory, and rebuild; the term **Adaptive Memory Programming** was launched by multi-start tabu search. Memory-based variants (tabu search, GRASP, Analytical Randomized Tabu Search with short/long-term memory, path relinking to elite solutions, persistent attractiveness, strategic oscillation dismantling solutions to a variable degree), plus **GRASP** (Feo & Resende): each iteration = adaptive greedy construction, adding elements guided by a greedy function with randomized choice from a candidate list, then local search to a local optimum; path relinking between an improved solution and an elite guiding solution, reactive GRASP self-adjusting the candidate-list restriction parameter, and GRASP-with-path-relinking finding target solutions faster than memoryless GRASP (three-index assignment, MAXSAT, bandwidth packing, QAP).
 - **Parallel Metaheuristics (Chapter 13, Crainic):** goals are speed/larger instances plus robustness across heterogeneous environments; cooperative multi-search is markedly more robust than sequential metaheuristics. Taxonomy along three dimensions: search-control cardinality (1C/pC), control & communications (synchronous RS/KS, asynchronous C/KC, KC derives new knowledge), search differentiation (SPSS/SPDS/MPSS/MPDS — same or multiple initial points, same or different strategies). Low-level master–slave schemes (neighborhood evaluation, fitness, ant construction, scatter-search subsets) give spectacular GPU speedups, but multi-search beats them in quality; hierarchical CPU+GPU settings are the practical pattern. [[concepts/parallel-metaheuristics-cooperative-search]]
 - **Hyper-Heuristics (Chapter 14, Burke et al.):** a hyper-heuristic is a high-level strategy operating on a search space of heuristics, not of solutions; the term was coined in 1997 (automated theorem proving) and independently in 2000 for 'heuristics to choose heuristics'. Classification: heuristic **selection** vs **generation** (from components/search trails), constructive vs perturbation pools, online (learning on the single instance), offline (rules generalizing from training instances), no learning; perturbation hyper-heuristics combine selection + move acceptance, with single-point incumbents in the majority. [[concepts/hyper-heuristics]]

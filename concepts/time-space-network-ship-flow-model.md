@@ -24,6 +24,10 @@ relationships:
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: related_to
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: derived_from
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
+    type: derived_from
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -84,7 +88,7 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 
 - The network makes ship routes, inventory and berth competition linear, so the model supports **supply-chain design analysis** — the paper's stated purpose — including the two extensions: inventory smoothening (maximize production inventory, minimize regasification inventory under an objective ceiling $\hat z^*+g$) and boundary-effect analysis (initial inventories and ship positions as decision variables).
 - Discrete daily discretization is the price of this linearity: the number of nodes grows with the horizon, so a 365-day problem with 69 ships produces a quarter of a million binaries.^[extracted]
-- The waiting/travel decomposition plus the path-cover constraint is the symmetry-reduction device that keeps the model solvable enough for large-neighborhood search; see [[concepts/large-neighborhood-ship-pair-destroy-repair]].
+- The waiting/travel decomposition plus the path-cover constraint is the symmetry-reduction device that keeps the model solvable enough for [[references/pisinger2019-large-neighborhood-search|large-neighborhood search]]; see [[concepts/large-neighborhood-ship-pair-destroy-repair]].
 - The same location-by-day network underlies time-expanded routing formulations such as [[references/paradiso2020-esf-multitrip-vrptw]] and discretized continuous-time models such as [[references/boland2017-continuous-time-service-network-design]].
 
 ## Related
@@ -99,6 +103,7 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
+- [[references/mutlu2016-lng-annual-delivery-program]] — shares lng + maritime tags with this page
 
 ## Open Questions
 

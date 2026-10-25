@@ -10,6 +10,10 @@ relationships:
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
+  - target: "[[references/ha2018-min-cost-tsp-d]]"
+    type: derived_from
+  - target: "[[references/montemanni2023-cp-pdsvrp]]"
+    type: derived_from
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
   - _papers/tamke2023vehicle/tamke2023vehicle.md
@@ -46,6 +50,11 @@ Related pages: [[references/tamke2023-vrpd-dss]], [[concepts/k-multi-visit-drone
 - How stable are optimal speed profiles when weather-dependent energy models are introduced?
 - Which speed-discretization granularity gives most of the value without exploding MILP size? ^[inferred]
 
+
+## Related
+
+- [[references/ha2018-min-cost-tsp-d]] — shares drones + optimization tags with this page
+- [[references/montemanni2023-cp-pdsvrp]] — shares drones + optimization tags with this page
 ## Sources
 
 - [[_papers/tamke2023vehicle/tamke2023vehicle-extracted.md]]

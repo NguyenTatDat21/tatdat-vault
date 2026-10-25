@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-parallel-collective-drones]]"
     type: related_to
+  - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+    type: derived_from
 sources:
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic.md
@@ -70,6 +72,7 @@ PDSTSP coordinates one truck and multiple depot-based drones to serve customers 
 - [[concepts/min-cost-tsp-with-drone]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
 - [[references/montemanni2024-parallel-collective-drones]]
+- [[references/torabbeigi2020-payload-bcr-drone-scheduling]] — shares drones + scheduling tags with this page
 
 ## Open Questions
 

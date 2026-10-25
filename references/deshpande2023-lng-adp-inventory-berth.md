@@ -15,6 +15,8 @@ relationships:
     type: extends
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: extends
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
 sources:
   - _papers/deshpande2023optimal/deshpande2023optimal-extracted.md
   - _papers/deshpande2023optimal/deshpande2023optimal.md
@@ -79,6 +81,7 @@ The formulation is slot-based and integrates:
 - [[references/al-haidous2016-optimal-lng-deliveries]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
+- [[concepts/time-space-network-ship-flow-model]] — shares lng + maritime + mixed-integer-programming tags with this page
 
 ## Bibliographic Record
 

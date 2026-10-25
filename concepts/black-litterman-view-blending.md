@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: derived_from
 sources:
   - _papers/he2002intuition/he2002intuition-extracted.md
   - _papers/he2002intuition/he2002intuition.md
@@ -82,6 +84,7 @@ flowchart LR
 - [[references/he2002-black-litterman-intuition]]
 - [[references/idzorek20072-bl-confidence-levels]]
 - [[concepts/ordering-information-portfolio-selection]]
+- [[references/qian2001-conditional-distribution-portfolio-theory]] — shares black-litterman + portfolio-optimization tags with this page
 
 ## Sources
 

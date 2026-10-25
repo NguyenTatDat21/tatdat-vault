@@ -10,6 +10,8 @@ relationships:
     type: extends
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: related_to
+  - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
+    type: uses
 sources:
   - _papers/archetti2023new/archetti2023new-extracted.md
   - _papers/archetti2023new/archetti2023new.md
@@ -81,6 +83,7 @@ $$
 - [[references/archetti2018-set-orienteering-problem]]
 - [[references/lu2024-hybrid-evolutionary-algorithm-sop]]
 - [[concepts/tabu-search]]
+- [[concepts/cooperative-multi-agent-uav-routing]] — shares orienteering + routing tags with this page
 
 ## Sources
 

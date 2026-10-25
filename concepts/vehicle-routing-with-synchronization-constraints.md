@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"
     type: related_to
+  - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
+    type: derived_from
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md
@@ -54,6 +56,10 @@ Related pages: [[references/hojabri2018-vrp-synchronization-alns-cp]], [[concept
 - Which synchronization-rich domains benefit most from exact CP-based reinsertion versus faster heuristic repairs?
 - How should robustness to stochastic delays be layered onto deterministic synchronization windows? ^[inferred]
 
+
+## Related
+
+- [[references/montemanni2024-pdsvrp-collective-drones]] — shares constraint-programming + vrp tags with this page
 ## Sources
 
 - [[_papers/hojabri2018large/hojabri2018large-extracted.md]]

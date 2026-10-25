@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: related_to
+  - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+    type: derived_from
 sources:
   - _papers/nguyen2022mincost/nguyen2022mincost-extracted.md
   - _papers/nguyen2022mincost/nguyen2022mincost.md
@@ -55,6 +57,10 @@ Related pages: [[references/nguyen2022-min-cost-pdsvrp]], [[concepts/min-cost-ts
 - How should min-cost PDSVRP be reformulated when payload-dependent drone energy is explicit instead of preprocessed eligibility?
 - Which robust/stochastic extensions best preserve solution quality under uncertain travel times and demand? ^[inferred]
 
+
+## Related
+
+- [[references/torabbeigi2020-payload-bcr-drone-scheduling]] — shares drones + scheduling tags with this page
 ## Sources
 
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted.md]]

@@ -8,6 +8,10 @@ relationships:
     type: uses
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: derived_from
+  - target: "[[references/montemanni2023-cp-pdsvrp]]"
+    type: derived_from
+  - target: "[[references/montemanni2024-parallel-collective-drones]]"
+    type: derived_from
 sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
 summary: >-
   A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models.
@@ -44,6 +48,11 @@ Related pages: [[concepts/pdsvrp-c]] and [[references/montemanni2024-pdsvrp-coll
 - Which variable subsets are most valuable to hint (routing arcs, timing, or assignment) for CP-SAT in mixed truck/drone models?
 - Does hint quality correlate linearly with final gap closure, or are there threshold effects? ^[inferred]
 
+
+## Related
+
+- [[references/montemanni2023-cp-pdsvrp]] — shares constraint-programming + cp-sat tags with this page
+- [[references/montemanni2024-parallel-collective-drones]] — shares constraint-programming + cp-sat tags with this page
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]

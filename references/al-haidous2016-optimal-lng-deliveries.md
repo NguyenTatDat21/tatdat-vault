@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
+  - target: "[[concepts/maritime-inventory-routing-problem]]"
+    type: uses
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
 sources:
   - _papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md
   - _papers/al-haidous2016optimal/al-haidous2016optimal.md
@@ -86,6 +90,8 @@ $$
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
 - [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[concepts/maritime-inventory-routing-problem]] — shares inventory-routing + maritime tags with this page
+- [[concepts/time-space-network-ship-flow-model]] — shares lng + maritime + mixed-integer-programming tags with this page
 
 ## Sources
 

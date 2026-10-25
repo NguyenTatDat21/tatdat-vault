@@ -10,6 +10,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
+  - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
+    type: derived_from
 sources:
   - _papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md
   - _papers/poikonen2020multivisit/poikonen2020multivisit.md
@@ -49,6 +51,10 @@ Related pages: [[references/poikonen2020-k-mvdrp]], [[concepts/pdsvrp-c]], [[ref
 - What assignment rule inside each operation best balances quality and runtime beyond block partitioning?
 - Which lower-bound family can jointly capture synchronization wait and battery/range effects tightly enough for stronger guarantees? ^[inferred]
 
+
+## Related
+
+- [[references/nguyen2022-min-cost-pdsvrp]] — shares drones + vrp tags with this page
 ## Sources
 
 - [[_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md]]
