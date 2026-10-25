@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-25T01:26:23Z
+updated: 2026-10-25T03:13:00Z
 pages: 342
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] INGEST source=_papers/goel2012large/goel2012large-extracted.md pages_created=0 pages_updated=2 ...
-- [2026-10-25] INGEST source=_papers/goel2015constraint/goel2015constraint-extracted.md pages_created=0 pages_updated=1 ...
-- [2026-10-25] INGEST source=_papers/fuertes2023solving/fuertes2023solving-extracted.md pages_created=0 pages_updated=1 ...
+- [2026-10-25] INGEST source=_papers/yang2022solving/yang2022solving-extracted.md pages_created=0 pages_updated=2 ...
+- [2026-10-25] INGEST source=_papers/hendel2022adaptive/hendel2022adaptive-extracted.md pages_created=0 pages_updated=2 ...
+- [2026-10-25] INGEST source=_papers/brown2007going/brown2007going-extracted.md pages_created=0 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Fuertes cooperative UAV page: Fig. 1 caption rewritten verbatim from source; lost-agents resilience bullet marked inferred (source has no resilience discussion); FCM-vs-KMeans claim, Table 4 rewards (92.93/89.70, 149.54/99.90), t_max half-node normalization, MTZ subtour elimination all verified with zero changes.
+Corrected the growth wording, verified style-portfolio and HML numbers, kept the 68 percent post-1990s figure, and confirmed two image captions verbatim.
 
 ## Flagged Contradictions
 

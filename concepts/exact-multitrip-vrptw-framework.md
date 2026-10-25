@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:15:49Z
-updated: 2026-10-22T09:15:49Z
+updated: 2026-10-25T03:40:00Z
 ---
 
 # Exact Multitrip VRPTW Framework
@@ -36,6 +36,9 @@ The ESF pattern solves multitrip VRPs with time windows by modeling route **stru
 - Build an exact formulation around route structures, not only classical trip/journey indexing.
 - Use lower bounds early to prune weak structures (`P1` CVRPTW-based and `P2` relaxed-structure based).
 - Inject subset-row inequalities and branch-and-cut logic on the reduced model.
+
+![[_papers/paradiso2020exact/images/page_9_image_13.jpg]]
+*Figure 1 (paper): "Example of a Support Graph with Six Structures" — structures are the nodes of a support graph; arcs encode time-compatible structure sequencing.*
 - Reuse the framework across closely related variants (loading durations, release dates, DRP adaptation) with limited redesign.
 
 This architecture shifts effort from pure monolithic MIP solving toward a decomposition-like pipeline that controls combinatorial growth in larger instances. ^[inferred]
@@ -51,3 +54,4 @@ Related pages: [[references/paradiso2020-esf-multitrip-vrptw]], [[references/poi
 
 - [[_papers/paradiso2020exact/paradiso2020exact-extracted.md]]
 - [[_papers/paradiso2020exact/paradiso2020exact.md]]
+- [[_papers/paradiso2020exact/images/page_9_image_13.jpg]]

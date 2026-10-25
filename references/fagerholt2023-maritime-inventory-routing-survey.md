@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-25T03:07:55Z
 ---
 
 # Maritime Inventory Routing: Recent Trends and Future Directions (Fagerholt et al., 2023)
@@ -68,10 +68,10 @@ The modeling choice is what a node means:
 Counts in the survey: 30 of 53 papers use discrete time, 27 continuous, 4 use both. Guidance: choose continuous time when the problem is steady-state, has one berth per port, and warrants a bespoke model; choose discrete time otherwise.
 
 ![[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
-*Fig. 1 (paper): time-expanded network for one vessel — travel arcs encode voyage duration (three periods), waiting and exit arcs complete the graph; port operations are handled by constraints, not by the network.*
+*Fig. 1 (paper): "Time-expanded (or time-space) network for an individual vessel first available at port i in time period 1 and at port j in time period 2." Travel arcs encode voyage duration (three periods in the example), and the network does not depict port operations — these are handled via constraints.*
 
 ![[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]
-*Fig. 2 (paper): the same instance as a continuous-time network of (port, visit-number) nodes — port i can be visited twice, port j once.*
+*Fig. 2 (paper): "An instance and solution for a continuous-time model for MIRP." Nodes are (port, visit-number) pairs with a port-visit cap set by a parameter, one berth per port, production/consumption rates constant over the horizon.*
 
 ## Alternative Formulations Seen
 
@@ -105,7 +105,7 @@ Benchmarks: **MIRPLIB** (mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB i
 1. **New cargoes**: hydrogen, ammonia, liquefied CO$_2$ — including dual-use backhaul (cargo in, fuel out).
 2. **Holistic supply chains** mixing maritime and land IRP in one model.
 3. **Machine learning**: offline learning to strengthen models, RL / approximate dynamic programming online (Papageorgiou et al. 2015 was the first RL use in MIRP).
-4. **Compute**: parallel CPU/GPU, quantum computing (Harwood et al. 2021 recast IRP as VRPTW for annealers).
+4. **Compute**: parallel CPU/GPU, quantum computing (Harwood et al. 2021 assessed IRP formulations from a quantum-computing perspective after recasting them as VRPTW); Munguía et al. 2019's parallel alternating criteria search, a LNS-based primal heuristic, ran on a 96-core cluster.
 5. **Speed optimization and emissions** (Eide et al. 2020; Norstad et al. 2011); IMO carbon-intensity regulation targets −40% by 2030 and −70% by 2050 vs 2008.
 6. **Standardized instances plus an open-source simulation framework** for open-ended, dynamic, stochastic MIRP — uncertainty modeling is described as being in its infancy.
 7. A **finer MIRP taxonomy**: load-then-unload route structure, route length / number of port calls, product separation, speed, uncertainty, time-varying parameters, hard vs soft inventory constraints, fleet homogeneity and chartering, short-sea vs deep-sea.

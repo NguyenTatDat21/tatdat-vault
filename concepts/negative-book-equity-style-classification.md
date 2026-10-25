@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
+  - target: "[[references/beatty2014-financial-accounting-in-banking]]"
+    type: related_to
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md
@@ -23,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:17:00Z
-updated: 2026-10-22T21:17:00Z
+updated: 2026-10-24T11:01:08Z
 ---
 
 # Negative-Book-Equity Style Classification
@@ -47,6 +49,7 @@ Negative-book-equity style classification maps firms with negative book equity i
 - [[references/brown2007-negative-book-equity-stocks]]
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[concepts/cash-based-operating-profitability]]
+- [[references/beatty2014-financial-accounting-in-banking]]
 - [[concepts/ordering-information-portfolio-selection]]
 
 ## Open Questions

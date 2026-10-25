@@ -17,7 +17,7 @@ relationships:
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
-summary: "Handbook Ch. 12 classification of metaheuristic hybrids into four classes, plus two working patterns: exact solution merging, and relaxation-guided search."
+summary: "Handbook Ch. 12 taxonomy of metaheuristic hybrids by four criteria, plus two working patterns: exact solution merging, and relaxation-guided search."
 provenance:
   extracted: 0.86
   inferred: 0.11
@@ -27,12 +27,12 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-24T04:37:31Z
+updated: 2026-10-25T01:12:00Z
 ---
 
 # Metaheuristic Hybridization Classes
 
-Chapter 12 (Raidl & Puchinger) organizes hybrids of metaheuristics with other techniques into four categories: **solution-based** (global hybrids exchange and combine search results between metaheuristics; phase hybrids embed a metaheuristic as local heuristic inside an exact algorithm, e.g. within branch-and-bound), **objective-evaluation-based** (surrogate evaluation, e.g. simulated phylogeny for phylogenetic tree search), **system-based** (hybridized metaheuristics embedded in software infrastructures such as grid computing), and **operator-based** (new operators like gene pool management). The two patterns that carry weight in routing practice: exact solution merging, and relaxation-guided search.
+Chapter 12 (Raidl, Puchinger & Blum) distinguishes hybrid metaheuristics by **four criteria**: the kinds of algorithms hybridized (metaheuristics with metaheuristics; with problem-specific algorithms such as entire simulations; with general OR/AI techniques — exact methods like branch-and-bound, dynamic programming, LP/MIP, nonlinear programming, constraint programming, SAT-solving, and soft-computing methods like neural networks, fuzzy logic, and statistical techniques), the **level of hybridization** (high-level keeps algorithm identities with a defined interface; low-level mixes components and functions), the **order of execution** (batch, sequential, intertwined, parallel), and the **control strategy** (integrative/coercive vs collaborative/cooperative). The two patterns that carry weight in routing practice: exact solution merging, and relaxation-guided search.
 
 ## Core Structure
 
@@ -63,12 +63,12 @@ hybrid recipe (routing form):
 
 ## Why It Matters
 
-- It is the taxonomy to name a hybrid by: "LNS + SA", "ALNS + MIP repair", "VND guided by LP relaxations", "CMSA", "set-covering merging" all map to classes here, which is how you compare methods across papers.
+- It is the taxonomy to name a hybrid by: "LNS + SA", "ALNS + MIP repair", "VND guided by LP relaxations", "CMSA", "set-covering merging" all map to criteria here, which is how you compare methods across papers.
 - It says exact merging is the strong move: fixing consensus variables and calling the solver is stronger than heuristic blending (Hachemi's conclusion), which is the design principle behind the ALNS-for-MIP pattern and the Goel ship-scheduling LNS. ^[inferred]
 - Relaxation-guided ordering is the cheapest speedup: it requires only a relaxation solve per neighborhood and directly improves which neighborhood to search.
-- It positions branch-and-bound as a metaheuristic *component*, not just an exact method — phase hybrids are where matheuristics live.
+- It positions branch-and-bound as a metaheuristic *component*, not just an exact method: B&B relies on good bounds, and metaheuristics supply promising initial/intermediate solutions for tighter bounds — which is where matheuristics live.
 - Bound-guided crossover is the transferable trick for permutation-encoded problems: compute a bound per partial solution, cut where the bound breaks.
-- The objective-evaluation class warns that surrogate objectives change what is being optimized; any learned/surrogate objective needs validation against the true one. ^[inferred]
+- The kinds-of-algorithms criterion includes surrogate/problem-specific evaluators (e.g. entire simulations used to score candidate solutions); any learned/surrogate objective changes what is being optimized and needs validation against the true one. ^[inferred]
 
 ## Related
 

@@ -19,7 +19,7 @@ summary: >-
 provenance:
   extracted: 0.90
   inferred: 0.07
-  ambiguous: 0.02
+  ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -34,7 +34,7 @@ updated: 2026-10-24T11:01:08Z
 
 ## Problem & Motivation
 
-Traditional Fama-French value sorting excludes firms with negative book equity (BE), even though these firms increasingly appear in public markets: the number of negative-BE stocks stays below 100 until 1985 and rises sharply from 1986, reaching roughly 5% of all listed stocks. The paper tests whether this exclusion biases style-factor construction and return estimates.\n
+Traditional Fama-French value sorting excludes firms with negative book equity (BE), even though these firms increasingly appear in public markets: the number of negative-BE stocks stays below 100 until 1985 and rises sharply from 1986, reaching roughly 5% of all listed stocks. The paper tests whether this exclusion biases style-factor construction and return estimates.
 ![[/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/images/page_5_chart_2.jpg]]
 
 *Fig. 1 (paper): Number of negative BE Stocks.* Shaded areas denote recession periods as defined by the NBER.

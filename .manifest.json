@@ -78,10 +78,9 @@
     },
     "_papers/archetti2023new/archetti2023new-extracted.md": {
       "content_hash": "babdf3b89167615cf53ac53d502c5dca012a2794f68c6f044bcc611b5c64784a",
-      "last_ingested": "2026-10-22T19:36:29.994710+00:00",
+      "last_ingested": "2026-10-25T03:21:30.617187+00:00",
       "pages_produced": [
-        "references/archetti2023-branch-and-cut-sop.md",
-        "concepts/set-orienteering-problem.md"
+        "/home/tatdatnguyen/tatdat-vault/references/archetti2023-branch-and-cut-sop.md"
       ]
     },
     "_papers/archetti2023new/archetti2023new.md": {
@@ -170,9 +169,9 @@
     },
     "_papers/beatty2014financial/beatty2014financial-extracted.md": {
       "content_hash": "625e0db6a7ecda05ce2ddbbef534bae97e52aef38879a6ef35e70ff173beebaa",
-      "last_ingested": "2026-10-22T19:58:08.437947+00:00",
+      "last_ingested": "2026-10-25T03:21:30.630041+00:00",
       "pages_produced": [
-        "references/beatty2014-financial-accounting-in-banking.md"
+        "/home/tatdatnguyen/tatdat-vault/references/beatty2014-financial-accounting-in-banking.md"
       ]
     },
     "_papers/beatty2014financial/beatty2014financial.md": {
@@ -256,10 +255,10 @@
     },
     "_papers/brown2007going/brown2007going-extracted.md": {
       "content_hash": "98f64541b525d9fdfe82d60d75fc58c100333a293df28fb2ad91ba532f3ab6f3",
-      "last_ingested": "2026-10-22T20:41:41.978161+00:00",
+      "last_ingested": "2026-10-25T03:21:30.641558+00:00",
       "pages_produced": [
-        "references/brown2007-negative-book-equity-stocks.md",
-        "concepts/negative-book-equity-style-classification.md"
+        "/home/tatdatnguyen/tatdat-vault/references/brown2007-negative-book-equity-stocks.md",
+        "/home/tatdatnguyen/tatdat-vault/concepts/negative-book-equity-style-classification.md"
       ]
     },
     "_papers/brown2007going/brown2007going.md": {
@@ -368,12 +367,9 @@
     },
     "_papers/christiansen2013ship/christiansen2013ship-extracted.md": {
       "content_hash": "4aeefb415e6ab2354e91b94bd1efa32537e3b8623685493e1a46a40ad9cf50c1",
-      "last_ingested": "2026-10-22T23:22:03.613620+00:00",
+      "last_ingested": "2026-10-25T03:21:30.654353+00:00",
       "pages_produced": [
-        "references/christiansen2013-ship-routing-scheduling-new-millennium.md",
-        "concepts/maritime-inventory-routing-problem.md",
-        "concepts/liner-shipping-network-design.md",
-        "concepts/maritime-routing-under-uncertainty.md"
+        "/home/tatdatnguyen/tatdat-vault/references/christiansen2013-ship-routing-scheduling-new-millennium.md"
       ]
     },
     "_papers/christiansen2013ship/christiansen2013ship.md": {
@@ -466,9 +462,9 @@
     },
     "_papers/dorling2017vehicle/dorling2017vehicle-extracted.md": {
       "content_hash": "e9a1c91ad6ce45b89f31c51279432feb3b33c40d074193ed3e3996494a6dc4d1",
-      "last_ingested": "2026-10-22T23:52:45.638368+00:00",
+      "last_ingested": "2026-10-25T03:21:30.667712+00:00",
       "pages_produced": [
-        "references/dorling2017-drone-delivery-vrp.md"
+        "/home/tatdatnguyen/tatdat-vault/references/dorling2017-drone-delivery-vrp.md"
       ]
     },
     "_papers/dorling2017vehicle/dorling2017vehicle.md": {
@@ -647,14 +643,9 @@
     },
     "_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md": {
       "content_hash": "c8a02387fba4d215e19681a71739a103e70a8214f474a251a18ac8059bb841e4",
-      "last_ingested": "2026-10-24T07:38:17.575336+00:00",
+      "last_ingested": "2026-10-25T03:21:30.680580+00:00",
       "pages_produced": [
-        "concepts/multi-objective-maritime-cargo-routing-scheduling",
-        "concepts/fuzzy-weighted-max-min-scalarization",
-        "concepts/green-vehicle-routing-problem-taxonomy",
-        "concepts/nonlinear-drone-energy-function-in-routing",
-        "concepts/payload-induced-drone-battery-consumption-rate",
-        "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
+        "/home/tatdatnguyen/tatdat-vault/references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md"
       ]
     },
     "_papers/ganjia2026multiobjective/ganjia2026multiobjective.md": {
@@ -931,10 +922,10 @@
     },
     "_papers/hendel2022adaptive/hendel2022adaptive-extracted.md": {
       "content_hash": "fe569d6fc052c69af0b3931883d74360683b95168f81babf917d201dad340338",
-      "last_ingested": "2026-10-22T18:14:27.031542+00:00",
+      "last_ingested": "2026-10-25T03:21:30.689055+00:00",
       "pages_produced": [
-        "references/hendel2022-adaptive-lns-for-mip.md",
-        "concepts/adaptive-large-neighborhood-search-for-mip.md"
+        "/home/tatdatnguyen/tatdat-vault/references/hendel2022-adaptive-lns-for-mip.md",
+        "/home/tatdatnguyen/tatdat-vault/concepts/adaptive-large-neighborhood-search-for-mip.md"
       ]
     },
     "_papers/hendel2022adaptive/hendel2022adaptive.md": {
@@ -1286,10 +1277,9 @@
     },
     "_papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md": {
       "content_hash": "51fdb8c4d80c185dadebf225b0af9468e6d9d07b32b1eebe037e6fe8e1718b0d",
-      "last_ingested": "2026-10-22T18:14:28.264555+00:00",
+      "last_ingested": "2026-10-25T03:21:30.705003+00:00",
       "pages_produced": [
-        "references/mutlu2016-lng-annual-delivery-program.md",
-        "concepts/annual-lng-delivery-program.md"
+        "/home/tatdatnguyen/tatdat-vault/references/mutlu2016-lng-annual-delivery-program.md"
       ]
     },
     "_papers/mutlu2016comprehensive/mutlu2016comprehensive.md": {
@@ -1521,10 +1511,10 @@
     },
     "_papers/yang2022solving/yang2022solving-extracted.md": {
       "content_hash": "4bde83238fe11d829eaa174447d9999d9bfbeb9774af93fbb61f3f359932e928",
-      "last_ingested": "2026-10-22T18:14:29.491890+00:00",
+      "last_ingested": "2026-10-25T03:21:30.721967+00:00",
       "pages_produced": [
-        "references/yang2022-vrpd-bilevel-heuristic.md",
-        "concepts/bilevel-vrpd-task-assignment-routing.md"
+        "/home/tatdatnguyen/tatdat-vault/references/yang2022-vrpd-bilevel-heuristic.md",
+        "/home/tatdatnguyen/tatdat-vault/concepts/bilevel-vrpd-task-assignment-routing.md"
       ]
     },
     "_papers/yang2022solving/yang2022solving.md": {

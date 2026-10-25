@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-24T12:28:15Z
+updated: 2026-10-25T01:47:51Z
 ---
 
 # Multi-visit Drone Routing Problem (Poikonen & Golden, 2020)

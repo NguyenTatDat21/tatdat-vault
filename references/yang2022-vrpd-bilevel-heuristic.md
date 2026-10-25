@@ -22,10 +22,6 @@ sources:
   - _papers/yang2022solving/images/page_4_image_8.jpg
   - _papers/yang2022solving/images/page_5_chart_0.jpg
   - _papers/yang2022solving/images/page_5_chart_2.jpg
-  - _papers/yang2022solving/images/page_2_image_0.jpg
-  - _papers/yang2022solving/images/page_4_image_8.jpg
-  - _papers/yang2022solving/images/page_5_chart_0.jpg
-  - _papers/yang2022solving/images/page_5_chart_2.jpg
 summary: >-
   Introduces a bi-level VRPD heuristic that combines BSO assignment and ALNS routing to reduce customer waiting time in multi-truck, multi-station drone delivery.
 provenance:
@@ -54,7 +50,7 @@ The paper studies a VRPD variant with:
 
 Assumptions: UAV stations are placed in densely populated communities, trucks unload parcels at stations so they need not visit every customer, and each customer is served exactly once by truck or drone. Flight-range areas of different stations do not overlap, so each UAV-serviceable customer maps to one station, and each UAV carries one parcel per trip, returning to its station before the next customer. Customers outside any station range are Truck-Only Customers (TOC), the rest are UAV-Serviceable Customers (USC), and become Truck-Responsible (TRC) or UAV-Responsible (URC) once assigned.
 
-![[//home/tatdatnguyen/tatdat-vault/_papers/yang2022solving/images/page_1_image_6.jpg]]
+![[_papers/yang2022solving/images/page_1_image_6.jpg]]
 
 *Fig. 1 (paper): A delivery scenario*
 
@@ -66,7 +62,7 @@ $$
 
 where $t_{toc}$ is the waiting time of a truck-only customer and $t_{usc}$ the waiting time of a UAV-serviceable customer of station $s$. The paper extends the TSP-DS model to multiple trucks and multiple drone stations.
 
-![[//home/tatdatnguyen/tatdat-vault/_papers/yang2022solving/images/page_2_image_0.jpg]]
+![[_papers/yang2022solving/images/page_2_image_0.jpg]]
 
 *Fig. 2 (paper): Calculation of the sum of customer waiting times*
 ## Method / Architecture

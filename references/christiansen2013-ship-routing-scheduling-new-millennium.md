@@ -13,12 +13,10 @@ relationships:
     type: related_to
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
-  - target: "[[references/layzb2020-vessel-scheduling-maritime-inventory-routing]]"
-    type: related_to
 sources:
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship.md
-summary: "Fourth instalment of the ship routing survey series, covering 2002–2011: four basic models, liner network design and fleet deployment formulations, and evidence that papers and outlets double each decade."
+summary: "Fourth instalment of the ship routing survey series, covering 2002-2011: four basic models, liner network design and fleet deployment, and evidence that papers and outlets double each decade."
 provenance:
   extracted: 0.91
   inferred: 0.07
@@ -96,7 +94,6 @@ with demand satisfaction, frequency, vessel-availability, voyage-time, lay-up an
 - [[references/christiansen2007-maritime-transportation-operations-research]]
 - [[references/christiansen2020-liner-shipping-network-design]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
-- [[references/layzb2020-vessel-scheduling-maritime-inventory-routing]]
 - [[concepts/maritime-inventory-routing-problem]]
 - [[concepts/liner-shipping-network-design]]
 - [[concepts/maritime-routing-under-uncertainty]]

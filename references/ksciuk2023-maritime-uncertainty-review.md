@@ -29,12 +29,12 @@ provenance:
   extracted: 0.83
   inferred: 0.14
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-25T03:22:31Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)
@@ -61,10 +61,12 @@ Uncertainty dimensions repeatedly discussed include demand variation, travel/por
 A central conclusion is the gap between optimization advances and practical deployment.
 
 Reported reasons include:
-- limited/fragmented data quality for uncertainty modeling;
-- integration and implementation risk in existing planning stacks;
-- difficulty of evaluating ROI for richer stochastic models;
-- complexity of scenario generation and model maintenance.
+Reported reasons include:
+- limited and fragmented data, plus a need for stronger forecasting (outdated origin-destination demand matrices, never-sailed port pairs with no travel-time data);
+- integration/implementation risk (method, data, and result risk, including career risk for the employees proposing the system, and scaling concerns);
+- difficulty measuring success — no clean baseline, so reliability gains cannot be A/B-tested against business benefit;
+- methodological complexity: many 'moving parts', few usable out of the box, two-stage models tractable only as deterministic equivalents for small models;
+- scenario generation: representing high-dimensional uncertainty with discrete scenarios degrades computational efficiency as scenarios grow, requiring in-sample/out-of-sample stability (Kaut & Wallace 2003).
 
 The paper highlights buffering and decomposition-style planning as common practical mitigations when full stochastic optimization is not deployed.
 
@@ -95,7 +97,7 @@ Some recommendations imply a shift toward hybrid decision pipelines (forecasting
 - DOI: `10.1016/j.ejor.2022.08.006`
 - Canonical URL: <https://www.sciencedirect.com/science/article/pii/S0377221722007032>
 - Publication: *European Journal of Operational Research* (2023)
-- Authors: Tomasz Ksciuk; Franziska Kuhlemann; Kevin Tierney; Achim Koberstein
+- Authors: Jana Ksciuk; Stefan Kuhlemann; Kevin Tierney; Achim Koberstein
 - Companion metadata note: [[_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md]]
 
 ## Sources

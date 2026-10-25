@@ -10,6 +10,8 @@ relationships:
     type: extends
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-22T09:52:03Z
+updated: 2026-10-24T11:01:08Z
 ---
 
 # Bi-level VRPD Task Assignment and Routing

@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T03:00:25Z
+updated: 2026-10-25T01:47:51Z
 ---
 
 # Large Neighborhood Search for LNG Inventory Routing (Goel, Furman, Song & El-Bakry, 2012)

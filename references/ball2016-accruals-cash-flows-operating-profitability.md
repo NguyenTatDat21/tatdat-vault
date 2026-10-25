@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
     type: related_to
+  - target: "[[references/beatty2014-financial-accounting-in-banking]]"
+    type: related_to
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -23,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-25T02:15:50Z
 ---
 
 # Accruals, cash flows, and operating profitability in the cross section of stock returns
@@ -58,7 +60,7 @@ Regression forms summarize the empirical specification family described in the e
 | Accruals alone | t-value -3.90 |
 | CbOP alone | t-value 9.69 |
 | CbOP + accruals joint test | CbOP t-value 7.40; accruals t-value 0.34 |
-| Portfolio implication | Sharpe ratio improves by about 40% when moving to CbOP-based factor design |
+| Portfolio implication | Annualized Sharpe ratio of the profitability strategy increases by almost 40% (t-value 4.6) when moving from accruals-based OP to CbOP; in opportunity-set tests, CbOP alone beats adding both accruals and OP factors (1.67 vs 1.54) |
 
 ## Limitations
 
@@ -70,6 +72,7 @@ Regression forms summarize the empirical specification family described in the e
 - [[concepts/cash-based-operating-profitability]]
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
+- [[references/beatty2014-financial-accounting-in-banking]] — same accrual-versus-cash valuation question in a regulated bank setting: Beatty/Harris/Holthausen/Zull (2014) shows loan-loss reporting lets managers manage earnings via loan-loss provisions and general reserves, so bank accruals carry information beyond cash flows, exactly the accruals-versus-cash-flows valuation gap CbOP exploits for stocks.
 
 ## Sources
 

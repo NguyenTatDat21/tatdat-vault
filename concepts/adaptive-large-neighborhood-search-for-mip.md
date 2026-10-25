@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"
     type: related_to
+  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
+    type: related_to
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md
@@ -24,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-22T10:00:17Z
+updated: 2026-10-24T11:01:08Z
 ---
 
 # Adaptive Large Neighborhood Search for MIP (ALNS-MIP)

@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-24T12:28:15Z
+updated: 2026-10-25T01:47:51Z
 ---
 
 # Global Portfolio Optimization

@@ -20,10 +20,14 @@ relationships:
 sources:
   - _papers/dorling2017vehicle/dorling2017vehicle-extracted.md
   - _papers/dorling2017vehicle/dorling2017vehicle.md
-summary: >-
-  Adds a measured linear multirotor power model, battery weight as payload, drone reuse, and
-  per-route battery optimization to VRP, with two Dantzig-Wolfe MILP variants and simulated
-  annealing for minimum-cost and minimum-time delivery, validated on a hexacopter.
+  - _papers/dorling2017vehicle/images/page_3_chart_1.jpg
+  - _papers/dorling2017vehicle/images/page_3_chart_10.jpg
+  - _papers/dorling2017vehicle/images/page_10_image_10.jpg
+  - _papers/dorling2017vehicle/images/page_10_chart_12.jpg
+  - _papers/dorling2017vehicle/images/page_11_chart_1.jpg
+  - _papers/dorling2017vehicle/images/page_13_chart_12.jpg
+  - _papers/dorling2017vehicle/images/page_13_chart_14.jpg
+summary: "Adds a measured linear multirotor power model, battery weight as payload, drone reuse, and per-route battery optimization to VRP, with two Dantzig-Wolfe MILP variants and simulated annealing."
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -68,8 +72,23 @@ where `m` is battery+payload mass, `\alpha` is marginal power-per-kg, and `\beta
 The paper reports fitted values (hexacopter setting) around:
 - $\alpha \approx 46.7$ W/kg
 - $\beta \approx 26.9$ W
+- The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest difference 6.3 W; widening $m$ to 0–10 kg raises mean percent error to 12.8% and the largest difference to about 51 W, so the approximation should not be extrapolated to heavier payloads.
+
+![[_papers/dorling2017vehicle/images/page_3_chart_1.jpg]]
+
+*Fig. 1 (paper): The linear approximation (3) fitted to the power consumption model (2), assuming n = 6 rotors, a fluid density of ρ = 1.204 kg/m³, a rotor disc area of ς = 0.2 m², and a frame weight W = 1.5 kg*
 
 - Hover, straight flight and altitude-change power measurements on the same airframe are close: 15.6/19.9 W/kg with 311 W hover, 15.3/19.8 W/kg with 304 W straight flight, 14.7/20.3 W/kg with 297 W altitude change (Table I).
+
+![[_papers/dorling2017vehicle/images/page_10_image_10.jpg]]
+
+*(a) The hexacopter path during the straight flight manoeuvre. Map data and image © 2015 Google.*
+
+![[_papers/dorling2017vehicle/images/page_10_chart_12.jpg]]
+
+*(b) Hexacopter altitude while performing altitude changes.*
+
+*Fig. 4 (paper): Hexacopter manoeuvre information.*
 
 ![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_11_chart_1.jpg]]
 

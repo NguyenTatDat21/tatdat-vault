@@ -27,10 +27,7 @@ sources:
   - _papers/mutlu2016comprehensive/images/page_9_chart_2.jpg
   - _papers/mutlu2016comprehensive/images/page_9_chart_4.jpg
 summary: >-
-summary: >-
-  Integrates LNG production, inventory, fleet routing, maintenance, contract penalties and spot sales into a
-  12-month annual delivery program MIP, and shows a vessel routing heuristic plus reranking beats a 24-hour
-  CPLEX run by 20.1% on average, with split-delivery saving 4.2% on average.
+  Integrates LNG production, inventory, fleet routing, penalties and spot sales into an annual delivery program MIP; the vessel routing heuristic is 20.1% cheaper than 24-hour CPLEX.
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -127,7 +124,6 @@ From the reported computational study on 18 instances generated from a commercia
 - [[references/al-haidous2016-optimal-lng-deliveries]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
 - [[references/deshpande2023-lng-adp-inventory-berth]]
-- [[references/layzb2020-vessel-scheduling-maritime-inventory-routing]]
 - [[_papers/andersson2017creating/andersson2017creating-extracted]]
 - [[_papers/al-haidous2016optimal/al-haidous2016optimal-extracted]]
 - [[_papers/goel2015constraint/goel2015constraint-extracted]]

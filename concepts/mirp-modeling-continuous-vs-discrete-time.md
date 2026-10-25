@@ -34,12 +34,12 @@ provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.83
+base_confidence: 1.0
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T04:15:00Z
+updated: 2026-10-25T03:12:40Z
 ---
 
 # Continuous vs Discrete Time in Maritime Inventory Routing Models
@@ -53,7 +53,7 @@ Every MIRP model must place inventory decisions on a timeline, and the timeline 
 - **Shared core constraint** (inventory balance, discrete form):
 
 $$
-\sum_{(h,v)\in E(i,j,t)} x_{ijv,t,h} = q_{ijt},\qquad inv_{j,t+1} = inv_{j,t} - q_{ijt} + \sum_{(h,v)\in E(j,k,t)} x_{jkv,t,h}
+$$ s_{it} = s_{i,t-1} + J_i D_{it} - \sum_{v \in \mathcal{V}} J_i q_{itv} \quad (i,t) \in \mathcal{N}, $$
 $$
 
 - **Census** (53 papers, 2013–2023): 30 use discrete time, 27 continuous, 4 both. Discrete-time instances dominate public benchmarks; continuous-time instances are not public.
@@ -73,10 +73,10 @@ $$
 Variants beyond the fork: **location-event** and **vessel-event** continuous models; an event-point model for ports with multiple berths; hybrid discrete/continuous models; nonlinear speed, fuel-consumption, and tide models; path-flow models with set-partitioning structure; fixed-charge network-flow models with lot-sizing valid inequalities; constraint programming with interval/sequence variables and cumul functions — the Goel et al. LNG port-visit model is the clearest CP instantiation (see [[concepts/cumulative-volume-lower-bound-cp-search]]).
 
 ![[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
-*Fig. 1 (paper): time-expanded network — one node per (port, period), sailing arcs and inventory arcs, source and sink nodes.*
+*Fig. 1 (paper): "Time-expanded (or time-space) network for an individual vessel first available at port i in time period 1 and at port j in time period 2." The vessel waits two periods at port 1, travels to port j (three periods), waits, then exits; port operations are handled via constraints, not by the network.*
 
 ![[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]
-*Fig. 2 (paper): continuous-time network — one node per (port, visit-number), sailing time is a variable on the arc.*
+*Fig. 2 (paper): "An instance and solution for a continuous-time model for MIRP." Nodes are (port, visit-number) pairs; production and consumption rates are constants over the horizon, one berth per port, visit cap set by a parameter.*
 
 ## Why It Matters
 
@@ -84,14 +84,13 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 - The discrete-time approximation is not harmless: inventory bounds are only checked at period boundaries, so a "feasible" plan can violate bounds between periods. ^[inferred]
 - Fixed-charge network-flow reformulations tighten LP relaxations via lot-sizing cuts, yet the literature has no proof that they yield better primal solutions on large instances — the model that is "stronger" on paper is not necessarily better in practice.
 - Constraint programming was ~4–10× faster than MILP on average in one comparison, showing that the modeling paradigm, not just the solver, drives performance.
-- The Goel et al. LNG case quantifies the fork on one instance: the discrete time-space MIP has 232,856 binary variables and 79,425 constraints, while the continuous CP port-visit model has 15,375 variables (no binaries), 52,149 constraints, 37% fewer nonzeros, solves in 1.8 s versus 14 s, and finds a strictly better solution.
+- The Goel et al. LNG case quantifies the fork on instance P14: the discrete time-space MIP has 232,856 binary variables and 79,425 constraints, while the continuous CP port-visit model (CP2) has 15,375 variables and 22,089 constraints (203.1 MB vs 1.9 GB for the discrete-visit CP1); CP2 reaches its first feasible solution (63,352) in 4 s vs MIP-Heur's 70,474 in 18 s, and solves 4.55x faster on average than the MIP heuristic (up to 10.5x with the iterative search) [[references/goel2015-constraint-programming-lng-ship-scheduling]].
 - Horizon length is a trap: optimal MIRP decisions depend on the horizon $T$, so a planning system cannot claim "steady state" without stating the horizon. ^[inferred]
 
 ## Related
 
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[concepts/maritime-inventory-routing-problem]]
-- [[concepts/annual-lng-delivery-program]]
 - [[concepts/annual-lng-delivery-program]]
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[references/boland2017-continuous-time-service-network-design]]

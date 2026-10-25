@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-25T03:40:00Z
 ---
 
 # Exact Solution Framework for Multitrip VRP with Time Windows (Paradiso et al., 2020)
@@ -42,10 +42,16 @@ Prior exact methods could struggle even at ~25 customers; the paper targets stro
 ## Method / Architecture
 
 The ESF is built around a **structure-based formulation** (instead of trip- or journey-indexed formulations only), plus two lower bounds:
+
+![[_papers/paradiso2020exact/images/page_1_image_2.jpg]]
+*(Title-page figure; no caption in the PDF text layer.)*
 - CVRPTW-based lower bound (`P1`),
 - relaxed structure-feasibility lower bound (`P2`) with subset-row inequalities.
 
 A reduced structure set is then passed to branch-and-cut (with embedded branch-and-price style separation logic where needed).
+
+![[_papers/paradiso2020exact/images/page_9_image_13.jpg]]
+*Figure 1 (paper): "Example of a Support Graph 𝐺̃ = (𝑉̃, 𝐴̃) with Six Structures" — the support graph whose arcs connect structures s₁, s₂ with e_{s₁} + d_{s₁} ≤ ℓ_{s₂}, used to formulate the separation problem of the structure feasibility constraints.*
 
 Core point: the framework is reusable across problem variants by specializing one step, rather than redesigning a full exact method per variant.
 

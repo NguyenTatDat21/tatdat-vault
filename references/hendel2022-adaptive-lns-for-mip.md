@@ -3,10 +3,10 @@ title: Adaptive Large Neighborhood Search for Mixed Integer Programming (Hendel,
 category: references
 tags: [paper, mip, alns, primal-heuristics, bandit, SCIP]
 relationships:
+  - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: uses
   - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
     type: related_to
-    type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: extends
   - target: "[[concepts/hyper-heuristics]]"
@@ -22,6 +22,8 @@ sources:
   - _papers/hendel2022adaptive/images/page_24_chart_2.jpg
   - _papers/hendel2022adaptive/images/page_25_chart_2.jpg
   - _papers/hendel2022adaptive/images/page_27_chart_2.jpg
+summary: >-
+  Integrates ALNS operator adaptation, partial fixing, and local-neighborhood bound tightening into a general MIP solver, and quantifies the extra speedup ALNS gives SCIP over the last eight years.
 provenance:
   extracted: 0.92
   inferred: 0.07
@@ -30,6 +32,7 @@ base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
+summary: "Adaptive LNS for mixed integer programs: bandit-selected destroy and repair operators that improve primal heuristics inside SCIP."
 created: 2026-10-22T10:00:17Z
 updated: 2026-10-24T11:01:08Z
 ---
@@ -68,7 +71,7 @@ Reported computational evidence includes large-scale simulation plus SCIP integr
 - Adaptive selector calibration: α-UCB was the best performing of the three tested bandit strategies, and α-UCB also gives the simplest explanation of why an auxiliary problem was chosen. A larger α makes weaker actions more frequent.
 - In SCIP 7.0.2 (ALNS on by default), ALNS on versus off achieved a 1% speedup and a 17% primal-integral improvement overall on 720 test instances with a 1 h limit and three random seeds; on the 195 instances where the solving process differed, time improved by 6% and primal integral by 37%, on the 155 Equal instances ALNS off was 2% better in both, and on the harder bracket [100, 3600] time improved 5% and primal integral 20%.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/hendel2022adaptive/images/page_24_chart_2.jpg]]
+![[_papers/hendel2022adaptive/images/page_24_chart_2.jpg]]
 
 *Fig. 3 (paper): Solution rates (left) and average rewards (right) at different fixing rates*
 
