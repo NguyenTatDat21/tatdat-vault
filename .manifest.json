@@ -6995,6 +6995,149 @@
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md"
       ]
+    },
+    "_papers/isik2023constraint/isik2023constraint-extracted.md": {
+      "content_hash": "262dfab719c2bfeb7cf266c2febae758059d0afc7b8463bae1b55f619d719542",
+      "last_ingested": "2026-10-25T15:44:02.681154+00:00",
+      "pages_produced": [
+        "references/isik2023-constraint-programming-hybrid-flow-shop.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/isik2023constraint/isik2023constraint.md": {
+      "content_hash": "4a1b6bb43cbaedfdb10e6c141eb494f535a1aae8017ab14d5d4a6cf7d1da94ad",
+      "last_ingested": "2026-10-25T15:44:02.879096+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_6_image_8.jpg": {
+      "content_hash": "1165ebaf8590a223581ac4b867a904dd46f376dbe4467a18d913519bfd5ea274",
+      "last_ingested": "2026-10-25T15:44:03.019546+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_7_image_2.jpg": {
+      "content_hash": "741b50f2c16c1422fd51170b4246812ee8bb1e0a514697d86197adbe96d0f7f2",
+      "last_ingested": "2026-10-25T15:44:03.149283+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_21_chart_4.jpg": {
+      "content_hash": "861c6a0813ec347396c16849c4aebdc929bdeccbed5405740a2e5dda332e1265",
+      "last_ingested": "2026-10-25T15:44:03.259770+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_21_chart_5.jpg": {
+      "content_hash": "caa0e502a21d117a3d14466bad3e23f559adafe8d6ccf56a8343065a228f0433",
+      "last_ingested": "2026-10-25T15:44:03.364306+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_21_chart_6.jpg": {
+      "content_hash": "2b3e718c51374a71ca0d047cb68306f801a64b313452c85166297e7967a08f3d",
+      "last_ingested": "2026-10-25T15:44:03.468968+00:00",
+      "pages_produced": []
+    },
+    "_papers/isik2023constraint/images/page_21_chart_7.jpg": {
+      "content_hash": "8b8b557e9375e3a89e16610b41ac450401c3612c2f947c4345327c1d0cb48809",
+      "last_ingested": "2026-10-25T15:44:03.576480+00:00",
+      "pages_produced": []
+    },
+    "_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted.md": {
+      "content_hash": "612b17e033e10999e15c728703e46ca5248ddff9ee841fda418253517b9a590a",
+      "last_ingested": "2026-10-25T15:44:03.687492+00:00",
+      "pages_produced": [
+        "references/jimenez-piqueras2023-constraint-programming-premarshalling.md",
+        "concepts/auxiliary-decision-variable-model-strengthening.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint.md": {
+      "content_hash": "16bab17a5c6a3d34a0156737b1e137148d03a228f83f5635d45c8e54f73e7605",
+      "last_ingested": "2026-10-25T15:44:03.791131+00:00",
+      "pages_produced": []
+    },
+    "_papers/jimenez-piqueras2023constraint/images/page_3_image_2.jpg": {
+      "content_hash": "188e605db6d0f2a5a8b4878290aa3dae33b8fa2c2c484a9172ca81c5a9c1bb30",
+      "last_ingested": "2026-10-25T15:44:03.894160+00:00",
+      "pages_produced": []
+    },
+    "_papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md": {
+      "content_hash": "04c33564547bf3eefef2abb107570875c87590312639755578cbe7d22d1badf2",
+      "last_ingested": "2026-10-25T15:44:04.010080+00:00",
+      "pages_produced": [
+        "references/kakinuma2020-empirical-profitability-thailand.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
+        "concepts/cash-based-operating-profitability.md"
+      ]
+    },
+    "_papers/kakinuma2020empirical/kakinuma2020empirical.md": {
+      "content_hash": "525af72c44eb8a03cdf0cb3f856b090aa1fbc52919bbb1c79c2ea05578bb9d40",
+      "last_ingested": "2026-10-25T15:44:04.120085+00:00",
+      "pages_produced": []
+    },
+    "_papers/kakinuma2020empirical/images/page_9_chart_2.jpg": {
+      "content_hash": "eab489ab60693dac503da60b3ebcf9906f1033790735067c35ffe9ee5a611a7b",
+      "last_ingested": "2026-10-25T15:44:04.224393+00:00",
+      "pages_produced": []
+    },
+    "_papers/kim2020profitability/kim2020profitability-extracted.md": {
+      "content_hash": "db8958a3d6f1ba2eeb999583ca80ec33749ff1d8fda742f5fbab78fe327b35b4",
+      "last_ingested": "2026-10-25T15:44:04.328882+00:00",
+      "pages_produced": [
+        "references/kim2020-profitability-asean-stocks.md",
+        "concepts/fama-macbeth-two-stage-cross-sectional-regression.md",
+        "concepts/cash-based-operating-profitability.md"
+      ]
+    },
+    "_papers/kim2020profitability/kim2020profitability.md": {
+      "content_hash": "36833a5f173cf7522e1f7ed7048c33102985c9c5fa2167589551c928f19290a3",
+      "last_ingested": "2026-10-25T15:44:04.428000+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/ku2016mixed-extracted.md": {
+      "content_hash": "50722e6a22395df490cdff19c98cd41e85bc6d281de5dbc70eef52dd3f488bb9",
+      "last_ingested": "2026-10-25T15:44:04.532472+00:00",
+      "pages_produced": [
+        "references/ku2016-mixed-integer-programming-job-shop.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md"
+      ]
+    },
+    "_papers/ku2016mixed/ku2016mixed.md": {
+      "content_hash": "81e9d8639064cb38ea433547ece655d119ea9db93b8190c6bd42eb6aa57b3daa",
+      "last_ingested": "2026-10-25T15:44:04.640160+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_3_image_0.jpg": {
+      "content_hash": "f022dbbe1d2476e03d749953c55d2c3467c8b37ff49f500f25d505cc0ab9145c",
+      "last_ingested": "2026-10-25T15:44:04.743866+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_9_chart_0.jpg": {
+      "content_hash": "df848984659814583ad179d6f9cc0071bdf705d39dcdd200084841c9868e0608",
+      "last_ingested": "2026-10-25T15:44:04.852095+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_9_chart_2.jpg": {
+      "content_hash": "c92d7106d2e13383d6702650e429f2606bb45387ee94b7fff7a3a5fe70f4e6a0",
+      "last_ingested": "2026-10-25T15:44:04.959179+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_11_chart_0.jpg": {
+      "content_hash": "070f8c22f4683f8063c04def5ab73e971e066936fdbdebff5b183f441f798c90",
+      "last_ingested": "2026-10-25T15:44:05.066008+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_11_chart_2.jpg": {
+      "content_hash": "455651ea075d0ef161fc9af0f482ceaa2ea830e62d7ebb272c1c84f58b248d2a",
+      "last_ingested": "2026-10-25T15:44:05.172736+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_15_chart_0.jpg": {
+      "content_hash": "8af12ec88c71e029a3ad23ca0ba267863efd3297f756e94b693394ff49e4be3b",
+      "last_ingested": "2026-10-25T15:44:05.279265+00:00",
+      "pages_produced": []
+    },
+    "_papers/ku2016mixed/images/page_15_chart_2.jpg": {
+      "content_hash": "95bcc3d919c40c575af50bfd60a2c031f1b09372838cd7aa26cc4944ed2c6dfb",
+      "last_ingested": "2026-10-25T15:44:05.382599+00:00",
+      "pages_produced": []
     }
   },
   "stats": {

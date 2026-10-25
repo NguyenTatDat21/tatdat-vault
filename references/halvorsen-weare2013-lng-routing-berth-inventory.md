@@ -19,9 +19,9 @@ sources:
   - _papers/halvorsen-weare2013routing/images/page_17_chart_2.jpg
   - _papers/halvorsen-weare2013routing/images/page_17_chart_4.jpg
 summary: >-
-  Decomposes annual LNG delivery planning into per-subproblem routing models and a
-  feasibility scheduling MILP coupled only by berth and inventory constraints; heuristic
-  routing matches exact routing costs.
+  Decomposes annual LNG delivery planning into subproblem routing models and a feasibility
+  scheduling MILP coupled only by berth and inventory constraints; heuristic routing scales to
+  360-day horizons.
 provenance:
   extracted: 0.94
   inferred: 0.06

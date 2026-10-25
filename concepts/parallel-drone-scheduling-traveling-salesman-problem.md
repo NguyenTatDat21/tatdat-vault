@@ -13,11 +13,16 @@ relationships:
     type: extends
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: related_to
+  - target: "[[references/montemanni2024-parallel-collective-drones]]"
+    type: related_to
 sources:
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic.md
   - _papers/dinh2021ants/dinh2021ants-extracted.md
   - _papers/dinh2021ants/dinh2021ants.md
+  - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
+  - _papers/montemanni2024parallel/montemanni2024parallel.md
+  - _papers/montemanni2024parallel/images/page_3_image_0.jpg
 summary: >-
   Truck-and-parallel-drone routing problem minimizing makespan, typically solved
   via giant-tour decomposition plus MILP/DP split assignment and local search.

@@ -24,8 +24,8 @@ sources:
   - _papers/he2002intuition/images/page_13_chart_3.jpg
 summary: >-
   The unconstrained Black-Litterman optimal portfolio is the market equilibrium scaled for
-  equilibrium-return uncertainty plus a weighted sum of view portfolios, weights rising with
-  bullishness and confidence.
+  equilibrium-return uncertainty plus weighted view portfolios, weights rising with bullishness
+  and confidence.
 provenance:
   extracted: 0.80
   inferred: 0.05

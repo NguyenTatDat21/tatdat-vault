@@ -8,19 +8,29 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: derived_from
-sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
+  - target: "[[references/montemanni2024-parallel-collective-drones]]"
+    type: derived_from
+  - target: "[[references/montemanni2023-cp-pdsvrp]]"
+    type: related_to
+sources:
+  - _papers/montemanni2024combining/montemanni2024combining-extracted.md
+  - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
+  - _papers/montemanni2024parallel/montemanni2024parallel.md
+  - _papers/montemanni2024parallel/images/page_3_image_0.jpg
+  - _papers/montemanni2023constraint/montemanni2023constraint-extracted.md
+  - _papers/montemanni2023constraint/montemanni2023constraint.md
 summary: >-
-  PDSVRP-c extends truck-and-drone routing to multiple trucks plus collaborative drone missions, with a min-makespan objective and synchronization constraints.
+  PDSVRP-c: multiple trucks plus collaborative drone missions with min-makespan and synchronization; introduced by Montemanni et al. 2024 with CP and MILP models.
 provenance:
-  extracted: 0.72
-  inferred: 0.24
-  ambiguous: 0.04
-base_confidence: 0.67
+  extracted: 0.87
+  inferred: 0.13
+  ambiguous: 0.0
+base_confidence: 1.0
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T08:07:13Z
+updated: 2026-10-25T15:16:50Z
 ---
 
 # PDSVRP-c (Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones)
@@ -37,8 +47,12 @@ It generalizes truck-only min-max VRP and single-drone variants by adding synchr
 - Mission duration depends on the number of collaborating drones (precomputed \(\tau_j^k\) values).
 - Objective is to minimize overall completion time (makespan), not total distance.
 - In practice, good truck tours provide a strong scaffold for assigning drone missions later. ^[inferred]
+- The first multi-truck collective-drone variant was introduced by Montemanni, Dell'Amico & Corsini (2024) with two CP models (giant-tour CP2, per-truck CP3) and one MILP.
+- A workload-balancing valid inequality, m·α ≥ Σ_{j∈C_F} Σ_k k·τ_j^k z_j^k, strengthens the single-truck CP model and the MILP, yielding first-ever lower bounds on all large PDSTSP-c instances.
+- CP2 gives the strongest lower bounds on large instances, CP3 is more consistent with many customers and few trucks, and CP closes all small instances except one.
+- Non-collective CP baselines (3-index Circuit models and giant-tour models with time/weight counters, Montemanni & Dell'Amico 2023) produced new best lower bounds on all tested min-time instances and the first lower bounds ever on the min-cost benchmark.
 
-See also [[concepts/cp-sat-hint-start]] for the warm-start strategy and [[references/montemanni2024-pdsvrp-collective-drones]] for the experiment details.
+See also [[concepts/cp-sat-hint-start]] for the warm-start strategy, [[references/montemanni2024-pdsvrp-collective-drones]] and [[references/montemanni2024-parallel-collective-drones]] for experiment details, and [[references/montemanni2023-cp-pdsvrp]] for the non-collective CP baselines.
 
 ## Open Questions
 
@@ -48,3 +62,8 @@ See also [[concepts/cp-sat-hint-start]] for the warm-start strategy and [[refere
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]
+- [[_papers/montemanni2024parallel/montemanni2024parallel-extracted.md]]
+- [[_papers/montemanni2024parallel/montemanni2024parallel.md]]
+- [[_papers/montemanni2024parallel/images/page_3_image_0.jpg]]
+- [[_papers/montemanni2023constraint/montemanni2023constraint-extracted.md]]
+- [[_papers/montemanni2023constraint/montemanni2023constraint.md]]
