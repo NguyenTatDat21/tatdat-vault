@@ -12,22 +12,29 @@ relationships:
     type: related_to
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: related_to
+  - target: "[[references/kakinuma2020-empirical-profitability-thailand]]"
+    type: related_to
+  - target: "[[references/kim2020-profitability-asean-stocks]]"
+    type: related_to
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
+  - _papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md
+  - _papers/kakinuma2020empirical/kakinuma2020empirical.md
+  - _papers/kim2020profitability/kim2020profitability-extracted.md
+  - _papers/kim2020profitability/kim2020profitability.md
 summary: >-
-  The portfolio-formation plus monthly cross-sectional regression design that turns noisy security-level
-  betas into clean tests of whether beta risk is priced.
+  The portfolio-formation plus monthly cross-sectional regression design; its template now drives profitability tests in Thailand and ASEAN markets.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
-base_confidence: 0.67
+  extracted: 0.83
+  inferred: 0.13
+  ambiguous: 0.04
+base_confidence: 1.0
 lifecycle: draft
-lifecycle_changed: 2026-10-24
+lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T01:47:51Z
+updated: 2026-10-25T11:47:49Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression
@@ -38,6 +45,8 @@ The design that made asset-pricing tests possible: estimate the risk characteris
 
 - **Stage 1 — form portfolios on the characteristic.** Rank securities by an estimated β from a formation window (4 years), sort into 20 portfolios.
 - **Stage 2 — re-estimate the characteristic on fresh data.** Recompute portfolio β over the next 5 years, and update it monthly during the testing period. The key move: the β used in the test comes from data not used for formation, which kills the "regression phenomenon" (extreme-β portfolios re-forming toward the middle) that had plagued earlier tests. ^[extracted]
+- **Profitability applications.** Kakinuma (Thailand, June 2002-June 2019) and Kim & Hoang (ASEAN-5, Jan 2010-Dec 2019) run the same formation-then-regression pattern with profitability characteristics (GP, OP, FCF, OP/BE, OP/BA) as regressors, with size, book-to-market and past-return controls. ^[extracted]
+- The design survives emerging-market tests where SMB/HML factors lose significance, suggesting the formation-plus-regression pattern is more robust than the factor model itself. ^[inferred]
 - **Stage 3 — per-period cross-sectional regression.** Each month regress the 20 portfolio returns on the characteristic(s):
 
 $$
@@ -67,6 +76,8 @@ $$
 - [[concepts/mmse-covariance-shrinkage]]
 - [[references/black1992-global-portfolio-optimization]]
 - [[references/chen2010-shrinkage-mmse-covariance-estimation]]
+- [[references/kakinuma2020-empirical-profitability-thailand]]
+- [[references/kim2020-profitability-asean-stocks]]
 
 ## Open Questions
 
@@ -78,3 +89,7 @@ $$
 
 - [[_papers/fama1973risk/fama1973risk-extracted.md]]
 - [[_papers/fama1973risk/fama1973risk.md]]
+- [[_papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md]]
+- [[_papers/kakinuma2020empirical/kakinuma2020empirical.md]]
+- [[_papers/kim2020profitability/kim2020profitability-extracted.md]]
+- [[_papers/kim2020profitability/kim2020profitability.md]]

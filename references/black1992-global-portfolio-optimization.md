@@ -13,21 +13,29 @@ relationships:
     type: related_to
   - target: "[[concepts/mmse-covariance-shrinkage]]"
     type: uses
+  - target: "[[references/he2002-black-litterman-intuition]]"
+    type: related_to
+  - target: "[[references/idzorek20072-bl-confidence-levels]]"
+    type: related_to
+  - target: "[[concepts/black-litterman-view-blending]]"
+    type: related_to
 sources:
   - _papers/black1992global/black1992global-extracted.md
   - _papers/black1992global/black1992global.md
+  - _papers/he2002intuition/he2002intuition-extracted.md
+  - _papers/idzorek20072/idzorek20072-extracted.md
 summary: >-
   Uses CAPM equilibrium returns as a neutral prior and blends investor views by confidence, yielding more stable global asset-allocation portfolios than naive mean assumptions.
 provenance:
-  extracted: 0.83
-  inferred: 0.15
+  extracted: 0.81
+  inferred: 0.17
   ambiguous: 0.02
 base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-25T01:47:51Z
+updated: 2026-10-25T10:50:35Z
 ---
 
 # Global Portfolio Optimization
@@ -81,6 +89,8 @@ $$
 \mu_{\text{post}} = \pi + \tau\Sigma P'\left(P\tau\Sigma P'\right)^{-1}\left(Q - P\pi\right)
 $$
 
+The same posterior-mean construction is formalized by He & Litterman as the decomposition $w^* = w_{eq} + P'\Lambda$ (line 221) with view weights rising in bullishness and confidence, and specialized by Idzorek at 100% view certainty as eq. 2.9 (line 349), whose user-specified confidence levels invert the implied-confidence identity — see [[references/he2002-black-litterman-intuition]] and [[references/idzorek20072-bl-confidence-levels]]. ^[inferred]
+
 ## Results
 
 | Setting | Result |
@@ -105,9 +115,14 @@ $$
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[references/fama1973-risk-return-equilibrium-empirical-tests]]
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]
+- [[references/he2002-black-litterman-intuition]]
+- [[references/idzorek20072-bl-confidence-levels]]
+- [[concepts/black-litterman-view-blending]]
 
 ## Sources
 
 - [[_papers/black1992global/black1992global-extracted.md]]
 - [[_papers/black1992global/black1992global.md]]
 - [[_papers/fama1973risk/fama1973risk-extracted.md]]
+- [[_papers/he2002intuition/he2002intuition-extracted.md]]
+- [[_papers/idzorek20072/idzorek20072-extracted.md]]

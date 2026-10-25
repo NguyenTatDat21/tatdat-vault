@@ -12,26 +12,30 @@ relationships:
     type: related_to
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
+  - target: "[[references/hartman2023-leximin-approximation]]"
+    type: related_to
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md
   - _papers/ganjia2026multiobjective/images/page_20_chart_6.jpg
+  - _papers/hartman2023leximin/hartman2023leximin-extracted.md
+  - _papers/hartman2023leximin/hartman2023leximin.md
   - _papers/ganjia2026multiobjective/images/page_24_chart_5.jpg
 summary: >-
   Scalarize several objectives by maximizing a weighted minimum of fuzzy membership values, so one MIP solve
   per weight vector traces out a Pareto approximation without an evolutionary algorithm.
 provenance:
-  extracted: 0.78
-  inferred: 0.17
+  extracted: 0.80
+  inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.67
+base_confidence: 1.0
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-25T10:50:35Z
 ---
 
 # Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP
@@ -70,6 +74,8 @@ $$
 
 - **Anchoring evidence from ganjia**: its economic / customer / compromise orientations reproduce the frontier endpoints from single-objective extremes (74.52 MLCU & 9.43 h vs 2.17 h & 245.11 MLCU), exactly the $Z^+/Z^-$ anchor roles the membership function needs. The tuned NSGA-II sits within 0.002% of the $\varepsilon$-constraint cost front, MOPSO within 0.020%. ^[inferred]
 - **Ganjia 2026 instantiation** (cost + tardiness, production-scheduling / due-date / batch-delivery / heterogeneous VRPTW MINLP): ganjia does **not** use fuzzy max-min — it builds the front with the $\varepsilon$-constraint method, tunes NSGA-II / MOPSO parameters by Taguchi L27 (smaller-the-better S/N), and lists fuzzy approaches as future work. The Taguchi dial is a *parameter* analogue of the $\theta$ sweep, and due-date setting is part of the objective. ^[inferred] [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
+
+- **Leximin is not scalarizable:** Hartman et al. state that aggregation functions for leximin do not exist (OWA/Yager context, line 57), so weighted schemes such as fuzzy max-min cannot reproduce leximin's worst-first ranking; leximin approximation requires an iterative oracle algorithm that converts single-objective (α,ε)-approximations into (α²/(1−α+α²), ε/(1−α+α²))-leximin approximations ([[references/hartman2023-leximin-approximation]]).
 ## Related
 
 - [[references/dossantos2024-multiobjective-maritime-cargo-routing]]
@@ -77,6 +83,7 @@ $$
 - [[concepts/maritime-inventory-routing-problem]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
+- [[references/hartman2023-leximin-approximation]]
 
 ## Open Questions
 
@@ -93,3 +100,5 @@ $$
 - [[_papers/ganjia2026multiobjective/ganjia2026multiobjective.md]]
 - [[_papers/ganjia2026multiobjective/images/page_20_chart_6.jpg]]
 - [[_papers/ganjia2026multiobjective/images/page_24_chart_5.jpg]]
+- [[_papers/hartman2023leximin/hartman2023leximin-extracted.md]]
+- [[_papers/hartman2023leximin/hartman2023leximin.md]]

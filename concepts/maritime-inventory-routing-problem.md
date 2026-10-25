@@ -15,23 +15,27 @@ relationships:
     type: related_to
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: related_to
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
+  - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md
+  - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md
 summary: >-
   Defines integrated maritime planning where ship routing/scheduling and port inventory dynamics are optimized jointly, plus common extension patterns used in industrial shipping models.
 provenance:
-  extracted: 0.86
-  inferred: 0.12
+  extracted: 0.87
+  inferred: 0.11
   ambiguous: 0.02
 base_confidence: 1.0
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-25T03:14:30Z
+updated: 2026-10-25T10:50:35Z
 ---
 
 # Maritime Inventory Routing Problem
@@ -76,6 +80,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - the discrete-time vs continuous-time modeling fork, which the 2013–2023 survey splits 30/27 papers, with 4 using both ([[concepts/mirp-modeling-continuous-vs-discrete-time]]),
 - fixed-charge network-flow reformulations with lot-sizing valid inequalities, and constraint-programming models that ran ~4–10× faster than MILP on average,
 - evaporative cargo (LNG, ammonia) that can be used as ship fuel, adding a second use dimension to the delivery decision.
+- decomposition by coupling constraints: Halvorsen-Weare & Fagerholt remove only the berth and inventory constraints to split an annual LNG program into per-subproblem routing models plus a feasibility scheduling MILP; heuristic routing reached 360-day instances the monolithic model cannot solve within 10,000 s, with heuristic routing costs matching exact routing for most instances ([[references/halvorsen-weare2013-lng-routing-berth-inventory]]);
 
 ## Open Questions
 
@@ -92,6 +97,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[concepts/maritime-routing-under-uncertainty]]
 - [[concepts/mirp-modeling-continuous-vs-discrete-time]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
+- [[references/halvorsen-weare2013-lng-routing-berth-inventory]]
 
 ## Sources
 
@@ -99,5 +105,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[_papers/christiansen2013ship/christiansen2013ship-extracted.md]]
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md]]
 - [[_papers/fagerholt2023maritime/fagerholt2023maritime.md]]
+- [[_papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md]]
+- [[_papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md]]
 - [[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
 - [[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]

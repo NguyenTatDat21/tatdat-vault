@@ -20,24 +20,38 @@ relationships:
     type: related_to
   - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
     type: related_to
+  - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
+    type: related_to
+  - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
+    type: related_to
+  - target: "[[references/jimenez-piqueras2023-constraint-programming-premarshalling]]"
+    type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
   - _papers/goel2015constraint/images/page_2_chart_15.jpg
   - _papers/goel2015constraint/images/page_2_chart_16.jpg
   - _papers/goel2015constraint/images/page_2_chart_19.jpg
+  - _papers/ku2016mixed/ku2016mixed-extracted.md
+  - _papers/ku2016mixed/ku2016mixed.md
+  - _papers/isik2023constraint/isik2023constraint-extracted.md
+  - _papers/isik2023constraint/isik2023constraint.md
+  - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted.md
+  - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint.md
 summary: >-
-  Interval variables, sequences and cumul functions express scheduling with capacity and inventory coupling; task- vs ship-perspective encodings differ by an order of magnitude.
+  Interval variables, sequences and cumul functions express scheduling with capacity coupling; encoding choice dominates, with disjunctive evidence from JSP, HFSP and premarshalling papers.
 provenance:
-  extracted: 0.82
+  extracted: 0.80
   inferred: 0.15
-  ambiguous: 0.03
-base_confidence: 0.67
+  ambiguous: 0.05
+base_confidence: 1.0
 lifecycle: draft
-lifecycle_changed: 2026-10-24
+lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-25T11:47:49Z
 ---
 
 # Disjunctive Scheduling Constraint-Programming Model
@@ -93,11 +107,18 @@ Model sizes (paper Table 1):
 - Modeling assumptions the representation inherits: one full day loading/discharging occupies a berth, integer travel days, no seasonality, fixed discharge volume = load − nominal boil-off, fixed regas rates. The paper's extensions relax these: split loads, variable discharge, seasonality, berth availability, and multi-period planning.
 - The cumul-function inventory profiles are what make the cumulative lower bound in [[concepts/cumulative-volume-lower-bound-cp-search]] expressible.
 - The CP literature's hinting capability (CP-SAT `AddHint`) is the natural bridge from an incumbent MIP solution to CP search; see [[concepts/cp-sat-hint-start]].
+- The same disjunctive machinery appears in classic job shop MIP: Manne's big-M and Liao's surplus-variable models, plus time-indexed and rank-based variants, are benchmarked in [[references/ku2016-mixed-integer-programming-job-shop]]; solver presolving can eliminate the surplus variables and flip which model wins.
+- Interval-sequence encodings with setup matrices, `endAtStart` for no-wait and `startOfNext` tricks for blocking carry the disjunctive pattern to hybrid flow shops: [[references/isik2023-constraint-programming-hybrid-flow-shop]].
+- The container premarshalling CP series shows CP quality driven by added groups of decision variables, not by disjunctive size alone: [[references/jimenez-piqueras2023-constraint-programming-premarshalling]]; see [[concepts/auxiliary-decision-variable-model-strengthening]].
 
 ## Related
 
 - [[concepts/cumulative-volume-lower-bound-cp-search]]
 - [[concepts/cp-sat-hint-start]]
+- [[concepts/auxiliary-decision-variable-model-strengthening]]
+- [[references/ku2016-mixed-integer-programming-job-shop]]
+- [[references/isik2023-constraint-programming-hybrid-flow-shop]]
+- [[references/jimenez-piqueras2023-constraint-programming-premarshalling]]
 - [[concepts/time-space-network-ship-flow-model]]
 - [[concepts/mirp-modeling-continuous-vs-discrete-time]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
@@ -119,3 +140,9 @@ Model sizes (paper Table 1):
 - [[_papers/goel2015constraint/images/page_2_chart_15.jpg]]
 - [[_papers/goel2015constraint/images/page_2_chart_16.jpg]]
 - [[_papers/goel2015constraint/images/page_2_chart_19.jpg]]
+- [[_papers/ku2016mixed/ku2016mixed-extracted.md]]
+- [[_papers/ku2016mixed/ku2016mixed.md]]
+- [[_papers/isik2023constraint/isik2023constraint-extracted.md]]
+- [[_papers/isik2023constraint/isik2023constraint.md]]
+- [[_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted.md]]
+- [[_papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint.md]]

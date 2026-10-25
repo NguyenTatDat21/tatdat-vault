@@ -7,9 +7,9 @@ relationships:
     type: derived_from
   - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
     type: related_to
-  - target: "[[references/isik2023constraint-constraint-programming-hybrid-flow-shop]]"
+  - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
     type: related_to
-  - target: "[[references/jimenez-piqueras2023constraint-constraint-programming-premarshalling]]"
+  - target: "[[references/jimenez-piqueras2023-constraint-programming-premarshalling]]"
     type: related_to
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
@@ -55,8 +55,8 @@ Choose models empirically against the target solver, not by counting variables: 
 
 - [[concepts/disjunctive-scheduling-constraint-programming-model]]
 - [[references/ku2016-mixed-integer-programming-job-shop]]
-- [[references/isik2023constraint-constraint-programming-hybrid-flow-shop]]
-- [[references/jimenez-piqueras2023constraint-constraint-programming-premarshalling]]
+- [[references/isik2023-constraint-programming-hybrid-flow-shop]]
+- [[references/jimenez-piqueras2023-constraint-programming-premarshalling]]
 
 ## Sources
 
