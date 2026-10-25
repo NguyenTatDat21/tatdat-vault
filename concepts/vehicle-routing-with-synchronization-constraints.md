@@ -13,20 +13,24 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: derived_from
+  - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
+    type: related_to
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md
+  - _papers/ha2020new/ha2020new-extracted.md
+  - _papers/ha2020new/ha2020new.md
 summary: VRPMS couples route design with temporal synchronization windows between service layers, requiring specialized repair and feasibility handling.
 provenance:
-  extracted: 0.85
+  extracted: 0.86
   inferred: 0.12
-  ambiguous: 0.03
+  ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-25T21:21:36+00:00
 ---
 
 # Vehicle Routing with Synchronization Constraints (VRPMS)
@@ -49,6 +53,8 @@ where \(t\) is the delivery time at the regular vertex of a special customer and
 
 VRPMS is a representative case where feasibility structure, not only objective value, drives algorithm design. ^[inferred]
 
+- Hà et al. (2020) showed LP-based insertion feasibility (maximize arc delay under time windows and sync, plus O(1) checks from stored earliest/latest arrivals) beats CP-based repair: 128 of 135 comparisons at 25 customers, 620 of 681 new best-known solutions, 4 new VRPTWSyn bests, 20× speedup from the O(1) checks; see [[references/ha2020-vrp-synchronization-lp-alns]]. ^[inferred]
+
 Related pages: [[references/hojabri2018-vrp-synchronization-alns-cp]], [[concepts/exact-multitrip-vrptw-framework]], [[concepts/large-neighborhood-search]], [[concepts/variable-neighborhood-search]], [[references/paradiso2020-esf-multitrip-vrptw]].
 
 ## Open Questions
@@ -60,7 +66,10 @@ Related pages: [[references/hojabri2018-vrp-synchronization-alns-cp]], [[concept
 ## Related
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — shares constraint-programming + vrp tags with this page
+- [[references/ha2020-vrp-synchronization-lp-alns]] — first MIP/CP models for VRPSC and the lp-ALNS heuristic
 ## Sources
 
 - [[_papers/hojabri2018large/hojabri2018large-extracted.md]]
 - [[_papers/hojabri2018large/hojabri2018large.md]]
+- [[_papers/ha2020new/ha2020new-extracted.md]]
+- [[_papers/ha2020new/ha2020new.md]]

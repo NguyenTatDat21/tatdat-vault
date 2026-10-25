@@ -16,6 +16,8 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: related_to
+  - target: "[[concepts/generative-adversarial-imitation-learning]]"
+    type: related_to
 sources:
   - _papers/garg2022iqlearn/garg2022iqlearn-extracted.md
   - _papers/garg2022iqlearn/garg2022iqlearn.md
@@ -32,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Inverse Soft-Q Imitation Learning
@@ -101,6 +103,7 @@ Implementation is <15 lines on top of DQN (discrete) or SAC (continuous); $\gamm
 - [[concepts/transformer-seq2seq-routing-solver]]
 - [[concepts/statistical-investigation-lifecycle]]
 - [[references/gendreau2019-handbook-metaheuristics]]
+- [[concepts/generative-adversarial-imitation-learning]] — adversarial self-imitation with a learned discriminator reward, no derived objective
 
 ## Open Questions
 

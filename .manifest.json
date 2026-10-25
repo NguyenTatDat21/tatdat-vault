@@ -7261,6 +7261,31 @@
         "references/qian2001-conditional-distribution-portfolio-theory.md",
         "concepts/fama-macbeth-two-stage-cross-sectional-regression.md"
       ]
+    },
+    "_papers/gronhaug2009supply/gronhaug2009supply-extracted.md": {
+      "content_hash": "bee55ab9354d936993bed6841273805f20381c7f01604d16c8897201dc2c25f7",
+      "last_ingested": "2026-10-25T21:03:13.746209+00:00",
+      "pages_produced": []
+    },
+    "_papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md": {
+      "content_hash": "e24f360d72e26e90337477add5d95df3bfc747cee246b38e53289e51825a3d1d",
+      "last_ingested": "2026-10-25T21:03:13.913026+00:00",
+      "pages_produced": []
+    },
+    "_papers/guo2018generative/guo2018generative-extracted.md": {
+      "content_hash": "2e722bba38acbf18cb82170840e875db20ec0f4b0fcfc4eb39335ddb607ea2f6",
+      "last_ingested": "2026-10-25T21:03:14.053231+00:00",
+      "pages_produced": []
+    },
+    "_papers/ha2020new/ha2020new-extracted.md": {
+      "content_hash": "1aae765150873f473eb691f5df2498d523e80ae8aa3b1a9e8becdbc069cdc08d",
+      "last_ingested": "2026-10-25T21:03:14.171139+00:00",
+      "pages_produced": []
+    },
+    "_papers/hadjsalem2023mathematical/hadjsalem2023mathematical-extracted.md": {
+      "content_hash": "dbf32ebb3eded7ae08bf0ea304a2d7fa6f5e0211fcaae0907f5bf8f28e4a3c25",
+      "last_ingested": "2026-10-25T21:03:14.281993+00:00",
+      "pages_produced": []
     }
   },
   "stats": {

@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-25T19:16:47Z
-pages: 366
+updated: 2026-10-25T21:35:24Z
+pages: 373
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] INGEST source=_papers/qian2001conditional/qian2001conditional-extracted.md pages_created=1 pages_updated=2 ...
-- [2026-10-25] LINT issues_found=552 orphans=2 broken_links=6 ...
-- [2026-10-25] CROSS_LINK pages_scanned=131 links_added=6 typed_relations_written=6 ...
+- [2026-10-25] INGEST source=_papers/ha2020new/ha2020new-extracted.md pages_created=1 pages_updated=3 ...
+- [2026-10-25] INGEST source=_papers/hadjsalem2023mathematical/hadjsalem2023mathematical... pages_created=2 pages_updated=1 ...
+- [2026-10-25] CROSS_LINK pages_scanned=138 links_added=0 typed_relations_written=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Cross-linked 6 exact mentions across 4 pages (tabu search, LNS x3, VNS, PSO); typed related_to relationships written; vault already densely linked (39 of 46 mention pairs).
+Post-W09 cross-link sweep: all 11 candidate pairs already linked in body + typed in frontmatter; 0 unlinked author-year mentions vault-wide; 0 orphans; one provenance fix applied (vehicle-routing-sync page extracted 0.85->0.86, sums to 1.00).
 
 ## Flagged Contradictions
 

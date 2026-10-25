@@ -20,6 +20,8 @@ relationships:
     type: related_to
   - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
     type: related_to
+  - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
+    type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -29,18 +31,20 @@ sources:
   - _papers/goel2012large/images/page_22_chart_2.jpg
   - _papers/pisinger2019large/pisinger2019large-extracted.md
   - _papers/pisinger2019large/pisinger2019large.md
+  - _papers/ha2020new/ha2020new-extracted.md
+  - _papers/ha2020new/ha2020new.md
 summary: >-
   LNS improves solutions by repeatedly destroying and repairing large parts of a solution; ALNS adapts operator choice based on observed performance.
 provenance:
-  extracted: 0.82
-  inferred: 0.15
-  ambiguous: 0.03
+  extracted: 0.84
+  inferred: 0.14
+  ambiguous: 0.02
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-25T14:36:00Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Large Neighborhood Search (LNS)
@@ -72,7 +76,9 @@ LNS is a destroy-and-repair metaheuristic: remove a substantial part of a curren
 
 LNS and ALNS can also be viewed as low-level heuristic families that a higher-level hyper-heuristic can orchestrate. ^[inferred]
 
-Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/tabu-search]], [[concepts/large-neighborhood-ship-pair-destroy-repair]], [[references/gendreau2019-handbook-metaheuristics]], [[references/goel2012-large-neighborhood-search-lng-inventory-routing]], [[references/montemanni2024-pdsvrp-collective-drones]], [[references/pisinger2019-large-neighborhood-search]], and [[references/pham2023-efficient-ga-quadratic-tsp]].
+- Hà et al. (2020) replaced CP-based insertion feasibility with linear programs in an ALNS for VRP with synchronization: maximize the delay allowed on each route arc under time windows and sync (F1), probe all arcs in one LP (F2), validate O(1) from stored earliest/latest arrivals, final LP check (F3) — 20× speedup on 50-customer instances, dominating all prior heuristics; see [[references/ha2020-vrp-synchronization-lp-alns]]. ^[inferred]
+
+Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/tabu-search]], [[concepts/large-neighborhood-ship-pair-destroy-repair]], [[references/gendreau2019-handbook-metaheuristics]], [[references/goel2012-large-neighborhood-search-lng-inventory-routing]], [[references/montemanni2024-pdsvrp-collective-drones]], [[references/pisinger2019-large-neighborhood-search]], and [[references/pham2023-efficient-ga-quadratic-tsp]], [[references/ha2020-vrp-synchronization-lp-alns]].
 
 ## Open Questions
 
@@ -87,3 +93,5 @@ Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuri
 - [[_papers/goel2012large/goel2012large-extracted.md]]
 - [[_papers/goel2012large/goel2012large.md]]
 - [[_papers/goel2012large/images/page_22_chart_2.jpg]]
+- [[_papers/ha2020new/ha2020new-extracted.md]]
+- [[_papers/ha2020new/ha2020new.md]]

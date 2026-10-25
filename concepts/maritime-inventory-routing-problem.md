@@ -17,6 +17,10 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
+  - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"
+    type: related_to
+  - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
+    type: related_to
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -24,18 +28,22 @@ sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
   - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md
   - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md
+  - _papers/gronhaug2009supply/gronhaug2009supply-extracted.md
+  - _papers/gronhaug2009supply/gronhaug2009supply.md
+  - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md
+  - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md
 summary: >-
   Defines integrated maritime planning where ship routing/scheduling and port inventory dynamics are optimized jointly, plus common extension patterns used in industrial shipping models.
 provenance:
-  extracted: 0.87
-  inferred: 0.11
+  extracted: 0.85
+  inferred: 0.13
   ambiguous: 0.02
 base_confidence: 1.0
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Maritime Inventory Routing Problem
@@ -87,6 +95,11 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - Which decomposition patterns are most robust for very large MIRP instances with uncertainty? ^[inferred]
 - How should digital-twin and real-time AIS/port data be incorporated without destabilizing optimization cycles? ^[inferred]
 
+## LNG-IRP Extensions
+
+- Grønhaug & Christiansen (2009) coined **LNG-IRP** for a real liquefaction–fleet–regasification planning problem, adding boil-off, discrete full-tank unloading, variable production/sales, and berth limits to the MIRP template; see [[references/gronhaug2009-supply-chain-optimization-lng]]. ^[inferred]
+- Grønhaug et al. (2010) show the inventory constraints must stay in the branch-and-price master because boil-off couples route duration to delivered quantities — the Christiansen (1999) maritime decomposition does not apply; 16/27 instances closed in 10 h, 2–25× faster than a priori path enumeration; see [[references/gronhaug2010-branch-and-price-lng-irp]]. ^[inferred]
+
 ## Related
 
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
@@ -98,6 +111,8 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[concepts/mirp-modeling-continuous-vs-discrete-time]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]]
+- [[references/gronhaug2009-supply-chain-optimization-lng]]
+- [[references/gronhaug2010-branch-and-price-lng-irp]]
 
 ## Sources
 
@@ -109,3 +124,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[_papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md]]
 - [[_papers/fagerholt2023maritime/images/page_8_image_2.jpg]]
 - [[_papers/fagerholt2023maritime/images/page_11_image_2.jpg]]
+- [[_papers/gronhaug2009supply/gronhaug2009supply-extracted.md]]
+- [[_papers/gronhaug2009supply/gronhaug2009supply.md]]
+- [[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md]]
+- [[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md]]

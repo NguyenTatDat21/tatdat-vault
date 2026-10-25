@@ -28,24 +28,32 @@ relationships:
     type: derived_from
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: derived_from
+  - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"
+    type: related_to
+  - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
+    type: related_to
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
   - _papers/goel2012large/images/page_6_image_2.jpg
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
+  - _papers/gronhaug2009supply/gronhaug2009supply-extracted.md
+  - _papers/gronhaug2009supply/gronhaug2009supply.md
+  - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md
+  - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md
 summary: >-
   Ship as flow commodity on a location-by-day network: path cover plus node conservation encodes the schedule, so inventory, berth limits and losses become linear constraints.
 provenance:
-  extracted: 0.82
-  inferred: 0.15
-  ambiguous: 0.03
+  extracted: 0.84
+  inferred: 0.14
+  ambiguous: 0.02
 base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-25T00:14:48Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Time-Space Network Ship-Flow Model
@@ -104,6 +112,8 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/mutlu2016-lng-annual-delivery-program]] — shares lng + maritime tags with this page
+- [[references/gronhaug2009-supply-chain-optimization-lng]] — binary arc-flow x_ijvt formulation on the same daily grid
+- [[references/gronhaug2010-branch-and-price-lng-irp]] — prices duties on this network with side constraints and duty-limited paths
 
 ## Open Questions
 
@@ -115,3 +125,7 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 - [[_papers/goel2012large/goel2012large-extracted.md]]
 - [[_papers/goel2012large/goel2012large.md]]
 - [[_papers/goel2012large/images/page_6_image_2.jpg]]
+- [[_papers/gronhaug2009supply/gronhaug2009supply-extracted.md]]
+- [[_papers/gronhaug2009supply/gronhaug2009supply.md]]
+- [[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md]]
+- [[_papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md]]

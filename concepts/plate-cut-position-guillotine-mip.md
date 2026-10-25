@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[concepts/branch-and-price-column-generation]]"
     type: related_to
+  - target: "[[references/hadjsalem2023-2d-variable-sized-cutting-stock-textile]]"
+    type: related_to
+  - target: "[[concepts/bin-packing-based-cutting-stock-ilp]]"
+    type: related_to
 sources:
   - _papers/furini2016modeling/furini2016modeling-extracted.md
   - _papers/furini2016modeling/furini2016modeling.md
@@ -27,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Plate-and-Cut-Position Guillotine MIP
@@ -79,6 +83,8 @@ The model is the MIP analogue of column generation: the variable pool is huge, a
 ## Related
 
 - [[references/furini2016-two-dimensional-guillotine-cutting-ip]]
+- [[references/hadjsalem2023-2d-variable-sized-cutting-stock-textile]] — variable-sized rolls, BPP-based ILP for the same guillotine family
+- [[concepts/bin-packing-based-cutting-stock-ilp]]
 - [[concepts/four-stage-guillotine-cut-bounded-knapsack]]
 - [[references/clautiaux2018-hypergraph-guillotine-knapsack]]
 - [[concepts/branch-and-price-column-generation]]

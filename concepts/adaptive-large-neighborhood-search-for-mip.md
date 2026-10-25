@@ -13,20 +13,24 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: related_to
+  - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
+    type: related_to
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md
+  - _papers/ha2020new/ha2020new-extracted.md
+  - _papers/ha2020new/ha2020new.md
 summary: ALNS-MIP adaptively chooses and budgets MIP neighborhood subproblems to improve incumbents within branch-and-bound.
 provenance:
-  extracted: 0.90
-  inferred: 0.08
+  extracted: 0.88
+  inferred: 0.10
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-24T11:34:43Z
+updated: 2026-10-25T19:48:00Z
 ---
 
 # Adaptive Large Neighborhood Search for MIP (ALNS-MIP)
@@ -42,7 +46,7 @@ ALNS-MIP is a primal-heuristic design pattern that frames MIP improvement as rep
 
 Compared with static heuristic scheduling, ALNS-MIP offers a principled way to spend primal search budget where it is most productive in the current search state. ^[inferred]
 
-Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/variable-neighborhood-search]], [[references/gendreau2019-handbook-metaheuristics]].
+Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/variable-neighborhood-search]], [[references/gendreau2019-handbook-metaheuristics]], [[references/ha2020-vrp-synchronization-lp-alns]].
 
 ## Open Questions
 
@@ -53,3 +57,5 @@ Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-
 
 - [[_papers/hendel2022adaptive/hendel2022adaptive-extracted.md]]
 - [[_papers/hendel2022adaptive/hendel2022adaptive.md]]
+- [[_papers/ha2020new/ha2020new-extracted.md]]
+- [[_papers/ha2020new/ha2020new.md]]
