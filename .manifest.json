@@ -7487,6 +7487,16 @@
       "pages_produced": [
         "references/he2002-black-litterman-intuition.md"
       ]
+    },
+    "_papers/idzorek20072/idzorek20072-extracted.md": {
+      "content_hash": "1c6210fbaea818c6f679d8fbe86feb2720739f9a5258584a535a49d9ed86ae91",
+      "last_ingested": "2026-10-25T23:42:56.942366+00:00",
+      "pages_produced": [
+        "references/idzorek20072-bl-confidence-levels.md",
+        "concepts/black-litterman-view-blending.md",
+        "references/qian2001-conditional-distribution-portfolio-theory.md",
+        "references/meucci2006-beyond-black-litterman-copula.md"
+      ]
     }
   },
   "stats": {

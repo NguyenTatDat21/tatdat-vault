@@ -17,6 +17,8 @@ relationships:
     type: related_to
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
+  - target: "[[references/idzorek20072-bl-confidence-levels]]"
+    type: related_to
 sources:
   - _papers/qian2001conditional/qian2001conditional-extracted.md
   - _papers/qian2001conditional/qian2001conditional.md
@@ -26,17 +28,17 @@ sources:
   - _papers/qian2001conditional/images/page_5_chart_4.jpg
   - _papers/qian2001conditional/images/page_5_chart_6.jpg
 summary: >-
-  Conditional-distribution regression, applied to returns rather than to the unobserved mean vector, adjusts both the mean and the covariance matrix from investor views; the mean result matches Black-Litterman, the covariance result is new, and views affect only the viewed assets' weights.
+  Conditional-distribution regression adjusts mean and covariance from views; the mean result matches Black-Litterman, covariance is the new result, and Theorem 2 limits weight changes to viewed assets.
 provenance:
-  extracted: 0.86
-  inferred: 0.11
+  extracted: 0.85
+  inferred: 0.12
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-25T14:33:00Z
+updated: 2026-10-25T22:57:00Z
 ---
 
 # Conditional Distribution in Portfolio Theory
@@ -97,7 +99,7 @@ Theorems with risk-free asset, weights \(w=\lambda^{-1}\Sigma^{-1}\mu\) (Eq. 20a
 
 - The constant-regression-coefficients assumption is a strong, empirically fragile anchor (Appendix A documents it); the authors note nonstationarity often breaks it.
 - Views are expressed on means, volatilities, and correlations of viewed combinations; constraints (budget, no-short, sector bounds) force deviations from the analytic solution.
-- The Bayesian criticism of Black-Litterman (calibration of view confidences) is avoided by construction, not resolved — the method trades a prior for regression assumptions.
+- The Bayesian criticism of Black-Litterman (calibration of view confidences) is avoided by construction, not resolved — [[references/idzorek20072-bl-confidence-levels]] attacks exactly that calibration, solving Ω so user-specified 0-100% confidence levels reproduce desired tilts. ^[inferred]
 
 ## Related
 
@@ -105,6 +107,7 @@ Theorems with risk-free asset, weights \(w=\lambda^{-1}\Sigma^{-1}\mu\) (Eq. 20a
 - [[references/meucci2006-beyond-black-litterman-copula]] — copula-based view incorporation, the downstream generalization of conditional adjustment of joint inputs.
 - [[references/meucci2010-fully-flexible-views]] — fully flexible views on any distributional parameter, the direction qian2001 anticipates.
 - [[references/black1992-global-portfolio-optimization]] — equilibrium returns extracted from market weights, the BL foundation qian2001 builds on.
+- [[references/idzorek20072-bl-confidence-levels]] — the confidence-calibration answer to the Bayesian criticism qian2001 raises.
 - [[references/chen2010-shrinkage-mmse-covariance-estimation]] — the covariance-estimation sensitivity problem qian2001 addresses from the views side.
 - [[concepts/mmse-covariance-shrinkage]] — shrinkage is the estimation-side answer to the same input-sensitivity problem.
 - [[concepts/ordering-information-portfolio-selection]] — information ordering is the parallel philosophy of using equilibrium as reference and ordering deviations from it.

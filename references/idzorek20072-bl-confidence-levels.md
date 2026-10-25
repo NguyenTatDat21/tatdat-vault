@@ -27,7 +27,7 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:50:35Z
 updated: 2026-10-25T22:57:00Z
 ---

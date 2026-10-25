@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-25T22:43:08Z
+updated: 2026-10-25T23:43:56Z
 pages: 373
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] INGEST source=_papers/he2002intuition/he2002intuition-extracted.md pages_created=0 pages_updated=2 ...
-- [2026-10-25] CROSS_LINK source=cross-linker pages_scanned=12 links_added=7 ...
 - [2026-10-25] CROSS_LINK source=cross-linker-correction pages_scanned=12 links_added=5 ...
+- [2026-10-25] INGEST source=_papers/idzorek20072/idzorek20072-extracted.md pages_created=0 pages_updated=4 ...
+- [2026-10-25] CROSS_LINK pages_scanned=10 links_added=5 typed_relations_written=5 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Correction to the previous CROSS_LINK line: the cross-linker pass proper (after the pre-cross-linker snapshot e9c94b1) modified 5 pages, adding 3 inline links (mutlu split-delivery special case, black-litterman-view-blending core structure, idzorek limitations), 2 Related entries (time-space network to haug, multi-objective maritime to hartman), 3 typed relationships and 4 sources entries; the earlier line counted ingest-pass link writes (7 links / 8 typed relations / 9 pages) into this verb.
+Bidirectional confidence-dial links: idzorek20072 <-> qian2001 (uses, line 314 citation) and <-> meucci2006 (explicit c_k vs omega-calibrated confidence); concept page extended; 5 inbound => idzorek and meucci2006 promoted to core
 
 ## Flagged Contradictions
 

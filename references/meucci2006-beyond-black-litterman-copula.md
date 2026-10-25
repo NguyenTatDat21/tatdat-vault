@@ -9,6 +9,8 @@ relationships:
     type: implements
   - target: "[[references/meucci2010-fully-flexible-views]]"
     type: related_to
+  - target: "[[references/idzorek20072-bl-confidence-levels]]"
+    type: related_to
 sources:
   - _papers/meucci2006blacklitterman/meucci2006blacklitterman-extracted.md
   - _papers/meucci2006blacklitterman/meucci2006blacklitterman.md
@@ -16,15 +18,15 @@ sources:
 summary: >-
   COP extends Black-Litterman to non-normal markets by opinion-pooling marginal views and inheriting the prior copula; a five-step Monte Carlo recipe runs all steps in a fraction of a second.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
+  extracted: 0.78
+  inferred: 0.17
   ambiguous: 0.05
-base_confidence: 0.37
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-25T10:55:07Z
+updated: 2026-10-25T22:57:00Z
 ---
 
 # Beyond Black-Litterman in Practice: A Five-Step Recipe to Input Views on Non-Normal Markets
@@ -33,7 +35,7 @@ updated: 2026-10-25T10:55:07Z
 
 ## Problem & Contribution
 
-- Black-Litterman assumes normal markets and linear views; real markets show fat tails, skewness, and strong tail co-dependence, and previous COP implementations relied on restrictive quasi-normal (skew-t) assumptions.
+- Black-Litterman assumes normal markets and linear views; real markets show fat tails, skewness, and strong tail co-dependence, and previous COP implementations relied on restrictive quasi-normal (skew-t) assumptions. COP's explicit confidence c_k is the alternative to the Ω-calibrated implicit confidence of [[references/idzorek20072-bl-confidence-levels]] ^[inferred].
 - COP: views are subjective marginal cdfs F̂_k; each is pooled with the prior-implied cdf F_k via opinion pooling with confidence c_k, F̃_k = c_k F̂_k + (1−c_k) F_k; the joint posterior inherits the prior copula, V_k = F̃_k⁻¹(C_k), and is rotated back to market coordinates M = P̄⁻¹V.
 - Contribution: a fully numerical five-step recipe that works under any market and view specification, demonstrated on US Treasury key rates with a Student-t copula, plus a mapping from posterior scenarios to bond allocations through pricing functions.
 
@@ -71,6 +73,7 @@ Views in the example: 10 b.p. steepening of the 2y–20y spread and 5 b.p. bulli
 ## Related
 
 - [[references/black1992-global-portfolio-optimization]] — the Black-Litterman framework COP extends
+- [[references/idzorek20072-bl-confidence-levels]] — explicit c_k vs Ω-calibrated view confidence
 - [[concepts/copula-opinion-pooling]] — the mechanism this paper implements
 - [[references/meucci2010-fully-flexible-views]] — entropy pooling generalizes COP to non-linear and multi-user views
 

@@ -156,3 +156,5 @@ title: Wiki Log
 - [2026-10-25T22:29:56Z] INGEST source=_papers/he2002intuition/he2002intuition-extracted.md pages_created=0 pages_updated=2 sources=1 mode=append
 - [2026-10-25T22:33:12Z] CROSS_LINK source=cross-linker pages_scanned=12 links_added=7 typed_relations_written=8 pages_modified=9 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 mode=append
 - [2026-10-25T22:43:08Z] CROSS_LINK source=cross-linker-correction pages_scanned=12 links_added=5 typed_relations_written=3 pages_modified=5 sources_entries_added=4 inline_links_added=3 related_links_added=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 mode=append
+- [2026-10-25T23:43:05Z] INGEST source=_papers/idzorek20072/idzorek20072-extracted.md pages_created=0 pages_updated=4 sources=1 mode=append
+- [2026-10-25T23:43:56Z] CROSS_LINK pages_scanned=10 links_added=5 typed_relations_written=5 pages_modified=4 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=2
