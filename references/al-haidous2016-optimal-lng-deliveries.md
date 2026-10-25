@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-23T00:04:12Z
+updated: 2026-10-25T04:12:36Z
 ---
 
 # Optimal planning of liquefied natural gas deliveries

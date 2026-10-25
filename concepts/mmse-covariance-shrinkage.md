@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:18:00Z
-updated: 2026-10-22T21:18:00Z
+updated: 2026-10-25T04:12:36Z
 ---
 
 # MMSE Covariance Shrinkage

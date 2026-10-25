@@ -18,15 +18,15 @@ sources:
   - _papers/hendel2022adaptive/hendel2022adaptive.md
 summary: ALNS-MIP adaptively chooses and budgets MIP neighborhood subproblems to improve incumbents within branch-and-bound.
 provenance:
-  extracted: 0.86
-  inferred: 0.12
+  extracted: 0.90
+  inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-24T11:34:43Z
 ---
 
 # Adaptive Large Neighborhood Search for MIP (ALNS-MIP)
@@ -35,10 +35,10 @@ ALNS-MIP is a primal-heuristic design pattern that frames MIP improvement as rep
 
 ## Key Ideas
 
-- Maintain a portfolio of neighborhood subproblem types rather than one fixed heuristic.
+- Maintain a portfolio of neighborhood subproblem types rather than one fixed heuristic; the published instantiation runs the framework around eight well-known LNS heuristics as a primal heuristic in SCIP.
 - Select the next subproblem using reward-driven adaptation (multi-armed-bandit-style policy).
 - Control fixing rates and local effort dynamically to avoid repeatedly solving either too-easy or too-hard neighborhoods.
-- Use effort-aware rewards that combine "found better incumbent" and "closed meaningful primal-dual gap" signals.
+- Use effort-aware rewards that combine "found better incumbent" and "closed meaningful primal-dual gap" signals: a solution reward for reaching a new incumbent, a closed-gap reward for the objective improvement toward the dual bound, and an effort term that approximates the run time spent and compensates for different target fixing rates, blended by two convex-combination parameters. ^[inferred]
 
 Compared with static heuristic scheduling, ALNS-MIP offers a principled way to spend primal search budget where it is most productive in the current search state. ^[inferred]
 

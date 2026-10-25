@@ -17,8 +17,8 @@ sources:
 summary: >-
   Approach for assigning negative-book-equity firms into value-growth style groups so factor portfolios retain information usually lost by standard book-to-market screens.
 provenance:
-  extracted: 0.87
-  inferred: 0.11
+  extracted: 0.91
+  inferred: 0.07
   ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
@@ -37,11 +37,13 @@ Negative-book-equity style classification maps firms with negative book equity i
 - Standard value sorting excludes negative-BE firms by construction.
 - These firms can still carry systematic style information.
 - Returns-based assignment (generalized style classification) can place them into factor portfolios consistently.
+- Positive-book-equity stocks are sorted into the six size × value classes first, and each negative-BE stock joins the class whose historical monthly return series it most closely matches.
+- GSC is a quasi-k-means variant that adjusts for heteroskedasticity using both time-series and cross-sectional variances, which limits outlier effects during classification.
 - Including them changes measured value premiums and long-horizon cumulative spreads.
-
+- Over the 18-year study period, cumulative HML returns differ by 17% (financial stocks included) and 20% (financial stocks excluded), with t-values on annual returns of 2.4 and 2.8, so the new-versus-old HML difference is significant at 95% confidence.
 ## Why It Matters
 
-- Reduces selection bias in factor construction when accounting measures are structurally distorted.
+- Reduces selection bias in factor construction when accounting measures are structurally distorted. ^[inferred]
 - Helps preserve economically relevant information from distressed or intangibles-heavy firms. ^[inferred]
 
 ## Related
@@ -56,6 +58,7 @@ Negative-book-equity style classification maps firms with negative book equity i
 
 - Should this classification be recomputed dynamically as accounting standards and capital structures evolve?
 - How sensitive are outcomes to weighting scheme (value vs equal weight) and sector carve-outs? ^[inferred]
+- How much of the enhanced value premium is attributable to default-risk composition, given that the share of negative-BE years rises from 68% in 1986–1990 to 96% in 2001–2004? ^[inferred]
 
 ## Sources
 

@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-22T23:45:17Z
+updated: 2026-10-25T04:02:31Z
 ---
 
 # Combining Dynamic Programming and Lagrangian Filtering for Four-stage 2D Guillotine Bounded Knapsack (Clautiaux et al., 2018)
@@ -88,7 +88,7 @@ Pipeline used in the paper:
 - DOI: `10.1016/j.disopt.2018.02.003`
 - Canonical URL: <https://doi.org/10.1016/j.disopt.2018.02.003>
 - Publication: *Discrete Optimization* (2018)
-- Authors: François Clautiaux; Christian Alves; Jean-François Côté; Frédéric Vanderbeck
+- Authors: François Clautiaux; Ruslan Sadykov; François Vanderbeck; Quentin Viaud
 - Companion metadata note: [[_papers/clautiaux2018combining/clautiaux2018combining.md]]
 
 ## Sources

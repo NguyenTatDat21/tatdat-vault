@@ -119,3 +119,12 @@ title: Wiki Log
 - [2026-10-25T03:12:59Z] INGEST source=_papers/yang2022solving/yang2022solving-extracted.md pages_created=0 pages_updated=2 mode=append
 - [2026-10-25T03:13:00Z] INGEST source=_papers/hendel2022adaptive/hendel2022adaptive-extracted.md pages_created=0 pages_updated=2 mode=append
 - [2026-10-25T03:13:00Z] INGEST source=_papers/brown2007going/brown2007going-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:54:10Z] INGEST source=_papers/hendel2022adaptive/hendel2022adaptive-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:54:11Z] INGEST source=_papers/yang2022solving/yang2022solving-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:54:11Z] INGEST source=_papers/brown2007going/brown2007going-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:56:31Z] INGEST source=_papers/brown2007going/brown2007going-extracted.md pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:56:47Z] INGEST source="_papers/gendreau2019handbook/gendreau2019handbook-extracted.md + _papers/goel2012large/goel2012large-extracted.md" pages_created=0 pages_updated=5 mode=append
+- [2026-10-25T03:57:18Z] INGEST source="_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md + _papers/goel2015constraint/goel2015constraint-extracted.md" pages_created=0 pages_updated=3 mode=append
+- [2026-10-25T03:57:18Z] INGEST source="_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md + _papers/paradiso2020exact/paradiso2020exact-extracted.md" pages_created=0 pages_updated=2 mode=append
+- [2026-10-25T03:58:49Z] INGEST source="_papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md + _papers/ball2016accruals/ball2016accruals-extracted.md" pages_created=0 pages_updated=3 mode=append
+- [2026-10-25T03:58:49Z] INGEST source="_papers/chen2010shrinkage/chen2010shrinkage-extracted.md + _papers/clautiaux2018combining/clautiaux2018combining-extracted.md + _papers/bertsimas2022bootstrap/bertsimas2022bootstrap-extracted.md" pages_created=0 pages_updated=2 mode=append

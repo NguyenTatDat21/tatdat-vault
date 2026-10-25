@@ -18,18 +18,20 @@
     },
     "_papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md": {
       "content_hash": "ae6fc2b8fa05fa4aff24d4e47831fa411ef18599230cbe45f40d0028408e0fe9",
-      "last_ingested": "2026-10-22T19:26:45.113015+00:00",
+      "last_ingested": "2026-10-25T03:56:00.150667+00:00",
       "pages_produced": [
+        "concepts/annual-lng-delivery-program.md",
         "references/al-haidous2016-optimal-lng-deliveries.md",
-        "concepts/annual-lng-delivery-program.md"
+        "references/mutlu2016-lng-annual-delivery-program.md"
       ]
     },
     "_papers/al-haidous2016optimal/al-haidous2016optimal.md": {
       "content_hash": "6613cba3c8b497f8adfc13ee7e812a0944e9fceef2613f781e08624efb67de74",
-      "last_ingested": "2026-10-22T19:26:45.176964+00:00",
+      "last_ingested": "2026-10-25T03:56:23.692205+00:00",
       "pages_produced": [
+        "concepts/annual-lng-delivery-program.md",
         "references/al-haidous2016-optimal-lng-deliveries.md",
-        "concepts/annual-lng-delivery-program.md"
+        "references/mutlu2016-lng-annual-delivery-program.md"
       ]
     },
     "_papers/almgren2004optimal/almgren2004optimal-extracted.md": {
@@ -109,18 +111,18 @@
     },
     "_papers/ball2016accruals/ball2016accruals-extracted.md": {
       "content_hash": "8d8737b685fcb31a829fa6204f93f8b08da8bbe6ce7f0801228310900ed1e731",
-      "last_ingested": "2026-10-22T19:36:30.230699+00:00",
+      "last_ingested": "2026-10-25T03:56:00.259874+00:00",
       "pages_produced": [
-        "references/ball2016-accruals-cash-flows-operating-profitability.md",
-        "concepts/cash-based-operating-profitability.md"
+        "concepts/cash-based-operating-profitability.md",
+        "references/ball2016-accruals-cash-flows-operating-profitability.md"
       ]
     },
     "_papers/ball2016accruals/ball2016accruals.md": {
       "content_hash": "5eab7b1414e640e010da23e0ea6d2c20c1884997f38db058b09a8f05a2ac5370",
-      "last_ingested": "2026-10-22T19:36:30.276920+00:00",
+      "last_ingested": "2026-10-25T03:56:23.829748+00:00",
       "pages_produced": [
-        "references/ball2016-accruals-cash-flows-operating-profitability.md",
-        "concepts/cash-based-operating-profitability.md"
+        "concepts/cash-based-operating-profitability.md",
+        "references/ball2016-accruals-cash-flows-operating-profitability.md"
       ]
     },
     "_papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted.md": {
@@ -198,18 +200,18 @@
     },
     "_papers/bertsimas2022bootstrap/bertsimas2022bootstrap-extracted.md": {
       "content_hash": "61f12a288b1770ad3a983c637003a9bc230a0bfb9a4a1951e17318fa3722f6a1",
-      "last_ingested": "2026-10-22T19:58:08.645112+00:00",
+      "last_ingested": "2026-10-25T03:56:00.500748+00:00",
       "pages_produced": [
-        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md",
-        "concepts/predictive-to-prescriptive-analytics.md"
+        "concepts/predictive-to-prescriptive-analytics.md",
+        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md"
       ]
     },
     "_papers/bertsimas2022bootstrap/bertsimas2022bootstrap.md": {
       "content_hash": "db4ab3367dde68e0ffabd3d1fede3b76aca78f3fbfb201ce3db6cdde8bf36e41",
-      "last_ingested": "2026-10-22T19:58:08.692929+00:00",
+      "last_ingested": "2026-10-25T03:56:24.181748+00:00",
       "pages_produced": [
-        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md",
-        "concepts/predictive-to-prescriptive-analytics.md"
+        "concepts/predictive-to-prescriptive-analytics.md",
+        "references/bertsimas2022-bootstrap-robust-prescriptive-analytics.md"
       ]
     },
     "_papers/black1992global/black1992global-extracted.md": {
@@ -255,10 +257,13 @@
     },
     "_papers/brown2007going/brown2007going-extracted.md": {
       "content_hash": "98f64541b525d9fdfe82d60d75fc58c100333a293df28fb2ad91ba532f3ab6f3",
-      "last_ingested": "2026-10-25T03:21:30.641558+00:00",
+      "last_ingested": "2026-10-25T03:56:31.666272+00:00",
       "pages_produced": [
         "/home/tatdatnguyen/tatdat-vault/references/brown2007-negative-book-equity-stocks.md",
-        "/home/tatdatnguyen/tatdat-vault/concepts/negative-book-equity-style-classification.md"
+        "/home/tatdatnguyen/tatdat-vault/concepts/negative-book-equity-style-classification.md",
+        "/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/brown2007going.md",
+        "/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/images/page_5_chart_2.jpg",
+        "/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/images/page_13_chart_3.jpg"
       ]
     },
     "_papers/brown2007going/brown2007going.md": {
@@ -286,18 +291,18 @@
     },
     "_papers/chen2010shrinkage/chen2010shrinkage-extracted.md": {
       "content_hash": "1217d2f41f03a77ad66a33de5baaef4ef675378e756b3ff52e4e5e3a8d7e8769",
-      "last_ingested": "2026-10-22T20:41:42.176331+00:00",
+      "last_ingested": "2026-10-25T03:56:00.349500+00:00",
       "pages_produced": [
-        "references/chen2010-shrinkage-mmse-covariance-estimation.md",
-        "concepts/mmse-covariance-shrinkage.md"
+        "concepts/mmse-covariance-shrinkage.md",
+        "references/chen2010-shrinkage-mmse-covariance-estimation.md"
       ]
     },
     "_papers/chen2010shrinkage/chen2010shrinkage.md": {
       "content_hash": "5deabd57e1e054bfe0352f7ec5f203477837959c92b32646c5da2af72dda443f",
-      "last_ingested": "2026-10-22T20:41:42.223536+00:00",
+      "last_ingested": "2026-10-25T03:56:23.966639+00:00",
       "pages_produced": [
-        "references/chen2010-shrinkage-mmse-covariance-estimation.md",
-        "concepts/mmse-covariance-shrinkage.md"
+        "concepts/mmse-covariance-shrinkage.md",
+        "references/chen2010-shrinkage-mmse-covariance-estimation.md"
       ]
     },
     "_papers/cheng2020drone/cheng2020drone-extracted.md": {
@@ -402,18 +407,18 @@
     },
     "_papers/clautiaux2018combining/clautiaux2018combining-extracted.md": {
       "content_hash": "89d3b3ec919a893102b9823b487c677783646ba6195910e485e718d76f676f06",
-      "last_ingested": "2026-10-22T23:52:45.138117+00:00",
+      "last_ingested": "2026-10-25T03:56:00.427133+00:00",
       "pages_produced": [
-        "references/clautiaux2018-hypergraph-guillotine-knapsack.md",
-        "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md",
+        "references/clautiaux2018-hypergraph-guillotine-knapsack.md"
       ]
     },
     "_papers/clautiaux2018combining/clautiaux2018combining.md": {
       "content_hash": "3255c3313f5a9d1072777f0dfef1d4c3dfbc281daf8e18fbd18e48e5598bae85",
-      "last_ingested": "2026-10-22T23:52:45.208746+00:00",
+      "last_ingested": "2026-10-25T03:56:24.077882+00:00",
       "pages_produced": [
-        "references/clautiaux2018-hypergraph-guillotine-knapsack.md",
-        "concepts/four-stage-guillotine-cut-bounded-knapsack.md"
+        "concepts/four-stage-guillotine-cut-bounded-knapsack.md",
+        "references/clautiaux2018-hypergraph-guillotine-knapsack.md"
       ]
     },
     "_papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md": {
@@ -508,28 +513,31 @@
     },
     "_papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md": {
       "content_hash": "5f8bc90b54ec4a79ec85a0eb76529f1c6ce3c9aea070a08d86e7f594613c2c5d",
-      "last_ingested": "2026-10-24T01:27:44.338905+00:00",
+      "last_ingested": "2026-10-25T03:55:19.346320+00:00",
       "pages_produced": [
         "references/fagerholt2023-maritime-inventory-routing-survey.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
         "concepts/maritime-inventory-routing-problem.md",
-        "concepts/maritime-routing-under-uncertainty.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
         "references/ksciuk2023-maritime-uncertainty-review.md"
       ]
     },
     "_papers/fagerholt2023maritime/fagerholt2023maritime.md": {
       "content_hash": "9bc038131e13dae67dd757117f5ea97dcba8ac1664063473d632b3d802f7c844",
-      "last_ingested": "2026-10-24T01:27:44.405027+00:00",
+      "last_ingested": "2026-10-25T03:56:23.451238+00:00",
       "pages_produced": [
-        "references/fagerholt2023-maritime-inventory-routing-survey.md"
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/maritime-routing-under-uncertainty.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
+        "references/fagerholt2023-maritime-inventory-routing-survey.md",
+        "references/ksciuk2023-maritime-uncertainty-review.md",
+        "references/mutlu2016-lng-annual-delivery-program.md"
       ]
     },
     "_papers/fagerholt2023maritime/images/page_11_image_2.jpg": {
       "content_hash": "b86c50d2c637a66495967c13e2634ae2f499bc8df106521774f497f14a4dfe64",
-      "last_ingested": "2026-10-24T01:27:44.530421+00:00",
+      "last_ingested": "2026-10-25T03:56:13.460980+00:00",
       "pages_produced": [
-        "references/fagerholt2023-maritime-inventory-routing-survey.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "concepts/maritime-inventory-routing-problem.md"
       ]
     },
     "_papers/fagerholt2023maritime/images/page_22_image_2.jpg": {
@@ -541,10 +549,9 @@
     },
     "_papers/fagerholt2023maritime/images/page_8_image_2.jpg": {
       "content_hash": "74b684969542e02cf7131aa7ff4cefa84062ba0ef3abaad6b5eb27a0299112ef",
-      "last_ingested": "2026-10-24T01:27:44.468282+00:00",
+      "last_ingested": "2026-10-25T03:56:13.561217+00:00",
       "pages_produced": [
-        "references/fagerholt2023-maritime-inventory-routing-survey.md",
-        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
+        "concepts/maritime-inventory-routing-problem.md"
       ]
     },
     "_papers/fama1973risk/fama1973risk-extracted.md": {
@@ -748,37 +755,44 @@
     },
     "_papers/gendreau2019handbook/gendreau2019handbook-extracted.md": {
       "content_hash": "974311a81a7f0b11f1f6f9b59ae118b65ca4f8e49d7bb6a2b6612a875cf7206f",
-      "last_ingested": "2026-10-24T08:03:04.729807+00:00",
+      "last_ingested": "2026-10-25T03:55:03.704378+00:00",
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/metaheuristic-hybridization.md",
         "concepts/simulated-annealing-metropolis-cooling.md",
         "concepts/swarm-intelligence-pso-aco.md",
-        "concepts/metaheuristic-hybridization.md"
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     },
     "_papers/gendreau2019handbook/gendreau2019handbook.md": {
       "content_hash": "b5c3b2dfaa9cd127c1e0534b740c4308b9c295124fefcd5fef08c995fccf4f58",
-      "last_ingested": "2026-10-24T08:03:04.825090+00:00",
+      "last_ingested": "2026-10-25T03:56:23.107304+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
+        "concepts/hyper-heuristics.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/metaheuristic-hybridization.md",
+        "concepts/parallel-metaheuristics-cooperative-search.md",
         "concepts/simulated-annealing-metropolis-cooling.md",
-        "concepts/swarm-intelligence-pso-aco.md"
+        "concepts/swarm-intelligence-pso-aco.md",
+        "concepts/tabu-search.md",
+        "concepts/variable-neighborhood-search.md",
+        "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/gendreau2019handbook/images/page_115_image_2.jpg": {
       "content_hash": "02b3f219a8942c2bb30c7a3cd5f9102d1cf6889c05d31f7731363f0f017268eb",
-      "last_ingested": "2026-10-24T02:59:40.924084+00:00",
+      "last_ingested": "2026-10-25T03:55:04.169799+00:00",
       "pages_produced": [
         "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/gendreau2019handbook/images/page_117_image_2.jpg": {
       "content_hash": "c5652fc16dc13af51d7dd6df2347210754ac70ab9276c28812f9497d86e10631",
-      "last_ingested": "2026-10-24T02:59:40.982052+00:00",
+      "last_ingested": "2026-10-25T03:55:04.311874+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/large-neighborhood-search.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
+        "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/gendreau2019handbook/images/page_123_image_2.jpg": {
@@ -811,27 +825,32 @@
     },
     "_papers/goel2012large/goel2012large-extracted.md": {
       "content_hash": "8847ffe12e17d6af416ebc1436b98c1f236650b1baeec476d5610dfd6e02d0ce",
-      "last_ingested": "2026-10-25T01:26:22.563499+00:00",
+      "last_ingested": "2026-10-25T03:55:19.292073+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/time-space-network-ship-flow-model.md"
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
       ]
     },
     "_papers/goel2012large/goel2012large.md": {
       "content_hash": "83367accf7d9520d4055a4c5c5f19154c3bf17dde3ef7926ac0a1bd33344ba0c",
-      "last_ingested": "2026-10-25T01:26:22.629122+00:00",
+      "last_ingested": "2026-10-25T03:56:23.237110+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/time-space-network-ship-flow-model.md"
+        "concepts/annual-lng-delivery-program.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
+        "concepts/time-space-network-ship-flow-model.md",
+        "concepts/variable-neighborhood-search.md",
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md"
       ]
     },
     "_papers/goel2012large/images/page_22_chart_2.jpg": {
       "content_hash": "d2e4fffe720eecd97d9b6a8e722e38a413821fb59161d06c7b45d4859df827bc",
-      "last_ingested": "2026-10-24T02:59:39.606563+00:00",
+      "last_ingested": "2026-10-25T03:55:19.618727+00:00",
       "pages_produced": [
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
-        "concepts/large-neighborhood-search.md"
+        "concepts/large-neighborhood-search.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     },
     "_papers/goel2012large/images/page_6_image_2.jpg": {
@@ -844,16 +863,23 @@
     },
     "_papers/goel2015constraint/goel2015constraint-extracted.md": {
       "content_hash": "fb190f85f709d2b528f29b67f422d1e2dfb6c57bbf7cb488de24a13ca920958e",
-      "last_ingested": "2026-10-25T01:26:22.909896+00:00",
+      "last_ingested": "2026-10-25T03:55:19.125269+00:00",
       "pages_produced": [
-        "concepts/time-space-network-ship-flow-model.md"
+        "concepts/annual-lng-delivery-program.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md"
       ]
     },
     "_papers/goel2015constraint/goel2015constraint.md": {
       "content_hash": "ee025fac7005981aa1d689bc5788a4db724055ce25479edd42d070f048abf0e3",
-      "last_ingested": "2026-10-25T01:26:22.966851+00:00",
+      "last_ingested": "2026-10-25T03:56:23.334233+00:00",
       "pages_produced": [
-        "concepts/time-space-network-ship-flow-model.md"
+        "concepts/annual-lng-delivery-program.md",
+        "concepts/cumulative-volume-lower-bound-cp-search.md",
+        "concepts/disjunctive-scheduling-constraint-programming-model.md",
+        "concepts/mirp-modeling-continuous-vs-discrete-time.md",
+        "concepts/time-space-network-ship-flow-model.md",
+        "references/goel2015-constraint-programming-lng-ship-scheduling.md",
+        "references/mutlu2016-lng-annual-delivery-program.md"
       ]
     },
     "_papers/goel2015constraint/images/page_2_chart_15.jpg": {
@@ -922,10 +948,11 @@
     },
     "_papers/hendel2022adaptive/hendel2022adaptive-extracted.md": {
       "content_hash": "fe569d6fc052c69af0b3931883d74360683b95168f81babf917d201dad340338",
-      "last_ingested": "2026-10-25T03:21:30.689055+00:00",
+      "last_ingested": "2026-10-25T03:54:10.653782+00:00",
       "pages_produced": [
         "/home/tatdatnguyen/tatdat-vault/references/hendel2022-adaptive-lns-for-mip.md",
-        "/home/tatdatnguyen/tatdat-vault/concepts/adaptive-large-neighborhood-search-for-mip.md"
+        "/home/tatdatnguyen/tatdat-vault/concepts/adaptive-large-neighborhood-search-for-mip.md",
+        "/home/tatdatnguyen/tatdat-vault/_papers/hendel2022adaptive/hendel2022adaptive.md"
       ]
     },
     "_papers/hendel2022adaptive/hendel2022adaptive.md": {
@@ -1015,18 +1042,16 @@
     },
     "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md": {
       "content_hash": "01b05e25113d12c25f68747ab470595e8cc1210dffa700863f0f0b27544ec232",
-      "last_ingested": "2026-10-22T18:14:27.397481+00:00",
+      "last_ingested": "2026-10-25T03:55:37.885650+00:00",
       "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md",
-        "concepts/maritime-routing-under-uncertainty.md"
+        "references/ksciuk2023-maritime-uncertainty-review.md"
       ]
     },
     "_papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md": {
       "content_hash": "dca59bd71ed0b89828855b10558a5118ac916b3004b43e1d7dc4bae9af9d9c5d",
-      "last_ingested": "2026-10-22T09:16:16.624843+00:00",
+      "last_ingested": "2026-10-25T03:55:37.991916+00:00",
       "pages_produced": [
-        "references/ksciuk2023-maritime-uncertainty-review.md",
-        "concepts/maritime-routing-under-uncertainty.md"
+        "references/ksciuk2023-maritime-uncertainty-review.md"
       ]
     },
     "_papers/lu2024effective/images/page_0_image_8.jpg": {
@@ -1335,21 +1360,21 @@
     },
     "_papers/paradiso2020exact/images/page_1_image_2.jpg": {
       "content_hash": "7e854543a2c501dac785acaf8a1e7fd12b2dc169787d70d9dce64432a896a231",
-      "last_ingested": "2026-10-22T18:14:28.716782+00:00",
+      "last_ingested": "2026-10-25T03:55:38.301829+00:00",
       "pages_produced": [
         "references/paradiso2020-esf-multitrip-vrptw.md"
       ]
     },
     "_papers/paradiso2020exact/images/page_9_image_13.jpg": {
       "content_hash": "4c96eda95e75492903d49f1141a420f415651419f15a3327e3ada19aab1d1335",
-      "last_ingested": "2026-10-22T18:14:28.760534+00:00",
+      "last_ingested": "2026-10-25T03:56:13.371058+00:00",
       "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md"
+        "concepts/exact-multitrip-vrptw-framework.md"
       ]
     },
     "_papers/paradiso2020exact/paradiso2020exact-extracted.md": {
       "content_hash": "b75fb36a5c51f70527f44e8523afdd22368a5bff49048e3b7b85509eadd56ae1",
-      "last_ingested": "2026-10-22T18:14:28.673212+00:00",
+      "last_ingested": "2026-10-25T03:55:37.896282+00:00",
       "pages_produced": [
         "references/paradiso2020-esf-multitrip-vrptw.md",
         "concepts/exact-multitrip-vrptw-framework.md"
@@ -1357,10 +1382,10 @@
     },
     "_papers/paradiso2020exact/paradiso2020exact.md": {
       "content_hash": "9e5966d4e8a3e27cd73025dc0f56ceadb1ddb75bce24089aae4500f51bb358e4",
-      "last_ingested": "2026-10-22T09:16:16.744565+00:00",
+      "last_ingested": "2026-10-25T03:56:23.560526+00:00",
       "pages_produced": [
-        "references/paradiso2020-esf-multitrip-vrptw.md",
-        "concepts/exact-multitrip-vrptw-framework.md"
+        "concepts/exact-multitrip-vrptw-framework.md",
+        "references/paradiso2020-esf-multitrip-vrptw.md"
       ]
     },
     "_papers/poikonen2020multivisit/images/page_15_image_1.jpg": {
@@ -1511,10 +1536,11 @@
     },
     "_papers/yang2022solving/yang2022solving-extracted.md": {
       "content_hash": "4bde83238fe11d829eaa174447d9999d9bfbeb9774af93fbb61f3f359932e928",
-      "last_ingested": "2026-10-25T03:21:30.721967+00:00",
+      "last_ingested": "2026-10-25T03:54:10.677919+00:00",
       "pages_produced": [
         "/home/tatdatnguyen/tatdat-vault/references/yang2022-vrpd-bilevel-heuristic.md",
-        "/home/tatdatnguyen/tatdat-vault/concepts/bilevel-vrpd-task-assignment-routing.md"
+        "/home/tatdatnguyen/tatdat-vault/concepts/bilevel-vrpd-task-assignment-routing.md",
+        "/home/tatdatnguyen/tatdat-vault/_papers/yang2022solving/yang2022solving.md"
       ]
     },
     "_papers/yang2022solving/yang2022solving.md": {
@@ -1581,18 +1607,16 @@
     },
     "_papers/gendreau2019handbook/images/page_365_image_3.jpg": {
       "content_hash": "0d4078c6eeab080078cc3c8e2c28457781a9505a0fa3e023a8adacf15da1ea2e",
-      "last_ingested": "2026-10-24T08:03:04.909925+00:00",
+      "last_ingested": "2026-10-25T03:55:03.818389+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/swarm-intelligence-pso-aco.md"
+        "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/gendreau2019handbook/images/page_380_image_10.jpg": {
       "content_hash": "6f0f0377a18a1c2a4f46ece5d6c2de30c1745663803db3d9182d6820e7b92205",
-      "last_ingested": "2026-10-24T08:03:04.987878+00:00",
+      "last_ingested": "2026-10-25T03:55:04.009911+00:00",
       "pages_produced": [
-        "references/gendreau2019-handbook-metaheuristics.md",
-        "concepts/swarm-intelligence-pso-aco.md"
+        "references/gendreau2019-handbook-metaheuristics.md"
       ]
     },
     "_papers/furini2016modeling": {
@@ -6957,6 +6981,20 @@
       "content_hash": "f19c5c8c186a42b5d9a4821a60be2b99b74b5dacd2a9653cff7dc2978b670b54",
       "last_ingested": "2026-10-24T21:21:40.271921+00:00",
       "pages_produced": []
+    },
+    "_papers/gendreau2019handbook/images/page_20_image_3.jpg": {
+      "content_hash": "b7478969129c91a0b6d96e608c7d594f77068434bca19e1b9bcc490a0b730111",
+      "last_ingested": "2026-10-25T03:55:04.497901+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
+    },
+    "_papers/gendreau2019handbook/images/page_26_image_2.jpg": {
+      "content_hash": "da80d4c7e4e10fa10a5a0d622140c86c16d8ee75f6ec9f6bf9f760d3d0c25790",
+      "last_ingested": "2026-10-25T03:55:04.804326+00:00",
+      "pages_produced": [
+        "references/gendreau2019-handbook-metaheuristics.md"
+      ]
     }
   },
   "stats": {

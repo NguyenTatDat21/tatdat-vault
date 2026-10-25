@@ -18,15 +18,15 @@ sources:
 summary: >-
   A two-level optimization pattern that separates customer-to-mode assignment from route/schedule construction in VRPD, coupling global assignment search with ALNS route refinement.
 provenance:
-  extracted: 0.81
-  inferred: 0.16
+  extracted: 0.87
+  inferred: 0.10
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-24T11:34:43Z
 ---
 
 # Bi-level VRPD Task Assignment and Routing
@@ -35,9 +35,9 @@ Bi-level VRPD decomposition separates **who serves each customer** from **how ve
 
 ## Key Ideas
 
-- **Upper level:** search assignment vectors that map UAV-eligible customers to truck or drone service.
-- **Lower level:** given an assignment, rebuild truck routes and drone station schedules to evaluate total objective.
-- This decomposition reduces combinatorial coupling compared with a monolithic neighborhood over assignment + routing at once.
+- **Upper level:** search assignment vectors that map UAV-eligible customers to truck or drone service; the published instantiation encodes the assignment as a bit string with one bit per UAV-serviceable customer.
+- **Lower level:** given an assignment, rebuild truck routes and drone station schedules to evaluate total objective; the truck-routing step uses random removal, worst removal and regret-insertion moves inside a simulated-annealing acceptance rule.
+- This decomposition reduces combinatorial coupling compared with a monolithic neighborhood over assignment + routing at once. ^[inferred]
 - In the Yang et al. instantiation, BSO drives assignment exploration while ALNS-SA improves route quality.
 
 A generic abstraction is:

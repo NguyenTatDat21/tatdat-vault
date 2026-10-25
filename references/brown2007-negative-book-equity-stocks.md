@@ -14,6 +14,8 @@ relationships:
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md
+  - _papers/brown2007going/images/page_5_chart_2.jpg
+  - _papers/brown2007going/images/page_13_chart_3.jpg
 summary: >-
   Shows that excluding negative-book-equity stocks from value-growth sorting loses systematic return information, and proposes returns-based style classification to reintegrate them.
 provenance:
