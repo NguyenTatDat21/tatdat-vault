@@ -12,6 +12,8 @@ relationships:
     type: derived_from
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: related_to
+  - target: "[[concepts/collective-drone-delivery]]"
+    type: related_to
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
@@ -47,7 +49,7 @@ It generalizes truck-only min-max VRP and single-drone variants by adding synchr
 - Mission duration depends on the number of collaborating drones (precomputed \(\tau_j^k\) values).
 - Objective is to minimize overall completion time (makespan), not total distance.
 - In practice, good truck tours provide a strong scaffold for assigning drone missions later. ^[inferred]
-- The first multi-truck collective-drone variant was introduced by Montemanni, Dell'Amico & Corsini (2024) with two CP models (giant-tour CP2, per-truck CP3) and one MILP.
+- The first multi-truck [[concepts/collective-drone-delivery|collective-drone]] variant was introduced by Montemanni, Dell'Amico & Corsini (2024) with two CP models (giant-tour CP2, per-truck CP3) and one MILP.
 - A workload-balancing valid inequality, m·α ≥ Σ_{j∈C_F} Σ_k k·τ_j^k z_j^k, strengthens the single-truck CP model and the MILP, yielding first-ever lower bounds on all large PDSTSP-c instances.
 - CP2 gives the strongest lower bounds on large instances, CP3 is more consistent with many customers and few trucks, and CP closes all small instances except one.
 - Non-collective CP baselines (3-index Circuit models and giant-tour models with time/weight counters, Montemanni & Dell'Amico 2023) produced new best lower bounds on all tested min-time instances and the first lower bounds ever on the min-cost benchmark.

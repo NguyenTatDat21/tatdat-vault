@@ -17,6 +17,8 @@ relationships:
     type: related_to
   - target: "[[references/dinh2021-haco-pdstsp]]"
     type: related_to
+  - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
+    type: related_to
 sources:
   - _papers/nguyen2022mincost/nguyen2022mincost-extracted.md
   - _papers/nguyen2022mincost/nguyen2022mincost.md
@@ -42,7 +44,7 @@ updated: 2026-10-23T00:04:12Z
 
 # The Min-cost Parallel Drone Scheduling Vehicle Routing Problem (Nguyen et al., 2022)
 
-> [!tldr] This paper defines min-cost PDSVRP (multi-truck + parallel drones), proposes a MILP and a tailored SISSRs ruin-and-recreate metaheuristic, and reports strong solution quality plus a state-of-the-art PDSTSP adaptation.
+> [!tldr] This paper defines min-cost PDSVRP (multi-truck + parallel drones), proposes a MILP and a tailored SISSRs [[concepts/dag-topological-sort-scheduling-move-evaluation|ruin-and-recreate]] metaheuristic, and reports strong solution quality plus a state-of-the-art PDSTSP adaptation.
 
 ## Problem & Scope
 
@@ -92,6 +94,7 @@ Key reported outcomes include:
 - [[references/montemanni2024-pdsvrp-collective-drones]]
 - [[references/yang2022-vrpd-bilevel-heuristic]]
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted]]
+- [[concepts/dag-topological-sort-scheduling-move-evaluation]] — the DAG move evaluation that the RnR insertion uses
 
 ## Bibliographic Record
 

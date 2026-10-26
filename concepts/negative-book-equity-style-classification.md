@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/beatty2014-financial-accounting-in-banking]]"
     type: related_to
+  - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
+    type: related_to
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md
@@ -53,6 +55,7 @@ Negative-book-equity style classification maps firms with negative book equity i
 - [[concepts/cash-based-operating-profitability]]
 - [[references/beatty2014-financial-accounting-in-banking]]
 - [[concepts/ordering-information-portfolio-selection]]
+- [[concepts/ratio-hierarchy-for-profitability-and-growth]] — profitability and growth drivers behind the styles
 
 ## Open Questions
 

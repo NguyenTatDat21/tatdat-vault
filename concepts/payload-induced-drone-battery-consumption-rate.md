@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
+  - target: "[[concepts/peukert-law-battery-discharge]]"
+    type: related_to
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md

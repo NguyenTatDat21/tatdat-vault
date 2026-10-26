@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[references/ledoit2004wellconditioned]]"
     type: related_to
+  - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
+    type: related_to
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md
@@ -58,6 +60,7 @@ Ordering-information portfolio selection replaces point estimates of expected re
 - [[references/fama1973-risk-return-equilibrium-empirical-tests]]
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]
 - [[references/ledoit2004wellconditioned]]
+- [[concepts/ratio-hierarchy-for-profitability-and-growth]] — accounting drivers used as expected-return information
 
 ## Open Questions
 

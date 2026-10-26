@@ -7557,6 +7557,17 @@
         "concepts/peukert-law-battery-discharge.md",
         "concepts/dag-topological-sort-scheduling-move-evaluation.md"
       ]
+    },
+    "_papers/nissim2001ratio/nissim2001ratio-extracted.md": {
+      "content_hash": "eefa9e50e7cd3b9051c33b21596655d0a140337a8bc056510476c3b046c6416c",
+      "last_ingested": "2026-10-26T06:42:29.982933+00:00",
+      "pages_produced": [
+        "references/nissim2001-ratio-analysis-equity-valuation.md",
+        "concepts/ratio-hierarchy-for-profitability-and-growth.md",
+        "concepts/residual-earnings-equity-valuation.md",
+        "concepts/operating-and-financial-leverage-spreading.md",
+        "concepts/ratio-mean-reversion-and-continuing-value-benchmarks.md"
+      ]
     }
   },
   "stats": {

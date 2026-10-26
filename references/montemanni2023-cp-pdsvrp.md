@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-parallel-collective-drones]]"
     type: related_to
+  - target: "[[concepts/collective-drone-delivery]]"
+    type: related_to
 sources:
   - _papers/montemanni2023constraint/montemanni2023constraint-extracted.md
   - _papers/montemanni2023constraint/montemanni2023constraint.md
@@ -81,6 +83,8 @@ Setup: Python 3.9, CP-SAT (Google OR-Tools 9.5.2237), i7-12700F 12 cores 32 GB; 
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]] — the concept this paper's MC models formalize in CP
 - [[concepts/pdsvrp-c]] — collective-drones variant built on these CP baselines
 - [[references/montemanni2024-parallel-collective-drones]] — follow-up with collective drones, citing this preprint
+- [[concepts/collective-drone-delivery]] — the collective-drones concept these CP baselines feed
+- [[concepts/collective-drone-delivery]] — the collective-drones concept these CP baselines feed
 
 ## Bibliographic Record
 

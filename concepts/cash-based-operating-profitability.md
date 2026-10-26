@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/kim2020-profitability-asean-stocks]]"
     type: related_to
+  - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
+    type: extends
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -59,6 +61,7 @@ Cash-based operating profitability (CbOP) isolates profitability from accrual ad
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[references/kakinuma2020-empirical-profitability-thailand]]
 - [[references/kim2020-profitability-asean-stocks]]
+- [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the accrual-based driver system this cash-based measure complements
 
 ## Open Questions
 

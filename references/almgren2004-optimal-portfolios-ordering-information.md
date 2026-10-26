@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/mmse-covariance-shrinkage]]"
     type: uses
+  - target: "[[concepts/residual-earnings-equity-valuation]]"
+    type: related_to
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md
@@ -85,6 +87,7 @@ $$
 - [[concepts/ordering-information-portfolio-selection]]
 - [[concepts/annual-lng-delivery-program]]
 - [[concepts/set-orienteering-problem]]
+- [[concepts/residual-earnings-equity-valuation]] — the valuation model this ordering information feeds
 
 ## Sources
 

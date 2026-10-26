@@ -11,6 +11,8 @@ relationships:
     type: implements
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
+  - target: "[[concepts/collective-drone-delivery]]"
+    type: related_to
 sources:
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel.md
@@ -32,7 +34,7 @@ updated: 2026-10-25T10:55:07Z
 
 # Parallel Drone Scheduling Vehicle Routing Problems with Collective Drones
 
-> [!tldr] Collective drones connect in flight to share a delivery: the connected drone carries more and flies faster. This paper adds a valid inequality to a CP model for the single-truck PDSTSP-c, then introduces PDSVRP-c (multiple trucks + collective drones) with two CP models and a MILP, producing first-ever lower bounds on every tested instance.
+> [!tldr] [[concepts/collective-drone-delivery|Collective drones]] connect in flight to share a delivery: the connected drone carries more and flies faster. This paper adds a valid inequality to a CP model for the single-truck PDSTSP-c, then introduces PDSVRP-c (multiple trucks + collective drones) with two CP models and a MILP, producing first-ever lower bounds on every tested instance.
 
 ## Problem & Contribution
 

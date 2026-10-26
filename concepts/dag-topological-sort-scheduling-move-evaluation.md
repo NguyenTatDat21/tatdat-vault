@@ -61,7 +61,7 @@ Given a feasible $(y,f)$, build $\bar{\mathcal{G}}=(V^*,E^*)$ where $V^*$ is the
 
 Returns complete drone tours plus start times per request. The same routine doubles as the schedule-structure update after a drone removal.
 
-## Pairing with ruin-and-recreate insertion
+## Pairing with [[concepts/large-neighborhood-search|ruin-and-recreate]] insertion
 
 Candidate start times $F=\{0\}\cup\{$ completion times of serviced requests $\}$; the c-drone size $k$ is drawn uniformly in $[q_i,p_i]$; for each $t\in F$ the $k$ best drones are chosen by **rank-based roulette-wheel selection** (Whitley 1989) to preserve diversity when several drones share the same slack value. The cheap screening estimate of resulting tour time is
 

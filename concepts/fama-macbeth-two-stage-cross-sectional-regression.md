@@ -20,6 +20,8 @@ relationships:
     type: related_to
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
+  - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
+    type: uses
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
@@ -84,6 +86,7 @@ $$
 - [[references/kim2020-profitability-asean-stocks]]
 - [[references/qian2001-conditional-distribution-portfolio-theory]] — the equilibrium-extraction and portfolio-weight algebra qian2001 uses (P-matrix view regression, Theorems 1-2) parallels the design's cross-sectional logic: equilibrium as reference, deviations priced.
 - [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007's country-by-country zero-investment accrual deciles with GMM cross-sectional regressions (its Eq. 6) are a direct application of this template.
+- [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the performance measures these regressions test
 
 ## Open Questions
 

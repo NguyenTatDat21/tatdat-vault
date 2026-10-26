@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
+  - target: "[[concepts/operating-and-financial-leverage-spreading]]"
+    type: related_to
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md
@@ -86,6 +88,7 @@ The sample is merged CRSP/COMPUSTAT monthly data for NYSE, AMEX and NASDAQ from 
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/beatty2014-financial-accounting-in-banking]]
 - [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007 builds zero-investment accrual decile portfolios in the same cross-sectional style; its OCF-underweighting result parallels the value effects style classification recovers here.
+- [[concepts/operating-and-financial-leverage-spreading]] — leverage and spread measures in the same accounting frame
 
 ## Open Questions
 

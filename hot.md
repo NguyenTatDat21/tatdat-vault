@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T05:54:05Z
-pages: 387
+updated: 2026-10-26T06:48:24Z
+pages: 392
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] INGEST source=_papers/nguyen2025set/nguyen2025set-extracted.md pages_created=1 pages_updated=0 ...
-- [2026-10-26] CROSS_LINK source=cross-linker pages_scanned=1 links_added=7 ...
-- [2026-10-26] INGEST source=_papers/nguyen2023parallel/nguyen2023parallel-extracted.md pages_created=4 pages_updated=0 ...
+- [2026-10-26] CROSS_LINK pages_scanned=14 links_added=16 typed_relations_written=10 ...
+- [2026-10-26] INGEST source=_papers/nissim2001ratio/nissim2001ratio-extracted.md pages_created=5 pages_updated=0 ...
+- [2026-10-26] CROSS_LINK pages_scanned=15 links_added=21 typed_relations_written=54 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-PDSTSP-c: k coupled depot drones (k-unit c-drone) as one carrier, two-index flow MILP + RnR with DAG topological-sort move evaluation; 23.47% average c-drone gain (best 58.78%), 33.21% truck mileage cut, gains need m>=12 drones, best battery 12 Ah; RnR beats RnR-fast on 23/30 large instances, MILP optimal on 7 small instances, 30 small + 30 large instances, 13 embedded figures.
+Nissim & Penman (Review of Accounting Studies 2001, DOI 10.1023/A:1011338221623) rebuild ratio analysis on residual-earnings valuation: ROCE=Sales PM x ATO + Other Items/NOA + FLEV x SPREAD with ROOA/OLLEV/OLSPREAD and MSR, seven profitability drivers and three growth drivers (Sales, ATO, FLEV). Documented 1963-1999 medians over 37 years, 64,060 firm-years: ROCE 12.2%, RNOA 10.0%, ROTA 6.8%, FLEV 0.40 vs Debt/Equity 1.19, OLLEV 0.35, OLSPREAD 3.4%, NBC 5.2%, SPREAD 3.9% (SD 20.3%), ATO 1.94, Sales PM 5.4%, Growth in CSE 9.0%, FCF/NOA 2.1%. Table 2 Spearman: RNOA-ROTA 0.94, FLEV-SPREAD -0.38, OLLEV-ATO 0.60. Fade rates: ROCE 0.618->0.230, RNOA 0.665->0.298, FLEV 0.937->0.700, ATO 0.947->0.808, growth in NOA 0.584->0.051; survivorship 97.84%->85.45% for the top residual-earnings portfolio. Out-of-sample validation fails => ratios are contextual benchmarks, not mechanical extrapolation.
 
 ## Flagged Contradictions
 

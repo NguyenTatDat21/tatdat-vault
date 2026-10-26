@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[concepts/peukert-law-battery-discharge]]"
+    type: related_to
 sources:
   - _papers/liu2017power/liu2017power-extracted.md
   - _papers/liu2017power/liu2017power.md
@@ -56,6 +58,7 @@ Validation on a separate flight (70 m AGL rectangular loop at 10–20 m/s) gave 
 - [[concepts/payload-induced-drone-battery-consumption-rate]] — payload-aware consumption
 - [[references/cheng2020-drone-routing-energy-function]] — energy function inside VRP
 - [[references/dorling2017-drone-delivery-vrp]] — drone delivery VRP with energy constraints
+- [[concepts/peukert-law-battery-discharge]] — converts power into current-dependent, capacity-shrinking battery demand
 
 ## Sources
 

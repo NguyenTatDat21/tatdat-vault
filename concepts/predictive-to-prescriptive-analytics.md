@@ -9,6 +9,8 @@ relationships:
     type: extends
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
+  - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
+    type: related_to
 sources:
   - _papers/bertsimas2020predictive/bertsimas2020predictive-extracted.md
   - _papers/bertsimas2020predictive/bertsimas2020predictive.md
@@ -51,6 +53,7 @@ Predictive-to-prescriptive analytics turns contextual data into optimization dec
 - [[references/bertsimas2022-bootstrap-robust-prescriptive-analytics]]
 - [[concepts/ordering-information-portfolio-selection]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
+- [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the ratio hierarchy that turns forecasts into valuation inputs
 
 ## Open Questions
 

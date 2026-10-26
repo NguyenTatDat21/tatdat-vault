@@ -38,7 +38,7 @@ updated: 2026-10-26T05:12:09Z
 
 ## Formulation
 
-Per flight phase $i$, the discharge current is obtained from the power model, $I_i = P_i / V_{nom}$ ($V_{nom}$ = nominal voltage, 12.8 V in the reference battery family). Peukert's law, as applied in the PDSTSP-c paper citing Doerffel & Sharkh (2006):
+Per flight phase $i$, the discharge current is obtained from the [[concepts/multirotor-power-model-components|power model]], $I_i = P_i / V_{nom}$ ($V_{nom}$ = nominal voltage, 12.8 V in the reference battery family). Peukert's law, as applied in the PDSTSP-c paper citing Doerffel & Sharkh (2006):
 
 $$C_d=\sum_{i=1}^{6} I_{eff,i}\,\Delta t_i=\sum_{i=1}^{6}\left[I_i\left(\frac{I_i}{I_{nom}}\right)^{p-1}\Delta t_i\right],\qquad p>1$$
 

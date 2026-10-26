@@ -22,6 +22,8 @@ relationships:
     type: related_to
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
+  - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
+    type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -78,7 +80,7 @@ LNS and ALNS can also be viewed as low-level heuristic families that a higher-le
 
 - Hà et al. (2020) replaced CP-based insertion feasibility with linear programs in an ALNS for VRP with synchronization: maximize the delay allowed on each route arc under time windows and sync (F1), probe all arcs in one LP (F2), validate O(1) from stored earliest/latest arrivals, final LP check (F3) — 20× speedup on 50-customer instances, dominating all prior heuristics; see [[references/ha2020-vrp-synchronization-lp-alns]]. ^[inferred]
 
-Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/tabu-search]], [[concepts/large-neighborhood-ship-pair-destroy-repair]], [[references/gendreau2019-handbook-metaheuristics]], [[references/goel2012-large-neighborhood-search-lng-inventory-routing]], [[references/montemanni2024-pdsvrp-collective-drones]], [[references/pisinger2019-large-neighborhood-search]], and [[references/pham2023-efficient-ga-quadratic-tsp]], [[references/ha2020-vrp-synchronization-lp-alns]].
+Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuristics]], [[concepts/tabu-search]], [[concepts/large-neighborhood-ship-pair-destroy-repair]], [[references/gendreau2019-handbook-metaheuristics]], [[references/goel2012-large-neighborhood-search-lng-inventory-routing]], [[references/montemanni2024-pdsvrp-collective-drones]], [[references/pisinger2019-large-neighborhood-search]], and [[references/pham2023-efficient-ga-quadratic-tsp]], [[references/ha2020-vrp-synchronization-lp-alns]], [[concepts/dag-topological-sort-scheduling-move-evaluation]].
 
 ## Open Questions
 

@@ -11,6 +11,8 @@ relationships:
     type: uses
   - target: "[[concepts/cp-sat-hint-start]]"
     type: implements
+  - target: "[[concepts/collective-drone-delivery]]"
+    type: related_to
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024combining/montemanni2024combining.md
@@ -136,6 +138,8 @@ The paper concludes that hint-start is beneficial for both lower bounds and heur
 - [[_papers/montemanni2024parallel/montemanni2024parallel-extracted]]
 - [[_papers/nguyen2023parallel/nguyen2023parallel-extracted]]
 - [[_papers/montemanni2023constraint/montemanni2023constraint-extracted]]
+- [[concepts/collective-drone-delivery]] — collective drones are the defining feature of PDSVRP-c
+- [[concepts/collective-drone-delivery]] — the c-drone mechanism that PDSVRP-c's collective missions rely on
 
 ## Sources
 

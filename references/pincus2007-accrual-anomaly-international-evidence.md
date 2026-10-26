@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
+  - target: "[[concepts/residual-earnings-equity-valuation]]"
+    type: related_to
 sources:
   - _papers/pincus2007accrual/pincus2007accrual-extracted.md
   - _papers/pincus2007accrual/pincus2007accrual.md
@@ -32,7 +34,7 @@ updated: 2026-10-25T14:33:00Z
 
 # The Accrual Anomaly — International Evidence
 
-> [!tldr] Sloan's US accrual anomaly is not universal: Mishkin tests detect accruals overweighting only in Australia, Canada, the UK, the US, and in ADRs of firms from anomaly-absent countries; earnings management explains occurrence, limits to arbitrage explain persistence.
+> [!tldr] Sloan's US accrual anomaly is not universal: Mishkin tests detect accruals overweighting only in Australia, Canada, the UK, the US, and in ADRs of firms from anomaly-absent countries; earnings management explains occurrence, limits to arbitrage explain [[concepts/ratio-mean-reversion-and-continuing-value-benchmarks|persistence]].
 
 ## Problem & Motivation
 
@@ -80,6 +82,7 @@ The extracted markdown has zero image embeds; images/ holds 37 table/equation cr
 - [[references/brown2007-negative-book-equity-stocks]] — style-portfolio construction from merged CRSP/COMPUSTAT data, using the Fama-French sorting machinery this paper's zero-investment portfolios parallel.
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]] — the portfolio-formation + cross-sectional-regression template pincus2007 applies country-by-country (Eq. 6, GMM).
 - [[concepts/cash-based-operating-profitability]] — the cash-versus-accrual valuation gap that OCF underweighting measures directly.
+- [[concepts/residual-earnings-equity-valuation]] — the accrual-valuation model behind the anomaly
 
 ## Sources
 
