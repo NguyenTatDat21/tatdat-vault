@@ -93,7 +93,7 @@ Setup: Python 3.9, CP-SAT (Google OR-Tools 9.5.2237), i7-12700F 12 cores 32 GB; 
 - Canonical URL: http://arxiv.org/abs/2307.02980
 - Publication: arXiv preprint, July 6, 2023 (submitted for publication)
 - Authors: Roberto Montemanni, Mauro Dell'Amico
-- Metadata companion: [[../_papers/montemanni2023constraint/montemanni2023constraint.md|montemanni2023constraint metadata]]
+- Metadata companion: [[_papers/montemanni2023constraint/montemanni2023constraint.md|montemanni2023constraint metadata]]
 
 ## Sources
 

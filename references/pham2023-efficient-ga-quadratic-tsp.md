@@ -41,7 +41,7 @@ updated: 2026-10-25T14:33:00Z
 
 In the Quadratic Traveling Salesman Problem the cost of visiting node i after visiting j depends on the predecessor of i: a tour sigma of n nodes is paid as \(\sum_{i=0}^{n-1} c_{\sigma(i)\sigma(i+1)\sigma(i+2)}\) (Eq. 1, with sigma(0)=sigma(n), sigma(n+1)=sigma(1)). The problem is NP-hard: Angle-TSP (Aggarwal et al. 2000) admits only an O(log n) approximation, and Angle-Distance-TSP models Dubins-vehicle turning costs (Savla 2008); the asymmetric 2-TSP equals an optimal Permuted Markov model used for binding-site modelling in bioinformatics (Jäger & Molitor 2008). Exact work stops early: branch-and-bound solves at most 26 nodes (about three weeks), polyhedral branch-and-cut up to 30 nodes (Fischer & Helmberg 2013), Fischer 2014 reaches 2-TSP n≤40 in under 10 seconds, and the TSP-R transformation turns a 15-node QTSP into a 420-node TSP, practical to 20 nodes. Simple TSP heuristics (CI, nearest-neighbor, k-Opt) give tours nearly twice the optimum. The prior state of the art is Stanek et al. (2019, Computers & Operations Research 108:97-111), a matheuristic whose worst optimal gap is slightly over 10%; deep reinforcement learning (Zhang et al. 2022, Transformer) sometimes exceeds 30%.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pham2023efficient/images/page_2_image_0.jpg]]
+![[_papers/pham2023efficient/images/page_2_image_0.jpg]]
 
 *Figure 1: Overview of HGA metaheuristic*
 
@@ -54,15 +54,15 @@ The Hybrid Genetic Algorithm (HGA) is inspired by the Hybrid Genetic Search for 
 - Mutation: ruin-and-recreate (Schrimpf et al. 2000) with probability \(p_{mut}=0.9\) — the mutation's goal is diversification, not improvement, so the offspring is not necessarily better than the parent (in contrast to LNS, Shaw 1998). Removal: worst removal (cost-saving probability-weighted, Ropke & Pisinger 2006) or block removal (p consecutive nodes, Veenstra et al. 2017); insertion: random or cheapest insertion (Fischer et al. 2014); one pair chosen uniformly at random.
 - Local search, two phases: (1) first-improvement over neighborhoods N1 Relocate1, N2 Relocate2, N3 Swap1-1, N4 Swap1-2, N5 Swap2-1, N6 Swap2-2, N7 2-Opt, scanned over a granular candidate list L(u) of the \(\Gamma=20\) closest neighbors w.r.t. \(\pi(u,v)=c_{w,u,v}\) (w = predecessor of u), complexity \(O(\Gamma n)\); (2) when phase 1 finds nothing, a restricted double-bridge with probability \(p_{4Opt}=0.3\).
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pham2023efficient/images/page_4_image_0.jpg]]
+![[_papers/pham2023efficient/images/page_4_image_0.jpg]]
 
 *Figure 2: An illustration of double-bridge move*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pham2023efficient/images/page_4_image_9.jpg]]
+![[_papers/pham2023efficient/images/page_4_image_9.jpg]]
 
 *Figure 3: An illustration of disconnecting 2-Opt move*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pham2023efficient/images/page_4_image_11.jpg]]
+![[_papers/pham2023efficient/images/page_4_image_11.jpg]]
 
 *Figure 4: A special case of double-bridge move with $i_1 = i_2 - 1$*
 
@@ -89,7 +89,7 @@ Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = me
 - Ablation (Angle-hard): full HGA Gap −2.608 / 250 best; without restricted double-bridge −2.540 / 249; without mutation −1.437 / 223; without both −1.062 / 204 — mutation is the more vital operator, the double-bridge is needed to reach every optimum.
 - Scaling: 400-node instances solve in under 2 hours; running time follows a quadratic function (Figure 5); stability (gap vs own best) grows from 0.00% at n=50 to 1.91% at n=400.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pham2023efficient/images/page_7_chart_8.jpg]]
+![[_papers/pham2023efficient/images/page_7_chart_8.jpg]]
 
 *Figure 5: The growth in the running time of HGA*
 

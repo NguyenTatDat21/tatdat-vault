@@ -98,7 +98,7 @@ Setup: Python 3.11.2, CP-SAT (OR-Tools 9.6), Gurobi 10.0; PDSTSP-c instances fro
 - Canonical URL: https://www.sciencedirect.com/science/article/pii/S0305054823003787
 - Publication: Computers & Operations Research, March 2024
 - Authors: Roberto Montemanni, Mauro Dell'Amico, Andrea Corsini
-- Metadata companion: [[../_papers/montemanni2024parallel/montemanni2024parallel.md|montemanni2024parallel metadata]]
+- Metadata companion: [[_papers/montemanni2024parallel/montemanni2024parallel.md|montemanni2024parallel metadata]]
 
 ## Sources
 

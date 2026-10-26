@@ -102,7 +102,7 @@ Order fundamentals: y ≻ x iff y ≻₍₁,₀₎ x (Lemma 1); a (1,0)-approxim
 - URL: http://arxiv.org/abs/2303.12506
 - Publication: preprint (arXiv), 2023-09-28
 - Authors: Eden Hartman, Avinatan Hassidim, Yonatan Aumann, Erel Segal-Halevi
-- Companion metadata: [[../_papers/hartman2023leximin/hartman2023leximin.md|hartman2023leximin metadata]]
+- Companion metadata: [[_papers/hartman2023leximin/hartman2023leximin.md|hartman2023leximin metadata]]
 - Funding: Israeli Science Foundation grants 712/20, 2697/22 (line 338)
 
 ## Sources

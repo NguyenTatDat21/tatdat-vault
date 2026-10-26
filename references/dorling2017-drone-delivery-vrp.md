@@ -51,7 +51,7 @@ The paper argues classical VRPs miss key drone-delivery realities:
 - payload- and battery-dependent energy draw,
 - tight coupling between route choice, battery size, and feasibility.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_3_chart_10.jpg]]
+![[_papers/dorling2017vehicle/images/page_3_chart_10.jpg]]
 
 *Fig. 2 (paper): An example showing two drones flying three different routes.*
 
@@ -90,7 +90,7 @@ The paper reports fitted values (hexacopter setting) around:
 
 *Fig. 4 (paper): Hexacopter manoeuvre information.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_11_chart_1.jpg]]
+![[_papers/dorling2017vehicle/images/page_11_chart_1.jpg]]
 
 *Fig. 5 (paper): Hexacopter energy consumption for various battery and payload weights m, with corresponding energy consumption model values.*
 
@@ -113,11 +113,11 @@ The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest d
 | Cooling schedule | Raising μ from 0.9 to 0.99 improves MT-DDP time and MC-DDP cost by up to 15% for about 10× runtime (18.45 → 181.41 s, 57.11 → 497.65 s); 0.99 → 0.999 adds at most 5% for another 10×, so the paper uses μ = 0.99; standard deviations are largest when location counts are high and μ is low |
 | Reuse and battery optimization | Drone reuse passes the about \$113,000 cost limit reached without reuse at 500 nodes; optimizing battery weight per route improves cost by 13% over a fixed 0.3 kg battery and delivery time by about 22% over a fixed 0.25 kg, and a 15% cost gain at b = 0.3 kg vs 0.5 kg and an 80% time gain at b = 0.25 kg vs 0.45 kg (500 locations, 1 km²) |
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_13_chart_12.jpg]]
+![[_papers/dorling2017vehicle/images/page_13_chart_12.jpg]]
 
 *Fig. 9 (paper): Costs found by the MC-DDP when every drone’s battery weighs b kg, with a time limit of 30 minutes on a 1 km² field with 500 nodes.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/dorling2017vehicle/images/page_13_chart_14.jpg]]
+![[_papers/dorling2017vehicle/images/page_13_chart_14.jpg]]
 
 *Fig. 10 (paper): Delivery times found by the MT-DDP when every drone’s battery weighs b kg, with a budget of \$10,000 on a 1 km² field with 500 nodes.*
 

@@ -49,11 +49,11 @@ updated: 2026-10-25T22:57:00Z
 
 Mean-variance optimization is notoriously input-sensitive (Best & Grauer 1991): with fixed covariance and risk aversion, minute changes in expected returns produce drastic, nondiversified portfolios. Black & Litterman (1991, Goldman Sachs) start from equilibrium expected returns extracted inversely from market value weights (Best & Grauer 1985), so that MVO on equilibrium inputs reproduces the market portfolio, then adjust the mean vector via conditional distributions of views. Their method is Bayesian — it needs a prior on the unobservable mean vector, treats views as a likelihood function, and the free parameters cannot be consistently calibrated, making generalization to joint mean-covariance adjustment impractical. Qian & Gorman apply conditional-distribution theory directly to the distribution of asset returns, adjusting mean and covariance simultaneously. The key assumptions — constant regression coefficients and error covariance, errors independent of the viewed returns — are implicitly embedded in Black-Litterman, bear a close similarity to CAPM anchoring, and can fail under nonstationarity.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/qian2001conditional/images/page_3_chart_16.jpg]]
+![[_papers/qian2001conditional/images/page_3_chart_16.jpg]]
 
 *Figure 1. Adjusted Correlation Based on Absolute View — Panel A. Positive Original Correlation Coefficient*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/qian2001conditional/images/page_3_chart_18.jpg]]
+![[_papers/qian2001conditional/images/page_3_chart_18.jpg]]
 
 *Figure 1. Adjusted Correlation Based on Absolute View — Panel B. Negative Original Correlation Coefficient*
 
@@ -67,15 +67,15 @@ Two-asset case, equilibrium returns r ~ N(μ,Σ), view on asset 2 (tilde marks t
 - Conditional covariance Eq. (8): \(\tilde{\Sigma}=\begin{pmatrix}\sigma_1^2(1+\rho^2(c^2-1)) & c^2\rho\sigma_1\sigma_2\\ c^2\rho\sigma_1\sigma_2 & c^2\sigma_2^2\end{pmatrix}\), c = volatility ratio \(\tilde{\sigma}_2/\sigma_2\); adjusted correlation \(\tilde{\rho}=\rho c/\sqrt{1+\rho^2(c^2-1)}\) (Eq. 9): preserves sign, increasing in c, range (0, 1/|ρ|), unity when c=1.
 - Relative view (stock vs bond, bond quality): view on \(r_d=r_1-r_2\) with mean d and variance \(\sigma_d^2=\sigma_1^2+\sigma_2^2-2\rho\sigma_1\sigma_2\); regressions Eq. (10) with \(\beta_1=(\sigma_1^2-\rho\sigma_1\sigma_2)/\sigma_d^2\), \(\beta_2=-(\sigma_2^2-\rho\sigma_1\sigma_2)/\sigma_d^2\), \(\beta_1-\beta_2=1\); mean Eq. (11) \(\tilde{\mu}_i=\mu_i+\beta_i(\tilde{d}-d)\); covariance Eq. (12) with \(\Delta=\sigma_d^2(c^2-1)\). When betas have opposite signs and the original correlation is positive, rising c can lower the correlation — decoupling of two traditionally correlated assets, as in flight-to-quality; Figures 2-3 show \(\tilde{\rho}\to 1\) as c→0 and \(\tilde{\rho}\to-1\) as c→∞ for opposite-sign betas.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/qian2001conditional/images/page_5_chart_2.jpg]]
+![[_papers/qian2001conditional/images/page_5_chart_2.jpg]]
 
 *Figure 2. First Case of Adjusted Correlation Based on Relative View: Betas of Same Sign (β1β2>0) — Panel A*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/qian2001conditional/images/page_5_chart_4.jpg]]
+![[_papers/qian2001conditional/images/page_5_chart_4.jpg]]
 
 *Figure 2 — Panel B (Increasing Function of Volatility Ratio Near Unity)*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/qian2001conditional/images/page_5_chart_6.jpg]]
+![[_papers/qian2001conditional/images/page_5_chart_6.jpg]]
 
 *Figure 3. Second Case of Adjusted Correlation Based on Relative View: Betas of Opposite Signs (β1β2<0)*
 

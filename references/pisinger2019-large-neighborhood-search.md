@@ -46,7 +46,7 @@ updated: 2026-10-25T14:33:00Z
 
 Neighborhood search on local structures (2-opt, O(n²)) cannot reach distant regions of a constrained search space. Shaw (1998) proposed LNS: destroy part of a solution, repair it, implicitly defining a neighborhood N(x) = all solutions reachable from x by one destroy followed by one repair. Very-large-scale neighborhood (VLSN) methods (Ahuja et al. 2002, Discrete Applied Mathematics 123:75-102) exploit neighborhoods that grow exponentially, defined by structures whose best solution can be found in polynomial time. The chapter is the canonical reference for destroy/repair design, the ALNS adaptive mechanism, and the VLSN taxonomy.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pisinger2019large/images/page_3_image_2.jpg]]
+![[_papers/pisinger2019large/images/page_3_image_2.jpg]]
 
 *Fig. 1 Left: a TSP solution. Right: A CVRP solution. In the CVRP the depot is marked with a square and the customers i are marked with nodes each having a demand q_i*
 
@@ -63,15 +63,15 @@ LNS loop (Algorithm 1): x^b = x; repeat x^t = r(d(x)); if accept(x^t, x) then x 
 - **Properties**: ALNS is robust and instance-adaptive, seldom trapped in local optima, needs limited calibration. It is related to VNS (VNS orders predefined neighborhoods by complexity; ALNS picks from parameterized families with adaptive probabilities) and to hyper-heuristics (Ross: heuristics to choose heuristics — ALNS's adaptive layer is exactly that). Prior adaptive frameworks: Rousseau et al. 2002 (two LNS neighborhoods, VND switching), Perron 2003 (repair portfolios), Laborie & Godard 2007 (self-adapting LNS tuning sub-heuristic parameters), Palpant et al. 2004 (LSSPER), outer metaheuristics: descent, ILS, SA; parallel LNS: Perron & Shaw 2003, Ropke 2009 parallel ALNS tested on CVRP and TSP-PD.
 - **Applications**: VRPTW is LNS's most-studied domain; Bent & Hentenryck (2004) two-stage — SA minimizing number of routes, then LNS with related destroy and truncated branch-and-bound repair minimizing lengths, improving-only acceptance, removal size reset to 1 periodically; same pattern for PDPTW. Ropke & Pisinger's ALNS for PDPTW is state-of-the-art, and CVRP/VRPTW transform into PDPTW, so ALNS carries across VRP variants; Prescott-Gagnon et al. (2007) branch-and-price with LNS repair, 4 destroy methods, beats previous LNS. Best VRPTW at time of writing: Nagata & Bräysy 2009, a non-LNS route minimization heuristic. Few LNS applications to TSP variants — LNS suits partitioning problems (VRP, bin packing, generalized assignment) better. Scheduling: Laborie & Godard single-mode, Godard/Laborie/Nuijten cumulative, Carchrae & Beck job-shop, Cordeau et al. 2009 technician scheduling (hundreds of tasks in <15 minutes), Muller 2009 RCPSP ALNS among three best on PSPLIB, ALNS for multi-item capacitated lot sizing with setup times.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pisinger2019large/images/page_5_image_2.jpg]]
+![[_papers/pisinger2019large/images/page_5_image_2.jpg]]
 
 *Fig. 2 Illustration of the neighborhoods used by VDNS and VNS. The current solution is marked x. VDNS typically operates on one type of neighborhood with variable depth, while VNS operates on structurally different neighborhoods N_1, ..., N_k*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pisinger2019large/images/page_8_image_2.jpg]]
+![[_papers/pisinger2019large/images/page_8_image_2.jpg]]
 
 *Fig. 3 Destroy and repair example. The top left figure shows a CVRP solution before the destroy operation. The top right figure shows the solution after a destroy operation that removed 6 customers (now disconnected from the routes). The bottom figure shows the solution after the repair operation has reinserted the customers.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/pisinger2019large/images/page_14_image_2.jpg]]
+![[_papers/pisinger2019large/images/page_14_image_2.jpg]]
 
 *Fig. 4 Illustration of neighborhoods used by ALNS. The current solution is marked with x. ALNS operates on structurally different neighborhoods N_1, ..., N_k defined by the corresponding search heuristics. All neighborhoods N_1, ..., N_k in ALNS are a subset of the neighborhood N* defined by modifying q variables, where q is a measure of the maximum degree of destruction.*
 

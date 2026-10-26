@@ -84,7 +84,7 @@ Case study: 9 butterfly options (1/2/6-month on Microsoft, Yahoo, Google) with 1
 - Canonical URL: http://arxiv.org/abs/1012.2848 (latest at https://papers.ssrn.com/abstract=1213325)
 - Publication: arXiv preprint, version of December 13, 2010
 - Authors: Attilio Meucci
-- Metadata companion: [[../_papers/meucci2010fully/meucci2010fully.md|meucci2010fully metadata]]
+- Metadata companion: [[_papers/meucci2010fully/meucci2010fully.md|meucci2010fully metadata]]
 
 ## Sources
 

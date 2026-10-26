@@ -158,7 +158,7 @@ In instances 9-12 the third subproblem has one vessel and one regasification por
 - URL: https://doi.org/10.1007/s10479-010-0794-y
 - Publication: journalArticle, Annals of Operations Research, 2013-03-01 (published online 21 October 2010)
 - Authors: Elin E. Halvorsen-Weare, Kjetil Fagerholt
-- Companion metadata: [[../_papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md|halvorsen-weare2013routing metadata]]
+- Companion metadata: [[_papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md|halvorsen-weare2013routing metadata]]
 
 ## Sources
 

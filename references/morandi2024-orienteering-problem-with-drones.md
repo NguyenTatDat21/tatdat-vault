@@ -7,7 +7,7 @@ relationships:
     type: related_to
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
     type: extends
-  - target: "[[references/murray2015-flying-sidekick-tsp]]"
+  - target: "[[references/murray2015flying]]"
     type: derived_from
 sources:
   - _papers/morandi2024orienteering/morandi2024orienteering-extracted.md
@@ -35,7 +35,7 @@ updated: 2026-10-25T17:01:33Z
 
 ## Problem & Contribution
 
-The OP-mD (Orienteering Problem with multiple drones) unifies the prize-collecting orienteering problem with the flying-sidekick drone paradigm^[inferred] (the FSTSP introduced in [[references/murray2015-flying-sidekick-tsp]]). It strictly generalizes both: truck-route prizes with per-vehicle budgets like the orienteering problem ([[concepts/set-orienteering-problem]] lineage), and truck-drone synchronization from the FSTSP family, but allows multiple drones, drone prizes distinct from truck prizes, and open truck routes. Node i yields prize p_i if visited by the truck, q_i = β·p_i if served by a drone; q_i < p_i models disaster relief (unreachable victims get reduced credit), q_i > p_i models surveillance.
+The OP-mD (Orienteering Problem with multiple drones) unifies the prize-collecting orienteering problem with the flying-sidekick drone paradigm^[inferred] (the FSTSP introduced in [[references/murray2015flying]]). It strictly generalizes both: truck-route prizes with per-vehicle budgets like the orienteering problem ([[concepts/set-orienteering-problem]] lineage), and truck-drone synchronization from the FSTSP family, but allows multiple drones, drone prizes distinct from truck prizes, and open truck routes. Node i yields prize p_i if visited by the truck, q_i = β·p_i if served by a drone; q_i < p_i models disaster relief (unreachable victims get reduced credit), q_i > p_i models surveillance.
 
 Contributions: (1) a compact MILP formulation with connectivity constraints lifted by sortie variables; (2) a separation scheme for the exponentially many lifted constraints at fractional and integral solutions; (3) valid, lifted and symmetry-breaking inequalities; (4) an "independent waiting times policy" that strictly enlarges the solution space relative to the FSTSP-with-multiple-drones formulation of Cavani, Iori & Roberti (2021) — their implicit policy forces an early drone to wait for a later drone before taking off;^[inferred] Figure 5 shows an optimal solution infeasible under that policy;^[inferred] an earlier takeoff shortens completion time by two time units.^[inferred]
 
@@ -87,7 +87,7 @@ Fractional separation is heuristic-limited by big-M constants;^[inferred] extens
 ## Related
 
 - [[concepts/multiple-flying-sidekicks-traveling-salesman-problem]] — FSTSP lineage the OP-mD extends to multiple drones and prizes
-- [[references/murray2015-flying-sidekick-tsp]] — origin of the truck-plus-UAV sortie structure
+- [[references/murray2015flying]] — origin of the truck-plus-UAV sortie structure
 - [[concepts/set-orienteering-problem]] — prize-collecting routing with per-vehicle budgets
 - [[references/murray2020-multiple-flying-sidekicks-tsp]]
 
@@ -98,7 +98,7 @@ Fractional separation is heuristic-limited by big-M constants;^[inferred] extens
 - **URL**: https://pubsonline.informs.org/doi/10.1287/trsc.2023.0003
 - **Publication**: Transportation Science (INFORMS), 2024-01
 - **Authors**: Nicola Morandi; Roel Leus; Hande Yaman
-- **Companion metadata**: [[../_papers/morandi2024orienteering/morandi2024orienteering.md|morandi2024orienteering metadata]]
+- **Companion metadata**: [[_papers/morandi2024orienteering/morandi2024orienteering.md|morandi2024orienteering metadata]]
 - **Instance data**: https://github.com/nm05119/OP-mD (instances, prizes, solutions)
 
 ## Sources

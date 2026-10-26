@@ -44,7 +44,7 @@ updated: 2026-10-25T14:33:00Z
 
 Requests arrive dynamically in time slots; K homogeneous vehicles (capacity Q) share a depot and an operation time T. Each request r is \((l_p, l_d, q_r, sp_b, sp_e, sd_b, sd_e)\): pickup/delivery locations, load, soft pickup and delivery time windows — early arrival means waiting without penalty, late arrival a delay penalty. The paper builds on FairGA (Kang et al., GECCO 2024, p. 759-767), a two-sided-fairness dynamic VRP genetic algorithm using a two-level extended random-key encoding (LERK), whose stated limitations are single-objective optimization and simple operators. This paper adds four objectives and grid-based multiobjective selection.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_4_image_2.jpg]]
+![[_papers/phanduc2025pareto/images/page_4_image_2.jpg]]
 
 *Figure 1: The overview of the proposed algorithm.*
 
@@ -60,11 +60,11 @@ Energy model from mechanical power (Chen et al. 2023): instantaneous power Eq. (
 
 PFG-2F algorithm: two-level random-key encoding (upper layer = vehicle order, lower = request assignment) extended from LERK; Fairness Heuristics Initialization divides requests equally among K vehicles; the Urgent Time Ordering Rule (Eq. 15) reorders request keys ascending by time-window closing time. PFG selection (from Xu et al., Applied Soft Computing 136:110095, 2023): ideal point z* and nadir z^n updated each iteration, segment width \(d_j=(z_j^n-z_j^*+2\sigma)/GK\), grid index \(Grid_j(x)=\lceil (f_j(x)-z_j^*+\sigma)/d_j \rceil\); PFG segments keep the individuals with minimum grid value per objective segment; selection ranks within grids by non-dominated sorting, and individuals farthest from the z* hyperplane are removed. With probability ε, parents are drawn from consecutive grids \(PFG_i^j \cup PFG_{i+1}^j\); otherwise from the whole population (Eq. 16). The deployment solution is the intersection of the Pareto hyperplane with the ideal-nadir line, falling back to the point closest to the ideal.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_5_image_1.jpg]]
+![[_papers/phanduc2025pareto/images/page_5_image_1.jpg]]
 
 *Figure 2: Individual Representation.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_6_image_2.jpg]]
+![[_papers/phanduc2025pareto/images/page_6_image_2.jpg]]
 
 *Figure 3: Pareto Front Grid generation.*
 
@@ -91,15 +91,15 @@ Baselines: NSGA-II (Deb 2002), MOEA/D (Zhang & Li 2007), MOEA/D-DE (Li & Zhang 2
 
 Mean IGD (Table 2, R/C/RC): NSGA-II 0.353-0.435, MOEA/D family 0.350-0.590, PFG-MOEA 0.201-0.370, PFG-2F-PM 0.004-0.040, PFG-2F-RK 0.010-0.035 — an order of magnitude below the MOEA/D baselines. PFG-2F-PM explores better in the first 50 generations on RC (IGD RC1 0.006 vs 0.026) but traps in local optima; RK keeps improving to convergence. Against FairGA, improvement percentages (Table 3) range 14.6-18.7% on energy cost, 58-69% on vehicle fairness, 28-59% on customer fairness, 33-52% on max waiting time. Worst results under R1 (random locations + tight windows); best under C2; performance declines as request counts grow under a fixed generation budget.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_7_chart_5.jpg]]
+![[_papers/phanduc2025pareto/images/page_7_chart_5.jpg]]
 
 *Figure 4: Effectiveness of PFG-2F over all instances.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_8_chart_2.jpg]]
+![[_papers/phanduc2025pareto/images/page_8_chart_2.jpg]]
 
 *(a) HV convergence trend of PFG-2F compared to other benchmarks.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/phanduc2025pareto/images/page_8_chart_4.jpg]]
+![[_papers/phanduc2025pareto/images/page_8_chart_4.jpg]]
 
 *(b) IGD convergence trend of PFG-2F compared to other benchmarks.*
 

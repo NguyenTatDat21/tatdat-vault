@@ -43,7 +43,7 @@ updated: 2026-10-25T14:36:00Z
 ## Problem & Motivation
 
 Traditional Fama-French value sorting excludes firms with negative book equity (BE), even though these firms increasingly appear in public markets: the number of negative-BE stocks stays below 100 until 1985 and rises sharply from 1986, reaching roughly 5% of all listed stocks. The paper tests whether this exclusion biases style-factor construction and return estimates.
-![[/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/images/page_5_chart_2.jpg]]
+![[_papers/brown2007going/images/page_5_chart_2.jpg]]
 
 *Fig. 1 (paper): Number of negative BE Stocks.* Shaded areas denote recession periods as defined by the NBER.
 
@@ -70,7 +70,7 @@ The sample is merged CRSP/COMPUSTAT monthly data for NYSE, AMEX and NASDAQ from 
 | Portfolio composition (Table 2) | Negative-BE stocks move SL portfolio capitalization by more than 10% in 1992, 1994, 1997 and 2004, and change the HML composition by at least 10% in half the sample years (1988–1989, 1992, 1994, 1997–2000, 2004) |
 | Where negative-BE stocks sit | 77% are NASDAQ-listed, 11% NYSE, 12% AMEX; top three industries are Computer Programming (10%), Pharmaceutical (5%) and Oil and Gas extraction (5%) |
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/brown2007going/images/page_13_chart_3.jpg]]
+![[_papers/brown2007going/images/page_13_chart_3.jpg]]
 
 *Fig. 2 (paper): Accumulative HML with and without inclusion of negative BE Stocks.*
 

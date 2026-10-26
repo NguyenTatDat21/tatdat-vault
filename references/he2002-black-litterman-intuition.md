@@ -151,7 +151,7 @@ Single view: German equity outperforms European equities by 5% per year. Every c
 - URL: https://www.ssrn.com/abstract=334304
 - Publication: preprint (SSRN), 2002; Goldman Sachs Quantitative Resources Group, internal copyright 1999
 - Authors: Guangliang He, Robert Litterman
-- Companion metadata: [[../_papers/he2002intuition/he2002intuition.md|he2002intuition metadata]]
+- Companion metadata: [[_papers/he2002intuition/he2002intuition.md|he2002intuition metadata]]
 - Reference [2] of the paper is Black & Litterman (1992) "Global Portfolio Optimization", Financial Analysts Journal pp. 28-43 — the vault page [[references/black1992-global-portfolio-optimization]] (lines 249-257).
 
 ## Sources

@@ -113,7 +113,7 @@ Speed optimization on instance n-1-7-27-23-120 at 1800 s, gap 0.24% → 0.19% (T
 - URL: none in metadata (sidecar url empty)
 - Publication: conferencePaper, Computational Logistics (LNCS 14239, pp. 170-184), 2023
 - Authors: Helle V. Haug, Sigrid H. Solum, Sanna B. Warholm, Kjetil Fagerholt, Mingyu Li, Inge Norstad, Joachim R. Daduna, Gernot Liedtke, Xiaoning Shi, Stefan Voß
-- Companion metadata: [[../_papers/haug2023planning/haug2023planning.md|haug2023planning metadata]]
+- Companion metadata: [[_papers/haug2023planning/haug2023planning.md|haug2023planning metadata]]
 
 ## Sources
 

@@ -104,7 +104,7 @@ Parameters: truck capacity 90 kg at 30 km/h, drone 6 kg curb weight + 3 kg paylo
 - Canonical URL: https://www.sciencedirect.com/science/article/pii/S1366554522003672
 - Publication: Transportation Research Part E: Logistics and Transportation Review, 2023
 - Authors: Shanshan Meng, Xiuping Guo, Dong Li, Guoquan Liu
-- Metadata companion: [[../_papers/meng2023multivisit/meng2023multivisit.md|meng2023multivisit metadata]]
+- Metadata companion: [[_papers/meng2023multivisit/meng2023multivisit.md|meng2023multivisit metadata]]
 
 ## Sources
 

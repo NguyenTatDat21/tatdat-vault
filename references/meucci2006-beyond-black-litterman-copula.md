@@ -84,7 +84,7 @@ Views in the example: 10 b.p. steepening of the 2y–20y spread and 5 b.p. bulli
 - Canonical URL: https://papers.ssrn.com/abstract=872577
 - Publication: SSRN preprint, May 2006
 - Authors: Attilio Meucci
-- Metadata companion: [[../_papers/meucci2006blacklitterman/meucci2006blacklitterman.md|meucci2006blacklitterman metadata]]
+- Metadata companion: [[_papers/meucci2006blacklitterman/meucci2006blacklitterman.md|meucci2006blacklitterman metadata]]
 
 ## Sources
 

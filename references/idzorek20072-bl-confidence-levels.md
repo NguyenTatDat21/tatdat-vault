@@ -133,7 +133,7 @@ Table 2.8 (lines 374-383) reports per-asset implied confidences: US Bonds 24.48%
 - Publication: bookSection, Forecasting Expected Returns in the Financial Markets, 2007-01-01
 - Authors: Thomas Idzorek, Stephen Satchell (sidecar); extracted header credits Thomas Idzorek only ^[ambiguous]
 - Zotero key: F7GG6XMJ, item-version 4746
-- Companion metadata: [[../_papers/idzorek20072/idzorek20072.md|idzorek20072 metadata]]
+- Companion metadata: [[_papers/idzorek20072/idzorek20072.md|idzorek20072 metadata]]
 
 ## Sources
 

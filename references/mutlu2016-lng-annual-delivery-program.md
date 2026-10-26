@@ -96,15 +96,15 @@ From the reported computational study on 18 instances generated from a commercia
 - Split-delivery vs no-split (Table 4): savings range from 0.9% (B2) to 10.4% (A4) with **average 4.2%**, and grow as contractual demand relative to production capacity rises.
 - VRH parameter settings are not separable: no parameter set is best on all instances (for example $r = R^{max}$ with $\alpha = 0.8$ and selective reranking is best on C1 but the second-worst on A1), yet the cost coefficient of variation across parameter sets is 0.04, 0.04 and 0.03 for classes A, B and C.
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/mutlu2016comprehensive/images/page_8_chart_5.jpg]]
+![[_papers/mutlu2016comprehensive/images/page_8_chart_5.jpg]]
 
 *Fig. 1 (paper): Optimality gap vs. $\rho^P$ for VRH.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/mutlu2016comprehensive/images/page_9_chart_2.jpg]]
+![[_papers/mutlu2016comprehensive/images/page_9_chart_2.jpg]]
 
 *Fig. 2 (paper): Optimality gap vs. DS for VRH.*
 
-![[/home/tatdatnguyen/tatdat-vault/_papers/mutlu2016comprehensive/images/page_9_chart_4.jpg]]
+![[_papers/mutlu2016comprehensive/images/page_9_chart_4.jpg]]
 
 *Fig. 3 (paper): Percentage cost savings over base-case vs. $\rho^I$ for VRH.*
 
