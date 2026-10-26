@@ -65,7 +65,7 @@ updated: 2026-10-26T05:12:09Z
 
 ## Problem & motivation
 
-![[../_papers/nguyen2023parallel/images/page_2_image_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_2_image_2.jpg]]
 *Figure 1 A top-down view of a collective drone configuration in Paczan et al. (2016)*
 
 The standard assumption in truck-drone literature is that a single drone's payload and range are hard-capped by battery capacity — Amazon's delivery drone drops 5 lb within 10 miles of a fulfillment centre (Boyle 2016). Paczan et al. (2016) patent a **collective UAV**: several drones couple into one body, sharing power and operating instructions. Coupling has two effects: (i) payload and range are pooled, so "virtually any size, weight or quantity of items" can be flown; (ii) coupled units may *reduce motor rotational speed*, borrowing lift from the collective body, which lowers energy per unit. A side effect is safety: the coupled body is larger, generates a bigger radar/object signature, and is more detectable by ground radar and air-traffic controllers.
@@ -90,7 +90,7 @@ $$\tau_j^k = t'_C + (\tau^{to} + \tau_{jk}^{in} + \tau^{ld}) + (\tau^{to} + \tau
 
 with $t'_C$ the coupling time, not added when $k=1$. The text states $t'_C = 1$ minute; Table 5 lists "C-drone preparation time | s | 1", which conflicts with the text — a unit mismatch in the paper's own tables. ^[ambiguous]
 
-![[../_papers/nguyen2023parallel/images/page_8_image_6.jpg]]
+![[_papers/nguyen2023parallel/images/page_8_image_6.jpg]]
 *Figure 2 Different flight phases consume different powers*
 
 **Endurance feasibility (constraints 2–4).** With $I_i = P_i/V_{nom}$ per phase $i$:
@@ -132,7 +132,7 @@ with $0\le f_{ij}\le m$, binary $u,x,z,y$, $T_i\ge 0$ (17)–(22), and $M$ a suf
 
 The drone part is read as a directed acyclic flow graph:
 
-![[../_papers/nguyen2023parallel/images/page_11_image_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_11_image_2.jpg]]
 *Figure 3 An graph-based representation of a drone schedule*
 
 In the paper's example, arcs $(0,2),(0,1),(0,3)$ start at $t=0$; $f_{01}=2$ means node 1 needs two drones; services at 4 (needs 1 and 2 finished) and 5 (needs 1 and 3 finished) are synchronized; node 6 receives $f_{56}=2$ and $f_{46}=1$, i.e. three drones; returns are $f_{40}=1$, $f_{60}=3$; the makespan is $\max(10+7,\,17+6)=23$.
@@ -163,10 +163,10 @@ one random truck removal operator plus one random drone removal operator per ite
 
 Six removal operators. Truck: **random** (keep the order of the rest), **worst** (remove the $q_t$ requests with the most expensive insertion cost, insertion cost = objective difference with/without the request), **string** (a sub-string of $q_t$ requests from a random seed position, wrapping around when the string runs past the end, removing two portions). Drone: **random** (the whole schedule structure is updated after each removal), **sweep** (from Nguyen et al. 2022: depot as pole, random seed angle $\theta_{seed}\in U(0^\circ,360^\circ)$, sort drone requests by polar angle to the seed line, remove the $q_d$ closest) and **block** — a new operator motivated by the observation that dispersed removals leave isolated idle-time gaps that are hard to refill without degrading quality: sort drone requests by service start time, pick a random time interval containing at least $q_d$ services, and remove requests from the start time onward, which removes a block that is adjacent in the schedule.
 
-![[../_papers/nguyen2023parallel/images/page_18_image_3.jpg]]
+![[_papers/nguyen2023parallel/images/page_18_image_3.jpg]]
 *Figure 4 An example of Sweep Removal*
 
-![[../_papers/nguyen2023parallel/images/page_19_chart_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_19_chart_2.jpg]]
 *Figure 5 An illustration of Block Removal in comparison with Random Removal*
 
 **Recreation (Algorithm 4).** Shuffle the ejected requests; for each, find the cheapest truck position and, if drone-eligible, the cheapest drone position, and insert at the cheaper; insertion cost $=\max(T_i')-Z$ where $T_i'$ is the tour completion time after insertion. Solution construction is the same procedure with all requests ejected.
@@ -177,17 +177,17 @@ $$T_k' = T_k+\max(0,\ \tau_i-\delta(t)) \tag{27}$$
 
 where $\delta(t)=ST(j)-t\ge 0$ is slack time when $t$ falls in an idle interval before the next request $j$, and $\delta(t)=ST(l)-t<0$ is extra delay when $t$ falls inside an ongoing delivery $l$. Best move = shortest resulting makespan, tie-broken by the shortest total service time of all carriers.
 
-![[../_papers/nguyen2023parallel/images/page_21_image_5.jpg]]
+![[_papers/nguyen2023parallel/images/page_21_image_5.jpg]]
 *Figure 6 An illustration of δ(t) values in two insertion scenarios*
 
 In the figure's example, drone 2 has the shortest total service time, but inserting at $t$ delays request $l$ seriously; drone 1 is far cheaper thanks to its slack time even though it has the longest total service time.
 
 **Move evaluation.** Inserting a synchronized request postpones many later services across several tours (a chain reaction): inserting request 8 into drones 3 and 4 at $t$ postpones requests 2, 3, 4, 5, which in turn delay 6 and 7 on drones 1, 2, 5. Constant-time evaluation is only possible after the last request of a tour, so the algorithm maintains a per-solution DAG $\bar{\mathcal{G}}=(\bar V,\bar A)$: for each $k\in K$ find the precedent $v_j$ and successive $v_j'$ with $FT(v_j)\le t\le FT(v_j')$; delete arc $(v_j,v_j')$, add inbound arc $(v_j,v_i)$ and outbound arc $(v_i,v_j')$; if no request follows $t$ only the inbound arc is added, if none precedes $t$ only the outbound arc. Re-topologically order $\bar{\mathcal{G}}'$ by a DFS-based sort in $O(|\bar V|+|\bar A|)$ and recompute the makespan by replaying the requests in that order.
 
-![[../_papers/nguyen2023parallel/images/page_22_image_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_22_image_2.jpg]]
 *Figure 7 An example of inserting a synchronized request into the middle of a drones' schedule*
 
-![[../_papers/nguyen2023parallel/images/page_23_image_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_23_image_2.jpg]]
 *Figure 8 A demonstration of the move evaluation procedure*
 
 **Local search.** Composite neighborhood with first-improvement acceptance, using Relocate, Swap and 2-Opt on the **truck tour only** — drone-schedule moves are too expensive to use as local-search operators. It terminates when no improving move exists. Parameters are tuned with **irace** (López-Ibáñez et al. 2016, default setting, at most 1000 algorithm runs during tuning) on instances perturbed by 10% in $x,y$ coordinates and parcel weight $w_i$, over ranges $\lambda,\Delta_{init}\in[0.1,0.8]$, $\varepsilon\in[0.99,0.99995]$, $Iter_{max}\in[5000,50000]$.
@@ -287,7 +287,7 @@ RnR finds the best solution on **23 of 30** instances; RnR-fast's best-solution 
 
 Five research questions: which (weight, distance) requests are c-drone eligible; how competitive c-drone systems are against the truck + single-drone system and how the benefit varies; how large the depot coverage area suitable for c-drone operations is; whether adding extra drones is necessary for the boost; whether improving battery capacity helps significantly.
 
-![[../_papers/nguyen2023parallel/images/page_28_image_10.jpg]]
+![[_papers/nguyen2023parallel/images/page_28_image_10.jpg]]
 *Figure 9 The process of sensitivity analysis using CART method*
 
 **Why CART (Breiman, Friedman, Olshen & Stone 1984) rather than one-factor-at-a-time:** OFAT varies one variable at a time, so it cannot detect interaction effects between predictors, and its factorial-design basis becomes impractical for multiple factors. CART grows a binary decision tree that exposes interactions. Predictor variables: $D$ (depot coverage dimension), $b$ (battery model), $m$ (number of drones), and the $(w,d)$ request profile. Classification is run with scikit-learn's `DecisionTreeClassifier` after the energy model labels every request; regression uses `DecisionTreeRegressor` on the performance gain
@@ -296,7 +296,7 @@ $$\text{gain}=100\cdot\frac{Z-Z'}{Z}$$
 
 where $Z'$ is the makespan with c-drones and $Z$ the makespan of the equivalent system without them. Truck mileage reduction is $100(X/X_c-1)$, $X_c$/$X$ being truck distance with and without c-drones.
 
-![[../_papers/nguyen2023parallel/images/page_31_chart_3.jpg]]
+![[_papers/nguyen2023parallel/images/page_31_chart_3.jpg]]
 *Figure 10 Visualization of the three considered package weight distributions*
 
 **Data.** Cruise speeds $[4.00, 28.00]$ m/s from Algorithm 2; truck 30 km/h (day-average speed of medium-duty urban trucks, Sanchez-Diaz et al. 2020) with Manhattan distance, drones Euclidean; one minute of coupling regardless of the number of units; commercial operation under FAA rules — UPS obtained Part 135 authority (Etherington 2019), Part 135 permits drone + cargo above 25 kg (FAA 2019), and Part 107 safety rules cap the combined weight at 25 kg, so the largest c-drone has 6 units. Fleet size $m$ varies 5–20; request count per instance is drawn from $[50,400]$; locations are clustered randomly in a $D\times D$ km grid with the depot at the centre $(D/2,D/2)$. Package weight distributions: Amazon (86% of parcels ≤ 2.27 kg, Bezos via Guglielmo 2013) and the Commodity Flow Survey (U.S. Census Bureau 2015) restricted to "Electronic shopping and mail-order houses", truck mode, shipments ≤ 68 kg (150 lb); both are right-skewed, CFS heavier on the tail.
@@ -312,19 +312,19 @@ Constants (Table 5): c-drone preparation time 1 s (see the unit conflict noted a
 
 **Request classification (6.3).** 186 184 requests sampled from 1000 generated instances, split into truck-only, single-drone, c-drone.
 
-![[../_papers/nguyen2023parallel/images/page_32_image_2.jpg]]
+![[_papers/nguyen2023parallel/images/page_32_image_2.jpg]]
 *Figure 11 Request classification*
 
 Single drones can carry parcels below **0.81 kg** provided $C_{nom}\ge 12$ Ah; the 7.5 Ah model is suitable only below **0.28 kg** (Node 3); capacity ≥ 12 Ah covers nearly all single-drone deliveries below 0.81 kg within a flight range of **12.59 km** and slightly beyond. In the band **0.81 kg < w < 6.91 kg** nearly every request is c-drone-eligible (Nodes 10, 11); in **6.91 kg < w < 10.82 kg** more than half must go by truck; above **10.82 kg** the parcel must be truck-served regardless of distance.
 
 **Overall impact (6.4).** Over 1000 samples the average c-drone gain is **23.47%**, the best leaf **32.33%**, the best individuals up to **58.78%**, and the worst leaf still **10.33%**. Average truck mileage reduction **33.21%**.
 
-![[../_papers/nguyen2023parallel/images/page_33_image_4.jpg]]
+![[_papers/nguyen2023parallel/images/page_33_image_4.jpg]]
 *Figure 12 Visualization of the regression tree generated by dtreeviz library Terence and Prince (2020)*
 
 **Fleet size $m$ is the most decisive factor**: the root split of the tree is on $m$, $m\le 11.5$ giving 18.45% average gain versus $m>11.5$ giving 27.26%, and the same pattern recurs at Nodes 1, 3, 13; at the third level the gain rises from 18.09% to 21.58% as $m$ increases. $D$ and battery capacity act at lower levels with roughly equal, local effects. The authors recommend **at least 12 drones** for a drastic benefit; Node 2 still yields a 10.33% average gain with only 5 units.
 
-![[../_papers/nguyen2023parallel/images/page_34_chart_7.jpg]]
+![[_papers/nguyen2023parallel/images/page_34_chart_7.jpg]]
 *Figure 13 Boxplot of sampled data at Node 10 in Figure 12*
 
 **Battery model (6.6).** At Node 10 ($m>12$), aggregate gains by battery: 7.5 Ah → **26.68%**, 12 Ah → **29.69%**, 20 Ah → **27.95%**, 30 Ah → **25.05%**. Going from 7.5 to 12 Ah helps, then the gain gradually drops from the 20 Ah model, which also shows more variance (lower average, lower whisker, taller box, longer tails). The explanation is that extra battery weight raises the discharge drain, neutralizing the longer life: under the 25 kg cap a 30-Ah drone weighing 4.64 kg leaves a 4-unit c-drone at most **6.44 kg** of payload and a 5-unit c-drone at most **1.8 kg**. **12 Ah is the most consistent choice** from a cost/effectiveness perspective.
