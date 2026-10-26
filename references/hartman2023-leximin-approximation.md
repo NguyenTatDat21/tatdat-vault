@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/hartman2023leximin/hartman2023leximin-extracted.md
   - _papers/hartman2023leximin/hartman2023leximin.md
@@ -26,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Leximin Approximation: From Single-Objective to Multi-Objective
@@ -94,6 +96,7 @@ Order fundamentals: y ≻ x iff y ≻₍₁,₀₎ x (Lemma 1); a (1,0)-approxim
 - [[concepts/fuzzy-weighted-max-min-scalarization]]
 - [[concepts/multi-objective-maritime-cargo-routing-scheduling]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
+- [[references/richards1996-scheduling-to-maximize-customer-satisfaction]] — a two-phase max-min-then-sum student-seminar assignment solved by a threshold sweep over preference scores, the non-approximation version of the same ordering.
 
 ## Bibliographic Record
 

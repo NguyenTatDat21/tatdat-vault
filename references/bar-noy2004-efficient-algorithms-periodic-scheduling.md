@@ -9,6 +9,8 @@ relationships:
     type: extends
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/bar-noy2004efficient/bar-noy2004efficient-extracted.md
   - _papers/bar-noy2004efficient/bar-noy2004efficient.md
@@ -23,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Efficient algorithms for periodic scheduling
@@ -77,6 +79,7 @@ $$
 
 - [[concepts/periodic-scheduling-under-capacity-constraints]]
 - [[references/bar-noy2002-minimizing-periodic-scheduling-costs]]
+- [[references/richards1996-scheduling-to-maximize-customer-satisfaction]] — periodic weekly assignment with per-slot minimum and maximum capacity, solved exactly as a capacitated transportation problem.
 - [[concepts/set-team-orienteering-problem-with-time-windows]]
 
 ## Bibliographic Record

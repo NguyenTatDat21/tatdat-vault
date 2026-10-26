@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted.md
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing.md
@@ -29,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Periodic Scheduling Under Capacity Constraints
@@ -39,7 +41,7 @@ Periodic scheduling asks how to assign recurring service slots when only limited
 ## Key Ideas
 
 - Demand is represented as desired service frequencies across items/clients.
-- Capacity constraints limit how many services can be assigned per slot.
+- Capacity constraints limit how many services can be assigned per slot. A weekly student-seminar assignment with per-seminar minimum and maximum enrolment over 4 weeks is a concrete instance, solved as a capacitated transportation problem: [[references/richards1996-scheduling-to-maximize-customer-satisfaction]].
 - Objective functions typically trade service quality ([[concepts/leximax-leximin-fairness-principles|fairness]] or delay) against operational/service cost.
 - Perfect periodicity (exact regular spacing) improves predictability but increases combinatorial difficulty.
 

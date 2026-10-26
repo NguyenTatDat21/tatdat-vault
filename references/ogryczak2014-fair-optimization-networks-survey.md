@@ -25,6 +25,8 @@ relationships:
     type: related_to
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/ogryczak2014fair/ogryczak2014fair-extracted.md
   - _papers/ogryczak2014fair/ogryczak2014fair.md
@@ -48,7 +50,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: supporting
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-26T07:13:34Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Fair Optimization and Networks: A Survey
@@ -189,6 +191,7 @@ Traffic assignment problem with MMF, NPF and PF criteria (path-flow model (25a)�
 - [[concepts/leximax-leximin-fairness-principles]] — the concept page distilled from this survey.
 - [[concepts/fuzzy-weighted-max-min-scalarization]] — the fuzzy/OWA-style scalarization of the same max-min family.
 - [[references/hartman2023-leximin-approximation]] — approximation algorithms for the leximin objective the survey formalizes.
+- [[references/richards1996-scheduling-to-maximize-customer-satisfaction]] — the bottleneck (max-min) transportation model the survey's bottleneck-objective literature line anticipates, solved on a 56-student/33-seminar data set.
 - [[references/phanduc2025-pareto-front-grid-fairness-dpdptw]] — Pareto-front-grid fairness in dial-a-ride: a recent applied instance of the survey's framework.
 - [[concepts/periodic-scheduling-under-capacity-constraints]] — periodic scheduling: the max-min bottleneck structure behind bandwidth allocation.
 - [[references/bar-noy2004-efficient-algorithms-periodic-scheduling]] — scheduling under resource constraints, cited in the survey's scheduling discussion.

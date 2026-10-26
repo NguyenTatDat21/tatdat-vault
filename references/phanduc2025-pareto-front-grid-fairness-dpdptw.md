@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/phanduc2025pareto/phanduc2025pareto-extracted.md
   - _papers/phanduc2025pareto/phanduc2025pareto.md
@@ -33,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-25T14:33:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Pareto Front Grid Guided Multiobjective Optimization in Dynamic Pickup and Delivery with Two-Sided Fairness
@@ -112,6 +114,7 @@ Mean IGD (Table 2, R/C/RC): NSGA-II 0.353-0.435, MOEA/D family 0.350-0.590, PFG-
 ## Related
 
 - [[concepts/multi-objective-maritime-cargo-routing-scheduling]] — same four-objective routing-fairness style (cost plus equity metrics) solved by scalarization/multiobjective metaheuristics.
+- [[references/richards1996-scheduling-to-maximize-customer-satisfaction]] — exact-threshold analogue: a parametric sweep over preference-score levels replaces the Pareto-front grid, bounding the worst-off user exactly.
 - [[concepts/fuzzy-weighted-max-min-scalarization]] — the alternative route to multiobjective routing (scalarization) that PFG selection replaces.
 - [[concepts/multi-objective-metaheuristic-tuning-validation]] — validation discipline for HV/IGD comparisons over benchmark families.
 - [[concepts/vehicle-routing-with-synchronization-constraints]] — time-window coupling between pickup and delivery legs is the feasibility core of the PDPTW model here.

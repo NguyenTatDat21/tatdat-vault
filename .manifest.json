@@ -7612,6 +7612,13 @@
       "pages_produced": [
         "references/rakke2011rolling-rolling-horizon-lng-adp.md"
       ]
+    },
+    "_papers/richards1996scheduling/richards1996scheduling-extracted.md": {
+      "content_hash": "d6d0ef29186b73eef82db0940e90eddd7d8d95fd52a8142a4982ff28c790d22c",
+      "last_ingested": "2026-10-26T16:15:52.019612+00:00",
+      "pages_produced": [
+        "references/richards1996-scheduling-to-maximize-customer-satisfaction.md"
+      ]
     }
   },
   "stats": {

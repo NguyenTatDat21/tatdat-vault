@@ -186,3 +186,4 @@ title: Wiki Log
 - [2026-10-26T11:18:06Z] CROSS_LINK pages_scanned=16 links_added=19 typed_relations_written=15 pages_modified=5 orphans_remaining=3 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-26T11:45:37Z] INGEST source=_papers/rakke2011rolling/rakke2011rolling-extracted.md pages_created=1 pages_updated=0 sources=1 mode=append
 - [2026-10-26T12:00:38Z] CROSS_LINK pages_scanned=22 links_added=8 typed_relations_written=13 pages_modified=5 orphans_remaining=5 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-26T16:15:52Z] INGEST source=_papers/richards1996scheduling/richards1996scheduling-extracted.md pages_created=1 pages_updated=1 sources=1 mode=append

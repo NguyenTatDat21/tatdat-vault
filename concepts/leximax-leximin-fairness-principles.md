@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: related_to
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
 sources:
   - _papers/ogryczak2014fair/ogryczak2014fair-extracted.md
   - _papers/ogryczak2014fair/ogryczak2014fair.md
@@ -32,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: supporting
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-26T07:13:34Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Leximax and Leximin Fairness Principles
@@ -58,7 +60,7 @@ updated: 2026-10-26T07:13:34Z
 
 ## Algorithms and Complexity
 
-- **Convex problems (LP-representable outcomes):** lexicographic maximin is a sequence of LPs / recursive max-min steps, polynomial, with **water-filling** as the fixed-path network version — increase all allocations uniformly until a link congests, remove the blocked connections and their capacity, repeat.
+- **Convex problems (LP-representable outcomes):** lexicographic maximin is a sequence of LPs / recursive max-min steps, polynomial, with **water-filling** as the fixed-path network version — increase all allocations uniformly until a link congests, remove the blocked connections and their capacity, repeat. The same sequence-of-LPs threshold sweep appears in a student-seminar assignment model, where the threshold is a preference score and the LP is re-solved at each candidate level: [[references/richards1996-scheduling-to-maximize-customer-satisfaction]].
 - **Nonconvex (0-1) problems with few distinct targets:** counting functions with big-M binary variables `z_ki` and lexicographic minimization of `(Σ_i z_1i, …, Σ_i z_{r−1,i})`. Binary variables can be replaced by auxiliary continuous ones in many formulations.
 - **Complexity bounds** (verbatim from the survey): `O(mn)` and `O(m²n)` closed-form lexicographic maximin for linear/exponential outcome functions; `O(|V|⁵)` load-balancing max-min fairness with linear costs; polynomial single-source splittable-flow max-min fairness (Megiddo); `O(pm⁸)` general / `O(pm⁴)` node-restricted ordered-median dynamic programs; `O(m³ log² m)` single-facility ordered median on trees; NP-hard for unsplittable single-path flows, multifacility ordered median on general networks, modular (granular) flows, and `n`-job `m`-machine job-shop.
 - **Degeneracy of plain maximin:** the example `(1, 1, 1)`, `(8, 1, 1)`, `(1, 8, 1)`, `(8, 8, 1)` shows all four are max-min optimal when the third outcome is capped at 1 — lexicographic regularization is what selects among them.
