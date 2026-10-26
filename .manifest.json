@@ -7540,6 +7540,13 @@
       "pages_produced": [
         "references/murray2015flying.md"
       ]
+    },
+    "_papers/nguyen2025set/nguyen2025set-extracted.md": {
+      "content_hash": "c56d3e9b5c94ce250ece5d3b7e70deb2cf680a54d0061e0aa9309e3d70e4191a",
+      "last_ingested": "2026-10-26T04:55:42.639911+00:00",
+      "pages_produced": [
+        "references/nguyen2025set.md"
+      ]
     }
   },
   "stats": {

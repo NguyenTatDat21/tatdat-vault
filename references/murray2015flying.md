@@ -76,7 +76,7 @@ updated: 2026-10-26T04:15:04Z
 
 ## Problem & motivation
 
-Murray & Chu introduce two new vehicle-routing problems motivated by drone-assisted last-mile parcel delivery (Amazon Prime Air announced 2013, range 10 miles, payload 5 lb — covering 86% of Amazon's deliveries; Deutsche Post DHL's Parcelcopter; Teal Group forecast cumulative worldwide UAV spending above $89 billion over the next decade; FAA limits: 400 ft ceiling, line-of-sight, GPS accuracy ~10 m).
+Murray & Chu introduce two new [[concepts/vehicle-routing-with-synchronization-constraints|vehicle-routing problems]] motivated by drone-assisted last-mile parcel delivery (Amazon Prime Air announced 2013, range 10 miles, payload 5 lb — covering 86% of Amazon's deliveries; Deutsche Post DHL's Parcelcopter; Teal Group forecast cumulative worldwide UAV spending above $89 billion over the next decade; FAA limits: 400 ft ceiling, line-of-sight, GPS accuracy ~10 m).
 
 **FSTSP**: one truck and one UAV depart a single depot exactly once and must both return. Each of $c$ customers is served exactly once, by truck or UAV. UAV-ineligible customers (parcel weight over UAV payload, signature required, no safe landing site) go to the truck. In tandem, the UAV rides the truck (conserving battery), is launched from a node, delivers to exactly one customer, and rendezvous back with the truck. Objective: minimize the time to serve all customers and return both vehicles to the depot, i.e. $\min t_{c+1}$.
 
@@ -204,7 +204,7 @@ IP/IP's 0.12% average gap = 0.09 min over optimal (10c); 0.22% = 0.24 min (20c);
 
 Fig. 6. Solution quality for variants of the PDSTSP heuristic on combined 10- and 20-customer problems. The gap is based on the best solution obtained by Gurobi within the time limit.
 
-**§5.3 Speed vs endurance** — 90 unique problems, 25/50/75 customers, 9 speed/endurance combinations from 20 mph & 20 min to 40 mph & 40 min, truck 25 mph, savings+LPT. Faster UAVs dominate longer endurance: a 13.33-mile flight range at 40 mph × 20 min outperforms 20 mph × 40 min; the jump from 30 to 40 mph at 20 min endurance is dramatic. Low speeds cap the number of eligible customers the UAV can serve. FSTSP benefits less than PDSTSP because its tight synchronization limits exploitation; relaxing rendezvous restrictions may yield more savings.
+**§5.3 Speed vs endurance** (see [[concepts/drone-speed-selection-in-routing]]) — 90 unique problems, 25/50/75 customers, 9 speed/endurance combinations from 20 mph & 20 min to 40 mph & 40 min, truck 25 mph, savings+LPT. Faster UAVs dominate longer endurance: a 13.33-mile flight range at 40 mph × 20 min outperforms 20 mph × 40 min; the jump from 30 to 40 mph at 20 min endurance is dramatic. Low speeds cap the number of eligible customers the UAV can serve. FSTSP benefits less than PDSTSP because its tight synchronization limits exploitation; relaxing rendezvous restrictions may yield more savings.
 
 ![[_papers/murray2015flying/images/page_16_chart_8.jpg]]
 
