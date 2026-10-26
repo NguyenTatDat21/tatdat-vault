@@ -7547,6 +7547,16 @@
       "pages_produced": [
         "references/nguyen2025set.md"
       ]
+    },
+    "_papers/nguyen2023parallel/nguyen2023parallel-extracted.md": {
+      "content_hash": "86c69e271e25a37b7d9051fc0615e6878a85886574499f35572cbeccd36e58b4",
+      "last_ingested": "2026-10-26T05:53:56.389116+00:00",
+      "pages_produced": [
+        "references/nguyen2023-pdstsp-collective-drones.md",
+        "concepts/collective-drone-delivery.md",
+        "concepts/peukert-law-battery-discharge.md",
+        "concepts/dag-topological-sort-scheduling-move-evaluation.md"
+      ]
     }
   },
   "stats": {
