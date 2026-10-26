@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
 sources:
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md
@@ -119,6 +121,7 @@ RMP convexity per ship is the same path-flow structure as in [[references/gronha
 - [[references/barnhart1998-branch-and-price-column-generation]]
 - [[references/andersson2017-creating-annual-lng-delivery-programs]]
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 
 ## Sources
 

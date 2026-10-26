@@ -34,6 +34,8 @@ relationships:
     type: related_to
   - target: "[[references/haug2023-adp-speed-optimization-ports]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: uses
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -91,7 +93,7 @@ Cargo delivered to regasification terminal $r$ (paper Eq. 6): $Q^v_r=\sum_{a\in 
 
 ## Census and Numbers
 
-Goel et al. (2012), Table 1 instance sizes: binary variables 12,812 (P1, 6 ships) up to 232,856 (P14, 69 ships, 10 regas terminals); constraints 6,406 (P6, 4 ships) → 79,425 (P14); continuous variables 1,827 (P8) → 11,691 (P14). Goel et al. (2015), Table 2: the same MIP has 232,856 0-1 variables for P14 while the ship-perspective CP model CP2 needs 15,375 variables (203.1 MB vs 1.9 GB) — the time-space grid is the size driver.
+Goel et al. (2012), Table 1 instance sizes: binary variables 12,812 (P1, 6 ships) up to 232,856 (P14, 69 ships, 10 regas terminals); constraints 6,406 (P6, 4 ships) → 79,425 (P14); continuous variables 1,827 (P8) → 11,691 (P14). Goel et al. (2015), Table 2: the same MIP has 232,856 0-1 variables for P14 while the ship-perspective CP model CP2 needs 15,375 variables (203.1 MB vs 1.9 GB) — the time-space grid is the size driver. The public MIRPLib benchmark builds its instances on the same time-space grid [[references/papageorgiou2014-mirplib-mirp-instance-library]].
 
 Travel-time structure is monotone: $\tau_{j,j',t}\le\tau_{j,j',t+1}+1$; travel times are seasonal time-dependent integers (the paper lists seasonal travel times and seasonality in production rates among the complicating characteristics), and a loading/discharging visit occupies a berth for the period it is scheduled.
 
@@ -116,6 +118,7 @@ The penalty structure is a modeling requirement, not a detail: $w_{j,t}>w_{j,t+1
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/mutlu2016-lng-annual-delivery-program]] — shares lng + maritime tags with this page
 - [[references/gronhaug2009-supply-chain-optimization-lng]] — binary arc-flow x_ijvt formulation on the same daily grid

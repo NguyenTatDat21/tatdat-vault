@@ -24,6 +24,8 @@ relationships:
     type: related_to
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -136,6 +138,7 @@ Practical extensions: **inventory smoothening** (accept any schedule with object
 - [[concepts/annual-lng-delivery-program]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/gendreau2019-handbook-metaheuristics]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/hendel2022-adaptive-lns-for-mip]]

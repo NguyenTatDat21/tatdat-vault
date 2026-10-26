@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
 sources:
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship.md
@@ -85,7 +87,7 @@ with demand satisfaction, frequency, vessel-availability, voyage-time, lay-up an
 ## Limitations
 
 - As a review, conclusions depend on coverage choices (English refereed outlets, 2002–2011 window, prescriptive models only); working papers, theses, conference proceedings, naval operations and container-line micro-problems are outside the map.
-- Reported computational comparisons are not based on a single unified benchmark across all subtopics.
+- Reported computational comparisons are not based on a single unified benchmark across all subtopics. MIRPLib [[references/papageorgiou2014-mirplib-mirp-instance-library]] later supplied the public instance set that filled this benchmark gap.
 - The four 'basic models' are simplified templates; the paper's own network design model omits transshipment costs and caps each ship type at one weekly departure per route, so real-world costs and schedules are richer than the formulation. ^[inferred]
 - Reported computational comparisons are not based on a single unified benchmark across all subtopics.
 
@@ -101,6 +103,7 @@ with demand satisfaction, frequency, vessel-availability, voyage-time, lay-up an
 - [[concepts/maritime-inventory-routing-problem]]
 - [[concepts/liner-shipping-network-design]]
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 
 ## Bibliographic Record
 

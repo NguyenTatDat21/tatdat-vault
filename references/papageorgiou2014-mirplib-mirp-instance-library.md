@@ -13,6 +13,10 @@ relationships:
     type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
+  - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
+    type: related_to
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
 sources:
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib-extracted.md
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib.md

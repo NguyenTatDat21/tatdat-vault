@@ -21,6 +21,8 @@ relationships:
     type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -50,6 +52,7 @@ updated: 2026-10-25T19:48:00Z
 
 The **Maritime Inventory Routing Problem (MIRP / ISRP)** integrates vessel routing/scheduling with inventory feasibility at production and consumption ports. Unlike classical VRP, route quality is inseparable from stock trajectories over time.
 
+The first public instance library for this problem is MIRPLib [[references/papageorgiou2014-mirplib-mirp-instance-library]], which standardizes discrete-time benchmarks.
 ## Core Structure
 
 Typical MIRP formulations couple:
@@ -112,6 +115,7 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]]
 - [[references/gronhaug2009-supply-chain-optimization-lng]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 - [[references/gronhaug2010-branch-and-price-lng-irp]]
 
 ## Sources

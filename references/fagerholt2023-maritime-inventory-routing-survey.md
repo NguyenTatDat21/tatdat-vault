@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
 sources:
@@ -104,7 +106,7 @@ Multi-product variants (survey Table 3) track demand style (ratable / demand / t
 | Other matheuristics | 14 | largest heuristic family |
 | Non-model heuristics / metaheuristics | 9 | [[concepts/variable-neighborhood-search|VNS]], GRASP, [[concepts/swarm-intelligence-pso-aco|PSO]], GA |
 
-Benchmarks: **MIRPLIB** (mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB instances appear in MIPLIB's Collection Set, and a subset was used in the NeurIPS 2021 ML for Combinatorial Optimization competition (Gasse et al. 2022). MIRPLIB is mostly discrete-time; continuous-time instances are not public. Hemmati et al. 2016 multiproduct short-sea instances and Rodrigues et al. 2019 uncertainty variants (7 base instances × 3 initial inventories) are at home.himolde.no/hvattum/benchmarks/.
+Benchmarks: **MIRPLIB** ([[references/papageorgiou2014-mirplib-mirp-instance-library]] mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB instances appear in MIPLIB's Collection Set, and a subset was used in the NeurIPS 2021 ML for Combinatorial Optimization competition (Gasse et al. 2022). MIRPLIB is mostly discrete-time; continuous-time instances are not public. Hemmati et al. 2016 multiproduct short-sea instances and Rodrigues et al. 2019 uncertainty variants (7 base instances × 3 initial inventories) are at home.himolde.no/hvattum/benchmarks/.
 
 ## Future Directions Named
 
@@ -133,6 +135,7 @@ Benchmarks: **MIRPLIB** (mirplib.scl.gatech.edu, published 2012) — 5 MIRPLIB i
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]]
 - [[concepts/annual-lng-delivery-program]]
 
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 ## Bibliographic Record
 
 - Citation key: fagerholt2023maritime

@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: related_to
+  - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
+    type: related_to
 sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
@@ -56,7 +58,7 @@ $$
 $$ s_{it} = s_{i,t-1} + J_i D_{it} - \sum_{v \in \mathcal{V}} J_i q_{itv} \quad (i,t) \in \mathcal{N}, $$
 $$
 
-- **Census** (53 papers, 2013–2023): 30 use discrete time, 27 continuous, 4 both. Discrete-time instances dominate public benchmarks; continuous-time instances are not public.
+- **Census** (53 papers, 2013–2023): 30 use discrete time, 27 continuous, 4 both. Discrete-time instances dominate public benchmarks; continuous-time instances are not public. The dominant public discrete-time benchmark is MIRPLib [[references/papageorgiou2014-mirplib-mirp-instance-library]].
 
 | Dimension | Discrete time | Continuous time |
 |---|---|---|
@@ -99,6 +101,7 @@ Variants beyond the fork: **location-event** and **vessel-event** continuous mod
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[concepts/branch-and-price-column-generation]]
+- [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 
 ## Open Questions
 
