@@ -168,7 +168,7 @@ Computing: HP 8100 Elite, quad-core Intel i7-860, 4 GB RAM, Ubuntu 14.04; Gurobi
 
 **§5.1 FSTSP** — 72 problems, 10 customers, 8-mile square region; depot at center-of-gravity, average x with y=0, or SW corner; 80–90% UAV-eligible; endurance 20 or 40 min; UAV 15/25/35 mph Euclidean, truck 25 mph Manhattan; $s_L = s_R = 1$ min. The underlying TSP is solved by IP (Appendix A), Clarke–Wright savings, nearest neighbor, or sweep (depot focal point, initial angle 0 rad, clockwise).
 
-Table 1 — FSTSP heuristic vs Gurobi (30-min limit; gap %, runtime s):
+Table 1. Details of heuristic performance on small FSTSP instances (reconstructed label — the extracted caption body is garbled: only the table image `page_14_table_9.jpg` survives, caption text not recovered; gaps/runtimes verified verbatim against the in-table HTML rows). ^[ambiguous]
 
 | TSP approach | Gap avg | Gap min | Gap max | RT avg | RT min | RT max |
 |---|---|---|---|---|---|---|
@@ -186,7 +186,7 @@ Fig. 5. A comparison of the FSTSP heuristic’s effectiveness using various solu
 
 **§5.2 PDSTSP** — 10 or 20 customers, 80–90% eligible, truck & UAV 25 mph, endurance 30 min; 20/40/60/80% of customers in depot range; 3 depot positions; 10 repeats → 240 unique problems (120 × 10-customer, 120 × 20-customer); with 1/2/3 UAVs → 720 test instances. Gurobi (3-min limit) solved all 10-customer problems to optimality and terminated at the limit on 87 of 360 20-customer instances.
 
-Table 2 — PDSTSP heuristic vs Gurobi (gap %, runtime s):
+Table 2 Details of heuristic performance on small PDSTSP instances.
 
 | TSP | PMS | 10c gap avg | 10c gap max | 10c RT avg | 10c RT max | 20c gap avg | 20c gap max | 20c RT avg | 20c RT max |
 |---|---|---|---|---|---|---|---|---|---|
