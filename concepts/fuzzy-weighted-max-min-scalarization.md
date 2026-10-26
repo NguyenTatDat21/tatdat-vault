@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[references/hartman2023-leximin-approximation]]"
     type: related_to
+  - target: "[[concepts/leximax-leximin-fairness-principles]]"
+    type: related_to
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
@@ -75,7 +77,7 @@ $$
 - **Anchoring evidence from ganjia**: its economic / customer / compromise orientations reproduce the frontier endpoints from single-objective extremes (74.52 MLCU & 9.43 h vs 2.17 h & 245.11 MLCU), exactly the $Z^+/Z^-$ anchor roles the membership function needs. The tuned NSGA-II sits within 0.002% of the $\varepsilon$-constraint cost front, MOPSO within 0.020%. ^[inferred]
 - **Ganjia 2026 instantiation** (cost + tardiness, production-scheduling / due-date / batch-delivery / heterogeneous VRPTW MINLP): ganjia does **not** use fuzzy max-min — it builds the front with the $\varepsilon$-constraint method, tunes NSGA-II / MOPSO parameters by Taguchi L27 (smaller-the-better S/N), and lists fuzzy approaches as future work. The Taguchi dial is a *parameter* analogue of the $\theta$ sweep, and due-date setting is part of the objective. ^[inferred] [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
 
-- **Leximin is not scalarizable:** Hartman et al. state that aggregation functions for leximin do not exist (OWA/Yager context, line 57), so weighted schemes such as fuzzy max-min cannot reproduce leximin's worst-first ranking; leximin approximation requires an iterative oracle algorithm that converts single-objective (α,ε)-approximations into (α²/(1−α+α²), ε/(1−α+α²))-leximin approximations ([[references/hartman2023-leximin-approximation]]).
+- **[[concepts/leximax-leximin-fairness-principles|Leximin]] is not scalarizable:** Hartman et al. state that aggregation functions for leximin do not exist (OWA/Yager context, line 57), so weighted schemes such as fuzzy max-min cannot reproduce leximin's worst-first ranking; leximin approximation requires an iterative oracle algorithm that converts single-objective (α,ε)-approximations into (α²/(1−α+α²), ε/(1−α+α²))-leximin approximations ([[references/hartman2023-leximin-approximation]]).
 ## Related
 
 - [[references/dossantos2024-multiobjective-maritime-cargo-routing]]

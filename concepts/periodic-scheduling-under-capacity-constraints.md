@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
     type: related_to
+  - target: "[[concepts/leximax-leximin-fairness-principles]]"
+    type: related_to
 sources:
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted.md
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing.md
@@ -38,7 +40,7 @@ Periodic scheduling asks how to assign recurring service slots when only limited
 
 - Demand is represented as desired service frequencies across items/clients.
 - Capacity constraints limit how many services can be assigned per slot.
-- Objective functions typically trade service quality (fairness or delay) against operational/service cost.
+- Objective functions typically trade service quality ([[concepts/leximax-leximin-fairness-principles|fairness]] or delay) against operational/service cost.
 - Perfect periodicity (exact regular spacing) improves predictability but increases combinatorial difficulty.
 
 ## Canonical Algorithmic Patterns

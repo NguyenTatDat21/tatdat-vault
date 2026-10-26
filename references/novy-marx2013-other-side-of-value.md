@@ -1,7 +1,6 @@
 ---
 title: >-
   The Other Side of Value: The Gross Profitability Premium
-aliases: [Novy-Marx 2013, Gross profitability premium, GP/A, PMU factor]
 category: references
 tags: [asset-pricing, profitability, value-premium, factor-models, quality-investing, gross-profitability, anomalies, fama-french, investing-strategy, cross-sectional-regression]
 relationships:

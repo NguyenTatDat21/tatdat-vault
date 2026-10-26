@@ -1,6 +1,5 @@
 ---
 title: Gross Profitability Premium
-aliases: [GP/A premium, PMU factor, gross profits-to-assets]
 category: concepts
 tags: [asset-pricing, profitability, value-premium, factor-investing, quality-investing, gross-profitability]
 relationships:

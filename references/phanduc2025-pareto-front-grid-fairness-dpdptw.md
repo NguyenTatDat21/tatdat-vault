@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
+  - target: "[[concepts/leximax-leximin-fairness-principles]]"
+    type: related_to
 sources:
   - _papers/phanduc2025pareto/phanduc2025pareto-extracted.md
   - _papers/phanduc2025pareto/phanduc2025pareto.md
@@ -50,7 +52,7 @@ Requests arrive dynamically in time slots; K homogeneous vehicles (capacity Q) s
 
 Energy model from mechanical power (Chen et al. 2023): instantaneous power Eq. (1) \(P_{ij}^v=\frac12 c_d \rho S \gamma^3 + (m_v+\tilde{Q}_{ij}^v) g c_r \gamma\); fuel per arc Eq. (2) \(L_{ij}^v=\frac{\xi}{\kappa\psi}(\omega R + \frac{P_{ij}^v}{\eta})\frac{d_{ij}}{\gamma}\); objective f1 is total fuel, Eq. (3).
 
-Fairness objectives:
+[[concepts/leximax-leximin-fairness-principles|Fairness objectives]]:
 - Eq. (4) \(WT_r=\max(\tau_r^p-sp_r^e,0)+\max(\tau_r^d-sd_r^e,0)\); Eq. (5) f2 = max waiting time over requests.
 - Eq. (6) f3 = standard deviation of \(WT_r\) across all requests (customer fairness).
 - Eqs. (7-8) DT_v = vehicle workload, f4 = standard deviation of DT_v across K vehicles (vehicle fairness).

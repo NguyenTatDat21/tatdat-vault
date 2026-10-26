@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T08:39:50Z
+updated: 2026-10-26T08:50:42Z
 pages: 396
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK pages_scanned=15 links_added=21 typed_relations_written=54 ...
-- [2026-10-26] INGEST source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_created=2 pages_updated=0 ...
 - [2026-10-26] INGEST source=_papers/ogryczak2014fair/ogryczak2014fair-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-26] CROSS_LINK source=_papers/ogryczak2014fair/ogryczak2014fair-extracted.md pages_scanned=6 links_added=4 ...
+- [2026-10-26] CROSS_LINK source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_scanned=8 links_added=5 ...
 
 ## Active Threads
 

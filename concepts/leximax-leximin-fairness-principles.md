@@ -1,10 +1,6 @@
 ---
 title: >-
   Leximax and Leximin Fairness Principles
-aliases:
-  - lexicographic maximin
-  - max-min fairness
-  - leximin
 category: concepts
 tags:
   - fairness
@@ -22,6 +18,9 @@ relationships:
     type: related_to
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: related_to
+sources:
+  - _papers/ogryczak2014fair/ogryczak2014fair-extracted.md
+  - _papers/ogryczak2014fair/ogryczak2014fair.md
 summary: >-
   Definition and properties of lexicographic maximin (leximin) and leximax orderings: Pigou-Dalton fairness axioms, fair dominance, OWA limits, alpha-fairness, water-filling, and complexity.
 provenance:

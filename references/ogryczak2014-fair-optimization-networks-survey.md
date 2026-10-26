@@ -1,10 +1,6 @@
 ---
 title: >-
   Fair Optimization and Networks: A Survey
-aliases:
-  - Fair Optimization
-  - Equitable Resource Allocation
-  - Max-Min Fairness Survey
 category: references
 tags:
   - fairness
@@ -29,6 +25,18 @@ relationships:
     type: related_to
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
     type: related_to
+sources:
+  - _papers/ogryczak2014fair/ogryczak2014fair-extracted.md
+  - _papers/ogryczak2014fair/ogryczak2014fair.md
+  - _papers/ogryczak2014fair/images/page_4_image_11.jpg
+  - _papers/ogryczak2014fair/images/page_6_image_2.jpg
+  - _papers/ogryczak2014fair/images/page_6_image_4.jpg
+  - _papers/ogryczak2014fair/images/page_7_image_11.jpg
+  - _papers/ogryczak2014fair/images/page_7_image_13.jpg
+  - _papers/ogryczak2014fair/images/page_8_image_2.jpg
+  - _papers/ogryczak2014fair/images/page_13_image_2.jpg
+  - _papers/ogryczak2014fair/images/page_16_image_2.jpg
+  - _papers/ogryczak2014fair/images/page_17_image_8.jpg
 summary: >-
   Survey of inequality-averse fair optimization: fair-dominance axioms, OWA and alpha-fairness aggregations, lexicographic maximin algorithms, price-of-fairness bounds for networks and location.
 provenance:
@@ -74,7 +82,7 @@ with attainable set `A`. Convexity of `Q` plus concavity of `f` does **not** gua
 **Equations 6, 7, 10** are extracted as equation crops `page_7_equation_13.jpg`, `page_7_equation_17.jpg`, `page_9_equation_6.jpg` (stripped text, no verbatim caption anchor in the extracted markdown) — the LaTeX is preserved above. ^[ambiguous]
 
 ![[_papers/ogryczak2014fair/images/page_4_image_11.jpg]]
-*Figure 1: The fair dominance structures W(y); the set of outcomes fairly dominated by y and B(y): the set of outcomes fairly dominating y.*
+*Figure 1: The fair dominance structures W(y); the set of outcomes fairly dominated by y and B(y): the set of outcomes fairly dominating y.* Source caption has math markup `W ( { \overline { { \mathbf { y } } } } ) ;$ ... 𝐵(y)`; normalized here. ^[ambiguous]
 
 Figure 1 shows the fair dominance structure in a two-dimensional outcome space: `W(y)` (dominated outcomes) is in general not a cone and not convex, `B(y)` (dominating outcomes) is convex; lexicographic maximin assigns the whole interior of the inner white triangle to preferred outcomes. There is no fair dominance between `(1, 100)` and `(2, 2)`: max-min fairness prefers `(2, 2)`, proportional fairness prefers `(1, 100)`. Vector `(2, 99)` fairly dominates `(1, 100)`, and all fairness models (including MMF and PF) prefer `(2, 99)`.
 

@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
+  - target: "[[concepts/leximax-leximin-fairness-principles]]"
+    type: related_to
 sources:
   - _papers/hartman2023leximin/hartman2023leximin-extracted.md
   - _papers/hartman2023leximin/hartman2023leximin.md
@@ -33,7 +35,7 @@ updated: 2026-10-25T21:41:00Z
 
 ## Problem & Contribution
 
-- Leximin: maximize the smallest objective, then the second-smallest, and so on; the exact saturation-based algorithms fail with approximate solvers — for lexmaxmin over {x1,x2} subject to x1+x2 ≤ 1, a solver returning 0.49 saturates no objective, so the procedure never terminates correctly (lines 25-31).
+- [[concepts/leximax-leximin-fairness-principles|Leximin]]: maximize the smallest objective, then the second-smallest, and so on; the exact saturation-based algorithms fail with approximate solvers — for lexmaxmin over {x1,x2} subject to x1+x2 ≤ 1, a solver returning 0.49 saturates no objective, so the procedure never terminates correctly (lines 25-31).
 - Contributions: a definition of (α,ε)-leximin approximation combining a multiplicative factor α∈(0,1] and an additive factor ε≥0; a polynomial algorithm built from a single-objective approximate oracle; and an approximation-factor degradation mapping independent of the number of objectives.
 - Aggregation functions for leximin do not exist (the OWA/Yager context, line 57), so scalarization methods cannot inherit single-objective approximation guarantees; this paper closes that gap with an iterative oracle scheme. ^[inferred]
 
