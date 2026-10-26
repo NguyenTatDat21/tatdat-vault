@@ -18,6 +18,8 @@ relationships:
     type: derived_from
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: related_to
   - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
     type: related_to
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
@@ -46,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Large Neighborhood Search (LNS)
@@ -58,7 +60,7 @@ LNS is a destroy-and-repair metaheuristic: remove a substantial part of a curren
 - Large neighborhoods can offer better-quality moves per iteration than small local neighborhoods.
 - Explicit neighborhood enumeration is often intractable, so LNS explores neighborhoods implicitly via destroy/repair operators.
 - **ALNS** (Adaptive LNS) learns operator usefulness and shifts selection probabilities over time.
-- Ropke & Pisinger formalized ALNS (Transportation Science 40(4):455-472, 2006) for PDPTW; their handbook chapter systematizes the operator inventories, psi-score/lambda-decay weight adaptation, and the VLSN families; see [[references/pisinger2019-large-neighborhood-search]].
+- Ropke & Pisinger formalized ALNS ([[references/ropke2006-adaptive-large-neighborhood-search-pdptw|Transportation Science 40(4):455-472, 2006]]) for PDPTW; their handbook chapter systematizes the operator inventories, psi-score/lambda-decay weight adaptation, and the VLSN families; see [[references/pisinger2019-large-neighborhood-search]].
 - The handbook defines small neighborhood search as $f(n)=O(n^k)$ with low $k$ ($k\le 3$; 2-opt, relocate, swap are $O(n^2)$), while very-large-scale neighborhoods grow exponentially and are too large to search explicitly.
 - In routing, LNS-style methods are attractive when exact neighborhood scans are too expensive.
 

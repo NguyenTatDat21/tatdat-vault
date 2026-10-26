@@ -4,6 +4,8 @@ title: >-
 category: references
 tags: [paper, drone-routing, vrptw, swarm-synchronization, milp, alns, split-delivery, multi-trip, detour-insertion, time-windows, rotary-wing-drone, vehicle-routing, optimization, ejor]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: uses
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: uses
   - target: "[[concepts/large-neighborhood-search]]"
@@ -36,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Drone Routing Problem with Swarm Synchronization (Li, Wang & Zhan, 2024)
@@ -65,7 +67,7 @@ The paper's Table 1 literature comparison argues DRP-SS is the only surveyed var
 
 **MILP formulation.** Decision variables `x_uij` (flying arc), `y_u` (RWD in use), `f_ui` (service), `r_uij` (parcel flow), `w_uij` (trip successor), `z` (swarm identification), arrival/departure times `t^a_ui`, `t^d_ui`. Constraints cover degree balance, demand split (`Σ_u p_ui = q_i`, `p_ui ≤ Q f_ui`), parcel flow conservation, flying-time budget `g_uij ≤ L^T x_uij` per departure, successive-trip linking with preparation time `t^d_ui + τ + (d_i0 + d_0j)/v − M(1 − w_uij) ≤ t^a_uj`, time continuity, time windows enforced only when a parcel is delivered, simultaneous swarm service, and at most `|U|` RWDs in one swarm. `M = max{|C|, l_0 + L^T}`.
 
-**ALNS heuristic.** An initial-solution heuristic orders customers by ascending window end and enumerates feasible insertion positions. Customer-insertion operators: new-route insertion (NRI), customer-route insertion (CRI), new-trip insertion before/after a route (BTI/FTI), residual-demand insertion (MI), and detour insertion (DI, applied with probability α, applied to interacting swarm routes or to form a new swarm). Arrival times are adjusted route-wide after insertion; in extreme cases every route is touched. Destroy operators: random removal, worst removal, Shaw removal (similarity by arrival-time difference, distance, and drone-index differences inside swarms), longest-route removal, visits-in-long-routes removal. Removal count starts at 50% of customers and shrinks 5% every 2000 iterations down to a 5% floor. Repair operators: greedy (with two random-selection variants), regret-2, regret-3, and local-regret variants, with BTI/FTI/MI/DI applied after most repairs. Operator weights adapt by `P_m ← (1−β1)P_m + β1·π_m/ω_m`; acceptance is simulated annealing `e^{−(c(S)−c(S′))/T}`, `T ← β2·T`. Tuned parameters: α = 10%, σ1 = 5, σ2 = 1, σ3 = 0, β1 = 0.05, β2 = 0.99975, max 10 000 iterations, stop after 2000 non-improving iterations; α and β1 were the sensitive parameters in one-factor-at-a-time tuning.
+**ALNS heuristic.** An initial-solution heuristic orders customers by ascending window end and enumerates feasible insertion positions. Customer-insertion operators: new-route insertion (NRI), customer-route insertion (CRI), new-trip insertion before/after a route (BTI/FTI), residual-demand insertion (MI), and detour insertion (DI, applied with probability α, applied to interacting swarm routes or to form a new swarm). Arrival times are adjusted route-wide after insertion; in extreme cases every route is touched. Destroy operators: random removal, worst removal, Shaw removal (similarity by arrival-time difference, distance, and drone-index differences inside swarms), longest-route removal, visits-in-long-routes removal. Removal count starts at 50% of customers and shrinks 5% every 2000 iterations down to a 5% floor. Repair operators: greedy (with two random-selection variants), regret-2, regret-3, and local-regret variants, with BTI/FTI/MI/DI applied after most repairs. Operator weights adapt by `P_m ← (1−β1)P_m + β1·π_m/ω_m`; acceptance is simulated annealing `e^{−(c(S)−c(S′))/T}`, `T ← β2·T`. Tuned parameters: α = 10%, σ1 = 5, σ2 = 1, σ3 = 0, β1 = 0.05, β2 = 0.99975, max 10 000 iterations, stop after 2000 non-improving iterations; α and β1 were the sensitive parameters in one-factor-at-a-time tuning. The weight rule, score constants σ1=5, σ2=1, σ3=0, cooling β2=0.99975 and SA acceptance are the [[references/ropke2006-adaptive-large-neighborhood-search-pdptw|Ropke–Pisinger ALNS]] scheme with renamed symbols. ^[inferred]
 
 ## Key Equations
 
@@ -114,6 +116,7 @@ Swarm synchronization plus time continuity is the computational bottleneck: deto
 - [[references/ha2020-vrp-synchronization-lp-alns]] — VRPMS ALNS baseline in the paper's Table 1
 - [[concepts/simulated-annealing-metropolis-cooling]] — acceptance inside the ALNS
 - [[concepts/exact-multitrip-vrptw-framework]] — multi-trip VRPTW lineage
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — source of the ALNS weight, score and cooling constants this page reuses.
 
 ## Sources
 

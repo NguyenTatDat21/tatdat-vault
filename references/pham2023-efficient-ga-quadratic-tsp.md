@@ -3,6 +3,8 @@ title: An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesma
 category: references
 tags: [metaheuristics, genetic-algorithm, quadratic-tsp, ruin-and-recreate, double-bridge, matheuristics]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
@@ -30,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-25T14:33:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesman Problem
@@ -51,7 +53,7 @@ The Hybrid Genetic Algorithm (HGA) is inspired by the Hybrid Genetic Search for 
 
 - Population management: individuals scored by biased fitness (Eq. 2) combining cost with normalized diversity contribution; diversity dc averages the broken-pair distance \(\delta(P_i,P_j)=\Phi(P_i,P_j)/n\) (Eqs. 3-4) to the closest \(|N_{close}|=2\) individuals; binary tournament selects parents twice; growth to \(\mu+\lambda\), remove \(\lambda\) by clones + biased fitness; after \(It_{div}=4000\) non-improving iterations, diversification keeps only \(\mu/3\) best.
 - Crossover: ordered crossover (OX), a permutation operator that keeps arc information meaningful.
-- Mutation: ruin-and-recreate (Schrimpf et al. 2000) with probability \(p_{mut}=0.9\) — the mutation's goal is diversification, not improvement, so the offspring is not necessarily better than the parent (in contrast to LNS, Shaw 1998). Removal: worst removal (cost-saving probability-weighted, Ropke & Pisinger 2006) or block removal (p consecutive nodes, Veenstra et al. 2017); insertion: random or cheapest insertion (Fischer et al. 2014); one pair chosen uniformly at random.
+- Mutation: ruin-and-recreate (Schrimpf et al. 2000) with probability \(p_{mut}=0.9\) — the mutation's goal is diversification, not improvement, so the offspring is not necessarily better than the parent (in contrast to LNS, Shaw 1998). Removal: worst removal (cost-saving probability-weighted, [[references/ropke2006-adaptive-large-neighborhood-search-pdptw|Ropke & Pisinger 2006]]) or block removal (p consecutive nodes, Veenstra et al. 2017); insertion: random or cheapest insertion (Fischer et al. 2014); one pair chosen uniformly at random.
 - Local search, two phases: (1) first-improvement over neighborhoods N1 Relocate1, N2 Relocate2, N3 Swap1-1, N4 Swap1-2, N5 Swap2-1, N6 Swap2-2, N7 2-Opt, scanned over a granular candidate list L(u) of the \(\Gamma=20\) closest neighbors w.r.t. \(\pi(u,v)=c_{w,u,v}\) (w = predecessor of u), complexity \(O(\Gamma n)\); (2) when phase 1 finds nothing, a restricted double-bridge with probability \(p_{4Opt}=0.3\).
 
 ![[_papers/pham2023efficient/images/page_4_image_0.jpg]]
@@ -105,6 +107,7 @@ Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = me
 - [[references/pisinger2019-large-neighborhood-search]] — the LNS/ALNS chapter that defines destroy-repair design principles HGA borrows; the paper also cites Ropke & Pisinger 2006 for worst removal.
 - [[concepts/metaheuristic-hybridization]] — HGA is a population metaheuristic hybridized with local search and ruin-and-recreate operators.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — shares matheuristics + metaheuristics tags with this page
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the ALNS paper that defines worst removal cited for the mutation step.
 
 ## Sources
 

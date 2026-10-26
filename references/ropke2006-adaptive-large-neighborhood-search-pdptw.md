@@ -34,6 +34,14 @@ relationships:
     type: related_to
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
+  - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
+    type: related_to
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+  - target: "[[references/li2024drone]]"
+    type: related_to
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: related_to
 sources:
   - _papers/ropke2006adaptive/ropke2006adaptive.md
   - _papers/ropke2006adaptive/ropke2006adaptive-extracted.md
@@ -103,7 +111,7 @@ current solution very little per iteration, and the authors believe such heurist
 promising regions on tightly constrained problems. Instead of relaxing constraints to visit infeasible
 solutions (as Cordeau, Laporte and Mercier 2001 do), the heuristic uses very large moves that can rearrange up
 to 30%–40% of all requests in a single iteration; the price is that evaluating moves is much slower, so the
-number of solutions examined per time unit is a fraction of what a standard heuristic examines. The LNS
+number of solutions examined per time unit is a fraction of what a standard heuristic examines. The [[concepts/large-neighborhood-search|LNS]]
 heuristic is due to Shaw (1997), applied to the VRPTW with good results (Shaw 1997, 1998; Bent and Van
 Hentenryck 2004), applied to PDPTW by Bent and Van Hentenryck (2003a), and similar to the ruin-and-recreate
 heuristic of Schrimpf et al. (2000). Algorithm 1 keeps a best solution, copies s to s', removes q requests,
@@ -193,7 +201,7 @@ equally well while the worst heuristic performed worst, so the worst heuristic i
 
 ### Acceptance, noise, and vehicle minimization
 
-Acceptance uses simulated annealing: solution s' is accepted from current s with probability
+Acceptance uses [[concepts/simulated-annealing-metropolis-cooling|simulated annealing]]: solution s' is accepted from current s with probability
 e^{−(f(s') − f(s))/T}, T > 0 being the temperature; T starts at T_start and decreases each iteration as
 T = T·c with 0 < c < 1 the cooling rate. Rather than fixing T_start, it is computed from the initial solution:
 the cost z' of the initial solution is calculated with γ set to zero, then T_start is set so that a solution w%
@@ -224,7 +232,7 @@ more requests are unplanned and no improvement in the number of unplanned reques
 The request bank matters because it lets the search visit infeasible solutions in a transition stage; in the
 problems of §4 solutions with unscheduled requests are not accepted. Several removal and insertion heuristics
 can be seen as local search with several neighborhoods, which the authors believe was new in the LNS
-literature; the related Variable Neighborhood Search of Mladenović and Hansen (1997) uses a parameterized
+literature; the related [[concepts/variable-neighborhood-search|Variable Neighborhood Search]] of Mladenović and Hansen (1997) uses a parameterized
 family of neighborhoods, typically one neighborhood searched with variable depth, whereas ALNS uses several
 unrelated neighborhoods. Simulated annealing was chosen at the top level because ALNS already contains random
 sampling.
@@ -355,7 +363,7 @@ problems often have dimensions comparable to or greater than the largest solved 
 sensitive to the choice of removal heuristic than to the choice of insertion heuristic, and it is open whether
 this holds for other problems. The conclusion notes the heuristic discovered new best solutions for standard
 VRPTW, multidepot VRP and other vehicle routing benchmarks (Pisinger and Ropke 2005; Ropke and Pisinger 2006),
-and that the ALNS framework is easily applicable to most combinatorial optimization problems thanks to the many
+and that the [[concepts/adaptive-large-neighborhood-search-for-mip|ALNS framework]] is easily applicable to most combinatorial optimization problems thanks to the many
 robust and fast construction heuristics designed in earlier decades. Acknowledgements: Jakob Birkedal Nielsen
 for discussions, Emilie Danna for criticism, and three anonymous referees.
 
@@ -370,6 +378,10 @@ for discussions, Emilie Danna for criticism, and three anonymous referees.
 - [[references/phanduc2025-pareto-front-grid-fairness-dpdptw]] — modern multiobjective PDPTW work whose ruin-and-repair metaheuristic inherits this problem model and objective structure.
 - [[references/ha2020-vrp-synchronization-lp-alns]] — ALNS combined with an LP/ALNS layer for synchronized VRP, downstream of the subheuristic-competition design.
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — a multiobjective scheduling metaheuristic whose subheuristic competition and acceptance logic follow this ALNS template.
+- [[references/pham2023-efficient-ga-quadratic-tsp]] — a GA hybrid that uses worst removal exactly as defined here (cost-saving probability-weighted, citing Ropke & Pisinger 2006).
+- [[references/nguyen2025set]] — set-based VRP whose removal/insertion operator set is IRACE-calibrated on the same ALNS template.
+- [[references/li2024drone]] — drone VRP whose weight rule and acceptance constants are the ALNS scheme of this paper with renamed symbols.
+- [[concepts/large-neighborhood-ship-pair-destroy-repair]] — the destroy/repair instance used in industry, whose scheme follows the ALNS line begun here.
 
 ## Sources
 - [[_papers/ropke2006adaptive/ropke2006adaptive.md]] — Zotero sidecar: Ropke, Stefan; Pisinger, David (2006), Transportation Science, 2006-11, doi:10.1287/trsc.1050.0135, with the paper's own abstract quoted.

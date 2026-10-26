@@ -4,6 +4,8 @@ title: >-
 category: concepts
 tags: [metaheuristics, lns, vlsn, lng, neighborhood-selection, matheuristics]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: extends
   - target: "[[concepts/variable-neighborhood-search]]"
@@ -42,7 +44,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T14:22:50Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Large Neighborhood Ship-Pair Destroy and Repair
@@ -59,7 +61,7 @@ Goel et al. (2012) define two neighborhoods on the same model:
 1. **Voyage-shifting (TWIH)**: every voyage departure of a ship shifted by at most $m$ days ($m=4$ in the implementation), then re-solve the modified model — a sliding time-window neighborhood.
 2. **Ship-pair (2SIH, variable-neighborhood style)**: pick ships $v',v''$, fix the schedule of all other ships, solve the reduced model for $v',v''$ only. Termination: stop after $C(|V|,2)$ consecutive non-improving iterations, or when the objective reaches 0.
 
-This is exactly the LNS pattern of Pisinger & Ropke (Handbook of Metaheuristics Ch. 4): the neighborhood is defined implicitly by the destroy and repair methods, is **sampled** rather than fully searched, and belongs to the very large-scale neighborhood (VLSN) class, which the handbook motivates by the observation that large neighborhoods give higher-quality local optima and a more promising search path.
+This is exactly the LNS pattern of Pisinger & Ropke (Handbook of Metaheuristics Ch. 4): the neighborhood is defined implicitly by the destroy and repair methods, is **sampled** rather than fully searched, and belongs to the very large-scale neighborhood (VLSN) class, which the handbook motivates by the observation that large neighborhoods give higher-quality local optima and a more promising search path. The adaptive-weight scheme that chapter describes is the [[references/ropke2006-adaptive-large-neighborhood-search-pdptw|2006 PDPTW ALNS paper]]'s design. ^[inferred]
 
 ```mermaid
 flowchart TD
@@ -124,6 +126,7 @@ Set 1, geometric means relative to the average performance of H-Randm (paper Tab
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/hendel2022-adaptive-lns-for-mip]]
 - [[references/boland2017-dynamic-discretization-tsptw]]
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the ALNS paper that supplied the adaptive-weight machinery used by this destroy pattern.
 
 ## Open Questions
 

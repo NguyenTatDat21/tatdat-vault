@@ -4,6 +4,8 @@ title: >-
 category: references
 tags: [paper, stop, sop, set-team-orienteering, team-orienteering, gtsp, branch-and-price, lns, simulated-annealing, exact-algorithm, heuristic, new-benchmarks, ejor, optimization, vehicle-routing-with-profits, cluster-routing, dynamic-programming, strong-branching]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: uses
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
     type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
@@ -44,7 +46,7 @@ tier: supporting
 lifecycle: draft
 lifecycle_changed: 2026-10-26T04:15:04Z
 created: 2026-10-26T04:15:04Z
-updated: 2026-10-26T04:15:04Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # The set team orienteering problem (Nguyen, Martinelli, Pham & Hà, 2025)
@@ -75,7 +77,7 @@ Master set-partitioning over feasible routes $\Omega$: $\max \sum_{r \in \Omega}
 
 ## LNS
 
-Solution = $m$ routes, each a permutation of clusters. Route feasibility by DP: $g_v=\min_{u \in S_i}(g_u+c_{uv})$, $h_u=\min_{v \in S_j}(h_v+c_{uv})$, route cost $\bar c_r=\min_{u \in S_i}(g_u+h_u)$; preliminary lower bounds cut 75% of feasibility computations. **5 removal operators** (random, worst-cost, worst-profit, worst profit-over-cost, related removal with $R(i,j)=\varphi_1\cdot\frac{\sum_{u\in S_i,v\in S_j}c_{uv}}{\bar c_{max}|S_i||S_j}+\varphi_2\cdot X(i,j)$, $X$ = position distance within a route), and **9 insertion heuristics** (predetermined-order: random / profit-based / proximity-based $\rho_i$; parallel: cheapest, dynamic profit-over-cost, regret-2, regret-3, dynamic profit regret-2, dynamic profit regret-3, complexity $O(K|V|^2)$). Acceptance = [[concepts/simulated-annealing-metropolis-cooling|simulated annealing]] $p_{(s',s)}=e^{(f_{s'}-f_s)/T}$, $T_0 = -\mu f_{s_0}/\ln(0.5)$, exponential cooling $T \leftarrow \alpha T$; removal count $r$ random in $[4, \max(4,\min(\eta K, 40))]$; stop after 100,000 iterations. Tuned by IRACE over 100,000 experiments.
+Solution = $m$ routes, each a permutation of clusters. Route feasibility by DP: $g_v=\min_{u \in S_i}(g_u+c_{uv})$, $h_u=\min_{v \in S_j}(h_v+c_{uv})$, route cost $\bar c_r=\min_{u \in S_i}(g_u+h_u)$; preliminary lower bounds cut 75% of feasibility computations. **5 removal operators** (random, worst-cost, worst-profit, worst profit-over-cost, related removal with $R(i,j)=\varphi_1\cdot\frac{\sum_{u\in S_i,v\in S_j}c_{uv}}{\bar c_{max}|S_i||S_j}+\varphi_2\cdot X(i,j)$, $X$ = position distance within a route), and **9 insertion heuristics** (predetermined-order: random / profit-based / proximity-based $\rho_i$; parallel: cheapest, dynamic profit-over-cost, regret-2, regret-3, dynamic profit regret-2, dynamic profit regret-3, complexity $O(K|V|^2)$). Acceptance = [[concepts/simulated-annealing-metropolis-cooling|simulated annealing]] $p_{(s',s)}=e^{(f_{s'}-f_s)/T}$, $T_0 = -\mu f_{s_0}/\ln(0.5)$, exponential cooling $T \leftarrow \alpha T$; removal count $r$ random in $[4, \max(4,\min(\eta K, 40))]$; stop after 100,000 iterations. Tuned by IRACE over 100,000 experiments. The removal/insertion menu, the roulette-wheel weights and the SA acceptance follow the [[references/ropke2006-adaptive-large-neighborhood-search-pdptw|Ropke–Pisinger ALNS]] template. ^[inferred]
 
 Table 1. General parameters of LNS. ^[ambiguous]
 
@@ -235,6 +237,7 @@ STOP generalizes several routing-with-profits problems and is the fundamental ST
 - [[references/lu2024-hybrid-evolutionary-algorithm-sop]] — HEA, SOP heuristic benchmark.
 - [[references/yu2024-sarl-stoptw]] — SA-RL on STOPTW, source of the new STOP instances.
 - [[references/pham2023-efficient-ga-quadratic-tsp]] — co-author Pham; VRPRDL hybrid GA cited.
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the ALNS template this page's operator set is calibrated on.
 
 ## Sources
 

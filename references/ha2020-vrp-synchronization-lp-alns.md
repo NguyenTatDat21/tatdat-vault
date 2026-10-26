@@ -4,6 +4,8 @@ title: >-
 category: references
 tags: [paper, vrp, synchronization, constraint-programming, alns, linear-programming, time-windows]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: uses
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: uses
   - target: "[[concepts/large-neighborhood-search]]"
@@ -31,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: supporting
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # A New CP Model and LP-based ALNS for VRP with Synchronization Constraints
@@ -58,7 +60,7 @@ with time windows $[o_i,u_i]$ on regular vertices (service start), service times
 
 1. **MIP**: coverage, depot start/end, flow, capacity constraints (2)–(6); sequencing $y_i+(h_i+t_{ij})x_{ij}-M(1-x_{ij})\le y_j$ with $M=u_{v_0^e}$ (7); time windows (8); sync (9)–(10).
 2. **CP model** in IBM ILOG CP Optimizer: one interval $Itv_i^l$ per vertex/vehicle, optional alternatives $ItvAlt_{ik}^l$ for mirror pairs, sequences per vehicle, `noOverlap` with travel-time transition matrix $T_l$, `startOf` for time windows and sync, `presenceOf` for capacity, `typeOfNext` for arc costs; objective $\min\sum_k Cost_k^l$ (22).
-3. **lp-ALNS**: removal operators random / related / worst, relatedness
+3. **lp-ALNS**: removal operators random / related / worst, relatedness — the operator menu and SA acceptance follow [[references/ropke2006-adaptive-large-neighborhood-search-pdptw|Ropke & Pisinger 2006]]. ^[inferred]
 
 $$
 R_{ij}=\lambda_1\frac{|\tau_i-\tau_j|}{\max Time}+\lambda_2\frac{d_{ij}}{\max Dis}+\lambda_3\frac{|q_i-q_j|}{\max Dem}+\lambda_4|type_i-type_j|,\quad \lambda=(4,2,1,4)
@@ -113,6 +115,7 @@ Instances from Hojabri 2018: $|V|\in\{25,50,100,200\}$, Solomon + Homberger-Gehr
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[references/hojabri2018-vrp-synchronization-alns-cp]] — the cp-ALNS baseline this paper builds on and outperforms
 - [[references/paradiso2020-esf-multitrip-vrptw]]
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the ALNS scheme whose operator menu and acceptance settings this paper adopts.
 
 ## Sources
 

@@ -3,6 +3,8 @@ title: Large Neighborhood Search (Handbook of Metaheuristics chapter)
 category: references
 tags: [metaheuristics, lns, alns, vlsn, variable-neighborhood-search, hyper-heuristics, vehicle-routing, adaptive-weights]
 relationships:
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
@@ -35,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-25T14:33:00Z
+updated: 2026-10-26T12:26:00Z
 ---
 
 # Large Neighborhood Search (Handbook of Metaheuristics chapter)
@@ -54,7 +56,7 @@ Neighborhood search on local structures (2-opt, O(n²)) cannot reach distant reg
 
 LNS loop (Algorithm 1): x^b = x; repeat x^t = r(d(x)); if accept(x^t, x) then x = x^t; if c(x^t) < c(x^b) then x^b = x^t; until stop; return x^b.
 
-- **Destroy degree is the key knob**: too small loses exploration, too large degrades to repeated re-optimization. Shaw increases the degree gradually; Ropke & Pisinger (2006, Transportation Science 40(4):455-472) choose it randomly in a range that depends on instance size. Destroy must be able to reach the whole search space; e.g., removing 15% of 100 CVRP customers = C(100,15) ≈ 2.5×10¹⁷ removal choices.
+- **Destroy degree is the key knob**: too small loses exploration, too large degrades to repeated re-optimization. Shaw increases the degree gradually; Ropke & Pisinger ([[references/ropke2006-adaptive-large-neighborhood-search-pdptw|2006, Transportation Science 40(4):455-472]]) choose it randomly in a range that depends on instance size. Destroy must be able to reach the whole search space; e.g., removing 15% of 100 CVRP customers = C(100,15) ≈ 2.5×10¹⁷ removal choices.
 - **Acceptance**: Shaw accepted improving solutions only; Ropke & Pisinger and Schrimpf add simulated annealing — accept if c(x^t) ≤ c(x), else with probability exp(−(c(x^t)−c(x))/T), T_new = αT_old, 0 < α < 1 — making LNS standard SA on a complex neighborhood.
 - **Repair** can be optimal (slow, weak diversification) or heuristic; MIP/CP solvers act as general repair; the fix/optimize reading: destroy fixes a partial solution, repair re-optimizes; decomposable problems (master + subproblems) suit LNS, echoing Dantzig-Wolfe candidate generation. Ruin-and-recreate (Schrimpf et al. 2000, J. Comput. Phys. 159(2):139-171) is the near-identical framework.
 - **ALNS** selects destroy methods from Ω⁻ and repair methods from Ω⁺ by roulette wheel, weights ρ init 1, \(\phi_j^- = \rho_j^-/\sum_k \rho_k^-\); per-iteration score ψ = max{ω1 global best, ω2 better than current, ω3 accepted, ω4 rejected} (Eq. 1, ω1≥ω2≥ω3≥ω4≥0); Eq. (2) update \(\rho_a^- = \lambda\rho_a^- + (1-\lambda)\psi\), λ ∈ [0,1]; unused weights unchanged; normalize ψ by time consumption for slow operators.
@@ -100,6 +102,7 @@ The chapter's synthesis: LNS is quick to assemble from existing components and g
 - [[references/pham2023-efficient-ga-quadratic-tsp]] — ruin-and-recreate LNS operators embedded in a genetic algorithm for the QTSP; cites Ropke & Pisinger 2006.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — LNS destroy defined by removing whole ship schedules, repair by re-solving a time-space MIP.
 - [[concepts/adaptive-large-neighborhood-search-for-mip]] — the ALNS-for-MIP pattern this chapter underwrites.
+- [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the PDPTW paper whose ALNS scheme the chapter systematizes.
 
 ## Sources
 

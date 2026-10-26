@@ -1,5 +1,5 @@
 {
-  "maxConcurrent": 2,
+  "maxConcurrent": 1,
   "maxConcurrentForeground": 0,
   "defaultMaxTurns": 0,
   "graceTurns": 5,
