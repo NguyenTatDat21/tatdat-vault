@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: uses
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -26,6 +28,7 @@ sources:
 summary: >-
   Models payload-aware convex drone energy and extends routing formulations to arbitrary energy functions while preserving tractable optimization structure.
 provenance:
+
   extracted: 0.82
   inferred: 0.14
   ambiguous: 0.04
@@ -34,12 +37,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-24T04:15:00Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Nonlinear Drone Energy Function in Routing
 
 Drone-routing models often need energy feasibility, not just distance minimization. A nonlinear payload-aware energy function captures this better than simple linear approximations.
+
+Raj & Murray's mFSTSP-VDS ([[references/raj2020multiple-variable-drone-speed-mfstsp]]) applies this idea with Liu et al.'s phase-specific power functions, making UAV endurance depend on cruise speed and payload.
 
 ## Core Model Idea
 

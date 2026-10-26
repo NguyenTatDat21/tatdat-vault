@@ -17,6 +17,8 @@ relationships:
     type: related_to
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: extends
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: related_to
   - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
     type: derived_from
 sources:
@@ -38,12 +40,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Parallel Drone Scheduling Traveling Salesman Problem (PDSTSP)
 
 PDSTSP coordinates one truck and multiple depot-based drones to serve customers while minimizing overall completion time.
+
+Raj & Murray's mFSTSP-VDS ([[references/raj2020multiple-variable-drone-speed-mfstsp]]) lists the PDSTSP as a future home for variable-speed UAVs.
 
 ## Key Ideas
 

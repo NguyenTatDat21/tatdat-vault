@@ -14,6 +14,8 @@ relationships:
     type: derived_from
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: derived_from
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: implements
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
   - _papers/tamke2023vehicle/tamke2023vehicle.md
@@ -28,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T09:27:38Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Drone Speed Selection in Truck-Drone Routing
@@ -38,6 +40,7 @@ Drone speed selection models do not assume a fixed cruising speed; they optimize
 ## Key Ideas
 
 - Speed directly controls both sortie duration and energy burn, creating a non-trivial range–time trade-off.
+The mFSTSP-VDS of [[references/raj2020multiple-variable-drone-speed-mfstsp|Raj & Murray (2020)]] optimizes per-leg cruise speeds against a speed- and payload-dependent endurance, saving up to 22.2% makespan.
 - In Tamke & Buscher’s VRPD experiments, the best average fixed speed was **12 m/s**; both lower and higher fixed speeds were often worse.
 - Allowing speed selection (VRPD-DSS) outperformed fixed-speed VRPD on average; even the best fixed-speed baseline (12 m/s) was still about **0.59%** (1 drone) and **0.78%** (2 drones) worse on 20-customer tests.
 - Dominance-based preprocessing is operationally important: roughly **23.10%** of candidate operations were removed and solve times dropped substantially while preserving optimal costs.

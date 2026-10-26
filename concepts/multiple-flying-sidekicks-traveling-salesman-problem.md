@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: extends
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md
@@ -22,12 +24,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-22T11:39:28Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (mFSTSP)
 
 mFSTSP is a truck-and-drone routing model where **one truck** coordinates with **multiple UAVs** to serve customers and minimize mission completion time.
+
+The mFSTSP-VDS variant ([[references/raj2020multiple-variable-drone-speed-mfstsp|Raj & Murray, 2020]]) adds UAV cruise speeds as decision variables on top of this model.
 
 ## Key Ideas
 
