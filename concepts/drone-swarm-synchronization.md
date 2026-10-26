@@ -20,7 +20,7 @@ sources:
   - _papers/li2024drone/li2024drone-extracted.md
   - _papers/li2024drone/li2024drone.md
 summary: >-
-  Swarm synchronization: drones couple and decouple at nodes, serve over-capacity customers with simultaneous arrival, split delivery, detours to join swarms, multi trips; defined by the DRP-SS of Li, Wang & Zhan 2024.
+  Swarm synchronization: drones couple and decouple at nodes, serve over-capacity customers with simultaneous arrival, split delivery, detours, multi trips; defined by DRP-SS (Li, Wang & Zhan 2024).
 provenance:
   extracted: 0.8
   inferred: 0.15

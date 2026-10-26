@@ -10,6 +10,10 @@ relationships:
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: related_to
+  - target: "[[references/li2024drone]]"
+    type: related_to
+  - target: "[[concepts/drone-swarm-synchronization]]"
+    type: related_to
 sources:
   - _papers/paradiso2020exact/paradiso2020exact-extracted.md
   - _papers/paradiso2020exact/paradiso2020exact.md
@@ -24,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:15:49Z
-updated: 2026-10-25T03:40:00Z
+updated: 2026-10-26T00:51:06Z
 ---
 
 # Exact Multitrip VRPTW Framework
@@ -43,7 +47,7 @@ The ESF pattern solves multitrip VRPs with time windows by modeling route **stru
 
 This architecture shifts effort from pure monolithic MIP solving toward a decomposition-like pipeline that controls combinatorial growth in larger instances. ^[inferred]
 
-Related pages: [[references/paradiso2020-esf-multitrip-vrptw]], [[references/poikonen2020-k-mvdrp]], [[references/tamke2023-vrpd-dss]], [[references/gendreau2019-handbook-metaheuristics]], [[_papers/boland2017solving/boland2017solving-extracted]].
+Related pages: [[references/paradiso2020-esf-multitrip-vrptw]], [[references/poikonen2020-k-mvdrp]], [[references/tamke2023-vrpd-dss]], [[references/gendreau2019-handbook-metaheuristics]], [[_papers/boland2017solving/boland2017solving-extracted.md]], [[references/li2024drone]] (multi-trip drone routing with time windows and swarm synchronization), [[concepts/drone-swarm-synchronization]].
 
 ## Open Questions
 

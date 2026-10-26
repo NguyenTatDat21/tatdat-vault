@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2024-parallel-collective-drones]]"
     type: related_to
+  - target: "[[references/mbiadousaleu2022parallel]]"
+    type: extends
   - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
     type: derived_from
 sources:
@@ -36,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-25T15:16:50Z
+updated: 2026-10-26T00:51:06Z
 ---
 
 # Parallel Drone Scheduling Traveling Salesman Problem (PDSTSP)
@@ -72,6 +74,7 @@ PDSTSP coordinates one truck and multiple depot-based drones to serve customers 
 - [[concepts/min-cost-tsp-with-drone]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
 - [[references/montemanni2024-parallel-collective-drones]]
+- [[references/mbiadousaleu2022parallel]] — PDSMTSP: extends PDSTSP to several trucks and drones working in parallel, solved by an ILS whose split decoder is a dynamic-programming labeling over the giant tour
 - [[references/torabbeigi2020-payload-bcr-drone-scheduling]] — shares drones + scheduling tags with this page
 
 ## Open Questions

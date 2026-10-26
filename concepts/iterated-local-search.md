@@ -20,7 +20,7 @@ sources:
   - _papers/lourenco2019iterated/lourenco2019iterated-extracted.md
   - _papers/lourenco2019iterated/lourenco2019iterated.md
 summary: >-
-  ILS: walks the reduced space of local optima by perturbing the incumbent, re-running the embedded local search, and accepting by a rule; quality hinges on perturbation strength and acceptance criterion.
+  ILS: walks the reduced space of local optima by perturbing the incumbent, re-running local search, and accepting by a rule; quality hinges on perturbation strength and acceptance criterion.
 provenance:
   extracted: 0.8
   inferred: 0.15

@@ -4,7 +4,7 @@ title: >-
 category: concepts
 tags: [swarm-intelligence, particle-swarm-optimization, ant-colony-optimization, metaheuristics, emergent-behavior]
 relationships:
-  - target: "[[references/gendreau2019-handbook-metaheuristics.md]]"
+  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
   - target: "[[concepts/metaheuristic-hybridization]]"
     type: related_to
@@ -92,7 +92,7 @@ $$
 
 ## Related
 
-- [[references/gendreau2019-handbook-metaheuristics.md]]
+- [[references/gendreau2019-handbook-metaheuristics]]
 - [[concepts/metaheuristic-hybridization]]
 - [[concepts/parallel-metaheuristics-cooperative-search]]
 - [[concepts/hyper-heuristics]]

@@ -160,3 +160,8 @@ title: Wiki Log
 - [2026-10-25T23:43:56Z] CROSS_LINK pages_scanned=10 links_added=5 typed_relations_written=5 pages_modified=4 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=2
 - [2026-10-26T00:35:16Z] INGEST source=_papers/ledoit2004wellconditioned/ledoit2004wellconditioned-extracted.md pages_created=1 pages_updated=1 sources=1 mode=append
 - [2026-10-26T00:40:45Z] CROSS_LINK pages_scanned=10 links_added=6 typed_relations_written=4 pages_modified=4 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=2
+- [2026-10-26T03:56:18Z] INGEST source=_papers/li2024drone/li2024drone-extracted.md pages_created=2 pages_updated=0 sources=1 mode=append
+- [2026-10-26T03:56:27Z] INGEST source=_papers/liu2017power/liu2017power-extracted.md pages_created=2 pages_updated=0 sources=1 mode=append
+- [2026-10-26T03:56:37Z] INGEST source=_papers/lourenco2019iterated/lourenco2019iterated-extracted.md pages_created=2 pages_updated=0 sources=1 mode=append
+- [2026-10-26T03:56:37Z] INGEST source=_papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted.md pages_created=1 pages_updated=0 sources=1 mode=append
+- [2026-10-26T03:57:11Z] CROSS_LINK pages_scanned=87 links_added=4 typed_relations_written=3 pages_modified=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0

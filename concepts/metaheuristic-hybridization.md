@@ -4,7 +4,7 @@ title: >-
 category: concepts
 tags: [metaheuristics, hybridization, branch-and-bound, column-generation, matheuristics]
 relationships:
-  - target: "[[references/gendreau2019-handbook-metaheuristics.md]]"
+  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
@@ -77,7 +77,7 @@ hybrid recipe (routing form):
 
 ## Related
 
-- [[references/gendreau2019-handbook-metaheuristics.md]]
+- [[references/gendreau2019-handbook-metaheuristics]]
 - [[concepts/large-neighborhood-search]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[concepts/hyper-heuristics]]

@@ -7502,6 +7502,37 @@
       "content_hash": "1a167e3c253657afb4d3914486300809bc8d90c0266b5b81d6e7e676e9efa3d5",
       "last_ingested": "2026-10-26T00:35:11.759315+00:00",
       "pages_produced": []
+    },
+    "_papers/li2024drone/li2024drone-extracted.md": {
+      "content_hash": "438eb0f9ed8ffe54fb4b8e71697d7a7827b5fd00e0322e5153926577807d374f",
+      "last_ingested": "2026-10-26T03:56:07.403613+00:00",
+      "pages_produced": [
+        "references/li2024drone.md",
+        "concepts/drone-swarm-synchronization.md"
+      ]
+    },
+    "_papers/liu2017power/liu2017power-extracted.md": {
+      "content_hash": "08b43fb930091101fef0cd39c5ae7989f6cc9e1271e81623e71662291d370f39",
+      "last_ingested": "2026-10-26T03:56:07.565833+00:00",
+      "pages_produced": [
+        "references/liu2017power.md",
+        "concepts/multirotor-power-model-components.md"
+      ]
+    },
+    "_papers/lourenco2019iterated/lourenco2019iterated-extracted.md": {
+      "content_hash": "64e7c5a7b3436811938ecc806189573a583b11d2ae2e305908e605f211536f74",
+      "last_ingested": "2026-10-26T03:56:07.698291+00:00",
+      "pages_produced": [
+        "references/lourenco2019iterated.md",
+        "concepts/iterated-local-search.md"
+      ]
+    },
+    "_papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted.md": {
+      "content_hash": "73388a3f68549fd0455cb6d75a4fd734fdfb672acf87bab1b5b728193fc03d33",
+      "last_ingested": "2026-10-26T03:56:07.819422+00:00",
+      "pages_produced": [
+        "references/mbiadousaleu2022parallel.md"
+      ]
     }
   },
   "stats": {

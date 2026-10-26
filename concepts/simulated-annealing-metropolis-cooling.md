@@ -4,7 +4,7 @@ title: >-
 category: concepts
 tags: [simulated-annealing, metaheuristics, acceptance-criterion, markov-chains, cooling-schedules]
 relationships:
-  - target: "[[references/gendreau2019-handbook-metaheuristics.md]]"
+  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
@@ -70,7 +70,7 @@ The LNS + SA combination is this acceptance rule applied to a **complex neighbor
 
 ## Related
 
-- [[references/gendreau2019-handbook-metaheuristics.md]]
+- [[references/gendreau2019-handbook-metaheuristics]]
 - [[concepts/large-neighborhood-search]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[concepts/hyper-heuristics]]
