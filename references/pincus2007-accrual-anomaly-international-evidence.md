@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
+  - target: "[[references/ozili2017-bank-loan-loss-provisions-review]]"
+    type: related_to
 sources:
   - _papers/pincus2007accrual/pincus2007accrual-extracted.md
   - _papers/pincus2007accrual/pincus2007accrual.md
@@ -83,6 +85,7 @@ The extracted markdown has zero image embeds; images/ holds 37 table/equation cr
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]] — the portfolio-formation + cross-sectional-regression template pincus2007 applies country-by-country (Eq. 6, GMM).
 - [[concepts/cash-based-operating-profitability]] — the cash-versus-accrual valuation gap that OCF underweighting measures directly.
 - [[concepts/residual-earnings-equity-valuation]] — the accrual-valuation model behind the anomaly
+- [[references/ozili2017-bank-loan-loss-provisions-review]] — ozili2017 reviews earnings-management-driven loan loss provisioning in banks, the bank-side analogue of pincus2007's earnings-management explanation for the accrual anomaly.
 
 ## Sources
 

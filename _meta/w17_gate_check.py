@@ -31,6 +31,8 @@ print("e:", len(fm["sources"]), "source paths exist:", "OK" if ok_e else "FAIL")
 
 def resolve(t):
     t = t.split("|")[0].strip()
+    if t.endswith(".md") and ("/" in t):
+        return os.path.exists(t)
     if t.endswith((".jpg", ".png", ".pdf")):
         return os.path.exists(t)
     if t.startswith(("_papers/", "references/", "concepts/")):

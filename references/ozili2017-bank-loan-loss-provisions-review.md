@@ -5,8 +5,6 @@ tags: [loan-loss-provisioning, banking, income-smoothing, earnings-management, p
 relationships:
   - target: "[[references/beatty2014-financial-accounting-in-banking]]"
     type: related_to
-  - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
-    type: related_to
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
 sources:
@@ -123,7 +121,6 @@ Self-declared scope exclusions: Islamic bank provisioning, dynamic provisioning 
 ## Related
 
 - [[references/beatty2014-financial-accounting-in-banking]] — companion empirical review of bank accounting discretion and regulation (related_to)
-- [[references/ball2016-accruals-cash-flows-operating-profitability]] — discretionary accruals as the accounting-quality problem LLP exemplifies in banks (related_to)
 - [[references/pincus2007-accrual-anomaly-international-evidence]] — cross-country accrual-quality evidence, the international analogue of the LLP cross-country studies (related_to)
 
 ## Sources

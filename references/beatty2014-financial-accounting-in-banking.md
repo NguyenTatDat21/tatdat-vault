@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
+  - target: "[[references/ozili2017-bank-loan-loss-provisions-review]]"
+    type: related_to
 sources:
   - _papers/beatty2014financial/beatty2014financial-extracted.md
   - _papers/beatty2014financial/beatty2014financial.md
@@ -78,7 +80,7 @@ This decomposition is a synthesis device rather than a tested equation in the so
 | Stream | Main finding |
 |---|---|
 | Valuation and risk relevance | Accounting signals remain decision-relevant, but interpretation shifts with crisis conditions and measurement regime |
-| Discretionary reporting | Evidence supports meaningful discretion in loan-loss provisioning and capital reporting |
+| Discretionary reporting | Evidence supports meaningful discretion in loan-loss provisioning [[references/ozili2017-bank-loan-loss-provisions-review]] and capital reporting |
 | Real effects | Loan loss provisioning timeliness affects the pro-cyclicality of lending; delayed provisioning amplifies the lending cut in crises because replenishing equity is harder then |
 | Methodological takeaway | Before/after studies of new regulation cannot cleanly attribute changes because control groups are hard to identify, and predicting a proposed rule assumes banks will not adapt to it — the paper names this as the central methodological challenge |
 
@@ -99,6 +101,7 @@ This decomposition is a synthesis device rather than a tested equation in the so
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[concepts/negative-book-equity-style-classification]]
 - [[references/pincus2007-accrual-anomaly-international-evidence]] — pincus2007 shows earnings management via income-increasing accruals drives the anomaly in common-law markets, the stock-side counterpart of bank provisioning discretion catalogued here.
+- [[references/ozili2017-bank-loan-loss-provisions-review]] — ozili2017 reviews post-2000 loan loss provisioning research: provisioning discretion links to income smoothing, capital management, signalling and Basel procyclicality, extending the bank provisioning discretion catalogued here.
 
 ## Sources
 

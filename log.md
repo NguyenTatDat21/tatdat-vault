@@ -179,3 +179,4 @@ title: Wiki Log
 - [2026-10-26T08:42:26Z] CROSS_LINK source=_papers/ogryczak2014fair/ogryczak2014fair-extracted.md pages_scanned=6 links_added=4 typed_relations_written=4 pages_modified=4 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-26T08:50:42Z] CROSS_LINK source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_scanned=8 links_added=5 typed_relations_written=6 pages_modified=6 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-26T09:45:11Z] INGEST source=_papers/ozili2017bank/ozili2017bank-extracted.md pages_created=1 pages_updated=0 sources=1 mode=append
+- [2026-10-26T09:51:15Z] CROSS_LINK pages_scanned=397 links_added=5 typed_relations_written=4 pages_modified=3 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
