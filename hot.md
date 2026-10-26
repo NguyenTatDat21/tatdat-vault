@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T17:14:36Z
-pages: 401
+updated: 2026-10-26T18:31:53Z
+pages: 402
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK pages_scanned=22 links_added=8 typed_relations_written=13 ...
 - [2026-10-26] INGEST source=_papers/richards1996scheduling/richards1996scheduling-extra... pages_created=1 pages_updated=1 ...
 - [2026-10-26] CROSS_LINK source=_papers/richards1996scheduling/richards1996scheduling-extra... pages_scanned=166 links_added=10 ...
+- [2026-10-26] INGEST source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_created=1 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Shad Valley student-seminar scheduling is a capacitated transportation problem; total-satisfaction LP (value 102,880 in 1993) can sacrifice one student, while a two-phase bottleneck max-min model raised the objective to 105,528 and the worst assignment from 5th to 3rd choice, and in the 1994 manual-year comparison (24,392 manual, 25,824 Model 1) reduced the worst assignment from 4 to 3 for 96 objective units.
+ALNS for PDPTW: 3 removal heuristics (Shaw relatedness eq 17, random, worst) and 5 insertion heuristics (regret-1 to regret-4, regret-m eq 19) compete by roulette wheel eq 20, weights updated per 100-iteration segment as w_{i,j+1}=w_{ij}(1-r)+r pi_i/theta_i, accepted by simulated annealing with noise C'=max{0,C+noise}; tuned vector (9,3,2,5,6,3,0.05,0.99975,9,13,0.1,0.025,0.4), xi=0.4, 25,000 iterations. Beats prior heuristics on more than half of 354 Li-and-Lim instances, 80 percent at least as good (Table 9); on 48 new multidepot instances gaps 1.44/1.86, 1.54/2.18, 1.39/1.62, 1.18/1.32 percent ALNS vs LNS.
 
 ## Flagged Contradictions
 

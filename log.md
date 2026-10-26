@@ -188,3 +188,4 @@ title: Wiki Log
 - [2026-10-26T12:00:38Z] CROSS_LINK pages_scanned=22 links_added=8 typed_relations_written=13 pages_modified=5 orphans_remaining=5 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-26T16:15:52Z] INGEST source=_papers/richards1996scheduling/richards1996scheduling-extracted.md pages_created=1 pages_updated=1 sources=1 mode=append
 - [2026-10-26T17:14:35Z] CROSS_LINK source=_papers/richards1996scheduling/richards1996scheduling-extracted.md pages_scanned=166 links_added=10 typed_relations_written=8 pages_modified=7 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-26T18:31:51Z] INGEST source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_created=1 pages_updated=1 sources=1 mode=append

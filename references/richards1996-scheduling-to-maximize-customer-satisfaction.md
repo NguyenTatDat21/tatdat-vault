@@ -35,9 +35,8 @@ sources:
   - _papers/richards1996scheduling/richards1996scheduling-extracted.md
   - _papers/richards1996scheduling/images/page_3_image_2.jpg
 summary: >-
-  Student-seminar scheduling for the Shad Valley program is a capacitated transportation problem: the
-  total-satisfaction (sum) model can sacrifice one student, while a two-phase bottleneck (max-min) model
-  guarantees the worst assignment.
+  Shad Valley student-seminar scheduling is a capacitated transportation problem; the max-min bottleneck model
+  removes last-choice assignments that the total-satisfaction model can produce.
 provenance:
   extracted: 0.85
   inferred: 0.15
