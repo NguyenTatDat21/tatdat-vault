@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-25T23:43:56Z
-pages: 373
+updated: 2026-10-26T00:35:16Z
+pages: 374
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] CROSS_LINK source=cross-linker-correction pages_scanned=12 links_added=5 ...
 - [2026-10-25] INGEST source=_papers/idzorek20072/idzorek20072-extracted.md pages_created=0 pages_updated=4 ...
 - [2026-10-25] CROSS_LINK pages_scanned=10 links_added=5 typed_relations_written=5 ...
+- [2026-10-26] INGEST source=_papers/ledoit2004wellconditioned/ledoit2004wellconditioned... pages_created=1 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Bidirectional confidence-dial links: idzorek20072 <-> qian2001 (uses, line 314 citation) and <-> meucci2006 (explicit c_k vs omega-calibrated confidence); concept page extended; 5 inbound => idzorek and meucci2006 promoted to core
+Ledoit & Wolf 2004 explicit linear shrinkage toward mu*I: asymptotically optimal under Frobenius loss, always invertible, better-conditioned than sample covariance even when p>n; simulated PRIAL 49.3% at p=20,n=40 vs asymptotic 50%
 
 ## Flagged Contradictions
 

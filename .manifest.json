@@ -7497,6 +7497,11 @@
         "references/qian2001-conditional-distribution-portfolio-theory.md",
         "references/meucci2006-beyond-black-litterman-copula.md"
       ]
+    },
+    "_papers/ledoit2004wellconditioned/ledoit2004wellconditioned-extracted.md": {
+      "content_hash": "1a167e3c253657afb4d3914486300809bc8d90c0266b5b81d6e7e676e9efa3d5",
+      "last_ingested": "2026-10-26T00:35:11.759315+00:00",
+      "pages_produced": []
     }
   },
   "stats": {
