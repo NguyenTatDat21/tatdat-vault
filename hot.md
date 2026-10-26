@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T11:45:37Z
+updated: 2026-10-26T12:00:38Z
 pages: 400
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] INGEST source=_papers/raj2020multiple/raj2020multiple-extracted.md pages_created=1 pages_updated=0 ...
 - [2026-10-26] CROSS_LINK pages_scanned=16 links_added=19 typed_relations_written=15 ...
 - [2026-10-26] INGEST source=_papers/rakke2011rolling/rakke2011rolling-extracted.md pages_created=1 pages_updated=0 ...
+- [2026-10-26] CROSS_LINK pages_scanned=22 links_added=8 typed_relations_written=13 ...
 
 ## Active Threads
 

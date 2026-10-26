@@ -86,7 +86,7 @@ Four cases: A and B reflect the current situation (fewer/smaller ships, lower pr
 
 **Solution quality (Table 5)**: ESM avg gap 31.55% / avg UB−LB 22,452; RHH **10.33% / 18,873**; CIH 12.48% / 14,217. Key rows: A1 ESM 396.64% vs RHH 33.07% vs CIH 51.91%; C1 ESM 7.77% (112,224) vs RHH 6.07% (87,694) vs CIH 1.84% (26,643); D1 ESM 8.66% vs RHH 3.95% vs CIH 1.59%; B1 ESM 12.24% (2,985) vs RHH 37.27% (7,431) vs CIH 18.92%. RHH is better than CIH on 8 of 16 instances, and on 6 of the 8 real-data-based instances (cases A and C). The ESM found the best known solution on 9 of 16 instances (explained by its 86,400 s budget vs < 7200 s for RHH), but on all 12-month instances except B1 the heuristics win. Relative gaps look worse for A/B because spot revenue pushes their bounds near zero.
 
-**Running time (Table 6)**: ESM always 86,400 s; RHH 2,015–6,626 s (A1 6,626, C1 5,854, D1 5,174, B4 2,015); CIH 23–1,587 s (fastest: B4 23 s, B3 42 s). Time until ESM beats RHH: 5 instances never (>86,400), 23,577 s (A4), 325 (B1), 207 (B2), 2,932 (B3), 128 (B4), 42,149 (C2), 14,348 (C3), 349 (C4), 82,392 (D2), 54 (D3), 326 (D4). Counting time, RHH outperforms ESM in **10 of 16** instances, and 3 of 4 on one-year horizons.
+**Running time (Table 6)**: ESM always 86400 s; RHH 2015–6626 s (A1 6626, C1 5854, D1 5174, B4 2015); CIH 23–1587 s (fastest: B4 23 s, B3 42 s). Time until ESM beats RHH: 5 instances never (>86400), 23577 s (A4), 325 (B1), 207 (B2), 2932 (B3), 128 (B4), 42149 (C2), 14348 (C3), 349 (C4), 82392 (D2), 54 (D3), 326 (D4). Counting time, RHH outperforms ESM in **10 of 16** instances, and 3 of 4 on one-year horizons.
 
 ## Conclusions & future work
 
