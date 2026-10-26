@@ -7568,6 +7568,14 @@
         "concepts/operating-and-financial-leverage-spreading.md",
         "concepts/ratio-mean-reversion-and-continuing-value-benchmarks.md"
       ]
+    },
+    "_papers/novy-marx2013other/novy-marx2013other-extracted.md": {
+      "content_hash": "3d2322e2fa189906e67becba57ae6ea1349dbc634748a461f1b5428a46fc42ed",
+      "last_ingested": "2026-10-26T07:39:54.033211+00:00",
+      "pages_produced": [
+        "references/novy-marx2013-other-side-of-value.md",
+        "concepts/gross-profitability-premium.md"
+      ]
     }
   },
   "stats": {

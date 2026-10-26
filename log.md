@@ -174,3 +174,4 @@ title: Wiki Log
 - [2026-10-26T06:22:57Z] CROSS_LINK pages_scanned=14 links_added=16 typed_relations_written=10 pages_modified=14 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=2
 - [2026-10-26T06:44:32Z] INGEST source=_papers/nissim2001ratio/nissim2001ratio-extracted.md pages_created=5 pages_updated=0 sources=1 mode=append
 - [2026-10-26T06:48:24Z] CROSS_LINK pages_scanned=15 links_added=21 typed_relations_written=54 pages_modified=15 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=9
+- [2026-10-26T07:40:03Z] INGEST source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_created=2 pages_updated=0 sources=1 mode=append

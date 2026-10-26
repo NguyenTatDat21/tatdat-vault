@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T06:48:24Z
-pages: 392
+updated: 2026-10-26T07:40:03Z
+pages: 394
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK pages_scanned=14 links_added=16 typed_relations_written=10 ...
 - [2026-10-26] INGEST source=_papers/nissim2001ratio/nissim2001ratio-extracted.md pages_created=5 pages_updated=0 ...
 - [2026-10-26] CROSS_LINK pages_scanned=15 links_added=21 typed_relations_written=54 ...
+- [2026-10-26] INGEST source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_created=2 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Nissim & Penman (Review of Accounting Studies 2001, DOI 10.1023/A:1011338221623) rebuild ratio analysis on residual-earnings valuation: ROCE=Sales PM x ATO + Other Items/NOA + FLEV x SPREAD with ROOA/OLLEV/OLSPREAD and MSR, seven profitability drivers and three growth drivers (Sales, ATO, FLEV). Documented 1963-1999 medians over 37 years, 64,060 firm-years: ROCE 12.2%, RNOA 10.0%, ROTA 6.8%, FLEV 0.40 vs Debt/Equity 1.19, OLLEV 0.35, OLSPREAD 3.4%, NBC 5.2%, SPREAD 3.9% (SD 20.3%), ATO 1.94, Sales PM 5.4%, Growth in CSE 9.0%, FCF/NOA 2.1%. Table 2 Spearman: RNOA-ROTA 0.94, FLEV-SPREAD -0.38, OLLEV-ATO 0.60. Fade rates: ROCE 0.618->0.230, RNOA 0.665->0.298, FLEV 0.937->0.700, ATO 0.947->0.808, growth in NOA 0.584->0.051; survivorship 97.84%->85.45% for the top residual-earnings portfolio. Out-of-sample validation fails => ratios are contextual benchmarks, not mechanical extrapolation.
+Novy-Marx (JFE 2013): gross profits-to-assets (GP/A) has roughly the same return-predictive power as book-to-market; profitable stocks earn higher returns despite higher valuations. Profitability and value strategies correlate -0.57, so a 50/50 mix earns 0.71%/month at Sharpe 0.85 vs 0.34 for the market. Conditional factors HML|GP (0.54%/mo, t 5.01) and PMU|BM (0.48, t 5.35) dominate standard HML (0.40, t 3.25). The four-factor model MKT + industry-adjusted HML/UMD/PMU prices 14 of 15 anomalies (only total accruals survive), cutting root mean squared pricing error from 0.54 to 0.22 percent per month. Created references/novy-marx2013-other-side-of-value.md and concepts/gross-profitability-premium.md.
 
 ## Flagged Contradictions
 
