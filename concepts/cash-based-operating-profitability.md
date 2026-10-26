@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: extends
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -47,6 +49,7 @@ Cash-based operating profitability (CbOP) isolates profitability from accrual ad
 - In the cited evidence, CbOP retains strong predictive power while accruals lose significance in joint tests.
 - Kakinuma's FCF = cash flow from operations over market cap in Thailand (June 2002-June 2019) behaves like CbOP: it predicts returns and gives the most consistent top-quintile performance (Sharpe 0.61 vs market 0.32, information ratio 2.45). ^[extracted]
 - Kim & Hoang find that accrual-heavy OP (gross profit − SG&A − interest expense) also predicts ASEAN returns, so cash-basis dominance is not universal across all markets. ^[inferred]
+- Gross-level profitability is the complement of this cash-based signal: [[references/novy-marx2013-other-side-of-value|Novy-Marx 2013]] shows gross profits-to-assets keeps its Fama-MacBeth power after controls for accruals and R&D, so gross-profitability and cash-based signals are distinct measures, not substitutes. ^[inferred]
 
 ## Why It Matters
 

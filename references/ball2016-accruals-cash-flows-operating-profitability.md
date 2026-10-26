@@ -36,7 +36,7 @@ updated: 2026-10-25T14:36:00Z
 
 ## Problem & Motivation
 
-Prior asset-pricing anomalies suggested that expected returns increase with profitability and decrease with accruals. This paper tests whether accruals add information once profitability is measured on a cash basis.
+Prior asset-pricing anomalies suggested that expected returns increase with profitability and decrease with accruals — the profitability leg is the gross-profitability premium of [[references/novy-marx2013-other-side-of-value|Novy-Marx 2013]]. This paper tests whether accruals add information once profitability is measured on a cash basis.
 
 ## Method / Architecture
 

@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
     type: related_to
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md

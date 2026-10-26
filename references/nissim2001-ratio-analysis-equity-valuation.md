@@ -23,6 +23,8 @@ relationships:
     type: related_to
   - target: "[[references/kim2020-profitability-asean-stocks]]"
     type: related_to
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: related_to
 sources:
@@ -98,7 +100,7 @@ $$ROCE=\frac{CNI}{CSE_{t-1}}=RNOA+FLEV\cdot SPREAD=Sales\ PM\cdot ATO+\frac{Othe
 
 $$RNOA=ROOA+OLLEV\cdot OLSPREAD,\qquad CSE=Sales\cdot\frac{1}{ATO}\cdot\frac{1}{1+FLEV}$$
 
-[[concepts/ratio-hierarchy-for-profitability-and-growth|Seven drivers of profitability]] (**core sales PM, ATO, other core items, financial leverage, net borrowing cost, operating liability leverage, minority-share ratio**), three of book-value growth (**sales, asset turnover, financial leverage**). The unlevered reduction $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ drops the financial drivers when financial items are at fair value. Growth in operating residual earnings is driven by $RNOA$ and growth in net operating assets; cash-flow identities (equations 12–15) tie the same drivers to free cash flow and dividends, so the analysis applies to discounted cash flow and dividend-discount valuation as well.
+[[concepts/ratio-hierarchy-for-profitability-and-growth|Seven drivers of profitability]] cross the U.S. gross-profitability regressions of [[references/novy-marx2013-other-side-of-value|Novy-Marx 2013]] (**core sales PM, ATO, other core items, financial leverage, net borrowing cost, operating liability leverage, minority-share ratio**), three of book-value growth (**sales, asset turnover, financial leverage**). The unlevered reduction $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ drops the financial drivers when financial items are at fair value. Growth in operating residual earnings is driven by $RNOA$ and growth in net operating assets; cash-flow identities (equations 12–15) tie the same drivers to free cash flow and dividends, so the analysis applies to discounted cash flow and dividend-discount valuation as well.
 
 ## Ratio documentation: 1963–1999
 

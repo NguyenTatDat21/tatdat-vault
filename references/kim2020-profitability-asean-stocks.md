@@ -13,6 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: related_to
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
 sources:
   - _papers/kim2020profitability/kim2020profitability-extracted.md
   - _papers/kim2020profitability/kim2020profitability.md
@@ -72,6 +74,7 @@ Fama-MacBeth regressions (Eq. 3, and Eq. 4 for OP/BA) with size, book-to-market 
 - [[concepts/cash-based-operating-profitability]]
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the ratio system these profitability measures sit in
+- [[references/novy-marx2013-other-side-of-value]] — the U.S. gross-profitability premium that this ASEAN OP evidence parallels
 
 ## Bibliographic Record
 
