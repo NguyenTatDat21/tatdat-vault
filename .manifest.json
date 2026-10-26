@@ -7584,6 +7584,13 @@
         "references/ogryczak2014-fair-optimization-networks-survey.md",
         "concepts/leximax-leximin-fairness-principles.md"
       ]
+    },
+    "_papers/ozili2017bank/ozili2017bank-extracted.md": {
+      "content_hash": "bc9b95e6996553c0aab7ee788a340f9de5372316f46c42d1c33cb240c7228efb",
+      "last_ingested": "2026-10-26T09:45:02.129287+00:00",
+      "pages_produced": [
+        "references/ozili2017-bank-loan-loss-provisions-review.md"
+      ]
     }
   },
   "stats": {
