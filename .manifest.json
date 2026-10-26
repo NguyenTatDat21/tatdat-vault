@@ -7533,6 +7533,13 @@
       "pages_produced": [
         "references/mbiadousaleu2022parallel.md"
       ]
+    },
+    "_papers/murray2015flying/murray2015flying-extracted.md": {
+      "content_hash": "2469dde10c327a80e0c7d81eba42ad597d45073584fdf182273142034c464ff4",
+      "last_ingested": "2026-10-26T04:39:46.240170+00:00",
+      "pages_produced": [
+        "references/murray2015flying.md"
+      ]
     }
   },
   "stats": {

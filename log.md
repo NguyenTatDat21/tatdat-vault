@@ -165,3 +165,4 @@ title: Wiki Log
 - [2026-10-26T03:56:37Z] INGEST source=_papers/lourenco2019iterated/lourenco2019iterated-extracted.md pages_created=2 pages_updated=0 sources=1 mode=append
 - [2026-10-26T03:56:37Z] INGEST source=_papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted.md pages_created=1 pages_updated=0 sources=1 mode=append
 - [2026-10-26T03:57:11Z] CROSS_LINK pages_scanned=87 links_added=4 typed_relations_written=3 pages_modified=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-26T04:39:34Z] INGEST source=_papers/murray2015flying/murray2015flying-extracted.md pages_created=1 pages_updated=0 sources=1 mode=append
