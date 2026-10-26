@@ -19,6 +19,8 @@ relationships:
     type: related_to
   - target: "[[concepts/black-litterman-view-blending]]"
     type: related_to
+  - target: "[[references/ledoit2004wellconditioned]]"
+    type: related_to
 sources:
   - _papers/black1992global/black1992global-extracted.md
   - _papers/black1992global/black1992global.md
@@ -30,12 +32,12 @@ provenance:
   extracted: 0.81
   inferred: 0.17
   ambiguous: 0.02
-base_confidence: 0.83
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-25T23:55:00Z
 ---
 
 # Global Portfolio Optimization
@@ -118,6 +120,7 @@ The same posterior-mean construction is formalized by He & Litterman as the deco
 - [[references/he2002-black-litterman-intuition]]
 - [[references/idzorek20072-bl-confidence-levels]]
 - [[concepts/black-litterman-view-blending]]
+- [[references/ledoit2004wellconditioned]]
 
 ## Sources
 

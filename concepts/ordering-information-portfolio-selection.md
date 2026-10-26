@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
+  - target: "[[references/ledoit2004wellconditioned]]"
+    type: related_to
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md
@@ -22,12 +24,12 @@ provenance:
   extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
-base_confidence: 0.75
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-25T23:55:00Z
 ---
 
 # Ordering-Information Portfolio Selection
@@ -55,6 +57,7 @@ Ordering-information portfolio selection replaces point estimates of expected re
 - [[concepts/set-orienteering-problem]]
 - [[references/fama1973-risk-return-equilibrium-empirical-tests]]
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]
+- [[references/ledoit2004wellconditioned]]
 
 ## Open Questions
 

@@ -29,7 +29,7 @@ sources:
   - _papers/ledoit2004wellconditioned/images/page_23_chart_5.jpg
   - _papers/ledoit2004wellconditioned/images/page_24_chart_3.jpg
 summary: >-
-  Ledoit & Wolf (J. Multivariate Analysis 2004) build an explicit linear shrinkage of the sample covariance toward the identity that is asymptotically optimal under Frobenius loss, invertible, and well-conditioned, even when p > n.
+  Ledoit & Wolf (2004): explicit linear shrinkage of the sample covariance toward the identity, asymptotically optimal under Frobenius loss, invertible and better-conditioned, even when p > n.
 provenance:
   extracted: 0.85
   inferred: 0.12

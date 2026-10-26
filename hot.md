@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T00:35:16Z
+updated: 2026-10-26T00:40:45Z
 pages: 374
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-25] INGEST source=_papers/idzorek20072/idzorek20072-extracted.md pages_created=0 pages_updated=4 ...
 - [2026-10-25] CROSS_LINK pages_scanned=10 links_added=5 typed_relations_written=5 ...
 - [2026-10-26] INGEST source=_papers/ledoit2004wellconditioned/ledoit2004wellconditioned... pages_created=1 pages_updated=1 ...
+- [2026-10-26] CROSS_LINK pages_scanned=10 links_added=6 typed_relations_written=4 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Ledoit & Wolf 2004 explicit linear shrinkage toward mu*I: asymptotically optimal under Frobenius loss, always invertible, better-conditioned than sample covariance even when p>n; simulated PRIAL 49.3% at p=20,n=40 vs asymptotic 50%
+Ledoit2004 linked into mmse concept (inline + related_to), chen2010 (inline + derived_from), ordering-information hub (related_to, bc 0.75->0.77), black1992 hub (related_to, bc 0.83->0.87); no new orphan
 
 ## Flagged Contradictions
 

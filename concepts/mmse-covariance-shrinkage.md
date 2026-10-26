@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
+  - target: "[[references/ledoit2004wellconditioned]]"
+    type: related_to
 sources:
   - _papers/chen2010shrinkage/chen2010shrinkage-extracted.md
   - _papers/chen2010shrinkage/chen2010shrinkage.md
@@ -41,7 +43,7 @@ MMSE covariance shrinkage improves covariance estimation by blending empirical c
   $$
   with \(\rho\) tuned to reduce expected squared estimation error.
 - RBLW and OAS are practical shrinkage-intensity estimators with better finite-sample behavior than classical LW in many settings.
-- Ledoit & Wolf (2004) is the canonical identity-target case: the feasible estimator S* = (b²/d²)mI + (a²/d²)S (with m = ⟨S,I⟩, d² = ‖S − mI‖², b² = min(b̄², d²), a² = d² − b²) is asymptotically optimal under Frobenius loss among all linear shrinkages, including hindsight-optimal ones, and stays invertible and better-conditioned than the true covariance even when p > n.
+- [[references/ledoit2004wellconditioned|Ledoit & Wolf (2004)]] is the canonical identity-target case: the feasible estimator S* = (b²/d²)mI + (a²/d²)S (with m = ⟨S,I⟩, d² = ‖S − mI‖², b² = min(b̄², d²), a² = d² − b²) is asymptotically optimal under Frobenius loss among all linear shrinkages, including hindsight-optimal ones, and stays invertible and better-conditioned than the true covariance even when p > n.
 
 ## Why It Matters
 
@@ -54,6 +56,7 @@ MMSE covariance shrinkage improves covariance estimation by blending empirical c
 - [[references/almgren2004-optimal-portfolios-ordering-information]]
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/black1992-global-portfolio-optimization]]
+- [[references/ledoit2004wellconditioned]]
 
 ## Open Questions
 
