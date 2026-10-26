@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T07:40:03Z
-pages: 394
+updated: 2026-10-26T08:39:50Z
+pages: 396
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] INGEST source=_papers/nissim2001ratio/nissim2001ratio-extracted.md pages_created=5 pages_updated=0 ...
 - [2026-10-26] CROSS_LINK pages_scanned=15 links_added=21 typed_relations_written=54 ...
 - [2026-10-26] INGEST source=_papers/novy-marx2013other/novy-marx2013other-extracted.md pages_created=2 pages_updated=0 ...
+- [2026-10-26] INGEST source=_papers/ogryczak2014fair/ogryczak2014fair-extracted.md pages_created=2 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Novy-Marx (JFE 2013): gross profits-to-assets (GP/A) has roughly the same return-predictive power as book-to-market; profitable stocks earn higher returns despite higher valuations. Profitability and value strategies correlate -0.57, so a 50/50 mix earns 0.71%/month at Sharpe 0.85 vs 0.34 for the market. Conditional factors HML|GP (0.54%/mo, t 5.01) and PMU|BM (0.48, t 5.35) dominate standard HML (0.40, t 3.25). The four-factor model MKT + industry-adjusted HML/UMD/PMU prices 14 of 15 anomalies (only total accruals survive), cutting root mean squared pricing error from 0.54 to 0.22 percent per month. Created references/novy-marx2013-other-side-of-value.md and concepts/gross-profitability-premium.md.
+Fair optimization survey: fair dominance + Pigou-Dalton axioms; alpha-fairness family u(y,alpha)=y^(1-alpha)/(1-alpha) with alpha=1 = proportional fairness, alpha->inf = max-min fairness; POF(MMF) <= 1-4m/(m+1)^2 tight, POF(PF) <= 1-2*sqrt(m)/m; bar_theta_k = max_t(k*t - sum max(t-y_i,0)) LP for sum of k smallest; lexicographic maximin O(mn)/O(m^2 n), load-balancing O(|V|^5), ordered median O(pm^8)/O(pm^4), O(m^3 log^2 m) on trees, NP-hard for unsplittable single-path flows; Example 1 c1=c2=1.5 max-throughput (1.5,1.5,0) vs MMF (0.75,0.75,0.75); Example 3 epsilon<1/200 makes remote node the MAD minimizer; sensor location N={2,3,4,5} K=2 -> sensors 1,5 node 4 one sensor
 
 ## Flagged Contradictions
 

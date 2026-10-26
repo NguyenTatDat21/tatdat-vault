@@ -30,7 +30,7 @@ relationships:
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
     type: related_to
 summary: >-
-  Survey of inequality-averse (fair) optimization: axioms of fair dominance, OWA and alpha-fairness aggregations, lexicographic maximin algorithms, and price-of-fairness bounds for networks and location problems.
+  Survey of inequality-averse fair optimization: fair-dominance axioms, OWA and alpha-fairness aggregations, lexicographic maximin algorithms, price-of-fairness bounds for networks and location.
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -73,15 +73,15 @@ with attainable set `A`. Convexity of `Q` plus concavity of `f` does **not** gua
 
 **Equations 6, 7, 10** are extracted as equation crops `page_7_equation_13.jpg`, `page_7_equation_17.jpg`, `page_9_equation_6.jpg` (stripped text, no verbatim caption anchor in the extracted markdown) — the LaTeX is preserved above. ^[ambiguous]
 
-![[../_papers/ogryczak2014fair/images/page_4_image_11.jpg]]
+![[_papers/ogryczak2014fair/images/page_4_image_11.jpg]]
 *Figure 1: The fair dominance structures W(y); the set of outcomes fairly dominated by y and B(y): the set of outcomes fairly dominating y.*
 
 Figure 1 shows the fair dominance structure in a two-dimensional outcome space: `W(y)` (dominated outcomes) is in general not a cone and not convex, `B(y)` (dominating outcomes) is convex; lexicographic maximin assigns the whole interior of the inner white triangle to preferred outcomes. There is no fair dominance between `(1, 100)` and `(2, 2)`: max-min fairness prefers `(2, 2)`, proportional fairness prefers `(1, 100)`. Vector `(2, 99)` fairly dominates `(1, 100)`, and all fairness models (including MMF and PF) prefer `(2, 99)`.
 
-![[../_papers/ogryczak2014fair/images/page_6_image_2.jpg]]
+![[_papers/ogryczak2014fair/images/page_6_image_2.jpg]]
 *Figure 2: The fair dominance structure and the ordered OWA optimization.*
 
-![[../_papers/ogryczak2014fair/images/page_6_image_4.jpg]]
+![[_papers/ogryczak2014fair/images/page_6_image_4.jpg]]
 *Figure 3: Variety of fair OWA aggregations.*
 
 **Cumulative / OWA criteria.** With ordering map `Θ` (`θ_1 ≤ θ_2 ≤ … ≤ θ_m`) and cumulation (15) `barθ_i(y) = Σ_{j≤i} θ_j(y)`, fair dominance is pointwise comparison of the cumulative ordered outcomes (Lorenz dominance / weak majorization). The multicriteria model (16) `max{(barθ_1(f(x)), …, barθ_m(f(x))) : x ∈ Q}` contains the mean (`barθ_m`) and the max-min (`barθ_1`) as endpoints; its lexicographic optimization (17) is lexicographic maximin. Weighted sums of `barθ_i` equal an ordered weighted averaging (OWA) model (18) `max{Σ ω_i θ_i(f(x)) : x ∈ Q}` on ordered coordinates. Strictly decreasing positive weights (`ω_1 > ω_2 > … > ω_m > 0`) make every OWA optimum fairly efficient; as weight differences tend to infinity the model becomes lexicographic maximin, as they tend to zero it approaches mean maximization. Yager's *andness* (19) calibrates this: min aggregation → andness 1, max aggregation → 0, mean → 1/2; an OWA with andness > 1/2 is considered fair, fairer as andness → 1, and a given andness level does not determine unique weights.
@@ -120,30 +120,30 @@ Bounds depend strongly on the structure of the attainable set; there are problem
 
 - **Example 1 — two links in series** (three nodes `ν_1, ν_2, ν_3`, links `e_1, e_2`, demands `d_1 = {ν_1, ν_2}`, `d_2 = {ν_2, ν_3}`, `d_3 = {ν_1, ν_3}`, elastic traffic, equal capacities `c_1 = c_2 = 1.5`, feasible iff `X_1 + X_3 ≤ c_1`, `X_2 + X_3 ≤ c_2`): the maximum-throughput, proportional-fairness, and max-min-fairness solutions differ; max-throughput is `(1.5, 1.5, 0)` and the max-min-fair bandwidth allocation `(0.75, 0.75, 0.75)` is the perfect-equity point.
 
-![[../_papers/ogryczak2014fair/images/page_8_image_2.jpg]]
+![[_papers/ogryczak2014fair/images/page_8_image_2.jpg]]
 *Figure 6: A network example illustrating fairness issues.*
 
 - **Example 2 — same network, ordered OWA weights:** `ω = (0.4, 0.35, 0.25)` yields `X = (1.5, 1.5, 0)` (maximum throughput); `ω = (0.6, 0.3, 0.1)` yields `X = (0.75, 0.75, 0.75)` (the max-min-fairness solution).
 - **Example 3 — single facility on a triangular network:** `d_12 = 2`, `d_13 = d_23 = 100`; normalized weights `w_1 = w_2 = (1 − ε)/2`, `w_3 = ε` with tiny `ε > 0`. Locating at `ν_1` (or `ν_2`) gives `μ(ν_1) = 1 + 99ε` and `MAD(ν_1) = (1 − ε)(1 + 99ε)`; locating at the remote node `ν_3` gives `μ(ν_3) = 100(1 − ε)` and `MAD(ν_3) = 200ε(1 − ε)`. Hence `MAD(ν_3) < MAD(ν_1)` for small `ε`, and for `0 < ε < 1/200` location `ν_3` is the global MAD minimizer on the entire network — a direct illustration of minimization of a relative/inequality index rewarding a service location that is far from most clients.
 
-![[../_papers/ogryczak2014fair/images/page_16_image_2.jpg]]
+![[_papers/ogryczak2014fair/images/page_16_image_2.jpg]]
 *Figure 8: A network location problem for Example 3.*
 
 - **Sensor location problem** (lexicographic maximin extension of equitable facility location): nodes to monitor `N = {2, 3, 4, 5}`, sensor sites `M = {1, 3, 4, 5}`, `K = 2` sensors, protection level of node `j` = number of sensors monitoring it. The unique optimum places sensors at nodes 1 and 5, so nodes 2, 3 and 5 are monitored by both sensors while node 4 is monitored by only one. Formulation (46a)–(46e) uses `X_j = Σ_{i∈I_j} x_i`, `Σ_{i∈M} x_i = K`, `x_i ∈ {0,1}`.
 - **Single-path network throughput** (Figure 4, demands 1–2, 3–4, 3–5, link capacities such as 4 Gbs on link (1,3)): lexicographic maximin of demand throughputs is model (23a)–(23d).
 
-![[../_papers/ogryczak2014fair/images/page_7_image_11.jpg]]
+![[_papers/ogryczak2014fair/images/page_7_image_11.jpg]]
 *Figure 4: A single path for each demand.*
 
-![[../_papers/ogryczak2014fair/images/page_7_image_13.jpg]]
+![[_papers/ogryczak2014fair/images/page_7_image_13.jpg]]
 *Figure 5: Multiple path for demand between nodes 1 and 2.*
 
 - **Content distribution with two servers** (Figure 7, tree topologies rooted at nodes 1 and 2; server 1 broadcasts programs 1–3, server 2 programs 4–6; link (1,3) capacity 100 Gbs; node 7 requests programs 2, 3 and 5): bandwidth allocation over shared trees is a fair optimization problem solved in the same complexity class as lexicographic maximin resource allocation.
 
-![[../_papers/ogryczak2014fair/images/page_13_image_2.jpg]]
+![[_papers/ogryczak2014fair/images/page_13_image_2.jpg]]
 *Figure 7: Content distribution from two servers.*
 
-![[../_papers/ogryczak2014fair/images/page_17_image_8.jpg]]
+![[_papers/ogryczak2014fair/images/page_17_image_8.jpg]]
 *Figure 9: The sensor location problem.*
 
 ### Complexity (Section 5, verbatim bounds)

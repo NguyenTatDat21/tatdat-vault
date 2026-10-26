@@ -7576,6 +7576,14 @@
         "references/novy-marx2013-other-side-of-value.md",
         "concepts/gross-profitability-premium.md"
       ]
+    },
+    "_papers/ogryczak2014fair/ogryczak2014fair-extracted.md": {
+      "content_hash": "0dc92e9bc06c433ea18f49d38652403fcee028d5013292b5f7d864d5cb933f03",
+      "last_ingested": "2026-10-26T08:39:34.115627+00:00",
+      "pages_produced": [
+        "references/ogryczak2014-fair-optimization-networks-survey.md",
+        "concepts/leximax-leximin-fairness-principles.md"
+      ]
     }
   },
   "stats": {
