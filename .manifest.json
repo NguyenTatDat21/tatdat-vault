@@ -7591,6 +7591,13 @@
       "pages_produced": [
         "references/ozili2017-bank-loan-loss-provisions-review.md"
       ]
+    },
+    "_papers/papageorgiou2014mirplib/papageorgiou2014mirplib-extracted.md": {
+      "content_hash": "8d49b2a0251e608419fc676fdc72eefab9d793cf2fd2bcd84fdf47f3c0ab469b",
+      "last_ingested": "2026-10-26T10:22:13.793147+00:00",
+      "pages_produced": [
+        "references/papageorgiou2014-mirplib-mirp-instance-library.md"
+      ]
     }
   },
   "stats": {

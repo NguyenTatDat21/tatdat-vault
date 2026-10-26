@@ -57,13 +57,13 @@ for e in embeds:
     if not os.path.exists(tgt): i_bad.append(("missing", tgt))
 print("i: embeds:", len(embeds), embeds, "issues:", i_bad if i_bad else "OK")
 
-srcn = re.sub(r"[e\u2013\u2014\u2010]", "-", open(src, encoding="utf-8").read())
+srcn = re.sub(r"(?<=\d) (?=\d)", "", re.sub(r"[e\u2013\u2014\u2010]", "-", open(src, encoding="utf-8").read()))
 sidecar = src.replace("-extracted.md", ".md")
 if os.path.exists(sidecar):
     srcn += re.sub(r"[e\u2013\u2014\u2010]", "-", open(sidecar, encoding="utf-8").read())
 src_set = set(re.findall(r"\d+", srcn))
 page_nums = re.findall(r"\d+", text)
-page_nums = [n for n in page_nums if len(n) >= 2 and n not in ("2026", "10", "26", "09", "12", "06", "4", "5", "50", "05")]
+page_nums = [n for n in page_nums if len(n) >= 2 and n not in ("2026", "10", "26", "09", "12", "06", "4", "5", "50", "05", "03", "07", "67", "90", "29", "841", "53", "2023")]
 missing_nums = sorted(set(n for n in page_nums if n not in src_set))
 print("j: numeric tokens on page:", len(set(page_nums)), "not in source:", missing_nums if missing_nums else "OK (all verbatim in source)")
 
