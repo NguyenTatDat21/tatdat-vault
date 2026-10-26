@@ -7598,6 +7598,13 @@
       "pages_produced": [
         "references/papageorgiou2014-mirplib-mirp-instance-library.md"
       ]
+    },
+    "_papers/raj2020multiple/raj2020multiple-extracted.md": {
+      "content_hash": "d1711e9a3eeef397560d8e7cf649b4e9654dd443c298b98977f4fd0122f97614",
+      "last_ingested": "2026-10-26T11:09:48.656466+00:00",
+      "pages_produced": [
+        "references/raj2020multiple-variable-drone-speed-mfstsp.md"
+      ]
     }
   },
   "stats": {

@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T10:28:46Z
-pages: 398
+updated: 2026-10-26T11:10:22Z
+pages: 399
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK pages_scanned=397 links_added=5 typed_relations_written=4 ...
 - [2026-10-26] INGEST source=_papers/papageorgiou2014mirplib/papageorgiou2014mirplib-ext... pages_created=1 pages_updated=0 ...
 - [2026-10-26] CROSS_LINK pages_scanned=164 links_added=10 typed_relations_written=9 ...
+- [2026-10-26] INGEST source=_papers/raj2020multiple/raj2020multiple-extracted.md pages_created=1 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-MIRPLib: first public Maritime Inventory Routing Problem instance library, 50 instances in two groups (Group 1: 14 instances, 45/60-period tactical horizons; Group 2: 24 instances, 120/180/360-period strategic horizons); core MILP model with time-space network vessel-class structure, full arc-cost list, inventory/berth/vessel-capacity constraints, soft inventory relaxation, and side constraints including vessel capacity-to-arrival-rate ratio, berth utilization, vessel balance, minimum port visits, discharging-route length; survey of 29-paper MIRP literature with solution-approach table; advanced bound-improvement techniques; benchmark table gives best known objectives, Gurobi 5.0 bounds, relative gaps from 1.17% (LR1_1_DR1_3_VC1_V13a, -11,141/-11,272) to 28.90% (LR1_1_DR1_4_VC3_V8a), absolute gaps up to 6909 (LR2_22_DR3_333_VC4_V17a), with bounds described as 'currently rather weak and, therefore, open to improvement'; instances in LP/MPS plus raw parametric data, naming scheme LR2_12_DR3_123_VC4_V14c; case studies use US Gulf/Caribbean LNG, Australia-Brunsi-Burnie, Indonesia-Singapore-Thailand; data generated from real-world-inspired settings (US $50,000/day operating cost, ~667 km/day at 15 knots, US $75/km travel cost, fees $10-100, capacity-to-rate ratios 1.3-12, port capacity 10x daily rate, demand up to 500,000, inventory 20,000-250,000, revenue $10-38,482, berth limits 1-16, vessel classes 1-4, 20-64 vessels, spot market supply 50%-100% of mean daily rate).
+mFSTSP-VDS: UAV cruise speed as decision variable in truck+UAV makespan problem; Liu 2017 nonlinear power model gives speed/payload-dependent endurance e_vijk = T_min + (E_avail - E_min)/P_h(0); three-phase heuristic (partition+TSP w/ IIS repair, sortie assignment s=0..3 two rules, activity scheduling + speed retiming + local search); variable speeds save up to 22.2% makespan vs max speed and 5.5% vs max-range speed (savings 0% at 10 m/s), truck distance up to 30.7% (~75M/yr on UPS rule), UAV energy up to 25.6%, loiter up to 64.1%; dense customer regions negate benefits; heuristic beats mFSTSP heuristic on 1600 Murray-Raj instances (avg 1.93% improvement, 8c gap 2.3% vs 5.0%, 61/212 optima vs 51/212, faster on 50/100c). 13 figure crops embedded at verbatim captions.
 
 ## Flagged Contradictions
 
