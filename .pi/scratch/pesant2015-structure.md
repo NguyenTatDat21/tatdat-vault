@@ -103,35 +103,30 @@ The last 10 research stubs (idx 64–73) are confirmed short by length: sizes 16
 Frontmatter (idx 1–5: title pages, LNCS series board, copyright, tutorials/workshops list, conference organization) is carried entirely in Batch 1; no research paper straddles a batch boundary (boundaries fall exactly on `# ` headings).
 
 ## Vault-relevant papers (ranked by tag match against vault topic tags present in index.md)
-
-Vault topics used: LNG supply chain, maritime inventory routing, vehicle routing/VRPTW, drone routing, scheduling (job shop, RCPSP, periodic, drone scheduling), energy/power, cutting-stock/packing, SAT/MaxSAT encodings, MDD/decision diagrams, global constraints & propagation, DCSP, Markov/regular constraints, LNS. Top 25 matches:
-
-- idx 12 (553 lines, full) "Strengthening Convex Relaxations with Bound Tightening for Power Network Optimiz" — tags: VRP/routing/traffic, energy/power, global constraints/propagation
-- idx 22 (340 lines, full) "Upper and Lower Bounds on the Time Complexity of Infinite-Domain CSPs" — tags: SAT/encodings, global constraints/propagation, complexity/local consistency
-- idx 14 (260 lines, full) "A Microstructure-Based Family of Tractable Classes for CSPs" — tags: maritime/inventory routing, SAT/encodings, complexity/local consistency
-- idx 38 (252 lines, full) "Restricted Path Consistency Revisited" — tags: packing/cutting, global constraints/propagation, complexity/local consistency
-- idx 19 (243 lines, full) "Simple and Scalable Time-Table Filtering for the Cumulative Constraint" — tags: scheduling, packing/cutting, global constraints/propagation
-- idx 72 (14 lines, short) "Constraint programming for LNG ship scheduling and inventory management (Abstrac" — tags: LNG, maritime/inventory routing, scheduling
-- idx 53 (613 lines, full) "Joint Vehicle and Crew Routing and Scheduling" — tags: VRP/routing/traffic, scheduling
-- idx 54 (457 lines, full) "Constructing Sailing Match Race Schedules: Round-Robin Pairing Lists" — tags: scheduling, packing/cutting
-- idx 24 (453 lines, full) "Smaller Selection Networks for Cardinality Constraints Encoding" — tags: VRP/routing/traffic, SAT/encodings
-- idx 16 (346 lines, full) "A Global Constraint for a Tractable Class of Temporal Optimization Problems" — tags: global constraints/propagation, complexity/local consistency
-- idx 56 (314 lines, full) "Scheduling Running Modes of Satellite Instruments Using Constraint-Based Local S" — tags: scheduling, SAT/encodings
-- idx 41 (309 lines, full) "A General Framework for Reordering Agents Asynchronously in Distributed CSP" — tags: SAT/encodings, DCSP/markov/regular
-- idx 20 (272 lines, full) "General Bounding Mechanism for Constraint Programs" — tags: packing/cutting, global constraints/propagation
-- idx 13 (254 lines, full) "Broken Triangles Revisited" — tags: packing/cutting, SAT/encodings
-- idx 55 (249 lines, full) "Design and Evaluation of a Constraint-Based Energy Saving and Scheduling Recomme" — tags: scheduling, energy/power
-- idx 36 (216 lines, full) "Two Clause Learning Approaches for Disjunctive Scheduling" — tags: scheduling, SAT/encodings
-- idx 23 (212 lines, full) "Generalized Totalizer Encoding for Pseudo-Boolean Constraints" — tags: SAT/encodings, MDD/decision diagrams
-- idx 32 (204 lines, full) "Exact Sampling for Regular and Markov Constraints with Belief Propagation" — tags: global constraints/propagation, DCSP/markov/regular
-- idx 9 (194 lines, full) "Encoding Linear Constraints with Implication Chains to CNF" — tags: packing/cutting, SAT/encodings
-- idx 34 (172 lines, full) "Quasipolynomial Simulation of DNNF by a Non-determinstic Read-Once Branching Pro" — tags: SAT/encodings, MDD/decision diagrams
-- idx 43 (149 lines, full) "Constraint-Based Local Search for Finding Node-Disjoint Bounded-Paths in Optical" — tags: VRP/routing/traffic, global constraints/propagation
-- idx 58 (18 lines, short) "Using Finite Transducers for Describing and Synthesising Structural Time-Series " — tags: packing/cutting, DCSP/markov/regular
-- idx 69 (18 lines, short) "A Quadratic Extended Edge-Finding Filtering Algorithm for Cumulative Resource Co" — tags: scheduling, global constraints/propagation
-- idx 70 (18 lines, short) "Achieving Domain Consistency and Counting Solutions for Dispersion Constraints" — tags: packing/cutting, global constraints/propagation
-- idx 63 (14 lines, short) "Long-Haul Fleet Mix and Routing Optimisation with Constraint Programming and Lar" — tags: VRP/routing/traffic, SAT/encodings
-
+Relevance was determined by keyword matching (token sets from title + full abstract, first ~200 words) against vault topic tags taken from `index.md` / `tags.md`: LNG, maritime inventory routing, VRP/routing, scheduling, energy/power, packing/cutting, SAT/encodings, MDD/decision diagrams, global constraints/propagation, DCSP/Markov/regular, complexity/local consistency. Ranked by number of topic hits, then length. Not a judgment of research quality.
+- idx 19 (243 lines, full) "Simple and Scalable Time-Table Filtering for the Cumulative Constraint" — scheduling, packing/cutting, global constraints/propagation
+- idx 72 (14 lines, short) "Constraint programming for LNG ship scheduling and inventory management (Abstrac" — LNG, maritime/inventory routing, scheduling
+- idx 53 (613 lines, full) "Joint Vehicle and Crew Routing and Scheduling" — VRP/routing/traffic, scheduling
+- idx 16 (346 lines, full) "A Global Constraint for a Tractable Class of Temporal Optimization Problems" — global constraints/propagation, complexity/local consistency
+- idx 38 (252 lines, full) "Restricted Path Consistency Revisited" — global constraints/propagation, complexity/local consistency
+- idx 55 (249 lines, full) "Design and Evaluation of a Constraint-Based Energy Saving and Scheduling Recomme" — scheduling, energy/power
+- idx 36 (216 lines, full) "Two Clause Learning Approaches for Disjunctive Scheduling" — scheduling, SAT/encodings
+- idx 23 (212 lines, full) "Generalized Totalizer Encoding for Pseudo-Boolean Constraints" — SAT/encodings, MDD/decision diagrams
+- idx 32 (204 lines, full) "Exact Sampling for Regular and Markov Constraints with Belief Propagation" — global constraints/propagation, DCSP/markov/regular
+- idx 34 (172 lines, full) "Quasipolynomial Simulation of DNNF by a Non-determinstic Read-Once Branching Pro" — SAT/encodings, MDD/decision diagrams
+- idx 69 (18 lines, short) "A Quadratic Extended Edge-Finding Filtering Algorithm for Cumulative Resource Co" — scheduling, global constraints/propagation
+- idx 70 (18 lines, short) "Achieving Domain Consistency and Counting Solutions for Dispersion Constraints" — packing/cutting, global constraints/propagation
+- idx 65 (14 lines, short) "MDD Propagation for Sequence Constraints" — MDD/decision diagrams, global constraints/propagation
+- idx 54 (457 lines, full) "Constructing Sailing Match Race Schedules: Round-Robin Pairing Lists" — scheduling
+- idx 24 (453 lines, full) "Smaller Selection Networks for Cardinality Constraints Encoding" — SAT/encodings
+- idx 49 (442 lines, full) "Solving Segment Routing Problems with Hybrid Constraint Programming Techniques" — VRP/routing/traffic
+- idx 27 (441 lines, full) "Modeling and Solving Project Scheduling with Calendars" — scheduling
+- idx 47 (426 lines, full) "Constrained Minimum Sum of Squares Clustering by Constraint Programming" — packing/cutting
+- idx 25 (407 lines, full) "PREFIX-PROJECTION Global Constraint for Sequential Pattern Mining" — global constraints/propagation
+- idx 28 (399 lines, full) "Deterministic Estimation of the Expected Makespan of a POS Under Duration Uncert" — scheduling
+- idx 15 (384 lines, full) "The Unary Resource with Transition Times" — scheduling
+- idx 44 (363 lines, full) "Open Packing for Facade-Layout Synthesis Under a General Purpose Solver" — packing/cutting
+- idx 26 (356 lines, full) "On Tree-Preserving Constraints" — complexity/local consistency
 ## Notes
 
 - The extracted md contains 822 lines longer than 700 chars (25 lines > 2,000 chars, max 10,439), which is why the `read` tool pages/truncates this file; distill reading must use line windows around headings (grep+read with offset/limit), never full-file read.
@@ -146,3 +141,9 @@ Vault topics used: LNG supply chain, maritime inventory routing, vehicle routing
 - Image embeds claimed zero by dispatch (spot-checked `![[` absence), not exhaustively verified
 - Tag relevance is keyword-based on title + first-20-words samples; a paper with off-topic first words may be under-ranked
 - The read-tool paging quirk (530-line first page) was observed; page-size behavior itself not investigated
+- Zero image embeds: `grep -c -F '![['` = 0, `grep -c -F '!/['` = 0, `grep -c -E '\[\['` = 0 → no figure captions to verify; all evidence is text.
+- Index 73's range includes the printed author index (alphabetical author listings with page numbers) occupying the last ~50 lines of the file; distill must exclude it from knowledge content.
+- Index 57 is an Erratum to paper 42 (classified full by the ≥60-line rule); distill should treat it as a companion note, not a paper.
+- Keyword relevance is mechanical; titles cut at 80 chars in the table; abstract first-20-words are truncations for indexing, not full abstracts.
+- No per-paper bibliographic fields (DOI, pages, series) are printed in the extracted md; the sidecar describes the book only.
+- Read-tool paging: long lines (822 lines >700 chars; 25 lines >2,000 chars, max 10,439) force small read windows; plan distill reads as 150–400 line windows, not 6,000-line passes.

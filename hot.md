@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T11:18:07Z
-pages: 399
+updated: 2026-10-26T11:45:37Z
+pages: 400
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK pages_scanned=164 links_added=10 typed_relations_written=9 ...
 - [2026-10-26] INGEST source=_papers/raj2020multiple/raj2020multiple-extracted.md pages_created=1 pages_updated=0 ...
 - [2026-10-26] CROSS_LINK pages_scanned=16 links_added=19 typed_relations_written=15 ...
+- [2026-10-26] INGEST source=_papers/rakke2011rolling/rakke2011rolling-extracted.md pages_created=1 pages_updated=0 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-mFSTSP-VDS: UAV cruise speed as decision variable in truck+UAV makespan problem; Liu 2017 nonlinear power model gives speed/payload-dependent endurance e_vijk = T_min + (E_avail - E_min)/P_h(0); three-phase heuristic (partition+TSP w/ IIS repair, sortie assignment s=0..3 two rules, activity scheduling + speed retiming + local search); variable speeds save up to 22.2% makespan vs max speed and 5.5% vs max-range speed (savings 0% at 10 m/s), truck distance up to 30.7% (~75M/yr on UPS rule), UAV energy up to 25.6%, loiter up to 64.1%; dense customer regions negate benefits; heuristic beats mFSTSP heuristic on 1600 Murray-Raj instances (avg 1.93% improvement, 8c gap 2.3% vs 5.0%, 61/212 optima vs 51/212, faster on 50/100c). 13 figure crops embedded at verbatim captions.
+Rolling horizon heuristic for the LNG annual delivery program: MIP over a priori scheduled voyages (Eq 5.1-5.8) with berth/inventory/contract constraints; RHH with 1-month central + 2-month forecasting windows, continuous forecasting variables, SSR and improvement heuristic (2.44-10.20% gain); ESM 24h never closes (A1 gap 396.64%); RHH avg gap 10.33% vs CIH 12.48% vs ESM 31.55%, best setting [100,100]+SSR; RHH beats ESM in 10/16 instances within time.
 
 ## Flagged Contradictions
 

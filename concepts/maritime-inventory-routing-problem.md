@@ -23,6 +23,8 @@ relationships:
     type: related_to
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: uses
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -45,12 +47,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Maritime Inventory Routing Problem
 
 The **Maritime Inventory Routing Problem (MIRP / ISRP)** integrates vessel routing/scheduling with inventory feasibility at production and consumption ports. Unlike classical VRP, route quality is inseparable from stock trajectories over time.
+
+Rakke et al.'s LNG ADP model ([[references/rakke2011rolling-rolling-horizon-lng-adp]]) is a maritime inventory routing instance solved by a rolling horizon heuristic.
 
 The first public instance library for this problem is MIRPLib [[references/papageorgiou2014-mirplib-mirp-instance-library]], which standardizes discrete-time benchmarks.
 ## Core Structure

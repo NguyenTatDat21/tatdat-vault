@@ -7605,6 +7605,13 @@
       "pages_produced": [
         "references/raj2020multiple-variable-drone-speed-mfstsp.md"
       ]
+    },
+    "_papers/rakke2011rolling/rakke2011rolling-extracted.md": {
+      "content_hash": "ae905b7371085aa68d57e63bff9dedff3543b7351b94f205a4de585874060f4e",
+      "last_ingested": "2026-10-26T11:42:02.201824+00:00",
+      "pages_produced": [
+        "references/rakke2011rolling-rolling-horizon-lng-adp.md"
+      ]
     }
   },
   "stats": {

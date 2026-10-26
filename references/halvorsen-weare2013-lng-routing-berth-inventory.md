@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: uses
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
@@ -35,13 +37,15 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints
 
 > [!tldr] Halvorsen-Weare & Fagerholt split an annual LNG delivery program into per-subproblem routing models and a feasibility scheduling MILP, coupled only by berth and inventory constraints, and show heuristic routing scales the approach to 360-day horizons the monolithic model cannot reach.
 
+
+Rakke et al. (2011) [[references/rakke2011rolling-rolling-horizon-lng-adp]] solve the same ADP planning problem with a rolling horizon heuristic.
 ## Problem & Contribution
 
 - The world's largest LNG producer plans its annual delivery program (ADP) with a fixed heterogeneous fleet, contract volume bounds, daily berth capacity at loading terminals, and inventory limits at production and regasification ports.

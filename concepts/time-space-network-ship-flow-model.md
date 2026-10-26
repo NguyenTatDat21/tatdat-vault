@@ -36,6 +36,8 @@ relationships:
     type: related_to
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
     type: uses
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: related_to
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -59,12 +61,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Time-Space Network Ship-Flow Model
 
 > [!tldr] The time-space network models ship scheduling as **integer multi-commodity net flow with each ship as a commodity** (Savelsbergh & Song, 2008): node $(j,t)$ marks that ship $v$ is at terminal $j$ at the start of day $t$, arcs carry one ship's path, and flow conservation, path-cover constraints and berth capacity turn the schedule into linear structure. It is the MIP backbone of the LNG inventory-routing literature.
+
+Rakke et al. (2011) [[references/rakke2011rolling-rolling-horizon-lng-adp]] use the closely related a-priori-scheduled-voyage formulation: one binary per contract-ship-start-day instead of explicit ship-flow arcs.
 
 ![[_papers/goel2012large/images/page_6_image_2.jpg]]
 *Fig. 1 Example of time-space network structure (Goel et al. 2012)*

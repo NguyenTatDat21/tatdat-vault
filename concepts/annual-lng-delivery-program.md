@@ -26,6 +26,8 @@ relationships:
     type: related_to
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: implements
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -50,12 +52,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-25T10:50:35Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Annual LNG Delivery Program (ADP)
 
 Annual Delivery Program (ADP) is a tactical planning problem for LNG suppliers that couples maritime routing with production, storage, and contract satisfaction decisions.
+
+The rolling horizon heuristic of [[references/rakke2011rolling-rolling-horizon-lng-adp|Rakke et al. (2011)]] builds an ADP by solving one-month central windows with two-month forecasting windows.
 
 ## Key Ideas
 

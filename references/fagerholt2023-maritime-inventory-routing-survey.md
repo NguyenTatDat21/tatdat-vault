@@ -20,6 +20,8 @@ relationships:
     type: related_to
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: related_to
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
 sources:
@@ -35,10 +37,12 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T03:07:55Z
+updated: 2026-10-26T10:43:50Z
 ---
 
 # Maritime Inventory Routing: Recent Trends and Future Directions (Fagerholt et al., 2023)
+
+Rakke et al.'s rolling horizon heuristic for the LNG ADP [[references/rakke2011rolling-rolling-horizon-lng-adp]] is one of the rolling-horizon applications this survey traces.
 
 > [!tldr] A survey of 53 peer-reviewed MIRP papers published 2013–2023 that (1) contrasts maritime IRP with land IRP, (2) compares discrete-time and continuous-time MILP modeling, (3) tabulates variants and solution methods, and (4) names concrete future directions — new fuels, integrated supply chains, machine-learning-enhanced optimization, carbon regulation, and standardized instances.
 
