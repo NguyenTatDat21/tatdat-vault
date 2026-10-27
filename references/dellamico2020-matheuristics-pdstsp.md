@@ -19,9 +19,9 @@ summary: >-
   PDSTSP, proving optimality on all 20-customer instances and improving many
   large-instance best-known solutions.
 provenance:
-  extracted: 0.9
-  inferred: 0.08
-  ambiguous: 0.02
+  extracted: 0.84
+  inferred: 0.11
+  ambiguous: 0.05
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -45,7 +45,7 @@ with objective on overall completion time (makespan) and feasibility constraints
 ## Method / Architecture
 
 The paper contributes:
-1. a simplified MILP (`PDS`) with dynamic subtour-cut separation in branch-and-cut,
+1. a simplified MILP (`PDS`) with dynamic subtour-cut separation in branch-and-cut, ^[inferred]
 2. sequence-restricted matheuristics that solve TSP first and let MILP optimize drone assignment,
 3. RRLS random-restart local-search framework with time-limited MILP subsolves for scalability.
 
@@ -62,7 +62,7 @@ Design pattern:
 
 ## Limitations
 
-- Performance depends on solving repeated restricted MILPs; parameter tuning (time caps, neighborhood windows) is important.
+- Performance depends on solving repeated restricted MILPs; parameter tuning (time caps, neighborhood windows) is important. ^[inferred]
 - Reported quality/runtime trade-offs vary by instance family and hardware normalization assumptions. ^[ambiguous]
 
 ## Related

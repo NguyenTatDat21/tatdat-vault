@@ -25,9 +25,9 @@ sources:
 summary: >-
   Coupling k depot drones into one c-drone pools payload and range; eligibility splits requests at 0.81/6.91/10.82 kg, gains average 23.47% and need 12+ drones.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.83
+  inferred: 0.13
+  ambiguous: 0.04
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -58,7 +58,7 @@ From the CART classification of 186 184 sampled requests (1000 instances):
 | $6.91 < w < 10.82$ kg | more than half must go by truck |
 | $w > 10.82$ kg | truck-served regardless of distance |
 
-Single-drone range on 12 Ah covers deliveries below 0.81 kg within **12.59 km** and slightly beyond. Feasibility is decided by the battery constraints — maximum discharge current $I_i\le I_{max}$ per flight phase, and the Peukert-corrected demand $C_d\ge\beta C_{nom}$ (see [[concepts/peukert-law-battery-discharge]]); if either fails, that k-unit configuration cannot carry the parcel.
+Single-drone range on 12 Ah covers deliveries below 0.81 kg within **12.59 km** and slightly beyond. Feasibility is decided by the battery constraints — maximum discharge current $I_i\le I_{max}$ per flight phase, and the Peukert-corrected demand $C_d\ge\beta C_{nom}$ (see [[concepts/peukert-law-battery-discharge]]); if either fails, that k-unit configuration cannot carry the parcel. ^[inferred]
 
 ## Measured benefit
 
@@ -76,9 +76,9 @@ Cruise speeds restricted to $[4.00, 28.00]$ m/s; truck 30 km/h average, Manhatta
 
 1. Coupling is a **capacity-expansion** lever, not a routing trick: it widens the set of vehicle-assignment options, and the resulting fleet-assignment flexibility is where the benefit comes from.
 2. The benefit is **conditional on fleet size**: with fewer than ~12 drones the synchronization cost eats most of the gain, and the paper reports a floor of 10.33% at Node 2 with 5 units.
-3. Battery specification is a **weight-vs-capacity tradeoff**, and the weight penalty is amplified by coupling, since $k$ units each carry their own battery under a shared 25 kg cap.
+3. Battery specification is a **weight-vs-capacity tradeoff**, and the weight penalty is amplified by coupling, since $k$ units each carry their own battery under a shared 25 kg cap. ^[inferred]
 4. Depot siting is a **range** parameter: beyond ~16 km coverage the gain decays.
-5. Measured against the single-drone system, not against truck-only delivery, and with no operating, energy, noise, or air-traffic cost, so a real deployment comparison needs those costs added.
+5. Measured against the single-drone system, not against truck-only delivery, and with no operating, energy, noise, or air-traffic cost, so a real deployment comparison needs those costs added. ^[inferred]
 
 ## Related
 

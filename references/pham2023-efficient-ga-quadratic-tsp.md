@@ -24,9 +24,9 @@ sources:
 summary: >-
   A biased-fitness GA with a restricted double-bridge local search finds new best-known solutions on 437 of 450 quadratic TSP instances, closing the gap to the leading matheuristic at every tested size.
 provenance:
-  extracted: 0.88
-  inferred: 0.09
-  ambiguous: 0.03
+  extracted: 0.89
+  inferred: 0.11
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
@@ -78,7 +78,7 @@ The Hybrid Genetic Algorithm (HGA) is inspired by the Hybrid Genetic Search for 
 
 ## Results
 
-Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = mean % over optimum, #Best = count of runs hitting the optimum:
+Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = mean % over optimum, #Best = count of runs hitting the optimum: ^[inferred]
 
 | Family | |V| | HGA Gap / Avg / Time / #Best | MH Gap / Avg / Time / #Best |
 |---|---|---|---|
@@ -97,14 +97,14 @@ Head-to-head against the Stanek matheuristic (MH), mean over instances, Gap = me
 
 ## Limitations
 
-- Running-time comparison with MH is declared unfair by the authors: HGA ran single-CPU on a Ryzen 7 3700X, MH multi-thread on an i7-4790 about 16% slower.
+- Running-time comparison with MH is declared unfair by the authors: HGA ran single-CPU on a Ryzen 7 3700X, MH multi-thread on an i7-4790 about 16% slower. ^[inferred]
 - Heuristic: no optimality guarantee, and stability degrades with size (1.91% mean gap at n=400).
 - Future work stated: exact algorithms for larger instances.
 
 ## Related
 
 - [[concepts/large-neighborhood-search]] — the ruin-and-recreate mutation is LNS-style destruction, adapted to a genetic setting where mutation is for diversification, not improvement.
-- [[references/pisinger2019-large-neighborhood-search]] — the LNS/ALNS chapter that defines destroy-repair design principles HGA borrows; the paper also cites Ropke & Pisinger 2006 for worst removal.
+- [[references/pisinger2019-large-neighborhood-search]] — the LNS/ALNS chapter that defines destroy-repair design principles HGA borrows; the paper also cites Ropke & Pisinger 2006 for worst removal. ^[inferred]
 - [[concepts/metaheuristic-hybridization]] — HGA is a population metaheuristic hybridized with local search and ruin-and-recreate operators.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — shares matheuristics + metaheuristics tags with this page
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the ALNS paper that defines worst removal cited for the mutation step.

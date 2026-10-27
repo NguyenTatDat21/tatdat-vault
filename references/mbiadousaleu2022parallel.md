@@ -53,9 +53,9 @@ sources:
 summary: >-
   PDSMTSP: K trucks, M drones in parallel, completion-time objective. Branch-and-cut fails in 3 h; ILS with dynamic-programming split of a giant tour beats B&C on 13 CVRPLIB instances, n = 50-199.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.89
+  inferred: 0.09
+  ambiguous: 0.02
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
@@ -84,10 +84,10 @@ Drone parcel delivery became a real industrial program in 2013–2017: Amazon Pr
 ![[_papers/mbiadousaleu2022parallel/images/page_2_image_6.jpg]]
 *Fig. 4. UPS HorseFly*
 
-Three delivery paradigms exist: truck-only, truck-drone in tandem, and truck-drone in parallel. Murray & Chu (2015) introduced both the FSTSP (drone takes off and lands on the truck, tandem) and the PDSTSP (drone flies from the depot, parallel). The parallel variant was then studied for a single vehicle: [[references/lourenco2019iterated]] describes the ILS framework the present heuristic builds on; Saleu et al. (2018, Networks 72, 459–474) gave the iterative two-step heuristic; [[references/dellamico2020-matheuristics-pdstsp]] a matheuristic; Ulmer & Thomas adaptive dynamic programming; Ham (2018) drop & pickup with constraint programming. Table 1 of the paper shows the gap this work fills: **the extension of PDSTSP to several trucks had never been studied**.
+Three delivery paradigms exist: truck-only, truck-drone in tandem, and truck-drone in parallel. Murray & Chu (2015) introduced both the FSTSP (drone takes off and lands on the truck, tandem) and the PDSTSP (drone flies from the depot, parallel). The parallel variant was then studied for a single vehicle: [[references/lourenco2019iterated]] describes the ILS framework the present heuristic builds on; Saleu et al. (2018, Networks 72, 459–474) gave the iterative two-step heuristic; [[references/dellamico2020-matheuristics-pdstsp]] a matheuristic; Ulmer & Thomas adaptive dynamic programming; Ham (2018) drop & pickup with constraint programming. Table 1 of the paper shows the gap this work fills: **the extension of PDSTSP to several trucks had never been studied**. ^[inferred]
 
 ![[_papers/mbiadousaleu2022parallel/images/page_2_image_8.jpg]]
-*Fig. 5. Illustration of FSTSP and PDSTSP vs truck-only delivery*
+*Fig. 5. Illustration of FSTSP and PDSTSP vs truck-only delivery* ^[inferred]
 
 **PDSMTSP.** A complete directed graph `G = (N ∪ {0}, A)` of n customers plus depot 0; K vehicles and M drones; a subset `N_d ⊆ N` of drone-eligible customers (payload and battery restrictions). A vehicle tour costs `Σ t_ij` over its arcs; a drone flies a single round trip from the depot serving one customer, with time `t̂_i` covering take-off, flight, service and landing. All vehicles and drones leave the depot at time 0 and must be back; the objective minimizes the completion time `T` (max of all resources' durations). The authors call this objective "somehow academic": practical costs are vehicle usage, energy, number of drones.
 
@@ -98,9 +98,9 @@ Three delivery paradigms exist: truck-only, truck-drone in tandem, and truck-dro
 
 **MILP.** Variables `x_ijk` (arc (i,j) in vehicle k's tour), `w_ij` (arc used by any vehicle), `z_i` (customer served by a vehicle), `y_im` (customer i assigned to drone m), `T ≥ 0`. Constraints (2)–(15): makespan per vehicle and per drone, `z_i = 1` for non-drone-eligible customers, `Σ_m y_im = 1 − z_i`, arc aggregation, in-degree = `z_i`, at most one departure from the depot per vehicle, flow conservation, and subtour elimination `Σ_{j∈S, l∉S} w_jl ≥ z_i` for every nonempty `S ⊆ N`, `i ∈ S` (exponential).
 
-**Branch-and-cut.** IBM CPLEX 12.6 with Lazy Constraint Callbacks (on integer incumbents: circuit detection in the `w_ij > 0` graph, and circuits not connected to the depot) and User Cut Callbacks (on fractional solutions: auxiliary graph with arc capacities `w_ij`, Ford–Fulkerson max flow from depot to i; flow < `z_i` proves i unreachable and yields a SEC). The LP relaxation is weak, so the approach is restricted to small instances.
+**Branch-and-cut.** IBM CPLEX 12.6 with Lazy Constraint Callbacks (on integer incumbents: circuit detection in the `w_ij > 0` graph, and circuits not connected to the depot) and User Cut Callbacks (on fractional solutions: auxiliary graph with arc capacities `w_ij`, Ford–Fulkerson max flow from depot to i; flow < `z_i` proves i unreachable and yields a SEC). The LP relaxation is weak, so the approach is restricted to small instances. ^[inferred]
 
-**Hybrid metaheuristic HM (Algorithm 1), read as an Iterated Local Search** [[concepts/iterated-local-search]] [[references/lourenco2019iterated]]: start from a nearest-neighbor giant TSP tour τ visiting all customers in vehicle 1; repeat: `split(τ)` → `reoptimizeTSP` each vehicle subsequence with Lin–Kernighan (Helsgaun implementation) → `optimizePMS` long-processing-time assignment of drone customers → `improveSol` local search → accept only improvements. The giant tour is then rebuilt by concatenating the first X vehicle tours of the best solution in random order, inserting the drone customers randomly, then 2-opt. Ties in completion time are broken by the smaller sum of vehicle and drone durations. Three novelties over the single-vehicle heuristic of Saleu et al. (2018): ad hoc local-search moves, a modified split with new labels and bounds for several vehicles, and the ILS framework with a learning component. Decoding time is the bottleneck of the method.
+**Hybrid metaheuristic HM (Algorithm 1), read as an Iterated Local Search** [[concepts/iterated-local-search]] [[references/lourenco2019iterated]]: start from a nearest-neighbor giant TSP tour τ visiting all customers in vehicle 1; repeat: `split(τ)` → `reoptimizeTSP` each vehicle subsequence with Lin–Kernighan (Helsgaun implementation) → `optimizePMS` long-processing-time assignment of drone customers → `improveSol` local search → accept only improvements. The giant tour is then rebuilt by concatenating the first X vehicle tours of the best solution in random order, inserting the drone customers randomly, then 2-opt. Ties in completion time are broken by the smaller sum of vehicle and drone durations. Three novelties over the single-vehicle heuristic of Saleu et al. (2018): ad hoc local-search moves, a modified split with new labels and bounds for several vehicles, and the ILS framework with a learning component. Decoding time is the bottleneck of the method. ^[inferred]
 
 **Local search moves** (restricted to the resource with maximal completion time; the moved customer goes to the target resource with minimal completion time; first improvement): transfer vehicle→drone and drone→vehicle (neighborhood `O(n × M)`), exchange drone-veh (`O(n × |N_d|)`), relocate vehicle→vehicle, exchange veh-veh, cross (exchange of two sequences crossing two edges); every neighbor is evaluated in `O(1)`.
 
@@ -195,7 +195,7 @@ B&C lower bounds are weak: CMT1 LB 145.86 vs heuristic 166; P-n101-k4 LB 321.74 
 
 ## Limitations
 
-First PDSMTSP paper, so no literature comparison was possible; the authors' own branch-and-cut gave no competitive basis. The decoding combinatorial explosion stalls X-n139-k10 (unrestricted HM spends one iteration, 77,374,287 labels, 3056 s in `split(τ)`). Absolute completion times on synthetic CVRPLIB instances are hard to interpret for logistics value. The model is weakly constrained (mostly partition/permutation constraints), which makes constraint programming propagation difficult. Future work: an exact framework (branch-and-price, see [[concepts/branch-and-price-column-generation]]), controlling `split(τ)` combinatorics, CP formulations, time windows, real-time traffic, drone recharging, fleet sizing. Funding: ANR "Investissements d'Avenir", IMobS3 LabEx ANR-10-LABX-0016, IDEX-ISITE CAP 20-25 ANR-16-IDEX-0001, ERDF AURA region, Auvergne-Rhône-Alpes region.
+First PDSMTSP paper, so no literature comparison was possible; the authors' own branch-and-cut gave no competitive basis. The decoding combinatorial explosion stalls X-n139-k10 (unrestricted HM spends one iteration, 77,374,287 labels, 3056 s in `split(τ)`). Absolute completion times on synthetic CVRPLIB instances are hard to interpret for logistics value. The model is weakly constrained (mostly partition/permutation constraints), which makes constraint programming propagation difficult. Future work: an exact framework (branch-and-price, see [[concepts/branch-and-price-column-generation]]), controlling `split(τ)` combinatorics, CP formulations, time windows, real-time traffic, drone recharging, fleet sizing. Funding: ANR "Investissements d'Avenir", IMobS3 LabEx ANR-10-LABX-0016, IDEX-ISITE CAP 20-25 ANR-16-IDEX-0001, ERDF AURA region, Auvergne-Rhône-Alpes region. ^[inferred]
 
 ## Related
 
@@ -209,7 +209,7 @@ First PDSMTSP paper, so no literature comparison was possible; the authors' own 
 - [[references/nguyen2022-min-cost-pdsvrp]] — min-cost PDSVRP line of work
 - [[references/murray2020-multiple-flying-sidekicks-tsp]] — multi-drone tandem FSTSP, the parallel's counterpart
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]] — min-cost parallel scheduling variant of the same family
-- [[concepts/branch-and-price-column-generation]] — the exact approach suggested as a perspective
+- [[concepts/branch-and-price-column-generation]] — the exact approach suggested as a perspective ^[inferred]
 
 ## Sources
 

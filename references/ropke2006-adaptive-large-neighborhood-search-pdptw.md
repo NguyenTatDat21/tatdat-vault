@@ -50,9 +50,9 @@ summary: >-
   ALNS competes among several removal and insertion subheuristics, choosing each by roulette wheel on
   adaptive segment scores, and beats prior PDPTW heuristics on over half of 354 Li-and-Lim instances.
 provenance:
-  extracted: 0.85
-  inferred: 0.15
-  ambiguous: 0.00
+  extracted: 0.92
+  inferred: 0.05
+  ambiguous: 0.03
 base_confidence: 0.67
 tier: supporting
 lifecycle: draft
@@ -95,7 +95,7 @@ at the end terminal minus its start time) + γ·(number of requests in the reque
 normally a high value is assigned to γ to serve as many requests as possible. Constraints (2)–(16): (2) each
 pickup is visited or its request goes to the bank; (3) the delivery is visited by the same vehicle when the
 pickup is; (4) and (5) every vehicle leaves its start terminal and enters its end terminal; (6) flow
-conservation at each node; (7) the sequencing and time-window constraints, which also make subtours
+conservation at each node; (7) the sequencing and time-window constraints, which also make subtours ^[inferred]
 impossible; (9) pickup before delivery; (10), (11), (12) the load variable is set correctly and capacity is
 respected, with L_{τ_k,k} = L_{τ'_k,k} = 0; (13)–(16) the binary and nonnegativity conditions. The model is
 not written on integer-linear form because the problem is solved heuristically; the problem is NP-hard since
@@ -122,7 +122,7 @@ used near-optimal reinsertion by truncated branch-and-bound; here simple inserti
 the quality of the overall heuristic is very good precisely because the bad moves they generate diversify the
 search. q ∈ {0, …, n}: q = 0 means no search at all, q = n resolves the problem from scratch each iteration;
 larger q makes it easier to move around the solution space, slows each insertion, and can give bad results
-when a heuristic is used for insertion. LNS also fits the very-large-scale neighborhood definition of Ahuja et
+when a heuristic is used for insertion. LNS also fits the very-large-scale neighborhood definition of Ahuja et ^[inferred]
 al. (2002) — neighborhoods that grow exponentially with problem size, or that are too large to search
 explicitly — with the important difference that most such heuristics examine a huge number of solutions
 implicitly, while this heuristic examines a relatively low number. The process can equivalently be seen as
@@ -134,8 +134,8 @@ fixation, which makes the method applicable where remove-insert is not intuitive
 Three removal heuristics take a solution and an integer q and output a solution with q requests removed; Shaw
 and worst removal also have a determinism parameter p that controls randomization (a low p corresponds to much
 randomness). Shaw removal removes related requests, since similar requests can be shuffled into better
-solutions, whereas removing very different requests may only allow reinsertion at the original or at bad
-positions. Relatedness is measured by R(i, j) = φ(d_{A(i),A(j)} + d_{B(i),B(j)}) + χ(|T_{A(i)} − T_{A(j)}| +
+solutions, whereas removing very different requests may only allow reinsertion at the original or at bad ^[inferred]
+positions. Relatedness is measured by R(i, j) = φ(d_{A(i),A(j)} + d_{B(i),B(j)}) + χ(|T_{A(i)} − T_{A(j)}| + ^[inferred]
 |T_{B(i)} − T_{B(j)}|) + ψ|l_i − l_j| + ω(1 − |K_i ∩ K_j| / min{|K_i|, |K_j|}) (eq. 17), where A(i) and B(i)
 are the pickup and delivery locations of request i and T_i is the visit time of location i; the four terms
 measure distance, temporal connectedness, capacity demand difference, and how many vehicles can serve both
@@ -144,7 +144,7 @@ requests (a high relatedness when few vehicles are shared). d_ij, T_x and l_i ar
 picks a random request first, then repeatedly picks a request r from the removed set D, sorts the remaining
 requests by R(r, ·), draws y in [0, 1), and adds L[y^p |L|] to D; the sort in Line 7 can be replaced by a
 linear time selection algorithm (Cormen et al. 2001). Random removal selects q requests uniformly and is a
-special case of Shaw removal with p = 1, implemented separately because it runs faster. Worst removal uses the
+special case of Shaw removal with p = 1, implemented separately because it runs faster. Worst removal uses the ^[inferred]
 cost of a request, cost(i, s) = f(s) − f_{−i}(s), where f_{−i}(s) is the cost of the solution with request i
 removed completely (not moved to the bank), and repeatedly takes the request at position y^p |L| of the list
 sorted by descending cost, randomized so the same requests are not removed over and over. Shaw removal is
@@ -185,7 +185,7 @@ last remove-insert produced a new global best solution, σ_2 when it produced a 
 that is better than the current solution, and σ_3 when it produced a never-accepted solution that is worse
 than the current solution but was accepted. Only unvisited solutions are rewarded, tracked by giving each
 solution a hash key stored in a hash table, to encourage exploration. Both heuristics in an iteration receive
-the same score increment, because it cannot be attributed to removal versus insertion. At the end of segment j
+the same score increment, because it cannot be attributed to removal versus insertion. At the end of segment j ^[inferred]
 the weight for segment j+1 is w_{i,j+1} = w_{ij}(1 − r) + r·π_i/θ_i, where π_i is the score obtained in the
 last segment, θ_i the number of attempts to use heuristic i, and r the reaction factor; r = 0 keeps the initial
 weights, r = 1 lets the last segment decide the weight. In the first segment all heuristics are weighted
@@ -223,7 +223,7 @@ built by a sequential insertion method constructing one route at a time; the num
 initial estimate. Then one route is removed, its requests go to the request bank, and the LNS heuristic solves
 the resulting problem with a high γ so requests are moved out of the bank if possible; if all requests are
 served, a new candidate minimum vehicle count has been found, the heuristic is stopped immediately, one more
-route is removed, and the process repeats. If no all-served solution is found, the algorithm steps back to the
+route is removed, and the process repeats. If no all-served solution is found, the algorithm steps back to the ^[inferred]
 last solution serving all requests, which becomes the starting point of the second stage, normal LNS. The
 vehicle minimization stage works only for homogeneous fleets with an unlimited number of vehicles. To bound
 running time, the stage is capped at a total iteration budget, and the LNS heuristic is stopped when five or
@@ -256,7 +256,7 @@ variants of the vehicle routing problem, only a few parameters were retuned, so 
 needed only once.
 
 Construction heuristics regret-1, regret-2, regret-3, regret-4 and regret-m were tested once per tuning
-instance (Table 2): average gap 407, 303, 263, 260, 277 percent with the decimal separator lost in the OCR,
+instance (Table 2): average gap 407, 303, 263, 260, 277 percent with the decimal separator lost in the OCR, ^[inferred]
 fails 3, 3, 3, 2, 0, and times 0.02, 0.02, 0.02, 0.02, 0.03 s on a 1.5 GHz Pentium IV. Basic greedy is the
 worst, the regret heuristics are comparable, and regret-m stands out because it served all requests in all
 problems (0 fails). The heuristics are fast but very imprecise, and it is surprising that such imprecise
@@ -274,7 +274,7 @@ minimizing vehicles needs more diversification than minimizing distance.
 
 Simple LNS configurations using one removal and one insertion heuristic were compared with the full ALNS
 (Table 4, configurations 1–14, noise added in 50% of insertions; configuration 15 is ALNS with noise controlled
-adaptively). The gaps reported are the digit runs of the extracted table, with the decimal separator lost: 27,
+adaptively). The gaps reported are the digit runs of the extracted table, with the decimal separator lost: 27, ^[inferred]
 26, 54, 32, 20, 16, 22, 16, 18, 13, 20, 13, 18, 17, 13.^[ambiguous] Shaw removal performs best, worst removal
 second, random removal worst; all insertion heuristics perform quite well and are hard to distinguish, with
 regret-3 and regret-4 coupled with noise slightly better, and noise helping in all experiments. The basic
@@ -293,7 +293,7 @@ vehicles can serve all requests. The Nanry and Barnes instances are not reported
 due to their size. Distance-driven is the objective in §4.4.2 (distance minimization makes comparison easier and
 is the heuristic's original objective), with the number of vehicles set to the minimum values reported by Li and
 Lim, and the heuristics applied 10 times to instances with 400 or fewer locations and 5 times to larger ones.
-Verbatim table rows (locations, problems, best-known-solution counts, average gap, average time in seconds,
+Verbatim table rows (locations, problems, best-known-solution counts, average gap, average time in seconds, ^[inferred]
 fails, in ALNS then LNS order): 100, 56, 52, 50, 0.19, 0.50, 49, 55, 0, 0; 200, 60, 49, 15, 0.72, 1.41, 305,
 314, 0, 0; 400, 60, 52, 6, 2.36, 4.29, 585, 752, 0, 0; 600, 60, 54, 5, 0.93, 3.20, 1069, 1470, 0,
 0;^[ambiguous] 800, 60, 46, 5, 1.73, 3.27, 2025, 3051, 0, 2;^[ambiguous] 1,000, 58, 47, 4, 2.26, 4.22, 2916,
@@ -368,10 +368,10 @@ robust and fast construction heuristics designed in earlier decades. Acknowledge
 for discussions, Emilie Danna for criticism, and three anonymous referees.
 
 ## Related
-- [[concepts/large-neighborhood-search]] — this paper is the PDPTW instantiation that Shaw's LNS made into a family: many ruin heuristics, simple greedy repair, simulated annealing acceptance, adaptive weights.
+- [[concepts/large-neighborhood-search]] — this paper is the PDPTW instantiation that Shaw's LNS made into a family: many ruin heuristics, simple greedy repair, simulated annealing acceptance, adaptive weights. ^[inferred]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]] — the ALNS framework in MIP form, with a fixed-solution destroy operator, is the same adaptive-weights machinery applied to MIP.
 - [[concepts/simulated-annealing-metropolis-cooling]] — the accept criterion, the multiplicative cooling rate c, and the w-controlled start temperature are the Metropolis loop used here.
-- [[concepts/variable-neighborhood-search]] — the paper contrasts ALNS with VNS: several unrelated neighborhoods versus one parameterized family searched at variable depth.
+- [[concepts/variable-neighborhood-search]] — the paper contrasts ALNS with VNS: several unrelated neighborhoods versus one parameterized family searched at variable depth. ^[inferred]
 - [[references/pisinger2019-large-neighborhood-search]] — the handbook chapter by Pisinger on the LNS family that this paper founded.
 - [[references/hendel2022-adaptive-lns-for-mip]] — a later ALNS application whose destroy/repair and weight-update structure traces back to this paper.
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]] — LNS applied to inventory routing, the same destroy-and-repair design in a continuous-time setting.
@@ -384,7 +384,7 @@ for discussions, Emilie Danna for criticism, and three anonymous referees.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — the destroy/repair instance used in industry, whose scheme follows the ALNS line begun here.
 
 ## Sources
-- [[_papers/ropke2006adaptive/ropke2006adaptive.md]] — Zotero sidecar: Ropke, Stefan; Pisinger, David (2006), Transportation Science, 2006-11, doi:10.1287/trsc.1050.0135, with the paper's own abstract quoted.
+- [[_papers/ropke2006adaptive/ropke2006adaptive.md]] — Zotero sidecar: Ropke, Stefan; Pisinger, David (2006), Transportation Science, 2006-11, doi:10.1287/trsc.1050.0135, with the paper's own abstract quoted. ^[inferred]
 - [[_papers/ropke2006adaptive/ropke2006adaptive-extracted.md]] — full extracted text (765 lines), read in windows 1–300, 301–600, 601–765.
-- [[_papers/ropke2006adaptive/images/page_8_chart_11.jpg]] — Figure 1 (removal-heuristic weight progression), the only embedded figure; the other 40 crops are INFORMS title-page logos (page_0_image_3, page_0_image_14), equation crops, and table crops with no caption anchor, so they are not embedded and the tables are transcribed as text.
+- [[_papers/ropke2006adaptive/images/page_8_chart_11.jpg]] — Figure 1 (removal-heuristic weight progression), the only embedded figure; the other 40 crops are INFORMS title-page logos (page_0_image_3, page_0_image_14), equation crops, and table crops with no caption anchor, so they are not embedded and the tables are transcribed as text. ^[inferred]
 -^[ambiguous] The vault contains no PDFs, so `pdftotext` cannot be run: the extracted markdown is the only authority. Digit runs where thousands separators and decimal points are lost in the OCR (Table 2, Table 4, the Table 8 route-type row, Table 10, Table 5's time columns, and Tables 11–16) are recorded verbatim as printed and flagged; no value is rounded, normalized, or reconstructed beyond what the text shows.

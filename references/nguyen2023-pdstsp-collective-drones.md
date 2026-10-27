@@ -48,9 +48,9 @@ sources:
 summary: >-
   Nguyen & Hà define PDSTSP-c, where coupled depot drones serve heavy parcels; two-index flow MILP + RnR with a DAG topological-sort move evaluation; 23.47% average gain.
 provenance:
-  extracted: 0.82
-  inferred: 0.14
-  ambiguous: 0.04
+  extracted: 0.89
+  inferred: 0.08
+  ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -72,13 +72,13 @@ The standard assumption in truck-drone literature is that a single drone's paylo
 
 Endurance is not constant. Power consumption is nonlinear in speed and payload, so a drone's achievable range *increases* with speed at low speeds and *decreases* at high speeds (Raj et al. 2021). The paper adds two further endurance effects beyond Raj et al. (2021): the **[[concepts/peukert-law-battery-discharge|Peukert effect]]** (a faster discharge yields less usable capacity) and a **maximum discharge current** threshold that protects battery lifespan, plus an efficiency-loss factor for wind resistance and battery degradation. Cruise speeds are *not* decision variables: they are pre-computed per (payload, distance, k) to minimize flight time subject to the battery constraints.
 
-PDSTSP-c is materially harder than the PDSTSP of Murray & Chu (2015). In PDSTSP the order in which a drone serves its customers is irrelevant; here a **[[concepts/drone-swarm-synchronization|synchronization constraint]]** requires all k units of a c-drone to be assembled at the depot before launch, so the order of services in one drone tour changes the start times available to other tours. A change in one drone tour propagates to others, which is the main reason the PDSTSP heuristics must be redesigned.
+PDSTSP-c is materially harder than the PDSTSP of Murray & Chu (2015). In PDSTSP the order in which a drone serves its customers is irrelevant; here a **[[concepts/drone-swarm-synchronization|synchronization constraint]]** requires all k units of a c-drone to be assembled at the depot before launch, so the order of services in one drone tour changes the start times available to other tours. A change in one drone tour propagates to others, which is the main reason the PDSTSP heuristics must be redesigned. ^[inferred]
 
 **Contributions** (verbatim list): a new PDSTSP variant using collective drones; a MILP solved to optimality on small instances; the Ruin-and-Recreate metaheuristic; and the first PDSTSP-c benchmark set (published at `http://orlab.com.vn/home/download`).
 
-Positioning in the scheduling literature: multiprocessor task scheduling with parallel tasks (MTSP, Kwok & Ahmad 1999; Blazewicz et al. 1986) and the vehicle routing problem with synchronization constraints (VRPSC — Afifi, Dang & Moukrim 2016; Grimault et al. 2017; Liu, Tao & Xie 2019; Hà et al. 2020). VRPSC differs: it carries time windows, minimizes total operating cost, allows at most two synchronized vehicles, and synchronizes at customer locations, whereas PDSTSP-c synchronizes at the depot and minimizes makespan.
+Positioning in the scheduling literature: multiprocessor task scheduling with parallel tasks (MTSP, Kwok & Ahmad 1999; Blazewicz et al. 1986) and the vehicle routing problem with synchronization constraints (VRPSC — Afifi, Dang & Moukrim 2016; Grimault et al. 2017; Liu, Tao & Xie 2019; Hà et al. 2020). VRPSC differs: it carries time windows, minimizes total operating cost, allows at most two synchronized vehicles, and synchronizes at customer locations, whereas PDSTSP-c synchronizes at the depot and minimizes makespan. ^[inferred]
 
-Predecessor heuristics for PDSTSP: Mbiadou Saleu et al. (2018, coding/decoding with a bi-criteria shortest path via dynamic programming), Dell'Amico, Montemanni & Novellani (2020, matheuristic using an MILP decoder), Dinh, Do & Hà (2021, HACO on a giant tour with dynamic programming under controllable states), Nguyen et al. (2022, Ruin-and-Recreate — the best PDSTSP metaheuristic, also for a min-cost multi-truck variant). Raj et al. (2021) handles multiple trucks with three MILP formulations, branch-and-price and a BAP heuristic, on instances up to 229 customers.
+Predecessor heuristics for PDSTSP: Mbiadou Saleu et al. (2018, coding/decoding with a bi-criteria shortest path via dynamic programming), Dell'Amico, Montemanni & Novellani (2020, matheuristic using an MILP decoder), Dinh, Do & Hà (2021, HACO on a giant tour with dynamic programming under controllable states), Nguyen et al. (2022, Ruin-and-Recreate — the best PDSTSP metaheuristic, also for a min-cost multi-truck variant). Raj et al. (2021) handles multiple trucks with three MILP formulations, branch-and-price and a BAP heuristic, on instances up to 229 customers. ^[inferred]
 
 ## Model and formulation
 
@@ -290,7 +290,7 @@ Five research questions: which (weight, distance) requests are c-drone eligible;
 ![[_papers/nguyen2023parallel/images/page_28_image_10.jpg]]
 *Figure 9 The process of sensitivity analysis using CART method*
 
-**Why CART (Breiman, Friedman, Olshen & Stone 1984) rather than one-factor-at-a-time:** OFAT varies one variable at a time, so it cannot detect interaction effects between predictors, and its factorial-design basis becomes impractical for multiple factors. CART grows a binary decision tree that exposes interactions. Predictor variables: $D$ (depot coverage dimension), $b$ (battery model), $m$ (number of drones), and the $(w,d)$ request profile. Classification is run with scikit-learn's `DecisionTreeClassifier` after the energy model labels every request; regression uses `DecisionTreeRegressor` on the performance gain
+**Why CART (Breiman, Friedman, Olshen & Stone 1984) rather than one-factor-at-a-time:** OFAT varies one variable at a time, so it cannot detect interaction effects between predictors, and its factorial-design basis becomes impractical for multiple factors. CART grows a binary decision tree that exposes interactions. Predictor variables: $D$ (depot coverage dimension), $b$ (battery model), $m$ (number of drones), and the $(w,d)$ request profile. Classification is run with scikit-learn's `DecisionTreeClassifier` after the energy model labels every request; regression uses `DecisionTreeRegressor` on the performance gain ^[inferred]
 
 $$\text{gain}=100\cdot\frac{Z-Z'}{Z}$$
 
@@ -333,17 +333,17 @@ Single drones can carry parcels below **0.81 kg** provided $C_{nom}\ge 12$ Ah; t
 
 ## Limitations
 
-- Drones fly back-and-forth from the depot only (PDSTSP restriction): no multi-visit drone tours, no truck-carried drone, no simultaneous pickup.
-- The two-index formulation scales only to 15–30 customers; the exact method never solves the large set, so the quality of large-instance solutions is unproven (no lower bound).
-- Speeds are pre-computed, not optimized jointly with the schedule, so the fleet-level optimum cannot exploit a slower, energy-cheaper flight to serve more customers.
+- Drones fly back-and-forth from the depot only (PDSTSP restriction): no multi-visit drone tours, no truck-carried drone, no simultaneous pickup. ^[inferred]
+- The two-index formulation scales only to 15–30 customers; the exact method never solves the large set, so the quality of large-instance solutions is unproven (no lower bound). ^[inferred]
+- Speeds are pre-computed, not optimized jointly with the schedule, so the fleet-level optimum cannot exploit a slower, energy-cheaper flight to serve more customers. ^[inferred]
 - Battery assumptions are strong: fully charged before every launch, negligible swap/loading time, Peukert exponent 1.1 and $\beta=0.9$ fixed, and one commercial LiFePO4 product family (Power Tech, 2022) as the battery population.
 - The reported benefit is measured against the equivalent single-drone system, not against truck-only delivery, and includes no operating cost, energy cost, safety, noise, or air-traffic constraint.
 - Coupling time is stated as 1 minute in the text and as 1 s in Table 5; results are reported with the 1-minute assumption. ^[ambiguous]
-- Regulatory framing (FAA Part 135/107, UPS authorisation, 25 kg cap, 6 units) is a snapshot of 2019–2022 rules, not a model of certification and traffic-management constraints.
+- Regulatory framing (FAA Part 135/107, UPS authorisation, 25 kg cap, 6 units) is a snapshot of 2019–2022 rules, not a model of certification and traffic-management constraints. ^[inferred]
 
 ## Related
 
-- [[concepts/collective-drone-delivery]] — the c-drone eligibility, gains, fleet-size and battery tradeoffs this paper measures
+- [[concepts/collective-drone-delivery]] — the c-drone eligibility, gains, fleet-size and battery tradeoffs this paper measures ^[inferred]
 - [[concepts/peukert-law-battery-discharge]] — the discharge model behind constraints (3)–(4)
 - [[concepts/dag-topological-sort-scheduling-move-evaluation]] — the DAG/topological-sort machinery for extraction and move evaluation
 - [[concepts/parallel-drone-scheduling-traveling-salesman-problem]] — the base problem that PDSTSP-c extends

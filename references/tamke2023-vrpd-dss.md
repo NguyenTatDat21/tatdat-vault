@@ -21,8 +21,8 @@ summary: >-
   Introduces VRPD-DSS with discrete drone-speed decisions and payload-aware energy costs, showing that adaptive speed choices beat constant-speed operations in truck-drone delivery.
 provenance:
   extracted: 0.90
-  inferred: 0.09
-  ambiguous: 0.01
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -61,14 +61,14 @@ The re-extracted paper reports concrete computational effects across the rural t
 - Preprocessing removed an average **23.10%** of candidate drone operations in 20-customer instances and substantially shrank MILP size.
 - Across tested speed sets, preprocessing reduced nonzero matrix elements by roughly **37%–63%** and runtime by about **52%–80%** (with identical optimal costs).
 - In single-speed VRPD runs, the best average fixed speed was **12 m/s**; both slower and faster fixed speeds were usually worse.
-- Relative to VRPD-DSS, the best fixed-speed VRPD (12 m/s) was still on average **0.59%** worse (1 drone) and **0.78%** worse (2 drones), with larger gaps in some instances.
+- Relative to VRPD-DSS, the best fixed-speed VRPD (12 m/s) was still on average **0.59%** worse (1 drone) and **0.78%** worse (2 drones), with larger gaps in some instances. ^[inferred]
 - For larger instances (30/40/50 customers), the MILP setup behaved effectively as a heuristic: average RPD after 1 hour ranged from about **0.13%** to **1.50%** depending on instance size and drone count.
 
 Savings against truck-only delivery remained significant, and most savings were associated with reduced truck-driver time rather than drone electricity cost.
 ## Limitations
 
-- Evidence comes from one rural benchmark region and may not transfer directly to dense urban contexts.
-- The energy model assumes ideal ambient conditions (e.g., no wind), so real operations may show different feasible-speed envelopes.
+- Evidence comes from one rural benchmark region and may not transfer directly to dense urban contexts. ^[inferred]
+- The energy model assumes ideal ambient conditions (e.g., no wind), so real operations may show different feasible-speed envelopes. ^[inferred]
 - For larger instances, the solver is used mainly as a high-quality heuristic and many cases are not proven optimal within practical runtimes.
 ## Related
 

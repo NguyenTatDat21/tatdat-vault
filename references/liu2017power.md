@@ -27,9 +27,9 @@ sources:
 summary: >-
   Multi-rotor power model: induced, profile, parasite components from helicopter theory; parameters identified by hover, ascend/descend, cruise tests; 2-17% validation error.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.94
+  inferred: 0.06
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26
@@ -71,7 +71,7 @@ Parameter identification used three IRIS+ quadrotor experiments at the Richmond 
 
 1. **Hover with payloads** (total weight 14.3–22 N): fit `P = (c₁ + c₂)(mg)^{3/2}` → `c₁ + c₂ = 2.84 (m/kg)^{1/2}`.
 2. **Steady-state ascend/descend** at `V_vert = ±2.5 m/s`, no payload: measured mean power 180 W (ascend, stdev 6.3), 164 W (hover, stdev 1.7), 150 W (descend, stdev 4.9); four equations in four unknowns → `c₁ + c₂ = 3.11`, about 10% error vs Experiment 1.
-3. **Cyclic straight line** (345 m back-and-forth, 20 s hovers at waypoints, desired speeds 5–25 m/s): wind estimated ≈ 2 m/s from the forward/backward ground-speed difference; power is essentially flat for airspeed < 10 m/s, and the lift-induced power/thrust dip at 5–10 m/s appears; lift measured 2.5 N at 10 m/s airspeed. Fit identifies `c₄`, `c₅`.
+3. **Cyclic straight line** (345 m back-and-forth, 20 s hovers at waypoints, desired speeds 5–25 m/s): wind estimated ≈ 2 m/s from the forward/backward ground-speed difference; power is essentially flat for airspeed < 10 m/s, and the lift-induced power/thrust dip at 5–10 m/s appears; lift measured 2.5 N at 10 m/s airspeed. Fit identifies `c₄`, `c₅`. ^[inferred]
 
 ![[_papers/liu2017power/images/page_3_chart_11.jpg]]
 *Fig. 6: Least square fit of IRIS+ hovering with different payloads.*
@@ -111,7 +111,7 @@ The loop under-predicts because acceleration and deceleration add real energy th
 
 ## Limitations
 
-Steady-state only (no acceleration phases), no wind modeling, single quadrotor airframe; parameters are airframe-specific. The paper notes wind estimation as future work. Funding: UARC at NASA Ames (Contract UCSCMCA-14-020) and NSF CNS-1136141.
+Steady-state only (no acceleration phases), no wind modeling, single quadrotor airframe; parameters are airframe-specific. The paper notes wind estimation as future work. Funding: UARC at NASA Ames (Contract UCSCMCA-14-020) and NSF CNS-1136141. ^[inferred]
 
 ## Related
 

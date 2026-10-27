@@ -39,8 +39,8 @@ summary: >-
   removes last-choice assignments that the total-satisfaction model can produce.
 provenance:
   extracted: 0.85
-  inferred: 0.15
-  ambiguous: 0.00
+  inferred: 0.12
+  ambiguous: 0.03
 base_confidence: 0.67
 tier: supporting
 lifecycle: draft
@@ -57,7 +57,7 @@ updated: "2026-10-26T12:26:00Z"
 
 Shad Valley is a four-week summer program in science, technology and entrepreneurship for gifted
 high-school students, offered at 8 Canadian universities and running 14 years in Canada. Students pay a
-significant tuition fee, so the seminar schedule they receive materially affects their satisfaction. Before
+significant tuition fee, so the seminar schedule they receive materially affects their satisfaction. Before ^[inferred]
 automation, the director scheduled [[concepts/periodic-scheduling-under-capacity-constraints|week by week]]: students gave first/second/third choices, all seminars had
 to be subscribed, and maximum capacities had to be respected. The manual procedure was feasible for week 1
 but became complicated in later weeks, because the quality of earlier weeks (1st, 2nd, 3rd or last choice)
@@ -66,7 +66,7 @@ had to be tracked per student.
 Indices: students i, seminars j, weeks k. N students, S seminars over 4 weeks, Ŝ_k the seminars offered in
 week k (k ∈ {1,2,3,4}), s_k the number of seminars in week k, S = s1 + s2 + s3 + s4. U_jk and L_jk are the
 upper and lower enrolment limits; each student is assigned exactly one seminar per week; seminars are
-volunteer-run, so cancelling a seminar is not normally permitted. r_ijK is student i's rank of seminar j in
+volunteer-run, so cancelling a seminar is not normally permitted. r_ijK is student i's rank of seminar j in ^[inferred]
 week k on a 1..5 scale (lower rank = higher preference), R the set of possible ranks, r_max the largest
 element of R.
 
@@ -84,7 +84,7 @@ Constraints: L_jk ≤ Σ_i x_ijk ≤ U_jk for all j, k (3.1); plus (3.2); Σ_{j 
 Capacitated Transportation Problem, so the constraint matrix is totally unimodular and — with L, U integer
 — the LP relaxation always returns an optimal integer solution, meaning (3.4) can be dropped and branch
 and bound is unnecessary. Model 1 maximizes Z = Σ_i Σ_j Σ_k p_ijk x_ijk subject to (3.1)–(3.4) (eq. 4), and
-can be solved as an LP, as a network flow, as a minimum-cost network flow, by the transportation simplex,
+can be solved as an LP, as a network flow, as a minimum-cost network flow, by the transportation simplex, ^[inferred]
 or directly as a bipartite matching problem.
 
 ### Network formulation
@@ -107,7 +107,7 @@ Fig. 1. Directed acyclic graph G.
 ### Model 2 — bottleneck objective, two phases
 
 Model 2 maximizes Min over {i,j,k | x_ijk = 1} [p_ijk x_ijk] subject to (3.1)–(3.4) (eq. 6): a Bottleneck
-Capacitated Transportation Problem, in the family of bottleneck generalized-assignment and transportation
+Capacitated Transportation Problem, in the family of bottleneck generalized-assignment and transportation ^[inferred]
 problems. The [[concepts/leximax-leximin-fairness-principles|max-min]] objective finds a schedule whose worst assignment for any student is as good as
 possible. Because bottleneck problems usually have multiple optimal solutions, a second phase resolves ties.
 
@@ -124,7 +124,7 @@ II for total 8 with the worst assignment at a 2nd choice.
 Rather than solving the two models in sequence, each iteration picks a target preference score from P and
 tests feasibility. Starting with p_1, preferences are modified to p'_ijk = p_ijk when p_ijk ≥ p_1 and
 −infinity otherwise (eq. 8); the modified objective (eq. 9) is the same as eq. 4 with p′. A positive
-optimum means a feasible assignment exists with no student below p_1; a negative optimum means the problem
+optimum means a feasible assignment exists with no student below p_1; a negative optimum means the problem ^[inferred]
 is infeasible. The procedure repeats with p_2, and stops at the first infeasible iteration or at p_{rmax}.
 The appendix formalizes this as a loop over q = 1 … r_max that stores x_ijk whenever the LP value is
 positive, prints "The Given Problem Is Infeasible" when q = 1 is infeasible, and reports p_{q−1} as the
@@ -155,7 +155,7 @@ Step 8 the value is positive, so feasible; Step 9 choose q = 3; Step 10 replace 
 Step 11 solve; Step 12 the value is positive, so feasible; Step 13 the algorithm is over, and the solution
 gives no assignment worse than a third choice, with the assignment in Table 5.
 
-Model 2 guaranteed that the worst choice obtained by any student was a third choice, so no student received
+Model 2 guaranteed that the worst choice obtained by any student was a third choice, so no student received ^[inferred]
 a fourth choice. Its overall satisfaction was not significantly worse than Model 1, and it is the assignment
 the staff chose. Sensitivity analysis on the LP at the final iteration of Model 2 produced shadow prices for
 the enrolment constraints, which identify the seminars where increasing the maximum attendance, or lowering
@@ -165,18 +165,18 @@ the objective from allowing one more student; for a minimum constraint it is neg
 ### Shad Valley 1994 comparison
 
 In 1994 a different individual was in temporary charge because of ill health of the previous director, and
-decided not to use the system, so the data compare a manual year against the models computed on the same
+decided not to use the system, so the data compare a manual year against the models computed on the same ^[inferred]
 data. Seminar offerings were 5, 7, 5 and 6 in weeks 1–4, r_max was set to seven, and P = {128, 64, 32, 16, 8,
 4, 2}. The manual objective value was 24,392 (Table 6); Model 1 gave 25,824 (Table 7); Model 2 gave 25,728
 (Table 8). Model 2 reduced the worst assignment from 4 (students 22 and 23) to 3, at a cost of 96 relative to
 Model 1, while still exceeding the manual result; the overall system schedule was better in the global sense
-than the manual one by 1428 in objective value. The rank range implied by the seminar counts (5, 7, 5, 6
-seminars → r_max 7) does not match the 9-column rank header printed in the tables, so the 1993 rank range is
+than the manual one by 1428 in objective value. The rank range implied by the seminar counts (5, 7, 5, 6 ^[inferred]
+seminars → r_max 7) does not match the 9-column rank header printed in the tables, so the 1993 rank range is ^[inferred]
 recorded as ambiguous.^[ambiguous]
 
 ### Implementation and conclusions
 
-Implementation required only a computer, a Basic Interpreter, and an LP package such as Lindo, on a PC 386
+Implementation required only a computer, a Basic Interpreter, and an LP package such as Lindo, on a PC 386 ^[inferred]
 with 4 MB RAM. The programs were adapted to varying seminar and student counts by changing parameters, all LP
 inputs were produced automatically by the Basic programs, no LP/IP knowledge was needed, the administrator
 prepared an ASCII file of student names and seminar offerings with minimum and maximum enrolments, and
@@ -200,7 +200,7 @@ running times of less than 10 seconds. Duplicate seminar offerings across weeks 
 Σ_{j,k duplicates} x_{i,j,k} ≤ 1 for all i; each pair of duplicate seminars adds N constraints, destroying the
 unimodular structure, so the LP relaxation may need to be converted to an integer formulation. In a
 hypothetical 1993 data set with 3 duplicate seminars, Model 1 with 168 additional constraints was solved in 8
-seconds and the LP relaxation solution was integer, suggesting small numbers of such constraints — with
+seconds and the LP relaxation solution was integer, suggesting small numbers of such constraints — with ^[inferred]
 coefficients of 1 — do not totally destroy the strong network structure. Acknowledgement: NSERC Grant #OGP 012
 1689, plus thanks to Shad Valley staff, A. P. Punnen and an anonymous referee.
 
@@ -209,13 +209,13 @@ coefficients of 1 — do not totally destroy the strong network structure. Ackno
 - [[concepts/periodic-scheduling-under-capacity-constraints]] — recurring weekly enrolment with lower and upper bounds on seminar capacity, solved through the periodic structure of the 4-week program.
 - [[references/bar-noy2004-efficient-algorithms-periodic-scheduling]] — shares the periodic, capacity-bounded assignment structure with the Shad Valley week-by-week model.
 - [[references/phanduc2025-pareto-front-grid-fairness-dpdptw]] — parallel fairness evidence: optimizing total cost while bounding the worst-off user through a grid of threshold values.
-- [[references/ogryczak2014-fair-optimization-networks-survey]] — orders fairness objectives over networks, and the sum/bottleneck pair here is the classic equity-vs-total trade-off.
+- [[references/ogryczak2014-fair-optimization-networks-survey]] — orders fairness objectives over networks, and the sum/bottleneck pair here is the classic equity-vs-total trade-off. ^[inferred]
 - [[references/furini2016-two-dimensional-guillotine-cutting-ip]] — parallel case study of a capacity-constrained scheduling/cutting program solved as an ILP, with the LP-relaxation quality argument made here in cutting-stock form.
 - [[references/hartman2023-leximin-approximation]] — the approximation-theoretic version of the same max-min-then-lexicographic ordering that Model 2 solves exactly by threshold sweep.
-- [[concepts/fuzzy-weighted-max-min-scalarization]] — the scalarization family that generalizes the single threshold used in the parametric q-loop.
+- [[concepts/fuzzy-weighted-max-min-scalarization]] — the scalarization family that generalizes the single threshold used in the parametric q-loop. ^[inferred]
 
 ## Sources
 - [[_papers/richards1996scheduling/richards1996scheduling.md]] — Zotero sidecar: Richards, E. W.; Bhadury, J. (1996), Computers & Industrial Engineering, 1996-09, doi:10.1016/0360-8352(95)00185-9.
 - [[_papers/richards1996scheduling/richards1996scheduling-extracted.md]] — full extracted text (530 lines, 4-page scan), read in windows 1–300 and 301–530.
-- [[_papers/richards1996scheduling/images/page_3_image_2.jpg]] — Fig. 1 (directed acyclic graph G), the only embedded figure. All other crops are equation and table crops (no caption anchors), so they are not embedded; the tables are transcribed as text.
+- [[_papers/richards1996scheduling/images/page_3_image_2.jpg]] — Fig. 1 (directed acyclic graph G), the only embedded figure. All other crops are equation and table crops (no caption anchors), so they are not embedded; the tables are transcribed as text. ^[inferred]
 -^[ambiguous] The source itself records internal inconsistencies: arc-count statements for arc sets 2 and 3, the "problem (11)" vs "(9)" numbering drift, and the 1993 rank range (9 ranks in the tables) vs the 1994 r_max of 7. Every numeric value above is transcribed verbatim from the extracted markdown; the vault contains no PDFs, so `pdftotext` cannot be used to disambiguate the scan.

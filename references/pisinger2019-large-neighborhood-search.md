@@ -29,9 +29,9 @@ sources:
 summary: >-
   Canonical LNS/ALNS chapter: LNS pseudocode, destroy-repair design, very-large-scale neighborhoods, adaptive operator weights with roulette-wheel selection, VRP/scheduling/parallel-LNS applications.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
+  extracted: 0.88
+  inferred: 0.09
+  ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
@@ -63,7 +63,7 @@ LNS loop (Algorithm 1): x^b = x; repeat x^t = r(d(x)); if accept(x^t, x) then x 
 - **VLSN classes**: (1) variable-depth search (Lin-Kernighan TSP: alternating edge insert/delete with greedy gain and freeze, no cycling; ejection chains, Glover 1992 domino cascades); (2) network-flow-based (cyclic-exchange neighborhood = negative-cost cycle in Thompson's improvement graph, NP-hard subset-disjoint cycle; path exchanges = compounded swaps solvable in O(n²) as shortest paths; assignment neighborhood Sarvanov & Doroshko 1981 for TSP, k = n/2; Franceschi et al. 2006 distance-constrained CVRP, 13 improved best-known solutions); (3) polynomially solvable special cases (Halin-graph TSP in linear time, Cornuejols et al. 1983; bottleneck TSP; Steiner).
 - **Design inventory**: destroy families — random (diversification), worst/critical (intensification), related (Shaw's distance+demand relatedness), history-based (Pisinger & Ropke: count how often setting a variable leads to bad solutions); repair families — greedy, approximation, relaxed exact algorithms; noising/randomization for diversification; sequential vs parallel subproblem heuristics; coupled neighborhoods K_i ⊆ Ω⁺ per destroy, K_i = ∅ means one neighborhood doing both destroy and repair; equal-probability operators without adaptive weights are robust and need fewer parameters.
 - **Properties**: ALNS is robust and instance-adaptive, seldom trapped in local optima, needs limited calibration. It is related to VNS (VNS orders predefined neighborhoods by complexity; ALNS picks from parameterized families with adaptive probabilities) and to hyper-heuristics (Ross: heuristics to choose heuristics — ALNS's adaptive layer is exactly that). Prior adaptive frameworks: Rousseau et al. 2002 (two LNS neighborhoods, VND switching), Perron 2003 (repair portfolios), Laborie & Godard 2007 (self-adapting LNS tuning sub-heuristic parameters), Palpant et al. 2004 (LSSPER), outer metaheuristics: descent, ILS, SA; parallel LNS: Perron & Shaw 2003, Ropke 2009 parallel ALNS tested on CVRP and TSP-PD.
-- **Applications**: VRPTW is LNS's most-studied domain; Bent & Hentenryck (2004) two-stage — SA minimizing number of routes, then LNS with related destroy and truncated branch-and-bound repair minimizing lengths, improving-only acceptance, removal size reset to 1 periodically; same pattern for PDPTW. Ropke & Pisinger's ALNS for PDPTW is state-of-the-art, and CVRP/VRPTW transform into PDPTW, so ALNS carries across VRP variants; Prescott-Gagnon et al. (2007) branch-and-price with LNS repair, 4 destroy methods, beats previous LNS. Best VRPTW at time of writing: Nagata & Bräysy 2009, a non-LNS route minimization heuristic. Few LNS applications to TSP variants — LNS suits partitioning problems (VRP, bin packing, generalized assignment) better. Scheduling: Laborie & Godard single-mode, Godard/Laborie/Nuijten cumulative, Carchrae & Beck job-shop, Cordeau et al. 2009 technician scheduling (hundreds of tasks in <15 minutes), Muller 2009 RCPSP ALNS among three best on PSPLIB, ALNS for multi-item capacitated lot sizing with setup times.
+- **Applications**: VRPTW is LNS's most-studied domain; Bent & Hentenryck (2004) two-stage — SA minimizing number of routes, then LNS with related destroy and truncated branch-and-bound repair minimizing lengths, improving-only acceptance, removal size reset to 1 periodically; same pattern for PDPTW. Ropke & Pisinger's ALNS for PDPTW is state-of-the-art, and CVRP/VRPTW transform into PDPTW, so ALNS carries across VRP variants; Prescott-Gagnon et al. (2007) branch-and-price with LNS repair, 4 destroy methods, beats previous LNS. Best VRPTW at time of writing: Nagata & Bräysy 2009, a non-LNS route minimization heuristic. Few LNS applications to TSP variants — LNS suits partitioning problems (VRP, bin packing, generalized assignment) better. Scheduling: Laborie & Godard single-mode, Godard/Laborie/Nuijten cumulative, Carchrae & Beck job-shop, Cordeau et al. 2009 technician scheduling (hundreds of tasks in <15 minutes), Muller 2009 RCPSP ALNS among three best on PSPLIB, ALNS for multi-item capacitated lot sizing with setup times. ^[inferred]
 
 ![[_papers/pisinger2019large/images/page_5_image_2.jpg]]
 
@@ -91,13 +91,13 @@ The chapter's synthesis: LNS is quick to assemble from existing components and g
 
 - **Date ambiguity**: the sidecar cites Pisinger & Ropke (2019), DOI 10.1007/978-3-319-91086-4_4, Handbook of Metaheuristics 3rd ed. (Gendreau ed., Springer); the extracted header cites Pisinger & Røpke (2010), 2nd ed., pp. 399-420. Same chapter, two editions; page facts follow the extracted text. ^[ambiguous]
 - "State-of-the-art" claims in the applications section are frozen at the chapter's publication date.
-- The chapter asserts design principles from experience (refs 40, 46), not from systematic comparison.
+- The chapter asserts design principles from experience (refs 40, 46), not from systematic comparison. ^[inferred]
 
 ## Related
 
 - [[concepts/large-neighborhood-search]] — the vault concept page is this chapter's core; this page carries the design inventory, applications, and VLSN families.
 - [[references/gendreau2019-handbook-metaheuristics]] — the handbook volume containing this chapter.
-- [[concepts/variable-neighborhood-search]] — VNS ordering vs ALNS roulette-wheel adaptation, the comparison the chapter makes explicit.
+- [[concepts/variable-neighborhood-search]] — VNS ordering vs ALNS roulette-wheel adaptation, the comparison the chapter makes explicit. ^[inferred]
 - [[concepts/hyper-heuristics]] — Ross's "heuristics to choose heuristics"; the ALNS adaptive layer is a hyper-heuristic.
 - [[references/pham2023-efficient-ga-quadratic-tsp]] — ruin-and-recreate LNS operators embedded in a genetic algorithm for the QTSP; cites Ropke & Pisinger 2006.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — LNS destroy defined by removing whole ship schedules, repair by re-solving a time-space MIP.

@@ -22,9 +22,9 @@ sources:
 summary: >-
   Defines min-cost TSP-D with transportation and waiting penalties, and shows split-based GRASP consistently beats TSP-LS in cost quality with acceptable runtime.
 provenance:
-  extracted: 0.88
-  inferred: 0.10
-  ambiguous: 0.02
+  extracted: 0.86
+  inferred: 0.11
+  ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -43,7 +43,7 @@ Unlike earlier min-time focus, this work defines **min-cost TSP-D** where truck 
 - transportation costs,
 - and waiting penalties when one vehicle waits for the other.
 
-The framing emphasizes cost-aware coordination rather than pure completion-time minimization.
+The framing emphasizes cost-aware coordination rather than pure completion-time minimization. ^[inferred]
 
 ![[_papers/ha2018mincost/images/page_8_image_2.jpg]]
 ![[_papers/ha2018mincost/images/page_8_image_4.jpg]]
@@ -83,7 +83,7 @@ The split procedure is the central design element enabling scalable solution con
 
 ### Larger min-cost instances
 
-Reported geometric means (relative to TSP baseline):
+Reported geometric means (relative to TSP baseline): ^[inferred]
 
 | Instance size | GRASP ρ_avg | TSP-LS ρ_avg | GRASP T_avg | TSP-LS T_avg |
 |---|---:|---:|---:|---:|
@@ -102,8 +102,8 @@ The authors also report that min-cost solutions use drones for up to 40% of cust
 
 ## Limitations
 
-- Single-truck TSP-D setting; direct transfer to multi-truck/multi-drone-station variants is non-trivial.
-- Runtime for high-quality GRASP solutions on 100-customer instances is materially higher than TSP-LS.
+- Single-truck TSP-D setting; direct transfer to multi-truck/multi-drone-station variants is non-trivial. ^[inferred]
+- Runtime for high-quality GRASP solutions on 100-customer instances is materially higher than TSP-LS. ^[inferred]
 - Extraction includes noisy table formatting, so some table-level fields may require PDF-level verification for audit use. ^[ambiguous]
 
 ## Related

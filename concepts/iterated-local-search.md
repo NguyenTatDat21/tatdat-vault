@@ -22,9 +22,9 @@ sources:
 summary: >-
   ILS: walks the reduced space of local optima by perturbing the incumbent, re-running local search, and accepting by a rule; quality hinges on perturbation strength and acceptance criterion.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z

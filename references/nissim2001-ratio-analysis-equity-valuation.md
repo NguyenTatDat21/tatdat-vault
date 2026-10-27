@@ -64,9 +64,9 @@ sources:
 summary: >-
   Nissim & Penman (Review of Accounting Studies 2001): ratio analysis rebuilt from accounting-based valuation, then documented 1963–1999 medians, correlations and fade rates.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
+  extracted: 0.97
+  inferred: 0.03
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -100,7 +100,7 @@ $$ROCE=\frac{CNI}{CSE_{t-1}}=RNOA+FLEV\cdot SPREAD=Sales\ PM\cdot ATO+\frac{Othe
 
 $$RNOA=ROOA+OLLEV\cdot OLSPREAD,\qquad CSE=Sales\cdot\frac{1}{ATO}\cdot\frac{1}{1+FLEV}$$
 
-[[concepts/ratio-hierarchy-for-profitability-and-growth|Seven drivers of profitability]] cross the U.S. gross-profitability regressions of [[references/novy-marx2013-other-side-of-value|Novy-Marx 2013]] (**core sales PM, ATO, other core items, financial leverage, net borrowing cost, operating liability leverage, minority-share ratio**), three of book-value growth (**sales, asset turnover, financial leverage**). The unlevered reduction $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ drops the financial drivers when financial items are at fair value. Growth in operating residual earnings is driven by $RNOA$ and growth in net operating assets; cash-flow identities (equations 12–15) tie the same drivers to free cash flow and dividends, so the analysis applies to discounted cash flow and dividend-discount valuation as well.
+[[concepts/ratio-hierarchy-for-profitability-and-growth|Seven drivers of profitability]] cross the U.S. gross-profitability regressions of [[references/novy-marx2013-other-side-of-value|Novy-Marx 2013]] (**core sales PM, ATO, other core items, financial leverage, net borrowing cost, operating liability leverage, minority-share ratio**), three of book-value growth (**sales, asset turnover, financial leverage**). The unlevered reduction $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ drops the financial drivers when financial items are at fair value. Growth in operating residual earnings is driven by $RNOA$ and growth in net operating assets; cash-flow identities (equations 12–15) tie the same drivers to free cash flow and dividends, so the analysis applies to discounted cash flow and dividend-discount valuation as well. ^[inferred]
 
 ## Ratio documentation: 1963–1999
 
@@ -185,7 +185,7 @@ Fade rates: rank correlation of a ratio with its $t$-lagged value, and the portf
 
 ## Contributions and limitations
 
-Contributions as stated: comprehensive income in ratio analysis; the forecasting perspective (ratios as drivers of the residual earnings payoff); predictive ability of ratios as a hierarchy; parsimony in forecasting; explicit treatment of growth; an extended set of profitability drivers; explicit minority interest; a clean operating/financing separation (and a new leverage measure $FLEV$); recognition of operating liability leverage; and the documentation of typical values and typical time patterns. Limitations: single-country U.S. GAAP sample (financial institutions excluded — for them financial items are operating), COMPUSTAT aggregation limits core/unusual splits, the cost-of-capital premium is conjectural (medians of growth in RE/ReOI are negative, partly an artifact), coefficients are unstable so the analysis stays contextual, and ex post medians carry survivorship bias.
+Contributions as stated: comprehensive income in ratio analysis; the forecasting perspective (ratios as drivers of the residual earnings payoff); predictive ability of ratios as a hierarchy; parsimony in forecasting; explicit treatment of growth; an extended set of profitability drivers; explicit minority interest; a clean operating/financing separation (and a new leverage measure $FLEV$); recognition of operating liability leverage; and the documentation of typical values and typical time patterns. Limitations: single-country U.S. GAAP sample (financial institutions excluded — for them financial items are operating), COMPUSTAT aggregation limits core/unusual splits, the cost-of-capital premium is conjectural (medians of growth in RE/ReOI are negative, partly an artifact), coefficients are unstable so the analysis stays contextual, and ex post medians carry survivorship bias. ^[inferred]
 
 ## Related
 

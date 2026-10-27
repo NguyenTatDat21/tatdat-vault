@@ -21,9 +21,9 @@ sources:
 summary: >-
   Peukert's law makes usable battery capacity shrink with discharge current: C_d = Σ I_i(I_i/I_nom)^(p-1)Δt_i with p=1.1, gated by I_max per phase and C_d ≥ 0.9·C_nom.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -60,7 +60,7 @@ Two gates then decide feasibility:
 | 2 | 20 | 2.80 | 40 | 12.8 |
 | 3 | 30 | 3.44 | 45 | 12.8 |
 
-The $I_{max}$ column is what the current ceiling checks, so a heavier battery raises the ceiling along with the capacity.
+The $I_{max}$ column is what the current ceiling checks, so a heavier battery raises the ceiling along with the capacity. ^[inferred]
 
 ## The weight feedback loop
 

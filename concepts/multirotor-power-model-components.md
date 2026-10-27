@@ -22,9 +22,9 @@ sources:
 summary: >-
   Three-component steady-state power model for multi-rotors: induced (actuator disk), profile (blade element), parasite (body drag); convex T^{3/2} hover law; parameters identified from bench flights.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.92
+  inferred: 0.00
+  ambiguous: 0.08
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z

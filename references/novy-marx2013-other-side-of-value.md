@@ -60,9 +60,9 @@ sources:
 summary: >-
   Novy-Marx (JFE 2013): gross profits-to-assets predicts returns like B/M, hedges value, and a four-factor model cuts anomaly pricing error to 0.22% per month.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.76
+  inferred: 0.02
+  ambiguous: 0.22
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
@@ -95,7 +95,7 @@ where $Y_t$ is earnings, $dB_t = B_t - B_{t-1}$ is the change in book equity, $r
 
 $$\frac{\text{Gross profits}}{\text{Assets}} = \underbrace{\frac{\text{Sales}}{\text{Assets}}}_{\text{Asset turnover}} \times \underbrace{\frac{\text{Gross profits}}{\text{Sales}}}_{\text{Gross margins}} \tag{2}$$
 
-Sample: Compustat starting 1962 (Amex inclusion year); accounting data usable from end of June of the following calendar year; asset pricing tests cover **July 1963–December 2010**; financial firms (one-digit SIC 6) excluded; independent variables trimmed at 1%/99%; annual rebalancing at end of June; NYSE breakpoints; value-weighted portfolios. Free cash flow = NI + DP − WCAPCH − CAPX; book equity via tiered definitions matching Fama & French's HML construction. Spearman rank correlation between GP/A and B/M is **−18%** (highly significant), so profitability sorts are growth strategies.
+Sample: Compustat starting 1962 (Amex inclusion year); accounting data usable from end of June of the following calendar year; asset pricing tests cover **July 1963–December 2010**; financial firms (one-digit SIC 6) excluded; independent variables trimmed at 1%/99%; annual rebalancing at end of June; NYSE breakpoints; value-weighted portfolios. Free cash flow = NI + DP − WCAPCH − CAPX; book equity via tiered definitions matching Fama & French's HML construction. Spearman rank correlation between GP/A and B/M is **−18%** (highly significant), so profitability sorts are growth strategies. ^[inferred]
 
 ![[_papers/novy-marx2013other/images/page_3_table_5.jpg]]
 ![[_papers/novy-marx2013other/images/page_4_table_5.jpg]]

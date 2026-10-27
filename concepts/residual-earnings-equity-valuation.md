@@ -25,9 +25,9 @@ sources:
 summary: >-
   Equity value = book value + discounted residual earnings; RE_t = CNI_t − (ρ_E−1)CSE_{t−1} with clean surplus, three continuing-value rules, drivers = PM, ATO, leverage.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -50,7 +50,7 @@ $$RE_t=CNI_t-(\rho_E-1)\,CSE_{t-1}$$
 
 is the residual earnings (abnormal, excess) of period $t$. Only the income over the **required** return on book value contributes value; the capital charge is an opportunity cost, not an accounting expense. Lineage in the source: Preinreich (1938), Edwards & Bell (1961), Kay (1976), Ohlson (1995), with the Feltham–Ohlson model (1995) as the theoretical base, and applications in Brief & Lawson (1992), Frankel & Lee (1998), Lee/Myers/Swaminathan (1999), Penman & Sougiannis (1998), Francis/Olsson/Oswald (2000), Abarbanell & Bernard (2000).
 
-The single behavioural assumption is the dividend-valuation relation: $V_0^E=\sum_{t=1}^{\infty}\rho_E^{-t}d_t$ with $d_t$ = dividends to shareholders, and **clean surplus** $CSE_t=CSE_{t-1}+CNI_t-d_t$ (dividends include repurchases net of share issues). Combining them removes dividends and yields the model above; the model therefore prices the **unreceived dividends** implied by the book value.
+The single behavioural assumption is the dividend-valuation relation: $V_0^E=\sum_{t=1}^{\infty}\rho_E^{-t}d_t$ with $d_t$ = dividends to shareholders, and **clean surplus** $CSE_t=CSE_{t-1}+CNI_t-d_t$ (dividends include repurchases net of share issues). Combining them removes dividends and yields the model above; the model therefore prices the **unreceived dividends** implied by the book value. ^[inferred]
 
 ## Finite horizon and continuing value
 
@@ -76,7 +76,7 @@ For the operating side alone the model reduces to enterprise value: with $\rho_W
 
 $$V_0^E=CSE_0+\sum_{t=1}^{T}\rho_W^{-t}\big[OI_t-(\rho_W-1)\,NOA_{t-1}\big]+\frac{CV_T^{NOA}}{\rho_W^T},\qquad V_0^E=V_0^{NOA}-V_0^{NFO}$$
 
-with $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ and $ReNFE_t=NFE_t-(\rho_D-1)NFO_{t-1}$. This reduction is valid only when financial assets and liabilities are at **fair value** (FASB Statement 115; FASB 107 fair-value footnote), which is precisely the conservative reporting the model favours. The relation $\rho_E=\rho_W+(V_0^{NFO}/V_0^E)(\rho_W-\rho_D)$ means $\rho_W$ is a weighted combination of the equity and debt costs.
+with $ReOI_t=OI_t-(\rho_W-1)NOA_{t-1}$ and $ReNFE_t=NFE_t-(\rho_D-1)NFO_{t-1}$. This reduction is valid only when financial assets and liabilities are at **fair value** (FASB Statement 115; FASB 107 fair-value footnote), which is precisely the conservative reporting the model favours. The relation $\rho_E=\rho_W+(V_0^{NFO}/V_0^E)(\rho_W-\rho_D)$ means $\rho_W$ is a weighted combination of the equity and debt costs. ^[inferred]
 
 ## Growth and cash flow
 
@@ -94,7 +94,7 @@ $C_t-I_t$ is cash from operations, $d_t$ dividends. Because cash flow and residu
 
 ## Why the model needs ratios
 
-Residual earnings are a **scenario forecast**, so a valuation is a forecast of the drivers, not a one-number estimate. The hierarchical ratio system (see [[concepts/ratio-hierarchy-for-profitability-and-growth]]) supplies those drivers, and the documented central tendency of those drivers (see [[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]) sets the priors. A constant $ROCE$ at the cost of capital ⇒ zero residual earnings; conservative accounting (expensing R&D, goodwill, advertising) yields a **permanent positive** residual earning even when projects are zero-NPV, so long-run residual earnings are positive for the average firm (Feltham & Ohlson 1995; Beaver & Ryan 2000; Zhang 2000). A constant, nonzero residual earning implies a normal P/E of $\rho_E/(\rho_E-1)$; growth in residual earnings implies an above-normal P/E, so the P/E ratio is an inverse measure of residual earnings.
+Residual earnings are a **scenario forecast**, so a valuation is a forecast of the drivers, not a one-number estimate. The hierarchical ratio system (see [[concepts/ratio-hierarchy-for-profitability-and-growth]]) supplies those drivers, and the documented central tendency of those drivers (see [[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]) sets the priors. A constant $ROCE$ at the cost of capital ⇒ zero residual earnings; conservative accounting (expensing R&D, goodwill, advertising) yields a **permanent positive** residual earning even when projects are zero-NPV, so long-run residual earnings are positive for the average firm (Feltham & Ohlson 1995; Beaver & Ryan 2000; Zhang 2000). A constant, nonzero residual earning implies a normal P/E of $\rho_E/(\rho_E-1)$; growth in residual earnings implies an above-normal P/E, so the P/E ratio is an inverse measure of residual earnings. ^[inferred]
 
 ## Related
 

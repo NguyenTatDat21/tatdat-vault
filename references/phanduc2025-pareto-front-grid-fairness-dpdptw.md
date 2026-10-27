@@ -27,9 +27,9 @@ sources:
 summary: >-
   PFG-2F extends Pareto-front-grid selection to four-objective dynamic pickup-and-delivery (fuel, waiting, customer and vehicle fairness), beating NSGA-II, MOEA/D and PFG-MOEA on 180 Li-Lim instances.
 provenance:
-  extracted: 0.86
+  extracted: 0.89
   inferred: 0.11
-  ambiguous: 0.03
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
@@ -91,7 +91,7 @@ Baselines: NSGA-II (Deb 2002), MOEA/D (Zhang & Li 2007), MOEA/D-DE (Li & Zhang 2
 | PFG-2F-PM | 0.412/0.287/0.212 | 0.331/0.273/0.211 | 0.369/0.271/0.215 |
 | **PFG-2F-RK** | **0.463/0.325/0.223** | **0.370/0.316/0.203** | **0.406/0.324/0.231** |
 
-Mean IGD (Table 2, R/C/RC): NSGA-II 0.353-0.435, MOEA/D family 0.350-0.590, PFG-MOEA 0.201-0.370, PFG-2F-PM 0.004-0.040, PFG-2F-RK 0.010-0.035 — an order of magnitude below the MOEA/D baselines. PFG-2F-PM explores better in the first 50 generations on RC (IGD RC1 0.006 vs 0.026) but traps in local optima; RK keeps improving to convergence. Against FairGA, improvement percentages (Table 3) range 14.6-18.7% on energy cost, 58-69% on vehicle fairness, 28-59% on customer fairness, 33-52% on max waiting time. Worst results under R1 (random locations + tight windows); best under C2; performance declines as request counts grow under a fixed generation budget.
+Mean IGD (Table 2, R/C/RC): NSGA-II 0.353-0.435, MOEA/D family 0.350-0.590, PFG-MOEA 0.201-0.370, PFG-2F-PM 0.004-0.040, PFG-2F-RK 0.010-0.035 — an order of magnitude below the MOEA/D baselines. PFG-2F-PM explores better in the first 50 generations on RC (IGD RC1 0.006 vs 0.026) but traps in local optima; RK keeps improving to convergence. Against FairGA, improvement percentages (Table 3) range 14.6-18.7% on energy cost, 58-69% on vehicle fairness, 28-59% on customer fairness, 33-52% on max waiting time. Worst results under R1 (random locations + tight windows); best under C2; performance declines as request counts grow under a fixed generation budget. ^[inferred]
 
 ![[_papers/phanduc2025pareto/images/page_7_chart_5.jpg]]
 
@@ -107,9 +107,9 @@ Mean IGD (Table 2, R/C/RC): NSGA-II 0.353-0.435, MOEA/D family 0.350-0.590, PFG-
 
 ## Limitations
 
-- Optimization runs per time-slot snapshot; requests arriving within a slot are handled, true online re-optimization is not modeled.
+- Optimization runs per time-slot snapshot; requests arriving within a slot are handled, true online re-optimization is not modeled. ^[inferred]
 - The permutation variant wins on RC datasets in early convergence, so the random-key encoding is not uniformly superior.
-- Stated future work: machine-learning heuristics for task allocation.
+- Stated future work: machine-learning heuristics for task allocation. ^[inferred]
 
 ## Related
 

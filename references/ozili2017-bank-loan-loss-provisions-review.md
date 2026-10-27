@@ -14,9 +14,9 @@ sources:
 summary: >-
   Post-2000 review of bank loan loss provisioning: LLP discretion links to income smoothing, capital management, signalling and procyclicality across Basel regimes and country contexts.
 provenance:
-  extracted: 0.92
-  inferred: 0.05
-  ambiguous: 0.03
+  extracted: 0.81
+  inferred: 0.04
+  ambiguous: 0.15
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T09:12:06Z
@@ -116,7 +116,7 @@ Four survey findings: LLP studies have moved from narrow country studies to macr
 
 ## Limitations
 
-Self-declared scope exclusions: Islamic bank provisioning, dynamic provisioning depth, and LLP-stock-return links. As a secondary review, every reported sample size and finding is the review's reading of the cited studies, not original estimation. The paper itself reports contradictory characterisations of Taktak et al. (2010) and of the ownership-structure literature, flagged above.
+Self-declared scope exclusions: Islamic bank provisioning, dynamic provisioning depth, and LLP-stock-return links. As a secondary review, every reported sample size and finding is the review's reading of the cited studies, not original estimation. The paper itself reports contradictory characterisations of Taktak et al. (2010) and of the ownership-structure literature, flagged above. ^[inferred]
 
 ## Related
 

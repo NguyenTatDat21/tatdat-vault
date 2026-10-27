@@ -72,7 +72,7 @@ Two solution layers are combined:
 
 Two solution layers are combined:
 
-1. **MIP baseline (EM):** exact model solved with CPLEX 12.6, implemented in C++ with Xcode 6 and IBM ILOG Concert Technology, on a 2.7 GHz quad-core processor with 32 GB RAM under Mac OS X;
+1. **MIP baseline (EM):** exact model solved with CPLEX 12.6, implemented in C++ with Xcode 6 and IBM ILOG Concert Technology, on a 2.7 GHz quad-core processor with 32 GB RAM under Mac OS X; ^[inferred]
 2. **Heuristic stack:** Vessel Routing Heuristic (VRH) and reranking-based extensions, then reduced-master refinement.
 
 VRH ranks contracts (by the start of the expected delivery window, the midpoint of $\mathcal{T}_{in}^e$), then processes them one by one: it builds the candidate vessel set $V_{in}$ of vessels that can reach port $i$ inside $\mathcal{T}_{in}^a$ — including copies of vessels able to make several visits through the loading port — selects vessels with a small MIP (Eq. 33–35, a knapsack variant minimizing travel plus over/under/early/late penalties, where the planned minimum volume can be relaxed to $\underline{D}_{in} = \alpha D_{in}$ with $\alpha \in [0,1]$), schedules sailing dates, and assigns delivery volumes. A post-processing pass (Algorithm 2) sends vessels idling at the loading waiting port to under-delivered contracts when a round trip fits inside the waiting period. Loading-port inventory limits are only checked after all contracts are processed, with local rescheduling of arrivals and spot sales of the remaining excess. Multiple Vessel Routing Heuristic (MVRH, Algorithm 3) reruns VRH on reranked contract lists: contracts with high under-delivery penalties are pushed up the list, and at certain iterations the list is randomly reranked to escape reranking loops. The reranking metric is $\rho_k = (d_k^-/D_k)(P_k^-/\max P_i^-)$ combined with $\beta_k = D_k/\sum \beta_k^\nu G_\nu$, swapping adjacent contracts when both metrics increase and the expected window of contract $k$ starts before the allowed window of contract $k-1$ ends.
@@ -110,8 +110,8 @@ From the reported computational study on 18 instances generated from a commercia
 
 ## Limitations
 
-- Results come from 18 generated instances built from a commercial LNG trade database, so transferability to other networks, contract structures and market conditions is not guaranteed.
-- Gaps are measured against the CPLEX lower bound, so neither the EM nor VRH gap is a true optimality gap; the VRH-vs-EM comparison is a cost comparison against a 24-hour CPLEX run.
+- Results come from 18 generated instances built from a commercial LNG trade database, so transferability to other networks, contract structures and market conditions is not guaranteed. ^[inferred]
+- Gaps are measured against the CPLEX lower bound, so neither the EM nor VRH gap is a true optimality gap; the VRH-vs-EM comparison is a cost comparison against a 24-hour CPLEX run. ^[inferred]
 - Production rate is fixed by the heuristic before routing, revenues from long-term contracts and spot sales are excluded, sailing times are constant (no time-dependent travel as in Rakke et al. 2011 and Stålhane et al. 2012), no chartering is allowed, spot sales use one potential spot vessel per day, and maintenance windows are assumed disjoint. ^[extracted]
 - The VRH parameter values in Table 2 ($r$, $\alpha$, $N_{max}$, $N_{imp}$, $L$) appear only as an image crop in the extracted markdown ($N_{imp} = 10$ and a three-minute limit are given in the text), so the full tested parameter grid needs PDF verification. ^[ambiguous]
 - Heuristic quality depends on contract ranking, reranking strategy and parameters, and reranking can loop without random reranking. ^[extracted]

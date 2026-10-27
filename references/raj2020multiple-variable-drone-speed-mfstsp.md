@@ -41,9 +41,9 @@ sources:
 summary: >-
   mFSTSP-VDS: truck + heterogeneous UAV fleet, cruise speed a decision variable, Liu 2017 power model. Three-phase heuristic; up to 22.2% makespan savings vs max speed.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.88
+  inferred: 0.10
+  ambiguous: 0.02
 base_confidence: 0.67
 tier: supporting
 lifecycle: draft
@@ -60,7 +60,7 @@ updated: 2026-10-26T10:43:50Z
 
 Raj & Murray extend the [[concepts/multiple-flying-sidekicks-traveling-salesman-problem|mFSTSP]] of Murray & Raj (2020) into the **mFSTSP-VDS**: one truck plus a fleet $V$ of **heterogeneous UAVs** (differing payload capacity $\kappa_v$, battery power, maximum speed $\nu_v^{\max}$) deliver parcels to customers $C=\{1,\dots,c\}$ (parcel weight $w_j$), starting and ending at depots 0 and $c+1$ (which may be physically distinct), minimizing total mission time (makespan). The novel twist: **UAV cruise speeds are decision variables** — the first truck-and-UAV makespan model where speeds are chosen during the solution process, with different legs of the same UAV flying at different speeds (carrying a parcel vs flying empty).
 
-The motivation is physical: with the [[references/liu2017power|Liu et al. (2017) multi-rotor power model]], power consumption is nearly flat at low speed and grows nonlinearly at high speed, so endurance falls nonlinearly and range is an increasing function of speed at low speeds, decreasing at high speeds. Under the standard fixed-endurance assumption, the literature concludes that faster UAVs never hurt (Murray & Chu 2015; Agatz 2018; Boysen 2018; Poikonen 2019; Schermer 2019) — that conclusion collapses once endurance depends on speed and payload. Only Dukkanci et al. (2019) had treated speed as a decision variable before, in a cost-minimization model where the truck never delivers; mFSTSP-VDS is the first where both truck and drones deliver.
+The motivation is physical: with the [[references/liu2017power|Liu et al. (2017) multi-rotor power model]], power consumption is nearly flat at low speed and grows nonlinearly at high speed, so endurance falls nonlinearly and range is an increasing function of speed at low speeds, decreasing at high speeds. Under the standard fixed-endurance assumption, the literature concludes that faster UAVs never hurt (Murray & Chu 2015; Agatz 2018; Boysen 2018; Poikonen 2019; Schermer 2019) — that conclusion collapses once endurance depends on speed and payload. Only Dukkanci et al. (2019) had treated speed as a decision variable before, in a cost-minimization model where the truck never delivers; mFSTSP-VDS is the first where both truck and drones deliver. ^[inferred]
 
 ![[_papers/raj2020multiple/images/page_2_chart_2.jpg]]
 
@@ -166,7 +166,7 @@ Fig. 5. UAV range at various speeds.
 
 Fig. 6. Comparison of improvements afforded by maximum drone speeds, maximum-range drone speeds, and variable drone speeds over optimal TSP solutions without any drones.
 
-**Speeds, cost, energy** (Tables 6–8): VDS average speed sits between the two fixed cases (with parcel: e.g. 100 customers at 40 m/s — MS 40.0, MRS 18.8, VDS 23.2 m/s; empty: 40.0 / 14.0 / 20.1). VDS average speed barely moves when max speed rises from 20 to 40 m/s → investing in fast UAVs is not always worthwhile; speeds are higher with a parcel because max-range speed grows with payload. Truck distance falls up to **30.7%** vs max speed and **10.5%** vs max range (best cells: 25 customers at 40 m/s 151.5 → 105.0 km; 100 at 40 m/s 205.9 → 162.9 km); average truck-distance savings of 9.5 miles/day vs max speed and 3.9 miles vs max range translate, on the quoted UPS $50M-per-mile-per-driver rule, to **$475M and $195M annually**. Truck waiting drops vs max range in all cases (up to 52.7%) and vs max speed in most. UAV energy per sortie falls vs max speed (up to 25.6%, 100 customers at 40 m/s: 389.8 → 289.9 kJ; max range is always most efficient), and UAV loiter time falls vs both fixed cases (up to 64.1%) — less noise and vandalism exposure for hovering drones.
+**Speeds, cost, energy** (Tables 6–8): VDS average speed sits between the two fixed cases (with parcel: e.g. 100 customers at 40 m/s — MS 40.0, MRS 18.8, VDS 23.2 m/s; empty: 40.0 / 14.0 / 20.1). VDS average speed barely moves when max speed rises from 20 to 40 m/s → investing in fast UAVs is not always worthwhile; speeds are higher with a parcel because max-range speed grows with payload. Truck distance falls up to **30.7%** vs max speed and **10.5%** vs max range (best cells: 25 customers at 40 m/s 151.5 → 105.0 km; 100 at 40 m/s 205.9 → 162.9 km); average truck-distance savings of 9.5 miles/day vs max speed and 3.9 miles vs max range translate, on the quoted UPS $50M-per-mile-per-driver rule, to **$475M and $195M annually**. Truck waiting drops vs max range in all cases (up to 52.7%) and vs max speed in most. UAV energy per sortie falls vs max speed (up to 25.6%, 100 customers at 40 m/s: 389.8 → 289.9 kJ; max range is always most efficient), and UAV loiter time falls vs both fixed cases (up to 64.1%) — less noise and vandalism exposure for hovering drones. ^[inferred]
 
 ![[_papers/raj2020multiple/images/page_16_chart_4.jpg]]
 
@@ -178,7 +178,7 @@ Fig. 6. Comparison of improvements afforded by maximum drone speeds, maximum-ran
 
 Fig. 7. Comparison of improvements afforded by variable drone speeds for different service areas with 50 customers. Numbers above each boxplot represent the mean value.
 
-**Customer density** (Set 2, Fig. 7): savings over max speed grow with service area — in dense regions launch/retrieval points are close, so max-speed UAVs never run out of battery; in sparse regions slower flight buys the range to reach distant customers. Savings over max range also grow with area, because in large regions max-range-speed sorties take long and cause truck waiting that the VDS heals by speeding up.
+**Customer density** (Set 2, Fig. 7): savings over max speed grow with service area — in dense regions launch/retrieval points are close, so max-speed UAVs never run out of battery; in sparse regions slower flight buys the range to reach distant customers. Savings over max range also grow with area, because in large regions max-range-speed sorties take long and cause truck waiting that the VDS heals by speeding up. ^[inferred]
 
 **Heuristic performance on mFSTSP** (Table 9, 1600 public Murray & Raj instances, cruise speeds fixed to disable Phase-3 speed edits): average improvement 1.93% (8c), 1.93% (10c), 1.20% (25c), 0.77% (50c), 1.13% (100c); better-or-equal solutions on 141/241, 172/278, 176/185, 178/178, 202/202 of 320 instances (strict/bolded counts as printed: e.g. 10c: 172 better, 278 better-or-equal); run time is lower for 50-customer (28.07 s vs 39.55 s) and 100-customer (394.28 s vs 582.25 s) problems, higher for small ones (0.18 vs 0.10 s at 8c). Against the 212 optimal 8-customer solutions: average gap **2.3% vs 5.0%**, max gap **23.3% vs 44.2%**, **61 of 212 vs 51 of 212** optima found — the new heuristic is the state of the art for both mFSTSP and mFSTSP-VDS. ^[ambiguous] — Table 9's "(241)"-style second numbers are printed parenthetically in the source; their exact semantics (better vs better-or-equal split) is as rendered.
 
@@ -189,7 +189,7 @@ Variable speed helps whenever the maximum allowable speed exceeds the maximum-ra
 ## Related
 
 - [[references/murray2020-multiple-flying-sidekicks-tsp]] — the mFSTSP base paper this extends.
-- [[concepts/drone-speed-selection-in-routing]] — the speed-as-decision-variable concept this paper implements.
+- [[concepts/drone-speed-selection-in-routing]] — the speed-as-decision-variable concept this paper implements. ^[inferred]
 - [[references/liu2017power]] — the multi-rotor power model underlying the endurance equations.
 - [[concepts/nonlinear-drone-energy-function-in-routing]], [[concepts/payload-induced-drone-battery-consumption-rate]] — energy-model genealogy.
 - [[references/murray2015flying]] — FSTSP/PDSTSP origin of the family.

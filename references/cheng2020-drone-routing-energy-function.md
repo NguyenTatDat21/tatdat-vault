@@ -21,9 +21,9 @@ sources:
   - _papers/cheng2020drone/images/page_7_chart_2.jpg
 summary: Formulates multi-trip drone routing with nonlinear payload-dependent energy and solves it via branch-and-cut with logical and subgradient cuts.
 provenance:
-  extracted: 0.92
-  inferred: 0.06
-  ambiguous: 0.02
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -66,7 +66,7 @@ Reported findings include:
 
 ## Limitations
 
-The paper notes that the energy model omits some effects (e.g., takeoff/landing detail, wind/speed factors) and uses small-drone parameterization, which may underrepresent newer production delivery platforms.
+The paper notes that the energy model omits some effects (e.g., takeoff/landing detail, wind/speed factors) and uses small-drone parameterization, which may underrepresent newer production delivery platforms. ^[inferred]
 
 ## Bibliographic Record
 

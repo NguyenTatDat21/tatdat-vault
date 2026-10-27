@@ -27,9 +27,9 @@ sources:
 summary: >-
   ROCE = RNOA + FLEV·SPREAD = PM·ATO + FLEV·SPREAD, and RNOA = ROOA + OLLEV·OLSPREAD; median 1963–1999 FLEV 0.40, OLLEV 0.35, SPREAD 3.9%, OLSPREAD 3.4%.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.86
+  inferred: 0.14
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
@@ -58,14 +58,14 @@ Firms with more operating liability leverage have less financial leverage (Spear
 
 $$RNOA=ROOA+OLLEV\cdot OLSPREAD,\qquad OLLEV=\frac{OL}{NOA},\quad OLSPREAD=ROOA-\frac{io}{OL}$$
 
-$ROOA=(OI+io)/OA$ is return on operating assets, where $io$ is **implicit interest** on operating liabilities — trade credit is not interest-bearing, so the borrowing rate (net of the interest earned on assets in the same liabilities) is not observable and must be estimated, conventionally with the short-term borrowing rate plus the net interest cost on pension liabilities. Because liabilities are measured as gross amounts, **asset turnover is overstated** when operating liabilities are large; the source's remedy is an asset-base turnover $ATO^{*}=Sales/OA$ with a correspondingly adjusted margin. Economically, firms earn free financing from customers (deferred delivery), employees (deferred wages, pension liabilities, employee stock options), and the government (deferred taxes); recognising the **liability** side of these transactions — deferred taxes, deferred investment tax credits, pension liabilities, employee stock options — is the accounting requirement, and the leverage from employee obligations is substantial. Median $OLLEV$ 0.44, median $OLSPREAD$ 3.4%, with $FLEV$–$OLLEV$ correlation $-0.26$ and $OLLEV$–$ATO$ 0.60, $OLLEV$–$PM$ $-0.21$ (low-margin firms carry more trade credit).
+$ROOA=(OI+io)/OA$ is return on operating assets, where $io$ is **implicit interest** on operating liabilities — trade credit is not interest-bearing, so the borrowing rate (net of the interest earned on assets in the same liabilities) is not observable and must be estimated, conventionally with the short-term borrowing rate plus the net interest cost on pension liabilities. Because liabilities are measured as gross amounts, **asset turnover is overstated** when operating liabilities are large; the source's remedy is an asset-base turnover $ATO^{*}=Sales/OA$ with a correspondingly adjusted margin. Economically, firms earn free financing from customers (deferred delivery), employees (deferred wages, pension liabilities, employee stock options), and the government (deferred taxes); recognising the **liability** side of these transactions — deferred taxes, deferred investment tax credits, pension liabilities, employee stock options — is the accounting requirement, and the leverage from employee obligations is substantial. Median $OLLEV$ 0.44, median $OLSPREAD$ 3.4%, with $FLEV$–$OLLEV$ correlation $-0.26$ and $OLLEV$–$ATO$ 0.60, $OLLEV$–$PM$ $-0.21$ (low-margin firms carry more trade credit). ^[inferred]
 
 ## Ratio hygiene the decomposition implies
 
 - $RNOA$ (= return on invested capital) is not $ROTA$: $ROTA$ mixes financial assets into the denominator and ignores operating liabilities. Median $ROTA$ 6.8% vs median $RNOA$ 10.0%; $RNOA>ROTA$ at mean and median, and for almost half of firm-years $|RNOA-ROTA|>3\%$ (rank correlation 0.94, so the two move together but at different levels).
 - $ROCE$ on total capital (including minority interest) is $ROTCE$; $ROCE=ROTCE\cdot MSR$ with median $MSR$ 1.00, so the minority adjustment is small for the median firm.
-- The **core** version of each driver separates items expected to repeat from unusual items (currency gains, pension non-service income, nonrecurring gains/losses, revaluation, restructuring, goodwill amortization); core ratios are the forecasting objects (median Core Sales PM 5.1% vs Sales PM 5.4%; median Core RNOA 9.4% vs RNOA 10.0%).
-- Book value is driven by sales, asset turnover and leverage: $CSE=Sales\cdot(1/ATO)\cdot(1/(1+FLEV))$, so growth in book value is growth in sales scaled by turnover and leverage — asset turnover in turn drives asset growth (and inflation-adjusted historical cost understates assets of high-turnover firms, so high-turnover firms show higher measured asset growth).
+- The **core** version of each driver separates items expected to repeat from unusual items (currency gains, pension non-service income, nonrecurring gains/losses, revaluation, restructuring, goodwill amortization); core ratios are the forecasting objects (median Core Sales PM 5.1% vs Sales PM 5.4%; median Core RNOA 9.4% vs RNOA 10.0%). ^[inferred]
+- Book value is driven by sales, asset turnover and leverage: $CSE=Sales\cdot(1/ATO)\cdot(1/(1+FLEV))$, so growth in book value is growth in sales scaled by turnover and leverage — asset turnover in turn drives asset growth (and inflation-adjusted historical cost understates assets of high-turnover firms, so high-turnover firms show higher measured asset growth). ^[inferred]
 - Seven drivers of $ROCE$: Sales PM, ATO, Other Items/NOA, FLEV, NBC (SPREAD), OLLEV, MSR; three drivers of growth in book value: Sales, ATO, FLEV.
 - The **unlevered** reduction ($ReOI$ with $\rho_W$) collapses the driver set to Sales PM, ATO, Other Items/NOA, OLLEV plus Sales and ATO, and is valid only when financial items are at fair value.
 

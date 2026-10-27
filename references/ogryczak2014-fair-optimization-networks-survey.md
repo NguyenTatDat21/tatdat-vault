@@ -42,8 +42,8 @@ sources:
 summary: >-
   Survey of inequality-averse fair optimization: fair-dominance axioms, OWA and alpha-fairness aggregations, lexicographic maximin algorithms, price-of-fairness bounds for networks and location.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
+  extracted: 0.93
+  inferred: 0.02
   ambiguous: 0.05
 base_confidence: 0.67
 lifecycle: draft
@@ -104,7 +104,7 @@ Figure 1 shows the fair dominance structure in a two-dimensional outcome space: 
 
 $$\bar{\theta}_k = \max_t \left( k t - \sum_i \max\{t - y_i, 0\}\right)$$
 
-Maximizing the *sum of the k smallest* outcomes is therefore an LP with auxiliary continuous variables and no binaries, while maximizing the `k`th smallest outcome alone is combinatorially hard.
+Maximizing the *sum of the k smallest* outcomes is therefore an LP with auxiliary continuous variables and no binaries, while maximizing the `k`th smallest outcome alone is combinatorially hard. ^[inferred]
 
 Counting-function formulation for nonconvex (0-1) lexicographic maximin with few distinct targets `τ_1 < … < τ_r` (24):
 

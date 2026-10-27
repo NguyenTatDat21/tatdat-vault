@@ -24,9 +24,9 @@ sources:
 summary: >-
   Swarm synchronization: drones couple and decouple at nodes, serve over-capacity customers with simultaneous arrival, split delivery, detours, multi trips; defined by DRP-SS (Li, Wang & Zhan 2024).
 provenance:
-  extracted: 0.8
-  inferred: 0.15
-  ambiguous: 0.05
+  extracted: 0.93
+  inferred: 0.07
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
@@ -60,7 +60,7 @@ Solved by a MILP plus an ALNS with detour and multi-trip operators (see [[concep
 - [[concepts/exact-multitrip-vrptw-framework]] — multi-trip VRPTW lineage
 - [[concepts/large-neighborhood-search]] — the ALNS shell
 - [[concepts/simulated-annealing-metropolis-cooling]] — acceptance in the ALNS
-- [[concepts/collective-drone-delivery]] — c-drones couple at the depot, so the order of services in a drone tour matters
+- [[concepts/collective-drone-delivery]] — c-drones couple at the depot, so the order of services in a drone tour matters ^[inferred]
 
 ## Sources
 

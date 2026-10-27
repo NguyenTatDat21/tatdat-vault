@@ -23,9 +23,9 @@ sources:
 summary: >-
   Across 20 countries and 62,027 firm-years, the accrual anomaly concentrates in common-law markets (AU, CA, UK, US) plus ADRs, best explained by earnings management and limits to arbitrage.
 provenance:
-  extracted: 0.86
-  inferred: 0.11
-  ambiguous: 0.03
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
@@ -69,7 +69,7 @@ Abnormal returns tests (Section IV) follow Fama & MacBeth (1973): zero-investmen
 ## Limitations
 
 - Country-level regressions have severe multicollinearity among institutional factors; Logit/probit models failed to converge on 17 countries; the analysis is exploratory (Bushman & Smith 2001: cross-country designs are descriptive, causal claims problematic).
-- Power varies: Sweden needs a doubling, India/Switzerland a quadrupling of samples to detect their (negative, significant) abnormal-return coefficients.
+- Power varies: Sweden needs a doubling, India/Switzerland a quadrupling of samples to detect their (negative, significant) abnormal-return coefficients. ^[inferred]
 - Balance-sheet accruals carry measurement error (Hribar & Collins 2002, SFAS 95); robustness samples dropping acquisition-method years leave results virtually unchanged.
 - OCF and earnings underweighting are left to future research; earnings management via transaction structuring (Jian & Wong 2004) is offered as a conjecture, not tested.
 
@@ -79,11 +79,11 @@ The extracted markdown has zero image embeds; images/ holds 37 table/equation cr
 
 ## Related
 
-- [[references/ball2016-accruals-cash-flows-operating-profitability]] — ball2016 tests CbOP against the accrual anomaly the same way pincus2007 tests OCF; the OCF subsumption here is the same finding in a 20-country setting.
+- [[references/ball2016-accruals-cash-flows-operating-profitability]] — ball2016 tests CbOP against the accrual anomaly the same way pincus2007 tests OCF; the OCF subsumption here is the same finding in a 20-country setting. ^[inferred]
 - [[references/beatty2014-financial-accounting-in-banking]] — earnings management via discretionary reporting, the same mechanism pincus2007 identifies for accruals, in the regulated bank setting.
 - [[references/brown2007-negative-book-equity-stocks]] — style-portfolio construction from merged CRSP/COMPUSTAT data, using the Fama-French sorting machinery this paper's zero-investment portfolios parallel.
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]] — the portfolio-formation + cross-sectional-regression template pincus2007 applies country-by-country (Eq. 6, GMM).
-- [[concepts/cash-based-operating-profitability]] — the cash-versus-accrual valuation gap that OCF underweighting measures directly.
+- [[concepts/cash-based-operating-profitability]] — the cash-versus-accrual valuation gap that OCF underweighting measures directly. ^[inferred]
 - [[concepts/residual-earnings-equity-valuation]] — the accrual-valuation model behind the anomaly
 - [[references/ozili2017-bank-loan-loss-provisions-review]] — ozili2017 reviews earnings-management-driven loan loss provisioning in banks, the bank-side analogue of pincus2007's earnings-management explanation for the accrual anomaly.
 

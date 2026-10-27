@@ -29,9 +29,9 @@ sources:
   - _papers/dorling2017vehicle/images/page_13_chart_14.jpg
 summary: "Adds a measured linear multirotor power model, battery weight as payload, drone reuse, and per-route battery optimization to VRP, with two Dantzig-Wolfe MILP variants and simulated annealing."
 provenance:
-  extracted: 0.90
-  inferred: 0.08
-  ambiguous: 0.02
+  extracted: 0.91
+  inferred: 0.09
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -72,7 +72,7 @@ where `m` is battery+payload mass, `\alpha` is marginal power-per-kg, and `\beta
 The paper reports fitted values (hexacopter setting) around:
 - $\alpha \approx 46.7$ W/kg
 - $\beta \approx 26.9$ W
-- The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest difference 6.3 W; widening $m$ to 0–10 kg raises mean percent error to 12.8% and the largest difference to about 51 W, so the approximation should not be extrapolated to heavier payloads.
+- The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest difference 6.3 W; widening $m$ to 0–10 kg raises mean percent error to 12.8% and the largest difference to about 51 W, so the approximation should not be extrapolated to heavier payloads. ^[inferred]
 
 ![[_papers/dorling2017vehicle/images/page_3_chart_1.jpg]]
 
@@ -98,7 +98,7 @@ The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest d
 
 ## Optimization Pattern
 
-- MILP captures routing, reuse, timing, energy, capacity, and budget constraints.
+- MILP captures routing, reuse, timing, energy, capacity, and budget constraints. ^[inferred]
 - SA explores string-based solutions `s = [0 r1 0 r2 0 … rR 0]`, where `0` is the depot and neighbouring zeros mark empty routes, using swap, relocate, and 2-opt moves with Metropolis acceptance (initial temperature Υ₀ = 1, final Υ′ = 0.001, cooling μ = 0.9, Λ = 1000 rounds per cooling phase).
 - Per-route battery weight is found by binary search on the route cost function, and discrete battery sizes turn the choice into a minimum knapsack problem.
 
@@ -125,7 +125,7 @@ The linear fit over $0 \le m \le 3$ kg has mean percent error 3.1% and largest d
 - The linear power model is fitted over 0–3 kg: mean percent error 3.1% and largest difference 6.3 W. Widening the fit to 0–10 kg raises mean percent error to 12.8% and the largest difference to about 51 W, so the approximation should not be extrapolated to heavier payloads.
 - Weather, wind, battery aging, and maintenance costs are ignored, batteries are assumed purchased fully charged, recharging is handled by the depot, and multiple depots are not modelled. ^[extracted]
 - Hover power is an upper bound on flight power because translational lift reduces required power, so energy estimates are conservative. ^[extracted]
-- Battery-reuse experiments for the time-minimizing variant were not reported for budgets below $35,000 because the solver found no solutions. ^[extracted]
+- Battery-reuse experiments for the time-minimizing variant were not reported for budgets below $35,000 because the solver found no solutions. ^[extracted] ^[inferred]
 - Per-route battery optimization can be less effective for small areas and low node counts. ^[extracted]
 
 ## Related

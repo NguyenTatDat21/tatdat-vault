@@ -59,8 +59,8 @@ sources:
 summary: >-
   FSTSP: truck+UAV tandem with 3-node sortie triples, 32-constraint MILP, route-and-re-assign heuristic; PDSTSP: depot-launched UAV fleet. Gaps 0.12–10.68% on 720 instances.
 provenance:
-  extracted: 0.86
-  inferred: 0.11
+  extracted: 0.88
+  inferred: 0.09
   ambiguous: 0.03
 base_confidence: 0.67
 tier: supporting
@@ -138,13 +138,13 @@ $$t_k \ge t_i + \tau_{ij} + s_L + s_R - M(1 - y_{ijk}) \quad (\text{truck time i
 
 $$t_k \ge t_i + \tau_{ij} x_{ij}, \quad u_i - u_j + (c+2) x_{ij} \le c+2 \quad (\text{truck flow, subtour elimination})$$
 
-Worked example of constraint (18): truck reaches $k$ at 9, UAV at 11, $s_R = 1$ ⇒ $t_k = t'_k = 12$ (truck waits for UAV recovery). Big-M is set from a nearest-neighbor truck route upper bound. NP-hard: MILP solvers "may require several hours to solve … for seemingly simple 10-customer problems."
+Worked example of constraint (18): truck reaches $k$ at 9, UAV at 11, $s_R = 1$ ⇒ $t_k = t'_k = 12$ (truck waits for UAV recovery). Big-M is set from a nearest-neighbor truck route upper bound. NP-hard: MILP solvers "may require several hours to solve … for seemingly simple 10-customer problems." ^[inferred]
 
 ## Route and re-assign heuristic (Algorithms 1–5)
 
-Algorithm 1: solve the TSP over all customers (truck route, times $t$); loop over each $j \in C'$ computing savings, then cost of serving $j$ by truck re-insertion (`calcCostTruck`) or UAV (`calcCostUAV`); `performUpdate` implements the maximum-savings move; stop when no positive savings remain.
+Algorithm 1: solve the TSP over all customers (truck route, times $t$); loop over each $j \in C'$ computing savings, then cost of serving $j$ by truck re-insertion (`calcCostTruck`) or UAV (`calcCostUAV`); `performUpdate` implements the maximum-savings move; stop when no positive savings remain. ^[inferred]
 
-- **Savings (Alg. 2)**: removing $j$ from between truck nodes $i,k$ saves $\tau_{i,j} + \tau_{j,k} - \tau_{i,k}$; if $j$ lies inside a UAV-paired subroute $[a..b]$, savings are capped by $t'_{[b]} - (t_{[a]} + \tau'_{a,j'} + \tau'_{j',b} + s_R)$ — the UAV must fly the replacement sortie within the existing round-trip window.
+- **Savings (Alg. 2)**: removing $j$ from between truck nodes $i,k$ saves $\tau_{i,j} + \tau_{j,k} - \tau_{i,k}$; if $j$ lies inside a UAV-paired subroute $[a..b]$, savings are capped by $t'_{[b]} - (t_{[a]} + \tau'_{a,j'} + \tau'_{j',b} + s_R)$ — the UAV must fly the replacement sortie within the existing round-trip window. ^[inferred]
 - **Truck re-insertion (Alg. 3)**: insert $j$ between $i,k$; cost $= \tau_{i,j} + \tau_{j,k} - \tau_{i,k}$; net $=$ savings $-$ cost; feasibility $t_{[b]} - t_{[a]} + \mathrm{cost} \le e$.
 - **UAV assignment (Alg. 4)**: for node pairs $i \prec k$ in a non-UAV subroute with $\tau'_{i,j} + \tau'_{j,k} \le e$: cost $= \max\{0,\ \max\{(t'_{[k]}-t_{[i]}) + s_L + s_R,\ \tau'_{i,j}+\tau'_{j,k}+s_L+s_R\} - (t'_{[k]}-t_{[i]})\}$ — i.e. the extra time the truck must spend waiting for the UAV.
 
@@ -160,7 +160,7 @@ Fig. 4. A notional example to demonstrate the FSTSP heuristic. Nodes 0 and 7 rep
 
 ## PDSTSP formulation & heuristic
 
-Structure: the truck route is a TSP over the truck-served subset; assigning depot-range customers $C'' \subseteq C'$ ($\tau'_{0,i} + \tau'_{i,c+1} \le e$) to $V$ UAVs is parallel identical machine scheduling (PMS) minimizing makespan, jobs = customers with processing time = UAV round-trip flight time. The partition choice couples two NP-hard subproblems; PMS literature: Min & Cheng (1999) GA, Xu & Nagi (2013) exact column generation. Heuristic (Algorithms 6–7): start with all $C''$ on UAVs, solve PMS (binary IP or LPT — sort descending, assign longest to the first available UAV, Pinedo 2012 ch. 5) and TSP; iteratively move the customer with greatest net savings out of the makespan-determining partition; fall back to pairwise swaps between partitions; stop when nothing improves.
+Structure: the truck route is a TSP over the truck-served subset; assigning depot-range customers $C'' \subseteq C'$ ($\tau'_{0,i} + \tau'_{i,c+1} \le e$) to $V$ UAVs is parallel identical machine scheduling (PMS) minimizing makespan, jobs = customers with processing time = UAV round-trip flight time. The partition choice couples two NP-hard subproblems; PMS literature: Min & Cheng (1999) GA, Xu & Nagi (2013) exact column generation. Heuristic (Algorithms 6–7): start with all $C''$ on UAVs, solve PMS (binary IP or LPT — sort descending, assign longest to the first available UAV, Pinedo 2012 ch. 5) and TSP; iteratively move the customer with greatest net savings out of the makespan-determining partition; fall back to pairwise swaps between partitions; stop when nothing improves. ^[inferred]
 
 ## Numerical experiments
 
@@ -204,7 +204,7 @@ IP/IP's 0.12% average gap = 0.09 min over optimal (10c); 0.22% = 0.24 min (20c);
 
 Fig. 6. Solution quality for variants of the PDSTSP heuristic on combined 10- and 20-customer problems. The gap is based on the best solution obtained by Gurobi within the time limit.
 
-**§5.3 Speed vs endurance** (see [[concepts/drone-speed-selection-in-routing]]) — 90 unique problems, 25/50/75 customers, 9 speed/endurance combinations from 20 mph & 20 min to 40 mph & 40 min, truck 25 mph, savings+LPT. Faster UAVs dominate longer endurance: a 13.33-mile flight range at 40 mph × 20 min outperforms 20 mph × 40 min; the jump from 30 to 40 mph at 20 min endurance is dramatic. Low speeds cap the number of eligible customers the UAV can serve. FSTSP benefits less than PDSTSP because its tight synchronization limits exploitation; relaxing rendezvous restrictions may yield more savings.
+**§5.3 Speed vs endurance** (see [[concepts/drone-speed-selection-in-routing]]) — 90 unique problems, 25/50/75 customers, 9 speed/endurance combinations from 20 mph & 20 min to 40 mph & 40 min, truck 25 mph, savings+LPT. Faster UAVs dominate longer endurance: a 13.33-mile flight range at 40 mph × 20 min outperforms 20 mph × 40 min; the jump from 30 to 40 mph at 20 min endurance is dramatic. Low speeds cap the number of eligible customers the UAV can serve. FSTSP benefits less than PDSTSP because its tight synchronization limits exploitation; relaxing rendezvous restrictions may yield more savings. ^[inferred]
 
 ![[_papers/murray2015flying/images/page_16_chart_8.jpg]]
 
@@ -272,7 +272,7 @@ Fig. 11. Only two customers are within the UAV flight radius from a remotely-loc
 
 ## Limitations & future work
 
-MILP solves only small instances optimally. Authors propose relaxing launch/return at the same location, rendezvous at non-customer locations, multiple UAVs and trucks, integrating FSTSP+PDSTSP, local search on Algorithm 6 lines 29–34, simulated annealing/tabu search, lower bounds via constraint relaxation, and a cost-based objective. Acknowledgements: Eddie Robison Rivera, EIC Yafeng Yin, two reviewers. The FSTSP defined here is the single-sidekick base for [[concepts/multiple-flying-sidekicks-traveling-salesman-problem]] (Murray 2020); the PDSTSP seeds [[concepts/parallel-drone-scheduling-traveling-salesman-problem]] (solved later by Ants/HACO, ALNS matheuristics, CP).
+MILP solves only small instances optimally. Authors propose relaxing launch/return at the same location, rendezvous at non-customer locations, multiple UAVs and trucks, integrating FSTSP+PDSTSP, local search on Algorithm 6 lines 29–34, simulated annealing/tabu search, lower bounds via constraint relaxation, and a cost-based objective. Acknowledgements: Eddie Robison Rivera, EIC Yafeng Yin, two reviewers. The FSTSP defined here is the single-sidekick base for [[concepts/multiple-flying-sidekicks-traveling-salesman-problem]] (Murray 2020); the PDSTSP seeds [[concepts/parallel-drone-scheduling-traveling-salesman-problem]] (solved later by Ants/HACO, ALNS matheuristics, CP). ^[inferred]
 
 ## Related
 

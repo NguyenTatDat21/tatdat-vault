@@ -27,8 +27,8 @@ sources:
 summary: >-
   Handbook chapter defining ILS: walk over local optima via perturbation + acceptance; design rules for the four modules, speed advantage, applications, relations to other metaheuristics.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
+  extracted: 0.94
+  inferred: 0.03
   ambiguous: 0.03
 base_confidence: 0.67
 lifecycle: draft
@@ -93,7 +93,7 @@ LSMC accepts worse solutions with probability `exp((C(s*) − C(s*′))/T)` (sim
 - **Speed factor (Table 2)**, local searches per 120 s, 3-opt with don't-look bits, single double-bridge: kroA100 17,507 (random restart) vs 56,186 (ILS); rl5915 34 vs 8,820 — 260× more local searches on the largest instance; five simultaneous double-bridges sit between.
 - **TSP acceptance quality (Table 3)**, average % over optimum: fl3795 — RR 38.8, RW 1.87, Better 0.58; rl5915 — RR 6.90, RW 2.13, Better 0.66; Better beats RW, both crush random restart.
 - **QAP (Tables 1, 4)**: with Better only, a weak perturbation can be worse than random restart; adding RW/Restart acceptance rescues ILS (e.g. tai60b, n/2: Better 0.50, RW 0.14, Restart 0.07).
-- **Initial solution (Fig. 3, PFSP instances ta051/ta056)**: NEH greedy starts win for short runs; over long runs the dependence fades; persistent dependence means the walk struggles to explore `S*`.
+- **Initial solution (Fig. 3, PFSP instances ta051/ta056)**: NEH greedy starts win for short runs; over long runs the dependence fades; persistent dependence means the walk struggles to explore `S*`. ^[inferred]
 - Applications surveyed: TSP (iterated Lin-Kernighan, Concorde chained LK, Helsgaun LKH, Merz–Huhse for millions of cities), VRP family (prize-collecting, time-penalty, heterogeneous fleet, backhauls, split delivery, multi-commodity multi-trip, two-echelon LRP, bike rebalancing, matheuristic + column generation), scheduling (SMTWTP dynasearch, PFSP/iterated greedy, job shop with subproblem re-optimization perturbations, shifting-bottleneck GLS), QAP population-based ILS as state of the art, MAX-SAT reactive search, graph bipartitioning (Kernighan–Lin with island exchanges), coloring, continuous optimization (Powell's method; Liao–Stützle competition winner), SimILS for stochastic problems, and ParamILS itself being an ILS over parameter space.
 
 ![[_papers/lourenco2019iterated/images/page_9_chart_0.jpg]]

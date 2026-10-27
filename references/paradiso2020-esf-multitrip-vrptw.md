@@ -18,9 +18,9 @@ sources:
 summary: >-
   Proposes a structure-based exact framework (ESF) for multitrip VRP with time windows, combining strong lower bounds and branch-and-cut to solve larger instances than prior exact methods.
 provenance:
-  extracted: 0.86
-  inferred: 0.11
-  ambiguous: 0.03
+  extracted: 0.88
+  inferred: 0.08
+  ambiguous: 0.04
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
@@ -37,7 +37,7 @@ updated: 2026-10-25T03:40:00Z
 
 The work studies capacitated multitrip VRP with time windows (CMTVRPTW) and four variants (loading times, limited trip duration, release dates, and drone-routing adaptation).
 
-Prior exact methods could struggle even at ~25 customers; the paper targets stronger scalability and a unifying exact framework.
+Prior exact methods could struggle even at ~25 customers; the paper targets stronger scalability and a unifying exact framework. ^[inferred]
 
 ## Method / Architecture
 
@@ -67,7 +67,7 @@ The paper identifies structure enumeration as the practical bottleneck for the h
 
 ## Limitations
 
-- Exact scalability still degrades on hardest 50-customer and release-date-heavy groups.
+- Exact scalability still degrades on hardest 50-customer and release-date-heavy groups. ^[inferred]
 - Some section labels/tables in extracted text show OCR/format artifacts, so a few tabular details should be cross-checked against the PDF appendix. ^[ambiguous]
 
 ## Related

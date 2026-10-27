@@ -27,9 +27,9 @@ sources:
 summary: >-
   Rolling horizon heuristic for the LNG annual delivery program: MIP over a priori scheduled voyages, central+forecasting windows, SSR, improvement heuristic; 10.33% avg gap.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 base_confidence: 0.67
 tier: supporting
 lifecycle: draft
@@ -90,7 +90,7 @@ Four cases: A and B reflect the current situation (fewer/smaller ships, lower pr
 
 ## Conclusions & future work
 
-Five success factors for the RHH: (1) penalties are critical (extensive parameter testing); (2) central-period voyage variables should stay binary, forecasting-period ones continuous; (3) forecasting period = twice the central period; (4) SSR improves both time and quality; (5) the improvement heuristic adds 2–10%. The RHH produces high-quality ADPs for real instances in a relatively short, user-controllable time, making it well suited to a decision support system (the faster CIH of Stålhane et al. 2009 remains valuable when little time is available). Future work: exact methods with decomposition and problem-specific cuts, stronger formulations against symmetry, re-optimization of a partially fixed ADP after disruptions, robust ADPs against disruptions, contract-portfolio and asset-investment planning. Funded by the Research Council of Norway (OPTIMAR, DOMinant, Desimal Projects).
+Five success factors for the RHH: (1) penalties are critical (extensive parameter testing); (2) central-period voyage variables should stay binary, forecasting-period ones continuous; (3) forecasting period = twice the central period; (4) SSR improves both time and quality; (5) the improvement heuristic adds 2–10%. The RHH produces high-quality ADPs for real instances in a relatively short, user-controllable time, making it well suited to a decision support system (the faster CIH of Stålhane et al. 2009 remains valuable when little time is available). Future work: exact methods with decomposition and problem-specific cuts, stronger formulations against symmetry, re-optimization of a partially fixed ADP after disruptions, robust ADPs against disruptions, contract-portfolio and asset-investment planning. Funded by the Research Council of Norway (OPTIMAR, DOMinant, Desimal Projects). ^[inferred]
 
 ## Related
 

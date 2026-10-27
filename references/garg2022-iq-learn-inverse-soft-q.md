@@ -27,9 +27,9 @@ sources:
 summary: >-
   One soft-Q function encodes reward and policy so imitation learning needs no adversarial min-max; state-of-the-art offline/online returns, 0.99 reward correlation, and goal-shift generalization.
 provenance:
-  extracted: 0.85
-  inferred: 0.12
-  ambiguous: 0.03
+  extracted: 0.87
+  inferred: 0.05
+  ambiguous: 0.08
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
@@ -115,13 +115,13 @@ With 10 demos IQ is state-of-the-art in all five tasks (Humanoid 5288 vs 372 for
 
 Dynamics ablation: setting $\gamma=0$ (removing dynamics-awareness from the objective) destabilizes training on CartPole with a strong decay of returns, while $\gamma=0.99$ converges.
 
-Distribution shift: offline IQ **cannot** recover from an initial-state shift (the lander flies off frame); online IQ explores and lands with average reward 250 from 10 demos, first moving horizontally to the launch zone. Regularizing the reward on **both** expert and policy states is what enables this generalization.
+Distribution shift: offline IQ **cannot** recover from an initial-state shift (the lander flies off frame); online IQ explores and lands with average reward 250 from 10 demos, first moving horizontally to the launch zone. Regularizing the reward on **both** expert and policy states is what enables this generalization. ^[inferred]
 
 ## Limitations
 
 - Recovered rewards depend on environment dynamics, so rewards do not transfer trivially between tasks.
 - Deployment needs safety and uncertainty handling; errors in expert data propagate through the learned Q.
-- Offline IQ fails under initial-state distribution shift, and reward quality degrades in visually complex Atari games (Pong 0.67).
+- Offline IQ fails under initial-state distribution shift, and reward quality degrades in visually complex Atari games (Pong 0.67). ^[inferred]
 - Offline ILO with 1 demo is below expert level; 10 demos recover expert level only on simple environments.
 - Hyperparameters matter (discrete: batch 32, Q learning rate 1e-4, entropy coefficient 1e-2, 1e-3 optimal in some environments; continuous SAC: batch 256, critic/policy learning rates 3e-4, 3e-5 for complex tasks, soft target updates τ = 0.05); target networks gave no visible improvement in discrete training and slowed it down.
 - Preprint status (arXiv); the reported "3×" comparisons span settings whose baseline code differs per method. ^[ambiguous]
