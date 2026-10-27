@@ -42,11 +42,11 @@ provenance:
   inferred: 0.12
   ambiguous: 0.03
 base_confidence: 0.67
-tier: supporting
+tier: core
 lifecycle: draft
 lifecycle_changed: "2026-10-26T12:26:00Z"
 created: "2026-10-26T12:26:00Z"
-updated: "2026-10-26T12:26:00Z"
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Richards & Bhadury 1996 — Scheduling to Maximize Customer Satisfaction (Shad Valley)

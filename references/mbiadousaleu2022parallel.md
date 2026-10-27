@@ -61,7 +61,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
 tier: supporting
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # The parallel drone scheduling problem with multiple drones and vehicles (Mbiadou Saleu, Deroussi, Feillet, Grangeon & Quilliot, 2022)

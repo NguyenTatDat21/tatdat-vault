@@ -63,11 +63,11 @@ provenance:
   inferred: 0.09
   ambiguous: 0.03
 base_confidence: 0.67
-tier: supporting
+tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T04:15:04Z
 created: 2026-10-26T04:15:04Z
-updated: 2026-10-26T04:15:04Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # The flying sidekick traveling salesman problem (Murray & Chu, 2015)

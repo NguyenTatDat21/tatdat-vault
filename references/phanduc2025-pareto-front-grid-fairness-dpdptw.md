@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Pareto Front Grid Guided Multiobjective Optimization in Dynamic Pickup and Delivery with Two-Sided Fairness

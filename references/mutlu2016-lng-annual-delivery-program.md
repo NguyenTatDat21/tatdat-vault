@@ -37,9 +37,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)

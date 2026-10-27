@@ -35,9 +35,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
-tier: supporting
+tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-26T05:12:09Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Hierarchical Ratio System for Profitability and Growth

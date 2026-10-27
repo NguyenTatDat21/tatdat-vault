@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T20:21:34Z
+updated: 2026-10-27T21:07:18Z
 pages: 402
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] CROSS_LINK source=_papers/richards1996scheduling/richards1996scheduling-extra... pages_scanned=166 links_added=10 ...
-- [2026-10-26] INGEST source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_created=1 pages_updated=1 ...
-- [2026-10-26] CROSS_LINK source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_scanned=177 links_added=21 ...
+- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
+- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
+- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
 
 ## Active Threads
 

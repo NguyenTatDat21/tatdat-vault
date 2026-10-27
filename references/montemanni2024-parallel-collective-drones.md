@@ -27,9 +27,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-25T10:55:07Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Parallel Drone Scheduling Vehicle Routing Problems with Collective Drones

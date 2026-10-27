@@ -190,3 +190,6 @@ title: Wiki Log
 - [2026-10-26T17:14:35Z] CROSS_LINK source=_papers/richards1996scheduling/richards1996scheduling-extracted.md pages_scanned=166 links_added=10 typed_relations_written=8 pages_modified=7 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
 - [2026-10-26T18:31:51Z] INGEST source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_created=1 pages_updated=1 sources=1 mode=append
 - [2026-10-26T20:21:33Z] CROSS_LINK source=_papers/ropke2006adaptive/ropke2006adaptive-extracted.md pages_scanned=177 links_added=21 typed_relations_written=11 pages_modified=8 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0
+- [2026-10-27T20:50:28Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6
+- [2026-10-27T21:01:32Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6
+- [2026-10-27T21:07:18Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6

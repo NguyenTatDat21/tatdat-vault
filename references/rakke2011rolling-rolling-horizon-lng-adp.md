@@ -31,11 +31,11 @@ provenance:
   inferred: 0.04
   ambiguous: 0.00
 base_confidence: 0.67
-tier: supporting
+tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T10:43:50Z
 created: 2026-10-26T10:43:50Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # A rolling horizon heuristic for creating an LNG annual delivery program (Rakke et al., 2011)

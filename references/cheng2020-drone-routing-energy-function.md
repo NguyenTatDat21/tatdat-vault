@@ -27,9 +27,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-23T00:04:12Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Drone Routing with Nonlinear Energy Function (Cheng et al.)

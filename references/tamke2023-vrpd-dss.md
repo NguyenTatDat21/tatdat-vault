@@ -26,9 +26,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Vehicle Routing Problem with Drones and Drone Speed Selection (Tamke & Buscher, 2023)

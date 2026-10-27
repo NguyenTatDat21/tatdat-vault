@@ -45,11 +45,11 @@ provenance:
   inferred: 0.10
   ambiguous: 0.02
 base_confidence: 0.67
-tier: supporting
+tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T10:43:50Z
 created: 2026-10-26T10:43:50Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # The multiple flying sidekicks TSP with variable drone speeds (Raj & Murray, 2020)

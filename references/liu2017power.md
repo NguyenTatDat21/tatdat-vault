@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # A Power Consumption Model for Multi-Rotor Small Unmanned Aircraft Systems (Liu, Sengupta & Kurzhanskiy, 2017)

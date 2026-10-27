@@ -24,9 +24,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-22T08:44:14Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # k-Multi-Visit Drone Routing Problem (k-MVDRP)

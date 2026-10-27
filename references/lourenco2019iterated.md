@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Iterated Local Search: Framework and Applications (Lourenço, Martin & Stützle, 2019)

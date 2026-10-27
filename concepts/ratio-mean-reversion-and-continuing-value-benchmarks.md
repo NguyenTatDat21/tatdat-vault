@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: supporting
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-26T05:12:09Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Ratio Mean Reversion and Continuing-Value Benchmarks

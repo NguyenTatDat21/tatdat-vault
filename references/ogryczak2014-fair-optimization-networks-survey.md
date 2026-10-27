@@ -50,7 +50,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: supporting
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Fair Optimization and Networks: A Survey

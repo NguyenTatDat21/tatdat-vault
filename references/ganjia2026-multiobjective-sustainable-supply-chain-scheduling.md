@@ -32,9 +32,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Multi-Objective Sustainable Supply Chain Scheduling (Ganjia, Rabet, Sajadi & Daneshvar Kakhki, 2026)

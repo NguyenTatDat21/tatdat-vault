@@ -28,9 +28,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Min-cost Traveling Salesman Problem with Drone (Ha et al., 2018)

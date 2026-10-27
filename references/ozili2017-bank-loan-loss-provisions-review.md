@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T09:12:06Z
 tier: supporting
 created: 2026-10-26T09:12:06Z
-updated: 2026-10-26T09:12:06Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Bank Loan Loss Provisions Research: A Review
