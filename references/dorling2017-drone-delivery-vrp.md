@@ -1,7 +1,7 @@
 ---
 title: Vehicle Routing Problems for Drone Delivery (Dorling et al., 2017)
 category: references
-tags: [VRP, drone-delivery, multirotor-energy-model, battery-weight, simulated-annealing, Dantzig-Wolfe]
+tags: [vrp, drone-delivery, multirotor-energy-model, battery-weight, simulated-annealing, dantzig-wolfe]
 relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: uses
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Vehicle Routing Problems for Drone Delivery (Dorling et al., 2017)

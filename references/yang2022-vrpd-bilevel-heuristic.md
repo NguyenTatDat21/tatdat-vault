@@ -2,7 +2,7 @@
 title: >-
   Solving Vehicle Routing with Drones via Bi-level Heuristic (Yang et al., 2022)
 category: references
-tags: [paper, drones, vehicle-routing, heuristics, bilevel-optimization, ALNS]
+tags: [paper, drones, vehicle-routing, heuristics, bilevel-optimization, alns]
 relationships:
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
     type: uses
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Solving Vehicle Routing with Drones via Bi-level Heuristic (Yang et al., 2022)

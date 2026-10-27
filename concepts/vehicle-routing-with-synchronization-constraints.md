@@ -25,12 +25,12 @@ provenance:
   extracted: 0.86
   inferred: 0.12
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-25T21:21:36+00:00
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Vehicle Routing with Synchronization Constraints (VRPMS)

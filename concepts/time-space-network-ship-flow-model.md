@@ -56,12 +56,12 @@ provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.83
+base_confidence: 1.00
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Time-Space Network Ship-Flow Model

@@ -25,12 +25,12 @@ provenance:
   extracted: 0.86
   inferred: 0.11
   ambiguous: 0.03
-base_confidence: 0.92
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Set Orienteering Problem (SOP)

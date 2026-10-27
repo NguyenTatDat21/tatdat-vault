@@ -39,12 +39,12 @@ provenance:
   extracted: 0.83
   inferred: 0.13
   ambiguous: 0.04
-base_confidence: 1.0
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T14:36:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression

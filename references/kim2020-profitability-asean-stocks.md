@@ -1,7 +1,7 @@
 ---
 title: "Operating Profitability and Expected Stock Returns in ASEAN Markets"
 category: references
-tags: [asset-pricing, profitability, emerging-markets, ASEAN, famamacbeth, factor-investing]
+tags: [asset-pricing, profitability, emerging-markets, asean, famamacbeth, factor-investing]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: derived_from
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Operating Profitability and Expected Stock Returns in ASEAN Markets

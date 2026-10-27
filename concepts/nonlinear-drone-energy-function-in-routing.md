@@ -32,12 +32,12 @@ provenance:
   extracted: 0.82
   inferred: 0.14
   ambiguous: 0.04
-base_confidence: 0.90
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Nonlinear Drone Energy Function in Routing

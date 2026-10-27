@@ -20,12 +20,12 @@ provenance:
   extracted: 0.77
   inferred: 0.2
   ambiguous: 0.03
-base_confidence: 0.57
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-22T08:35:02Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Parallel Metaheuristics and Cooperative Search

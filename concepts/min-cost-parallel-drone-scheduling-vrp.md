@@ -27,12 +27,12 @@ provenance:
   extracted: 0.83
   inferred: 0.17
   ambiguous: 0.0
-base_confidence: 0.68
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T11:13:25Z
-updated: 2026-10-25T15:16:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Min-cost Parallel Drone Scheduling VRP (PDSVRP)

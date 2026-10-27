@@ -21,12 +21,12 @@ provenance:
   extracted: 0.87
   inferred: 0.10
   ambiguous: 0.03
-base_confidence: 0.57
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-24T21:02:52Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Swarm Intelligence: PSO, ACO, and Emergent Coordination

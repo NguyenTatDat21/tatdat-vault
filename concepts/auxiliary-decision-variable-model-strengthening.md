@@ -24,12 +24,12 @@ provenance:
   extracted: 0.75
   inferred: 0.25
   ambiguous: 0.00
-base_confidence: 1.0
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Auxiliary Decision Variables in Scheduling Model Strengthening

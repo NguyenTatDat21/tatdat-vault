@@ -20,12 +20,12 @@ provenance:
   extracted: 0.88
   inferred: 0.1
   ambiguous: 0.02
-base_confidence: 0.83
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:16:00Z
-updated: 2026-10-22T21:16:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Dynamic Discretization Discovery

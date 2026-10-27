@@ -27,12 +27,12 @@ provenance:
   extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.57
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-24T04:15:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)

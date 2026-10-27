@@ -23,12 +23,12 @@ provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-25T04:02:31Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Combining Dynamic Programming and Lagrangian Filtering for Four-stage 2D Guillotine Bounded Knapsack (Clautiaux et al., 2018)

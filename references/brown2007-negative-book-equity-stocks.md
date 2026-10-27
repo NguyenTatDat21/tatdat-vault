@@ -1,7 +1,7 @@
 ---
 title: Going Negative — What to Do with Negative Book Equity Stocks
 category: references
-tags: [asset-pricing, value-factor, negative-book-equity, style-classification, HML, Fama-French]
+tags: [asset-pricing, value-factor, negative-book-equity, style-classification, hml, fama-french]
 relationships:
   - target: "[[concepts/negative-book-equity-style-classification]]"
     type: derived_from
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:10:00Z
-updated: 2026-10-25T14:36:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Going Negative — What to Do with Negative Book Equity Stocks

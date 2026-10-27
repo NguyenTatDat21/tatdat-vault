@@ -22,12 +22,12 @@ provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.82
+base_confidence: 0.97
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-24T00:32:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Maritime Routing Under Uncertainty

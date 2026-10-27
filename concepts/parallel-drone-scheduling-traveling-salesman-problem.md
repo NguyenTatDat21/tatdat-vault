@@ -35,12 +35,12 @@ provenance:
   extracted: 0.87
   inferred: 0.13
   ambiguous: 0.0
-base_confidence: 1.0
+base_confidence: 0.87
 lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Parallel Drone Scheduling Traveling Salesman Problem (PDSTSP)

@@ -64,7 +64,7 @@ CP2 uses giant-tour counters T̄_j with per-node service times τ_j = Σ_k τ_j^
 
 ## Results
 
-Setup: Python 3.11.2, CP-SAT (OR-Tools 9.6), Gurobi 10.0; PDSTSP-c instances from Nguyen & Hà (15–200 customers, m ∈ [3,6] small / [5,10] large), PDSVRP-c adds s trucks ∈ [2,3] small / [2,5] large; time limits 3600 s (PDSTSP-c) and 7200/10800 s (PDSVRP-c); tables report [LB, UB], time to best heuristic, time to prove optimality.
+Setup: Python 3.11.2, CP-SAT (OR-Tools 9.6), Gurobi 10.0; PDSTSP-c instances from Nguyen & Hà (15–200 customers, m ∈ [3,6] small / [5,10] large), PDSVRP-c adds s trucks ∈ [2,3] small / [2,5] large; every table note lists a 3600 sec time limit for both Gurobi and CP-SAT; tables report [LB, UB], time to best heuristic, time to prove optimality.
 
 | Scope | Finding | Evidence (lines) |
 |---|---|---|

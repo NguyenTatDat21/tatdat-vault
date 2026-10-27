@@ -60,7 +60,7 @@ Instances poi-x-y from the Poikonen-Golden-Wasil (2019) FSTSP benchmark; 1800 in
 | N=20, L=⌊AVG/2⌋ (180 per L) | 180 solved, 0.39 s | 180, ~0.5 s | 180, ~0.6 s |
 | N=20, L=⌊AVG⌋ (180 per L) | 180, 12.4 s | 180, ~14 s | 180, ~17 s |
 | N=30 | 108, GAP 6%, 97 s | 105, 12%, 87 s | 106, 29%, 108 s |
-| N=40 | 109, 7%, 154 s | 106, 25%, 239 s | 106, 29%, 355 s |
+| N=40 | 109, 7%, 154 s | 106, 22.5%, 239 s | 106, 29.5%, 355 s |
 | N=50 | 63, 25%, 621 s | 49, 42%, 457 s | 47, 51%, 445 s |
 
 (The N=20 rows aggregate the four α/β/T subgroups with the same L; exact per-subgroup means in Tables 4-5 of the paper.) Headline: 94% of instances up to 40 nodes and 44% of 50-node instances solved within 1 h.^[extracted] The adapted Cavani et al. compact model (MTZ, node copies, poi-7-1 only) solves 40/48 instances in 1 h; the branch-and-cut (with all strengthenings) solves 48/48, all 7-node instances in fractions of a second.^[extracted] Against Cavani et al.'s published FSTSP-with-multiple-drones B&C (2-h single-thread limit, 35% faster CPU): at |N|=20, L/MAX=0.2 both solve 10/10, ours in 1.6-2.7 s vs 4-11 s; at |N|=25, L/MAX=0.4, m=2 Cavani solve 8 instances (GAP 9.6%) vs ours 4 (GAP 8.7%) — caveats on waiting policy, CPU limits, threads and α definition apply.^[extracted]

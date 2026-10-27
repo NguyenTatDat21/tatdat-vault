@@ -24,12 +24,12 @@ provenance:
   extracted: 0.88
   inferred: 0.10
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-27T06:00:00Z
 ---
 
 # Branch-and-Price Column Generation
