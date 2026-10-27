@@ -22,7 +22,7 @@ sources:
   - _papers/pham2023efficient/images/page_4_image_11.jpg
   - _papers/pham2023efficient/images/page_7_chart_8.jpg
 summary: >-
-  A biased-fitness genetic algorithm with a restricted double-bridge local search finds new best-known solutions on 437 of 450 quadratic TSP benchmark instances and closes the gap to the state-of-the-art matheuristic at every tested size.
+  A biased-fitness GA with a restricted double-bridge local search finds new best-known solutions on 437 of 450 quadratic TSP instances, closing the gap to the leading matheuristic at every tested size.
 provenance:
   extracted: 0.88
   inferred: 0.09

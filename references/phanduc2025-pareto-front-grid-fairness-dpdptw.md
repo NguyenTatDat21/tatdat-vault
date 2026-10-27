@@ -25,7 +25,7 @@ sources:
   - _papers/phanduc2025pareto/images/page_8_chart_2.jpg
   - _papers/phanduc2025pareto/images/page_8_chart_4.jpg
 summary: >-
-  PFG-2F extends random-key Pareto-front-grid selection to a four-objective dynamic pickup-and-delivery problem (fuel, max waiting, customer fairness, vehicle fairness) and dominates NSGA-II, MOEA/D variants, and PFG-MOEA on HV and IGD over 180 Li-Lim instances.
+  PFG-2F extends Pareto-front-grid selection to four-objective dynamic pickup-and-delivery (fuel, waiting, customer and vehicle fairness), beating NSGA-II, MOEA/D and PFG-MOEA on 180 Li-Lim instances.
 provenance:
   extracted: 0.86
   inferred: 0.11

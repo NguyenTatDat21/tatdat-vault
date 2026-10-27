@@ -8,8 +8,8 @@ relationships:
   - target: "[[concepts/tabu-search]]"
     type: uses
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
-  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
+  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
   - target: "[[references/archetti2018-set-orienteering-problem]]"
     type: related_to

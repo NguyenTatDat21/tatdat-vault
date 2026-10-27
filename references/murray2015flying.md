@@ -5,9 +5,9 @@ category: references
 tags: [paper, fstsp, pdstsp, drone-routing, truck-drone-synchronization, milp, tsp, heuristic, pms, makespan, uav-endurance, uav-speed, last-mile-delivery, parcel-delivery, trc, optimization, drone-swarm-synchronization]
 relationships:
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
-    type: defines
+    type: related_to
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
-    type: defines
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/drone-speed-selection-in-routing]]"

@@ -21,9 +21,9 @@ sources:
 summary: >-
   Scheduling evidence that adding auxiliary decision variables changes solver performance in ways model size cannot predict, and that strengthening strategies do not transfer between CP and MIP.
 provenance:
-  extracted: 0.70
+  extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.05
+  ambiguous: 0.00
 base_confidence: 1.0
 lifecycle: draft
 lifecycle_changed: 2026-10-25

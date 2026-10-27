@@ -62,6 +62,7 @@ Together these works suggest a practical stack: exact methods for medium-size/hi
 - [[concepts/tabu-search]]
 - [[concepts/hyper-heuristics]]
 - [[concepts/large-neighborhood-search]]
+- [[references/morandi2024-orienteering-problem-with-drones]] — truck + battery-limited drone prize-collecting variant of the orienteering family
 
 ## Open Questions
 

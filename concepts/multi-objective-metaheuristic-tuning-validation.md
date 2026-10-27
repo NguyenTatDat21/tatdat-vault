@@ -19,7 +19,6 @@ relationships:
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
-  - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
     type: related_to
   - target: "[[concepts/tabu-search]]"
     type: related_to

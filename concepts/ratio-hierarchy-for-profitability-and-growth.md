@@ -29,9 +29,9 @@ sources:
 summary: >-
   ROCE's seven drivers (Sales PM, ATO, Other Items, FLEV, NBC, OLLEV, MSR) and growth's three (Sales, ATO, FLEV) form a hierarchy: lower ratios are finer info about higher ones.
 provenance:
-  extracted: 0.78
-  inferred: 0.17
-  ambiguous: 0.05
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z

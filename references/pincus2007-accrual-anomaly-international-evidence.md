@@ -21,7 +21,7 @@ sources:
   - _papers/pincus2007accrual/pincus2007accrual-extracted.md
   - _papers/pincus2007accrual/pincus2007accrual.md
 summary: >-
-  Across 20 countries and 62,027 firm-years, the accrual anomaly concentrates in common-law markets (Australia, Canada, UK, US) plus the ADR market, is associated with extensive accrual accounting and dispersed ownership, and is best explained by earnings management plus limits to arbitrage.
+  Across 20 countries and 62,027 firm-years, the accrual anomaly concentrates in common-law markets (AU, CA, UK, US) plus ADRs, best explained by earnings management and limits to arbitrage.
 provenance:
   extracted: 0.86
   inferred: 0.11

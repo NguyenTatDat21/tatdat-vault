@@ -27,7 +27,7 @@ sources:
   - _papers/pisinger2019large/images/page_8_image_2.jpg
   - _papers/pisinger2019large/images/page_14_image_2.jpg
 summary: >-
-  The canonical LNS/ALNS chapter: LNS pseudocode, destroy-repair design principles, very-large-scale neighborhood classes, adaptive operator weights with roulette-wheel selection, and a survey of VRP, scheduling, and parallel-LNS applications.
+  Canonical LNS/ALNS chapter: LNS pseudocode, destroy-repair design, very-large-scale neighborhoods, adaptive operator weights with roulette-wheel selection, VRP/scheduling/parallel-LNS applications.
 provenance:
   extracted: 0.85
   inferred: 0.10

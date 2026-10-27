@@ -55,6 +55,7 @@ Related pages: [[references/poikonen2020-k-mvdrp]], [[concepts/pdsvrp-c]], [[ref
 ## Related
 
 - [[references/nguyen2022-min-cost-pdsvrp]] — shares drones + vrp tags with this page
+- [[references/meng2023-multivisit-drone-pickup-delivery]] — adds pickup-and-delivery customers and load-dependent drone energy to the k-MVDRP family
 ## Sources
 
 - [[_papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md]]

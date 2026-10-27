@@ -7628,10 +7628,16 @@
     },
     "_papers/ropke2006adaptive/ropke2006adaptive-extracted.md": {
       "content_hash": "c77e00eb9d56696b6729a255161fe2b9b44c4b6860ab66bd74e1a74966021985",
-      "last_ingested": "2026-10-26T18:17:03.765652+00:00",
+      "last_ingested": "2026-10-26T20:58:50.170494+00:00",
       "pages_produced": [
-        "_papers/ropke2006adaptive/ropke2006adaptive.md",
-        "references/ropke2006-adaptive-large-neighborhood-search-pdptw.md"
+        "references/ropke2006-adaptive-large-neighborhood-search-pdptw.md",
+        "concepts/large-neighborhood-search.md",
+        "references/pisinger2019-large-neighborhood-search.md",
+        "references/pham2023-efficient-ga-quadratic-tsp.md",
+        "references/nguyen2025set.md",
+        "references/ha2020-vrp-synchronization-lp-alns.md",
+        "references/li2024drone.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
     }
   },

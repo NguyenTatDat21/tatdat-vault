@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
   - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"
-  - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"

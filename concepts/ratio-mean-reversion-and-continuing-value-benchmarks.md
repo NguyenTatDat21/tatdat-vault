@@ -25,9 +25,9 @@ sources:
 summary: >-
   Drivers fade toward economy-wide levels: RE rank corr. 0.55→0.18 over 5 years, RNOA var. ratio 0.127 at t=5, FLEV 0.937 at t=1 — so CV2/CV3, not CV1, are the typical case.
 provenance:
-  extracted: 0.78
-  inferred: 0.17
-  ambiguous: 0.05
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z

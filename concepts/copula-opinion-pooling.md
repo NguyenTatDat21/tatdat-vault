@@ -58,6 +58,7 @@ updated: 2026-10-25T10:55:07Z
 - [[references/black1992-global-portfolio-optimization]] — the normal-markets framework COP extends
 - [[concepts/ordering-information-portfolio-selection]] — ranking views supported by COP/EP inputs
 
+## Sources
 
 - [[_papers/meucci2006blacklitterman/meucci2006blacklitterman-extracted.md]]
 - [[_papers/meucci2006blacklitterman/meucci2006blacklitterman.md]]
