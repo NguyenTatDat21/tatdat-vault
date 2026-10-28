@@ -25,13 +25,13 @@ relationships:
     type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: related_to
-summary: "Shaabani, Hoff, Hvattum & Laporte (Comput. Oper. Res. 2023): two-phase matheuristic (SA + fixed arcs + CPLEX) solves 60-day multi-product MIRP. ~6x faster than CPLEX; 33.74% better on instance G; products, not ports, drive runtime."
+summary: "Shaabani, Hoff, Hvattum & Laporte (COPR 2023): fixed-arc SA plus CPLEX solve 60-day multi-product MIRP, 6x faster than CPLEX and 33.74% better on instance G."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T07:00:00Z
-updated: 2026-10-27T07:00:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.96
   inferred: 0.04

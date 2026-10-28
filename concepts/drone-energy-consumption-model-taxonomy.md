@@ -21,13 +21,13 @@ relationships:
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
-summary: "Drone energy models split by thrust assumption (lift-to-drag, thrust=weight, thrust=weight+drag+lift), by travel components covered, and by adjustments for wind, avionics, and empty return; spread spans 16 to over 400 J/m."
+summary: "Drone energy models split by thrust assumption, travel components covered, and wind/avionics adjustments; the spread spans 16 to over 400 J/m on common drones."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T09:20:00Z
-updated: 2026-10-27T09:20:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.91
   inferred: 0.09

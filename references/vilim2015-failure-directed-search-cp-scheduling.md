@@ -22,19 +22,17 @@ sources:
 relationships:
   - target: "[[concepts/failure-directed-search]]"
     type: defines
-  - target: "[[concepts/destructive-lower-bound-iteration]]"
-    type: defines
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: uses
-summary: "CPAIOR 2015 paper introducing Failure-Directed Search: branch on domain splits rated by failure likelihood, restart with nogoods, couple with LNS as plan B. Closed 535 of 552 open Multi-Mode RCPSP j30 instances."
+summary: "Vilím et al. (CPAIOR 2015): branch on domain splits by failure likelihood, restart with nogoods, LNS as plan B; closed 535 of 552 open Multi-Mode RCPSP j30."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T10:20:00Z
-updated: 2026-10-27T10:20:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 1.00
   inferred: 0.00
@@ -132,7 +130,7 @@ FDS improved state-of-the-art results across benchmarks covering disjunctive and
 ## Related
 
 - [[concepts/failure-directed-search]] — the mechanism this paper defines.
-- [[concepts/destructive-lower-bound-iteration]] — DestructLB, the lower-bound-by-refutation procedure.
+- DestructLB, the lower-bound-by-refutation procedure, is described in full in [[references/vilim2015-failure-directed-search-cp-scheduling]].
 - [[concepts/large-neighborhood-search]] — the plan A strategy FDS is coupled to.
 - [[concepts/disjunctive-scheduling-constraint-programming-model]] — the scheduling primitives FDS branches over.
 - [[references/ku2016-mixed-integer-programming-job-shop]] — job-shop scheduling solved with MIP plus CP, the same benchmark family.

@@ -25,13 +25,13 @@ relationships:
     type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: related_to
-summary: "Zhao, Archetti, Pham & Vidal (EJOR 2025): DP operator reinserts all visits to one retailer across the horizon. HGS-IRP sets 365 new bests on 1,040 benchmarks and improves 191 of 270 SAHS instances by 18.21 on average."
+summary: "Zhao, Archetti, Pham & Vidal (EJOR 2025): a DP operator reinserts all visits to one retailer; HGS-IRP sets 365 new bests on 1,040 benchmarks, improves 191 SAHS by 18.21."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T07:10:00Z
-updated: 2026-10-27T07:10:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.96
   inferred: 0.04

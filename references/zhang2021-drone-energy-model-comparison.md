@@ -26,13 +26,13 @@ relationships:
     type: uses
   - target: "[[references/liu2017power]]"
     type: derived_from
-summary: "Zhang et al. (TR-D 2021) unify notation for 12 drone energy models and show Epm spans 16 to over 400 J/m, with a factor 3–5 spread across models on one common drone, so model choice changes range and emissions conclusions."
+summary: "Zhang et al. (TR-D 2021) unify notation for 12 drone energy models; Epm spans 16 to 400 J/m, factor 3-5 spread on one drone, so model choice changes range and emissions."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T08:15:00Z
-updated: 2026-10-27T08:15:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.92
   inferred: 0.08

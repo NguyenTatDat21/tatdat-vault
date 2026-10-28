@@ -20,13 +20,13 @@ relationships:
     type: derived_from
   - target: "[[concepts/variable-neighborhood-search]]"
     type: uses
-summary: "Failure-Directed Search assumes a better solution is absent or hard to find, so it explores by iterative deepening on the quality threshold from the incumbent toward a lower bound, eliminating assignments most likely to fail first."
+summary: "Failure-Directed Search explores by iterative deepening on the quality threshold toward a lower bound, deleting most-likely-to-fail assignments first, restart with nogoods."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T09:10:00Z
-updated: 2026-10-27T09:10:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.90
   inferred: 0.10

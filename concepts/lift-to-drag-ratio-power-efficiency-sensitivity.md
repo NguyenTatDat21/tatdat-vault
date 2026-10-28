@@ -20,13 +20,13 @@ relationships:
     type: derived_from
   - target: "[[concepts/multirotor-power-model-components]]"
     type: related_to
-summary: "Lift-to-drag ratio r and power transfer efficiency η are the two calibration knobs that reconcile drone energy models: setting r to 0.8–1.4 brings the lift-to-drag model in line with the component models, changing range by 49–160%."
+summary: "Lift-to-drag ratio r and efficiency η reconcile drone energy models: setting r to 0.8-1.4 brings the lift-to-drag model in line, changing range by 49-160%."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T09:25:00Z
-updated: 2026-10-27T09:25:00Z
+updated: 2026-10-28T20:35:00+07:00
 provenance:
   extracted: 0.80
   inferred: 0.20

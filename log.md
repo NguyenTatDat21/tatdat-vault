@@ -201,3 +201,8 @@ title: Wiki Log
 - [2026-10-28T00:17:00Z] INGEST source=_papers/sloan1996stock/sloan1996stock-extracted.md pages_created=1 pages_updated=4
 - [2026-10-28T00:25:43Z] INGEST source=_papers/song2018persistent/song2018persistent-extracted.md pages_created=1 pages_updated=4
 - [2026-10-28T00:42:22Z] INGEST source=_papers/stalhane2012construction/stalhane2012construction-extracted.md pages_created=1 pages_updated=6
+- [2026-10-27T13:25:42Z] INGEST source=_papers/zhang2021energy/zhang2021energy-extracted.md created=1 updated=4
+- [2026-10-27T13:32:00Z] INGEST source=_papers/vilim2015failuredirected/vilim2015failuredirected-extracted.md created=1 updated=3
+- [2026-10-27T14:40:00Z] CROSS-LINKER targets=2 links_added=6 pages_touched=2 notes=4 concept 2 reference
+- [2026-10-28T01:52:16Z] LIFT-SPLIT source=_papers/pesant2015principles/pesant2015principles-extracted.md subpapaers=5 pages=3
+- [2026-10-28T02:10:00Z] LINT page-count-since-last-lint=176 linted=176 issues_found=8

@@ -7723,12 +7723,30 @@
         "references/rakke2011rolling-rolling-horizon-lng-adp.md",
         "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
       ]
+    },
+    "_papers/zhang2021energy/zhang2021energy-extracted.md": {
+      "content_hash": "e9ef893ff7dab163c0d37f724fa96a9b3e6be9b8586c80756ede08f81132b702",
+      "last_ingested": "2026-10-28T20:45:00+07:00",
+      "pages_produced": [
+        "[[references/zhang2021-drone-energy-model-comparison]]",
+        "[[concepts/drone-energy-consumption-model-taxonomy]]",
+        "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
+      ]
+    },
+    "_papers/vilim2015failuredirected/vilim2015failuredirected-extracted.md": {
+      "content_hash": "0535d6b8dd6758e00ae70d9c98113c09acee93ae0ee326f99b09e32c32164951",
+      "last_ingested": "2026-10-28T20:45:00+07:00",
+      "pages_produced": [
+        "[[references/vilim2015-failure-directed-search-cp-scheduling]]",
+        "[[concepts/failure-directed-search]]",
+        "[[concepts/large-neighborhood-search]]"
+      ]
     }
   },
   "stats": {
     "total_pages": 104,
-    "total_sources_ingested": 221,
-    "last_updated": "2026-10-25T16:56:13.904021+00:00"
+    "total_sources_ingested": 1394,
+    "last_updated": "2026-10-28T20:45:00+07:00"
   },
-  "version": 1
+  "version": 2
 }
