@@ -70,6 +70,7 @@ Related pages: [[references/torabbeigi2020-payload-bcr-drone-scheduling]], [[con
 
 - [[references/song2018-persistent-uav-delivery-milp-rhta]] — persistent UAV delivery with payload-weighted flight time, solved by a receding-horizon petal heuristic in under 0.4 s
 
+- [[references/zhang2021-drone-energy-model-comparison]] — regression energy rates (Tseng, Dorling) with payload-weight terms compared against the physical models.
 ## Sources
 
 - [[_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md]]

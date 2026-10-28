@@ -61,6 +61,7 @@ Validation on a separate flight (70 m AGL rectangular loop at 10–20 m/s) gave 
 - [[concepts/peukert-law-battery-discharge]] — converts power into current-dependent, capacity-shrinking battery demand
 
 ## Sources
+0
 
 - [[_papers/liu2017power/liu2017power-extracted.md]]
 - [[_papers/liu2017power/liu2017power.md]]
