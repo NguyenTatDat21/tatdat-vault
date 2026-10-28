@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-28T22:46:34Z
+updated: 2026-10-28T22:51:21Z
 pages: 425
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] INGEST source=_papers/yusuf2023strategic/yusuf2023strategic-extracted.md created=5 updated=0
 - [2026-10-28] INGEST source=_papers/sacramento2019adaptive/sacramento2019adaptive-extra... created=1 updated=0 ...
 - [2026-10-28] INGEST source=_papers/skalnes2024new/skalnes2024new-extracted.md created=4 updated=0
+- [2026-10-28] CROSS_LINK targets=29 links_added=29 pages_touched=19 ...
 
 ## Active Threads
 
