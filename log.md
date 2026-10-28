@@ -208,3 +208,4 @@ title: Wiki Log
 - [2026-10-28T02:10:00Z] LINT page-count-since-last-lint=176 linted=176 issues_found=8
 - [2026-10-28T21:32:52Z] INGEST source=_papers/yusuf2023strategic/yusuf2023strategic-extracted.md created=5 updated=0
 - [2026-10-28T22:14:50Z] INGEST source=_papers/sacramento2019adaptive/sacramento2019adaptive-extracted.md created=1 updated=0 pages=references/sacramento2019-vrp-d-truck-drone-alns-cost.md
+- [2026-10-28T22:46:34Z] INGEST source=_papers/skalnes2024new/skalnes2024new-extracted.md created=4 updated=0

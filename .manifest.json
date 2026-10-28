@@ -7759,6 +7759,16 @@
       "pages_produced": [
         "references/sacramento2019-vrp-d-truck-drone-alns-cost.md"
       ]
+    },
+    "_papers/skalnes2024new/skalnes2024new-extracted.md": {
+      "content_hash": "c095dbb3d7f22b6b310963f0a74ffccfe4f90f4e4d91f16f31b2c456839bfabd",
+      "last_ingested": "2026-10-28T22:46:26.779704+00:00",
+      "pages_produced": [
+        "references/skalnes2024-irp-benchmark-instances.md",
+        "concepts/branch-and-cut.md",
+        "concepts/benchmark-instance-design.md",
+        "concepts/phase-transition-instance-generation.md"
+      ]
     }
   },
   "stats": {
