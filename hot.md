@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-28T21:32:52Z
-pages: 420
+updated: 2026-10-28T22:14:50Z
+pages: 421
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] LIFT-SPLIT source=_papers/pesant2015principles/pesant2015principles-extracted... subpapaers=5 pages=3
 - [2026-10-28] LINT page-count-since-last-lint=176 linted=176 issues_found=8
 - [2026-10-28] INGEST source=_papers/yusuf2023strategic/yusuf2023strategic-extracted.md created=5 updated=0
+- [2026-10-28] INGEST source=_papers/sacramento2019adaptive/sacramento2019adaptive-extra... created=1 updated=0 ...
 
 ## Active Threads
 

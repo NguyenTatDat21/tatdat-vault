@@ -7752,6 +7752,13 @@
         "concepts/real-options-in-system-design.md",
         "concepts/jensens-law-uncertainty-valuation.md"
       ]
+    },
+    "_papers/sacramento2019adaptive/sacramento2019adaptive-extracted.md": {
+      "content_hash": "81b6dfbfcd79f7ea7b74541e527d1499ed1da9e22553338bdc4eb4c45b528a48",
+      "last_ingested": "2026-10-28T22:14:50.136738+00:00",
+      "pages_produced": [
+        "references/sacramento2019-vrp-d-truck-drone-alns-cost.md"
+      ]
     }
   },
   "stats": {
