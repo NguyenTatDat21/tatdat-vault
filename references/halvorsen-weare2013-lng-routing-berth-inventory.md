@@ -149,6 +149,7 @@ In instances 9-12 the third subproblem has one vessel and one regasification por
 - [[concepts/annual-lng-delivery-program]]
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[concepts/time-space-network-ship-flow-model]]
+- [[references/stalhane2012-construction-improvement-lng-adp]] — reuses the I/P tightness ratio to set the construction look-ahead
 - [[references/mutlu2016-lng-annual-delivery-program]]
 
 ## Bibliographic Record

@@ -60,6 +60,7 @@ This gives a robust heuristic profile on large clustered instances under short s
 - [[concepts/tabu-search]]
 - [[references/lu2024-hybrid-evolutionary-algorithm-sop]]
 
+- [[references/song2018-persistent-uav-delivery-milp-rhta]] — persistent UAV delivery with payload-weighted flight time, solved by a receding-horizon petal heuristic in under 0.4 s
 ## Sources
 
 - [[_papers/yu2024simulated/yu2024simulated-extracted.md]]

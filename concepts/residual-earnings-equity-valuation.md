@@ -101,6 +101,8 @@ Residual earnings are a **scenario forecast**, so a valuation is a forecast of t
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the drivers that fill in the model
 - [[concepts/operating-and-financial-leverage-spreading]] — the decomposition that turns drivers into $ROCE$
 - [[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]] — the evidence that picks CV1/CV2/CV3
+- [[references/sloan1996-accruals-cash-flow-stock-prices]] — the accrual-versus-cash-flow persistence evidence that disciplines the earnings forecasts
+
 - [[concepts/predictive-to-prescriptive-analytics]] — the forecasting stance the model embodies
 - [[concepts/cash-based-operating-profitability]] — the cash-based complement to accrual-based profitability
 - [[references/pincus2007-accrual-anomaly-international-evidence]] — accruals-based cross-market evidence in the same lineage

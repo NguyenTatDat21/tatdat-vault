@@ -7639,6 +7639,90 @@
         "references/li2024drone.md",
         "concepts/large-neighborhood-ship-pair-destroy-repair.md"
       ]
+    },
+    "_papers/wahal2020joint/wahal2020joint-extracted.md": {
+      "content_hash": "a2131cd6d867784e5f9bd9dfc14e4338f6de5c30c6b9e4ce56e3b98f30f5cd0b",
+      "last_ingested": "2026-10-27T23:36:38.786728+00:00",
+      "pages_produced": [
+        "references/wahal2020-joint-value-profitability-international.md",
+        "references/novy-marx2013-other-side-of-value.md",
+        "concepts/gross-profitability-premium.md"
+      ]
+    },
+    "_papers/silver2018general/silver2018general-extracted.md": {
+      "content_hash": "7ce069229f31a12e7775a03306c4b93b4de182cf4e10001db8ef43a17a72221e",
+      "last_ingested": "2026-10-27T23:44:41.776951+00:00",
+      "pages_produced": [
+        "references/silver2018-alphazero-self-play-general-rl.md",
+        "concepts/inverse-soft-q-imitation-learning.md",
+        "concepts/generative-adversarial-imitation-learning.md"
+      ]
+    },
+    "_papers/santini2018comparison/santini2018comparison-extracted.md": {
+      "content_hash": "86f21e62bfda34840174e64ad37e4d0664b4cb1797b9f301e90eb8dba3c13cbb",
+      "last_ingested": "2026-10-27T23:49:46.176581+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md",
+        "concepts/hyper-heuristics.md",
+        "references/ropke2006-adaptive-large-neighborhood-search-pdptw.md"
+      ]
+    },
+    "_papers/shaabani2023matheuristic/shaabani2023matheuristic-extracted.md": {
+      "content_hash": "0c1d6f63051dfc73cb9a5f3a50e2c44c092a39d5503e981a2adfecedf2e5e7cb",
+      "last_ingested": "2026-10-27T23:59:02.944437+00:00",
+      "pages_produced": [
+        "references/shaabani2023-multiproduct-mirp-matheuristic.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/simulated-annealing-metropolis-cooling.md",
+        "references/dellamico2020-matheuristics-pdstsp.md",
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/zhao2025large/zhao2025large-extracted.md": {
+      "content_hash": "f6beae072eba55ed089fb43e31fc782a43d8239db70698e1e8dd29823479d10c",
+      "last_ingested": "2026-10-28T00:11:14.542036+00:00",
+      "pages_produced": [
+        "references/zhao2025-lns-hgs-inventory-routing.md",
+        "concepts/large-neighborhood-search.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/adaptive-large-neighborhood-search-for-mip.md",
+        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md"
+      ]
+    },
+    "_papers/sloan1996stock/sloan1996stock-extracted.md": {
+      "content_hash": "a5481ec5c321afc36b5b5e1604d421b1d5017f7d3be60038fa43e23a424e50b5",
+      "last_ingested": "2026-10-28T00:17:00.312688+00:00",
+      "pages_produced": [
+        "references/sloan1996-accruals-cash-flow-stock-prices.md",
+        "references/pincus2007-accrual-anomaly-international-evidence.md",
+        "concepts/cash-based-operating-profitability.md",
+        "concepts/residual-earnings-equity-valuation.md",
+        "concepts/ratio-mean-reversion-and-continuing-value-benchmarks.md"
+      ]
+    },
+    "_papers/song2018persistent/song2018persistent-extracted.md": {
+      "content_hash": "13ac9e7a6237db8eddc4f40822694f4693c1210bd818498f38baa77a24acabd0",
+      "last_ingested": "2026-10-28T00:25:43.823808+00:00",
+      "pages_produced": [
+        "references/song2018-persistent-uav-delivery-milp-rhta.md",
+        "concepts/payload-induced-drone-battery-consumption-rate.md",
+        "concepts/cooperative-multi-agent-uav-routing.md",
+        "concepts/set-team-orienteering-problem-with-time-windows.md",
+        "concepts/min-cost-parallel-drone-scheduling-vrp.md"
+      ]
+    },
+    "_papers/stalhane2012construction/stalhane2012construction-extracted.md": {
+      "content_hash": "edbcb135dd86c7aef2f78e6bec3778f728c69b69a81c622dae6ffced2854f64b",
+      "last_ingested": "2026-10-28T00:42:21.987792+00:00",
+      "pages_produced": [
+        "references/stalhane2012-construction-improvement-lng-adp.md",
+        "concepts/annual-lng-delivery-program.md",
+        "concepts/maritime-inventory-routing-problem.md",
+        "concepts/iterated-local-search.md",
+        "references/rakke2011rolling-rolling-horizon-lng-adp.md",
+        "references/halvorsen-weare2013-lng-routing-berth-inventory.md"
+      ]
     }
   },
   "stats": {

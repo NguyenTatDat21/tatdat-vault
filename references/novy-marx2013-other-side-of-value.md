@@ -247,6 +247,7 @@ GP/A `0.85[5.21]` alone; accruals `−1.35[−4.67]`, R&D-to-market `2.31[4.22]`
 - [[concepts/cash-based-operating-profitability]] — cash-flow-based profitability signals in the same literature lineage
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the Du Pont-style driver hierarchy the paper's decomposition anticipates
 - [[concepts/leximax-leximin-fairness-principles]] — the fairness/inequality-aversion page in this vault (cross-linker pass)
+- [[references/wahal2020-joint-value-profitability-international]] — tests the US value×profitability result out of sample in 49 non-US markets
 
 ## Sources
 

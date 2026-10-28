@@ -66,6 +66,10 @@ Related pages: [[references/torabbeigi2020-payload-bcr-drone-scheduling]], [[con
 - How well does a linear BCR model transfer across drone platforms, weather conditions, and battery age profiles?
 - When should nonlinear energy models be preferred over linear BCR for high-stakes planning? ^[inferred]
 
+## Related
+
+- [[references/song2018-persistent-uav-delivery-milp-rhta]] — persistent UAV delivery with payload-weighted flight time, solved by a receding-horizon petal heuristic in under 0.4 s
+
 ## Sources
 
 - [[_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md]]

@@ -90,6 +90,8 @@ Five-year survivorship by residual-earnings portfolio, Panel A: portfolio 10 (hi
 - [[concepts/residual-earnings-equity-valuation]] — the model whose CV rule these benchmarks settle
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — the drivers being tracked
 - [[concepts/operating-and-financial-leverage-spreading]] — the leverage and spread terms that fade
+- [[references/sloan1996-accruals-cash-flow-stock-prices]] — the component-level persistence split behind ratio mean reversion
+
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]] — the cross-sectional method this evidence informs
 - [[concepts/statistical-investigation-lifecycle]] — the out-of-sample discipline this study applies
 - [[concepts/predictive-to-prescriptive-analytics]] — the forecasting stance these priors support

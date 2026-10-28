@@ -54,6 +54,7 @@ The **gross profitability premium**: firms with high gross profits-to-assets (GP
 - [[concepts/cash-based-operating-profitability]] — cash-flow-based profitability signals; GP/A retains power after controlling for accruals and R&D
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — asset turnover × gross margins (Du Pont) is the same proxy decomposition
 - [[concepts/leximax-leximin-fairness-principles]] — inequality-averse objectives in this vault; cross-cluster link added by the cross-linker pass ^[inferred]
+- [[references/wahal2020-joint-value-profitability-international]] — cash-based operating profitability × book-to-market grids in 49 non-US markets
 
 ## Sources
 

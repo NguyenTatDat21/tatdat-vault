@@ -47,6 +47,10 @@ Related pages: [[concepts/large-neighborhood-search]], [[concepts/parallel-metah
 - Which state features are most predictive for selecting low-level heuristics in collaborative truck-drone routing?
 - How much domain-specific engineering is still required before a hyper-heuristic policy transfers reliably? ^[inferred]
 
+## Related
+
+- [[references/santini2018-alns-acceptance-criteria]] — ALNS as a hyper-heuristic: 9 acceptance criteria ranked on CVRP, CMST and QAP
+
 ## Sources
 
 - [[_papers/gendreau2019handbook/gendreau2019handbook-extracted.md]]

@@ -119,6 +119,9 @@ From the reviewed maritime literature, MIRP variants frequently add:
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]]
 - [[references/gronhaug2009-supply-chain-optimization-lng]]
+- [[references/shaabani2023-multiproduct-mirp-matheuristic]] — two-phase matheuristic for the multi-product version, 60-day horizon
+- [[references/zhao2025-lns-hgs-inventory-routing]] — whole-horizon DP reinsertion for the land IRP; 365 new best solutions on 1,040 benchmarks
+- [[references/stalhane2012-construction-improvement-lng-adp]] — construction + local search + reduced MIP on 20 real LNG instances with berth and storage limits
 - [[references/papageorgiou2014-mirplib-mirp-instance-library]]
 - [[references/gronhaug2010-branch-and-price-lng-irp]]
 

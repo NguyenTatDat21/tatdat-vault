@@ -85,6 +85,7 @@ ADP is a load-bearing bridge between strategic network design and short-horizon 
 - [[references/christiansen2008-maritime-inventory-routing-problems]]
 - [[references/ksciuk2023-maritime-uncertainty-review]]
 - [[concepts/mirp-modeling-continuous-vs-discrete-time]]
+- [[references/stalhane2012-construction-improvement-lng-adp]] — CIH construction heuristic whose look-ahead comes from the I/P ratio; 11.58% average gap in 372.5 s
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/haug2023-adp-speed-optimization-ports]]

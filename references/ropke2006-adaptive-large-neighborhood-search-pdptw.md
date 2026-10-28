@@ -375,6 +375,7 @@ for discussions, Emilie Danna for criticism, and three anonymous referees.
 - [[references/pisinger2019-large-neighborhood-search]] — the handbook chapter by Pisinger on the LNS family that this paper founded.
 - [[references/hendel2022-adaptive-lns-for-mip]] — a later ALNS application whose destroy/repair and weight-update structure traces back to this paper.
 - [[references/goel2012-large-neighborhood-search-lng-inventory-routing]] — LNS applied to inventory routing, the same destroy-and-repair design in a continuous-time setting.
+- [[references/santini2018-alns-acceptance-criteria]] — the SA acceptance criterion used here is one of three top criteria in that comparison; RRT was statistically undominated
 - [[references/phanduc2025-pareto-front-grid-fairness-dpdptw]] — modern multiobjective PDPTW work whose ruin-and-repair metaheuristic inherits this problem model and objective structure.
 - [[references/ha2020-vrp-synchronization-lp-alns]] — ALNS combined with an LP/ALNS layer for synchronized VRP, downstream of the subheuristic-competition design.
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — a multiobjective scheduling metaheuristic whose subheuristic competition and acceptance logic follow this ALNS template.

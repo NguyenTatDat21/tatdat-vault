@@ -59,6 +59,8 @@ Cash-based operating profitability (CbOP) isolates profitability from accrual ad
 
 ## Related
 
+- [[references/sloan1996-accruals-cash-flow-stock-prices]] — the accrual/cash-flow split and the 10.4% hedge behind the CbOP literature
+
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
 - [[concepts/ordering-information-portfolio-selection]]
 - [[references/almgren2004-optimal-portfolios-ordering-information]]

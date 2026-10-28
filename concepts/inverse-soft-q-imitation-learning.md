@@ -103,6 +103,7 @@ Implementation is <15 lines on top of DQN (discrete) or SAC (continuous); $\gamm
 - [[concepts/transformer-seq2seq-routing-solver]]
 - [[concepts/statistical-investigation-lifecycle]]
 - [[references/gendreau2019-handbook-metaheuristics]]
+- [[references/silver2018-alphazero-self-play-general-rl]] — AlphaZero trains one network by self-play and guides MCTS from its policy/value heads
 - [[concepts/generative-adversarial-imitation-learning]] — adversarial self-imitation with a learned discriminator reward, no derived objective
 
 ## Open Questions

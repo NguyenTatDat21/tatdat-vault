@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-27T21:07:18Z
-pages: 402
+updated: 2026-10-28T00:42:22Z
+pages: 410
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
-- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
-- [2026-10-27] LINT issues_found=196 orphans=2 broken_links=0 ...
+- [2026-10-28] INGEST source=_papers/sloan1996stock/sloan1996stock-extracted.md pages_created=1 pages_updated=4
+- [2026-10-28] INGEST source=_papers/song2018persistent/song2018persistent-extracted.md pages_created=1 pages_updated=4
+- [2026-10-28] INGEST source=_papers/stalhane2012construction/stalhane2012construction-e... pages_created=1 pages_updated=6
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-ALNS for PDPTW: 3 removal heuristics (Shaw relatedness eq 17, random, worst) and 5 insertion heuristics (regret-1 to regret-4, regret-m eq 19) compete by roulette wheel eq 20, weights updated per 100-iteration segment as w_{i,j+1}=w_{ij}(1-r)+r pi_i/theta_i, accepted by simulated annealing with noise C'=max{0,C+noise}; tuned vector (9,3,2,5,6,3,0.05,0.99975,9,13,0.1,0.025,0.4), xi=0.4, 25,000 iterations. Beats prior heuristics on more than half of 354 Li-and-Lim instances, 80 percent at least as good (Table 9); on 48 new multidepot instances gaps 1.44/1.86, 1.54/2.18, 1.39/1.62, 1.18/1.32 percent ALNS vs LNS.
+Stålhane 2012 CIH: deterministic multi-start construction (α, β, κ_g from the I/P ratio) + five first-improvement operators + reduced MIP; 20 real LNG instances, CON-LS-3 average gap 11.58% in 372.5 CPU s, beats XpressMP in equal time on all instances except D3, beats the rolling horizon heuristic by 12M+ USD on tight-inventory cases C and D.
 
 ## Flagged Contradictions
 

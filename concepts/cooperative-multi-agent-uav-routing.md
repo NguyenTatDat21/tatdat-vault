@@ -66,6 +66,7 @@ A fleet of $m$ agents serves $n$ regions. Task assignment is by clustering (fuzz
 - [[concepts/bilevel-vrpd-task-assignment-routing]]
 - [[concepts/set-orienteering-problem]]
 
+- [[references/song2018-persistent-uav-delivery-milp-rhta]] — persistent UAV delivery with payload-weighted flight time, solved by a receding-horizon petal heuristic in under 0.4 s
 ## Open Questions
 
 - Is there a reward-sharing rule that provably maximizes coverage under a fleet budget, rather than the two fixed settings used here? ^[inferred]

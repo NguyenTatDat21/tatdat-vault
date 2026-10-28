@@ -53,6 +53,10 @@ Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-
 - How stable are selector and reward hyperparameters across solver versions and new benchmark families?
 - What is the best way to co-budget ALNS with other primal heuristics in large-scale production MIP pipelines? ^[inferred]
 
+## Related
+
+- [[references/zhao2025-lns-hgs-inventory-routing]] — the authors name adaptive LNS as a natural host for their whole-horizon DP repair operator
+
 ## Sources
 
 - [[_papers/hendel2022adaptive/hendel2022adaptive-extracted.md]]

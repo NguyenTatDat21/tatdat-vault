@@ -135,6 +135,7 @@ Practical extensions: **inventory smoothening** (accept any schedule with object
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[concepts/mirp-modeling-continuous-vs-discrete-time]]
 - [[concepts/maritime-inventory-routing-problem]]
+- [[references/shaabani2023-multiproduct-mirp-matheuristic]] — multi-product MIRP with a matheuristic, where routing structure drives runtime more than port count
 - [[concepts/annual-lng-delivery-program]]
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]]
 - [[references/gendreau2019-handbook-metaheuristics]]

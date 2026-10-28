@@ -79,6 +79,8 @@ The extracted markdown has zero image embeds; images/ holds 37 table/equation cr
 
 ## Related
 
+- [[references/sloan1996-accruals-cash-flow-stock-prices]] — the accrual anomaly this evidence tests across countries, with the 10.4% first-year hedge as its benchmark
+
 - [[references/ball2016-accruals-cash-flows-operating-profitability]] — ball2016 tests CbOP against the accrual anomaly the same way pincus2007 tests OCF; the OCF subsumption here is the same finding in a 20-country setting. ^[inferred]
 - [[references/beatty2014-financial-accounting-in-banking]] — earnings management via discretionary reporting, the same mechanism pincus2007 identifies for accruals, in the regulated bank setting.
 - [[references/brown2007-negative-book-equity-stocks]] — style-portfolio construction from merged CRSP/COMPUSTAT data, using the Fama-French sorting machinery this paper's zero-investment portfolios parallel.

@@ -193,3 +193,11 @@ title: Wiki Log
 - [2026-10-27T20:50:28Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6
 - [2026-10-27T21:01:32Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6
 - [2026-10-27T21:07:18Z] LINT issues_found=196 orphans=2 broken_links=0 stale=0 contradictions=0 prov_issues=36 missing_summary=4 fragmented_clusters=0 visibility_issues=0 promotion_candidates=103 synthesis_gaps=0 relationship_issues=6
+- [2026-10-27T23:37:06Z] INGEST source=_papers/wahal2020joint/wahal2020joint-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-27T23:44:41Z] INGEST source=_papers/silver2018general/silver2018general-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-27T23:49:46Z] INGEST source=_papers/santini2018comparison/santini2018comparison-extracted.md pages_created=1 pages_updated=2 mode=append
+- [2026-10-27T23:59:03Z] INGEST source=_papers/shaabani2023matheuristic/shaabani2023matheuristic-extracted.md pages_created=1 pages_updated=5
+- [2026-10-28T00:11:14Z] INGEST source=_papers/zhao2025large/zhao2025large-extracted.md pages_created=1 pages_updated=5
+- [2026-10-28T00:17:00Z] INGEST source=_papers/sloan1996stock/sloan1996stock-extracted.md pages_created=1 pages_updated=4
+- [2026-10-28T00:25:43Z] INGEST source=_papers/song2018persistent/song2018persistent-extracted.md pages_created=1 pages_updated=4
+- [2026-10-28T00:42:22Z] INGEST source=_papers/stalhane2012construction/stalhane2012construction-extracted.md pages_created=1 pages_updated=6

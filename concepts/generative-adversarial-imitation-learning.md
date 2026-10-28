@@ -61,6 +61,8 @@ The discriminator is a learned proxy of the task: it concentrates reward where g
 - [[concepts/inverse-soft-q-imitation-learning]] — an objective-derived internal reward for self-imitation, no adversary
 - [[references/garg2022-iq-learn-inverse-soft-q]]
 - [[references/gendreau2019-handbook-metaheuristics]] — metaheuristic analogue: reuse your own best past solutions
+- [[references/shaabani2023-multiproduct-mirp-matheuristic]] — Phase 1 of that matheuristic is an SA loop; its parameters were tuned by a Taguchi L27(3⁶) design
+- [[references/silver2018-alphazero-self-play-general-rl]] — self-play generates all training data, with no expert demonstrations
 
 ## Sources
 

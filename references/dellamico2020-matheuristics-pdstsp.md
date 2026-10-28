@@ -70,6 +70,7 @@ Design pattern:
 - [[concepts/parallel-drone-scheduling-traveling-salesman-problem]]
 - [[references/dinh2021-haco-pdstsp]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
+- [[references/shaabani2023-multiproduct-mirp-matheuristic]] — the same fix-and-optimize pattern: a heuristic fixes arcs, then a solver optimizes the remaining model
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[references/ha2018-min-cost-tsp-d]]
 

@@ -99,6 +99,7 @@ Five success factors for the RHH: (1) penalties are critical (extensive paramete
 - [[references/gronhaug2010-branch-and-price-lng-irp]] and [[references/gronhaug2009-supply-chain-optimization-lng]] — the exact/arc-path LNG IRP work the model builds on.
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — decomposition approach for the same loading-port ADP.
 - [[concepts/time-space-network-ship-flow-model]] — related day-indexed ship-flow modeling.
+- [[references/stalhane2012-construction-improvement-lng-adp]] — the CIH reuses this MIP improvement and beats RHH by more than 12M USD on the tight cases C and D
 - [[references/fagerholt2023-maritime-inventory-routing-survey]] — survey covering this rolling-horizon application.
 - Not in the vault: the Stålhane et al. (2009) construction-and-improvement heuristic (CIH) comparison baseline.
 

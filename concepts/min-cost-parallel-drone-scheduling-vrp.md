@@ -64,6 +64,7 @@ Related pages: [[references/nguyen2022-min-cost-pdsvrp]], [[concepts/min-cost-ts
 
 - [[references/torabbeigi2020-payload-bcr-drone-scheduling]] — shares drones + scheduling tags with this page
 - [[concepts/dag-topological-sort-scheduling-move-evaluation]] — exact insertion cost under drone synchronization
+- [[references/song2018-persistent-uav-delivery-milp-rhta]] — persistent UAV delivery with payload-weighted flight time, solved by a receding-horizon petal heuristic in under 0.4 s
 ## Sources
 
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted.md]]

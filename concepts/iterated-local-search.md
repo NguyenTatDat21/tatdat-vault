@@ -74,6 +74,7 @@ TSP (iterated Lin-Kernighan, Concorde's chained LK, Helsgaun's LKH, Merz–Huhse
 - [[references/mbiadousaleu2022parallel]] — ILS applied to PDSMTSP, citing the chapter
 - [[concepts/variable-neighborhood-search]] — VNS as ILS with varying neighborhoods
 - [[concepts/tabu-search]] — shakeup as perturbation
+- [[references/stalhane2012-construction-improvement-lng-adp]] — five-operator first-improvement local search inside a deterministic multi-start construction of an LNG delivery program
 - [[concepts/simulated-annealing-metropolis-cooling]] — LSMC acceptance
 
 ## Sources
