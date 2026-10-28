@@ -17,6 +17,8 @@ relationships:
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
+  - target: "[[concepts/annual-lng-delivery-program]]"
+    type: uses
 sources:
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib-extracted.md
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib.md
@@ -167,6 +169,7 @@ Case studies: Omya calcium carbonate slurry delivery to ten tank farms in Northe
 - [[references/gronhaug2010-branch-and-price-lng-irp]] — branch-and-price for LNG-IRP with the master handling inventory and port capacity (related_to)
 - [[references/christiansen2013-ship-routing-scheduling-new-millennium]] — the survey that defines the MIRP the library targets
 - [[references/fagerholt2023-maritime-inventory-routing-survey]] — the later survey of the same model class
+- [[concepts/annual-lng-delivery-program]] — shares inventory-routing + maritime tags with this page
 
 ## Sources
 

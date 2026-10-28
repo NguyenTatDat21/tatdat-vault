@@ -24,6 +24,12 @@ relationships:
     type: uses_method
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
+  - target: "[[references/poikonen2020-k-mvdrp]]"
+    type: derived_from
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: derived_from
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
+    type: derived_from
 ---
 > [!tldr] New benchmark instances are built by combining real vehicle fleets, non-stationary sine demands, clustered positioning, depot capacity bounds, higher inventory variance, and triangle-inequality-preserving distances, then placed in a feature space to show the original benchmarks leave regions uncovered.
 
@@ -43,3 +49,6 @@ Feature plots show demand standard deviation much larger for new instances, edge
 - [[concepts/branch-and-cut]] - the exact method measured on the new set.
 - [[concepts/large-neighborhood-search]] - the heuristic method measured on the new set.
 - [[references/pisinger2019-large-neighborhood-search]] - the LNS/ALNS chapter providing the framework the new matheuristic is compared with.
+- [[references/poikonen2020-k-mvdrp]] — shares paper + vehicle-routing tags with this page
+- [[references/fagerholt2023-maritime-inventory-routing-survey]] — shares inventory-routing + paper tags with this page
+- [[references/mutlu2016-lng-annual-delivery-program]] — shares inventory-routing + paper tags with this page

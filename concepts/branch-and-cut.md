@@ -24,6 +24,12 @@ relationships:
     type: related_to
   - target: "[[concepts/benchmark-instance-design]]"
     type: related_to
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: derived_from
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
+    type: derived_from
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: derived_from
 ---
 > [!tldr] The B&C method of this paper solves the aggregated IRP MILP with dynamic subtour cuts, three families of valid inequalities and a root-node-only separation policy; h-DR inequalities are dropped for large instances, the schedule formulation is kept to six periods.
 
@@ -41,3 +47,6 @@ The paper concludes that branch-cut-and-price is favored when routes have few vi
 - [[concepts/branch-and-price-column-generation]] - column generation in branch-and-price, the family favored when routes have few visits.
 - [[concepts/benchmark-instance-design]] - the instance space that the B&C is measured on.
 - [[concepts/large-neighborhood-search]] - the neighborhood family the matheuristic comparison uses alongside B&C.
+- [[references/fagerholt2023-maritime-inventory-routing-survey]] — shares inventory-routing + paper tags with this page
+- [[references/mutlu2016-lng-annual-delivery-program]] — shares inventory-routing + paper tags with this page
+- [[references/goel2015-constraint-programming-lng-ship-scheduling]] — shares inventory-routing + paper tags with this page

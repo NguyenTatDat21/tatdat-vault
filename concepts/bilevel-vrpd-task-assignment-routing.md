@@ -16,6 +16,8 @@ relationships:
     type: derived_from
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: derived_from
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: derived_from
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md
@@ -66,6 +68,7 @@ Related pages: [[references/yang2022-vrpd-bilevel-heuristic]], [[concepts/large-
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — shares drones + vrp tags with this page
 - [[references/nguyen2022-min-cost-pdsvrp]] — shares drones + vrp tags with this page
+- [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares drones + vrp tags with this page
 ## Sources
 
 - [[_papers/yang2022solving/yang2022solving-extracted.md]]

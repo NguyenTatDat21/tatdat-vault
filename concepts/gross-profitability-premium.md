@@ -11,6 +11,10 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
+    type: derived_from
+  - target: "[[references/kim2020-profitability-asean-stocks]]"
+    type: derived_from
 sources:
   - _papers/novy-marx2013other/novy-marx2013other-extracted.md
   - _papers/novy-marx2013other/novy-marx2013other.md
@@ -55,6 +59,8 @@ The **gross profitability premium**: firms with high gross profits-to-assets (GP
 - [[concepts/ratio-hierarchy-for-profitability-and-growth]] — asset turnover × gross margins (Du Pont) is the same proxy decomposition
 - [[concepts/leximax-leximin-fairness-principles]] — inequality-averse objectives in this vault; cross-cluster link added by the cross-linker pass ^[inferred]
 - [[references/wahal2020-joint-value-profitability-international]] — cash-based operating profitability × book-to-market grids in 49 non-US markets
+- [[references/ball2016-accruals-cash-flows-operating-profitability]] — shares asset-pricing + profitability tags with this page
+- [[references/kim2020-profitability-asean-stocks]] — shares asset-pricing + factor-investing + profitability tags with this page
 
 ## Sources
 

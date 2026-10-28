@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
 sources:
   - _papers/andersson2017creating/andersson2017creating-extracted.md
   - _papers/andersson2017creating/andersson2017creating.md
@@ -87,6 +89,7 @@ $$
 - [[references/mutlu2016-lng-annual-delivery-program]]
 - [[references/deshpande2023-lng-adp-inventory-berth]]
 - [[concepts/maritime-routing-under-uncertainty]]
+- [[concepts/time-space-network-ship-flow-model]] — shares lng + maritime + mixed-integer-programming tags with this page
 
 ## Bibliographic Record
 

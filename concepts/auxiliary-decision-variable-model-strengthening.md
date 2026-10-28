@@ -11,6 +11,10 @@ relationships:
     type: related_to
   - target: "[[references/jimenez-piqueras2023-constraint-programming-premarshalling]]"
     type: related_to
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: derived_from
+  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
+    type: derived_from
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
   - _papers/ku2016mixed/ku2016mixed.md
@@ -57,6 +61,8 @@ Choose models empirically against the target solver, not by counting variables: 
 - [[references/ku2016-mixed-integer-programming-job-shop]]
 - [[references/isik2023-constraint-programming-hybrid-flow-shop]]
 - [[references/jimenez-piqueras2023-constraint-programming-premarshalling]]
+- [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — shares mixed-integer-programming + scheduling tags with this page
+- [[references/vilim2015-failure-directed-search-cp-scheduling]] — shares constraint-programming + scheduling tags with this page
 
 ## Sources
 

@@ -17,6 +17,8 @@ relationships:
     type: related_to
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: related_to
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: derived_from
 sources:
   - _papers/nguyen2023parallel/nguyen2023parallel-extracted.md
   - _papers/nguyen2023parallel/nguyen2023parallel.md
@@ -81,6 +83,7 @@ where $\delta(t)=ST(j)-t\ge0$ is slack time when $t$ falls in an idle interval b
 - [[concepts/disjunctive-scheduling-constraint-programming-model]] — the job-shop disjunctive graph that topological replay is standard in
 - [[references/nguyen2022-min-cost-pdsvrp]] — source of the sweep removal and the RnR frame
 - [[references/montemanni2023-cp-pdsvrp]] — CP route to the same synchronization constraints
+- [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — shares heuristic + scheduling tags with this page
 
 ## Sources
 

@@ -17,6 +17,10 @@ relationships:
     type: related_to
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: uses
+  - target: "[[references/murray2015flying]]"
+    type: derived_from
+  - target: "[[references/mbiadousaleu2022parallel]]"
+    type: derived_from
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -90,6 +94,8 @@ In a learned solver the decoder state is the current node plus remaining time, s
 - [[references/fuertes2023-transformer-multi-uav-routing]]
 - [[concepts/cooperative-multi-agent-uav-routing]]
 - [[concepts/transformer-seq2seq-routing-solver]]
+- [[references/murray2015flying]] — shares drone-routing + optimization tags with this page
+- [[references/mbiadousaleu2022parallel]] — shares drone-routing + optimization tags with this page
 
 ## Sources
 

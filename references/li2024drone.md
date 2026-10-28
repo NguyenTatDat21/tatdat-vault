@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
+  - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
+    type: uses
 sources:
   - _papers/li2024drone/li2024drone-extracted.md
   - _papers/li2024drone/li2024drone.md
@@ -117,6 +119,7 @@ Swarm synchronization plus time continuity is the computational bottleneck: deto
 - [[concepts/simulated-annealing-metropolis-cooling]] — acceptance inside the ALNS
 - [[concepts/exact-multitrip-vrptw-framework]] — multi-trip VRPTW lineage
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — source of the ALNS weight, score and cooling constants this page reuses.
+- [[concepts/nonlinear-drone-energy-function-in-routing]] — shares drone-routing + optimization tags with this page
 
 ## Sources
 

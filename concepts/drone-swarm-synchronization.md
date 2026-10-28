@@ -18,6 +18,8 @@ relationships:
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
+  - target: "[[references/hojabri2018-vrp-synchronization-alns-cp]]"
+    type: derived_from
 sources:
   - _papers/li2024drone/li2024drone-extracted.md
   - _papers/li2024drone/li2024drone.md
@@ -61,6 +63,7 @@ Solved by a MILP plus an ALNS with detour and multi-trip operators (see [[concep
 - [[concepts/large-neighborhood-search]] — the ALNS shell
 - [[concepts/simulated-annealing-metropolis-cooling]] — acceptance in the ALNS
 - [[concepts/collective-drone-delivery]] — c-drones couple at the depot, so the order of services in a drone tour matters ^[inferred]
+- [[references/hojabri2018-vrp-synchronization-alns-cp]] — shares alns + synchronization tags with this page
 
 ## Sources
 

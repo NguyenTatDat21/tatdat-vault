@@ -24,6 +24,12 @@ relationships:
     type: uses_method
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
+  - target: "[[references/poikonen2020-k-mvdrp]]"
+    type: derived_from
+  - target: "[[references/tamke2023-vrpd-dss]]"
+    type: derived_from
+  - target: "[[references/cheng2020-drone-routing-energy-function]]"
+    type: derived_from
 ---
 > [!tldr] Clustered instances cross a phase transition: the B&C finds few feasible solutions on clustered instances, finds the most in random-clustered ones, and clustered gaps are smaller than random gaps, consistent with the TSP cluster-ratio literature.
 
@@ -38,3 +44,6 @@ The constructive feasibility heuristic, running before the methods, found feasib
 - [[concepts/benchmark-instance-design]] - the feature-space generation that produces clustered, random and mixed instances.
 - [[concepts/branch-and-cut]] - the exact method whose feasibility behavior marks the transition.
 - [[concepts/large-neighborhood-search]] - the heuristic whose gaps stay small on clustered instances.
+- [[references/poikonen2020-k-mvdrp]] — shares paper + vehicle-routing tags with this page
+- [[references/tamke2023-vrpd-dss]] — shares paper + vehicle-routing tags with this page
+- [[references/cheng2020-drone-routing-energy-function]] — shares branch-and-cut + paper tags with this page

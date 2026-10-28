@@ -20,6 +20,8 @@ relationships:
     type: derived_from
   - target: "[[concepts/variable-neighborhood-search]]"
     type: uses
+  - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
+    type: derived_from
 summary: "Failure-Directed Search explores by iterative deepening on the quality threshold toward a lower bound, deleting most-likely-to-fail assignments first, restart with nogoods."
 base_confidence: 0.67
 lifecycle: draft
@@ -81,6 +83,7 @@ provenance:
 - [[concepts/variable-neighborhood-search]] — neighbourhood search whose incumbent FDS takes over.
 - [[concepts/adaptive-large-neighborhood-search-for-mip]] — neighbourhood repair of an MIP incumbent, the same plateau-then-prove pattern.
 - [[references/ku2016-mixed-integer-programming-job-shop]] — job-shop scheduling, the classical class FDS solved 39 instances of.
+- [[references/isik2023-constraint-programming-hybrid-flow-shop]] — shares constraint-programming + scheduling tags with this page
 ## Sources
 
 - [[_papers/vilim2015failuredirected/vilim2015failuredirected-extracted.md]] — Vilím, Laborie, Shaw, Michel, *Integration of AI and OR Techniques in Constraint Programming*, 2015, DOI 10.1007/978-3-319-18008-3_30; zotero-key PKMNUUUD.

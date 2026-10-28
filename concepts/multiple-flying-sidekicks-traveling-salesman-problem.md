@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: extends
+  - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
+    type: derived_from
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md
@@ -73,6 +75,7 @@ That tradeoff is important for fleet sizing decisions. ^[inferred]
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[concepts/vehicle-routing-with-synchronization-constraints]]
 - [[references/poikonen2020-k-mvdrp]]
+- [[references/nguyen2023-pdstsp-collective-drones]] — shares makespan + synchronization tags with this page
 
 ## Sources
 

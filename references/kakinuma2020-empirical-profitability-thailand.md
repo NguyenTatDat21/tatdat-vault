@@ -11,6 +11,8 @@ relationships:
     type: related_to
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: related_to
+  - target: "[[concepts/gross-profitability-premium]]"
+    type: uses
 sources:
   - _papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md
   - _papers/kakinuma2020empirical/kakinuma2020empirical.md
@@ -76,6 +78,7 @@ Carhart four-factor regression (Eq. 2) on quintile portfolios formed June t to J
 - [[concepts/fama-macbeth-two-stage-cross-sectional-regression]]
 - [[concepts/cash-based-operating-profitability]]
 - [[references/ball2016-accruals-cash-flows-operating-profitability]]
+- [[concepts/gross-profitability-premium]] — shares asset-pricing + profitability tags with this page
 
 ## Bibliographic Record
 

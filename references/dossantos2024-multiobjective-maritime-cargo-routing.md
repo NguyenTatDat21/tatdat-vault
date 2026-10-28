@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: uses
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
@@ -112,6 +114,7 @@ Cost is dominated by route direction changes: the company's own plan changed dir
 - [[references/fagerholt2023-maritime-inventory-routing-survey]]
 - [[concepts/maritime-routing-under-uncertainty]]
 - [[references/mutlu2016-lng-annual-delivery-program]]
+- [[concepts/time-space-network-ship-flow-model]] — shares maritime + mixed-integer-programming tags with this page
 
 ## Bibliographic Record
 

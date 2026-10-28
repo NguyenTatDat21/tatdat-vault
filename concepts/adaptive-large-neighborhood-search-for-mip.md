@@ -15,6 +15,10 @@ relationships:
     type: related_to
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
+  - target: "[[references/li2024drone]]"
+    type: derived_from
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: derived_from
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md
@@ -56,6 +60,8 @@ Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-
 ## Related
 
 - [[references/zhao2025-lns-hgs-inventory-routing]] — the authors name adaptive LNS as a natural host for their whole-horizon DP repair operator
+- [[references/li2024drone]] — shares alns + optimization tags with this page
+- [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares alns + mip tags with this page
 
 ## Sources
 

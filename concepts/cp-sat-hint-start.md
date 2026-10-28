@@ -12,6 +12,8 @@ relationships:
     type: derived_from
   - target: "[[references/montemanni2024-parallel-collective-drones]]"
     type: derived_from
+  - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
+    type: derived_from
 sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
 summary: >-
   A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models.
@@ -53,6 +55,7 @@ Related pages: [[concepts/pdsvrp-c]] and [[references/montemanni2024-pdsvrp-coll
 
 - [[references/montemanni2023-cp-pdsvrp]] — shares constraint-programming + cp-sat tags with this page
 - [[references/montemanni2024-parallel-collective-drones]] — shares constraint-programming + cp-sat tags with this page
+- [[references/ha2020-vrp-synchronization-lp-alns]] — shares constraint-programming + vrp tags with this page
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]
