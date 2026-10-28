@@ -7741,6 +7741,17 @@
         "[[concepts/failure-directed-search]]",
         "[[concepts/large-neighborhood-search]]"
       ]
+    },
+    "_papers/yusuf2023strategic/yusuf2023strategic-extracted.md": {
+      "content_hash": "716bfd3a4c165cf0b2f293f58cc3d3d0f19583385058fca41a20d9764416f0f7",
+      "last_ingested": "2026-10-28T21:32:34.020803+00:00",
+      "pages_produced": [
+        "references/yusuf2023-flexible-lng-production-monte-carlo-stochastic.md",
+        "concepts/monte-carlo-simulation.md",
+        "concepts/mean-reversion-jump-diffusion-price-model.md",
+        "concepts/real-options-in-system-design.md",
+        "concepts/jensens-law-uncertainty-valuation.md"
+      ]
     }
   },
   "stats": {
