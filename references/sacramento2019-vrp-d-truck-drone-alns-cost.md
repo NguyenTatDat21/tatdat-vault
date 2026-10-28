@@ -7,52 +7,7 @@ provenance:
   base: 0.00
   extracted: 0.97
   inferred: 0.02
-  ambiguous: 0.02
-base_confidence: 0.77
-created: "2026-10-28T21:56:00+07:00"
-updated: "2026-10-28T21:56:00+07:00"
-tier: supporting
-lifecycle: draft
-lifecycle_changed: "2026-10-28"
-sources:
-  - "[[_papers/sacramento2019adaptive/sacramento2019adaptive-extracted.md]]"
-  - "[[_papers/sacramento2019adaptive/sacramento2019adaptive.md]]"
-  - "[[_papers/sacramento2019adaptive/images/page_2_image_4.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_7_image_3.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_14_image_1.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_14_image_2.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_14_image_6.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_14_image_8.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_19_image_2.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_23_image_0.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_30_chart_1.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_31_chart_0.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_31_image_4.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_32_image_0.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_45_image_2.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_46_chart_2.jpg]]"
-  - "[[_papers/sacramento2019adaptive/images/page_47_chart_2.jpg]]"
-relationships:
-  - target: "[[references/murray2015flying]]"
-    type: cites
-  - target: "[[concepts/large-neighborhood-search]]"
-    type: uses_method
-  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses_method
-  - target: "[[references/santini2018-alns-acceptance-criteria]]"
-    type: cites
-  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: cites
-  - target: "[[concepts/min-cost-tsp-with-drone]]"
-    type: related_to
-  - target: "[[concepts/collective-drone-delivery]]"
-    type: related_to
----tags: [paper, vrp, drones, alns, truck-drone-cooperation, cost-minimization, mip, metaheuristic, endurance-utilization, sensitivity-analysis]
-provenance:
-  base: 0.00
-  extracted: 0.86
-  inferred: 0.11
-  ambiguous: 0.03
+  ambiguous: 0.01
 base_confidence: 0.77
 created: "2026-10-28T21:56:00+07:00"
 updated: "2026-10-28T21:56:00+07:00"
