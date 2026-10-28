@@ -7769,6 +7769,19 @@
         "concepts/benchmark-instance-design.md",
         "concepts/phase-transition-instance-generation.md"
       ]
+    },
+    "_papers/vu2020dynamic/vu2020dynamic-extracted.md": {
+      "content_hash": "b90fe79a8cd95459ff95b82d8ddf7ddb97a89c2f794cacbbc0b1231c37d743a2",
+      "last_ingested": "2026-10-28T23:21:34.745765+00:00",
+      "pages_produced": [
+        "references/vu2020-ddd-td-tsptw-time-expanded-network.md",
+        "concepts/first-in-first-out-property-in-time-dependent-travel.md",
+        "concepts/partially-time-expanded-network-lower-bound.md",
+        "concepts/primal-arc-sets-ddd-two-networks.md",
+        "concepts/lengthen-arcs-add-node-ddd-refinement.md",
+        "concepts/duration-objective-depot-discretization.md",
+        "concepts/valid-inequalities-subtour-sequence-ddd.md"
+      ]
     }
   },
   "stats": {
