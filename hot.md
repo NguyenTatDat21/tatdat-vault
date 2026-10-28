@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-28T00:42:22Z
-pages: 410
+updated: 2026-10-28T21:04:22Z
+pages: 415
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] INGEST source=_papers/sloan1996stock/sloan1996stock-extracted.md pages_created=1 pages_updated=4
-- [2026-10-28] INGEST source=_papers/song2018persistent/song2018persistent-extracted.md pages_created=1 pages_updated=4
-- [2026-10-28] INGEST source=_papers/stalhane2012construction/stalhane2012construction-e... pages_created=1 pages_updated=6
+- [2026-10-27] CROSS-LINKER targets=2 links_added=6 pages_touched=2 ...
+- [2026-10-28] LIFT-SPLIT source=_papers/pesant2015principles/pesant2015principles-extracted... subpapaers=5 pages=3
+- [2026-10-28] LINT page-count-since-last-lint=176 linted=176 issues_found=8
 
 ## Active Threads
 
