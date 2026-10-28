@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: derived_from
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
@@ -61,6 +63,10 @@ See also [[concepts/cp-sat-hint-start]] for the warm-start strategy, [[reference
 - How much of the performance gain comes from better lower bounds vs better primal solutions as instance size grows?
 - Can decomposition or column-generation hybrids scale better than direct CP-SAT circuit constraints on the largest instances? ^[inferred]
 
+
+## Related
+
+- [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares drones + vrp tags with this page
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]

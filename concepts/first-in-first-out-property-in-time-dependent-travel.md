@@ -29,16 +29,20 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-  type: related_to
-- target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-  type: uses
-- target: '[[concepts/duration-objective-depot-discretization]]'
-  type: uses
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: related_to
-- target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-  type: related_to
+  - target: "[[references/santini2018-alns-acceptance-criteria]]"
+    type: derived_from
+  - target: "[[references/wahal2020-joint-value-profitability-international]]"
+    type: derived_from
+  - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
+    type: related_to
+  - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
+    type: uses
+  - target: '[[concepts/duration-objective-depot-discretization]]'
+    type: uses
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: related_to
+  - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
+    type: related_to
 ---
 
 > [!tldr] The First-In, First-Out property for time-dependent travel: a later departure cannot produce an earlier arrival, piecewise-linear travel-time functions have slope at least minus 1, and FIFO makes waiting at non-depot locations unnecessary.
@@ -59,4 +63,6 @@ FIFO is the structural condition that makes time-expanded-network formulations h
 - [[concepts/dynamic-discretization-discovery]] - the DDD framework assumes time-expanded networks built from FIFO-consistent travel times.
 - [[concepts/valid-inequalities-subtour-sequence-ddd]] - FIFO guarantees infeasible location sequences under true travel times, so sequence inequalities are location-based.
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - the same family, the FIFO property, the slope-at-least-(-1) piecewise-linear travel time functions, the Ichoua-Gendreau-Potvin function, the triangle inequality, the preprocessing rules, the infeasible sequences, the precedence, transitive closure, arc removal, the shortest path Δ values.
+- [[references/santini2018-alns-acceptance-criteria]] — shares   + , + - tags with this page
+- [[references/wahal2020-joint-value-profitability-international]] — shares   + , + - tags with this page
 

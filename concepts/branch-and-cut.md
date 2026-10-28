@@ -30,6 +30,12 @@ relationships:
     type: derived_from
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: derived_from
+  - target: "[[references/cheng2020-drone-routing-energy-function]]"
+    type: derived_from
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: derived_from
+  - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
+    type: derived_from
 ---
 > [!tldr] The B&C method of this paper solves the aggregated IRP MILP with dynamic subtour cuts, three families of valid inequalities and a root-node-only separation policy; h-DR inequalities are dropped for large instances, the schedule formulation is kept to six periods.
 
@@ -50,3 +56,6 @@ The paper concludes that branch-cut-and-price is favored when routes have few vi
 - [[references/fagerholt2023-maritime-inventory-routing-survey]] — shares inventory-routing + paper tags with this page
 - [[references/mutlu2016-lng-annual-delivery-program]] — shares inventory-routing + paper tags with this page
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]] — shares inventory-routing + paper tags with this page
+- [[references/cheng2020-drone-routing-energy-function]] — shares branch-and-cut + paper tags with this page
+- [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — shares inventory-routing + paper tags with this page
+- [[references/hendel2022-adaptive-lns-for-mip]] — shares mip + paper tags with this page

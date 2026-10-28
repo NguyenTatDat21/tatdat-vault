@@ -15,6 +15,8 @@ relationships:
     type: derived_from
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: derived_from
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md
@@ -67,6 +69,7 @@ Related pages: [[references/hojabri2018-vrp-synchronization-alns-cp]], [[concept
 
 - [[references/montemanni2024-pdsvrp-collective-drones]] — shares constraint-programming + vrp tags with this page
 - [[references/ha2020-vrp-synchronization-lp-alns]] — first MIP/CP models for VRPSC and the lp-ALNS heuristic
+- [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares alns + vrp tags with this page
 ## Sources
 
 - [[_papers/hojabri2018large/hojabri2018large-extracted.md]]

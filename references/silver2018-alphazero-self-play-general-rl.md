@@ -12,6 +12,10 @@ relationships:
     type: related_to
   - target: "[[concepts/generative-adversarial-imitation-learning]]"
     type: related_to
+  - target: "[[concepts/duration-objective-depot-discretization]]"
+    type: uses
+  - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
+    type: uses
 summary: "Silver et al. 2018 (Science): AlphaZero, one RL algorithm trained from random play with only the rules, beats Stockfish 155-6-1000, Elmo 91.2%, AlphaGo Zero 61%; same net and MCTS in all three games."
 base_confidence: 0.67
 lifecycle: draft
@@ -63,6 +67,8 @@ provenance:
 
 - [[concepts/inverse-soft-q-imitation-learning]] — soft-Q policies: a different route from a learned value/policy network to a search policy.
 - [[concepts/generative-adversarial-imitation-learning]] — self-imitation from a agent's own high-reward trajectories, the same self-generated-data motive.
+- [[concepts/duration-objective-depot-discretization]] — shares   + , + - tags with this page
+- [[concepts/first-in-first-out-property-in-time-dependent-travel]] — shares   + , + - tags with this page
 
 ## Sources
 

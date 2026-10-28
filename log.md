@@ -211,3 +211,4 @@ title: Wiki Log
 - [2026-10-28T22:46:34Z] INGEST source=_papers/skalnes2024new/skalnes2024new-extracted.md created=4 updated=0
 - [2026-10-28T22:51:21Z] CROSS_LINK targets=29 links_added=29 pages_touched=19 notes=related-typed-29
 - [2026-10-28T23:21:38Z] INGEST source=_papers/vu2020dynamic/vu2020dynamic-extracted.md created=7 updated=0
+- [2026-10-28T23:26:26Z] CROSS_LINK targets=12 links_added=21 pages_touched=12 notes=21-typed-21

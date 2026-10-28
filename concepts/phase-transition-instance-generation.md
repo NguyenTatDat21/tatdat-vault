@@ -30,6 +30,12 @@ relationships:
     type: derived_from
   - target: "[[references/cheng2020-drone-routing-energy-function]]"
     type: derived_from
+  - target: "[[references/montemanni2023-cp-pdsvrp]]"
+    type: derived_from
+  - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
+    type: derived_from
+  - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
+    type: derived_from
 ---
 > [!tldr] Clustered instances cross a phase transition: the B&C finds few feasible solutions on clustered instances, finds the most in random-clustered ones, and clustered gaps are smaller than random gaps, consistent with the TSP cluster-ratio literature.
 
@@ -47,3 +53,6 @@ The constructive feasibility heuristic, running before the methods, found feasib
 - [[references/poikonen2020-k-mvdrp]] — shares paper + vehicle-routing tags with this page
 - [[references/tamke2023-vrpd-dss]] — shares paper + vehicle-routing tags with this page
 - [[references/cheng2020-drone-routing-energy-function]] — shares branch-and-cut + paper tags with this page
+- [[references/montemanni2023-cp-pdsvrp]] — shares lower-bounds + vehicle-routing tags with this page
+- [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — shares paper + vehicle-routing tags with this page
+- [[references/paradiso2020-esf-multitrip-vrptw]] — shares paper + vehicle-routing tags with this page

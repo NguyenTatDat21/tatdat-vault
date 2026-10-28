@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: related_to
+  - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
+    type: uses
 summary: "Wahal & Repetto SSRN 2020: 4x4 book-to-market × cash-profitability grids, 49 countries, 1990-2020. Joint value+profitability beats growth+low-profitability; tilted portfolios earn 0.72-2.28%/yr."
 base_confidence: 0.67
 lifecycle: draft
@@ -77,6 +79,7 @@ provenance:
 - [[references/novy-marx2013-other-side-of-value]] — the US gross-profitability result this paper tests out of sample.
 - [[concepts/gross-profitability-premium]] — the flow variable used here is cash-based operating profitability scaled by book equity.
 - [[references/fama1973-risk-return-equilibrium-empirical-tests]] — the asset-pricing literature this paper's returns sit alongside
+- [[concepts/lengthen-arcs-add-node-ddd-refinement]] — shares   + , + - tags with this page
 
 ## Sources
 

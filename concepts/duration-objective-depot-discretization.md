@@ -29,18 +29,20 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-  type: uses
-- target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-  type: uses
-- target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-  type: uses
-- target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-  type: uses
-- target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-  type: uses
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: uses_method
+  - target: "[[references/wahal2020-joint-value-profitability-international]]"
+    type: derived_from
+  - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
+    type: uses
+  - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
+    type: uses
+  - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
+    type: uses
+  - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
+    type: uses
+  - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
+    type: uses
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: uses_method
 ---
 
 > [!tldr] Duration objective: DDD adds depot nodes for every feasible departure time up to ē_0 = min_i max_t {Δ_0i(t) ≤ l_i}, waiting arcs at the depot with zero cost, arcs from the depot with cost −t, l_0 = z − 1 + t_0, and network sizes double over makespan.
@@ -60,4 +62,5 @@ Results: Set 1, makespan 952 solved, 10.94 s, 4.62 iterations vs duration 930 so
 - [[concepts/valid-inequalities-subtour-sequence-ddd]] - inequalities apply to the duration networks, location-based.
 - [[concepts/dynamic-discretization-discovery]] - DDD, the depot enumeration is the known DDD pattern with an extra node family.
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - FIFO.
+- [[references/wahal2020-joint-value-profitability-international]] — shares   + , + - tags with this page
 

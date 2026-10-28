@@ -30,6 +30,12 @@ relationships:
     type: derived_from
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: derived_from
+  - target: "[[references/tamke2023-vrpd-dss]]"
+    type: derived_from
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: derived_from
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: derived_from
 ---
 > [!tldr] New benchmark instances are built by combining real vehicle fleets, non-stationary sine demands, clustered positioning, depot capacity bounds, higher inventory variance, and triangle-inequality-preserving distances, then placed in a feature space to show the original benchmarks leave regions uncovered.
 
@@ -52,3 +58,6 @@ Feature plots show demand standard deviation much larger for new instances, edge
 - [[references/poikonen2020-k-mvdrp]] — shares paper + vehicle-routing tags with this page
 - [[references/fagerholt2023-maritime-inventory-routing-survey]] — shares inventory-routing + paper tags with this page
 - [[references/mutlu2016-lng-annual-delivery-program]] — shares inventory-routing + paper tags with this page
+- [[references/tamke2023-vrpd-dss]] — shares paper + vehicle-routing tags with this page
+- [[references/goel2015-constraint-programming-lng-ship-scheduling]] — shares inventory-routing + paper tags with this page
+- [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — shares inventory-routing + paper tags with this page

@@ -29,18 +29,22 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-  type: uses
-- target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-  type: related_to
-- target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-  type: uses
-- target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-  type: related_to
-- target: '[[concepts/duration-objective-depot-discretization]]'
-  type: related_to
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: uses_method
+  - target: "[[references/santini2018-alns-acceptance-criteria]]"
+    type: derived_from
+  - target: "[[references/silver2018-alphazero-self-play-general-rl]]"
+    type: derived_from
+  - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
+    type: uses
+  - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
+    type: related_to
+  - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
+    type: uses
+  - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
+    type: related_to
+  - target: '[[concepts/duration-objective-depot-discretization]]'
+    type: related_to
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: uses_method
 ---
 
 > [!tldr] Lengthening too-short arcs by adding nodes, Algorithm 2 walking a solution path with Add-Node, keeps Properties 1-4, guarantees correctness, opportunistically creates nodes needed to continue along the path, and pruning with l_0 = z − 1 shrinks the network.
@@ -60,4 +64,6 @@ Pruning, when a new feasible solution with makespan z is found, removes arcs (i,
 - [[concepts/duration-objective-depot-discretization]] - pruning uses l_0 = z − 1, the duration case uses l_0 = z − 1 + t_0.
 - [[concepts/dynamic-discretization-discovery]] - the DDD pattern, refine network, solve, convert, lengthen.
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - FIFO.
+- [[references/santini2018-alns-acceptance-criteria]] — shares   + , + - tags with this page
+- [[references/silver2018-alphazero-self-play-general-rl]] — shares   + , + - tags with this page
 

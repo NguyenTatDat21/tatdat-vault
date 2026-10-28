@@ -12,6 +12,8 @@ relationships:
     type: related_to
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: derived_from
+  - target: "[[concepts/duration-objective-depot-discretization]]"
+    type: uses
 summary: "Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criteria on CVRP, CMST, QAP. SA, TA and RRT win; HC/RW lose; linear parameter ending at zero saves a tuning dimension."
 base_confidence: 0.67
 lifecycle: draft
@@ -53,6 +55,7 @@ The authors' forward-looking point: acceptance decisions could be improved by us
 - [[concepts/hyper-heuristics]] — ALNS is treated as a hyper-heuristic; acceptance criteria have been compared in that framework without definite conclusions.
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the original ALNS, whose default criterion was simulated annealing.
 - [[references/shaabani2023-multiproduct-mirp-matheuristic]] — Phase 1 of that matheuristic is tuned by a Taguchi L27(3⁶) design, not by ranking acceptance criteria
+- [[concepts/duration-objective-depot-discretization]] — shares   + , + - tags with this page
 
 ## Sources
 
