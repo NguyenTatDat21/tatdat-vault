@@ -121,7 +121,6 @@ provenance:
 - [[concepts/payload-induced-drone-battery-consumption-rate]] — regression energy rates used in routing models.
 - [[references/dorling2017-drone-delivery-vrp]] — hovering model and field tests scored in Table 1.
 - [[references/liu2017power]] — the three-component model with profile power.
-- [[references/stolaroff2018-small-drone-emissions]] — two-component model, 1073 measured flight segments, lifecycle emissions.
 
 ## Limitations
 
