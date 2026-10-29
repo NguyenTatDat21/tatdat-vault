@@ -27,9 +27,9 @@ provenance:
   extracted: 0.86
   inferred: 0.12
   ambiguous: 0.02
-base_confidence: 0.77
+base_confidence: 0.87
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-29
 tier: core
 created: 2026-10-22T10:00:17Z
 updated: 2026-10-27T06:00:00Z
@@ -70,6 +70,7 @@ Related pages: [[references/hojabri2018-vrp-synchronization-alns-cp]], [[concept
 - [[references/montemanni2024-pdsvrp-collective-drones]] — shares constraint-programming + vrp tags with this page
 - [[references/ha2020-vrp-synchronization-lp-alns]] — first MIP/CP models for VRPSC and the lp-ALNS heuristic
 - [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares alns + vrp tags with this page
+- [[references/wang2019routing]] — Wang et al. 2019: truck/UAV launch-recover rendezvous arcs as synchronization constraints. ^[extracted]
 ## Sources
 
 - [[_papers/hojabri2018large/hojabri2018large-extracted.md]]

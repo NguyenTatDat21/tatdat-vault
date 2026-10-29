@@ -35,9 +35,9 @@ provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-26
+lifecycle_changed: 2026-10-29
 tier: supporting
 created: 2026-10-26T00:51:06Z
 updated: 2026-10-26T12:26:00Z
@@ -120,6 +120,7 @@ Swarm synchronization plus time continuity is the computational bottleneck: deto
 - [[concepts/exact-multitrip-vrptw-framework]] — multi-trip VRPTW lineage
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — source of the ALNS weight, score and cooling constants this page reuses.
 - [[concepts/nonlinear-drone-energy-function-in-routing]] — shares drone-routing + optimization tags with this page
+- [[references/wang2019routing]] — Wang et al. 2019 formalize HTDD triple platforms, treating internal capability as UAV payload and endurance and external capability as truck-launched access points. ^[extracted]
 
 ## Sources
 

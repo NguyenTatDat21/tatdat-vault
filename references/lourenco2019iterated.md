@@ -30,9 +30,9 @@ provenance:
   extracted: 0.94
   inferred: 0.03
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-26
+lifecycle_changed: 2026-10-29
 tier: supporting
 created: 2026-10-26T00:51:06Z
 updated: 2026-10-27T06:00:00Z
@@ -112,6 +112,7 @@ Interdependencies between perturbation strength and acceptance criterion are "ra
 - [[concepts/simulated-annealing-metropolis-cooling]] — LSMC acceptance is SA on `S*`
 - [[concepts/variable-neighborhood-search]] — basic VNS as ILS with varying perturbation strength
 - [[concepts/tabu-search]] — shakeup = perturbation, memory inspiration
+- [[references/wang2019routing]] — HTDD uses ILS with segment-node abstraction, inter-route insertion/swap/2-opt*, accept-if-improved objective. ^[extracted]
 
 ## Sources
 

@@ -51,9 +51,9 @@ provenance:
   extracted: 0.89
   inferred: 0.08
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-26T05:12:09Z
+lifecycle_changed: 2026-10-29T16:46:00Z
 tier: supporting
 created: 2026-10-26T05:12:09Z
 updated: 2026-10-27T06:00:00Z
@@ -355,6 +355,7 @@ Single drones can carry parcels below **0.81 kg** provided $C_{nom}\ge 12$ Ah; t
 - [[references/murray2015flying]] — defines PDSTSP, the base variant
 - [[references/montemanni2024-parallel-collective-drones]] — collective drones in the PDSVRP setting
 - [[concepts/multi-objective-metaheuristic-tuning-validation]] — irace-based parameter tuning practice
+- [[references/wang2019routing]] — Wang et al. 2019 use collective-drone logistics with ellipse-based truck-carried UAV flight segments, time-balanced truck+drone fleets, and independent drone dispatches from DCs. ^[extracted]
 
 ## Sources
 

@@ -7782,6 +7782,24 @@
         "concepts/duration-objective-depot-discretization.md",
         "concepts/valid-inequalities-subtour-sequence-ddd.md"
       ]
+    },
+    "_papers/wang2019routing/wang2019routing-extracted.md": {
+      "content_hash": "1bbffcb0316f8089fc99f42d3322123d9099a0891ac167e5bc48bbc99a4d526b",
+      "last_ingested": "2026-10-29T01:28:20.372201+00:00",
+      "pages_produced": [
+        "references/wang2019routing.md",
+        "concepts/uav-payload-bottleneck.md",
+        "concepts/drone-delivery-energy-and-range-parameters.md",
+        "concepts/ellipse-based-flight-segment-geometry.md",
+        "concepts/hybrid-truck-drone-delivery.md",
+        "references/murray2015flying.md",
+        "references/nguyen2023-pdstsp-collective-drones.md",
+        "references/li2024drone.md",
+        "references/lourenco2019iterated.md",
+        "concepts/k-multi-visit-drone-routing-problem.md",
+        "concepts/vehicle-routing-with-synchronization-constraints.md",
+        "concepts/iterated-local-search.md"
+      ]
     }
   },
   "stats": {

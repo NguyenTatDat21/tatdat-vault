@@ -25,9 +25,9 @@ provenance:
   extracted: 1.00
   inferred: 0.00
   ambiguous: 0.00
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-26T00:51:06Z
+lifecycle_changed: 2026-10-29T16:51:00Z
 tier: supporting
 created: 2026-10-26T00:51:06Z
 updated: 2026-10-27T06:00:00Z
@@ -76,6 +76,7 @@ TSP (iterated Lin-Kernighan, Concorde's chained LK, Helsgaun's LKH, Merz–Huhse
 - [[concepts/tabu-search]] — shakeup as perturbation
 - [[references/stalhane2012-construction-improvement-lng-adp]] — five-operator first-improvement local search inside a deterministic multi-start construction of an LNG delivery program
 - [[concepts/simulated-annealing-metropolis-cooling]] — LSMC acceptance
+- [[references/wang2019routing]] — Wang et al. 2019 use ILS for HTDD segment rerouting, acceptance by max(truck, drone) time improvement. ^[extracted]
 
 ## Sources
 

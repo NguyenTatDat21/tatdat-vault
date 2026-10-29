@@ -1,6 +1,6 @@
 {
   "maxConcurrent": 1,
-  "maxConcurrentForeground": 0,
+  "maxConcurrentForeground": 1,
   "defaultMaxTurns": 0,
   "graceTurns": 5,
   "defaultJoinMode": "smart",
