@@ -1,17 +1,29 @@
 ---
 title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
-type: reference
-area: "constraint-programming"
-updated: 2026-10-29
-tags: [CP-2015, constraint-programming, proceedings-volume, encodings, scheduling, decision-diagrams, tractability, search]
-source: "Zotero item `BAKF26BL` (library-id 11058526, itemType book, Gilles Pesant (ed.), Springer International Publishing, 2015, DOI 10.1007/978-3-319-23219-5); extracted text `_papers/pesant2015principles/pesant2015principles-extracted.md` (18,510 lines)"
-extracted: 0.82
-inferred: 0.13
-ambiguous: 0.02
-base_confidence: 0.67
-provenance_note: "Provenance computed by script: 295 statement units, 89 verbatim markers (page-and-chapter citations in the prose, the 89 paper-index table rows, quoted equations, named algorithms, exact counts), 206 units with no marker; extracted rounded to 0.82 on the dominant-evidence convention, inferred 0.13 (theme-section grouping, author-name ordering, abstract-level limitations), ambiguous 0.02 (fast-track and journal-track footnotes cite journal versions, so those items carry no Springer chapter DOI), base 0.03. Summary is the book's identity, not a claim. Zero images in the source, so no captions to verify."
 summary: "CP 2015 proceedings (LNCS 9255, ed. Pesant): 48 technical papers, 3 invited talks, 16 fast/journal-track abstracts, erratum, front matter, Author Index; 73 items, zero figures."
-created: 2026-10-29
+tags: [CP-2015, constraint-programming, proceedings-volume, encodings, scheduling, decision-diagrams, tractability, search]
+provenance:
+  extracted: 0.82
+  inferred: 0.15
+  ambiguous: 0.03
+  base: 0.00
+base_confidence: 0.67
+tier: reference
+created: 2026-10-29T15:40:00Z
+updated: 2026-10-29T15:52:00Z
+sources:
+  - _papers/pesant2015principles/pesant2015principles.md
+  - _papers/pesant2015principles/pesant2015principles-extracted.md
+relationships:
+  - { target: "concepts/encoding-preservation-under-composition-and-merging", type: "inbound" }
+  - { target: "concepts/lagrangian-decomposition-propagation", type: "inbound" }
+  - { target: "concepts/bound-tightening-relaxation-networks", type: "inbound" }
+  - { target: "concepts/decision-diagrams-optimization", type: "inbound" }
+  - { target: "concepts/search-combinators-meta-search", type: "inbound" }
+  - { target: "concepts/automated-model-generation", type: "inbound" }
+lifecycle: active
+lifecycle_changed: 2026-10-29T15:52:00Z
+provenance_note: "Zotero item BAKF26BL (library-id 11058526, itemType book, Gilles Pesant (ed.), Springer, 2015, DOI 10.1007/978-3-319-23219-5). Provenance by script: 295 statement units, 89 verbatim markers (page-and-chapter citations, the 89 paper-index table rows, quoted equations, named algorithms, exact counts), 206 units without markers. Extracted rounded to 0.82; inferred 0.15 for theme-section grouping and author-name ordering; ambiguous 0.03 because fast-track and journal-track footnotes cite journal versions, so those items carry no Springer chapter DOI. Zero images in the source, so no captions to verify. Zero source page footnotes on the invited talks, so no page numbers are asserted for them."
 ---
 # Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)
 
@@ -176,12 +188,12 @@ The fast-track and journal-track footnotes cite the journal version of each pape
 
 ## Concepts extracted
 
-- [[encoding-preservation-under-composition-and-merging]] — the closed-class results for tree-convex constraints and DNNF simulation
-- [[lagrangian-decomposition-propagation]] — Lagrangian penalties between constraints, and Lagrangian/relaxation bounds for global constraints
-- [[bound-tightening-relaxation-networks]] — convex-relaxation bound tightening via CP bound consistency
-- [[decision-diagrams-optimization]] — BDD/MDD-based propagation, relaxed-BDD bounds, and branch-and-bound with diagram relaxations
-- [[search-combinators-meta-search]] — the MiniSearch combinator language and the search-tree profiler as a search-design vocabulary
-- [[automated-model-generation]] — streamliner generation, auxiliary-variable elimination, common-subexpression elimination, reification: automated model-improvement steps
+- [[concepts/encoding-preservation-under-composition-and-merging]] — the closed-class results for tree-convex constraints and DNNF simulation
+- [[concepts/lagrangian-decomposition-propagation]] — Lagrangian penalties between constraints, and Lagrangian/relaxation bounds for global constraints
+- [[concepts/bound-tightening-relaxation-networks]] — convex-relaxation bound tightening via CP bound consistency
+- [[concepts/decision-diagrams-optimization]] — BDD/MDD-based propagation, relaxed-BDD bounds, and branch-and-bound with diagram relaxations
+- [[concepts/search-combinators-meta-search]] — the MiniSearch combinator language and the search-tree profiler as a search-design vocabulary
+- [[concepts/automated-model-generation]] — streamliner generation, auxiliary-variable elimination, common-subexpression elimination, reification: automated model-improvement steps
 
 ## Constraints & limitations
 

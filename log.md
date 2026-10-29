@@ -213,3 +213,4 @@ title: Wiki Log
 - [2026-10-28T23:21:38Z] INGEST source=_papers/vu2020dynamic/vu2020dynamic-extracted.md created=7 updated=0
 - [2026-10-28T23:26:26Z] CROSS_LINK targets=12 links_added=21 pages_touched=12 notes=21-typed-21
 - [2026-10-29T09:22:07Z] INGEST source=_papers/yi2023automated/yi2023automated-extracted.md created=5 updated=0
+- [2026-10-29T16:20:06Z] INGEST source=_papers/pesant2015principles/pesant2015principles-extracted.md created=7 updated=0 pages=references/pesant2015-cp2015-proceedings,concepts/decision-diagrams-optimization,concepts/encoding-preservation-under-composition-and-merging,concepts/lagrangian-decomposition-propagation,concepts/bound-tightening-relaxation-networks,concepts/search-combinators-meta-search,concepts/automated-model-generation
