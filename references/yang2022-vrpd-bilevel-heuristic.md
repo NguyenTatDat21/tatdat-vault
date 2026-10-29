@@ -5,6 +5,8 @@ category: references
 tags: [paper, drones, vehicle-routing, heuristics, bilevel-optimization, alns]
 relationships:
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
+  - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
+    type: related_to
     type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
@@ -116,6 +118,7 @@ No mathematical model is built for the extended problem, so exact methods such a
 ## Related
 
 - [[concepts/bilevel-vrpd-task-assignment-routing]]
+- [[references/yi2023-ace-gsf-automated-design-cvrptw]] — ACE learns the operators and heuristics this paper fixed by hand.
 - [[concepts/large-neighborhood-search]]
 - [[references/hendel2022-adaptive-lns-for-mip]]
 - [[references/dorling2017-drone-delivery-vrp]]

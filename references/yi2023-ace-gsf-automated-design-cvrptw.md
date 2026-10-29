@@ -1,6 +1,6 @@
 ---
 title: Yi & Qu 2023 — Automated Design of Search Algorithms based on Reinforcement Learning
-summary: "Actor-Critic with Entropy (ACE) over the GSF design space: evolution operators + selection heuristics for CVRPTW. Learning on both components beats evolution-operator-only design; ACE LAS is the best variant."
+summary: "ACE over the GSF design space: evolution operators + selection heuristics for CVRPTW. Learning on both components dominates evolution-operator-only design; ACE LAS is the best variant."
 tags: reinforcement-learning, automated-algorithm-design, hyper-heuristics, vrptw, evolutionary-computation, max-entropy
 provenance:
   extracted: 0.82
@@ -93,6 +93,9 @@ relationships:
   - {target: "concepts/entropy-coefficient-adjustment-schemes", type: related_to}
   - {target: "concepts/rl-component-analysis-designed-algorithms", type: related_to}
   - {target: "concepts/hyper-heuristics", type: supports}
+  - {target: "references/yang2022-vrpd-bilevel-heuristic", type: related_to}
+  - {target: "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling", type: related_to}
+  - {target: "references/xinyingchen2023guide", type: related_to}
 lifecycle: source
 lifecycle_changed: 2026-10-29T18:10:00Z
 ---
@@ -115,16 +118,16 @@ The stated contributions: systematic exploration of the design space within GSF 
 - Evolution operators `O_E` (Table 1, from GSF ref [5]): `ochg_in` (exchange m and n nodes in the same route), `ochg_bw` (exchange nodes from different routes), `oins_in` (insert m nodes into other positions of the same route), `oins_bw` (insert m nodes into other routes), `oruin_recreat` (remove m nodes within a distance d to base customer x, d set from x-to-furthest-node distance, insert at the minimum waiting time if feasible routes exist, otherwise create a new route), `otwo_opt` (exchange two nodes in the same route), `otwo_opt*` (swap the end sections of two routes, m nodes each). ^[inferred]
 - Selection-for-Evolution heuristics `H_SE` (Table 2): `h1tb/h1tw` tournament selection of the best/worst of v ∈ {1,...,nPop} individuals (v = 1 random, v = nPop greedy, p_i = 1/nPop); `h2` random selection (v = 1); `h3` rank selection of the best previous position from each individual's personal archive (v = nPop); `h4` proportionate roulette wheel selection proportional to fitness; `h5` ranking selection proportional to rank (ascending fitness); `h6` select the current individual itself as parent. ^[inferred]
 - Selection-for-Replacement heuristics `H_SR` (Table 3): `h7` comma-selection (nPop, λ — select nPop individuals only from the offspring population A_O); `h8` plus-selection (nPop, μ+λ — select from both the parent population A_P and the offspring population A_O). ^[inferred]
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_8_image_4.jpg]] — Figure 1: Solution encoding of a CVRPTW with nine customers and three vehicles
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_0.jpg]] — (a) `o_chg_in (m = n = 1)`, `o_two_opt`
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_1.jpg]] — (b) `rho_chg_bw` (m = n = 1)
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_2.jpg]] — Figure 2: Illustration of evolution operators in Table 1
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_5.jpg]] — (c) `o_in_in (m = 2)`
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_6.jpg]] — (d) `o_ins_bw (m = 2)`
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_11_image_13.jpg]] — (f) `o_two_opt* (m = 2)`
+- ![[_papers/yi2023automated/images/page_8_image_4.jpg]] — Figure 1: Solution encoding of a CVRPTW with nine customers and three vehicles
+- ![[_papers/yi2023automated/images/page_11_image_0.jpg]] — (a) `o_chg_in (m = n = 1)`, `o_two_opt`
+- ![[_papers/yi2023automated/images/page_11_image_1.jpg]] — (b) `rho_chg_bw` (m = n = 1)
+- ![[_papers/yi2023automated/images/page_11_image_2.jpg]] — Figure 2: Illustration of evolution operators in Table 1
+- ![[_papers/yi2023automated/images/page_11_image_5.jpg]] — (c) `o_in_in (m = 2)`
+- ![[_papers/yi2023automated/images/page_11_image_6.jpg]] — (d) `o_ins_bw (m = 2)`
+- ![[_papers/yi2023automated/images/page_11_image_13.jpg]] — (f) `o_two_opt* (m = 2)`
 
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_13_image_0.jpg]] — Figure 3: Proposed reinforcement learning method (ACE) for automated algorithm design within GSF
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_19_image_4.jpg]] — Figure 4: Solution decoding of a CVRPTW with nine customers and three vehicles
+- ![[_papers/yi2023automated/images/page_13_image_0.jpg]] — Figure 3: Proposed reinforcement learning method (ACE) for automated algorithm design within GSF
+- ![[_papers/yi2023automated/images/page_19_image_4.jpg]] — Figure 4: Solution decoding of a CVRPTW with nine customers and three vehicles
 
 ## ACE method
 - MDP `M = (S, A, p, r)`; modified soft actor-critic (SAC) for discrete action space. Objective = **accumulated reward + entropy of the policy**: `r_π(s_t,a_t) = r(s_t,a_t) + α · H[π(·|s_t)]` (Eq. 1). Higher α gives more chances to rarely selected actions (exploration); lower α emphasizes actions with good historical performance (exploitation). ^[inferred]
@@ -140,55 +143,55 @@ Ten search-dependent features (search stage, fitness improvement, the standard d
 ## Problem definition
 CVRPTW objective `Min f(s) = c × NV + TD` (Eq. 7), penalty weight factor c = 1000 giving the first objective higher priority, vehicles serve every customer within their time windows while satisfying capacity constraints. Solomon benchmark dataset, six groups R1, R2, C1, C2, RC1, RC2 (random / clustered / mixed, narrow vs wide time windows, small vs large capacity). Selected instances: R1, R2, RC1, RC2. **Type-C1 and type-C2 are excluded because the method always achieved the best-known solutions in preliminary experiments.**  ^[inferred]
 
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_1.jpg]] — Figure 5: Performance comparison during the training process (learning on selection for evolution heuristics, i.e. se)
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_3.jpg]] — (b) R102
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_5.jpg]] — (c) R103
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_7.jpg]] — (d) R104
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_9.jpg]] — Figure 5 continued: (e) R201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_12.jpg]] — (f) R202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_14.jpg]] — Figure 5 continued: (g) R203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_16.jpg]] — Figure 5 continued: (h) R204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_20.jpg]] — Figure 5 continued: (i) RC101
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_22.jpg]] — Figure 5 continued: (m) RC201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_26.jpg]] — Figure 5 continued: (n) RC202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_29.jpg]] — Figure 5 continued: (o) RC203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_21_chart_31.jpg]] — Figure 5 continued: (p) RC204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_0.jpg]] — Figure 6: Performance comparison during the training process (learning on selection for replacement heuristics, i.e. sr)
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_2.jpg]] — (b) R102
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_4.jpg]] — (c) R103
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_8.jpg]] — Figure 6 continued: (e) R201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_13.jpg]] — Figure 6 continued: (f) R202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_15.jpg]] — Figure 6 continued: (g) R203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_17.jpg]] — Figure 6 continued: (h) R204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_19.jpg]] — Figure 6 continued: (i) RC101
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_21.jpg]] — Figure 6 continued: (m) RC201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_24.jpg]] — Figure 6 continued: (n) RC202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_27.jpg]] — Figure 6 continued: (o) RC203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_27_chart_30.jpg]] — Figure 6 continued: (p) RC204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_0.jpg]] — Figure 7: Performance comparison during the training process (learning on evolution operators vs. learning on both selection heuristics and evolution operators)
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_2.jpg]] — (b) R102
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_4.jpg]] — (c) R103
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_8.jpg]] — Figure 7 continued: (e) R201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_13.jpg]] — Figure 7 continued: (f) R202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_15.jpg]] — Figure 7 continued: (g) R203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_17.jpg]] — Figure 7 continued: (h) R204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_19.jpg]] — Figure 7 continued: (i) RC101
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_21.jpg]] — Figure 7 continued: (m) RC201
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_24.jpg]] — Figure 7 continued: (n) RC202
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_27.jpg]] — Figure 7 continued: (o) RC203
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_33_chart_30.jpg]] — Figure 7 continued: (p) RC204
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_41_chart_0.jpg]] — Figure 8: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Selection for Evolution heuristics
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_41_chart_2.jpg]] — (b) R102 se
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_41_chart_4.jpg]] — (c) R103 se
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_41_chart_6.jpg]] — (d) R104 se
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_42_chart_0.jpg]] — Figure 9: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Evolution Operators
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_42_chart_2.jpg]] — (b) R102 op
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_42_chart_4.jpg]] — (c) R103 op
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_42_chart_6.jpg]] — (d) R104 op
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_43_image_0.jpg]] — Figure 10: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Selection for Replacement heuristics
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_43_image_2.jpg]] — (b) R102 sr
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_43_image_4.jpg]] — (c) R103 sr
-- ![[/home/tatdatnguyen/tatdat-vault/_papers/yi2023automated/images/page_43_image_6.jpg]] — (d) R104 sr
+- ![[_papers/yi2023automated/images/page_21_chart_1.jpg]] — Figure 5: Performance comparison during the training process (learning on selection for evolution heuristics, i.e. se)
+- ![[_papers/yi2023automated/images/page_21_chart_3.jpg]] — (b) R102
+- ![[_papers/yi2023automated/images/page_21_chart_5.jpg]] — (c) R103
+- ![[_papers/yi2023automated/images/page_21_chart_7.jpg]] — (d) R104
+- ![[_papers/yi2023automated/images/page_21_chart_9.jpg]] — Figure 5 continued: (e) R201
+- ![[_papers/yi2023automated/images/page_21_chart_12.jpg]] — (f) R202
+- ![[_papers/yi2023automated/images/page_21_chart_14.jpg]] — Figure 5 continued: (g) R203
+- ![[_papers/yi2023automated/images/page_21_chart_16.jpg]] — Figure 5 continued: (h) R204
+- ![[_papers/yi2023automated/images/page_21_chart_20.jpg]] — Figure 5 continued: (i) RC101
+- ![[_papers/yi2023automated/images/page_21_chart_22.jpg]] — Figure 5 continued: (m) RC201
+- ![[_papers/yi2023automated/images/page_21_chart_26.jpg]] — Figure 5 continued: (n) RC202
+- ![[_papers/yi2023automated/images/page_21_chart_29.jpg]] — Figure 5 continued: (o) RC203
+- ![[_papers/yi2023automated/images/page_21_chart_31.jpg]] — Figure 5 continued: (p) RC204
+- ![[_papers/yi2023automated/images/page_27_chart_0.jpg]] — Figure 6: Performance comparison during the training process (learning on selection for replacement heuristics, i.e. sr)
+- ![[_papers/yi2023automated/images/page_27_chart_2.jpg]] — (b) R102
+- ![[_papers/yi2023automated/images/page_27_chart_4.jpg]] — (c) R103
+- ![[_papers/yi2023automated/images/page_27_chart_8.jpg]] — Figure 6 continued: (e) R201
+- ![[_papers/yi2023automated/images/page_27_chart_13.jpg]] — Figure 6 continued: (f) R202
+- ![[_papers/yi2023automated/images/page_27_chart_15.jpg]] — Figure 6 continued: (g) R203
+- ![[_papers/yi2023automated/images/page_27_chart_17.jpg]] — Figure 6 continued: (h) R204
+- ![[_papers/yi2023automated/images/page_27_chart_19.jpg]] — Figure 6 continued: (i) RC101
+- ![[_papers/yi2023automated/images/page_27_chart_21.jpg]] — Figure 6 continued: (m) RC201
+- ![[_papers/yi2023automated/images/page_27_chart_24.jpg]] — Figure 6 continued: (n) RC202
+- ![[_papers/yi2023automated/images/page_27_chart_27.jpg]] — Figure 6 continued: (o) RC203
+- ![[_papers/yi2023automated/images/page_27_chart_30.jpg]] — Figure 6 continued: (p) RC204
+- ![[_papers/yi2023automated/images/page_33_chart_0.jpg]] — Figure 7: Performance comparison during the training process (learning on evolution operators vs. learning on both selection heuristics and evolution operators)
+- ![[_papers/yi2023automated/images/page_33_chart_2.jpg]] — (b) R102
+- ![[_papers/yi2023automated/images/page_33_chart_4.jpg]] — (c) R103
+- ![[_papers/yi2023automated/images/page_33_chart_8.jpg]] — Figure 7 continued: (e) R201
+- ![[_papers/yi2023automated/images/page_33_chart_13.jpg]] — Figure 7 continued: (f) R202
+- ![[_papers/yi2023automated/images/page_33_chart_15.jpg]] — Figure 7 continued: (g) R203
+- ![[_papers/yi2023automated/images/page_33_chart_17.jpg]] — Figure 7 continued: (h) R204
+- ![[_papers/yi2023automated/images/page_33_chart_19.jpg]] — Figure 7 continued: (i) RC101
+- ![[_papers/yi2023automated/images/page_33_chart_21.jpg]] — Figure 7 continued: (m) RC201
+- ![[_papers/yi2023automated/images/page_33_chart_24.jpg]] — Figure 7 continued: (n) RC202
+- ![[_papers/yi2023automated/images/page_33_chart_27.jpg]] — Figure 7 continued: (o) RC203
+- ![[_papers/yi2023automated/images/page_33_chart_30.jpg]] — Figure 7 continued: (p) RC204
+- ![[_papers/yi2023automated/images/page_41_chart_0.jpg]] — Figure 8: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Selection for Evolution heuristics
+- ![[_papers/yi2023automated/images/page_41_chart_2.jpg]] — (b) R102 se
+- ![[_papers/yi2023automated/images/page_41_chart_4.jpg]] — (c) R103 se
+- ![[_papers/yi2023automated/images/page_41_chart_6.jpg]] — (d) R104 se
+- ![[_papers/yi2023automated/images/page_42_chart_0.jpg]] — Figure 9: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Evolution Operators
+- ![[_papers/yi2023automated/images/page_42_chart_2.jpg]] — (b) R102 op
+- ![[_papers/yi2023automated/images/page_42_chart_4.jpg]] — (c) R103 op
+- ![[_papers/yi2023automated/images/page_42_chart_6.jpg]] — (d) R104 op
+- ![[_papers/yi2023automated/images/page_43_image_0.jpg]] — Figure 10: The most adapted algorithmic components of the best designed search algorithms obtained by ACE LAS both, Selection for Replacement heuristics
+- ![[_papers/yi2023automated/images/page_43_image_2.jpg]] — (b) R102 sr
+- ![[_papers/yi2023automated/images/page_43_image_4.jpg]] — (c) R103 sr
+- ![[_papers/yi2023automated/images/page_43_image_6.jpg]] — (d) R104 sr
 
 ## Experiments
 Hardware: Intel Xeon W-2123 CPU @ 3.60 GHz, 32.0 GB memory; Java with IntelliJ IDEA 2020.3.3 — Java chosen because HyFlex and other frameworks in the relevant literature use it.  ^[inferred]
@@ -238,6 +241,9 @@ The study systematically investigates two research issues in automated algorithm
 - [[concepts/entropy-coefficient-adjustment-schemes]] — FS / LAS / NLAS: fixed, linear, non-linear α.
 - [[concepts/rl-component-analysis-designed-algorithms]] — ACE LAS both component analysis and the R101 policy transfer (Table 16).
 - [[concepts/hyper-heuristics]] — automated algorithm design and adaptive operator selection.
+- [[references/yang2022-vrpd-bilevel-heuristic]] — bilevel design fixes the operator and heuristic set that ACE learns.
+- [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — q-learning-guided memetic search, same RL-design frame.
+- [[references/xinyingchen2023guide]] — Chen & Hooker (2023) survey discusses learning-to-design algorithms in its ML track.
 
 ## Page index
 - page 8: Figure 1 (`page_8_image_4.jpg`); page 11: Figure 2 (`page_11_*`); page 13: Figure 3; page 19: Figure 4; page 21: Figure 5; page 27: Figure 6; page 33: Figure 7; page 41: Figure 8; page 42: Figure 9; page 43: Figure 10.

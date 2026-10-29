@@ -15,6 +15,7 @@ sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
 - {target: "concepts/welfare-social-function-fairness-formulations", type: related_to}
+- {target: "references/yi2023-ace-gsf-automated-design-cvrptw", type: related_to}
 - {target: "concepts/inequality-measures-fairness-formulations", type: related_to}
 - {target: "concepts/group-parity-fairness-metrics", type: related_to}
 - {target: "concepts/alpha-fairness-proportional-fairness", type: related_to}
@@ -95,6 +96,7 @@ Chen (Stevens Institute of Technology, vchen3@stevens.edu) and Hooker (Carnegie 
 ## Related
 - [[concepts/welfare-social-function-fairness-formulations]] — the welfare maximizing/constraining models, eq. 1–4.
 - [[concepts/inequality-measures-fairness-formulations]] — relative range, relative mean deviation, coefficient of variation, Jain's, Gini, Hoover.
+- [[references/yi2023-ace-gsf-automated-design-cvrptw]] — the RL-design goal that Chen & Hooker (2023) discuss in the survey's ML track.
 - [[concepts/group-parity-fairness-metrics]] — demographic parity, equalized odds, accuracy parity, predictive rate parity.
 - [[concepts/alpha-fairness-proportional-fairness]] — alpha fairness family, proportional fairness α=1, anomaly.
 - [[concepts/nash-bargaining-solution-axioms]] — Nash bargaining SWF, scale invariance, Zeuthen.

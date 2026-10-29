@@ -5,6 +5,8 @@ category: concepts
 tags: [metaheuristics, hyper-heuristics, optimization]
 relationships:
   - target: "[[concepts/large-neighborhood-search]]"
+  - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
+    type: supports
     type: uses
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
     type: related_to
@@ -49,6 +51,7 @@ Related pages: [[concepts/large-neighborhood-search]], [[concepts/parallel-metah
 
 ## Related
 
+- [[references/yi2023-ace-gsf-automated-design-cvrptw]] — ACE learns hyper-heuristic component choices by reinforcement.
 - [[references/santini2018-alns-acceptance-criteria]] — ALNS as a hyper-heuristic: 9 acceptance criteria ranked on CVRP, CMST and QAP
 
 ## Sources

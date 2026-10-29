@@ -5,6 +5,8 @@ category: references
 tags: [paper, multi-objective, supply-chain, production-scheduling, vehicle-routing, metaheuristics]
 relationships:
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+  - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
+    type: related_to
     type: implements
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
@@ -104,6 +106,7 @@ The paper's own weighted metric $WM=(RNI+2GD+2MID+2SP+2MD+2ACT)/11$ averages 0.5
 ## Related
 
 - [[concepts/multi-objective-metaheuristic-tuning-validation]]
+- [[references/yi2023-ace-gsf-automated-design-cvrptw]] — q-learning-guided memetic search in ACE's RL-design frame.
 - [[concepts/green-vehicle-routing-problem-taxonomy]]
 - [[concepts/vehicle-routing-with-synchronization-constraints]]
 - [[concepts/periodic-scheduling-under-capacity-constraints]]

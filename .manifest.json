@@ -7824,19 +7824,716 @@
     },
     "_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md": {
       "content_hash": "e0ea64b7defe6f72e72c75c1745592c93a9413a24f24af479e4d877c39233858",
-      "last_ingested": "2026-10-29T07:48:54.302666+00:00",
+      "last_ingested": "2026-10-29T09:21:08.875157+00:00",
       "pages_produced": [
-        "references/xinyingchen2023guide.md",
-        "concepts/alpha-fairness-proportional-fairness.md",
-        "concepts/convex-combination-weights-fairness.md",
-        "concepts/group-parity-fairness-metrics.md",
-        "concepts/inequality-measures-fairness-formulations.md",
-        "concepts/kalai-smorodinsky-bargaining-solution.md",
-        "concepts/maximin-leximax-fairness.md",
-        "concepts/nash-bargaining-solution-axioms.md",
-        "concepts/sequential-leximax-threshold-models.md",
-        "concepts/utility-fairness-thresholds.md",
-        "concepts/welfare-social-function-fairness-formulations.md"
+        "references/xinyingchen2023guide.md"
+      ]
+    },
+    "_papers/yi2023automated/yi2023automated-extracted.md": {
+      "content_hash": "6bd8c9c7ccab61913f19be71df4f49af466072118f36a2bb288985d6e252c58b",
+      "last_ingested": "2026-10-29T09:17:18.907095+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/yi2023automated.md": {
+      "content_hash": "ec3c656cfefa602aa3fc0fab2d4a97923156ff070fae12ebfc87b86a168a1773",
+      "last_ingested": "2026-10-29T09:17:29.850236+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_10_table_1.jpg": {
+      "content_hash": "5b2cc4b074a9ea944372a2fe7c6c5501fd4c65aa83cb7e99ee428f9a1effec3f",
+      "last_ingested": "2026-10-29T09:17:29.999228+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_0.jpg": {
+      "content_hash": "7c553b84416975d69c911a4f664f44b864d9d3474eae54c92da6fbafcfa52b42",
+      "last_ingested": "2026-10-29T09:17:30.132922+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_10.jpg": {
+      "content_hash": "47b65ad0e4cbea02da3293f3131799fb15223c0e6f8c6b8537b0dc858a82aff1",
+      "last_ingested": "2026-10-29T09:17:30.259023+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_11.jpg": {
+      "content_hash": "6469cdae067894753dcaff763ce46baaea720365d54ffa9f5c4826a037e0646c",
+      "last_ingested": "2026-10-29T09:17:30.369467+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_13.jpg": {
+      "content_hash": "c3886fe7f11fc03bdf674c49ea8f593e541bdb0e8a2e4fd61f0054f009fb5c7f",
+      "last_ingested": "2026-10-29T09:17:30.474093+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_14.jpg": {
+      "content_hash": "1c5538e047c421eb0db25813e02e8c819e0506e27ebcd2eb26da98f931762a25",
+      "last_ingested": "2026-10-29T09:17:30.576251+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_1.jpg": {
+      "content_hash": "061eaecd13356dd5e1f25334711a5a45c35a5720fa1ec18411180eaa3083c71c",
+      "last_ingested": "2026-10-29T09:17:30.673609+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_2.jpg": {
+      "content_hash": "882ea6ec707c7b8e21683c956e4396b759a2baa622b0cb76c8af6f92ed1b1355",
+      "last_ingested": "2026-10-29T09:17:30.769735+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_5.jpg": {
+      "content_hash": "5c5b60dcfd08f0700b00b90a467cd18b81e6241a54f36c2b459d4f960a2987ef",
+      "last_ingested": "2026-10-29T09:17:30.868031+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_6.jpg": {
+      "content_hash": "5f63ba8996a35acdcae974db8e050626931908d9a714e4a73379d500f70cb2d2",
+      "last_ingested": "2026-10-29T09:17:30.966902+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_7.jpg": {
+      "content_hash": "940e4bad2fcd521f9248e3dc434ac19a53a0884c4c1dfb700cf23e2679dc3b7e",
+      "last_ingested": "2026-10-29T09:17:31.071368+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_11_image_8.jpg": {
+      "content_hash": "077cf646f485d184f099824ed9a2c54468d4eb72278a42561b707d35d58e5f99",
+      "last_ingested": "2026-10-29T09:17:31.172547+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_12_equation_3.jpg": {
+      "content_hash": "07d01ce96426407c56dfe554f93d8b0f07a08d83c6455ba17f57935d8da550c1",
+      "last_ingested": "2026-10-29T09:17:31.271757+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_12_table_1.jpg": {
+      "content_hash": "e9215eee12cf0afe238def090061dc58ed1353a75f59e7cf67a1aee5f7f2a2ea",
+      "last_ingested": "2026-10-29T09:17:31.372599+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_13_image_0.jpg": {
+      "content_hash": "466d35d3693acf0eacc50f5c642240f424de584b64995144b7c0ba2eb661a334",
+      "last_ingested": "2026-10-29T09:17:31.481139+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_16_equation_1.jpg": {
+      "content_hash": "d96a66a2b8ed482493fe50b3dd6266563e2b874aeec1001e15d8f97201137949",
+      "last_ingested": "2026-10-29T09:17:31.587350+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_16_equation_2.jpg": {
+      "content_hash": "ce3af8c3db8e205e4aeff395b94c389fa5216dabdb23352fcc39be878e14e0d6",
+      "last_ingested": "2026-10-29T09:17:31.695558+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_16_equation_3.jpg": {
+      "content_hash": "3011bc19ddb6019932aeb0f1cd3f178af390bdaf0fb14bb05e69b5602cd05122",
+      "last_ingested": "2026-10-29T09:17:31.801630+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_16_equation_4.jpg": {
+      "content_hash": "703f976b5bc2faca70726e84c321b74ed83213e187c6feda717135bf071ad370",
+      "last_ingested": "2026-10-29T09:17:31.905459+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_17_equation_6.jpg": {
+      "content_hash": "01c8f97e3d9a938befc89d3ff2344311021e6b720359d9aa64e5a2f53a07b7b6",
+      "last_ingested": "2026-10-29T09:17:32.010421+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_18_equation_0.jpg": {
+      "content_hash": "58b08ada74547951118609df0cebe49c115338f351e7f32a5e6c9ce281baa2b8",
+      "last_ingested": "2026-10-29T09:17:32.114572+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_19_equation_3.jpg": {
+      "content_hash": "ad7f1e08da12610e49abe17bcbde5881bfafe114c32026a43babbb3da1d23cbc",
+      "last_ingested": "2026-10-29T09:17:32.216742+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_19_equation_7.jpg": {
+      "content_hash": "70c8e96a750eff845d3d134178547e532217a5ee6953d64f2d71b452a7ed90f4",
+      "last_ingested": "2026-10-29T09:17:32.325952+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_19_image_4.jpg": {
+      "content_hash": "8f149344dad9749d6beb04595932876da0ced8b734455914f93b9d54abba1d6d",
+      "last_ingested": "2026-10-29T09:17:32.435851+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_10.jpg": {
+      "content_hash": "ebad9109a9a9f9d81a69259b629586c29e8b8d8b9d97571845929b98b4d030ce",
+      "last_ingested": "2026-10-29T09:17:32.537703+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_12.jpg": {
+      "content_hash": "e2610a04864c4d948dac423a56af36aed6534bbe288d8493e91015f309653e4f",
+      "last_ingested": "2026-10-29T09:17:32.636520+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_13.jpg": {
+      "content_hash": "49e25f8dc1d0e7b6c81b9320c921185c5f1a6021312d9279a759e41b6faf51bb",
+      "last_ingested": "2026-10-29T09:17:32.734590+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_14.jpg": {
+      "content_hash": "2a7eb31eb2dc49add86ba40520e1f2a7da5caca87cd54595ab62e752da28742c",
+      "last_ingested": "2026-10-29T09:17:32.832969+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_16.jpg": {
+      "content_hash": "82f1fdfb5eaad7622e0d8509519941a78621e6a59eccb9984ffda4d26118b9a4",
+      "last_ingested": "2026-10-29T09:17:32.931133+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_18.jpg": {
+      "content_hash": "f45dd35c71c006c291dd0cebe368db14687480b52051cd9760929985f6ec5190",
+      "last_ingested": "2026-10-29T09:17:33.032590+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_1.jpg": {
+      "content_hash": "619052d8ca3619ebefc501377405a4117b9cdddbd14c8044679ff2028c61eb7f",
+      "last_ingested": "2026-10-29T09:17:33.140853+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_20.jpg": {
+      "content_hash": "d8aed1bb3252b1fccf65e1ba2b7543a7f2bca6ea7a20a66b39bbce46ed03e030",
+      "last_ingested": "2026-10-29T09:17:33.248196+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_22.jpg": {
+      "content_hash": "7fa207bb0d87feaf14c725580ceb676265869004c50509fdea2002e5feb48e5b",
+      "last_ingested": "2026-10-29T09:17:33.350856+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_26.jpg": {
+      "content_hash": "0dee62cde460081e1157142c31e37049f8dc5f7ec55295761a683e0ec57af299",
+      "last_ingested": "2026-10-29T09:17:33.454038+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_29.jpg": {
+      "content_hash": "c8829648bd6dddd37f5d38aa53feaa04ce37c2cd05cff554876b55a1b6d44bd2",
+      "last_ingested": "2026-10-29T09:17:33.559982+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_31.jpg": {
+      "content_hash": "221f94e392287dedf2729fae52d36e252cbdd6027fea0d22f2a8e4fb2a3e66d1",
+      "last_ingested": "2026-10-29T09:17:33.667981+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_3.jpg": {
+      "content_hash": "3d07f687838d97c9f078996a5c7e853b5768d77e51618e89d9cad076e69d7d12",
+      "last_ingested": "2026-10-29T09:17:33.773939+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_5.jpg": {
+      "content_hash": "35c943363c1fbccf4f7d2b32cc657116dfdab53d79219c3502f17c3b15f9882a",
+      "last_ingested": "2026-10-29T09:17:33.873832+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_7.jpg": {
+      "content_hash": "567dc6e3f4c76fb98ba48656a9b54a5d4183e8334940e5484d46e76514b20a3c",
+      "last_ingested": "2026-10-29T09:17:33.977830+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_21_chart_9.jpg": {
+      "content_hash": "1a787fc23a6b1b101a2f0f045072d1eaaa3fa1420205d7439bf53b4c4dd707c4",
+      "last_ingested": "2026-10-29T09:17:34.081577+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_23_table_1.jpg": {
+      "content_hash": "3bd0faeaf34e7d80e5ede1df09ad58d09125f89e20e919308e702ae1e20e75bb",
+      "last_ingested": "2026-10-29T09:17:34.187721+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_24_table_1.jpg": {
+      "content_hash": "b71a59d57307bbf3964430885e46fc2523de1938ab006ec681523af78fad486d",
+      "last_ingested": "2026-10-29T09:17:34.292457+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_25_table_1.jpg": {
+      "content_hash": "73fbe67d5c63e9fddb547a65f6407974080c1189779cdbcd6fc7f306f11d55b9",
+      "last_ingested": "2026-10-29T09:17:34.398564+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_26_table_1.jpg": {
+      "content_hash": "5cf850a0b2303cf61b425f7b6c88ecf4f47db3a79eafcbaba6260c30250ebbaa",
+      "last_ingested": "2026-10-29T09:17:34.503652+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_0.jpg": {
+      "content_hash": "eaf9c1b16263e9060110b3732d7936117b9be0c2c393bf15635cdfbd19c28d20",
+      "last_ingested": "2026-10-29T09:17:34.608740+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_10.jpg": {
+      "content_hash": "2765d431e8b3fc1391340475040eaa55ebea30e46326d3c8d839c57d6a513370",
+      "last_ingested": "2026-10-29T09:17:34.719311+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_11.jpg": {
+      "content_hash": "5198fe23cc2f86815378db3607d8d4e5f3e023789300c7aa03e1cd45c8cae5fe",
+      "last_ingested": "2026-10-29T09:17:34.834433+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_13.jpg": {
+      "content_hash": "5308a26a5fb8085c5a7632a2493b067eeed9d35c3f53b2b1ae980dd9403ac23e",
+      "last_ingested": "2026-10-29T09:17:34.942800+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_15.jpg": {
+      "content_hash": "f1c99879443bb7130d503448359d4fe45dc9410a038e66ec3f841ac964cdcda1",
+      "last_ingested": "2026-10-29T09:17:35.045698+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_17.jpg": {
+      "content_hash": "5ec98fe18a9d498597b0a5a202785e1a57402e7de5b54b15910d60b8c79d6be2",
+      "last_ingested": "2026-10-29T09:17:35.148470+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_19.jpg": {
+      "content_hash": "8cea2fe99d0d4f9af289af512c56becff811a7cd7db335de44697ea933e0bc4e",
+      "last_ingested": "2026-10-29T09:17:35.255745+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_21.jpg": {
+      "content_hash": "f019acc78e4edb01376791f6b845807fc604cb9478e764a123b32c03797cb3b0",
+      "last_ingested": "2026-10-29T09:17:35.364535+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_24.jpg": {
+      "content_hash": "99c4c0397a07061b077b9b8fd1c097b191951a4bf13c0351be487ce7805959cc",
+      "last_ingested": "2026-10-29T09:17:35.473779+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_27.jpg": {
+      "content_hash": "fae31ab314e7aa94dd17a6358962fd988b9727afc4d3d9c39d000539f1600ac8",
+      "last_ingested": "2026-10-29T09:17:35.580831+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_2.jpg": {
+      "content_hash": "e13741aabae32bb2a10e8b7ed8b660569115bd82f7658fa4eb84d409177af13f",
+      "last_ingested": "2026-10-29T09:17:35.690021+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_30.jpg": {
+      "content_hash": "750a74a14b23fbb25be1e46fdb538bbd905de12f275591db461ae79a9bdbfcf9",
+      "last_ingested": "2026-10-29T09:17:35.800060+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_4.jpg": {
+      "content_hash": "3f070487433efadb8a7468b9cad68cc66ae023de01eb40e569cf1e5f2d70b737",
+      "last_ingested": "2026-10-29T09:17:35.902810+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_5.jpg": {
+      "content_hash": "2d9b53096f24837d6f0b581198e01ef5cab6113fab519f52c0d65ca238142b07",
+      "last_ingested": "2026-10-29T09:17:36.005126+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_8.jpg": {
+      "content_hash": "d085f938d0c1ff0f2ee4e2a4944004d281e8b15d14cfc1a554d3d9b58d10f32a",
+      "last_ingested": "2026-10-29T09:17:36.109676+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_27_chart_9.jpg": {
+      "content_hash": "5e1eff450a2842abb7a68d4aa19d8490fd1c71bca8f5ab71e4f8b050958c168d",
+      "last_ingested": "2026-10-29T09:17:36.218960+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_28_table_2.jpg": {
+      "content_hash": "a96ff7f5f0ed4f9ba53865d5fc2d600a2e3f7bda6b26d059cbae2601132c3d4a",
+      "last_ingested": "2026-10-29T09:17:36.322778+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_29_table_1.jpg": {
+      "content_hash": "20f2679a15a9c01ae55da56cd808e32e0010c5f02d543a5a080524e36e477f85",
+      "last_ingested": "2026-10-29T09:17:36.428913+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_30_table_1.jpg": {
+      "content_hash": "8ff356f90cc233387ae763f5e28fe9c0f666a0299b55e35bbf2c0cc86e423cad",
+      "last_ingested": "2026-10-29T09:17:36.532303+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_31_table_1.jpg": {
+      "content_hash": "5e2dc91589596177f48fd03265f8f0107673025430485f571ecac90221e99786",
+      "last_ingested": "2026-10-29T09:17:36.631792+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_0.jpg": {
+      "content_hash": "0b0b39b9d199b90b9d129b2bb5bc0b03e3b3835f1295a3b3e960b356a8efadc5",
+      "last_ingested": "2026-10-29T09:17:36.734322+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_10.jpg": {
+      "content_hash": "3d3243b73c198788a87b0113b40685d02e92b813ae81f87bab5f9cb511e38d40",
+      "last_ingested": "2026-10-29T09:17:36.838563+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_11.jpg": {
+      "content_hash": "b2fd38b55d3629be29315f2d10016f8d37a79580e06572a9fa8253a214d6cea6",
+      "last_ingested": "2026-10-29T09:17:36.942763+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_13.jpg": {
+      "content_hash": "b7b2be90f04d9343d4cf26903fa3c670c1255c48dde922527feb745f2523a940",
+      "last_ingested": "2026-10-29T09:17:37.044514+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_15.jpg": {
+      "content_hash": "cf792ba991fdd5ef26750d3afccaa6b647bd46cbb96c3877b73ed00f2b650040",
+      "last_ingested": "2026-10-29T09:17:37.147515+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_17.jpg": {
+      "content_hash": "9d057e303e0796904b0809d34f4540a6fc50628b395b79c22243d83dd67b17a7",
+      "last_ingested": "2026-10-29T09:17:37.252581+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_19.jpg": {
+      "content_hash": "431bc53589ae07d9e88e6ab1093459e89ce3aed7ef9db9020ec059a1540a8b2d",
+      "last_ingested": "2026-10-29T09:17:37.356905+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_21.jpg": {
+      "content_hash": "c5d700ef91f41df6fa5c4ffce2987fbdd5875d7214d27db0dc8574dc883c72a5",
+      "last_ingested": "2026-10-29T09:17:37.458753+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_24.jpg": {
+      "content_hash": "8ae260c5030cce86f55b768b27039294f50792033c1c20d00363a182117a40fb",
+      "last_ingested": "2026-10-29T09:17:37.564217+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_27.jpg": {
+      "content_hash": "361014722ee399c838d2c17dd9f440ac8eb76e393607b8caaa4f38d4f2f8810a",
+      "last_ingested": "2026-10-29T09:17:37.678154+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_2.jpg": {
+      "content_hash": "7faed0ca165ada31722dc515b4e75325708e95395b82bb5a115762fb727b6b54",
+      "last_ingested": "2026-10-29T09:17:37.793804+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_30.jpg": {
+      "content_hash": "6bff0072ec8bdd1e5c2f1990f7ba11d7455ed2b73d52ab60cb3d2e10c4b4594d",
+      "last_ingested": "2026-10-29T09:17:37.901608+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_4.jpg": {
+      "content_hash": "32e077e777794c0e511ac0b0b513bbb09316d5ab40bdb5cf4f01f5c95aee548a",
+      "last_ingested": "2026-10-29T09:17:38.003141+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_5.jpg": {
+      "content_hash": "32f11fe0d0087567a1e315b5d6a23fa8a538982bd7a1b3703253bdb510fbb603",
+      "last_ingested": "2026-10-29T09:17:38.105878+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_8.jpg": {
+      "content_hash": "2ffec74a09906b01b0e685734238ce3323aa4bb02bd40b9bb9059df5479e7102",
+      "last_ingested": "2026-10-29T09:17:38.211578+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_33_chart_9.jpg": {
+      "content_hash": "2e04cfc358a5728288a4ca6e38b642b1fc704f512698bea0b631ff98e17760d4",
+      "last_ingested": "2026-10-29T09:17:38.313502+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_34_table_1.jpg": {
+      "content_hash": "19b509213afb172222a85d81c1248f87ba9bc7dda1e9f0e6380b0cf80ad0425f",
+      "last_ingested": "2026-10-29T09:17:38.419126+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_35_table_1.jpg": {
+      "content_hash": "68921b7f37cb01bf5974dd4d5e98505d470cd1ea245032947a16e1116c910b06",
+      "last_ingested": "2026-10-29T09:17:38.525390+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_36_table_1.jpg": {
+      "content_hash": "53069d565644cb30a56351a28981cc6612ed3d85977ace5eac3ba7c2993f7ebe",
+      "last_ingested": "2026-10-29T09:17:38.632354+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_37_table_1.jpg": {
+      "content_hash": "c1edb1fcdc49f7047ac98c6d03fa9843e92675b041f0bf08f8bee1cfc261b4a9",
+      "last_ingested": "2026-10-29T09:17:38.738486+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_40_table_1.jpg": {
+      "content_hash": "ca65c9b4915018e3b42930b85b15489141c4a102604a9bf9b0f954bac25c76f7",
+      "last_ingested": "2026-10-29T09:17:38.843414+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_41_chart_0.jpg": {
+      "content_hash": "f0ef32ed99efd86ff85e6a3b0231304196e01826275f7103219b341c5627f927",
+      "last_ingested": "2026-10-29T09:17:38.946391+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_41_chart_2.jpg": {
+      "content_hash": "49fa55331d14a78b0ffbbf99db38a9cc88618246d33dbcf36f187ec9c35dfe5f",
+      "last_ingested": "2026-10-29T09:17:39.045579+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_41_chart_4.jpg": {
+      "content_hash": "3265631a3d44984b760bba4d7d7ce65fe5a4b07c64fb9897452d6bb6e5c9c222",
+      "last_ingested": "2026-10-29T09:17:39.144725+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_41_chart_6.jpg": {
+      "content_hash": "3ae9e46ead11431f5b3e8eed8b7c508516ca929401767942c0890368fa34b3f3",
+      "last_ingested": "2026-10-29T09:17:39.243964+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_42_chart_0.jpg": {
+      "content_hash": "cd272b0c5d397b1976a5b9b2be74a051fe961df7f82ecfca5b5c16ec7c6e7dc7",
+      "last_ingested": "2026-10-29T09:17:39.343885+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_42_chart_2.jpg": {
+      "content_hash": "3e18a608e4f8e8d3327f1b46e28d98c3e995bc141560f7bb34a248862b914fe4",
+      "last_ingested": "2026-10-29T09:17:39.447532+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_42_chart_4.jpg": {
+      "content_hash": "4935908afedc37e9768e1387608edb6ba813d898470f4f9cd93fe65b7b44f5d0",
+      "last_ingested": "2026-10-29T09:17:39.548273+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_42_chart_6.jpg": {
+      "content_hash": "cb41afed9683ba027654e192097c75750526b6e113c11fef6c59608bc9d737cc",
+      "last_ingested": "2026-10-29T09:17:39.650919+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_43_image_0.jpg": {
+      "content_hash": "5d81c28bba7dc6e695a143d73cae4ca74acaf7a243e1d4eb17025268bb1bd76b",
+      "last_ingested": "2026-10-29T09:17:39.762115+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_43_image_2.jpg": {
+      "content_hash": "82ca28628c84de295e74fde8831797c68b9f10b87dd9e54d938668bfa6fb13eb",
+      "last_ingested": "2026-10-29T09:17:39.871933+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_43_image_4.jpg": {
+      "content_hash": "db3375fbbc6237874646dcedc00d78e6cf6a48cdcf013638dda2216e6caa8e21",
+      "last_ingested": "2026-10-29T09:17:39.977564+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_43_image_6.jpg": {
+      "content_hash": "eb37743041aca16161331a85c56049f11f841646347728ea499b88a655e1edfb",
+      "last_ingested": "2026-10-29T09:17:40.082655+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_8_image_4.jpg": {
+      "content_hash": "29f79fa4bb9971f8fdadf2e5db4c8058681fb7a57d1c42e96b2dd6598318f5f8",
+      "last_ingested": "2026-10-29T09:17:40.187391+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
+      ]
+    },
+    "_papers/yi2023automated/images/page_9_table_1.jpg": {
+      "content_hash": "ce51bc59e02382f7ce60cfc5f7de38ae4e16c71250739b1d83d3f01ea05df4b5",
+      "last_ingested": "2026-10-29T09:17:40.295131+00:00",
+      "pages_produced": [
+        "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
       ]
     }
   },
