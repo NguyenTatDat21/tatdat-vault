@@ -8535,6 +8535,19 @@
       "pages_produced": [
         "/home/tatdatnguyen/tatdat-vault/references/yi2023-ace-gsf-automated-design-cvrptw.md"
       ]
+    },
+    "_papers/pesant2015principles/pesant2015principles-extracted.md": {
+      "content_hash": "85361e8e385c075652311f024b17e0f0213a8d57429a059f84149565fd0a59ae",
+      "last_ingested": "2026-10-29T17:12:20.467994+00:00",
+      "pages_produced": [
+        "references/pesant2015-cp2015-proceedings.md",
+        "concepts/decision-diagrams-optimization.md",
+        "concepts/encoding-preservation-under-composition-and-merging.md",
+        "concepts/lagrangian-decomposition-propagation.md",
+        "concepts/bound-tightening-relaxation-networks.md",
+        "concepts/search-combinators-meta-search.md",
+        "concepts/automated-model-generation.md"
+      ]
     }
   },
   "stats": {
