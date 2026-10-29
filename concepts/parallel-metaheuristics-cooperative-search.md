@@ -1,5 +1,4 @@
----
-title: >-
+---title: >-
   Parallel Metaheuristics and Cooperative Search
 category: concepts
 tags: [metaheuristics, parallel-computing, optimization]
@@ -12,6 +11,10 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
+
+  - target: "[[concepts/search-combinators-meta-search]]"
+    type: related_to
+
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
 summary: >-
@@ -52,3 +55,7 @@ Related pages: [[concepts/tabu-search]], [[concepts/variable-neighborhood-search
 ## Sources
 
 - [[_papers/gendreau2019handbook/gendreau2019handbook-extracted.md]]
+
+## Related
+
+- [[concepts/search-combinators-meta-search]] — shares search + metaheuristic tags with this page

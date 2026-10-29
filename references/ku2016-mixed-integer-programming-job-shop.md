@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
     type: related_to
+  - target: "[[references/pesant2015-cp2015-proceedings]]"
+    type: related_to
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
   - _papers/ku2016mixed/ku2016mixed.md
@@ -89,6 +91,7 @@ MIP (Manne, multi-thread + tuning) vs CP Optimizer (geometric mean, # Opt/10):
 - Off-the-shelf CP, not the state-of-the-art CP, already beats MIP on large JSP; the results argue for solver-empirical model choice over model-size analysis. ^[inferred]
 
 ## Related
+- [[references/pesant2015-cp2015-proceedings]] — shares constraint-programming + scheduling tags with this page
 
 - [[concepts/disjunctive-scheduling-constraint-programming-model]]
 - [[concepts/auxiliary-decision-variable-model-strengthening]]

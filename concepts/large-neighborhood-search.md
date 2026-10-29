@@ -1,9 +1,10 @@
----
-title: >-
+---title: >-
   Large Neighborhood Search (LNS)
 category: concepts
 tags: [metaheuristics, lns, alns, routing]
 relationships:
+  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
+    type: derived_from
   - target: "[[concepts/variable-neighborhood-search]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
@@ -14,8 +15,6 @@ relationships:
     type: related_to
   - target: "[[concepts/tabu-search]]"
     type: related_to
-  - target: "[[references/gendreau2019-handbook-metaheuristics]]"
-    type: derived_from
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
@@ -25,6 +24,18 @@ relationships:
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
   - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
+    type: related_to
+  - target: "[[concepts/decision-diagrams-optimization]]"
+    type: related_to
+  - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
+    type: related_to
+  - target: "[[concepts/lagrangian-decomposition-propagation]]"
+    type: related_to
+  - target: "[[concepts/bound-tightening-relaxation-networks]]"
+    type: related_to
+  - target: "[[concepts/search-combinators-meta-search]]"
+    type: related_to
+  - target: "[[concepts/automated-model-generation]]"
     type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
@@ -99,3 +110,12 @@ Related pages: [[concepts/variable-neighborhood-search]], [[concepts/hyper-heuri
 - [[_papers/goel2012large/images/page_22_chart_2.jpg]]
 - [[_papers/ha2020new/ha2020new-extracted.md]]
 - [[_papers/ha2020new/ha2020new.md]]
+
+## Related
+- [[concepts/automated-model-generation]] — shares search + metaheuristic tags with this page
+- [[concepts/search-combinators-meta-search]] — shares search + metaheuristic tags with this page
+- [[concepts/bound-tightening-relaxation-networks]] — shares search + metaheuristic tags with this page
+- [[concepts/lagrangian-decomposition-propagation]] — shares search + metaheuristic tags with this page
+- [[concepts/encoding-preservation-under-composition-and-merging]] — shares search + metaheuristic tags with this page
+
+- [[concepts/decision-diagrams-optimization]] — shares search + metaheuristic tags with this page

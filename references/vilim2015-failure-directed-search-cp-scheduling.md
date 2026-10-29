@@ -26,6 +26,8 @@ relationships:
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: uses
+  - target: "[[references/pesant2015-cp2015-proceedings]]"
+    type: related_to
 summary: "Vilím et al. (CPAIOR 2015): branch on domain splits by failure likelihood, restart with nogoods, LNS as plan B; closed 535 of 552 open Multi-Mode RCPSP j30."
 base_confidence: 0.67
 lifecycle: draft
@@ -128,6 +130,7 @@ Machine: Intel Core i7 2.60 GHz (4 cores, hyperthreading), 16 GB RAM, IBM ILOG C
 FDS improved state-of-the-art results across benchmarks covering disjunctive and cumulative resources, minimum and maximum lags, and multiple modes, and FDS plus the CP Optimizer automatic search (LNS+FDS) can compete with, and sometimes outperform, specialized algorithms. FDS has been an integral part of the CP Optimizer automatic search since version 12.6.0.
 
 ## Related
+- [[references/pesant2015-cp2015-proceedings]] — shares constraint-programming + scheduling tags with this page
 
 - [[concepts/failure-directed-search]] — the mechanism this paper defines.
 - DestructLB, the lower-bound-by-refutation procedure, is described in full in [[references/vilim2015-failure-directed-search-cp-scheduling]].

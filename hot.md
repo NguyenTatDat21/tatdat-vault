@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-29T09:22:07Z
-pages: 456
+updated: 2026-10-29T17:11:47Z
+pages: 463
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] INGEST source=_papers/vu2020dynamic/vu2020dynamic-extracted.md created=7 updated=0
-- [2026-10-28] CROSS_LINK targets=12 links_added=21 pages_touched=12 ...
 - [2026-10-29] INGEST source=_papers/yi2023automated/yi2023automated-extracted.md created=5 updated=0
+- [2026-10-29] INGEST source=_papers/pesant2015principles/pesant2015principles-extracted... created=7 updated=0 ...
+- [2026-10-29] CROSS_LINK pages_scanned=13 links_added=27 typed_relations_written=27 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-AP-X LNG flexibility valued with 10,000 Monte Carlo paths on mean-reverting jump-diffusion Henry Hub prices; LTC full-capacity NPV 5.82B vs spot-only loss; Jensen gap 11-5.6% above deterministic NPV.
+The CP 2015 reference page is now the hub for 6 new concept pages; search-combinators and decision-diagrams pages are the densest cross-linked hubs.
 
 ## Flagged Contradictions
 

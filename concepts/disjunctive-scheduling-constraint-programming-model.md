@@ -1,5 +1,4 @@
----
-title: >-
+---title: >-
   Disjunctive Scheduling Constraint-Programming Model
 category: concepts
 tags: [constraint-programming, scheduling, cumulative-functions, interval-variables, modeling-pattern]
@@ -28,6 +27,12 @@ relationships:
     type: related_to
   - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
     type: related_to
+
+  - target: "[[concepts/search-combinators-meta-search]]"
+    type: related_to
+  - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
+    type: related_to
+
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
@@ -112,6 +117,8 @@ Model sizes (paper Table 1):
 - The container premarshalling CP series shows CP quality driven by added groups of decision variables, not by disjunctive size alone: [[references/jimenez-piqueras2023-constraint-programming-premarshalling]]; see [[concepts/auxiliary-decision-variable-model-strengthening]].
 
 ## Related
+- [[concepts/encoding-preservation-under-composition-and-merging]] — shares constraint-programming + scheduling tags with this page
+- [[concepts/search-combinators-meta-search]] — shares constraint-programming + scheduling tags with this page
 
 - [[concepts/cumulative-volume-lower-bound-cp-search]]
 - [[concepts/cp-sat-hint-start]]

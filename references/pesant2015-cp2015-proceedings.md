@@ -1,5 +1,4 @@
----
-title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
+---title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
 summary: "CP 2015 proceedings (LNCS 9255, ed. Pesant): 48 technical papers, 3 invited talks, 16 fast/journal-track abstracts, erratum, front matter, Author Index; 73 items, zero figures."
 tags: [CP-2015, constraint-programming, proceedings-volume, encodings, scheduling, decision-diagrams, tractability, search]
 provenance:
@@ -21,6 +20,18 @@ relationships:
   - { target: "concepts/decision-diagrams-optimization", type: "inbound" }
   - { target: "concepts/search-combinators-meta-search", type: "inbound" }
   - { target: "concepts/automated-model-generation", type: "inbound" }
+  - target: "[[concepts/decision-diagrams-optimization]]"
+    type: related_to
+  - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
+    type: related_to
+  - target: "[[concepts/lagrangian-decomposition-propagation]]"
+    type: related_to
+  - target: "[[concepts/bound-tightening-relaxation-networks]]"
+    type: related_to
+  - target: "[[concepts/search-combinators-meta-search]]"
+    type: related_to
+  - target: "[[concepts/automated-model-generation]]"
+    type: related_to
 lifecycle: active
 lifecycle_changed: 2026-10-29T15:52:00Z
 provenance_note: "Zotero item BAKF26BL (library-id 11058526, itemType book, Gilles Pesant (ed.), Springer, 2015, DOI 10.1007/978-3-319-23219-5). Provenance by script: 295 statement units, 89 verbatim markers (page-and-chapter citations, the 89 paper-index table rows, quoted equations, named algorithms, exact counts), 206 units without markers. Extracted rounded to 0.82; inferred 0.15 for theme-section grouping and author-name ordering; ambiguous 0.03 because fast-track and journal-track footnotes cite journal versions, so those items carry no Springer chapter DOI. Zero images in the source, so no captions to verify. Zero source page footnotes on the invited talks, so no page numbers are asserted for them."
@@ -205,3 +216,12 @@ The fast-track and journal-track footnotes cite the journal version of each pape
 ## Sources
 
 - `_papers/pesant2015principles/pesant2015principles.md` (Zotero bibliography export) and `_papers/pesant2015principles/pesant2015principles-extracted.md` (18,510 lines, Springer HTML export), the only sources for this page; page ranges and chapter numbers come from each paper's page-1 Springer footnote and the volume Contents.
+
+## Related
+- [[concepts/automated-model-generation]] — produced by the CP 2015 volume this page documents
+- [[concepts/search-combinators-meta-search]] — produced by the CP 2015 volume this page documents
+- [[concepts/bound-tightening-relaxation-networks]] — produced by the CP 2015 volume this page documents
+- [[concepts/lagrangian-decomposition-propagation]] — produced by the CP 2015 volume this page documents
+- [[concepts/encoding-preservation-under-composition-and-merging]] — produced by the CP 2015 volume this page documents
+
+- [[concepts/decision-diagrams-optimization]] — produced by the CP 2015 volume this page documents

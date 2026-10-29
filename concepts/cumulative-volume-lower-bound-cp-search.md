@@ -1,5 +1,4 @@
----
-title: >-
+---title: >-
   Cumulative Volume Lower Bound Search
 category: concepts
 tags: [constraint-programming, valid-inequality, search-pruning, lng, inventory]
@@ -20,6 +19,12 @@ relationships:
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
+
+  - target: "[[concepts/decision-diagrams-optimization]]"
+    type: related_to
+  - target: "[[concepts/bound-tightening-relaxation-networks]]"
+    type: related_to
+
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
@@ -90,6 +95,8 @@ Quality at common solve time (paper Table 5, % gap vs best known, positive = CP 
 - The bound is stated for full-load/full-discharge intervals with fixed load volume per cargo; a split-delivery model would need a re-derivation. ^[inferred]
 
 ## Related
+- [[concepts/bound-tightening-relaxation-networks]] — shares search + scheduling tags with this page
+- [[concepts/decision-diagrams-optimization]] — shares search + scheduling tags with this page
 
 - [[concepts/disjunctive-scheduling-constraint-programming-model]]
 - [[concepts/cp-sat-hint-start]]

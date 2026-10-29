@@ -1,5 +1,4 @@
----
-title: "Auxiliary Decision Variables in Scheduling Model Strengthening"
+---title: "Auxiliary Decision Variables in Scheduling Model Strengthening"
 category: concepts
 tags: [constraint-programming, mixed-integer-programming, scheduling, modeling-pattern, formulation-strength]
 relationships:
@@ -15,6 +14,14 @@ relationships:
     type: derived_from
   - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
     type: derived_from
+
+  - target: "[[concepts/lagrangian-decomposition-propagation]]"
+    type: related_to
+  - target: "[[concepts/automated-model-generation]]"
+    type: related_to
+  - target: "[[concepts/bound-tightening-relaxation-networks]]"
+    type: related_to
+
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
   - _papers/ku2016mixed/ku2016mixed.md
@@ -56,6 +63,9 @@ $$\text{model quality} \neq f(\text{variables, constraints});\quad \text{model q
 Choose models empirically against the target solver, not by counting variables: auxiliary variables are cheap to add and can be decisive; presolve and propagation interplay is what makes one formulation beat another. ^[inferred]
 
 ## Related
+- [[concepts/bound-tightening-relaxation-networks]] — shares constraint-programming + scheduling tags with this page
+- [[concepts/automated-model-generation]] — shares constraint-programming + scheduling tags with this page
+- [[concepts/lagrangian-decomposition-propagation]] — shares constraint-programming + scheduling tags with this page
 
 - [[concepts/disjunctive-scheduling-constraint-programming-model]]
 - [[references/ku2016-mixed-integer-programming-job-shop]]

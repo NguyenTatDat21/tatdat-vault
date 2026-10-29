@@ -1,5 +1,4 @@
----
-title: "Failure-Directed Search"
+---title: "Failure-Directed Search"
 category: concepts
 tags:
   - failure-directed-search
@@ -14,14 +13,16 @@ aliases:
 sources:
   - "[[_papers/vilim2015failuredirected/vilim2015failuredirected-extracted.md]]"
 relationships:
-  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
-    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
   - target: "[[concepts/variable-neighborhood-search]]"
     type: uses
   - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
     type: derived_from
+  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
+    type: related_to
+  - target: "[[references/pesant2015-cp2015-proceedings]]"
+    type: related_to
 summary: "Failure-Directed Search explores by iterative deepening on the quality threshold toward a lower bound, deleting most-likely-to-fail assignments first, restart with nogoods."
 base_confidence: 0.67
 lifecycle: draft
@@ -78,6 +79,7 @@ provenance:
 - The method inherits CP Optimizer's scheduling primitives; nothing here establishes it for other CP languages.
 
 ## Related
+- [[references/pesant2015-cp2015-proceedings]] — shares constraint-programming + scheduling tags with this page
 - [[references/vilim2015-failure-directed-search-cp-scheduling]] — the paper that defines FDS.
 - [[concepts/large-neighborhood-search]] — the plan A strategy FDS complements.
 - [[concepts/variable-neighborhood-search]] — neighbourhood search whose incumbent FDS takes over.

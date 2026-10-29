@@ -9,6 +9,8 @@ relationships:
     type: related_to
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: related_to
+  - target: "[[references/pesant2015-cp2015-proceedings]]"
+    type: related_to
 sources:
   - _papers/isik2023constraint/isik2023constraint-extracted.md
   - _papers/isik2023constraint/isik2023constraint.md
@@ -81,6 +83,7 @@ Mean optimality gap on 90 new instances (CP vs MILP, %):
 - The paper suggests CP models for batching, preemption, stage-skipping, and matheuristics as future work.
 
 ## Related
+- [[references/pesant2015-cp2015-proceedings]] — shares constraint-programming + scheduling tags with this page
 
 - [[concepts/disjunctive-scheduling-constraint-programming-model]]
 - [[concepts/auxiliary-decision-variable-model-strengthening]]
