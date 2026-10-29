@@ -15,9 +15,9 @@ relationships:
   - target: "[[concepts/duration-objective-depot-discretization]]"
     type: uses
 summary: "Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criteria on CVRP, CMST, QAP. SA, TA and RRT win; HC/RW lose; linear parameter ending at zero saves a tuning dimension."
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-27
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: supporting
 created: 2026-10-27T06:50:00Z
 updated: 2026-10-27T06:50:00Z
@@ -52,6 +52,7 @@ The authors' forward-looking point: acceptance decisions could be improved by us
 ## Related
 
 - [[concepts/simulated-annealing-metropolis-cooling]] — the SA criterion is one of the top three; its temperature schedule is the tuned parameter.
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS applying the Metropolis acceptance criterion in ALNS form.
 - [[concepts/hyper-heuristics]] — ALNS is treated as a hyper-heuristic; acceptance criteria have been compared in that framework without definite conclusions.
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the original ALNS, whose default criterion was simulated annealing.
 - [[references/shaabani2023-multiproduct-mirp-matheuristic]] — Phase 1 of that matheuristic is tuned by a Taguchi L27(3⁶) design, not by ranking acceptance criteria

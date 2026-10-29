@@ -8,10 +8,11 @@ provenance:
   extracted: 0.97
   inferred: 0.02
   ambiguous: 0.01
-base_confidence: 0.77
+base_confidence: 0.87
 created: "2026-10-28T21:56:00+07:00"
 updated: "2026-10-28T21:56:00+07:00"
-tier: supporting
+tier: core
+lifecycle_changed: 2026-10-29T17:15:00Z
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:
@@ -147,6 +148,7 @@ Primary source: `_papers/sacramento2019adaptive/sacramento2019adaptive-extracted
 ## Related
 
 - [[references/murray2015flying]] - the Flying Sidekick TSP this VRP-D MIP extends, with time minimization, single truck and single drone, and the PDSTSP fleet variant.
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS; uses Sacramento's drone-cost ≈ 10 % of truck for its managerial cost model.
 - [[concepts/large-neighborhood-search]] - Shaw's LNS and the ALNS framework of Ropke & Pisinger 2006 that supplies the destroy/repair, roulette-wheel weight update and score scheme.
 - [[concepts/simulated-annealing-metropolis-cooling]] - the acceptance criterion the ALNS borrows; here the temperature is time-linear, ending at zero.
 - [[references/santini2018-alns-acceptance-criteria]] - the source of the linear temperature schedule, the criterion that wins among nine ALNS acceptance criteria on CVRP, CMST and QAP.

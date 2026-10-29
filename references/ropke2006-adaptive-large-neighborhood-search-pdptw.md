@@ -53,10 +53,10 @@ provenance:
   extracted: 0.92
   inferred: 0.05
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 tier: core
 lifecycle: draft
-lifecycle_changed: "2026-10-26T12:26:00Z"
+lifecycle_changed: 2026-10-29T17:15:00Z
 created: "2026-10-26T12:26:00Z"
 updated: 2026-10-27T06:00:00Z
 ---
@@ -370,6 +370,7 @@ for discussions, Emilie Danna for criticism, and three anonymous referees.
 ## Related
 - [[concepts/large-neighborhood-search]] — this paper is the PDPTW instantiation that Shaw's LNS made into a family: many ruin heuristics, simple greedy repair, simulated annealing acceptance, adaptive weights. ^[inferred]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]] — the ALNS framework in MIP form, with a fixed-solution destroy operator, is the same adaptive-weights machinery applied to MIP.
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS built directly on this canonical ALNS.
 - [[concepts/simulated-annealing-metropolis-cooling]] — the accept criterion, the multiplicative cooling rate c, and the w-controlled start temperature are the Metropolis loop used here.
 - [[concepts/variable-neighborhood-search]] — the paper contrasts ALNS with VNS: several unrelated neighborhoods versus one parameterized family searched at variable depth. ^[inferred]
 - [[references/pisinger2019-large-neighborhood-search]] — the handbook chapter by Pisinger on the LNS family that this paper founded.

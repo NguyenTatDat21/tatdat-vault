@@ -28,9 +28,9 @@ provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-24
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T08:44:14Z
 updated: 2026-10-25T01:47:51Z
@@ -129,6 +129,7 @@ These constraints indicate the approach prioritizes tractability over exactness 
 ## Related
 
 - [[concepts/k-multi-visit-drone-routing-problem]]
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS using a set-partitioning MIP in the Poikonen & Golden style.
 - [[concepts/pdsvrp-c]]
 - [[references/montemanni2024-pdsvrp-collective-drones]]
 - [[concepts/cooperative-multi-agent-uav-routing]]

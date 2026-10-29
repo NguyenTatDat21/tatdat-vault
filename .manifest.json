@@ -7800,6 +7800,27 @@
         "concepts/vehicle-routing-with-synchronization-constraints.md",
         "concepts/iterated-local-search.md"
       ]
+    },
+    "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md": {
+      "content_hash": "f82e29ccb4e21acbf5f68ea895b361eb000ebe4581a4153d9b115189aada9f16",
+      "last_ingested": "2026-10-29T01:45:33.524175+00:00",
+      "pages_produced": [
+        "references/windrasmara2022-alns-multi-drop-fstsp.md",
+        "concepts/alns-destroy-repair-operator-suite.md",
+        "concepts/multi-drop-flying-sidekick-traveling-salesman-problem.md",
+        "references/murray2015flying.md",
+        "references/poikonen2020-k-mvdrp.md",
+        "references/ha2018-min-cost-tsp-d.md",
+        "references/sacramento2019-vrp-d-truck-drone-alns-cost.md",
+        "references/ropke2006-adaptive-large-neighborhood-search-pdptw.md",
+        "references/santini2018-alns-acceptance-criteria.md",
+        "references/dellamico2020-matheuristics-pdstsp.md",
+        "references/murray2020-multiple-flying-sidekicks-tsp.md",
+        "concepts/k-multi-visit-drone-routing-problem.md",
+        "concepts/adaptive-large-neighborhood-search-for-mip.md",
+        "concepts/large-neighborhood-ship-pair-destroy-repair.md",
+        "concepts/multiple-flying-sidekicks-traveling-salesman-problem.md"
+      ]
     }
   },
   "stats": {

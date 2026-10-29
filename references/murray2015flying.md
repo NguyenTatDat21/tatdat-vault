@@ -62,10 +62,10 @@ provenance:
   extracted: 0.88
   inferred: 0.09
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.87
 tier: core
 lifecycle: draft
-lifecycle_changed: 2026-10-29T16:45:00Z
+lifecycle_changed: 2026-10-29T17:15:00Z
 created: 2026-10-26T04:15:04Z
 updated: 2026-10-27T06:00:00Z
 ---
@@ -277,6 +277,7 @@ MILP solves only small instances optimally. Authors propose relaxing launch/retu
 ## Related
 
 - [[references/murray2020-multiple-flying-sidekicks-tsp]] — multiple flying sidekicks, the follow-up generalization by Murray.
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop ALNS heuristic on the FSTSP, building on the single-drop FSTSP lineage.
 - [[references/dorling2017-drone-delivery-vrp]] — VRPD, the closest contemporary depot-launch model.
 - [[references/ha2020-vrp-synchronization-lp-alns]] — CP/LP-ALNS for VRP with synchronization constraints.
 - [[references/dinh2021-haco-pdstsp]], [[references/dellamico2020-matheuristics-pdstsp]], [[references/montemanni2023-cp-pdsvrp]], [[references/nguyen2022-min-cost-pdsvrp]] — PDS-line descendants.

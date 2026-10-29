@@ -21,9 +21,9 @@ provenance:
   extracted: 0.88
   inferred: 0.1
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: supporting
 created: 2026-10-22T11:39:28Z
 updated: 2026-10-26T10:43:50Z
@@ -71,6 +71,7 @@ That tradeoff is important for fleet sizing decisions. ^[inferred]
 ## Related
 
 - [[references/murray2020-multiple-flying-sidekicks-tsp]]
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS, multiple drones per truck sortie.
 - [[concepts/k-multi-visit-drone-routing-problem]]
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[concepts/vehicle-routing-with-synchronization-constraints]]

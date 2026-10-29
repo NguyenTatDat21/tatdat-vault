@@ -22,9 +22,9 @@ provenance:
   extracted: 0.84
   inferred: 0.11
   ambiguous: 0.05
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T23:45:17Z
 updated: 2026-10-27T06:00:00Z
@@ -68,6 +68,7 @@ Design pattern:
 ## Related
 
 - [[concepts/parallel-drone-scheduling-traveling-salesman-problem]]
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS in the matheuristic lineage.
 - [[references/dinh2021-haco-pdstsp]]
 - [[references/nguyen2022-min-cost-pdsvrp]]
 - [[references/shaabani2023-multiproduct-mirp-matheuristic]] — the same fix-and-optimize pattern: a heuristic fixes arcs, then a solver optimizes the remaining model

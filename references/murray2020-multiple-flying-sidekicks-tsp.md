@@ -27,9 +27,9 @@ provenance:
   extracted: 0.92
   inferred: 0.06
   ambiguous: 0.02
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-24
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T11:39:28Z
 updated: 2026-10-24T20:22:59Z
@@ -110,6 +110,7 @@ The study highlights that several realistic dimensions remain simplified (e.g., 
 ## Related
 
 - [[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS with multiple sorties per truck trip.
 - [[concepts/k-multi-visit-drone-routing-problem]]
 - [[concepts/min-cost-parallel-drone-scheduling-vrp]]
 - [[references/poikonen2020-k-mvdrp]]

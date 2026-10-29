@@ -29,9 +29,9 @@ provenance:
   extracted: 0.88
   inferred: 0.10
   ambiguous: 0.02
-base_confidence: 0.77
+base_confidence: 0.87
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T10:00:17Z
 updated: 2026-10-27T06:00:00Z
@@ -60,6 +60,7 @@ Related pages: [[references/hendel2022-adaptive-lns-for-mip]], [[concepts/large-
 ## Related
 
 - [[references/zhao2025-lns-hgs-inventory-routing]] — the authors name adaptive LNS as a natural host for their whole-horizon DP repair operator
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP solved with an ALNS MIP-style set-partitioning formulation.
 - [[references/li2024drone]] — shares alns + optimization tags with this page
 - [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — shares alns + mip tags with this page
 

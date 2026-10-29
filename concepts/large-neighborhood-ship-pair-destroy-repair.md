@@ -39,9 +39,9 @@ provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.87
 lifecycle: draft
-lifecycle_changed: 2026-10-24
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-24T03:00:25Z
 updated: 2026-10-27T06:00:00Z
@@ -117,6 +117,7 @@ Set 1, geometric means relative to the average performance of H-Randm (paper Tab
 ## Related
 
 - [[concepts/large-neighborhood-search]]
+- [[concepts/alns-destroy-repair-operator-suite]] — the operator suite tuned for truck-drone synchronization in multi-drop FSTSP.
 - [[concepts/variable-neighborhood-search]]
 - [[concepts/adaptive-large-neighborhood-search-for-mip]]
 - [[concepts/dynamic-discretization-discovery]]

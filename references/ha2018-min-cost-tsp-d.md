@@ -25,9 +25,9 @@ provenance:
   extracted: 0.86
   inferred: 0.11
   ambiguous: 0.03
-base_confidence: 0.67
+base_confidence: 0.77
 lifecycle: draft
-lifecycle_changed: 2026-10-22
+lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T09:52:03Z
 updated: 2026-10-27T06:00:00Z
@@ -109,6 +109,7 @@ The authors also report that min-cost solutions use drones for up to 40% of cust
 ## Related
 
 - [[concepts/min-cost-tsp-with-drone]]
+- [[references/windrasmara2022-alns-multi-drop-fstsp]] — ALNS benchmarked against the Ha et al. dataset.
 - [[references/poikonen2020-k-mvdrp]]
 - [[references/tamke2023-vrpd-dss]]
 - [[_papers/nguyen2022mincost/nguyen2022mincost-extracted]]
