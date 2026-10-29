@@ -7824,19 +7824,19 @@
     },
     "_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md": {
       "content_hash": "e0ea64b7defe6f72e72c75c1745592c93a9413a24f24af479e4d877c39233858",
-      "last_ingested": "2026-10-29T02:09:28.503967+00:00",
+      "last_ingested": "2026-10-29T07:48:54.302666+00:00",
       "pages_produced": [
         "references/xinyingchen2023guide.md",
-        "concepts/welfare-social-function-fairness-formulations.md",
-        "concepts/inequality-measures-fairness-formulations.md",
-        "concepts/group-parity-fairness-metrics.md",
         "concepts/alpha-fairness-proportional-fairness.md",
-        "concepts/nash-bargaining-solution-axioms.md",
-        "concepts/kalai-smorodinsky-bargaining-solution.md",
-        "concepts/utility-fairness-thresholds.md",
-        "concepts/sequential-leximax-threshold-models.md",
         "concepts/convex-combination-weights-fairness.md",
-        "concepts/maximin-leximax-fairness.md"
+        "concepts/group-parity-fairness-metrics.md",
+        "concepts/inequality-measures-fairness-formulations.md",
+        "concepts/kalai-smorodinsky-bargaining-solution.md",
+        "concepts/maximin-leximax-fairness.md",
+        "concepts/nash-bargaining-solution-axioms.md",
+        "concepts/sequential-leximax-threshold-models.md",
+        "concepts/utility-fairness-thresholds.md",
+        "concepts/welfare-social-function-fairness-formulations.md"
       ]
     }
   },
