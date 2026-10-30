@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T19:27:32Z
+updated: 2026-10-30T19:48:57Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,7 +11,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] AUDIT pages_scanned=234 pages_modified=36 tags_reformatted=6 ...
+- [2026-10-30] AUDIT pages_scanned=228 pages_modified=228 notes=full gate run after all fixes: 0 failures on knowledge page...
 - [2026-10-30] HOT
 - [2026-10-30] INDEX
 

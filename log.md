@@ -235,3 +235,6 @@ title: Wiki Log
 - [2026-10-30T19:27:31Z] AUDIT pages_scanned=234 pages_modified=36 tags_reformatted=6 base_confidence_recomputed=27 sources_rewritten=3 gate_checks_fixed=j,k notes="check j body-only + membership; check k n via wikilink form (caveat 22)"
 - [2026-10-30T19:27:32Z] HOT
 - [2026-10-30T19:27:32Z] INDEX
+- [2026-10-30T19:48:56Z] AUDIT pages_scanned=228 pages_modified=228 notes="full gate run after all fixes: 0 failures on knowledge pages (a-n, p), qmd refreshed"
+- [2026-10-30T19:48:56Z] HOT
+- [2026-10-30T19:48:57Z] INDEX
