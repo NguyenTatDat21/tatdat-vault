@@ -50,7 +50,7 @@ ISO = r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z"
 if ts:
     h_ok = all(re.search(rf"^({k}:\s*){re.escape(ts)}\s*$", rawfm, re.M) for k in ("created", "updated", "lifecycle_changed"))
 else:  # no wave timestamp given: accept any ISO-8601 date/datetime UTC stamp per field
-    vals = {k: (re.search(rf"^({k}):\s*(\S+)\s*$", rawfm, re.M) or ["", ""])[2] for k in ("created", "updated", "lifecycle_changed")}
+    vals = {k: (re.search(rf"^({k}:\s*(\S+)\s*$", rawfm, re.M) or ["", ""])[2].strip('"').strip("'") for k in ("created", "updated", "lifecycle_changed")}
     h_ok = all(re.fullmatch(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:\d{2}Z)?", v) for v in vals.values())
 print("h:", "OK" if h_ok else "FAIL raw frontmatter timestamps")
 
