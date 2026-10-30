@@ -111,14 +111,15 @@ hot = open("hot.md").read()
 secs = [s for s in re.split(r"(?m)^## ", hot)[1:]]
 print("hot sections:", len(secs), "sections without a link:", sum(1 for s in secs if not re.search(r"\[\[|\]\]", s)))
 log = open("log.md").read()
-ts = [m.group(1) for m in re.finditer(r"(?m)^\[(\d{4}-\d{2}-\d{2})", log)]
-print("log entries:", len(ts), "out-of-order:", sum(1 for a, b in zip(ts, ts[1:]) if a < b))
+ts = [m.group(1) for m in re.finditer(r"(?m)^-? ?\[(\d{4}-\d{2}-\d{2})", log)]
+print("log entries:", len(ts), "out-of-order:", sum(1 for a, b in zip(ts, ts[1:]) if a > b))
 idx = open("index.md").read()
+print("hot sections:", len(secs), "sections without a link:", sum(1 for s in secs if not re.search(r"\[\[", s)))
 print("index top-by-incoming section:", "Top pages by incoming links" in idx or "top by incoming" in idx.lower())
 tax = open("_meta/taxonomy.md").read()
 print("taxonomy sources field present:", bool(re.search(r"(?m)^sources:", tax)))
 tier_counts = collections.Counter(TIER.values())
-declared = yaml.safe_load(parts(open("_meta/taxonomy.md").read())[0]).get("confidence_tiers")
+declared = yaml.safe_load(parts(tax)[0]).get("confidence_tiers")
 print("tier counts actual:", dict(tier_counts), "declared:", declared)
-missing_pages = [p for p in pages if p not in [key(x) for x in [l for l in idx.splitlines() if l.startswith("- [[")]]]
-print("index.md missing page entries:", len(missing_pages), missing_pages[:5])
+idx_t = {key(m.group(1)) for m in re.finditer(r"(?m)^- ?\[\[([^\]|]+)", idx, re.M)}
+print("index entries:", len(idx_t), "| top-by-incoming baseline:", sum(1 for m in re.finditer(r"^\[\[", idx, re.M)))
