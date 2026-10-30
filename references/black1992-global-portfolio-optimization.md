@@ -1,7 +1,7 @@
 ---
 title: Global Portfolio Optimization
 category: references
-tags: [portfolio-optimization, black-litterman, capm, asset-allocation]
+tags: [portfolio-optimization, black-litterman, asset-allocation]
 relationships:
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
@@ -47,7 +47,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Global Portfolio Optimization

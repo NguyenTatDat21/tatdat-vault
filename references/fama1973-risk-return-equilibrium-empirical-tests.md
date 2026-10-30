@@ -2,7 +2,7 @@
 title: >-
   Risk, Return, and Equilibrium: Empirical Tests (Fama & MacBeth, 1973)
 category: references
-tags: [paper, finance, asset-pricing, capital-asset-pricing-model, two-parameter-model, empirical-tests, beta]
+tags: [paper, asset-pricing, asset-allocation]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: related_to
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Risk, Return, and Equilibrium: Empirical Tests (Fama & MacBeth, 1973)

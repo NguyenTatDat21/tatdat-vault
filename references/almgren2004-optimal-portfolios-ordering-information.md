@@ -2,7 +2,7 @@
 title: >-
   Optimal Portfolios from Ordering Information
 category: references
-tags: [portfolio-optimization, decision-theory, risk-modeling, finance]
+tags: [portfolio-optimization, risk-modeling]
 relationships:
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: derived_from
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Optimal Portfolios from Ordering Information

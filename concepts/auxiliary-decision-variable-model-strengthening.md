@@ -1,7 +1,7 @@
 ---
 title: "Auxiliary Decision Variables in Scheduling Model Strengthening"
 category: concepts
-tags: [constraint-programming, mixed-integer-programming, scheduling, modeling-pattern, formulation-strength]
+tags: [constraint-programming, mixed-integer-programming, scheduling, modeling-pattern]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: derived_from
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Auxiliary Decision Variables in Scheduling Model Strengthening

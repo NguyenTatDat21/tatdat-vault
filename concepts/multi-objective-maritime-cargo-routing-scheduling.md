@@ -2,7 +2,7 @@
 title: >-
   Multi-Objective Maritime Cargo Routing and Scheduling
 category: concepts
-tags: [maritime-routing, multi-objective-optimization, scheduling, shipping, pareto-front, leximin, approximation-algorithms, epsilon-constraint, metaheuristics, charterer-kpi]
+tags: [maritime, multi-objective, scheduling, approximation-algorithms, constraint-programming]
 relationships:
   - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
     type: derived_from
@@ -43,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multi-Objective Maritime Cargo Routing and Scheduling

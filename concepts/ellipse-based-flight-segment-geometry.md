@@ -2,7 +2,7 @@
 title: >-
   Ellipse-Based Flight Segment Geometry for Truck-Caried Drone Routes
 category: concepts
-tags: [uav, truck-drone, ellipse, geometry, flight-segment, access-point, endurance, multi-visit]
+tags: [uav]
 relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
@@ -23,7 +23,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/wang2019routing/wang2019routing-extracted.md
 ---

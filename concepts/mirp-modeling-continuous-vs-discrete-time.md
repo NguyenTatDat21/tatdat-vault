@@ -2,7 +2,7 @@
 title: >-
   Continuous vs Discrete Time in Maritime Inventory Routing Models
 category: concepts
-tags: [maritime-routing, modeling-choices, discrete-time, continuous-time, mixed-integer-programming]
+tags: [maritime, mixed-integer-programming]
 relationships:
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: derived_from
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Continuous vs Discrete Time in Maritime Inventory Routing Models

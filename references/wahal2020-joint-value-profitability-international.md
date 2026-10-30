@@ -1,7 +1,7 @@
 ---
 title: "The Joint Distribution of Value and Profitability: International Evidence"
 category: references
-tags: [asset-pricing, factor-investing, value-investing, profitability, international-markets, paper]
+tags: [asset-pricing, factor-investing, profitability, paper]
 sources:
   - "[[_papers/wahal2020joint/wahal2020joint-extracted.md]]"
   - "[[_papers/wahal2020joint/wahal2020joint.md]]"
@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T06:30:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 1.00
   inferred: 0.00

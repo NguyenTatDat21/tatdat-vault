@@ -6,14 +6,14 @@ summary: DDD-TD-TSPTW solves TD-TSPTW on a partially time-expanded network, outp
   TTBF-BC on 1,912 benchmark instances, solves 60-80 locations, and optimizes the
   duration objective.
 type: reference
-tags: [paper, tsp, time-windows, time-dependent-travel-times, dynamic-discretization, integer-programming, branch-and-cut, computational-study]
+tags: [paper, tsp, time-windows, dynamic-discretization, integer-programming]
 provenance:
   extracted: 0.74
   inferred: 0.19
   ambiguous: 0.07
 base_confidence: 0.67
 created: 2026-10-28T16:10:00Z
-updated: 2026-10-30T16:34:49Z
+updated: 2026-10-30T17:41:00Z
 tier: core
 category: references
 lifecycle: draft

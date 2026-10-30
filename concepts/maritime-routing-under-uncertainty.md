@@ -1,7 +1,7 @@
 ---
 title: Maritime Routing Under Uncertainty
 category: concepts
-tags: [maritime, uncertainty, routing, planning]
+tags: [maritime, vehicle-routing]
 relationships:
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"
     type: derived_from
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Maritime Routing Under Uncertainty

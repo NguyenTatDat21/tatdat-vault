@@ -1,7 +1,7 @@
 ---
 title: Bootstrap Robust Prescriptive Analytics
 category: references
-tags: [robust-optimization, prescriptive-analytics, bootstrap, distributional-robustness]
+tags: [operations-research]
 relationships:
   - target: "[[concepts/predictive-to-prescriptive-analytics]]"
     type: derived_from
@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-22T20:40:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Bootstrap Robust Prescriptive Analytics

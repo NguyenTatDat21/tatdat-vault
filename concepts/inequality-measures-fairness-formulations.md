@@ -1,7 +1,7 @@
 ---
 title: Inequality measures as fairness formulations
 summary: "Inequality fairness SWFs for optimization models: relative range, relative mean deviation, CV, Jain index, Gini, Hoover, Lorenz, linear fractional, Charnes-Cooper, MILP."
-tags: [fairness, optimization, inequality-measures]
+tags: [fairness, optimization]
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

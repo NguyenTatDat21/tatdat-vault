@@ -1,7 +1,7 @@
 ---
 title: Negative-Book-Equity Style Classification
 category: concepts
-tags: [asset-pricing, factor-construction, style-classification, accounting-signals]
+tags: [asset-pricing, factor-investing]
 relationships:
   - target: "[[references/brown2007-negative-book-equity-stocks]]"
     type: derived_from
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:17:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Negative-Book-Equity Style Classification

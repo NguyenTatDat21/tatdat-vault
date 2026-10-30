@@ -2,7 +2,7 @@
 title: >-
   Fair Optimization and Networks: A Survey
 category: references
-tags: [fairness, max-min-fairness, lexicographic-maximin, price-of-fairness, network-resource-allocation, location-theory, survey]
+tags: [fairness, survey]
 relationships:
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Fair Optimization and Networks: A Survey

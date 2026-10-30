@@ -2,7 +2,7 @@
 title: >-
   Multi-Objective Metaheuristic Tuning and Front Validation
 category: concepts
-tags: [multi-objective, metaheuristics, design-of-experiments, pareto-front, validation]
+tags: [multi-objective, metaheuristics]
 relationships:
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: derived_from
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multi-Objective Metaheuristic Tuning and Front Validation

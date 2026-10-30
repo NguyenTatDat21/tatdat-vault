@@ -2,7 +2,7 @@
 title: >-
   Maritime Inventory Routing: Recent Trends and Future Directions (Fagerholt et al., 2023)
 category: references
-tags: [paper, maritime, inventory-routing, survey, mixed-integer-programming, modeling-choices]
+tags: [paper, maritime, inventory-routing, survey, mixed-integer-programming]
 relationships:
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
@@ -51,7 +51,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Maritime Inventory Routing: Recent Trends and Future Directions (Fagerholt et al., 2023)

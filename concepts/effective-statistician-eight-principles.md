@@ -1,7 +1,7 @@
 ---
 title: "How to be an effective statistician: Chatfield's eight principles and seven personal qualities"
 summary: "Chatfield Summary section: eight principles, seven personal qualities, the Schumacher tailpiece."
-tags: [effective-statistician, eight-principles, personal-qualities, problem-solving, report, numeracy, chatfield]
+tags: [operations-research]
 provenance:
   extracted: 0.96
   inferred: 0.02
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:36:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

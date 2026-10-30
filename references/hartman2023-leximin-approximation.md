@@ -1,7 +1,7 @@
 ---
 title: "Leximin Approximation: From Single-Objective to Multi-Objective"
 category: references
-tags: [paper, multi-objective-optimization, leximin, fair-division, approximation-algorithms, polynomial-time, leximin-order, multi-objective-mip, social-choice, algorithm-design, subproblem-formulation, randomized-boosting, theoretical-computer-science, scheduling]
+tags: [paper, multi-objective, fairness, approximation-algorithms, scheduling]
 relationships:
   - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
     type: related_to
@@ -32,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Leximin Approximation: From Single-Objective to Multi-Objective

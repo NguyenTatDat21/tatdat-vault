@@ -2,7 +2,7 @@
 title: >-
   Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach
 category: references
-tags: [drones, routing, energy-modeling, mixed-integer-programming]
+tags: [drones, vehicle-routing, energy-modeling, mixed-integer-programming]
 relationships:
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: extends
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach

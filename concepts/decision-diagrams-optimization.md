@@ -1,7 +1,7 @@
 ---
 title: Decision Diagrams as Propagation and Bounds
 summary: "BDD/MDD propagation, relaxed-BDD linear relaxations, and MDD sequence constraints turn diagram structure into bounds and faster search."
-tags: [decision-diagrams, bdd, mdd, branch-and-bound, relaxations, complexity]
+tags: [exact-methods, branch-and-cut, approximation-algorithms]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

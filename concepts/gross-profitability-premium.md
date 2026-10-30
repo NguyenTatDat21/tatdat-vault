@@ -1,7 +1,7 @@
 ---
 title: Gross Profitability Premium
 category: concepts
-tags: [asset-pricing, profitability, value-premium, factor-investing, quality-investing, gross-profitability]
+tags: [asset-pricing, profitability, factor-investing]
 relationships:
   - target: "[[references/novy-marx2013-other-side-of-value]]"
     type: derived_from
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Gross Profitability Premium

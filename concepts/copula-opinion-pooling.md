@@ -1,7 +1,7 @@
 ---
 title: 'Copula Opinion Pooling (COP)'
 category: concepts
-tags: [copula, opinion-pooling, views, portfolio-management, bayesian-updating, monte-carlo]
+tags: [portfolio-optimization]
 relationships:
   - target: "[[references/meucci2006-beyond-black-litterman-copula]]"
     type: derived_from
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Copula Opinion Pooling (COP)

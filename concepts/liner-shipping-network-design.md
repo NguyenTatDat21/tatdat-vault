@@ -1,7 +1,7 @@
 ---
 title: Liner Shipping Network Design
 category: concepts
-tags: [liner-shipping, network-design, maritime, multicommodity-flow]
+tags: [maritime]
 relationships:
   - target: "[[references/christiansen2020-liner-shipping-network-design]]"
     type: derived_from
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Liner Shipping Network Design

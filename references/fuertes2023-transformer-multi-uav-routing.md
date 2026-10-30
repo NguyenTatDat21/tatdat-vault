@@ -2,7 +2,7 @@
 title: >-
   Solving Routing Problems for Multiple Cooperative UAVs Using Transformer Networks (Fuertes et al., 2023)
 category: references
-tags: [paper, machine-learning, transformers, reinforcement-learning, multi-agent-routing, uav, orienteering]
+tags: [paper, machine-learning, reinforcement-learning, uav, orienteering]
 relationships:
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Solving Routing Problems for Multiple Cooperative UAVs Using Transformer Networks (Fuertes et al., 2023)

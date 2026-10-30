@@ -1,7 +1,7 @@
 ---
 title: Financial Accounting in the Banking Industry — Empirical Literature Review
 category: references
-tags: [banking, financial-accounting, earnings-management, regulation, loan-loss-provisioning, regulatory-capital]
+tags: [risk-modeling, accruals]
 relationships:
   - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
     type: related_to
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Financial Accounting in the Banking Industry — Empirical Literature Review

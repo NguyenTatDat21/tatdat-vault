@@ -2,7 +2,7 @@
 title: >-
   PDSVRP-c (Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones)
 category: concepts
-tags: [vrp, drones, last-mile, operations-research]
+tags: [vrp, drones, operations-research]
 relationships:
   - target: "[[concepts/cp-sat-hint-start]]"
     type: related_to
@@ -42,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # PDSVRP-c (Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones)

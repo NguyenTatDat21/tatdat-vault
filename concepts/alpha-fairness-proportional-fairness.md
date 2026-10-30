@@ -1,7 +1,7 @@
 ---
 title: Alpha fairness and proportional fairness
 summary: "Alpha fairness family W_α, α=0 utilitarian, α→∞ maximin; proportional fairness α=1 Nash product; bandwidth Kelly 1998, α≥1 anomaly, partition axiom."
-tags: [fairness, optimization, alpha-fairness]
+tags: [fairness, optimization]
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

@@ -1,7 +1,7 @@
 ---
 title: Statistical Investigation Lifecycle
 category: concepts
-tags: [statistics, experimental-design, exploratory-analysis, model-validation]
+tags: [operations-research]
 relationships:
   - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: derived_from
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:19:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Statistical Investigation Lifecycle

@@ -2,14 +2,14 @@
 title: "Branch-and-Cut for the Inventory Routing Problem"
 summary: "Branch-and-cut on aggregated IRP MILP: dynamic subtour separation, capacity, disjoint route and Coelho-Laporte inequalities, h-DR omitted for large instances, schedule formulation to 6 periods."
 type: concept
-tags: [paper, branch-and-cut, inventory-routing, valid-inequalities, subtour-elimination, gurobi, mip]
+tags: [paper, branch-and-cut, inventory-routing, valid-inequalities, subtour-elimination]
 provenance:
   extracted: 0.75
   inferred: 0.25
   ambiguous: 0.00
 base_confidence: 0.67
 created: 2026-10-28T15:52:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 tier: core
 category: concepts
 lifecycle: draft

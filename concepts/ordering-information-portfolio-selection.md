@@ -2,7 +2,7 @@
 title: >-
   Ordering-Information Portfolio Selection
 category: concepts
-tags: [portfolio-optimization, decision-theory, risk, preference-modeling]
+tags: [portfolio-optimization, risk-modeling]
 relationships:
   - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
     type: derived_from
@@ -57,7 +57,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Ordering-Information Portfolio Selection

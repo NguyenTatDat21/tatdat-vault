@@ -1,7 +1,7 @@
 ---
 title: "The definitive analysis: Chatfield's seven procedure classes and the checks on the analysis"
 summary: "Chatfield ch7: seven procedure classes, five properties, six questions, the significance warning."
-tags: [definitive-analysis, procedure-classes, model-formulation, residual-analysis, significance, parametric, robust, chatfield]
+tags: [operations-research, modeling-pattern]
 provenance:
   extracted: 0.93
   inferred: 0.05
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:34:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

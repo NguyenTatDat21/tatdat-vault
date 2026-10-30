@@ -2,7 +2,7 @@
 title: >-
   Multirotor Power Model Components (Induced, Profile, Parasite)
 category: concepts
-tags: [power-model, energy-consumption, quadrotor, induced-power, profile-power, parasite-drag, actuator-disk, blade-element, hover-power, steady-state, parameter-identification, uav]
+tags: [energy-modeling, uav]
 relationships:
   - target: "[[references/liu2017power]]"
     type: derived_from
@@ -42,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multirotor Power Model Components (Induced, Profile, Parasite)

@@ -2,7 +2,7 @@
 title: >-
   Bin-Packing-Based Cutting Stock ILP
 category: concepts
-tags: [integer-programming, cutting-stock, bin-packing, symmetry-breaking, cutting-planes]
+tags: [integer-programming, cutting-stock]
 relationships:
   - target: "[[references/hadjsalem2023-2d-variable-sized-cutting-stock-textile]]"
     type: derived_from
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Bin-Packing-Based Cutting Stock ILP

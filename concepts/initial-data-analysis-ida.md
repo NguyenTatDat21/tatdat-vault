@@ -1,7 +1,7 @@
 ---
 title: "Initial data analysis (IDA): Chatfield's five-stage model and the data-scrutiny sequence"
 summary: "Chatfield ch5-6: five stages, two phases, four IDA steps, sample-size thresholds, DATA = FIT + RESIDUAL."
-tags: [ida, exploratory-data-analysis, five-stages, data-scrutiny, model-building, residuals, chatfield]
+tags: [operations-research]
 provenance:
   extracted: 0.92
   inferred: 0.05
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

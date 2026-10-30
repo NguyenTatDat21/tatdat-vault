@@ -2,7 +2,7 @@
 title: >-
   Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP
 category: concepts
-tags: [multi-objective-optimization, scalarization, fuzzy-logic, mixed-integer-programming, pareto-fronts]
+tags: [multi-objective, mixed-integer-programming]
 relationships:
   - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
     type: derived_from
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP

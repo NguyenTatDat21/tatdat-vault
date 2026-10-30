@@ -1,7 +1,7 @@
 ---
 title: "A Comparison of Acceptance Criteria for the ALNS Metaheuristic"
 category: references
-tags: [alns, acceptance-criteria, simulated-annealing, record-to-record-travel, threshold-acceptance, paper]
+tags: [alns, simulated-annealing, paper]
 sources:
   - "[[_papers/santini2018comparison/santini2018comparison-extracted.md]]"
   - "[[_papers/santini2018comparison/santini2018comparison.md]]"
@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-27T06:50:00Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 1.00
   inferred: 0.00

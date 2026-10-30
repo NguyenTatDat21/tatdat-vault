@@ -2,7 +2,7 @@
 title: >-
   A rolling horizon heuristic for creating a liquefied natural gas annual delivery program (Rakke et al., 2011)
 category: references
-tags: [paper, lng, annual-delivery-program, maritime-inventory-routing, rolling-horizon-heuristic, mixed-integer-programming, solution-space-reduction, improvement-heuristic, heterogeneous-fleet, spot-market, berth-capacity, parameter-testing, branch-and-bound]
+tags: [paper, lng, maritime-inventory-routing, mixed-integer-programming, berth-and-inventory]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
@@ -37,7 +37,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T10:43:50Z
 created: 2026-10-26T10:43:50Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A rolling horizon heuristic for creating an LNG annual delivery program (Rakke et al., 2011)

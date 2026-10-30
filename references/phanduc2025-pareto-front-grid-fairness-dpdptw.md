@@ -1,7 +1,7 @@
 ---
 title: Pareto Front Grid Guided Multiobjective Optimization in Dynamic Pickup and Delivery with Two-Sided Fairness
 category: references
-tags: [multi-objective, evolutionary-algorithms, fairness, dynamic-vehicle-routing, pdptw, energy-consumption]
+tags: [multi-objective, fairness, vehicle-routing, pdptw, energy-modeling]
 relationships:
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Pareto Front Grid Guided Multiobjective Optimization in Dynamic Pickup and Delivery with Two-Sided Fairness

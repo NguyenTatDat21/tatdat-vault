@@ -2,7 +2,7 @@
 title: >-
   Disjunctive Scheduling Constraint-Programming Model
 category: concepts
-tags: [constraint-programming, scheduling, cumulative-functions, interval-variables, modeling-pattern]
+tags: [constraint-programming, scheduling, modeling-pattern]
 relationships:
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: derived_from
@@ -61,7 +61,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Disjunctive Scheduling Constraint-Programming Model

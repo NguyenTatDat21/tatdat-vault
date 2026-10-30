@@ -2,7 +2,7 @@
 title: >-
   Drone Swarm Synchronization
 category: concepts
-tags: [swarm-synchronization, vrptw, split-delivery, simultaneous-arrival, coupling, decoupling, detour, multi-trip, rotary-wing-drone, drone-routing, synchronization, alns]
+tags: [drone-synchronization, vrptw, drone-routing, synchronization, alns]
 relationships:
   - target: "[[references/li2024drone]]"
     type: derived_from
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Drone Swarm Synchronization

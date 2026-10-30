@@ -2,7 +2,7 @@
 title: >-
   Supply Chain Optimization for the Liquefied Natural Gas Business
 category: references
-tags: [paper, lng-supply-chain, maritime-inventory-routing, mixed-integer-programming, time-space-network, boil-off]
+tags: [paper, lng, maritime-inventory-routing, mixed-integer-programming, time-space-network]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Supply Chain Optimization for the Liquefied Natural Gas Business

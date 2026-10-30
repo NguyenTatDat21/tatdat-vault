@@ -1,7 +1,7 @@
 ---
 title: Bound Tightening in Relaxation Networks
 summary: "Convex relaxations tighten bounds where CP bound consistency leaves them loose: relaxation networks, Lagrangian bounds and diagram relaxations drive the pruning."
-tags: [bound-consistency, convex-relaxation, power-network, cumulative, interval-propagation]
+tags: [constraint-programming, approximation-algorithms, modeling-pattern]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:47:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

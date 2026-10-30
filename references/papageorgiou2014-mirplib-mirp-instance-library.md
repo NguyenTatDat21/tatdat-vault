@@ -1,7 +1,7 @@
 ---
 title: "MIRPLib – A Library of Maritime Inventory Routing Problem Instances: Survey, Core Model, and Benchmark Results"
 category: references
-tags: [paper, maritime, inventory-routing, benchmark-library, mixed-integer-programming, time-space-network, lotsizing, discrete-time, survey, maritime-transportation]
+tags: [paper, maritime, inventory-routing, mixed-integer-programming, time-space-network]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T09:12:06Z
 tier: core
 created: 2026-10-26T09:12:06Z
-updated: 2026-10-26T09:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # MIRPLib – A Library of Maritime Inventory Routing Problem Instances

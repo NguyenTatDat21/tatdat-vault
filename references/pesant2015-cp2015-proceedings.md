@@ -1,7 +1,7 @@
 ---
 title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
 summary: "CP 2015 proceedings (LNCS 9255, ed. Pesant): 48 technical papers, 3 invited talks, 16 fast/journal-track abstracts, erratum, front matter, Author Index; 73 items, zero figures."
-tags: [cp-2015, constraint-programming, proceedings-volume, encodings, scheduling, decision-diagrams, tractability, search]
+tags: [constraint-programming, scheduling, exact-methods, approximation-algorithms]
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: references
 created: 2026-10-29T15:40:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

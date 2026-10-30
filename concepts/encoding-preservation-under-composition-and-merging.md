@@ -1,7 +1,7 @@
 ---
 title: Encodings That Survive Composition and Merging
 summary: "An encoding's value survives only specific compositions: tree-convex stays tractable after merging, DNNF simulation stays quasipolynomial, implication chains beat separate encodings."
-tags: [encodings, tractability, local-consistency, broken-triangle, pseudo-boolean, microstructure]
+tags: [constraint-programming, approximation-algorithms, exact-methods]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:45:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

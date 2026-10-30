@@ -1,7 +1,7 @@
 ---
 title: Four-stage Guillotine-cut Bounded Knapsack
 category: concepts
-tags: [cutting-and-packing, dynamic-programming, hypergraph, integer-programming]
+tags: [cutting-stock, dynamic-programming, hyper-heuristics, integer-programming]
 relationships:
   - target: "[[references/clautiaux2018-hypergraph-guillotine-knapsack]]"
     type: derived_from
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Four-stage Guillotine-cut Bounded Knapsack

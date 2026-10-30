@@ -2,7 +2,7 @@
 title: >-
   Annual LNG Delivery Program (ADP)
 category: concepts
-tags: [maritime, lng, inventory-routing, tactical-planning]
+tags: [maritime, lng, inventory-routing]
 relationships:
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: derived_from
@@ -70,7 +70,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Annual LNG Delivery Program (ADP)

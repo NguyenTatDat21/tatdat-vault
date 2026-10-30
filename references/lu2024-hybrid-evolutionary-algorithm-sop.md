@@ -1,7 +1,7 @@
 ---
 title: Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)
 category: references
-tags: [paper, orienteering, evolutionary-algorithm, metaheuristics]
+tags: [paper, orienteering, metaheuristics]
 relationships:
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Hybrid Evolutionary Algorithm for the Set Orienteering Problem (Lu et al.)

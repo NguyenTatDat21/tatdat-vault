@@ -1,7 +1,7 @@
 ---
 title: "Lift-to-Drag Ratio and Power Transfer Efficiency Sensitivity"
 category: concepts
-tags: [lift-to-drag-ratio, power-efficiency, drone-energy-models, parameter-sensitivity, calibration, route-optimization]
+tags: [energy-modeling, operations-research]
 aliases:
   - L over D in drone energy models
   - r and eta calibration
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:25:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 0.80
   inferred: 0.20

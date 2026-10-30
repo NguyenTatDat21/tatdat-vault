@@ -1,7 +1,7 @@
 ---
 title: MMSE Covariance Shrinkage
 category: concepts
-tags: [covariance-estimation, shrinkage, high-dimensional-inference, risk-modeling]
+tags: [risk-modeling]
 relationships:
   - target: "[[references/chen2010-shrinkage-mmse-covariance-estimation]]"
     type: derived_from
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:18:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # MMSE Covariance Shrinkage

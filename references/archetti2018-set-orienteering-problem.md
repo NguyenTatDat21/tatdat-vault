@@ -2,7 +2,7 @@
 title: >-
   The Set Orienteering Problem
 category: references
-tags: [orienteering, routing, matheuristic, mixed-integer-programming]
+tags: [orienteering, vehicle-routing, matheuristics, mixed-integer-programming]
 relationships:
   - target: "[[concepts/set-orienteering-problem]]"
     type: derived_from
@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # The Set Orienteering Problem

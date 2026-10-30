@@ -2,7 +2,7 @@
 title: >-
   Path Planning for Triple Ecosystems in Diverse Environments (Wang, Hu, Du, Zhou, Deng, Hu, IEEE IoT-J 2019)
 category: references
-tags: [paper, uav, truck-drone, delivery, vrp, makespan, time-balancing, ellipse, flight-segment, dbscan, tabu-search, ils, clarke-wright, tsp, cvrp, energy-model, heuristics]
+tags: [paper, uav, vrp, makespan, tabu-search]
 relationships:
   - target: "[[references/murray2015flying]]"
     type: related_to
@@ -81,7 +81,7 @@ tier: core
 lifecycle: source
 lifecycle_changed: 2026-10-29T16:52:00Z
 created: 2026-10-29T16:40:00Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Path Planning for Triple Ecosystems in Diverse Environments (Wang, Hu, Du, Zhou, Deng, Hu, IEEE IoT-J 2019)

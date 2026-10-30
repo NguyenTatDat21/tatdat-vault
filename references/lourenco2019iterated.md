@@ -2,7 +2,7 @@
 title: >-
   Iterated Local Search: Framework and Applications (Lourenço, Martin & Stützle, 2019)
 category: references
-tags: [paper, metaheuristic, iterated-local-search, local-search, perturbation, acceptance-criterion, double-bridge, tsp, qap, pfsp, job-shop, handbook, chapter, framework]
+tags: [paper, iterated-local-search, local-search, tsp]
 relationships:
   - target: "[[concepts/iterated-local-search]]"
     type: related_to
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Iterated Local Search: Framework and Applications (Lourenço, Martin & Stützle, 2019)

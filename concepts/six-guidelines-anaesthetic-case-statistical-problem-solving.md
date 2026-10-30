@@ -1,7 +1,7 @@
 ---
 title: "Chatfield's six guidelines for statistical problem solving, with the anaesthetic case"
 summary: "The Preface six Rules: define the problem, data collection, objectives, IDA, procedure class, presentation."
-tags: [statistics, statistical-practice, problem-solving, data-structure, exploratory-analysis, chatfield, worked-example]
+tags: [operations-research]
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:20:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

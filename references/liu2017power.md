@@ -2,7 +2,7 @@
 title: >-
   A Power Consumption Model for Multi-Rotor Small Unmanned Aircraft Systems (Liu, Sengupta & Kurzhanskiy, 2017)
 category: references
-tags: [paper, quadrotor, power-model, energy-consumption, induced-power, profile-power, parasite-drag, actuator-disk, blade-element, hover-power, parameter-identification, steady-state, icuas, uav]
+tags: [paper, energy-modeling, uav]
 relationships:
   - target: "[[concepts/multirotor-power-model-components]]"
     type: related_to
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A Power Consumption Model for Multi-Rotor Small Unmanned Aircraft Systems (Liu, Sengupta & Kurzhanskiy, 2017)

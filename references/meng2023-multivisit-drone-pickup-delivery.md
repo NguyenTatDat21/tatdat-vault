@@ -1,7 +1,7 @@
 ---
 title: 'Multi-Visit Drone Routing Problem for Pickup and Delivery (MDRP-PD)'
 category: references
-tags: [drone-routing, pickup-delivery, multi-visit, load-dependent-energy, simulated-annealing, vehicle-routing]
+tags: [drone-routing, pickup-and-delivery, energy-modeling, simulated-annealing, vehicle-routing]
 relationships:
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: extends
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multi-Visit Drone Routing Problem for Pickup and Delivery (MDRP-PD)

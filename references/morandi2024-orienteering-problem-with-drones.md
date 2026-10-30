@@ -1,7 +1,7 @@
 ---
 title: "The Orienteering Problem with Drones (Morandi, Leus & Yaman, 2024)"
 category: references
-tags: [paper, orienteering, truck-drone-routing, milp, exact-algorithm]
+tags: [paper, orienteering, truck-drone-routing, milp]
 relationships:
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T17:01:33Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # The Orienteering Problem with Drones (OP-mD)

@@ -2,7 +2,7 @@
 title: >-
   Handbook of Metaheuristics (Gendreau & Potvin, 2019)
 category: references
-tags: [book, metaheuristics, operations-research, optimization]
+tags: [metaheuristics, operations-research, optimization]
 relationships:
   - target: "[[concepts/tabu-search]]"
     type: related_to
@@ -70,7 +70,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)

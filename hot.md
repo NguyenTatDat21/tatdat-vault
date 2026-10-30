@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T22:31:29Z
+updated: 2026-10-30T23:39:41Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] HOT
-- [2026-10-30] HOT hot_sections=4 hot_links=1
-- [2026-10-30] INDEX index_entries=469 top_baseline=5
+- [2026-10-30] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 ...
+- [2026-10-30] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 ...
+- [2026-10-30] HOT notes=Tag trim: 80 canonical tags in use, every knowledge page ca...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-tags normalized on 6 pages ([[_meta/taxonomy.md]] vocabulary decision pending), base_confidence aligned on 27 pages, 3 sources blocks re-resolved; report-only: 22 prefix-rule targets, 14 unreciprocated pairs, 5 tier mismatches, 16 marker mismatches, 60 callouts, 26 sidecar pairs, 113 pages >5 tags, hub [[concepts/large-neighborhood-search]] 44 incoming
+Tag trim: 80 canonical tags in use, every knowledge page capped at 5 tags (152 renames, 197 pages)
 
 ## Flagged Contradictions
 

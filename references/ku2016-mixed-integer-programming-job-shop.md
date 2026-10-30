@@ -1,7 +1,7 @@
 ---
 title: "Mixed Integer Programming for the Job Shop Scheduling Problem"
 category: references
-tags: [mixed-integer-programming, constraint-programming, scheduling, job-shop, benchmarking, disjunctive-models]
+tags: [mixed-integer-programming, constraint-programming, scheduling]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Mixed Integer Programming for the Job Shop Scheduling Problem

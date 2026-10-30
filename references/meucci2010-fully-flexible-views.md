@@ -1,7 +1,7 @@
 ---
 title: 'Fully Flexible Views: Theory and Practice'
 category: references
-tags: [portfolio-management, entropy-pooling, views, stress-testing, opinion-pooling, scenario-analysis, quantitative-finance]
+tags: [portfolio-optimization]
 relationships:
   - target: "[[concepts/copula-opinion-pooling]]"
     type: extends
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Fully Flexible Views: Theory and Practice

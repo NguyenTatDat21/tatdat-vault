@@ -2,7 +2,7 @@
 title: >-
   Generative Adversarial Self-Imitation Learning (GASIL)
 category: concepts
-tags: [reinforcement-learning, imitation-learning, adversarial-training, reward-shaping, modeling-pattern]
+tags: [reinforcement-learning, imitation-learning, modeling-pattern]
 relationships:
   - target: "[[references/guo2018-generative-adversarial-self-imitation-learning]]"
     type: derived_from
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Generative Adversarial Self-Imitation Learning (GASIL)

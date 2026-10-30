@@ -1,7 +1,7 @@
 ---
 title: Predictive-to-Prescriptive Analytics
 category: concepts
-tags: [prescriptive-analytics, decision-optimization, machine-learning, robustness]
+tags: [operations-research, machine-learning]
 relationships:
   - target: "[[references/bertsimas2020-predictive-to-prescriptive-analytics]]"
     type: derived_from
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Predictive-to-Prescriptive Analytics

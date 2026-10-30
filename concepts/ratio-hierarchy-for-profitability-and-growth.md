@@ -3,7 +3,7 @@ title: >-
   Hierarchical Ratio System for Profitability and Growth
 category: concepts
 aliases: [ratio hierarchy, operating-financial split, core income, drivers of ROCE, drivers of growth]
-tags: [ratio-analysis, profitability, growth, drivers, core-income, unusual-items, forecasting, parsimony, clean-surplus, hierarchy]
+tags: [profitability, forecasting]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: derived_from
@@ -43,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Hierarchical Ratio System for Profitability and Growth

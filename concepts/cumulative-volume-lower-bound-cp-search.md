@@ -2,7 +2,7 @@
 title: >-
   Cumulative Volume Lower Bound Search
 category: concepts
-tags: [constraint-programming, valid-inequality, search-pruning, lng, inventory]
+tags: [constraint-programming, valid-inequalities, lng]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
@@ -43,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Cumulative Volume Lower Bound Search

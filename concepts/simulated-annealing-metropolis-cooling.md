@@ -2,7 +2,7 @@
 title: >-
   Simulated Annealing: Metropolis Acceptance and Cooling
 category: concepts
-tags: [simulated-annealing, metaheuristics, acceptance-criterion, markov-chains, cooling-schedules]
+tags: [simulated-annealing, metaheuristics]
 relationships:
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
@@ -44,7 +44,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Simulated Annealing: Metropolis Acceptance and Cooling

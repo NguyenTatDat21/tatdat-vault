@@ -1,7 +1,7 @@
 ---
 title: "Sloan 1996 – Do Stock Prices Fully Reflect Information in Accruals and Cash Flows?"
 category: references
-tags: [accruals, earnings-quality, post-earnings-announcement-drift, factor-investing, cash-flow, market-efficiency, paper]
+tags: [accruals, factor-investing, paper]
 aliases:
   - Sloan accruals anomaly
 sources:
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T07:25:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 1.00
   inferred: 0.00

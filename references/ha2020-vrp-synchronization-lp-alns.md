@@ -2,7 +2,7 @@
 title: >-
   A New CP Model and LP-based ALNS for VRP with Synchronization Constraints
 category: references
-tags: [paper, vrp, synchronization, constraint-programming, alns, linear-programming, time-windows]
+tags: [paper, vrp, synchronization, constraint-programming, alns]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A New CP Model and LP-based ALNS for VRP with Synchronization Constraints

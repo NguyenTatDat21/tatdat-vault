@@ -1,7 +1,7 @@
 ---
 title: Large Neighborhood Search (Handbook of Metaheuristics chapter)
 category: references
-tags: [metaheuristics, lns, alns, vlsn, variable-neighborhood-search, hyper-heuristics, vehicle-routing, adaptive-weights]
+tags: [metaheuristics, lns, alns, variable-neighborhood-search, hyper-heuristics]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
@@ -43,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Large Neighborhood Search (Handbook of Metaheuristics chapter)

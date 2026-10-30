@@ -2,7 +2,7 @@
 title: >-
   Multi-Objective Maritime Cargo Routing and Scheduling (dos Santos & Borenstein, 2024)
 category: references
-tags: [paper, maritime, multi-objective, mixed-integer-programming, matheuristic, bulk-carriers]
+tags: [paper, maritime, multi-objective, mixed-integer-programming, matheuristics]
 relationships:
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multi-Objective Maritime Cargo Routing and Scheduling (dos Santos & Borenstein, 2024)

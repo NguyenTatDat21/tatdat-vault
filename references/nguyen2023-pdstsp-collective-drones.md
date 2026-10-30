@@ -3,7 +3,7 @@ title: >-
   The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones (Nguyen & Hà, 2023)
 category: references
 aliases: [PDSTSP-c, collective drone TSP, Nguyen 2023 Transportation Science]
-tags: [paper, pdstsp, collective-drone, makespan, milp, branch-and-cut, ruin-and-recreate, synchronization, dag-topological-sort, peukert-law, cart-sensitivity, last-mile-delivery, phenikaa]
+tags: [paper, pdstsp, makespan, milp, branch-and-cut]
 relationships:
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
@@ -60,7 +60,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T16:46:00Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones

@@ -1,7 +1,7 @@
 ---
 title: "Drone Energy Consumption Model Taxonomy"
 category: concepts
-tags: [drone-energy-models, energy-consumption, taxonomy, unmanned-air-vehicle, route-optimization]
+tags: [energy-modeling, operations-research]
 aliases:
   - drone Epm model classes
   - three thrust assumptions
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:20:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 0.91
   inferred: 0.09

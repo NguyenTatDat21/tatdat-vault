@@ -1,7 +1,7 @@
 ---
 title: Efficient algorithms for periodic scheduling
 category: references
-tags: [periodic-scheduling, fairness, approximation-algorithms, networking]
+tags: [periodic-scheduling, fairness, approximation-algorithms]
 relationships:
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: derived_from
@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Efficient algorithms for periodic scheduling

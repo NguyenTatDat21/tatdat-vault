@@ -3,7 +3,7 @@ title: >-
   Multi-Drop Flying Sidekick Traveling Salesman Problem (AN/AM solution
   representation)
 category: concepts
-tags: [drones, delivery, tsp, heuristics]
+tags: [drones, tsp, heuristics]
 summary: The multi-drop FSTSP where the truck+drone route is decoded from a
   node permutation array AN and action-code array AM, launching drones that
   serve several customers in one sortie.
@@ -15,7 +15,7 @@ base_confidence: 0.67
 tier: supporting
 lifecycle: draft
 created: 2026-10-29T17:12:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
 relationships:

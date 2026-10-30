@@ -2,14 +2,14 @@
 title: "Skålnes, Ben Ahmed, Hvattum, Stålhane: New benchmark instances for the inventory routing problem (European Journal of Operational Research, 2024)"
 summary: "IRP benchmark paper: 270 real-world-like instances A-P-N-Q-T, sine demand trajectories, MATILDA instance space, B&C and matheuristic bounds, clustered instances cross phase transition."
 type: reference
-tags: [paper, benchmark-instances, inventory-routing, vendor-managed-inventory, matheuristic, branch-and-cut, instance-space-analysis, matilda, phase-transition, instance-generation]
+tags: [paper, inventory-routing, matheuristics, branch-and-cut]
 provenance:
   extracted: 0.94
   inferred: 0.03
   ambiguous: 0.03
 base_confidence: 0.67
 created: 2026-10-28T15:40:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 tier: supporting
 category: references
 lifecycle: draft

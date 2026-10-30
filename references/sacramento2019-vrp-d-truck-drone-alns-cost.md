@@ -2,14 +2,14 @@
 title: "Sacramento, Pisinger, Ropke: An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones (Transportation Research Part C, 2019)"
 summary: "VRP-D: homogeneous truck fleet with one drone per truck, 31-constraint MIP minimizes cost, ALNS with 2 destroy and 4 repair methods beats truck-only by 20-30%."
 type: reference
-tags: [paper, vrp, drones, alns, truck-drone-cooperation, cost-minimization, mip, metaheuristic, endurance-utilization, sensitivity-analysis]
+tags: [paper, vrp, drones, alns]
 provenance:
   extracted: 0.97
   inferred: 0.02
   ambiguous: 0.01
 base_confidence: 0.67
 created: 2026-10-28T14:56:00Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 tier: core
 category: references
 lifecycle: source

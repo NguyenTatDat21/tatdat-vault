@@ -2,7 +2,7 @@
 title: >-
   Iterated Local Search (ILS)
 category: concepts
-tags: [metaheuristic, iterated-local-search, local-search, perturbation, acceptance-criterion, double-bridge, tsp, qap, pfsp, framework, vns, matheuristic]
+tags: [iterated-local-search, local-search, tsp, matheuristics]
 relationships:
   - target: "[[references/lourenco2019iterated]]"
     type: derived_from
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T16:51:00Z
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Iterated Local Search (ILS)

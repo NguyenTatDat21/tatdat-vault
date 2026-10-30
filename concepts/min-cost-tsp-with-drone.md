@@ -2,7 +2,7 @@
 title: >-
   Min-cost TSP with Drone (min-cost TSP-D)
 category: concepts
-tags: [tsp, drones, objective-design, operations-research]
+tags: [tsp, drones, operations-research]
 relationships:
   - target: "[[references/ha2018-min-cost-tsp-d]]"
     type: derived_from
@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Min-cost TSP with Drone (min-cost TSP-D)

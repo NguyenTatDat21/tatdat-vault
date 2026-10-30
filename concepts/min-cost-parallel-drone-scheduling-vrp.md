@@ -1,7 +1,7 @@
 ---
 title: Min-cost Parallel Drone Scheduling VRP (PDSVRP)
 category: concepts
-tags: [vrp, drones, cost-optimization, scheduling]
+tags: [vrp, drones, operations-research, scheduling]
 relationships:
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: derived_from
@@ -48,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-22T11:13:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Min-cost Parallel Drone Scheduling VRP (PDSVRP)

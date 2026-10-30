@@ -2,7 +2,7 @@
 title: >-
   Large Neighborhood Search for LNG Inventory Routing (Goel, Furman, Song & El-Bakry, 2012)
 category: references
-tags: [paper, lng, maritime-inventory-routing, time-space-network, large-neighborhood-search, variable-neighborhood-search, mixed-integer-programming]
+tags: [paper, lng, maritime-inventory-routing, time-space-network, large-neighborhood-search]
 relationships:
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: related_to
@@ -52,7 +52,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Large Neighborhood Search for LNG Inventory Routing (Goel, Furman, Song & El-Bakry, 2012)

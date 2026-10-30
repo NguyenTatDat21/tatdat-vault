@@ -2,7 +2,7 @@
 title: >-
   Inverse Soft-Q Imitation Learning
 category: concepts
-tags: [imitation-learning, inverse-rl, reinforcement-learning, soft-q, modeling-pattern]
+tags: [imitation-learning, reinforcement-learning, modeling-pattern]
 relationships:
   - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"
     type: derived_from
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Inverse Soft-Q Imitation Learning

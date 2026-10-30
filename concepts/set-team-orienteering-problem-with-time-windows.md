@@ -1,7 +1,7 @@
 ---
 title: Set Team Orienteering Problem with Time Windows (STOPTW)
 category: concepts
-tags: [orienteering, time-windows, clustered-routing, heuristics]
+tags: [orienteering, time-windows, heuristics]
 relationships:
   - target: "[[references/yu2024-sarl-stoptw]]"
     type: derived_from
@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Set Team Orienteering Problem with Time Windows (STOPTW)

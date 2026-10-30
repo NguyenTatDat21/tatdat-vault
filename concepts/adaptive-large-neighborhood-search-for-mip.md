@@ -1,7 +1,7 @@
 ---
 title: Adaptive Large Neighborhood Search for MIP (ALNS-MIP)
 category: concepts
-tags: [mip, alns, primal-heuristics, optimization]
+tags: [alns, primal-heuristics, optimization]
 relationships:
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: derived_from
@@ -56,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Adaptive Large Neighborhood Search for MIP (ALNS-MIP)

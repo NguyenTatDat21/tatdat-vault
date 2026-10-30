@@ -2,7 +2,7 @@
 title: >-
   Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)
 category: references
-tags: [paper, maritime, lng, inventory-routing, split-delivery, heuristics]
+tags: [paper, maritime, lng, inventory-routing, heuristics]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
@@ -49,7 +49,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)

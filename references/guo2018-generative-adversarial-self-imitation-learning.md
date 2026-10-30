@@ -2,7 +2,7 @@
 title: >-
   Generative Adversarial Self-Imitation Learning
 category: references
-tags: [paper, reinforcement-learning, imitation-learning, adversarial-training, reward-shaping, policy-gradient]
+tags: [paper, reinforcement-learning, imitation-learning]
 relationships:
   - target: "[[concepts/generative-adversarial-imitation-learning]]"
     type: related_to
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: supporting
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Generative Adversarial Self-Imitation Learning

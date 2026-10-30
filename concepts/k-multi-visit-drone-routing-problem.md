@@ -2,7 +2,7 @@
 title: >-
   k-Multi-Visit Drone Routing Problem (k-MVDRP)
 category: concepts
-tags: [vrp, drones, last-mile, operations-research]
+tags: [vrp, drones, operations-research]
 relationships:
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: derived_from
@@ -54,7 +54,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # k-Multi-Visit Drone Routing Problem (k-MVDRP)

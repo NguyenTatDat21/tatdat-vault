@@ -1,7 +1,7 @@
 ---
 title: Dynamic Discretization Discovery
 category: concepts
-tags: [exact-optimization, time-expanded-network, adaptive-discretization, routing]
+tags: [operations-research, vehicle-routing]
 relationships:
   - target: "[[references/boland2017-dynamic-discretization-tsptw]]"
     type: derived_from
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:16:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Dynamic Discretization Discovery

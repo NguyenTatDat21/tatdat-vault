@@ -1,7 +1,7 @@
 ---
 title: State Features for RL-Based Algorithm Design
 summary: The state an RL design agent observes — search-dependent and instance-dependent features — is the interface that lets a policy pick operators and heuristics per instance.
-tags: [reinforcement-learning, state-features, instance-features, automated-algorithm-design, hyper-heuristics, representation]
+tags: [reinforcement-learning, hyper-heuristics]
 provenance:
   extracted_paper_extracted_md: 0.80
   extracted_paper_sidecar: 0.10
@@ -10,7 +10,7 @@ base_confidence: 0.77
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:38:37Z
+updated: 2026-10-30T17:41:00Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:

@@ -1,7 +1,7 @@
 ---
 title: "Collecting data: designs, sample size, and the pitfalls Chatfield's six examples teach"
 summary: "Chatfield ch4: active intervention, blocking, Puerto Rico surname sample, pseudo-replication, the stroke design."
-tags: [data-collection, experimental-design, sample-survey, randomization, confounding, pseudo-replication, clinical-trials, sample-size, chatfield]
+tags: [operations-research, survey]
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-11-05T14:24:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

@@ -2,7 +2,7 @@
 title: >-
   Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)
 category: references
-tags: [paper, maritime, uncertainty, routing]
+tags: [paper, maritime, vehicle-routing]
 relationships:
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)

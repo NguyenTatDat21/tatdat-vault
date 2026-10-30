@@ -1,7 +1,7 @@
 ---
 title: "AlphaZero: A General RL Algorithm that Masters Chess, Shogi and Go through Self-Play"
 category: references
-tags: [reinforcement-learning, monte-carlo-tree-search, self-play, game-ai, neural-network, paper]
+tags: [reinforcement-learning, paper]
 sources:
   - "[[_papers/silver2018general/silver2018general-extracted.md]]"
   - "[[_papers/silver2018general/silver2018general.md]]"
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T06:40:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 1.00
   inferred: 0.00

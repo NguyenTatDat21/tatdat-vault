@@ -1,7 +1,7 @@
 ---
 title: 'Beyond Black-Litterman in Practice: A Five-Step Recipe to Input Views on Non-Normal Markets'
 category: references
-tags: [portfolio-management, copula, opinion-pooling, black-litterman, non-normal-markets, monte-carlo, quantitative-finance]
+tags: [portfolio-optimization, black-litterman]
 relationships:
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: extends
@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Beyond Black-Litterman in Practice: A Five-Step Recipe to Input Views on Non-Normal Markets

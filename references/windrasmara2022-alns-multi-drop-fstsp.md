@@ -3,7 +3,7 @@ title: >-
   An Adaptive Large Neighborhood Search Heuristic for the Flying Sidekick
   Traveling Salesman Problem with Multiple Drops
 category: references
-tags: [paper, drones, delivery, alns, heuristics, tsp]
+tags: [paper, drones, alns, heuristics, tsp]
 summary: ALNS heuristic for the multi-drop FSTSP; the new formulation adds
   launch and retrieve times, and the heuristic beats IG and Ha et al. on
   case-study, Ha, and TSPLIB instances.
@@ -15,7 +15,7 @@ base_confidence: 0.67
 tier: core
 lifecycle: source
 created: 2026-10-29T17:10:00Z
-updated: 2026-10-30T16:34:49Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - "[[_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md]]"
   - "[[_papers/windrasmara2022adaptive/windrasmara2022adaptive.md]]"

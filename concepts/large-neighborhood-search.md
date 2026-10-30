@@ -2,7 +2,7 @@
 title: >-
   Large Neighborhood Search (LNS)
 category: concepts
-tags: [metaheuristics, lns, alns, routing]
+tags: [metaheuristics, lns, alns, vehicle-routing]
 relationships:
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
@@ -106,7 +106,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Large Neighborhood Search (LNS)

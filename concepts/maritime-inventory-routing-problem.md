@@ -1,7 +1,7 @@
 ---
 title: Maritime Inventory Routing Problem
 category: concepts
-tags: [maritime, inventory-routing, ship-routing-scheduling, logistics]
+tags: [maritime, inventory-routing, ship-routing-scheduling]
 relationships:
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: derived_from
@@ -75,7 +75,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Maritime Inventory Routing Problem

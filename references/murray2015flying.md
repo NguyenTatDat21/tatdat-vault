@@ -2,7 +2,7 @@
 title: >-
   The flying sidekick traveling salesman problem: Optimization of drone-assisted parcel delivery (Murray & Chu, 2015)
 category: references
-tags: [paper, fstsp, pdstsp, drone-routing, truck-drone-synchronization, milp, tsp, heuristics, pms, makespan, uav-endurance, uav-speed, last-mile-delivery, parcel-delivery, trc, optimization, drone-swarm-synchronization]
+tags: [paper, fstsp, pdstsp, drone-routing, drone-synchronization]
 relationships:
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
     type: related_to
@@ -87,7 +87,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 created: 2026-10-26T04:15:04Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # The flying sidekick traveling salesman problem (Murray & Chu, 2015)

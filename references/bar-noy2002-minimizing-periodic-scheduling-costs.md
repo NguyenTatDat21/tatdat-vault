@@ -1,7 +1,7 @@
 ---
 title: Minimizing Service and Operation Costs of Periodic Scheduling
 category: references
-tags: [periodic-scheduling, approximation-algorithms, operations-research, maintenance]
+tags: [periodic-scheduling, approximation-algorithms, operations-research]
 relationships:
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: derived_from
@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Minimizing Service and Operation Costs of Periodic Scheduling

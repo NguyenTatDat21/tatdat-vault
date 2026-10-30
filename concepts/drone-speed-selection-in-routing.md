@@ -2,7 +2,7 @@
 title: >-
   Drone Speed Selection in Truck-Drone Routing
 category: concepts
-tags: [drones, optimization, energy, routing]
+tags: [drones, optimization, energy-modeling, vehicle-routing]
 relationships:
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: derived_from
@@ -42,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Drone Speed Selection in Truck-Drone Routing

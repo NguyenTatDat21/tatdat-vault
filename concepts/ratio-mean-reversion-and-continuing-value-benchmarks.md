@@ -3,7 +3,7 @@ title: >-
   Ratio Mean Reversion and Continuing-Value Benchmarks
 category: concepts
 aliases: [central tendency of ratios, fade rate, continuing value selection, portfolio tracking, survivorship]
-tags: [mean-reversion, forecasting, continuing-value, time-series, rankings, survivorship, benchmarks, priors, fade-rate, cost-of-capital]
+tags: [asset-pricing, forecasting]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Ratio Mean Reversion and Continuing-Value Benchmarks

@@ -1,7 +1,7 @@
 ---
 title: Maritime Transportation OR Models Across Planning Levels (Christiansen et al., 2007)
 category: references
-tags: [maritime-transportation, ship-routing-scheduling, strategic-planning, review]
+tags: [maritime, ship-routing-scheduling]
 relationships:
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: related_to
@@ -23,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Maritime Transportation OR Models Across Planning Levels (Christiansen et al., 2007)

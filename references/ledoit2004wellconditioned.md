@@ -1,7 +1,7 @@
 ---
 title: "A Well-Conditioned Estimator for Large-Dimensional Covariance Matrices"
 category: references
-tags: [covariance-estimation, shrinkage, condition-number, high-dimensional-statistics, empirical-bayes, general-asymptotics, quadratic-loss, frobenius-norm, eigenvalue-shrinkage, marcenko-pastur, monte-carlo, mean-variance-portfolio, invertibility, asymptotic-optimality, prior-structure, portfolio-risk]
+tags: [risk-modeling, operations-research, portfolio-optimization]
 relationships:
   - target: "[[concepts/mmse-covariance-shrinkage]]"
     type: related_to
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T23:55:00Z
 tier: supporting
 created: 2026-10-25T23:55:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A Well-Conditioned Estimator for Large-Dimensional Covariance Matrices

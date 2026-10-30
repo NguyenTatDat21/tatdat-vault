@@ -3,7 +3,7 @@ title: >-
   Residual Earnings Valuation (Clean-Surplus Excess-Return Model)
 category: concepts
 aliases: [residual income, RPE model, Edwards-Bell-Ohlson, clean surplus relation]
-tags: [valuation, residual-income, clean-surplus, book-value, cost-of-capital, continuing-value, forecasting, dividends, discount-rate]
+tags: [forecasting]
 relationships:
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: related_to
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Residual Earnings Valuation

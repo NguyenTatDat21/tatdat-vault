@@ -2,7 +2,7 @@
 title: >-
   CP-SAT Hint-Start for Truck-and-Drone Routing
 category: concepts
-tags: [constraint-programming, cp-sat, vrp, warm-start]
+tags: [constraint-programming, cp-sat, vrp]
 relationships:
   - target: "[[concepts/pdsvrp-c]]"
     type: related_to
@@ -30,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # CP-SAT Hint-Start for Truck-and-Drone Routing

@@ -2,7 +2,7 @@
 title: >-
   Fama-MacBeth Two-Stage Cross-Sectional Regression
 category: concepts
-tags: [asset-pricing, empirical-method, cross-sectional-regression, beta, finance]
+tags: [asset-pricing]
 relationships:
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: derived_from
@@ -48,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression

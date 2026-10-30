@@ -1,7 +1,7 @@
 ---
 title: "Green vehicle routing problem: A state-of-the-art review"
 category: references
-tags: [green-logistics, vehicle-routing, systematic-review, sustainability]
+tags: [vehicle-routing]
 relationships:
   - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"
     type: derived_from
@@ -27,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Green vehicle routing problem: A state-of-the-art review

@@ -1,7 +1,7 @@
 ---
 title: Lagrangian Decomposition Propagation
 summary: "Lagrangian relaxation propagates bounds between constraint groups as penalties, gives valid bounds for global constraints, and decision-variable-induced bounds strengthen the model."
-tags: [lagrangian-relaxation, bound-computation, constraint-propagation, subgradient, duality]
+tags: [constraint-programming]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:46:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

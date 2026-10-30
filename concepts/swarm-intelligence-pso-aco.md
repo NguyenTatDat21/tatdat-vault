@@ -2,7 +2,7 @@
 title: >-
   Swarm Intelligence: PSO, ACO, and Emergent Coordination
 category: concepts
-tags: [swarm-intelligence, particle-swarm-optimization, ant-colony-optimization, metaheuristics, emergent-behavior]
+tags: [operations-research, metaheuristics]
 relationships:
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Swarm Intelligence: PSO, ACO, and Emergent Coordination

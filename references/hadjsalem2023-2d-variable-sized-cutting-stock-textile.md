@@ -2,7 +2,7 @@
 title: >-
   Mathematical Models for the Two-Dimensional Variable-Sized Cutting Stock Problem in the Home Textile Industry
 category: references
-tags: [paper, cutting-stock, two-dimensional-packing, integer-programming, bi-objective-optimization, bin-packing, pareto-front]
+tags: [paper, cutting-stock, integer-programming, operations-research]
 relationships:
   - target: "[[concepts/bin-packing-based-cutting-stock-ilp]]"
     type: related_to
@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Mathematical Models for the Two-Dimensional Variable-Sized Cutting Stock Problem in the Home Textile Industry

@@ -1,7 +1,7 @@
 ---
 title: Adaptive Large Neighborhood Search for Mixed Integer Programming (Hendel, 2022)
 category: references
-tags: [paper, mip, alns, primal-heuristics, bandit, scip]
+tags: [paper, alns, primal-heuristics]
 relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
@@ -46,7 +46,7 @@ lifecycle_changed: 2026-10-22
 tier: core
 summary: "Adaptive LNS for mixed integer programs: bandit-selected destroy and repair operators that improve primal heuristics inside SCIP."
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Adaptive Large Neighborhood Search for Mixed Integer Programming (Hendel, 2022)

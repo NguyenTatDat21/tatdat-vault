@@ -2,7 +2,7 @@
 title: >-
   Scheduling to Maximize Customer Satisfaction: A Project for the Shad Valley Program
 category: references
-tags: [scheduling, linear-programming, transportation-problem, bottleneck-objective, leximax-leximin-fairness, course-scheduling, customer-satisfaction, network-flow, student-scheduling, shad-valley]
+tags: [scheduling, fairness]
 relationships:
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
@@ -36,7 +36,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: "2026-10-26T12:26:00Z"
 created: "2026-10-26T12:26:00Z"
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Richards & Bhadury 1996 — Scheduling to Maximize Customer Satisfaction (Shad Valley)

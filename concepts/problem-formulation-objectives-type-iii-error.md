@@ -1,7 +1,7 @@
 ---
 title: "Problem formulation, objectives, and the type III error"
 summary: "Problem formulation in Chatfield ch3: the golden rule, Kimball type III error, objectives, the Bath search story."
-tags: [statistics, statistical-practice, problem-formulation, objectives, type-iii-error, chatfield]
+tags: [operations-research, multi-objective]
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:22:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md

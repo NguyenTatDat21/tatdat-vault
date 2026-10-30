@@ -2,7 +2,7 @@
 title: >-
   Time-Space Network Ship-Flow Model
 category: concepts
-tags: [modeling-pattern, network-flow, time-space-network, lng, maritime, mixed-integer-programming]
+tags: [modeling-pattern, time-space-network, lng, maritime, mixed-integer-programming]
 relationships:
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: derived_from
@@ -75,7 +75,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Time-Space Network Ship-Flow Model

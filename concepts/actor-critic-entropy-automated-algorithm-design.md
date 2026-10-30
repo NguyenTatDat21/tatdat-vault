@@ -1,7 +1,7 @@
 ---
 title: Actor-Critic RL for Automated Algorithm Design
 summary: A dual-critic actor-critic (ACE) method that learns which evolutionary-search components a hyper-heuristic should pick, using entropy-maximising rewards.
-tags: [reinforcement-learning, automated-algorithm-design, hyper-heuristics, actor-critic, entropy, deep-rl, max-entropy]
+tags: [reinforcement-learning, hyper-heuristics]
 provenance:
   extracted_paper_extracted_md: 0.85
   extracted_paper_sidecar: 0.10
@@ -10,7 +10,7 @@ base_confidence: 0.97
 tier: core
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:39:01Z
+updated: 2026-10-30T17:41:00Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:

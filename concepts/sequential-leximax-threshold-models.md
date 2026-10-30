@@ -1,7 +1,7 @@
 ---
 title: Sequential leximax threshold models
 summary: "Sequential leximax threshold SWFs: Chen & Hooker 2022 W_k sequence, fair-region weight, kidney exchange, valid inequalities, healthcare, earthquake shelter."
-tags: [fairness, optimization, leximax]
+tags: [fairness, optimization]
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

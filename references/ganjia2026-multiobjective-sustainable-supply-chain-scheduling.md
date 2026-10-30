@@ -2,7 +2,7 @@
 title: >-
   Multi-Objective Sustainable Supply Chain Scheduling (Ganjia, Rabet, Sajadi & Daneshvar Kakhki, 2026)
 category: references
-tags: [paper, multi-objective, supply-chain, production-scheduling, vehicle-routing, metaheuristics]
+tags: [paper, multi-objective, scheduling, vehicle-routing, metaheuristics]
 relationships:
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
@@ -48,7 +48,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Multi-Objective Sustainable Supply Chain Scheduling (Ganjia, Rabet, Sajadi & Daneshvar Kakhki, 2026)

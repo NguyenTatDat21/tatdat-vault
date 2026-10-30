@@ -3,7 +3,7 @@ title: >-
   Collective Drone Delivery (Coupled Drones as One Vehicle)
 category: concepts
 aliases: [c-drone, collective UAV, coupled drones, k-unit c-drone]
-tags: [drone-delivery, collective-drone, payload-capacity, fleet-size, battery-tradeoff, coverage-area, synchronization, last-mile, faa-regulation]
+tags: [synchronization]
 relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: derived_from
@@ -45,7 +45,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Collective Drone Delivery

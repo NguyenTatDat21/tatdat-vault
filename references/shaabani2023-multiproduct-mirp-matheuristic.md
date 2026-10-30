@@ -1,7 +1,7 @@
 ---
 title: "Shaabani 2023 – Matheuristic for the Multi-Product Maritime Inventory Routing Problem"
 category: references
-tags: [maritime-inventory-routing, matheuristic, mixed-integer-programming, simulated-annealing, long-planning-horizon, natural-gas-logistics, paper]
+tags: [maritime-inventory-routing, matheuristics, mixed-integer-programming, simulated-annealing, paper]
 aliases:
   - multi-product MIRP matheuristic
 sources:
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T07:00:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 0.96
   inferred: 0.04

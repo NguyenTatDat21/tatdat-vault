@@ -1,7 +1,7 @@
 ---
 title: 'Parallel Drone Scheduling Vehicle Routing Problems with Collective Drones'
 category: references
-tags: [vehicle-routing, drones, cooperative-drones, constraint-programming, cp-sat, milp, valid-inequalities]
+tags: [vehicle-routing, drones, constraint-programming, cp-sat, milp]
 relationships:
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: extends
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Parallel Drone Scheduling Vehicle Routing Problems with Collective Drones

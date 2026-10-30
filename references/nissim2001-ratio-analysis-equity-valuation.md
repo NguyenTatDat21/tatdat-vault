@@ -3,7 +3,7 @@ title: >-
   Ratio Analysis and Equity Valuation: From Research to Practice
 category: references
 aliases: [Nissim & Penman 2001, Review of Accounting Studies 2001, ratio documentation]
-tags: [accounting, equity-valuation, ratio-analysis, financial-statement-analysis, residual-earnings, profitability, growth, mean-reversion, compustat, forecasting]
+tags: [profitability, asset-pricing, forecasting]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
@@ -72,7 +72,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Ratio Analysis and Equity Valuation: From Research to Practice

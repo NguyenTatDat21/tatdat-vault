@@ -1,7 +1,7 @@
 ---
 title: "Bank Loan Loss Provisions Research: A Review"
 category: references
-tags: [loan-loss-provisioning, banking, income-smoothing, earnings-management, prudential-regulation, basel, dynamic-provisioning, capital-management, signalling, accounting-discretion]
+tags: [risk-modeling, accruals]
 relationships:
   - target: "[[references/beatty2014-financial-accounting-in-banking]]"
     type: related_to
@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T09:12:06Z
 tier: supporting
 created: 2026-10-26T09:12:06Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Bank Loan Loss Provisions Research: A Review

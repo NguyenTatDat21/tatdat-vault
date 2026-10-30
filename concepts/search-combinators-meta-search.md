@@ -1,7 +1,7 @@
 ---
 title: Search Combinators and Meta-Search Languages
 summary: "Search is written, not chosen: combinator languages post constraints during search, profiles show what a strategy did, and conflict-driven orderings beat scheduling heuristics."
-tags: [search-combinators, meta-search, minizinc, search-profiling, conflict-driven-search, lns]
+tags: [lns]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:49:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

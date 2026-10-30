@@ -1,7 +1,7 @@
 ---
 title: Liner Shipping Network Design Survey (Christiansen et al., 2020)
 category: references
-tags: [liner-shipping, network-design, maritime, survey]
+tags: [maritime, survey]
 relationships:
   - target: "[[concepts/liner-shipping-network-design]]"
     type: related_to
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Liner Shipping Network Design Survey (Christiansen et al., 2020)

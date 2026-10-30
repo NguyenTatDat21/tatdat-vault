@@ -1,7 +1,7 @@
 ---
 title: "Constraint Programming Models for Hybrid Flow Shop Scheduling"
 category: references
-tags: [constraint-programming, mixed-integer-programming, scheduling, hybrid-flow-shop, makespan, setup-times]
+tags: [constraint-programming, mixed-integer-programming, scheduling, makespan]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Constraint Programming Models for Hybrid Flow Shop Scheduling

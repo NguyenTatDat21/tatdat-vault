@@ -1,7 +1,7 @@
 ---
 title: "Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints"
 category: references
-tags: [paper, maritime, lng, inventory-routing, berth-constraints, decomposition, mixed-integer-programming, annual-delivery-program, time-space-network, local-search, heuristics, scheduling, time-windows, penalty-cost]
+tags: [paper, maritime, lng, inventory-routing, berth-and-inventory]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
@@ -51,7 +51,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints

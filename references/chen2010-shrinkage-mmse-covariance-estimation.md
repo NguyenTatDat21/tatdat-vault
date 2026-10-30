@@ -1,7 +1,7 @@
 ---
 title: Shrinkage Algorithms for MMSE Covariance Estimation
 category: references
-tags: [covariance-estimation, shrinkage, mmse, high-dimensional-statistics]
+tags: [risk-modeling, operations-research]
 relationships:
   - target: "[[concepts/mmse-covariance-shrinkage]]"
     type: derived_from
@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:14:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Shrinkage Algorithms for MMSE Covariance Estimation

@@ -2,14 +2,14 @@
 title: "Benchmark Instance Design for Inventory Routing"
 summary: "IRP benchmark instance design: 270 instances from real fleets, sine demands, clustered positioning, depot bounds, triangle-preserving distances, feature-space projection."
 type: concept
-tags: [paper, benchmark-instances, instance-generation, inventory-routing, instance-space-analysis, matilda, feature-analysis, vehicle-routing]
+tags: [paper, inventory-routing, vehicle-routing]
 provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
 base_confidence: 0.67
 created: 2026-10-28T15:52:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 tier: core
 category: concepts
 lifecycle: draft

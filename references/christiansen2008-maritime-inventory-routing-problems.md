@@ -1,7 +1,7 @@
 ---
 title: Maritime Inventory Routing Problems (Christiansen & Fagerholt, 2008)
 category: references
-tags: [maritime, inventory-routing, ship-routing-scheduling, review]
+tags: [maritime, inventory-routing, ship-routing-scheduling]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Maritime Inventory Routing Problems (Christiansen & Fagerholt, 2008)

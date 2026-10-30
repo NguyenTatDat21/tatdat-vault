@@ -1,7 +1,7 @@
 ---
 title: Problem Solving — A Statistician's Guide (2nd ed.)
 category: references
-tags: [statistics, methodology, problem-formulation, data-analysis-practice]
+tags: [operations-research]
 relationships:
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: derived_from
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:12:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Problem Solving — A Statistician's Guide (2nd ed.)

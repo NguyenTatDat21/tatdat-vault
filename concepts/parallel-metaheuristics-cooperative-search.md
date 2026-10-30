@@ -2,7 +2,7 @@
 title: >-
   Parallel Metaheuristics and Cooperative Search
 category: concepts
-tags: [metaheuristics, parallel-computing, optimization]
+tags: [metaheuristics, optimization]
 relationships:
   - target: "[[concepts/tabu-search]]"
     type: related_to
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Parallel Metaheuristics and Cooperative Search

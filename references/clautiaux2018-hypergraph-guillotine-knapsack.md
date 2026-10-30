@@ -3,7 +3,7 @@ title: >-
   Combining Dynamic Programming and Lagrangian Filtering for Four-stage 2D
   Guillotine Bounded Knapsack (Clautiaux et al., 2018)
 category: references
-tags: [paper, cutting-and-packing, dynamic-programming, integer-programming]
+tags: [paper, cutting-stock, dynamic-programming, integer-programming]
 relationships:
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"
     type: related_to
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Combining Dynamic Programming and Lagrangian Filtering for Four-stage 2D Guillotine Bounded Knapsack (Clautiaux et al., 2018)

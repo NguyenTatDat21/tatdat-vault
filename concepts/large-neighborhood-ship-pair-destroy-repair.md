@@ -2,7 +2,7 @@
 title: >-
   Large Neighborhood Ship-Pair Destroy and Repair
 category: concepts
-tags: [metaheuristics, lns, vlsn, lng, neighborhood-selection, matheuristics]
+tags: [metaheuristics, lns, lng, matheuristics]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
@@ -52,7 +52,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Large Neighborhood Ship-Pair Destroy and Repair

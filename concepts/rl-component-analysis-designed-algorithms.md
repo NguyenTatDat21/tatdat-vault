@@ -1,7 +1,7 @@
 ---
 title: RL Component Analysis of Designed Algorithms
 summary: The best learned search algorithms are analysed by counting which operators and heuristics the policy calls, a post-hoc check that the learned policy does not collapse onto one component.
-tags: [reinforcement-learning, component-analysis, hyper-heuristics, automated-algorithm-design, policy-analysis]
+tags: [reinforcement-learning, hyper-heuristics]
 provenance:
   extracted_paper_extracted_md: 0.85
   extracted_paper_sidecar: 0.05
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:

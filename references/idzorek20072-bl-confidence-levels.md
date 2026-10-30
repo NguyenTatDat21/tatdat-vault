@@ -1,7 +1,7 @@
 ---
 title: "A Step-by-Step Guide to the Black-Litterman Model: Incorporating User-Specified Confidence Levels"
 category: references
-tags: [paper, portfolio-optimization, black-litterman, confidence-levels, asset-allocation, bayesian-blending, view-tilt-control]
+tags: [paper, portfolio-optimization, black-litterman, asset-allocation]
 relationships:
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: derived_from
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T22:57:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A Step-by-Step Guide to the Black-Litterman Model: Incorporating User-Specified Confidence Levels

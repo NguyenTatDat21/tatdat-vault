@@ -2,7 +2,7 @@
 title: >-
   Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming (Furini, Malaguti & Thomopulos, 2016)
 category: references
-tags: [paper, integer-programming, cutting-stock, guillotine-cuts, branch-and-bound, two-dimensional-packing]
+tags: [paper, integer-programming, cutting-stock, branch-and-cut]
 relationships:
   - target: "[[concepts/plate-cut-position-guillotine-mip]]"
     type: related_to
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Modeling Two-Dimensional Guillotine Cutting Problems via Integer Programming (Furini, Malaguti & Thomopulos, 2016)

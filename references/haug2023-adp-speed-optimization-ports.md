@@ -1,7 +1,7 @@
 ---
 title: "Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports"
 category: references
-tags: [paper, maritime, lng, annual-delivery-program, speed-optimization, mixed-integer-programming, time-space-network, gurobi, real-life-instances, chartering, boil-off, profit-maximization, spot-cargoes, computational-logistics]
+tags: [paper, maritime, lng, operations-research, mixed-integer-programming]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: extends
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Planning LNG Annual Delivery Programs with Speed Optimization and Multiple Loading Ports

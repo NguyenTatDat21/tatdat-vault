@@ -1,7 +1,7 @@
 ---
 title: "Monte Carlo Simulation of Project Economics"
 category: concepts
-tags: [monte-carlo-simulation, stochastic-simulation, npv-distribution, decision-measures, sampling]
+tags: [risk-modeling, operations-research]
 relationships:
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
     type: related_to
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: 2026-10-28T14:30:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Monte Carlo Simulation of Project Economics

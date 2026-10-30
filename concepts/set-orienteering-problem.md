@@ -1,7 +1,7 @@
 ---
 title: Set Orienteering Problem (SOP)
 category: concepts
-tags: [orienteering, combinatorial-optimization, routing, profits]
+tags: [orienteering, operations-research, vehicle-routing, profitability]
 relationships:
   - target: "[[references/archetti2018-set-orienteering-problem]]"
     type: derived_from
@@ -52,7 +52,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:47:00Z
 ---
 
 # Set Orienteering Problem (SOP)

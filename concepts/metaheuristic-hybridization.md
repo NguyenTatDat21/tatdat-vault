@@ -2,7 +2,7 @@
 title: >-
   Metaheuristic Hybridization Classes
 category: concepts
-tags: [metaheuristics, hybridization, branch-and-bound, column-generation, matheuristics]
+tags: [metaheuristics, branch-and-cut, column-generation, matheuristics]
 relationships:
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Metaheuristic Hybridization Classes

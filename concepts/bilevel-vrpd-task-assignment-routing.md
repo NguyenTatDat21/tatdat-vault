@@ -2,7 +2,7 @@
 title: >-
   Bi-level VRPD Task Assignment and Routing
 category: concepts
-tags: [vrp, drones, decomposition, heuristic-search]
+tags: [vrp, drones, decomposition]
 relationships:
   - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
     type: derived_from
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Bi-level VRPD Task Assignment and Routing

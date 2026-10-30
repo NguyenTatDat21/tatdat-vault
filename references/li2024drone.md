@@ -2,7 +2,7 @@
 title: >-
   Drone Routing Problem with Swarm Synchronization (Li, Wang & Zhan, 2024)
 category: references
-tags: [paper, drone-routing, vrptw, swarm-synchronization, milp, alns, split-delivery, multi-trip, detour-insertion, time-windows, rotary-wing-drone, vehicle-routing, optimization, ejor]
+tags: [paper, drone-routing, vrptw, drone-synchronization, milp]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
@@ -44,7 +44,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Drone Routing Problem with Swarm Synchronization (Li, Wang & Zhan, 2024)

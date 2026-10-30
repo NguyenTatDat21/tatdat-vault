@@ -1,7 +1,7 @@
 ---
 title: Automated Model Generation and Improvement
 summary: "Model quality is generated: Conjure produces streamliners, Savile Row eliminates common subexpressions, propagator generation removes auxiliary variables, reification covers 82 % of the catalogue."
-tags: [model-generation, streamliners, auxiliary-variables, reification, flattening, sat-encoding]
+tags: [machine-learning, heuristics, modeling-pattern, operations-research, constraint-programming]
 provenance:
   extracted: 0.72
   inferred: 0.18
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:50:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

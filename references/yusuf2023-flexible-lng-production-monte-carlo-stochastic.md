@@ -2,7 +2,7 @@
 title: "Strategic and flexible LNG production under uncertain future demand and natural gas prices"
 summary: "Four-step framework valuing AP-X LNG flexibility in Qatar: mean-reverting jump-diffusion Henry Hub prices, 10,000 Monte Carlo paths, demand scenarios at 5/6/7.8 MTPA, hedging by LTC plus spot mix."
 type: reference
-tags: [lng-flexibility, stochastic-price-modelling, real-options, monte-carlo-simulation, long-term-contracts, spot-selling]
+tags: [lng, asset-pricing, risk-modeling]
 provenance:
   extracted: 0.86
   inferred: 0.12
@@ -11,7 +11,7 @@ tier: supporting
 category: references
 base_confidence: 0.67
 created: 2026-10-28T14:30:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:

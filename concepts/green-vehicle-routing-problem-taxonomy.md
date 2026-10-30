@@ -1,7 +1,7 @@
 ---
 title: Green Vehicle Routing Problem Taxonomy
 category: concepts
-tags: [green-logistics, vehicle-routing, taxonomy, sustainability]
+tags: [vehicle-routing]
 relationships:
   - target: "[[references/asghari2021-green-vrp-state-of-the-art-review]]"
     type: derived_from
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: supporting
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Green Vehicle Routing Problem Taxonomy

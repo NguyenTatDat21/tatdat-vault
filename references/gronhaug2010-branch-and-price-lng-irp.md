@@ -2,7 +2,7 @@
 title: >-
   A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem
 category: references
-tags: [paper, branch-and-price, column-generation, lng-supply-chain, maritime-inventory-routing, time-space-network]
+tags: [paper, branch-and-price, column-generation, lng, maritime-inventory-routing]
 relationships:
   - target: "[[concepts/branch-and-price-column-generation]]"
     type: related_to
@@ -38,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem

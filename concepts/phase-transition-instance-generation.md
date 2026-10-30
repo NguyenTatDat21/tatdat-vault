@@ -2,14 +2,14 @@
 title: "Phase Transition in Instance Generation"
 summary: "Phase transition in instance generation: clustered IRP instances cross the threshold where B&C finds few feasible solutions, with TSP cluster-ratio evidence."
 type: concept
-tags: [paper, phase-transition, instance-generation, clustering, computational-complexity, branch-and-cut, lower-bounds, vehicle-routing]
+tags: [paper, branch-and-cut, lower-bounds, vehicle-routing]
 provenance:
   extracted: 0.86
   inferred: 0.14
   ambiguous: 0.00
 base_confidence: 0.67
 created: 2026-10-28T15:52:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 tier: core
 category: concepts
 lifecycle: draft

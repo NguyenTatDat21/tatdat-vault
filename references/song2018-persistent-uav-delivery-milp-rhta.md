@@ -1,7 +1,7 @@
 ---
 title: "Song 2018 – Persistent UAV Delivery Logistics: MILP and Receding Horizon Task Assignment"
 category: references
-tags: [persistent-uav-routing, drone-routing, payload-weight, milp, receding-horizon, heuristics, time-windows, paper]
+tags: [drones, drone-routing, milp, heuristics, time-windows]
 aliases:
   - Persistent UAV logistics RHTA
   - UAVRP
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T07:35:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T17:41:00Z
 provenance:
   extracted: 1.00
   inferred: 0.00

@@ -1,7 +1,7 @@
 ---
 title: Convex combination weights for fairness
 summary: "Convex combination SWFs, λ interpretation, product SWF λ=1/2, Gini μ/(1+μ), decreasing weights, dominance constraints, elicitation, utilitarian↔maximin."
-tags: [fairness, optimization, convex-combination]
+tags: [fairness, optimization]
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

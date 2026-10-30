@@ -1,7 +1,7 @@
 ---
 title: Entropy Coefficient Adjustment Schemes
 summary: Three ways to set the entropy coefficient in an actor-critic design agent — fixed, linear decay, and a neural-network learned scheme — differ in final cost, speed, and how late they keep exploring.
-tags: [reinforcement-learning, entropy, max-entropy, exploration, actor-critic, hyperparameter-schedules]
+tags: [reinforcement-learning, hyper-heuristics]
 provenance:
   extracted_paper_extracted_md: 0.85
   extracted_paper_sidecar: 0.05
@@ -10,7 +10,7 @@ base_confidence: 0.87
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:38:37Z
+updated: 2026-10-30T17:41:00Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 relationships:

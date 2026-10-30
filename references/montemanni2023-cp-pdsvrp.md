@@ -1,7 +1,7 @@
 ---
 title: 'Constraint Programming Models for the Parallel Drone Scheduling Vehicle Routing Problem'
 category: references
-tags: [vehicle-routing, drones, constraint-programming, cp-sat, lower-bounds, optimization]
+tags: [vehicle-routing, drones, constraint-programming, cp-sat, lower-bounds]
 relationships:
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: derived_from
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Constraint Programming Models for the Parallel Drone Scheduling Vehicle Routing Problem

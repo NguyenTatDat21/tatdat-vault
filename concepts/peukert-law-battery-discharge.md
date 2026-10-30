@@ -3,7 +3,7 @@ title: >-
   Peukert's Law for Drone Battery Discharge (Current-Dependent Usable Capacity)
 category: concepts
 aliases: [Peukert effect, Peukert exponent, discharge current limit, battery efficiency loss]
-tags: [battery, peukert-law, discharge-current, lifepo4, energy-consumption, drone-delivery, feasibility, lifespan, capacity-weight-tradeoff]
+tags: [energy-modeling]
 relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: derived_from
@@ -31,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Peukert's Law for Drone Battery Discharge

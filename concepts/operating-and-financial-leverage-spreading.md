@@ -3,7 +3,7 @@ title: >-
   Operating and Financial Leverage Spreading (ROCE Decomposition)
 category: concepts
 aliases: [spread, financial leverage, operating liability leverage, FLEV, OLLEV, net borrowing cost, asset turnover]
-tags: [ratio-analysis, profitability, leverage, spread, asset-turnover, profit-margin, operating-liabilities, trade-credit, spreading]
+tags: [profitability, asset-allocation]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
@@ -37,7 +37,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Operating and Financial Leverage Spreading

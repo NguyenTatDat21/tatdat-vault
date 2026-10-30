@@ -1,7 +1,7 @@
 ---
 title: "Constraint Programming Models for Container Pre-Marshalling"
 category: references
-tags: [constraint-programming, container-premarshalling, yard-scheduling, maritime-terminals, model-strengthening]
+tags: [constraint-programming, scheduling, maritime]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
@@ -26,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Constraint Programming Models for Container Pre-Marshalling

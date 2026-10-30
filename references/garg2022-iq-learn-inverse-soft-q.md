@@ -2,7 +2,7 @@
 title: >-
   IQ-Learn: Inverse soft-Q Learning for Imitation (Garg, Chakraborty, Cundy, Song, Geist & Ermon, 2022)
 category: references
-tags: [paper, imitation-learning, inverse-rl, soft-q, reinforcement-learning, preprint, adversarial-training]
+tags: [paper, imitation-learning, reinforcement-learning]
 relationships:
   - target: "[[concepts/inverse-soft-q-imitation-learning]]"
     type: related_to
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # IQ-Learn: Inverse soft-Q Learning for Imitation (Garg, Chakraborty, Cundy, Song, Geist & Ermon, 2022)

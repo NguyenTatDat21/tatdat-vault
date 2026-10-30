@@ -1,7 +1,7 @@
 ---
 title: "Black-Litterman View Blending"
 category: concepts
-tags: [portfolio-optimization, black-litterman, asset-allocation, bayesian-blending, equilibrium-returns]
+tags: [portfolio-optimization, black-litterman, asset-allocation]
 relationships:
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: derived_from
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Black-Litterman View Blending

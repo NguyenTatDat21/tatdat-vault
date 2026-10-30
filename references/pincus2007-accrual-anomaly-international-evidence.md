@@ -1,7 +1,7 @@
 ---
 title: The Accrual Anomaly — International Evidence
 category: references
-tags: [asset-pricing, accruals, cash-flows, international-accounting, legal-traditions, earnings-management]
+tags: [asset-pricing, accruals]
 relationships:
   - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
     type: related_to
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # The Accrual Anomaly — International Evidence

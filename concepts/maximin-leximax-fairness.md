@@ -1,7 +1,7 @@
 ---
 title: Maximin and leximax fairness criteria
 summary: "Maximin, leximax, McLoone fairness criteria, Rawls difference principle, equality cost, leximax lexicographic sequence, McLoone median lower half, bandwidth."
-tags: [fairness, maximin, rawlsian]
+tags: [fairness]
 provenance:
   extracted: 0.8
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

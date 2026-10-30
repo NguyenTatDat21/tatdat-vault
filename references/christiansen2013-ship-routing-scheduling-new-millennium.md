@@ -1,7 +1,7 @@
 ---
 title: Ship Routing and Scheduling in the New Millennium (Christiansen et al., 2013)
 category: references
-tags: [maritime, ship-routing-scheduling, review, liner-shipping, tramp-shipping, fleet-deployment]
+tags: [maritime, ship-routing-scheduling]
 relationships:
   - target: "[[references/christiansen2007-maritime-transportation-operations-research]]"
     type: extends
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Ship Routing and Scheduling in the New Millennium (Christiansen et al., 2013)

@@ -247,3 +247,6 @@ title: Wiki Log
 - [2026-10-30T21:07:30Z] HOT
 - [2026-10-30T22:31:28Z] HOT hot_sections=4 hot_links=1
 - [2026-10-30T22:31:28Z] INDEX index_entries=469 top_baseline=5
+- [2026-10-30T23:39:25Z] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 cap=5
+- [2026-10-30T23:39:41Z] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 cap=5 notes="alias-normalize + lowercase + dedupe, cap 5, canonical first"
+- [2026-10-30T23:39:41Z] HOT notes="Tag trim: 80 canonical tags in use, every knowledge page capped at 5 tags (152 renames, 197 pages)"

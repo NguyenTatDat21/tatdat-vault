@@ -1,7 +1,7 @@
 ---
 title: An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesman Problem
 category: references
-tags: [metaheuristics, genetic-algorithm, quadratic-tsp, ruin-and-recreate, double-bridge, matheuristics]
+tags: [metaheuristics, vehicle-routing, ruin-and-recreate, matheuristics]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
@@ -34,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesman Problem

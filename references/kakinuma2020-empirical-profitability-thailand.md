@@ -1,7 +1,7 @@
 ---
 title: "Empirical Profitability Anomalies in Thailand"
 category: references
-tags: [asset-pricing, profitability, emerging-markets, thailand, famamacbeth, carhart]
+tags: [asset-pricing, profitability]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: derived_from
@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T17:41:00Z
 ---
 
 # Empirical Profitability Anomalies in Thailand
