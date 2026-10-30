@@ -50,7 +50,7 @@ ISO = r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z"
 if ts:
     h_ok = all(re.search(rf"^({k}:\s*){re.escape(ts)}\s*$", rawfm, re.M) for k in ("created", "updated", "lifecycle_changed"))
 else:  # no wave timestamp given: accept any ISO-8601 date/datetime UTC stamp per field
-    vals = {k: (re.search(rf"^({k}:\s*(\S+)\s*$", rawfm, re.M) or ["", ""])[2].strip('"').strip("'") for k in ("created", "updated", "lifecycle_changed")}
+    vals = {k: ((re.search(rf"^({k}):\s*(\S+)\s*$", rawfm, re.M) or ["", "", ""])[2]).strip('"').strip("'") for k in ("created", "updated", "lifecycle_changed")}
     h_ok = all(re.fullmatch(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:\d{2}Z)?", v) for v in vals.values())
 print("h:", "OK" if h_ok else "FAIL raw frontmatter timestamps")
 
@@ -68,7 +68,7 @@ sidecar = src.replace("-extracted.md", ".md")
 if os.path.exists(sidecar):
     srcn += re.sub(r"[e\u2013\u2014\u2010]", "-", open(sidecar, encoding="utf-8").read())
 src_set = set(re.findall(r"\d+", srcn))
-body_txt = re.sub(r"\[\[[^\]]*\]\]|<style[^>]*>.*?</style>", "", text[3:] if text.startswith("---\n") else text)
+body_txt = re.sub(r"\[\[[^\]]*\]\]|<style[^>]*>.*?</style>", "", text[m.end():] if m else text)  # body only: frontmatter numbers (confidence, dates, W17 timestamp) are rule-exempt
 page_nums = re.findall(r"\d+", body_txt)
 page_nums = [n for n in page_nums if len(n) >= 2 and n not in ("2026", "10", "26", "09", "12", "06", "4", "5", "50", "05", "03", "07", "67", "90", "29", "841", "53", "2023")]
 missing_nums = sorted(set(n for n in page_nums if n not in src_set and n not in srcn))  # srcn substring: concatenated table cells in the extraction

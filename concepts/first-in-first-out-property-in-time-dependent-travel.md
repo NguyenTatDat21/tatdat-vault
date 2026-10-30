@@ -9,24 +9,24 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-base_confidence: 0.57
+base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T20:00:02Z
+updated: 2026-10-30T21:01:34Z
 tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
-- '  - "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"'
-- '  - "[[_papers/vu2020dynamic/vu2020dynamic.md]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
+  - "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"
+  - "[[_papers/vu2020dynamic/vu2020dynamic.md]]"
+  - "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"
 relationships:
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: derived_from
