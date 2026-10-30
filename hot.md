@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T16:05:38Z
+updated: 2026-10-30T17:24:48Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] CROSS_LINK pages_scanned=234 links_added=683 typed_relations_written=683 ...
-- [2026-10-30] TIER pages_scanned=234 tier_changes=59 pages_modified=171 ...
-- [2026-10-30] AUDIT pages_scanned=234 typed_relationship_issues_fixed=683 pages_modified=170 ...
+- [2026-10-30] AUDIT pages_scanned=1 notes=log.md line 226 is the CROSS_LINK reciprocal-pass entry, no...
+- [2026-10-30] AUDIT pages_scanned=234 relationship_types_fixed=4 pages_modified=3 ...
+- [2026-10-30] AUDIT pages_scanned=2 pages_modified=2 sources_rewritten=1 ...
 
 ## Active Threads
 

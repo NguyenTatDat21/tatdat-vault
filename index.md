@@ -388,7 +388,7 @@ Most recently updated: [[references/zhao2025-lns-hgs-inventory-routing]], [[refe
 
 ## References
 
-- [[references/vu2020-ddd-td-tsptw-time-expanded-network]] — DDD-TD-TSPTW solves TD-TSPTW on a partially time-expanded network, outperforms ( #[paper #tsp #time-windows #time-dependent-travel-times #dynamic-discretization #integer-programming #branch-and-cut #computational-study])
+- [[references/vu2020-ddd-td-tsptw-time-expanded-network]] — DDD-TD-TSPTW solves TD-TSPTW on a partially time-expanded network, outperforms ( #paper #tsp #time-windows #time-dependent-travel-times #dynamic-discretization #integer-programming #branch-and-cut #computational-study)
 - [[references/gronhaug2010-branch-and-price-lng-irp]] — Branch-and-price solves LNG-IRP with boil-off, variable production, discrete tank unloading; 16/27 instances optimal, up to 25x faster than a priori path enumeration. ( #paper #branch-and-price #column-generation #lng-supply-chain #maritime-inventory-routing #time-space-network)
 - [[references/santini2018-alns-acceptance-criteria]] — Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criteria on CVRP, CMST, QAP. SA, TA and RRT win; HC/RW lose; linear parameter ending at zero saves a tuning dimension. ( #alns #acceptance-criteria #simulated-annealing #record-to-record-travel #threshold-acceptance #paper)
 - [[references/xinyingchen2023guide]] — Fairness criteria in optimization: inequality measures, maximin, leximax, convex combination, alpha fairness, Nash bargaining, Kalai-Smorodinsky, thresholds, parity, guidelines, MILP formulations. ( #fairness #optimization #welfare-social-function #survey #distributive-justice)
