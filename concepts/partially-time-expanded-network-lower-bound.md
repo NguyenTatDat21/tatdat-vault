@@ -4,14 +4,14 @@ summary: Partially time-expanded network, window endpoints, arcs that underestim
   travel time, cost underestimates, longest arcs, lower bound by Lemma 1, optimality
   by Lemma 2.
 type: concept
-tags: ['[time-expanded-networks', lower-bounds, dynamic-discretization, integer-programming, relaxation, 'properties-lemmas]']
+tags: [time-expanded-networks, lower-bounds, dynamic-discretization, integer-programming, relaxation, properties-lemmas]
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:52:20Z
 tier: core
 category: concepts
 lifecycle: draft

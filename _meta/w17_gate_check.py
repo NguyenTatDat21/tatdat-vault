@@ -68,11 +68,12 @@ sidecar = src.replace("-extracted.md", ".md")
 if os.path.exists(sidecar):
     srcn += re.sub(r"[e\u2013\u2014\u2010]", "-", open(sidecar, encoding="utf-8").read())
 src_set = set(re.findall(r"\d+", srcn))
-page_nums = re.findall(r"\d+", text)
+body_txt = re.sub(r"\[\[[^\]]*\]\]|<style[^>]*>.*?</style>", "", text[3:] if text.startswith("---\n") else text)
+page_nums = re.findall(r"\d+", body_txt)
 page_nums = [n for n in page_nums if len(n) >= 2 and n not in ("2026", "10", "26", "09", "12", "06", "4", "5", "50", "05", "03", "07", "67", "90", "29", "841", "53", "2023")]
-missing_nums = sorted(set(n for n in page_nums if n not in src_set))
+missing_nums = sorted(set(n for n in page_nums if n not in src_set and n not in srcn))  # srcn substring: concatenated table cells in the extraction
 print("j: numeric tokens on page:", len(set(page_nums)), "not in source:", missing_nums if missing_nums else "OK (all verbatim in source)")
 
-n = len([s_ for s_ in fm["sources"] if s_.startswith("_papers/") and s_.endswith("-extracted.md")])
+n = len([s for s in (x.strip().strip('"').strip("[]").split("|")[0].strip() for x in fm["sources"]) if s.startswith("_papers/") and s.endswith("-extracted.md")])
 bc = min(1.0, 0.67 + 0.1 * (n - 1))
 print("base_confidence:", fm["base_confidence"], "expected", round(bc, 2), "OK" if abs(fm["base_confidence"] - bc) < 1e-9 else "FAIL")

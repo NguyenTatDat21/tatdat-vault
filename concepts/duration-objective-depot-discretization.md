@@ -4,14 +4,14 @@ summary: Duration objective in DDD, depot nodes for every departure time up to e
   zero-cost waiting arcs, arcs from depot cost -t, l0 = z - 1 + t0, network sizes
   double.
 type: concept
-tags: ['[duration-objective', depot-discretization, waiting-arcs, time-expanded-networks, dynamic-discretization, 'enumeration]']
+tags: [duration-objective, depot-discretization, waiting-arcs, time-expanded-networks, dynamic-discretization, enumeration]
 provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T17:52:20Z
 tier: core
 category: concepts
 lifecycle: draft
