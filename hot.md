@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-29T17:11:47Z
-pages: 463
+updated: 2026-10-30T09:28:40Z
+pages: 469
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-29] INGEST source=_papers/yi2023automated/yi2023automated-extracted.md created=5 updated=0
-- [2026-10-29] INGEST source=_papers/pesant2015principles/pesant2015principles-extracted... created=7 updated=0 ...
 - [2026-10-29] CROSS_LINK pages_scanned=13 links_added=27 typed_relations_written=27 ...
+- [2026-10-30] INGEST source=_papers/chatfieldProblemSolvingStatisticians1995/chatfieldP... created=6 updated=1 ...
+- [2026-10-30] CROSS_LINK pages_scanned=10 links_added=3 typed_relations_written=3 ...
 
 ## Active Threads
 

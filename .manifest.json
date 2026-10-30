@@ -283,10 +283,9 @@
     },
     "_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md": {
       "content_hash": "08f871d8f3c9203ee243238a841fce64095e4f6a8d7c40607c9383ea07ce17e7",
-      "last_ingested": "2026-10-22T20:41:42.128041+00:00",
+      "last_ingested": "2026-10-30T09:28:00.179106+00:00",
       "pages_produced": [
-        "references/chatfield1995-problem-solving-statisticians-guide.md",
-        "concepts/statistical-investigation-lifecycle.md"
+        "concepts/six-guidelines-anaesthetic-case-statistical-problem-solving.md,concepts/problem-formulation-objectives-type-iii-error.md,concepts/data-collection-designs-and-pitfalls.md,concepts/initial-data-analysis-ida.md,concepts/definitive-analysis-procedure-choice.md,concepts/effective-statistician-eight-principles.md,references/chatfield1995-problem-solving-statisticians-guide.md"
       ]
     },
     "_papers/chen2010shrinkage/chen2010shrinkage-extracted.md": {
