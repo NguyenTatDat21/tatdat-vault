@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T19:10:54Z
+updated: 2026-10-30T19:27:32Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] AUDIT pages_scanned=2 pages_modified=2 sources_rewritten=1 ...
-- [2026-10-30] AUDIT pages_scanned=234 pages_modified=6 tags_reformatted=6 ...
-- [2026-10-30] AUDIT pages_scanned=234 pages_modified=13 base_confidence_recomputed=21 ...
+- [2026-10-30] AUDIT pages_scanned=234 pages_modified=36 tags_reformatted=6 ...
+- [2026-10-30] HOT
+- [2026-10-30] INDEX
 
 ## Active Threads
 
@@ -21,9 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-- Reciprocal-link pass filled every unreciprocated typed relationship (683 entries, 171 pages); graph is fully reciprocal, no knowledge-page orphan.
-
-Mechanical rule pass over the 234 knowledge pages: [[index.md#Top by incoming links]] lists the hubs; tier realignment per the graph rule, tags converted to YAML lists, alias/case normalized, `## Sources` headers added. Structural gaps remain: no entity pages for repeated author names, no synthesis pages for the LNS x hyper-heuristics and IRP x time-space-network clusters, and many tags outside the controlled taxonomy vocabulary.
+tags 6 pages, base_confidence 27 pages, 3 sources blocks re-resolved
 
 ## Flagged Contradictions
 

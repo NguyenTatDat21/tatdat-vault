@@ -232,3 +232,6 @@ title: Wiki Log
 - [2026-10-30T17:24:48Z] AUDIT pages_scanned=2 pages_modified=2 sources_rewritten=1 embeds_rewritten=11 tags_reformatted=1 figures_remapped=11 notes="windrasmara2022-alns-multi-drop-fstsp: 12 dead _images sources + 11 markdown /images embeds remapped to existing crops by caption (Figs. 6-7 no extracted image, captions only); vu2020-ddd-td-tsptw-time-expanded-network: sources were block-scalar artifacts, tags had glued brackets"
 - [2026-10-30T18:06:14Z] AUDIT pages_scanned=234 pages_modified=6 tags_reformatted=6 notes="de-bracketed glued tags lists on the W23 DDD concept pages; kept tokens as-is, aliases applied (heuristic->heuristics, traveling-salesman->tsp); these tags are outside the controlled vocabulary in _meta/taxonomy.md, so no canonical mapping applied"
 - [2026-10-30T19:10:54Z] AUDIT pages_scanned=234 pages_modified=13 base_confidence_recomputed=21 notes="base_confidence aligned to min(1.0, 0.67 + 0.1*(n-1)) per check (k); n = paper sources in frontmatter (wikilink form, caveat 22)"
+- [2026-10-30T19:27:31Z] AUDIT pages_scanned=234 pages_modified=36 tags_reformatted=6 base_confidence_recomputed=27 sources_rewritten=3 gate_checks_fixed=j,k notes="check j body-only + membership; check k n via wikilink form (caveat 22)"
+- [2026-10-30T19:27:32Z] HOT
+- [2026-10-30T19:27:32Z] INDEX
