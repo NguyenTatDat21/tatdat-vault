@@ -8,6 +8,7 @@ provenance:
   ambiguous: 0.02
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-11-05T14:22:00Z
 updated: 2026-11-05T14:22:00Z
 sources:
@@ -22,7 +23,7 @@ relationships:
     type: related_to
   - target: "[[definitive-analysis-procedure-choice]]"
     type: related_to
-lifecycle: stable
+lifecycle: draft
 lifecycle_changed: 2026-11-05T14:22:00Z
 ---
 

@@ -1,4 +1,5 @@
----title: "Failure-Directed Search"
+---
+title: "Failure-Directed Search"
 category: concepts
 tags:
   - failure-directed-search

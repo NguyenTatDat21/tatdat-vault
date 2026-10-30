@@ -8,6 +8,7 @@ provenance:
   ambiguous: 0.04
 base_confidence: 0.67
 tier: supporting
+category: references
 created: 2026-10-29T18:10:00Z
 updated: 2026-10-29T18:10:00Z
 sources:
@@ -88,14 +89,22 @@ sources:
   - _papers/yi2023automated/images/page_43_image_4.jpg
   - _papers/yi2023automated/images/page_43_image_6.jpg
 relationships:
-  - {target: "concepts/actor-critic-entropy-automated-algorithm-design", type: related_to}
-  - {target: "concepts/state-features-rl-algorithm-design", type: related_to}
-  - {target: "concepts/entropy-coefficient-adjustment-schemes", type: related_to}
-  - {target: "concepts/rl-component-analysis-designed-algorithms", type: related_to}
-  - {target: "concepts/hyper-heuristics", type: supports}
-  - {target: "references/yang2022-vrpd-bilevel-heuristic", type: related_to}
-  - {target: "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling", type: related_to}
-  - {target: "references/xinyingchen2023guide", type: related_to}
+  - target: concepts/actor-critic-entropy-automated-algorithm-design
+    type: related_to
+  - target: concepts/state-features-rl-algorithm-design
+    type: related_to
+  - target: concepts/entropy-coefficient-adjustment-schemes
+    type: related_to
+  - target: concepts/rl-component-analysis-designed-algorithms
+    type: related_to
+  - target: concepts/hyper-heuristics
+    type: related_to
+  - target: references/yang2022-vrpd-bilevel-heuristic
+    type: related_to
+  - target: references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling
+    type: related_to
+  - target: references/xinyingchen2023guide
+    type: related_to
 lifecycle: source
 lifecycle_changed: 2026-10-29T18:10:00Z
 ---

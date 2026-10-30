@@ -13,7 +13,7 @@ provenance:
   ambiguous: 0.03
 base_confidence: 0.67
 tier: core
-lifecycle: stable
+lifecycle: source
 created: 2026-10-29T17:10:00Z
 updated: 2026-10-29T17:10:00Z
 sources:
@@ -48,7 +48,7 @@ relationships:
   - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
     type: related_to
   - target: "[[concepts/multi-drop-flying-sidekick-traveling-salesman-problem]]"
-    type: child
+    type: extends
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
     type: uses
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"

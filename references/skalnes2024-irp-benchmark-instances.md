@@ -4,7 +4,6 @@ summary: "IRP benchmark paper: 270 real-world-like instances A-P-N-Q-T, sine dem
 type: reference
 tags: [paper, benchmark-instances, inventory-routing, vendor-managed-inventory, matheuristic, branch-and-cut, instance-space-analysis, matilda, phase-transition, instance-generation]
 provenance:
-  base: 0.00
   extracted: 0.94
   inferred: 0.03
   ambiguous: 0.03
@@ -12,6 +11,7 @@ base_confidence: 0.67
 created: "2026-10-28T22:40:00+07:00"
 updated: "2026-10-28T22:40:00+07:00"
 tier: supporting
+category: references
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:
@@ -34,6 +34,7 @@ relationships:
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
+
 ---
 
 > [!tldr] 270 new IRP instances built to break the pattern that made the Archetti benchmarks easy for tailored methods; the new set is harder for B&C and matheuristics, clustered instances cross a phase transition, route lengths stay short because fleets scale with customers.

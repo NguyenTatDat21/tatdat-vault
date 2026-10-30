@@ -5,9 +5,9 @@ category: concepts
 tags: [metaheuristics, hyper-heuristics, optimization]
 relationships:
   - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
   - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
-    type: supports
-    type: uses
+    type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
     type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"

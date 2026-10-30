@@ -5,9 +5,9 @@ category: references
 tags: [paper, drones, vehicle-routing, heuristics, bilevel-optimization, alns]
 relationships:
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
+    type: related_to
   - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
     type: related_to
-    type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"

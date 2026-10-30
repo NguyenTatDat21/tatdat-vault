@@ -19,9 +19,9 @@ sources:
   - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
 relationships:
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
-    type: child
+    type: extends
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: parent
+    type: extends
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"

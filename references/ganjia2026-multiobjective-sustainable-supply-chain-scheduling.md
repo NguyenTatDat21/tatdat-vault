@@ -5,9 +5,9 @@ category: references
 tags: [paper, multi-objective, supply-chain, production-scheduling, vehicle-routing, metaheuristics]
 relationships:
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
   - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
     type: related_to
-    type: implements
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
   - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"

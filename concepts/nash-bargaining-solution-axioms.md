@@ -8,14 +8,18 @@ provenance:
   ambiguous: 0.05
 base_confidence: 0.67
 tier: core
+category: concepts
 created: 2026-10-29T17:37:00Z
 updated: 2026-10-29T17:37:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
-- {target: "references/xinyingchen2023guide", type: "related_to"}
-- {target: "concepts/alpha-fairness-proportional-fairness", type: "related_to"}
-- {target: "concepts/kalai-smorodinsky-bargaining-solution", type: "related_to"}
+  - target: references/xinyingchen2023guide
+    type: related_to
+  - target: concepts/alpha-fairness-proportional-fairness
+    type: related_to
+  - target: concepts/kalai-smorodinsky-bargaining-solution
+    type: related_to
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:37:00Z
 ---

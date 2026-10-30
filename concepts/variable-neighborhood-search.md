@@ -1,4 +1,5 @@
----title: >-
+---
+title: >-
   Variable Neighborhood Search (VNS)
 category: concepts
 tags: [metaheuristics, local-search, neighborhood-search]
@@ -15,14 +16,12 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
-
   - target: "[[concepts/decision-diagrams-optimization]]"
     type: related_to
   - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
     type: related_to
   - target: "[[concepts/search-combinators-meta-search]]"
     type: related_to
-
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md

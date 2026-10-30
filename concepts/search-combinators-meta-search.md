@@ -8,18 +8,24 @@ provenance:
   ambiguous: 0.10
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-10-29T15:49:00Z
 updated: 2026-10-29T15:49:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
 relationships:
-  - { target: "references/pesant2015-cp2015-proceedings", type: "export" }
-  - { target: "concepts/large-neighborhood-search", type: "evolution" }
-  - { target: "concepts/variable-neighborhood-search", type: "support" }
-  - { target: "concepts/parallel-metaheuristics-cooperative-search", type: "co-evolution" }
-  - { target: "concepts/disjunctive-scheduling-constraint-programming-model", type: "support" }
-lifecycle: active
+  - target: references/pesant2015-cp2015-proceedings
+    type: related_to
+  - target: concepts/large-neighborhood-search
+    type: related_to
+  - target: concepts/variable-neighborhood-search
+    type: related_to
+  - target: concepts/parallel-metaheuristics-cooperative-search
+    type: related_to
+  - target: concepts/disjunctive-scheduling-constraint-programming-model
+    type: related_to
+lifecycle: draft
 lifecycle_changed: 2026-10-29T15:49:00Z
 ---
 

@@ -7,7 +7,6 @@ type: concept
 tags: '[time-expanded-networks, lower-bounds, dynamic-discretization, integer-programming,
   relaxation, properties-lemmas]'
 provenance:
-  base: 0.0
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
@@ -15,6 +14,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -29,18 +29,19 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-  type: uses
-- target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-  type: related_to
-- target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-  type: related_to
-- target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-  type: related_to
-- target: '[[concepts/duration-objective-depot-discretization]]'
-  type: related_to
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: derived_from
+  - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
+    type: uses
+  - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
+    type: related_to
+  - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
+    type: related_to
+  - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
+    type: related_to
+  - target: '[[concepts/duration-objective-depot-discretization]]'
+    type: related_to
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: derived_from
+
 ---
 
 > [!tldr] A partially time-expanded network is a sparse subset of timed nodes and arcs that keeps window endpoints, includes every travel arc that can start at a represented time, underestimates costs, and keeps arcs as long as possible, giving a lower bound that strengthens as arcs are lengthened.

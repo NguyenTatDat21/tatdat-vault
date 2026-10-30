@@ -9,7 +9,6 @@ type: reference
 tags: '[paper, tsp, time-windows, time-dependent-travel-times, dynamic-discretization,
   integer-programming, branch-and-cut, computational-study]'
 provenance:
-  base: 0.0
   extracted: 0.74
   inferred: 0.19
   ambiguous: 0.07
@@ -17,6 +16,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: references
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -31,20 +31,21 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-  type: related_to
-- target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-  type: uses_method
-- target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-  type: uses_method
-- target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-  type: uses_method
-- target: '[[concepts/duration-objective-depot-discretization]]'
-  type: uses_method
-- target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-  type: uses_method
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: derived_from
+  - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
+    type: related_to
+  - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
+    type: uses
+  - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
+    type: uses
+  - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
+    type: uses
+  - target: '[[concepts/duration-objective-depot-discretization]]'
+    type: uses
+  - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
+    type: uses
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: derived_from
+
 ---
 
 > [!tldr] DDD-TD-TSPTW solves TD-TSPTW with FIFO piecewise-linear travel times on a partially time-expanded network, beats the TTBF-BC branch-and-cut on all 1,912 Cordeau/Arigliano instances, solves 60-80 location instances, and covers the duration objective.

@@ -1,4 +1,5 @@
----title: >-
+---
+title: >-
   Cumulative Volume Lower Bound Search
 category: concepts
 tags: [constraint-programming, valid-inequality, search-pruning, lng, inventory]
@@ -19,12 +20,10 @@ relationships:
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
-
   - target: "[[concepts/decision-diagrams-optimization]]"
     type: related_to
   - target: "[[concepts/bound-tightening-relaxation-networks]]"
     type: related_to
-
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md

@@ -7,7 +7,6 @@ type: concept
 tags: '[duration-objective, depot-discretization, waiting-arcs, time-expanded-networks,
   dynamic-discretization, enumeration]'
 provenance:
-  base: 0.0
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
@@ -15,6 +14,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -42,7 +42,8 @@ relationships:
   - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
     type: uses
   - target: '[[concepts/dynamic-discretization-discovery]]'
-    type: uses_method
+    type: uses
+
 ---
 
 > [!tldr] Duration objective: DDD adds depot nodes for every feasible departure time up to ē_0 = min_i max_t {Δ_0i(t) ≤ l_i}, waiting arcs at the depot with zero cost, arcs from the depot with cost −t, l_0 = z − 1 + t_0, and network sizes double over makespan.

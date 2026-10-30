@@ -5,7 +5,7 @@ category: concepts
 tags: [UAV, payload, battery, endurance, tradeoff, truck-drone, delivery, bottleneck]
 relationships:
   - target: "[[references/wang2019routing]]"
-    type: defined_by
+    type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"

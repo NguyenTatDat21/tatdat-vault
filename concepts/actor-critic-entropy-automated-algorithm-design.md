@@ -8,6 +8,7 @@ provenance:
   author_synthesis: 0.05
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-10-29T18:10:00Z
 updated: 2026-10-29T18:10:00Z
 lifecycle: draft
@@ -19,17 +20,17 @@ sources:
 - _papers/xinyingchen2023guide/_papers/xinyingchen2023guide-extracted.md
 - _papers/ganjia2026multio/multi-objective sustainable supply chain scheduling for electric freight ride-sharing via a memetic algorithm with q-learning guidance.md
 relationships:
-- target: '[[concepts/metaheuristic-hybridization]]'
-  type: hybridization
-- target: '[[concepts/state-features-rl-algorithm-design]]'
-  type: related_to
-- target: '[[concepts/entropy-coefficient-adjustment-schemes]]'
-  type: related_to
-- target: '[[concepts/rl-component-analysis-designed-algorithms]]'
-  type: related_to
-- target: '[[concepts/hyper-heuristics]]'
-  type: supports
-- "concepts/metaheuristic-hybridization"
+  - target: '[[concepts/metaheuristic-hybridization]]'
+    type: uses
+  - target: '[[concepts/state-features-rl-algorithm-design]]'
+    type: related_to
+  - target: '[[concepts/entropy-coefficient-adjustment-schemes]]'
+    type: related_to
+  - target: '[[concepts/rl-component-analysis-designed-algorithms]]'
+    type: related_to
+  - target: '[[concepts/hyper-heuristics]]'
+    type: related_to
+
 ---
 
 # Actor-Critic RL for Automated Algorithm Design

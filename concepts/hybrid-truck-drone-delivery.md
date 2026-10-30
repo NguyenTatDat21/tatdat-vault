@@ -5,7 +5,7 @@ category: concepts
 tags: [UAV, truck-drone, delivery, VRP, makespan, time-balancing, multi-visit, hybrid]
 relationships:
   - target: "[[references/wang2019routing]]"
-    type: defined_by
+    type: related_to
   - target: "[[references/murray2015flying]]"
     type: related_to
   - target: "[[concepts/ellipse-based-flight-segment-geometry]]"

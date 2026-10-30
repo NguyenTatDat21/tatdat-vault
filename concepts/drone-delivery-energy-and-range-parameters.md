@@ -5,7 +5,7 @@ category: concepts
 tags: [UAV, energy-model, payload, power, lift-ratio, efficiency, endurance, parameters]
 relationships:
   - target: "[[references/wang2019routing]]"
-    type: defined_by
+    type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
   - target: "[[concepts/multirotor-power-model-components]]"

@@ -8,6 +8,7 @@ provenance:
   author_synthesis: 0.10
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-10-29T18:10:00Z
 updated: 2026-10-29T18:10:00Z
 lifecycle: draft
@@ -16,15 +17,15 @@ sources:
 - _papers/yi2023automated/yi2023automated-extracted.md
 - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md
 relationships:
-- target: '[[references/yi2023-ace-gsf-automated-design-cvrptw]]'
-  type: related_to
-- target: '[[references/yang2022-vrpd-bilevel-heuristic]]'
-  type: related_to
-- target: '[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]'
-  type: related_to
-- target: '[[concepts/actor-critic-entropy-automated-algorithm-design]]'
-  type: part_of
-- "references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling"
+  - target: '[[references/yi2023-ace-gsf-automated-design-cvrptw]]'
+    type: related_to
+  - target: '[[references/yang2022-vrpd-bilevel-heuristic]]'
+    type: related_to
+  - target: '[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]'
+    type: related_to
+  - target: '[[concepts/actor-critic-entropy-automated-algorithm-design]]'
+    type: related_to
+
 ---
 
 # RL Component Analysis of Designed Algorithms

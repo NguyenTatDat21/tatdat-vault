@@ -8,17 +8,22 @@ provenance:
   ambiguous: 0.10
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-10-29T15:46:00Z
 updated: 2026-10-29T15:46:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
 relationships:
-  - { target: "references/pesant2015-cp2015-proceedings", type: "export" }
-  - { target: "concepts/bound-tightening-relaxation-networks", type: "co-evolution" }
-  - { target: "concepts/cumulative-volume-lower-bound-cp-search", type: "support" }
-  - { target: "concepts/large-neighborhood-search", type: "support" }
-lifecycle: active
+  - target: references/pesant2015-cp2015-proceedings
+    type: related_to
+  - target: concepts/bound-tightening-relaxation-networks
+    type: related_to
+  - target: concepts/cumulative-volume-lower-bound-cp-search
+    type: related_to
+  - target: concepts/large-neighborhood-search
+    type: related_to
+lifecycle: draft
 lifecycle_changed: 2026-10-29T15:46:00Z
 ---
 

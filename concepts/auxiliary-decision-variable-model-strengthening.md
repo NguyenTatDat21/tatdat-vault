@@ -1,4 +1,5 @@
----title: "Auxiliary Decision Variables in Scheduling Model Strengthening"
+---
+title: "Auxiliary Decision Variables in Scheduling Model Strengthening"
 category: concepts
 tags: [constraint-programming, mixed-integer-programming, scheduling, modeling-pattern, formulation-strength]
 relationships:
@@ -14,14 +15,12 @@ relationships:
     type: derived_from
   - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
     type: derived_from
-
   - target: "[[concepts/lagrangian-decomposition-propagation]]"
     type: related_to
   - target: "[[concepts/automated-model-generation]]"
     type: related_to
   - target: "[[concepts/bound-tightening-relaxation-networks]]"
     type: related_to
-
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
   - _papers/ku2016mixed/ku2016mixed.md

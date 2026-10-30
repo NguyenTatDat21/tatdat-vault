@@ -20,9 +20,9 @@ sources:
   - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
 relationships:
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
-    type: child
+    type: extends
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
-    type: parent
+    type: extends
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
   - target: "[[references/murray2015flying]]"

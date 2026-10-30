@@ -8,27 +8,43 @@ provenance:
   ambiguous: 0.04
 base_confidence: 0.67
 tier: core
+category: references
 created: 2026-10-29T17:35:00Z
 updated: 2026-10-29T17:35:00Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide.md
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
-- {target: "concepts/welfare-social-function-fairness-formulations", type: related_to}
-- {target: "references/yi2023-ace-gsf-automated-design-cvrptw", type: related_to}
-- {target: "concepts/inequality-measures-fairness-formulations", type: related_to}
-- {target: "concepts/group-parity-fairness-metrics", type: related_to}
-- {target: "concepts/alpha-fairness-proportional-fairness", type: related_to}
-- {target: "concepts/nash-bargaining-solution-axioms", type: related_to}
-- {target: "concepts/kalai-smorodinsky-bargaining-solution", type: related_to}
-- {target: "concepts/utility-fairness-thresholds", type: related_to}
-- {target: "concepts/sequential-leximax-threshold-models", type: related_to}
-- {target: "concepts/convex-combination-weights-fairness", type: related_to}
-- {target: "concepts/maximin-leximax-fairness", type: related_to}
-- {target: "concepts/leximax-leximin-fairness-principles", type: related_to}
-- {target: "references/ogryczak2014-fair-optimization-networks-survey", type: related_to}
-- {target: "references/hartman2023-leximin-approximation", type: related_to}
-- {target: "references/phanduc2025-pareto-front-grid-fairness-dpdptw", type: related_to}
+  - target: concepts/welfare-social-function-fairness-formulations
+    type: related_to
+  - target: references/yi2023-ace-gsf-automated-design-cvrptw
+    type: related_to
+  - target: concepts/inequality-measures-fairness-formulations
+    type: related_to
+  - target: concepts/group-parity-fairness-metrics
+    type: related_to
+  - target: concepts/alpha-fairness-proportional-fairness
+    type: related_to
+  - target: concepts/nash-bargaining-solution-axioms
+    type: related_to
+  - target: concepts/kalai-smorodinsky-bargaining-solution
+    type: related_to
+  - target: concepts/utility-fairness-thresholds
+    type: related_to
+  - target: concepts/sequential-leximax-threshold-models
+    type: related_to
+  - target: concepts/convex-combination-weights-fairness
+    type: related_to
+  - target: concepts/maximin-leximax-fairness
+    type: related_to
+  - target: concepts/leximax-leximin-fairness-principles
+    type: related_to
+  - target: references/ogryczak2014-fair-optimization-networks-survey
+    type: related_to
+  - target: references/hartman2023-leximin-approximation
+    type: related_to
+  - target: references/phanduc2025-pareto-front-grid-fairness-dpdptw
+    type: related_to
 lifecycle: source
 lifecycle_changed: 2026-10-29T17:35:00Z
 ---

@@ -4,7 +4,6 @@ summary: "VRP-D: homogeneous truck fleet with one drone per truck, 31-constraint
 type: reference
 tags: [paper, vrp, drones, alns, truck-drone-cooperation, cost-minimization, mip, metaheuristic, endurance-utilization, sensitivity-analysis]
 provenance:
-  base: 0.00
   extracted: 0.97
   inferred: 0.02
   ambiguous: 0.01
@@ -12,9 +11,9 @@ base_confidence: 0.87
 created: "2026-10-28T21:56:00+07:00"
 updated: "2026-10-28T21:56:00+07:00"
 tier: core
+category: references
+lifecycle: source
 lifecycle_changed: 2026-10-29T17:15:00Z
-lifecycle: draft
-lifecycle_changed: "2026-10-28"
 sources:
   - "[[_papers/sacramento2019adaptive/sacramento2019adaptive-extracted.md]]"
   - "[[_papers/sacramento2019adaptive/sacramento2019adaptive.md]]"
@@ -35,19 +34,20 @@ sources:
   - "[[_papers/sacramento2019adaptive/images/page_47_chart_2.jpg]]"
 relationships:
   - target: "[[references/murray2015flying]]"
-    type: cites
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses_method
+    type: uses
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
-    type: cites
+    type: related_to
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: cites
+    type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
+
 ---
 
 > [!tldr] Truck + one drone per truck, cost minimization, ALNS with 4 repair methods, 20-30% savings against the truck-only case, endurance beyond 15 minutes hardly matters, speed is not a determining factor, payload is the lever with the clearest gains.

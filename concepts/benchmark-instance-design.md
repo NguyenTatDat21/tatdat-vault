@@ -4,7 +4,6 @@ summary: "IRP benchmark instance design: 270 instances from real fleets, sine de
 type: concept
 tags: [paper, benchmark-instances, instance-generation, inventory-routing, instance-space-analysis, matilda, feature-analysis, vehicle-routing]
 provenance:
-  base: 0.00
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
@@ -12,6 +11,7 @@ base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
 updated: "2026-10-28T22:52:00+07:00"
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:
@@ -21,7 +21,7 @@ relationships:
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
   - target: "[[concepts/branch-and-cut]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
@@ -36,6 +36,7 @@ relationships:
     type: derived_from
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: derived_from
+
 ---
 > [!tldr] New benchmark instances are built by combining real vehicle fleets, non-stationary sine demands, clustered positioning, depot capacity bounds, higher inventory variance, and triangle-inequality-preserving distances, then placed in a feature space to show the original benchmarks leave regions uncovered.
 

@@ -8,17 +8,22 @@ provenance:
   ambiguous: 0.10
 base_confidence: 0.67
 tier: supporting
+category: concepts
 created: 2026-10-29T15:50:00Z
 updated: 2026-10-29T15:50:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
 relationships:
-  - { target: "references/pesant2015-cp2015-proceedings", type: "export" }
-  - { target: "concepts/encoding-preservation-under-composition-and-merging", type: "co-evolution" }
-  - { target: "concepts/auxiliary-decision-variable-model-strengthening", type: "evolution" }
-  - { target: "concepts/large-neighborhood-search", type: "support" }
-lifecycle: active
+  - target: references/pesant2015-cp2015-proceedings
+    type: related_to
+  - target: concepts/encoding-preservation-under-composition-and-merging
+    type: related_to
+  - target: concepts/auxiliary-decision-variable-model-strengthening
+    type: related_to
+  - target: concepts/large-neighborhood-search
+    type: related_to
+lifecycle: draft
 lifecycle_changed: 2026-10-29T15:50:00Z
 ---
 

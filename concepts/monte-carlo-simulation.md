@@ -9,7 +9,7 @@ tags:
   - sampling
 relationships:
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/jensens-law-uncertainty-valuation]]"
     type: related_to
   - target: "[[concepts/real-options-in-system-design]]"

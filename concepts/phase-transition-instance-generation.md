@@ -4,7 +4,6 @@ summary: "Phase transition in instance generation: clustered IRP instances cross
 type: concept
 tags: [paper, phase-transition, instance-generation, clustering, computational-complexity, branch-and-cut, lower-bounds, vehicle-routing]
 provenance:
-  base: 0.00
   extracted: 0.86
   inferred: 0.14
   ambiguous: 0.00
@@ -12,6 +11,7 @@ base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
 updated: "2026-10-28T22:52:00+07:00"
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:
@@ -21,7 +21,7 @@ relationships:
   - target: "[[concepts/benchmark-instance-design]]"
     type: related_to
   - target: "[[concepts/branch-and-cut]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
@@ -36,6 +36,7 @@ relationships:
     type: derived_from
   - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
     type: derived_from
+
 ---
 > [!tldr] Clustered instances cross a phase transition: the B&C finds few feasible solutions on clustered instances, finds the most in random-clustered ones, and clustered gaps are smaller than random gaps, consistent with the TSP cluster-ratio literature.
 

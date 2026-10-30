@@ -7,7 +7,6 @@ type: concept
 tags: '[time-dependent-travel, fifo-property, travel-time-functions, piecewise-linear,
   routing, preprocessing]'
 provenance:
-  base: 0.0
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
@@ -15,6 +14,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -43,6 +43,7 @@ relationships:
     type: related_to
   - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
     type: related_to
+
 ---
 
 > [!tldr] The First-In, First-Out property for time-dependent travel: a later departure cannot produce an earlier arrival, piecewise-linear travel-time functions have slope at least minus 1, and FIFO makes waiting at non-depot locations unnecessary.

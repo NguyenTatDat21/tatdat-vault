@@ -4,11 +4,11 @@ summary: "Four-step framework valuing AP-X LNG flexibility in Qatar: mean-revert
 type: reference
 tags: ["LNG-flexibility", "stochastic-price-modelling", "real-options", "monte-carlo-simulation", "long-term-contracts", "spot-selling"]
 provenance:
-  base: 0.00
   extracted: 0.86
   inferred: 0.12
   ambiguous: 0.02
 tier: supporting
+category: references
 base_confidence: 0.67
 created: "2026-10-28T21:30:00+07:00"
 updated: "2026-10-28T21:30:00+07:00"
@@ -23,13 +23,14 @@ sources:
   - "[[_papers/yusuf2023strategic/images/page_11_chart_9.jpg]]"
 relationships:
   - target: "[[concepts/monte-carlo-simulation]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
-    type: uses_method
+    type: uses
   - target: "[[concepts/real-options-in-system-design]]"
-    type: applies_to
+    type: uses
   - target: "[[concepts/jensens-law-uncertainty-valuation]]"
-    type: cites
+    type: related_to
+
 ---
 # Strategic and Flexible LNG Production under Uncertain Demand and Prices (Yusuf et al. 2023, Heliyon)
 

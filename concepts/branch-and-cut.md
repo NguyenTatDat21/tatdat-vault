@@ -4,7 +4,6 @@ summary: "Branch-and-cut on aggregated IRP MILP: dynamic subtour separation, cap
 type: concept
 tags: [paper, branch-and-cut, inventory-routing, valid-inequalities, subtour-elimination, gurobi, mip]
 provenance:
-  base: 0.00
   extracted: 0.75
   inferred: 0.25
   ambiguous: 0.00
@@ -12,6 +11,7 @@ base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
 updated: "2026-10-28T22:52:00+07:00"
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
 sources:
@@ -36,6 +36,7 @@ relationships:
     type: derived_from
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: derived_from
+
 ---
 > [!tldr] The B&C method of this paper solves the aggregated IRP MILP with dynamic subtour cuts, three families of valid inequalities and a root-node-only separation policy; h-DR inequalities are dropped for large instances, the schedule formulation is kept to six periods.
 

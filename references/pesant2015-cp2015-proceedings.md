@@ -1,25 +1,32 @@
----title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
+---
+title: "Principles and Practice of Constraint Programming — CP 2015 Proceedings (LNCS 9255)"
 summary: "CP 2015 proceedings (LNCS 9255, ed. Pesant): 48 technical papers, 3 invited talks, 16 fast/journal-track abstracts, erratum, front matter, Author Index; 73 items, zero figures."
 tags: [CP-2015, constraint-programming, proceedings-volume, encodings, scheduling, decision-diagrams, tractability, search]
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-  base: 0.00
 base_confidence: 0.67
 tier: reference
+category: references
 created: 2026-10-29T15:40:00Z
 updated: 2026-10-29T15:52:00Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
 relationships:
-  - { target: "concepts/encoding-preservation-under-composition-and-merging", type: "inbound" }
-  - { target: "concepts/lagrangian-decomposition-propagation", type: "inbound" }
-  - { target: "concepts/bound-tightening-relaxation-networks", type: "inbound" }
-  - { target: "concepts/decision-diagrams-optimization", type: "inbound" }
-  - { target: "concepts/search-combinators-meta-search", type: "inbound" }
-  - { target: "concepts/automated-model-generation", type: "inbound" }
+  - target: concepts/encoding-preservation-under-composition-and-merging
+    type: related_to
+  - target: concepts/lagrangian-decomposition-propagation
+    type: related_to
+  - target: concepts/bound-tightening-relaxation-networks
+    type: related_to
+  - target: concepts/decision-diagrams-optimization
+    type: related_to
+  - target: concepts/search-combinators-meta-search
+    type: related_to
+  - target: concepts/automated-model-generation
+    type: related_to
   - target: "[[concepts/decision-diagrams-optimization]]"
     type: related_to
   - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
@@ -32,7 +39,7 @@ relationships:
     type: related_to
   - target: "[[concepts/automated-model-generation]]"
     type: related_to
-lifecycle: active
+lifecycle: source
 lifecycle_changed: 2026-10-29T15:52:00Z
 provenance_note: "Zotero item BAKF26BL (library-id 11058526, itemType book, Gilles Pesant (ed.), Springer, 2015, DOI 10.1007/978-3-319-23219-5). Provenance by script: 295 statement units, 89 verbatim markers (page-and-chapter citations, the 89 paper-index table rows, quoted equations, named algorithms, exact counts), 206 units without markers. Extracted rounded to 0.82; inferred 0.15 for theme-section grouping and author-name ordering; ambiguous 0.03 because fast-track and journal-track footnotes cite journal versions, so those items carry no Springer chapter DOI. Zero images in the source, so no captions to verify. Zero source page footnotes on the invited talks, so no page numbers are asserted for them."
 ---

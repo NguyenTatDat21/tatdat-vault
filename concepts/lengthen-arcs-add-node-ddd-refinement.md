@@ -7,7 +7,6 @@ type: concept
 tags: '[dynamic-discretization, network-refinement, arc-lengthening, pruning, correctness,
   integer-programming]'
 provenance:
-  base: 0.0
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
@@ -15,6 +14,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -44,7 +44,8 @@ relationships:
   - target: '[[concepts/duration-objective-depot-discretization]]'
     type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
-    type: uses_method
+    type: uses
+
 ---
 
 > [!tldr] Lengthening too-short arcs by adding nodes, Algorithm 2 walking a solution path with Add-Node, keeps Properties 1-4, guarantees correctness, opportunistically creates nodes needed to continue along the path, and pruning with l_0 = z − 1 shrinks the network.

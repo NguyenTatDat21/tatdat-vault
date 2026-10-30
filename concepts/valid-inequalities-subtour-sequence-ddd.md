@@ -6,7 +6,6 @@ type: concept
 tags: '[valid-inequalities, subtour-elimination, infeasible-sequences, dynamic-discretization,
   integer-programming, location-based]'
 provenance:
-  base: 0.0
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
@@ -14,6 +13,7 @@ base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
 updated: '2026-10-28T23:10:00+07:00'
 tier: supporting
+category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
@@ -28,18 +28,19 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
-- target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-  type: uses
-- target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-  type: related_to
-- target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-  type: related_to
-- target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-  type: uses
-- target: '[[concepts/duration-objective-depot-discretization]]'
-  type: uses
-- target: '[[concepts/dynamic-discretization-discovery]]'
-  type: uses_method
+  - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
+    type: uses
+  - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
+    type: related_to
+  - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
+    type: related_to
+  - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
+    type: uses
+  - target: '[[concepts/duration-objective-depot-discretization]]'
+    type: uses
+  - target: '[[concepts/dynamic-discretization-discovery]]'
+    type: uses
+
 ---
 
 > [!tldr] DDD adds location-based valid inequalities, subtour ≤ |M| − 1, infeasible sequence ≤ |M| − 2, defined on locations, so they apply to every time-expanded network, ruling out all timed copies, and they barely change runtime.

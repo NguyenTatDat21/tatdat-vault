@@ -21,7 +21,7 @@ sources:
   - "[[_papers/vilim2015failuredirected/images/page_14_image_5.jpg]]"
 relationships:
   - target: "[[concepts/failure-directed-search]]"
-    type: defines
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"

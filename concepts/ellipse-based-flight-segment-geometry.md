@@ -5,7 +5,7 @@ category: concepts
 tags: [UAV, truck-drone, ellipse, geometry, flight-segment, access-point, endurance, multi-visit]
 relationships:
   - target: "[[references/wang2019routing]]"
-    type: defined_by
+    type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: uses
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
