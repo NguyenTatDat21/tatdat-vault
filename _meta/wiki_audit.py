@@ -109,7 +109,7 @@ multi = {t for t, c in single.items() if c > 1 and t not in V}
 print("tags in use but outside vocabulary:", len(multi), "| single-page tags needing alias:", sum(1 for t, c in single.items() if c == 1 and t not in V))
 hot = open("hot.md").read()
 secs = [s for s in re.split(r"(?m)^## ", hot)[1:]]
-print("hot sections:", len(secs), "sections without a link:", sum(1 for s in secs if not re.search(r"\[\[|\]\]", s)))
+print("hot sections:", len(secs), "sections without a link (non-placeholder):", sum(1 for s in secs if not re.search(r"\[\[", s) and not s.strip().startswith("*")))
 log = open("log.md").read()
 ts = [m.group(1) for m in re.finditer(r"(?m)^-? ?\[(\d{4}-\d{2}-\d{2})", log)]
 print("log entries:", len(ts), "out-of-order:", sum(1 for a, b in zip(ts, ts[1:]) if a > b))
@@ -122,4 +122,6 @@ tier_counts = collections.Counter(TIER.values())
 declared = yaml.safe_load(parts(tax)[0]).get("confidence_tiers")
 print("tier counts actual:", dict(tier_counts), "declared:", declared)
 idx_t = {key(m.group(1)) for m in re.finditer(r"(?m)^- ?\[\[([^\]|]+)", idx, re.M)}
-print("index entries:", len(idx_t), "| top-by-incoming baseline:", sum(1 for m in re.finditer(r"^\[\[", idx, re.M)))
+topsec = (re.split(r"(?m)^## ", idx)[1:])
+base = [s for s in topsec if s.startswith("Top by incoming")]
+print("index entries:", len(idx_t), "| top-by-incoming baseline:", len(re.findall(r"(?m)^- \[\[", base[0])) if base else 0)
