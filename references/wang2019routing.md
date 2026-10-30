@@ -76,12 +76,12 @@ provenance:
   extracted: 0.89
   inferred: 0.10
   ambiguous: 0.01
-base_confidence: 0.77
+base_confidence: 0.67
 tier: core
 lifecycle: source
 lifecycle_changed: 2026-10-29T16:52:00Z
 created: 2026-10-29T16:40:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Path Planning for Triple Ecosystems in Diverse Environments (Wang, Hu, Du, Zhou, Deng, Hu, IEEE IoT-J 2019)

@@ -55,12 +55,12 @@ provenance:
   extracted: 0.89
   inferred: 0.08
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T16:46:00Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones

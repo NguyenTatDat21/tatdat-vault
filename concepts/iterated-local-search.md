@@ -29,12 +29,12 @@ provenance:
   extracted: 1.00
   inferred: 0.00
   ambiguous: 0.00
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T16:51:00Z
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Iterated Local Search (ILS)

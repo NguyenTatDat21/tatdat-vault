@@ -7,9 +7,9 @@ provenance:
   extracted: 0.97
   inferred: 0.02
   ambiguous: 0.01
-base_confidence: 0.87
+base_confidence: 0.67
 created: "2026-10-28T21:56:00+07:00"
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 tier: core
 category: references
 lifecycle: source

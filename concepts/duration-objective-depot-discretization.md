@@ -9,9 +9,9 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-base_confidence: 0.67
+base_confidence: 0.57
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T17:52:20Z
+updated: 2026-10-30T19:12:06Z
 tier: core
 category: concepts
 lifecycle: draft

@@ -48,12 +48,12 @@ provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T08:44:14Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Multi-visit Drone Routing Problem (Poikonen & Golden, 2020)

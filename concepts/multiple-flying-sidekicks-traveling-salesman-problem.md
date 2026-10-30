@@ -29,12 +29,12 @@ provenance:
   extracted: 0.88
   inferred: 0.1
   ambiguous: 0.02
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (mFSTSP)

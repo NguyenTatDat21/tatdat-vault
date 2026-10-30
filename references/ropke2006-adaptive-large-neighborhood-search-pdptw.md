@@ -51,12 +51,12 @@ provenance:
   extracted: 0.92
   inferred: 0.05
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.67
 tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 created: "2026-10-26T12:26:00Z"
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Ropke & Pisinger 2006 — Adaptive Large Neighborhood Search for the PDPTW

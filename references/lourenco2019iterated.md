@@ -32,12 +32,12 @@ provenance:
   extracted: 0.94
   inferred: 0.03
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Iterated Local Search: Framework and Applications (Lourenço, Martin & Stützle, 2019)

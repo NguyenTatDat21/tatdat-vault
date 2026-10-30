@@ -6,11 +6,11 @@ provenance:
   extracted_paper_extracted_md: 0.85
   extracted_paper_sidecar: 0.05
   author_synthesis: 0.10
-base_confidence: 0.67
+base_confidence: 0.87
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T19:25:48Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 relationships:
@@ -23,9 +23,11 @@ relationships:
   - target: '[[concepts/actor-critic-entropy-automated-algorithm-design]]'
     type: related_to
 sources:
-- _papers/yi2023automated/yi2023automated-extracted.md
-- _papers/yang2022vrpdbi-levelhyper-heatroutingdimension/_papers/yang2022vrpdbi-levelhyper-heatroutingdimension-extracted.md
-- _papers/xinyingchen2023guide/_papers/xinyingchen2023guide-extracted.md
+  - "[[_papers/yi2023automated/yi2023automated-extracted.md]]"
+  - "[[_papers/yi2023automated/yi2023automated.md]]"
+  - "[[_papers/yang2022solving/yang2022solving-extracted.md]]"
+  - "[[_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md]]"
+
 ---
 
 # Entropy Coefficient Adjustment Schemes
@@ -51,5 +53,5 @@ sources:
 ## Sources
 
 - `_papers/yi2023automated/yi2023automated-extracted.md`
-- `_papers/yang2022vrpdbi-levelhyper-heatroutingdimension/_papers/yang2022vrpdbi-levelhyper-heatroutingdimension-extracted.md`
-- `_papers/xinyingchen2023guide/_papers/xinyingchen2023guide-extracted.md`
+- `_papers/yang2022solving/yang2022solving-extracted.md`
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

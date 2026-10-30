@@ -25,12 +25,12 @@ relationships:
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
 summary: "Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criteria on CVRP, CMST, QAP. SA, TA and RRT win; HC/RW lose; linear parameter ending at zero saves a tuning dimension."
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-27T06:50:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 provenance:
   extracted: 1.00
   inferred: 0.00

@@ -31,12 +31,12 @@ provenance:
   extracted: 0.86
   inferred: 0.11
   ambiguous: 0.03
-base_confidence: 0.77
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T19:12:06Z
 ---
 
 # Min-cost Traveling Salesman Problem with Drone (Ha et al., 2018)
