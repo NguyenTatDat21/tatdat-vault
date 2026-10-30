@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T21:02:04Z
+updated: 2026-10-30T21:07:21Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
-- [2026-10-30] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
-- [2026-10-30] AUDIT pages_scanned=6 pages_modified=6 notes=sources blocks rewritten as YAML list items, base_confidenc...
+- [2026-10-30] AUDIT pages_scanned=6 pages_modified=6 notes=6 W23 DDD concept pages: base_confidence 0.57->0.67 (n=1), ...
+- [2026-10-30] INDEX
+- [2026-10-30] HOT
 
 ## Active Threads
 

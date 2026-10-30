@@ -241,3 +241,6 @@ title: Wiki Log
 - [2026-10-30T20:40:55Z] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
 - [2026-10-30T21:02:04Z] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
 - [2026-10-30T21:02:04Z] AUDIT pages_scanned=6 pages_modified=6 notes="sources blocks rewritten as YAML list items, base_confidence aligned to n=1 (0.57->0.67), gate j fixed to scan body only; gate still reports h FAIL for the 13 non-UTC (+07:00) timestamps"
+- [2026-10-30T21:07:20Z] AUDIT pages_scanned=6 pages_modified=6 notes="6 W23 DDD concept pages: base_confidence 0.57->0.67 (n=1), created/lifecycle_changed +07:00 -> 2026-10-28T23:21:38Z (matching the log INGEST line), sources: rewritten as proper YAML list items; gate checks a-n + p now pass for all 6"
+- [2026-10-30T21:07:21Z] INDEX
+- [2026-10-30T21:07:21Z] HOT
