@@ -29,7 +29,7 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
   - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
     type: related_to
   - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'

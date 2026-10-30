@@ -5,9 +5,9 @@ category: references
 tags: [paper, lng, constraint-programming, disjunctive-scheduling, cumulative-functions, inventory-routing, maritime, matheuristics]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: extends
   - target: "[[concepts/annual-lng-delivery-program]]"

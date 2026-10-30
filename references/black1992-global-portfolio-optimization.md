@@ -12,7 +12,7 @@ relationships:
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
   - target: "[[concepts/mmse-covariance-shrinkage]]"
-    type: uses
+    type: related_to
   - target: "[[references/he2002-black-litterman-intuition]]"
     type: related_to
   - target: "[[references/idzorek20072-bl-confidence-levels]]"

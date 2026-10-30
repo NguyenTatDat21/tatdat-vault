@@ -9,9 +9,9 @@ relationships:
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: related_to
   - target: "[[concepts/tabu-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
-    type: uses
+    type: related_to
   - target: "[[references/archetti2023-branch-and-cut-sop]]"
     type: related_to
   - target: "[[references/nguyen2025set]]"

@@ -10,7 +10,7 @@ relationships:
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/haug2023planning/haug2023planning-extracted.md
   - _papers/haug2023planning/haug2023planning.md

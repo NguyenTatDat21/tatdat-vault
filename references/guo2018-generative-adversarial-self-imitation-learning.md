@@ -5,7 +5,7 @@ category: references
 tags: [paper, reinforcement-learning, imitation-learning, adversarial-training, reward-shaping, policy-gradient]
 relationships:
   - target: "[[concepts/generative-adversarial-imitation-learning]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/inverse-soft-q-imitation-learning]]"
     type: related_to
   - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"

@@ -4,7 +4,7 @@ category: references
 tags: [paper, drones, pdstsp, metaheuristics]
 relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
-    type: uses
+    type: related_to
   - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
     type: related_to
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"

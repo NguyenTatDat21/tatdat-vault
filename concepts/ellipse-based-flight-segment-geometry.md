@@ -7,7 +7,7 @@ relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"

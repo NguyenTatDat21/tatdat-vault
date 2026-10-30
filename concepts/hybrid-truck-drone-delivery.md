@@ -9,9 +9,9 @@ relationships:
   - target: "[[references/murray2015flying]]"
     type: related_to
   - target: "[[concepts/ellipse-based-flight-segment-geometry]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/uav-payload-bottleneck]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"

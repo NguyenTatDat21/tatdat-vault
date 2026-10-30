@@ -13,9 +13,9 @@ relationships:
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/andersson2017-creating-annual-lng-delivery-programs]]"
     type: related_to
 sources:

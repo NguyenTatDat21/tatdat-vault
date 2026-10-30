@@ -35,9 +35,9 @@ relationships:
   - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
     type: related_to
   - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/duration-objective-depot-discretization]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
     type: related_to
   - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'

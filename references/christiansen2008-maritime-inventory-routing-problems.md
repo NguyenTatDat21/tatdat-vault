@@ -4,7 +4,7 @@ category: references
 tags: [maritime, inventory-routing, ship-routing-scheduling, review]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"

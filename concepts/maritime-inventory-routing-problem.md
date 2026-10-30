@@ -24,7 +24,7 @@ relationships:
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
     type: related_to
   - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"

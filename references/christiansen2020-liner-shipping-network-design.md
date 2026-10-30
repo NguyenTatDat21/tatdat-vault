@@ -4,7 +4,7 @@ category: references
 tags: [liner-shipping, network-design, maritime, survey]
 relationships:
   - target: "[[concepts/liner-shipping-network-design]]"
-    type: uses
+    type: related_to
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: extends
   - target: "[[concepts/maritime-routing-under-uncertainty]]"

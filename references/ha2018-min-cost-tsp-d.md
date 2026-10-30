@@ -5,7 +5,7 @@ category: references
 tags: [paper, drones, tsp, optimization]
 relationships:
   - target: "[[concepts/min-cost-tsp-with-drone]]"
-    type: uses
+    type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"

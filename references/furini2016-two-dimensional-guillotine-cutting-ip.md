@@ -5,7 +5,7 @@ category: references
 tags: [paper, integer-programming, cutting-stock, guillotine-cuts, branch-and-bound, two-dimensional-packing]
 relationships:
   - target: "[[concepts/plate-cut-position-guillotine-mip]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"
     type: related_to
   - target: "[[references/clautiaux2018-hypergraph-guillotine-knapsack]]"

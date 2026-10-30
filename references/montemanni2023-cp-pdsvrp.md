@@ -6,7 +6,7 @@ relationships:
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: derived_from
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/pdsvrp-c]]"
     type: related_to
   - target: "[[references/montemanni2024-parallel-collective-drones]]"

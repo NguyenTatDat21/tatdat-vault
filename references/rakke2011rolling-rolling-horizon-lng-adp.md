@@ -5,9 +5,9 @@ category: references
 tags: [paper, lng, annual-delivery-program, maritime-inventory-routing, rolling-horizon-heuristic, mixed-integer-programming, solution-space-reduction, improvement-heuristic, heterogeneous-fleet, spot-market, berth-capacity, parameter-testing, branch-and-bound]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
   - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"

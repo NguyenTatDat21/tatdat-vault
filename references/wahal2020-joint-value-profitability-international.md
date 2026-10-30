@@ -16,7 +16,7 @@ relationships:
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: related_to
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/duration-objective-depot-discretization]]"
     type: related_to
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"

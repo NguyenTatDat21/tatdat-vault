@@ -4,7 +4,7 @@ category: references
 tags: [paper, drones, pdstsp, matheuristics]
 relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
-    type: uses
+    type: related_to
   - target: "[[references/dinh2021-haco-pdstsp]]"
     type: related_to
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"

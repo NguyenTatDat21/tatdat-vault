@@ -20,7 +20,7 @@ relationships:
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
-    type: uses
+    type: related_to
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: derived_from
   - target: "[[concepts/gross-profitability-premium]]"

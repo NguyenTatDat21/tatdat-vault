@@ -4,9 +4,9 @@ category: references
 tags: [paper, orienteering, evolutionary-algorithm, metaheuristics]
 relationships:
   - target: "[[concepts/set-orienteering-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/tabu-search]]"
-    type: uses
+    type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: related_to
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"

@@ -12,7 +12,7 @@ sources:
   - "[[_papers/song2018persistent/images/page_10_chart_2.jpg]]"
 relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"

@@ -11,7 +11,7 @@ sources:
   - "[[_papers/zhao2025large/images/page_24_chart_2.jpg]]"
 relationships:
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"

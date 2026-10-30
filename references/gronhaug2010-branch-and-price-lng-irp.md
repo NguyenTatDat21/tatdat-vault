@@ -5,11 +5,11 @@ category: references
 tags: [paper, branch-and-price, column-generation, lng-supply-chain, maritime-inventory-routing, time-space-network]
 relationships:
   - target: "[[concepts/branch-and-price-column-generation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"
     type: derived_from
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"

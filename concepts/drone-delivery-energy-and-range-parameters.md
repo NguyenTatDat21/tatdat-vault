@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/multirotor-power-model-components]]"
     type: related_to
   - target: "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
-    type: uses
+    type: related_to
 summary: >-
   Single-product payload energy per arc: drone weight plus payload times distance, scaled by power demand, lift-to-weight ratio, and engine/motor efficiency.
 provenance:

@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/cp-sat-hint-start]]"
     type: related_to
   - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"

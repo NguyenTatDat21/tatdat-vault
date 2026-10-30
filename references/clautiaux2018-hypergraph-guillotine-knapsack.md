@@ -6,7 +6,7 @@ category: references
 tags: [paper, cutting-and-packing, dynamic-programming, integer-programming]
 relationships:
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/branch-and-price-column-generation]]"
     type: related_to
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"

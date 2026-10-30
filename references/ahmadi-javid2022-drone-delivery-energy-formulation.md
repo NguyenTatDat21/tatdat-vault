@@ -7,13 +7,13 @@ relationships:
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: extends
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[references/cheng2020-drone-routing-energy-function]]"
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
   - target: "[[concepts/drone-speed-selection-in-routing]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery-extracted.md
   - _papers/ahmadi-javid2022delivery/ahmadi-javid2022delivery.md

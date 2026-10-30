@@ -7,7 +7,7 @@ relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: extends
   - target: "[[references/lourenco2019iterated]]"
-    type: uses
+    type: related_to
   - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
     type: related_to
   - target: "[[references/ha2018-min-cost-tsp-d]]"
@@ -23,7 +23,7 @@ relationships:
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
   - target: "[[concepts/metaheuristic-hybridization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/branch-and-price-column-generation]]"
     type: related_to
   - target: "[[concepts/iterated-local-search]]"

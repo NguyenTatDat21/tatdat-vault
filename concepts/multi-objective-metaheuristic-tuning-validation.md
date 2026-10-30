@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
-    type: uses
+    type: related_to
   - target: "[[references/asghari2021-green-vrp-state-of-the-art-review]]"
     type: related_to
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"

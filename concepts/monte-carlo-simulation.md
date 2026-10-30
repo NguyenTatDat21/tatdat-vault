@@ -4,7 +4,7 @@ category: concepts
 tags: [monte-carlo-simulation, stochastic-simulation, npv-distribution, decision-measures, sampling]
 relationships:
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/jensens-law-uncertainty-valuation]]"
     type: related_to
   - target: "[[concepts/real-options-in-system-design]]"

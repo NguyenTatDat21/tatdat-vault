@@ -12,7 +12,7 @@ relationships:
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: related_to
   - target: "[[concepts/gross-profitability-premium]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/kakinuma2020empirical/kakinuma2020empirical-extracted.md
   - _papers/kakinuma2020empirical/kakinuma2020empirical.md

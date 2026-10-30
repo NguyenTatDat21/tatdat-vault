@@ -8,7 +8,7 @@ relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: derived_from
   - target: "[[concepts/peukert-law-battery-discharge]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: related_to
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: related_to
   - target: "[[concepts/pdsvrp-c]]"

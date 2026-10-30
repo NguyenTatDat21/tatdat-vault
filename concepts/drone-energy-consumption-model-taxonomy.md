@@ -11,7 +11,7 @@ relationships:
   - target: "[[references/zhang2021-drone-energy-model-comparison]]"
     type: derived_from
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"

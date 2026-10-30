@@ -5,15 +5,15 @@ category: references
 tags: [book, metaheuristics, operations-research, optimization]
 relationships:
   - target: "[[concepts/tabu-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/hyper-heuristics]]"
-    type: uses
+    type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"

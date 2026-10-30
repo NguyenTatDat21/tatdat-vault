@@ -10,7 +10,7 @@ relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"

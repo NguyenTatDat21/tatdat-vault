@@ -5,7 +5,7 @@ category: references
 tags: [paper, maritime, multi-objective, mixed-integer-programming, matheuristic, bulk-carriers]
 relationships:
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: extends
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
@@ -13,7 +13,7 @@ relationships:
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
     type: related_to
 sources:

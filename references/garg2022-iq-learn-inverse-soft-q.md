@@ -5,7 +5,7 @@ category: references
 tags: [paper, imitation-learning, inverse-rl, soft-q, reinforcement-learning, preprint, adversarial-training]
 relationships:
   - target: "[[concepts/inverse-soft-q-imitation-learning]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
   - target: "[[references/bertsimas2020-predictive-to-prescriptive-analytics]]"

@@ -8,9 +8,9 @@ relationships:
   - target: "[[references/he2002-black-litterman-intuition]]"
     type: derived_from
   - target: "[[concepts/black-litterman-view-blending]]"
-    type: uses
+    type: related_to
   - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
-    type: uses
+    type: related_to
   - target: "[[references/meucci2006-beyond-black-litterman-copula]]"
     type: related_to
 sources:

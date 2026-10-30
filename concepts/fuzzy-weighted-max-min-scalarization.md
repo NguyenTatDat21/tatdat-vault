@@ -7,7 +7,7 @@ relationships:
   - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
     type: derived_from
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"

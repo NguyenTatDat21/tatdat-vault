@@ -6,9 +6,9 @@ aliases: [residual income, RPE model, Edwards-Bell-Ohlson, clean surplus relatio
 tags: [valuation, residual-income, clean-surplus, book-value, cost-of-capital, continuing-value, forecasting, dividends, discount-rate]
 relationships:
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
     type: related_to
   - target: "[[concepts/predictive-to-prescriptive-analytics]]"

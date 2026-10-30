@@ -21,7 +21,7 @@ relationships:
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
   - target: "[[concepts/branch-and-cut]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"

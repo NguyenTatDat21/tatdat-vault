@@ -10,7 +10,7 @@ relationships:
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/asghari2021green/asghari2021green-extracted.md
   - _papers/asghari2021green/asghari2021green.md

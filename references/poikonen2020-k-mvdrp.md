@@ -5,7 +5,7 @@ category: references
 tags: [paper, drones, vehicle-routing, optimization]
 relationships:
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/pdsvrp-c]]"
     type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"

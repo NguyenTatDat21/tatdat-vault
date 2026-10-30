@@ -5,7 +5,7 @@ category: references
 tags: [paper, metaheuristic, iterated-local-search, local-search, perturbation, acceptance-criterion, double-bridge, tsp, qap, pfsp, job-shop, handbook, chapter, framework]
 relationships:
   - target: "[[concepts/iterated-local-search]]"
-    type: uses
+    type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
   - target: "[[references/mbiadousaleu2022parallel]]"

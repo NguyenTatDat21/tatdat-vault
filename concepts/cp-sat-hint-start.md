@@ -5,7 +5,7 @@ category: concepts
 tags: [constraint-programming, cp-sat, vrp, warm-start]
 relationships:
   - target: "[[concepts/pdsvrp-c]]"
-    type: uses
+    type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: derived_from
   - target: "[[references/montemanni2023-cp-pdsvrp]]"

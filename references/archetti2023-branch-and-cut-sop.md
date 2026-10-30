@@ -11,7 +11,7 @@ relationships:
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/branch-and-cut]]"
     type: related_to
   - target: "[[concepts/branch-and-price-column-generation]]"

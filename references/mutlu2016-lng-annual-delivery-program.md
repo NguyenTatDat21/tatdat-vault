@@ -5,7 +5,7 @@ category: references
 tags: [paper, maritime, lng, inventory-routing, split-delivery, heuristics]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"

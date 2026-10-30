@@ -5,7 +5,7 @@ category: references
 tags: [paper, maritime, inventory-routing, survey, mixed-integer-programming, modeling-choices]
 relationships:
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: derived_from
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"

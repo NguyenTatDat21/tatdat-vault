@@ -31,17 +31,17 @@ relationships:
   - target: "[[references/wahal2020-joint-value-profitability-international]]"
     type: derived_from
   - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
-    type: uses
+    type: related_to
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
   - target: "[[references/silver2018-alphazero-self-play-general-rl]]"

@@ -36,9 +36,9 @@ relationships:
   - target: "[[references/murray2015flying]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses
+    type: related_to
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"

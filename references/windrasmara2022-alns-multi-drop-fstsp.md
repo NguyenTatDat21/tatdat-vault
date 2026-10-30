@@ -48,7 +48,7 @@ relationships:
   - target: "[[concepts/multi-drop-flying-sidekick-traveling-salesman-problem]]"
     type: extends
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: related_to
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
@@ -56,7 +56,7 @@ relationships:
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
-    type: uses
+    type: related_to
 lifecycle_changed: 2026-10-29T17:10:00Z
 ---
 

@@ -5,7 +5,7 @@ category: references
 tags: [paper, drones, vehicle-routing, energy-modeling]
 relationships:
   - target: "[[concepts/drone-speed-selection-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"

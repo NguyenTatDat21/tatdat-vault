@@ -5,13 +5,13 @@ category: references
 tags: [paper, lng, maritime-inventory-routing, time-space-network, large-neighborhood-search, variable-neighborhood-search, mixed-integer-programming]
 relationships:
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: extends
   - target: "[[concepts/annual-lng-delivery-program]]"

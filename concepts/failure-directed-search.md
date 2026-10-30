@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
   - target: "[[concepts/variable-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
     type: derived_from
   - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"

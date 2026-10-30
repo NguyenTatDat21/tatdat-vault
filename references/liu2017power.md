@@ -5,7 +5,7 @@ category: references
 tags: [paper, quadrotor, power-model, energy-consumption, induced-power, profile-power, parasite-drag, actuator-disk, blade-element, hover-power, parameter-identification, steady-state, icuas, uav]
 relationships:
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"

@@ -5,7 +5,7 @@ category: references
 tags: [paper, stop, sop, set-team-orienteering, team-orienteering, gtsp, branch-and-price, lns, simulated-annealing, exact-algorithm, heuristics, new-benchmarks, ejor, optimization, vehicle-routing-with-profits, cluster-routing, dynamic-programming, strong-branching]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
     type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
@@ -19,11 +19,11 @@ relationships:
   - target: "[[references/yu2024-sarl-stoptw]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/branch-and-price-column-generation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses
+    type: related_to
   - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
     type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"

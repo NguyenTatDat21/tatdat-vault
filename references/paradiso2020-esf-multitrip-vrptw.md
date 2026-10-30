@@ -5,7 +5,7 @@ category: references
 tags: [paper, exact-methods, vehicle-routing, time-windows]
 relationships:
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
-    type: uses
+    type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
   - target: "[[references/tamke2023-vrpd-dss]]"

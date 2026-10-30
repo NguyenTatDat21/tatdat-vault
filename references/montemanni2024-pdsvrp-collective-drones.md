@@ -4,9 +4,9 @@ category: references
 tags: [paper, vrp, drones, constraint-programming]
 relationships:
   - target: "[[concepts/pdsvrp-c]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/cp-sat-hint-start]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"

@@ -9,13 +9,13 @@ relationships:
   - target: "[[references/murray2020-multiple-flying-sidekicks-tsp]]"
     type: extends
   - target: "[[concepts/drone-speed-selection-in-routing]]"
-    type: implements
+    type: related_to
   - target: "[[references/liu2017power]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[references/murray2015flying]]"
     type: related_to
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"

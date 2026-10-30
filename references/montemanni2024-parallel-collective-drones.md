@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: extends
   - target: "[[concepts/pdsvrp-c]]"
-    type: implements
+    type: related_to
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"

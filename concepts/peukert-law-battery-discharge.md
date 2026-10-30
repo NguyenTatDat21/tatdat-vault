@@ -10,7 +10,7 @@ relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[references/liu2017power]]"
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"

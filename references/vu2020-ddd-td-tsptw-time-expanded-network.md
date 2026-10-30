@@ -33,15 +33,15 @@ relationships:
   - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
     type: related_to
   - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/duration-objective-depot-discretization]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/valid-inequalities-subtour-sequence-ddd]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
     type: derived_from
 

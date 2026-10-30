@@ -4,7 +4,7 @@ category: references
 tags: [vrp, drone-delivery, multirotor-energy-model, battery-weight, simulated-annealing, dantzig-wolfe]
 relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
   - target: "[[references/cheng2020-drone-routing-energy-function]]"

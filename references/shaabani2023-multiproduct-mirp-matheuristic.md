@@ -11,9 +11,9 @@ sources:
   - "[[_papers/shaabani2023matheuristic/images/page_14_chart_2.jpg]]"
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses
+    type: related_to
   - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
     type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"

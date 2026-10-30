@@ -5,11 +5,11 @@ category: references
 tags: [paper, drone-routing, vrptw, swarm-synchronization, milp, alns, split-delivery, multi-trip, detour-insertion, time-windows, rotary-wing-drone, vehicle-routing, optimization, ejor]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
@@ -19,7 +19,7 @@ relationships:
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[references/wang2019routing]]"

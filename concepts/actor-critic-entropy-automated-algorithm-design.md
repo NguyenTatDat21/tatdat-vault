@@ -21,7 +21,7 @@ sources:
 - _papers/ganjia2026multio/multi-objective sustainable supply chain scheduling for electric freight ride-sharing via a memetic algorithm with q-learning guidance.md
 relationships:
   - target: '[[concepts/metaheuristic-hybridization]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/state-features-rl-algorithm-design]]'
     type: related_to
   - target: '[[concepts/entropy-coefficient-adjustment-schemes]]'

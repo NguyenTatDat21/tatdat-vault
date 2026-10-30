@@ -4,9 +4,9 @@ category: references
 tags: [paper, vrp, synchronization, alns]
 relationships:
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
   - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"

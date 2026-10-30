@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: extends
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
 sources:

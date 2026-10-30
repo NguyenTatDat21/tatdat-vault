@@ -4,7 +4,7 @@ category: references
 tags: [paper, maritime, lng, inventory-routing, berth-constraints, decomposition, mixed-integer-programming, annual-delivery-program, time-space-network, local-search, heuristics, scheduling, time-windows, penalty-cost]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
@@ -12,7 +12,7 @@ relationships:
   - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
   - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"

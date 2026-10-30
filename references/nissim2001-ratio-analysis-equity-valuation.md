@@ -6,13 +6,13 @@ aliases: [Nissim & Penman 2001, Review of Accounting Studies 2001, ratio documen
 tags: [accounting, equity-valuation, ratio-analysis, financial-statement-analysis, residual-earnings, profitability, growth, mean-reversion, compustat, forecasting]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/predictive-to-prescriptive-analytics]]"
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"

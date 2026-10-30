@@ -4,7 +4,7 @@ category: references
 tags: [paper, vrp, drones, metaheuristics]
 relationships:
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"
     type: related_to
   - target: "[[concepts/pdsvrp-c]]"
@@ -12,7 +12,7 @@ relationships:
   - target: "[[references/montemanni2024-pdsvrp-collective-drones]]"
     type: related_to
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
-    type: uses
+    type: related_to
   - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
     type: related_to
   - target: "[[references/dinh2021-haco-pdstsp]]"

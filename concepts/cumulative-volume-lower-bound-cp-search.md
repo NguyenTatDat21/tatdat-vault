@@ -5,7 +5,7 @@ category: concepts
 tags: [constraint-programming, valid-inequality, search-pruning, lng, inventory]
 relationships:
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: derived_from
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"

@@ -4,7 +4,7 @@ category: references
 tags: [paper, drones, energy-modeling, scheduling]
 relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"
     type: related_to
   - target: "[[concepts/drone-speed-selection-in-routing]]"

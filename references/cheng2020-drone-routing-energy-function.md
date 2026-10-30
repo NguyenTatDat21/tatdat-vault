@@ -4,9 +4,9 @@ category: references
 tags: [paper, drone-routing, branch-and-cut, energy-modeling]
 relationships:
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
-    type: uses
+    type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
   - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"

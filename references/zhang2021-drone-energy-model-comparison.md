@@ -16,7 +16,7 @@ relationships:
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
     type: related_to
   - target: "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
-    type: uses
+    type: related_to
   - target: "[[references/liu2017power]]"
     type: derived_from
 summary: "Zhang et al. (TR-D 2021) unify notation for 12 drone energy models; Epm spans 16 to 400 J/m, factor 3-5 spread on one drone, so model choice changes range and emissions."

@@ -5,9 +5,9 @@ category: references
 tags: [paper, machine-learning, transformers, reinforcement-learning, multi-agent-routing, uav, orienteering]
 relationships:
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"

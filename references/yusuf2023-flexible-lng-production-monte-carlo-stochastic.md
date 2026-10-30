@@ -23,11 +23,11 @@ sources:
   - "[[_papers/yusuf2023strategic/images/page_11_chart_9.jpg]]"
 relationships:
   - target: "[[concepts/monte-carlo-simulation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/real-options-in-system-design]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/jensens-law-uncertainty-valuation]]"
     type: related_to
 

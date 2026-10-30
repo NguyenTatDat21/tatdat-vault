@@ -6,11 +6,11 @@ aliases: [central tendency of ratios, fade rate, continuing value selection, por
 tags: [mean-reversion, forecasting, continuing-value, time-series, rankings, survivorship, benchmarks, priors, fade-rate, cost-of-capital]
 relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: extends
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"

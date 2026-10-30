@@ -25,7 +25,7 @@ relationships:
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
     type: related_to
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"

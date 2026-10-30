@@ -11,39 +11,39 @@ relationships:
   - target: "[[references/li2024drone]]"
     type: related_to
   - target: "[[references/lourenco2019iterated]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ellipse-based-flight-segment-geometry]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/uav-payload-bottleneck]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/drone-delivery-energy-and-range-parameters]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/iterated-local-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/tabu-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/metaheuristic-hybridization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/wang2019routing/wang2019routing.md
   - _papers/wang2019routing/wang2019routing-extracted.md

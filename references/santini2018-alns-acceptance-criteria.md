@@ -13,7 +13,7 @@ relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: derived_from
   - target: "[[concepts/duration-objective-depot-discretization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
     type: related_to
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"

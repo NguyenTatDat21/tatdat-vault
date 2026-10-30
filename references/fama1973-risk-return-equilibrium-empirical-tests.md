@@ -5,7 +5,7 @@ category: references
 tags: [paper, finance, asset-pricing, capital-asset-pricing-model, two-parameter-model, empirical-tests, beta]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
   - target: "[[references/black1992-global-portfolio-optimization]]"

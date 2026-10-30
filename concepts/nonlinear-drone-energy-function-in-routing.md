@@ -16,7 +16,7 @@ relationships:
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
-    type: uses
+    type: related_to
   - target: "[[references/murray2015flying]]"
     type: derived_from
   - target: "[[references/mbiadousaleu2022parallel]]"

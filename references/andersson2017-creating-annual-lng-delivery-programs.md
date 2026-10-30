@@ -13,7 +13,7 @@ relationships:
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
 sources:

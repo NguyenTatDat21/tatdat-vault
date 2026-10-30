@@ -5,7 +5,7 @@ category: references
 tags: [paper, maritime, uncertainty, routing]
 relationships:
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
-    type: uses
+    type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
   - target: "[[_papers/christiansen2013ship/christiansen2013ship-extracted]]"

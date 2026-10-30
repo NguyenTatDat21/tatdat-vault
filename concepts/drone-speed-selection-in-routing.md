@@ -15,7 +15,7 @@ relationships:
   - target: "[[references/montemanni2023-cp-pdsvrp]]"
     type: derived_from
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/min-cost-tsp-with-drone]]"
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"

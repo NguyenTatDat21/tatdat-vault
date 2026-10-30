@@ -5,9 +5,9 @@ category: references
 tags: [paper, lng-supply-chain, maritime-inventory-routing, mixed-integer-programming, time-space-network, boil-off]
 relationships:
   - target: "[[concepts/maritime-inventory-routing-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"

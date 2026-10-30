@@ -13,9 +13,9 @@ relationships:
   - target: "[[concepts/generative-adversarial-imitation-learning]]"
     type: related_to
   - target: "[[concepts/duration-objective-depot-discretization]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
     type: related_to
 summary: "Silver et al. 2018 (Science): AlphaZero, one RL algorithm trained from random play with only the rules, beats Stockfish 155-6-1000, Elmo 91.2%, AlphaGo Zero 61%; same net and MCTS in all three games."

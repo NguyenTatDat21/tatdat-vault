@@ -20,7 +20,7 @@ relationships:
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
   - target: "[[concepts/iterated-local-search]]"
-    type: uses
+    type: related_to
 summary: "Stålhane et al. (C&IE 2012) build an LNG ADP by a multi-start construction heuristic plus first-improvement local search and a reduced MIP; 20 real instances, average gap 11.58% in 372 s."
 base_confidence: 0.67
 lifecycle: draft

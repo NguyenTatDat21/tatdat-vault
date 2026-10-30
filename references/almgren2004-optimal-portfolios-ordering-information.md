@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
   - target: "[[concepts/mmse-covariance-shrinkage]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"

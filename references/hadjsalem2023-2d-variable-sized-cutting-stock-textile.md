@@ -5,7 +5,7 @@ category: references
 tags: [paper, cutting-stock, two-dimensional-packing, integer-programming, bi-objective-optimization, bin-packing, pareto-front]
 relationships:
   - target: "[[concepts/bin-packing-based-cutting-stock-ilp]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/plate-cut-position-guillotine-mip]]"
     type: related_to
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"

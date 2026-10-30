@@ -4,7 +4,7 @@ category: references
 tags: [metaheuristics, genetic-algorithm, quadratic-tsp, ruin-and-recreate, double-bridge, matheuristics]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
@@ -12,7 +12,7 @@ relationships:
   - target: "[[concepts/metaheuristic-hybridization]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
-    type: uses
+    type: related_to
   - target: "[[references/nguyen2025set]]"
     type: related_to
 sources:

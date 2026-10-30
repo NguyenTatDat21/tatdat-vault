@@ -6,7 +6,7 @@ relationships:
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: extends
   - target: "[[concepts/copula-opinion-pooling]]"
-    type: implements
+    type: related_to
   - target: "[[references/meucci2010-fully-flexible-views]]"
     type: related_to
   - target: "[[references/idzorek20072-bl-confidence-levels]]"

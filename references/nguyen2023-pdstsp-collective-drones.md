@@ -6,21 +6,21 @@ aliases: [PDSTSP-c, collective drone TSP, Nguyen 2023 Transportation Science]
 tags: [paper, pdstsp, collective-drone, makespan, milp, branch-and-cut, ruin-and-recreate, synchronization, dag-topological-sort, peukert-law, cart-sensitivity, last-mile-delivery, phenikaa]
 relationships:
   - target: "[[concepts/collective-drone-delivery]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/peukert-law-battery-discharge]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: extends
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[concepts/multirotor-power-model-components]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/drone-speed-selection-in-routing]]"
-    type: uses
+    type: related_to
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: derived_from
   - target: "[[references/murray2015flying]]"

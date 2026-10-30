@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/residual-earnings-equity-valuation]]"
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
   - target: "[[concepts/negative-book-equity-style-classification]]"

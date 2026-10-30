@@ -4,7 +4,7 @@ category: references
 tags: [paper, truck-drone-routing, heuristics, milp]
 relationships:
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"

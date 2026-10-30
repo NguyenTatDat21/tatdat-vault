@@ -5,11 +5,11 @@ category: references
 tags: [paper, vrp, synchronization, constraint-programming, alns, linear-programming, time-windows]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[references/hojabri2018-vrp-synchronization-alns-cp]]"

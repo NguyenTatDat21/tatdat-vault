@@ -9,9 +9,9 @@ relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: extends
   - target: "[[concepts/variable-neighborhood-search]]"
-    type: uses
+    type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
-    type: uses
+    type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: derived_from
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
@@ -19,7 +19,7 @@ relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: related_to
   - target: "[[references/boland2017-dynamic-discretization-tsptw]]"

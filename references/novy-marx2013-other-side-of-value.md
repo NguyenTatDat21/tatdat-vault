@@ -5,7 +5,7 @@ category: references
 tags: [asset-pricing, profitability, value-premium, factor-investing, quality-investing, gross-profitability, anomalies, fama-french, investing-strategy, cross-sectional-regression]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"

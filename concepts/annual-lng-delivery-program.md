@@ -27,7 +27,7 @@ relationships:
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
   - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
-    type: implements
+    type: related_to
   - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
     type: related_to
   - target: "[[concepts/ordering-information-portfolio-selection]]"

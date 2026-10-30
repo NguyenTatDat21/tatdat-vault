@@ -4,7 +4,7 @@ category: references
 tags: [paper, orienteering, simulated-annealing, reinforcement-learning]
 relationships:
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/set-orienteering-problem]]"
     type: extends
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"

@@ -6,7 +6,7 @@ category: references
 tags: [paper, lng, maritime, mixed-integer-programming]
 relationships:
   - target: "[[concepts/annual-lng-delivery-program]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: extends
   - target: "[[references/al-haidous2016-optimal-lng-deliveries]]"
@@ -16,7 +16,7 @@ relationships:
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: extends
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
 sources:

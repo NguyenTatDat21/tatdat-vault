@@ -28,17 +28,17 @@ sources:
 - '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
 relationships:
   - target: '[[concepts/partially-time-expanded-network-lower-bound]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/primal-arc-sets-ddd-two-networks]]'
     type: related_to
   - target: '[[concepts/lengthen-arcs-add-node-ddd-refinement]]'
     type: related_to
   - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/duration-objective-depot-discretization]]'
-    type: uses
+    type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
-    type: uses
+    type: related_to
   - target: "[[references/vu2020-ddd-td-tsptw-time-expanded-network]]"
     type: related_to
 

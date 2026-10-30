@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: uses
+    type: related_to
   - target: "[[concepts/variable-neighborhood-search]]"
     type: related_to
   - target: "[[references/pisinger2019-large-neighborhood-search]]"

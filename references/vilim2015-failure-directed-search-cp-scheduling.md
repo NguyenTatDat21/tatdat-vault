@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/pesant2015-cp2015-proceedings]]"
     type: related_to
   - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
