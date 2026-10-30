@@ -6,16 +6,15 @@ provenance:
   extracted_paper_extracted_md: 0.85
   extracted_paper_sidecar: 0.10
   author_synthesis: 0.05
-base_confidence: 0.87
+base_confidence: 0.97
 tier: core
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:36:15Z
+updated: 2026-10-30T19:38:37Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
-
-- "[[_papers/yi2023automated/yi2023automated-extracted.md]]"
+  - "[[_papers/yi2023automated/yi2023automated-extracted.md]]"
   - "[[_papers/yi2023automated/yi2023automated.md]]"
   - "[[_papers/yang2022solving/yang2022solving-extracted.md]]"
   - "[[_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md]]"

@@ -10,7 +10,7 @@ base_confidence: 0.87
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:25:48Z
+updated: 2026-10-30T19:38:37Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 relationships:

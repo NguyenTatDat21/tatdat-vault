@@ -10,13 +10,14 @@ base_confidence: 0.77
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:25:48Z
+updated: 2026-10-30T19:38:37Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
   - "[[_papers/yi2023automated/yi2023automated-extracted.md]]"
   - "[[_papers/yi2023automated/yi2023automated.md]]"
   - "[[_papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md]]"
+  - "[[_papers/ganjia2026multiobjective/ganjia2026multiobjective.md]]"
 relationships:
   - target: '[[references/yi2023-ace-gsf-automated-design-cvrptw]]'
     type: related_to
