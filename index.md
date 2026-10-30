@@ -9,11 +9,13 @@ generated_by: obsidian-wiki memory index
 
 ## Top by incoming links
 
-- [[concepts/large-neighborhood-search]] — 42 incoming
-- [[concepts/maritime-inventory-routing-problem]] — 26
-- [[references/gendreau2019-handbook-metaheuristics]] — 24
-- [[concepts/adaptive-large-neighborhood-search-for-mip]] — 22
-- [[concepts/hyper-heuristics]] — 21
+- [[concepts/large-neighborhood-search.md]] (core) — 44 incoming
+- [[concepts/adaptive-large-neighborhood-search-for-mip.md]] (core) — 27 incoming
+- [[concepts/maritime-inventory-routing-problem.md]] (core) — 26 incoming
+- [[references/gendreau2019-handbook-metaheuristics.md]] (core) — 25 incoming
+- [[concepts/time-space-network-ship-flow-model.md]] (core) — 24 incoming
+
+
 
 Most recently updated: [[references/zhao2025-lns-hgs-inventory-routing]], [[references/zhang2021-drone-energy-model-comparison]], [[references/yusuf2023-flexible-lng-production-monte-carlo-stochastic]], [[references/yi2023-ace-gsf-automated-design-cvrptw]], [[references/yang2022-vrpd-bilevel-heuristic]]
 

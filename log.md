@@ -221,3 +221,7 @@ title: Wiki Log
 - [2026-10-30T14:15:45Z] TAG_AUDIT pages_scanned=234 tags_changed=59
 - [2026-10-30T14:15:46Z] AUDIT pages_scanned=234 tier_changes=55 sources_sections_added=35 tags_reformatted=22 pages_modified=95 notes="mechanical rule pass: tier realignment per graph rule, tags string->YAML list, lowercase/alias tag normalization, ## Sources headers added; report-only semantic findings listed separately (600 vocabulary tags, 620 unreciprocated links, 130 pages >5 tags, entities/ synthesis/ empty, gate does not enforce tiers/tags/sidecar)"
 - [2026-10-30T14:15:46Z] INDEX pages_changed=1 notes="added Top by incoming links baseline"
+- [2026-10-30T14:50:45Z] CROSS_LINK pages_scanned=234 links_added=683 typed_relations_written=683 pages_modified=171 notes="reciprocal pass via /tmp/resp.py: 1381 typed pairs, 0 unreciprocated after, 0 orphan knowledge pages"
+- [2026-10-30T14:50:45Z] TIER pages_scanned=234 tier_changes=59 pages_modified=171 notes="tiers realigned to post-reciprocal incoming counts: 196 core / 38 supporting / 0 peripheral"
+- [2026-10-30T14:51:07Z] CROSS_LINK pages_scanned=234 links_added=683 typed_relations_written=683 pages_modified=171 notes="reciprocal pass via /tmp/resp.py: 1381 typed pairs, 0 unreciprocated after, 0 orphan knowledge pages"
+- [2026-10-30T14:51:07Z] TIER pages_scanned=234 tier_changes=59 pages_modified=171 notes="tiers realigned to post-reciprocal incoming counts: 196 core / 38 supporting / 0 peripheral"
