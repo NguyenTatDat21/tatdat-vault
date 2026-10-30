@@ -3,14 +3,14 @@ title: Valid Inequalities for Subtours and Infeasible Sequences in DDD
 summary: Location-based valid inequalities in DDD, subtour at most |M| - 1, infeasible
   sequence at most |M| - 2, valid for every network, low runtime impact.
 type: concept
-tags: [valid-inequalities, subtour-elimination, infeasible-sequences, dynamic-discretization, integer-programming, location-based]
+tags: [valid-inequalities, subtour-elimination, dynamic-discretization, integer-programming, modeling-pattern]
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.57
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T20:00:02Z
 tier: core
 category: concepts
 lifecycle: draft

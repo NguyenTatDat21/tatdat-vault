@@ -4,14 +4,14 @@ summary: First-In, First-Out property for time-dependent travel, piecewise-linea
   travel-time functions with slope at least -1, and the Ichoua-Gendreau-Potvin interval-constant
   model.
 type: concept
-tags: [time-dependent-travel, fifo-property, travel-time-functions, piecewise-linear, routing, preprocessing]
+tags: [scheduling, fifo-property, time-space-network, time-windows, modeling-pattern]
 provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.57
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T20:00:02Z
 tier: core
 category: concepts
 lifecycle: draft

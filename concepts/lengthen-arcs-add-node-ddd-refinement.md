@@ -4,14 +4,14 @@ summary: Lengthening too-short arcs with Algorithm 2 and Add-Node keeps Properti
   1-4, guarantees correctness, opportunistic node additions, pruning with l0 = z -
   1.
 type: concept
-tags: [dynamic-discretization, network-refinement, arc-lengthening, pruning, correctness, integer-programming]
+tags: [dynamic-discretization, integer-programming, time-space-network, modeling-pattern]
 provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.57
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T20:00:02Z
 tier: core
 category: concepts
 lifecycle: draft

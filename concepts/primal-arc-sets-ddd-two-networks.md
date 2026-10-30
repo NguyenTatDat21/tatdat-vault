@@ -4,14 +4,14 @@ summary: Two primal networks in DDD, arcs at least as long as correct travel tim
   give feasible solutions, arcs with positive travel time exclude subtours, solution
   sources are set-dependent.
 type: concept
-tags: [dynamic-discretization, primal-heuristics, time-expanded-networks, feasible-solutions, tsp, arc-sets]
+tags: [dynamic-discretization, primal-heuristics, time-space-network, tsp, modeling-pattern]
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.57
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T19:12:06Z
+updated: 2026-10-30T20:00:02Z
 tier: core
 category: concepts
 lifecycle: draft

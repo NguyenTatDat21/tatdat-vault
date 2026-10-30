@@ -1,7 +1,7 @@
 ---
 title: Solving the TSPTW with Dynamic Discretization Discovery
 category: references
-tags: [tsptw, dynamic-discretization, exact-algorithms, time-expanded-networks]
+tags: [tsptw, dynamic-discretization, exact-algorithms, time-space-network]
 relationships:
   - target: "[[concepts/dynamic-discretization-discovery]]"
     type: derived_from
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:08:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T20:00:02Z
 ---
 
 # Solving the TSPTW with Dynamic Discretization Discovery

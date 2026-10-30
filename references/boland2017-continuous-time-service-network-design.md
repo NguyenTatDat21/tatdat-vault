@@ -1,7 +1,7 @@
 ---
 title: The Continuous-Time Service Network Design Problem
 category: references
-tags: [service-network-design, dynamic-discretization, time-expanded-networks, mixed-integer-programming]
+tags: [service-network-design, dynamic-discretization, time-space-network, mixed-integer-programming]
 relationships:
   - target: "[[concepts/dynamic-discretization-discovery]]"
     type: derived_from
@@ -29,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:05:00Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T20:00:02Z
 ---
 
 # The Continuous-Time Service Network Design Problem
