@@ -16,22 +16,10 @@ relationships:
     type: related_to
   - target: "[[concepts/peukert-law-battery-discharge]]"
     type: related_to
-    note: "Reciprocal - concepts/peukert-law-battery-discharge references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: related_to
-    note: "Reciprocal - references/raj2020multiple-variable-drone-speed-mfstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/zhang2021-drone-energy-model-comparison]]"
     type: related_to
-    note: "Reciprocal - references/zhang2021-drone-energy-model-comparison references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/liu2017power/liu2017power-extracted.md
   - _papers/liu2017power/liu2017power.md

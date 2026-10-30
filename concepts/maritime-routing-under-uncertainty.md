@@ -13,40 +13,16 @@ relationships:
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
     type: related_to
-    note: "Reciprocal - concepts/annual-lng-delivery-program references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-objective-maritime-cargo-routing-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/al-haidous2016-optimal-lng-deliveries]]"
     type: related_to
-    note: "Reciprocal - references/al-haidous2016-optimal-lng-deliveries references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
-    note: "Reciprocal - references/christiansen2008-maritime-inventory-routing-problems references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
     type: related_to
-    note: "Reciprocal - references/dossantos2024-multiobjective-maritime-cargo-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
-    note: "Reciprocal - references/mutlu2016-lng-annual-delivery-program references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md

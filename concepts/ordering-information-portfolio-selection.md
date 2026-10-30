@@ -18,82 +18,30 @@ relationships:
     type: related_to
   - target: "[[concepts/black-litterman-view-blending]]"
     type: related_to
-    note: "Reciprocal - concepts/black-litterman-view-blending references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
-    note: "Reciprocal - concepts/cash-based-operating-profitability references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: related_to
-    note: "Reciprocal - concepts/fama-macbeth-two-stage-cross-sectional-regression references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/mmse-covariance-shrinkage]]"
     type: related_to
-    note: "Reciprocal - concepts/mmse-covariance-shrinkage references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/predictive-to-prescriptive-analytics]]"
     type: related_to
-    note: "Reciprocal - concepts/predictive-to-prescriptive-analytics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
     type: related_to
-    note: "Reciprocal - references/ball2016-accruals-cash-flows-operating-profitability references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/beatty2014-financial-accounting-in-banking]]"
     type: related_to
-    note: "Reciprocal - references/beatty2014-financial-accounting-in-banking references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/bertsimas2020-predictive-to-prescriptive-analytics]]"
     type: related_to
-    note: "Reciprocal - references/bertsimas2020-predictive-to-prescriptive-analytics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/bertsimas2022-bootstrap-robust-prescriptive-analytics]]"
     type: related_to
-    note: "Reciprocal - references/bertsimas2022-bootstrap-robust-prescriptive-analytics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: related_to
-    note: "Reciprocal - references/black1992-global-portfolio-optimization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/chen2010-shrinkage-mmse-covariance-estimation]]"
     type: related_to
-    note: "Reciprocal - references/chen2010-shrinkage-mmse-covariance-estimation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/meucci2010-fully-flexible-views]]"
     type: related_to
-    note: "Reciprocal - references/meucci2010-fully-flexible-views references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
     type: related_to
-    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md

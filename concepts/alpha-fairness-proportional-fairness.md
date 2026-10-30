@@ -24,22 +24,10 @@ relationships:
     type: related_to
   - target: "[[concepts/convex-combination-weights-fairness]]"
     type: related_to
-    note: "Reciprocal - concepts/convex-combination-weights-fairness references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/kalai-smorodinsky-bargaining-solution]]"
     type: related_to
-    note: "Reciprocal - concepts/kalai-smorodinsky-bargaining-solution references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/welfare-social-function-fairness-formulations]]"
     type: related_to
-    note: "Reciprocal - concepts/welfare-social-function-fairness-formulations references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:37:00Z
 ---

@@ -11,22 +11,10 @@ relationships:
     type: related_to
   - target: "[[concepts/liner-shipping-network-design]]"
     type: related_to
-    note: "Reciprocal - concepts/liner-shipping-network-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
-    note: "Reciprocal - concepts/mirp-modeling-continuous-vs-discrete-time references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
     type: related_to
-    note: "Reciprocal - references/barnhart1998-branch-and-price-column-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/boland2017continuoustime/boland2017continuoustime-extracted.md
   - _papers/boland2017continuoustime/boland2017continuoustime.md

@@ -15,40 +15,16 @@ relationships:
     type: related_to
   - target: "[[concepts/branch-and-cut]]"
     type: related_to
-    note: "Reciprocal - concepts/branch-and-cut references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
-    note: "Reciprocal - concepts/disjunctive-scheduling-constraint-programming-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: related_to
-    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
-    note: "Reciprocal - references/dorling2017-drone-delivery-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/goel2015-constraint-programming-lng-ship-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
-    note: "Reciprocal - references/ropke2006-adaptive-large-neighborhood-search-pdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md

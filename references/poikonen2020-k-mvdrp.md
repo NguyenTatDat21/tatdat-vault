@@ -16,64 +16,24 @@ relationships:
     type: related_to
   - target: "[[concepts/benchmark-instance-design]]"
     type: related_to
-    note: "Reciprocal - concepts/benchmark-instance-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/drone-speed-selection-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-speed-selection-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/exact-multitrip-vrptw-framework]]"
     type: related_to
-    note: "Reciprocal - concepts/exact-multitrip-vrptw-framework references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
-    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/cheng2020-drone-routing-energy-function]]"
     type: related_to
-    note: "Reciprocal - references/cheng2020-drone-routing-energy-function references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ha2018-min-cost-tsp-d]]"
     type: related_to
-    note: "Reciprocal - references/ha2018-min-cost-tsp-d references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/meng2023-multivisit-drone-pickup-delivery]]"
     type: related_to
-    note: "Reciprocal - references/meng2023-multivisit-drone-pickup-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
     type: related_to
-    note: "Reciprocal - references/paradiso2020-esf-multitrip-vrptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: related_to
-    note: "Reciprocal - references/tamke2023-vrpd-dss references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md
   - _papers/poikonen2020multivisit/poikonen2020multivisit.md

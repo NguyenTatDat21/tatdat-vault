@@ -11,52 +11,20 @@ relationships:
     type: related_to
   - target: "[[concepts/duration-objective-depot-discretization]]"
     type: related_to
-    note: "Reciprocal - concepts/duration-objective-depot-discretization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
     type: related_to
-    note: "Reciprocal - concepts/first-in-first-out-property-in-time-dependent-travel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: related_to
-    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
     type: related_to
-    note: "Reciprocal - concepts/lengthen-arcs-add-node-ddd-refinement references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/partially-time-expanded-network-lower-bound]]"
     type: related_to
-    note: "Reciprocal - concepts/partially-time-expanded-network-lower-bound references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/primal-arc-sets-ddd-two-networks]]"
     type: related_to
-    note: "Reciprocal - concepts/primal-arc-sets-ddd-two-networks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/valid-inequalities-subtour-sequence-ddd]]"
     type: related_to
-    note: "Reciprocal - concepts/valid-inequalities-subtour-sequence-ddd references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/vu2020-ddd-td-tsptw-time-expanded-network]]"
     type: related_to
-    note: "Reciprocal - references/vu2020-ddd-td-tsptw-time-expanded-network references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/boland2017solving/boland2017solving-extracted.md
   - _papers/boland2017solving/boland2017solving.md

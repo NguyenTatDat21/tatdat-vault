@@ -17,10 +17,6 @@ relationships:
     type: related_to
   - target: "[[concepts/uav-payload-bottleneck]]"
     type: related_to
-    note: "Reciprocal - concepts/uav-payload-bottleneck references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nguyen2023parallel/nguyen2023parallel-extracted.md
   - _papers/nguyen2023parallel/nguyen2023parallel.md

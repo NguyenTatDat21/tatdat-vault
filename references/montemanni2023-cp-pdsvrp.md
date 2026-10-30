@@ -15,40 +15,16 @@ relationships:
     type: related_to
   - target: "[[concepts/cp-sat-hint-start]]"
     type: related_to
-    note: "Reciprocal - concepts/cp-sat-hint-start references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
     type: related_to
-    note: "Reciprocal - concepts/dag-topological-sort-scheduling-move-evaluation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/drone-speed-selection-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-speed-selection-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
-    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: related_to
-    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/montemanni2023constraint/montemanni2023constraint-extracted.md
   - _papers/montemanni2023constraint/montemanni2023constraint.md

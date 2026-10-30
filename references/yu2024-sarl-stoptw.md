@@ -11,10 +11,6 @@ relationships:
     type: related_to
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yu2024simulated/yu2024simulated-extracted.md
   - _papers/yu2024simulated/yu2024simulated.md

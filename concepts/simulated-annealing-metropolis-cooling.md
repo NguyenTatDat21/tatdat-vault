@@ -14,58 +14,22 @@ relationships:
     type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/iterated-local-search]]"
     type: related_to
-    note: "Reciprocal - concepts/iterated-local-search references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/li2024drone]]"
     type: related_to
-    note: "Reciprocal - references/li2024drone references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/lourenco2019iterated]]"
     type: related_to
-    note: "Reciprocal - references/lourenco2019iterated references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
-    note: "Reciprocal - references/ropke2006-adaptive-large-neighborhood-search-pdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: related_to
-    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
-    note: "Reciprocal - references/santini2018-alns-acceptance-criteria references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
     type: related_to
-    note: "Reciprocal - references/shaabani2023-multiproduct-mirp-matheuristic references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md

@@ -40,46 +40,18 @@ relationships:
     type: related_to
   - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
     type: related_to
-    note: "Reciprocal - concepts/cumulative-volume-lower-bound-cp-search references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
-    note: "Reciprocal - concepts/disjunctive-scheduling-constraint-programming-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/al-haidous2016-optimal-lng-deliveries]]"
     type: related_to
-    note: "Reciprocal - references/al-haidous2016-optimal-lng-deliveries references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/andersson2017-creating-annual-lng-delivery-programs]]"
     type: related_to
-    note: "Reciprocal - references/andersson2017-creating-annual-lng-delivery-programs references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/deshpande2023-lng-adp-inventory-berth]]"
     type: related_to
-    note: "Reciprocal - references/deshpande2023-lng-adp-inventory-berth references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
     type: related_to
-    note: "Reciprocal - references/dossantos2024-multiobjective-maritime-cargo-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
-    note: "Reciprocal - references/halvorsen-weare2013-lng-routing-berth-inventory references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md

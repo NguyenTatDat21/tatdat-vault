@@ -11,28 +11,12 @@ relationships:
     type: related_to
   - target: "[[concepts/inverse-soft-q-imitation-learning]]"
     type: related_to
-    note: "Reciprocal - concepts/inverse-soft-q-imitation-learning references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to
-    note: "Reciprocal - concepts/statistical-investigation-lifecycle references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
-    note: "Reciprocal - references/chatfield1995-problem-solving-statisticians-guide references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"
     type: related_to
-    note: "Reciprocal - references/garg2022-iq-learn-inverse-soft-q references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/bertsimas2020predictive/bertsimas2020predictive-extracted.md
   - _papers/bertsimas2020predictive/bertsimas2020predictive.md

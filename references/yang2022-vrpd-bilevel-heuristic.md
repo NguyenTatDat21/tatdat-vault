@@ -18,22 +18,10 @@ relationships:
     type: related_to
   - target: "[[concepts/entropy-coefficient-adjustment-schemes]]"
     type: related_to
-    note: "Reciprocal - concepts/entropy-coefficient-adjustment-schemes references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/rl-component-analysis-designed-algorithms]]"
     type: related_to
-    note: "Reciprocal - concepts/rl-component-analysis-designed-algorithms references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/state-features-rl-algorithm-design]]"
     type: related_to
-    note: "Reciprocal - concepts/state-features-rl-algorithm-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md

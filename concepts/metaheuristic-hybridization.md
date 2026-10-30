@@ -20,28 +20,12 @@ relationships:
     type: related_to
   - target: "[[concepts/actor-critic-entropy-automated-algorithm-design]]"
     type: related_to
-    note: "Reciprocal - concepts/actor-critic-entropy-automated-algorithm-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
-    note: "Reciprocal - concepts/swarm-intelligence-pso-aco references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: related_to
-    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md

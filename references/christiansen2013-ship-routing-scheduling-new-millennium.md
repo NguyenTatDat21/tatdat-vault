@@ -17,28 +17,12 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-routing-under-uncertainty]]"
     type: related_to
-    note: "Reciprocal - concepts/maritime-routing-under-uncertainty references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
-    note: "Reciprocal - references/christiansen2008-maritime-inventory-routing-problems references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
-    note: "Reciprocal - references/fagerholt2023-maritime-inventory-routing-survey references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"
     type: related_to
-    note: "Reciprocal - references/ksciuk2023-maritime-uncertainty-review references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship.md

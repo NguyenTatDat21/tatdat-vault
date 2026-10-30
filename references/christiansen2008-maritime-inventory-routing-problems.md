@@ -15,34 +15,14 @@ relationships:
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
-    note: "Reciprocal - concepts/disjunctive-scheduling-constraint-programming-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: related_to
-    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: related_to
-    note: "Reciprocal - references/goel2012-large-neighborhood-search-lng-inventory-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/goel2015-constraint-programming-lng-ship-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"
     type: related_to
-    note: "Reciprocal - references/gronhaug2009-supply-chain-optimization-lng references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2008maritime/christiansen2008maritime.md

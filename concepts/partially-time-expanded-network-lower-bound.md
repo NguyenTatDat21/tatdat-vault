@@ -42,10 +42,6 @@ relationships:
     type: derived_from
   - target: "[[references/vu2020-ddd-td-tsptw-time-expanded-network]]"
     type: related_to
-    note: "Reciprocal - references/vu2020-ddd-td-tsptw-time-expanded-network references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 
 ---
 

@@ -16,10 +16,6 @@ relationships:
     type: uses
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
-    note: "Reciprocal - references/gronhaug2010-branch-and-price-lng-irp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/andersson2017creating/andersson2017creating-extracted.md
   - _papers/andersson2017creating/andersson2017creating.md

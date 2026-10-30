@@ -17,16 +17,8 @@ relationships:
     type: related_to
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
     type: related_to
-    note: "Reciprocal - concepts/operating-and-financial-leverage-spreading references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/brown2007-negative-book-equity-stocks]]"
     type: related_to
-    note: "Reciprocal - references/brown2007-negative-book-equity-stocks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/beatty2014financial/beatty2014financial-extracted.md
   - _papers/beatty2014financial/beatty2014financial.md

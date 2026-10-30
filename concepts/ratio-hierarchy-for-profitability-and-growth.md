@@ -25,22 +25,10 @@ relationships:
     type: derived_from
   - target: "[[concepts/gross-profitability-premium]]"
     type: related_to
-    note: "Reciprocal - concepts/gross-profitability-premium references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/kim2020-profitability-asean-stocks]]"
     type: related_to
-    note: "Reciprocal - references/kim2020-profitability-asean-stocks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/novy-marx2013-other-side-of-value]]"
     type: related_to
-    note: "Reciprocal - references/novy-marx2013-other-side-of-value references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nissim2001ratio/nissim2001ratio-extracted.md
   - _papers/nissim2001ratio/nissim2001ratio.md

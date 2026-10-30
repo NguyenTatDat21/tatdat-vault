@@ -2,8 +2,9 @@
 title: Tag Taxonomy
 category: meta
 tags: [taxonomy, metadata]
+sources: []
 created: 2026-10-27T06:00:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T16:05:09Z
 ---
 
 # Tag Taxonomy

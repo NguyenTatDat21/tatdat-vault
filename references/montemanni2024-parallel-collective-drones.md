@@ -15,16 +15,8 @@ relationships:
     type: related_to
   - target: "[[concepts/cp-sat-hint-start]]"
     type: related_to
-    note: "Reciprocal - concepts/cp-sat-hint-start references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel.md

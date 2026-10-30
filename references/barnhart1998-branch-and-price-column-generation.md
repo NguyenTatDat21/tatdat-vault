@@ -13,34 +13,14 @@ relationships:
     type: related_to
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"
     type: related_to
-    note: "Reciprocal - concepts/four-stage-guillotine-cut-bounded-knapsack references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/clautiaux2018-hypergraph-guillotine-knapsack]]"
     type: related_to
-    note: "Reciprocal - references/clautiaux2018-hypergraph-guillotine-knapsack references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
     type: related_to
-    note: "Reciprocal - references/furini2016-two-dimensional-guillotine-cutting-ip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
     type: related_to
-    note: "Reciprocal - references/gronhaug2010-branch-and-price-lng-irp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
     type: related_to
-    note: "Reciprocal - references/ogryczak2014-fair-optimization-networks-survey references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted.md
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice.md

@@ -14,10 +14,6 @@ relationships:
     type: related_to
   - target: "[[references/silver2018-alphazero-self-play-general-rl]]"
     type: related_to
-    note: "Reciprocal - references/silver2018-alphazero-self-play-general-rl references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/guo2018generative/guo2018generative-extracted.md
   - _papers/guo2018generative/guo2018generative.md

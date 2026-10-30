@@ -11,28 +11,12 @@ relationships:
     type: related_to
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: related_to
-    note: "Reciprocal - concepts/periodic-scheduling-under-capacity-constraints references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/bar-noy2004-efficient-algorithms-periodic-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/bar-noy2004-efficient-algorithms-periodic-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/song2018-persistent-uav-delivery-milp-rhta]]"
     type: related_to
-    note: "Reciprocal - references/song2018-persistent-uav-delivery-milp-rhta references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yu2024simulated/yu2024simulated-extracted.md
   - _papers/yu2024simulated/yu2024simulated.md

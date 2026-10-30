@@ -18,16 +18,8 @@ relationships:
     type: related_to
   - target: "[[references/stalhane2012-construction-improvement-lng-adp]]"
     type: related_to
-    note: "Reciprocal - references/stalhane2012-construction-improvement-lng-adp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/lourenco2019iterated/lourenco2019iterated-extracted.md
   - _papers/lourenco2019iterated/lourenco2019iterated.md

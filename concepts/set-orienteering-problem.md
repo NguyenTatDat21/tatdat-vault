@@ -15,70 +15,26 @@ relationships:
     type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/cooperative-multi-agent-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/ordering-information-portfolio-selection]]"
     type: related_to
-    note: "Reciprocal - concepts/ordering-information-portfolio-selection references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
     type: related_to
-    note: "Reciprocal - concepts/periodic-scheduling-under-capacity-constraints references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
     type: related_to
-    note: "Reciprocal - concepts/set-team-orienteering-problem-with-time-windows references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
-    note: "Reciprocal - concepts/transformer-seq2seq-routing-solver references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
     type: related_to
-    note: "Reciprocal - references/almgren2004-optimal-portfolios-ordering-information references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/bar-noy2002-minimizing-periodic-scheduling-costs]]"
     type: related_to
-    note: "Reciprocal - references/bar-noy2002-minimizing-periodic-scheduling-costs references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
-    note: "Reciprocal - references/fuertes2023-transformer-multi-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/morandi2024-orienteering-problem-with-drones]]"
     type: related_to
-    note: "Reciprocal - references/morandi2024-orienteering-problem-with-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/yu2024-sarl-stoptw]]"
     type: related_to
-    note: "Reciprocal - references/yu2024-sarl-stoptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/archetti2018set/archetti2018set-extracted.md
   - _papers/archetti2018set/archetti2018set.md

@@ -16,34 +16,14 @@ relationships:
     type: related_to
   - target: "[[concepts/cash-based-operating-profitability]]"
     type: related_to
-    note: "Reciprocal - concepts/cash-based-operating-profitability references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ball2016-accruals-cash-flows-operating-profitability]]"
     type: related_to
-    note: "Reciprocal - references/ball2016-accruals-cash-flows-operating-profitability references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: related_to
-    note: "Reciprocal - references/black1992-global-portfolio-optimization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/chen2010-shrinkage-mmse-covariance-estimation]]"
     type: related_to
-    note: "Reciprocal - references/chen2010-shrinkage-mmse-covariance-estimation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
     type: related_to
-    note: "Reciprocal - references/fama1973-risk-return-equilibrium-empirical-tests references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/almgren2004optimal/almgren2004optimal-extracted.md
   - _papers/almgren2004optimal/almgren2004optimal.md

@@ -38,10 +38,6 @@ relationships:
     type: derived_from
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
-    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 
 ---
 > [!tldr] The B&C method of this paper solves the aggregated IRP MILP with dynamic subtour cuts, three families of valid inequalities and a root-node-only separation policy; h-DR inequalities are dropped for large instances, the schedule formulation is kept to six periods.

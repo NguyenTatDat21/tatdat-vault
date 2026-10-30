@@ -16,28 +16,12 @@ relationships:
     type: related_to
   - target: "[[concepts/inverse-soft-q-imitation-learning]]"
     type: related_to
-    note: "Reciprocal - concepts/inverse-soft-q-imitation-learning references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"
     type: related_to
-    note: "Reciprocal - references/garg2022-iq-learn-inverse-soft-q references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: related_to
-    note: "Reciprocal - references/lu2024-hybrid-evolutionary-algorithm-sop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
-    note: "Reciprocal - references/poikonen2020-k-mvdrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md

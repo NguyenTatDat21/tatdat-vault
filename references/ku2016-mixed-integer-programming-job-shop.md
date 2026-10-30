@@ -13,22 +13,10 @@ relationships:
     type: related_to
   - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
     type: related_to
-    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
     type: related_to
-    note: "Reciprocal - references/isik2023-constraint-programming-hybrid-flow-shop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/jimenez-piqueras2023-constraint-programming-premarshalling]]"
     type: related_to
-    note: "Reciprocal - references/jimenez-piqueras2023-constraint-programming-premarshalling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ku2016mixed/ku2016mixed-extracted.md
   - _papers/ku2016mixed/ku2016mixed.md

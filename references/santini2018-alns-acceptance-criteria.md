@@ -16,34 +16,14 @@ relationships:
     type: uses
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
     type: related_to
-    note: "Reciprocal - concepts/alns-destroy-repair-operator-suite references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
     type: related_to
-    note: "Reciprocal - concepts/first-in-first-out-property-in-time-dependent-travel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
     type: related_to
-    note: "Reciprocal - concepts/lengthen-arcs-add-node-ddd-refinement references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: related_to
-    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 summary: "Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criteria on CVRP, CMST, QAP. SA, TA and RRT win; HC/RW lose; linear parameter ending at zero saves a tuning dimension."
 base_confidence: 0.77
 lifecycle: draft

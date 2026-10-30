@@ -23,22 +23,10 @@ relationships:
     type: related_to
   - target: "[[concepts/definitive-analysis-procedure-choice]]"
     type: related_to
-    note: "Reciprocal - concepts/definitive-analysis-procedure-choice references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/effective-statistician-eight-principles]]"
     type: related_to
-    note: "Reciprocal - concepts/effective-statistician-eight-principles references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/problem-formulation-objectives-type-iii-error]]"
     type: related_to
-    note: "Reciprocal - concepts/problem-formulation-objectives-type-iii-error references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-11-05T14:20:00Z
 ---

@@ -13,28 +13,12 @@ relationships:
     type: related_to
   - target: "[[concepts/bin-packing-based-cutting-stock-ilp]]"
     type: related_to
-    note: "Reciprocal - concepts/bin-packing-based-cutting-stock-ilp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/plate-cut-position-guillotine-mip]]"
     type: related_to
-    note: "Reciprocal - concepts/plate-cut-position-guillotine-mip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
     type: related_to
-    note: "Reciprocal - references/furini2016-two-dimensional-guillotine-cutting-ip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/hadjsalem2023-2d-variable-sized-cutting-stock-textile]]"
     type: related_to
-    note: "Reciprocal - references/hadjsalem2023-2d-variable-sized-cutting-stock-textile references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/clautiaux2018combining/clautiaux2018combining-extracted.md
   - _papers/clautiaux2018combining/clautiaux2018combining.md

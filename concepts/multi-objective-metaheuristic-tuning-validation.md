@@ -24,16 +24,8 @@ relationships:
     type: related_to
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/phanduc2025-pareto-front-grid-fairness-dpdptw]]"
     type: related_to
-    note: "Reciprocal - references/phanduc2025-pareto-front-grid-fairness-dpdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md

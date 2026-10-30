@@ -16,16 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
-    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md

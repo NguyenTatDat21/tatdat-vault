@@ -13,34 +13,14 @@ relationships:
     type: related_to
   - target: "[[references/ha2018-min-cost-tsp-d]]"
     type: related_to
-    note: "Reciprocal - references/ha2018-min-cost-tsp-d references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: related_to
-    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
     type: related_to
-    note: "Reciprocal - references/shaabani2023-multiproduct-mirp-matheuristic references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic.md

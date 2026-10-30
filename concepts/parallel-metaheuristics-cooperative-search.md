@@ -16,28 +16,12 @@ relationships:
     type: related_to
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
-    note: "Reciprocal - concepts/hyper-heuristics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/metaheuristic-hybridization]]"
     type: related_to
-    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
-    note: "Reciprocal - concepts/swarm-intelligence-pso-aco references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
 summary: >-

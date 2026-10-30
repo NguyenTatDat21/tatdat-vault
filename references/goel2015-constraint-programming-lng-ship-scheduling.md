@@ -26,34 +26,14 @@ relationships:
     type: related_to
   - target: "[[concepts/benchmark-instance-design]]"
     type: related_to
-    note: "Reciprocal - concepts/benchmark-instance-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/branch-and-cut]]"
     type: related_to
-    note: "Reciprocal - concepts/branch-and-cut references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: related_to
-    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
     type: related_to
-    note: "Reciprocal - references/isik2023-constraint-programming-hybrid-flow-shop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
     type: related_to
-    note: "Reciprocal - references/ku2016-mixed-integer-programming-job-shop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md

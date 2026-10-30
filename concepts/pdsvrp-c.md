@@ -18,28 +18,12 @@ relationships:
     type: derived_from
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/k-multi-visit-drone-routing-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2022-min-cost-pdsvrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
-    note: "Reciprocal - references/poikonen2020-k-mvdrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md

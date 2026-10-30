@@ -49,46 +49,18 @@ relationships:
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
-    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/bilevel-vrpd-task-assignment-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/k-multi-visit-drone-routing-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/pdsvrp-c]]"
     type: related_to
-    note: "Reciprocal - concepts/pdsvrp-c references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
-    note: "Reciprocal - concepts/vehicle-routing-with-synchronization-constraints references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 
 ---
 

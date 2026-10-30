@@ -15,10 +15,6 @@ relationships:
     type: uses
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/pham2023efficient/pham2023efficient-extracted.md
   - _papers/pham2023efficient/pham2023efficient.md

@@ -14,22 +14,10 @@ relationships:
     type: related_to
   - target: "[[concepts/drone-speed-selection-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-speed-selection-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: related_to
-    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ha2018mincost/ha2018mincost-extracted.md
   - _papers/ha2018mincost/ha2018mincost.md

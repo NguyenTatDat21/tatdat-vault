@@ -17,22 +17,10 @@ relationships:
     type: related_to
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/goel2015-constraint-programming-lng-ship-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
     type: related_to
-    note: "Reciprocal - references/ogryczak2014-fair-optimization-networks-survey references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing-extracted.md
   - _papers/bar-noy2002minimizing/bar-noy2002minimizing.md

@@ -34,28 +34,12 @@ relationships:
     type: related_to
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
     type: related_to
-    note: "Reciprocal - concepts/alns-destroy-repair-operator-suite references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: related_to
-    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
-    note: "Reciprocal - references/santini2018-alns-acceptance-criteria references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ropke2006adaptive/ropke2006adaptive.md
   - _papers/ropke2006adaptive/ropke2006adaptive-extracted.md

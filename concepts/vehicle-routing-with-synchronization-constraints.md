@@ -19,82 +19,30 @@ relationships:
     type: derived_from
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/ellipse-based-flight-segment-geometry]]"
     type: related_to
-    note: "Reciprocal - concepts/ellipse-based-flight-segment-geometry references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"
     type: related_to
-    note: "Reciprocal - concepts/green-vehicle-routing-problem-taxonomy references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: related_to
-    note: "Reciprocal - concepts/hybrid-truck-drone-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/asghari2021-green-vrp-state-of-the-art-review]]"
     type: related_to
-    note: "Reciprocal - references/asghari2021-green-vrp-state-of-the-art-review references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/li2024drone]]"
     type: related_to
-    note: "Reciprocal - references/li2024drone references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2020-multiple-flying-sidekicks-tsp]]"
     type: related_to
-    note: "Reciprocal - references/murray2020-multiple-flying-sidekicks-tsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/phanduc2025-pareto-front-grid-fairness-dpdptw]]"
     type: related_to
-    note: "Reciprocal - references/phanduc2025-pareto-front-grid-fairness-dpdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: related_to
-    note: "Reciprocal - references/raj2020multiple-variable-drone-speed-mfstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md

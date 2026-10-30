@@ -18,22 +18,10 @@ relationships:
     type: related_to
   - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
     type: related_to
-    note: "Reciprocal - concepts/fuzzy-weighted-max-min-scalarization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/phanduc2025-pareto-front-grid-fairness-dpdptw]]"
     type: related_to
-    note: "Reciprocal - references/phanduc2025-pareto-front-grid-fairness-dpdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md

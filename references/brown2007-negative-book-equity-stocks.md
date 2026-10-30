@@ -19,10 +19,6 @@ relationships:
     type: related_to
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: related_to
-    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md

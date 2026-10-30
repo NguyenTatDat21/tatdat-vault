@@ -17,22 +17,10 @@ relationships:
     type: related_to
   - target: "[[concepts/gross-profitability-premium]]"
     type: related_to
-    note: "Reciprocal - concepts/gross-profitability-premium references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
     type: related_to
-    note: "Reciprocal - concepts/operating-and-financial-leverage-spreading references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: related_to
-    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/kim2020profitability/kim2020profitability-extracted.md
   - _papers/kim2020profitability/kim2020profitability.md

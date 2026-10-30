@@ -14,40 +14,16 @@ relationships:
     type: related_to
   - target: "[[concepts/bin-packing-based-cutting-stock-ilp]]"
     type: related_to
-    note: "Reciprocal - concepts/bin-packing-based-cutting-stock-ilp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
-    note: "Reciprocal - concepts/disjunctive-scheduling-constraint-programming-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/hadjsalem2023-2d-variable-sized-cutting-stock-textile]]"
     type: related_to
-    note: "Reciprocal - references/hadjsalem2023-2d-variable-sized-cutting-stock-textile references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/jimenez-piqueras2023-constraint-programming-premarshalling]]"
     type: related_to
-    note: "Reciprocal - references/jimenez-piqueras2023-constraint-programming-premarshalling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
     type: related_to
-    note: "Reciprocal - references/ku2016-mixed-integer-programming-job-shop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
     type: related_to
-    note: "Reciprocal - references/richards1996-scheduling-to-maximize-customer-satisfaction references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/furini2016modeling/furini2016modeling-extracted.md
   - _papers/furini2016modeling/furini2016modeling.md

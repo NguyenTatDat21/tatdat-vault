@@ -32,64 +32,24 @@ relationships:
     type: related_to
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: related_to
-    note: "Reciprocal - concepts/hybrid-truck-drone-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-drop-flying-sidekick-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-drop-flying-sidekick-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/morandi2024-orienteering-problem-with-drones]]"
     type: related_to
-    note: "Reciprocal - references/morandi2024-orienteering-problem-with-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: related_to
-    note: "Reciprocal - references/raj2020multiple-variable-drone-speed-mfstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: related_to
-    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/murray2015flying/murray2015flying-extracted.md
   - _papers/murray2015flying/murray2015flying.md

@@ -24,10 +24,6 @@ relationships:
     type: related_to
   - target: "[[concepts/group-parity-fairness-metrics]]"
     type: related_to
-    note: "Reciprocal - concepts/group-parity-fairness-metrics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:37:00Z
 ---

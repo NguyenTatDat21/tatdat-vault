@@ -28,16 +28,8 @@ relationships:
     type: related_to
   - target: "[[concepts/iterated-local-search]]"
     type: related_to
-    note: "Reciprocal - concepts/iterated-local-search references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel-extracted.md
   - _papers/mbiadousaleu2022parallel/mbiadousaleu2022parallel.md

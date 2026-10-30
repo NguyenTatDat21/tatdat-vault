@@ -12,28 +12,12 @@ relationships:
     type: related_to
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
-    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: related_to
-    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
-    note: "Reciprocal - references/ha2020-vrp-synchronization-lp-alns references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/hojabri2018-vrp-synchronization-alns-cp]]"
     type: related_to
-    note: "Reciprocal - references/hojabri2018-vrp-synchronization-alns-cp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/paradiso2020exact/paradiso2020exact-extracted.md
   - _papers/paradiso2020exact/paradiso2020exact.md

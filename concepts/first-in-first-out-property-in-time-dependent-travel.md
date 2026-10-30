@@ -44,22 +44,10 @@ relationships:
     type: related_to
   - target: "[[concepts/primal-arc-sets-ddd-two-networks]]"
     type: related_to
-    note: "Reciprocal - concepts/primal-arc-sets-ddd-two-networks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/silver2018-alphazero-self-play-general-rl]]"
     type: related_to
-    note: "Reciprocal - references/silver2018-alphazero-self-play-general-rl references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/vu2020-ddd-td-tsptw-time-expanded-network]]"
     type: related_to
-    note: "Reciprocal - references/vu2020-ddd-td-tsptw-time-expanded-network references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 
 ---
 

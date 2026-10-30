@@ -22,10 +22,6 @@ relationships:
     type: derived_from
   - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
     type: related_to
-    note: "Reciprocal - concepts/dag-topological-sort-scheduling-move-evaluation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/li2024drone/li2024drone-extracted.md
   - _papers/li2024drone/li2024drone.md

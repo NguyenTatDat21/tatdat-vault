@@ -15,46 +15,18 @@ relationships:
     type: related_to
   - target: "[[concepts/branch-and-cut]]"
     type: related_to
-    note: "Reciprocal - concepts/branch-and-cut references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/dynamic-discretization-discovery]]"
     type: related_to
-    note: "Reciprocal - concepts/dynamic-discretization-discovery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/four-stage-guillotine-cut-bounded-knapsack]]"
     type: related_to
-    note: "Reciprocal - concepts/four-stage-guillotine-cut-bounded-knapsack references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/plate-cut-position-guillotine-mip]]"
     type: related_to
-    note: "Reciprocal - concepts/plate-cut-position-guillotine-mip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/clautiaux2018-hypergraph-guillotine-knapsack]]"
     type: related_to
-    note: "Reciprocal - references/clautiaux2018-hypergraph-guillotine-knapsack references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: related_to
-    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice-extracted.md
   - _papers/barnhart1998branchandprice/barnhart1998branchandprice.md

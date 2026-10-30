@@ -18,10 +18,6 @@ relationships:
     type: related_to
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 summary: "Drone energy models split by thrust assumption, travel components covered, and wind/avionics adjustments; the spread spans 16 to over 400 J/m on common drones."
 base_confidence: 0.67
 lifecycle: draft

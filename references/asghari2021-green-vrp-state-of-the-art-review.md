@@ -11,16 +11,8 @@ relationships:
     type: related_to
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/asghari2021green/asghari2021green-extracted.md
   - _papers/asghari2021green/asghari2021green.md

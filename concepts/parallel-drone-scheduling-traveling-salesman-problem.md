@@ -23,34 +23,14 @@ relationships:
     type: derived_from
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
-    note: "Reciprocal - concepts/collective-drone-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/cooperative-multi-agent-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic-extracted.md
   - _papers/dellamico2020matheuristic/dellamico2020matheuristic.md

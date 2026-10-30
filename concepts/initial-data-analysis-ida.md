@@ -27,16 +27,8 @@ relationships:
     type: related_to
   - target: "[[concepts/data-collection-designs-and-pitfalls]]"
     type: related_to
-    note: "Reciprocal - concepts/data-collection-designs-and-pitfalls references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/effective-statistician-eight-principles]]"
     type: related_to
-    note: "Reciprocal - concepts/effective-statistician-eight-principles references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-11-05T14:32:00Z
 ---

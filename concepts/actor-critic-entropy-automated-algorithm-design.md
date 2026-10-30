@@ -32,10 +32,6 @@ relationships:
     type: related_to
   - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
     type: related_to
-    note: "Reciprocal - references/yi2023-ace-gsf-automated-design-cvrptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 
 ---
 

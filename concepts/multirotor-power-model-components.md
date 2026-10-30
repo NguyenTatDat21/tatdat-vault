@@ -18,40 +18,16 @@ relationships:
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
-    note: "Reciprocal - concepts/collective-drone-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/drone-delivery-energy-and-range-parameters]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-delivery-energy-and-range-parameters references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-energy-consumption-model-taxonomy references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/lift-to-drag-ratio-power-efficiency-sensitivity]]"
     type: related_to
-    note: "Reciprocal - concepts/lift-to-drag-ratio-power-efficiency-sensitivity references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/liu2017power/liu2017power-extracted.md
   - _papers/liu2017power/liu2017power.md

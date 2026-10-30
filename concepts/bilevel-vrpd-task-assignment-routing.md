@@ -20,16 +20,8 @@ relationships:
     type: derived_from
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/cooperative-multi-agent-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md

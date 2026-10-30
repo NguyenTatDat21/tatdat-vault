@@ -22,40 +22,16 @@ relationships:
     type: related_to
   - target: "[[concepts/entropy-coefficient-adjustment-schemes]]"
     type: related_to
-    note: "Reciprocal - concepts/entropy-coefficient-adjustment-schemes references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
     type: related_to
-    note: "Reciprocal - concepts/fuzzy-weighted-max-min-scalarization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/phase-transition-instance-generation]]"
     type: related_to
-    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/rl-component-analysis-designed-algorithms]]"
     type: related_to
-    note: "Reciprocal - concepts/rl-component-analysis-designed-algorithms references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/state-features-rl-algorithm-design]]"
     type: related_to
-    note: "Reciprocal - concepts/state-features-rl-algorithm-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: related_to
-    note: "Reciprocal - references/ropke2006-adaptive-large-neighborhood-search-pdptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective.md

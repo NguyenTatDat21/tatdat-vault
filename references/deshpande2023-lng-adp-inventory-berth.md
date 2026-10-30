@@ -19,10 +19,6 @@ relationships:
     type: uses
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
-    note: "Reciprocal - references/christiansen2008-maritime-inventory-routing-problems references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/deshpande2023optimal/deshpande2023optimal-extracted.md
   - _papers/deshpande2023optimal/deshpande2023optimal.md

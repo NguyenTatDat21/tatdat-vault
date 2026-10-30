@@ -15,10 +15,6 @@ relationships:
     type: related_to
   - target: "[[concepts/operating-and-financial-leverage-spreading]]"
     type: related_to
-    note: "Reciprocal - concepts/operating-and-financial-leverage-spreading references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/brown2007going/brown2007going-extracted.md
   - _papers/brown2007going/brown2007going.md

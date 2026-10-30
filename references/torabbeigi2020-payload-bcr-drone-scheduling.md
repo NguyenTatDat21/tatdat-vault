@@ -15,22 +15,10 @@ relationships:
     type: related_to
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/parallel-drone-scheduling-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md

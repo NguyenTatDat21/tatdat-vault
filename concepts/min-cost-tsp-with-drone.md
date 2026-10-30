@@ -12,52 +12,20 @@ relationships:
     type: related_to
   - target: "[[concepts/ellipse-based-flight-segment-geometry]]"
     type: related_to
-    note: "Reciprocal - concepts/ellipse-based-flight-segment-geometry references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/parallel-drone-scheduling-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
-    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2022-min-cost-pdsvrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: related_to
-    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
     type: related_to
-    note: "Reciprocal - references/torabbeigi2020-payload-bcr-drone-scheduling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ha2018mincost/ha2018mincost-extracted.md
   - _papers/ha2018mincost/ha2018mincost.md

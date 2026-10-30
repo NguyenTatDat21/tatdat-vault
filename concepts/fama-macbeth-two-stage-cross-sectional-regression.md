@@ -28,16 +28,8 @@ relationships:
     type: uses
   - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
     type: related_to
-    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: related_to
-    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md

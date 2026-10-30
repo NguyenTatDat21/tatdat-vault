@@ -18,10 +18,6 @@ relationships:
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: related_to
-    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/furini2016modeling/furini2016modeling-extracted.md
   - _papers/furini2016modeling/furini2016modeling.md

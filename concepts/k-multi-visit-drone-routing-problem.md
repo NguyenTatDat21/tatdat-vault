@@ -16,82 +16,30 @@ relationships:
     type: derived_from
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/bilevel-vrpd-task-assignment-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/cooperative-multi-agent-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/drone-speed-selection-in-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-speed-selection-in-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/hybrid-truck-drone-delivery]]"
     type: related_to
-    note: "Reciprocal - concepts/hybrid-truck-drone-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/min-cost-tsp-with-drone]]"
     type: related_to
-    note: "Reciprocal - concepts/min-cost-tsp-with-drone references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-drop-flying-sidekick-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-drop-flying-sidekick-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/multiple-flying-sidekicks-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
-    note: "Reciprocal - references/fuertes2023-transformer-multi-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/meng2023-multivisit-drone-pickup-delivery]]"
     type: related_to
-    note: "Reciprocal - references/meng2023-multivisit-drone-pickup-delivery references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2020-multiple-flying-sidekicks-tsp]]"
     type: related_to
-    note: "Reciprocal - references/murray2020-multiple-flying-sidekicks-tsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/tamke2023-vrpd-dss]]"
     type: related_to
-    note: "Reciprocal - references/tamke2023-vrpd-dss references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/wang2019routing]]"
     type: related_to
-    note: "Reciprocal - references/wang2019routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/poikonen2020multivisit/poikonen2020multivisit-extracted.md
   - _papers/poikonen2020multivisit/poikonen2020multivisit.md

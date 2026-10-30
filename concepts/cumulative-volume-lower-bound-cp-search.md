@@ -26,16 +26,8 @@ relationships:
     type: related_to
   - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
     type: related_to
-    note: "Reciprocal - concepts/encoding-preservation-under-composition-and-merging references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/lagrangian-decomposition-propagation]]"
     type: related_to
-    note: "Reciprocal - concepts/lagrangian-decomposition-propagation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md

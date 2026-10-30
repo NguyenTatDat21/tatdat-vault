@@ -11,10 +11,6 @@ relationships:
     type: related_to
   - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"
     type: related_to
-    note: "Reciprocal - references/ksciuk2023-maritime-uncertainty-review references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/christiansen2020liner/christiansen2020liner-extracted.md
   - _papers/christiansen2020liner/christiansen2020liner.md

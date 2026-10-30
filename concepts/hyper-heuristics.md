@@ -16,88 +16,32 @@ relationships:
     type: derived_from
   - target: "[[concepts/actor-critic-entropy-automated-algorithm-design]]"
     type: related_to
-    note: "Reciprocal - concepts/actor-critic-entropy-automated-algorithm-design references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
-    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/green-vehicle-routing-problem-taxonomy]]"
     type: related_to
-    note: "Reciprocal - concepts/green-vehicle-routing-problem-taxonomy references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/metaheuristic-hybridization]]"
     type: related_to
-    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/set-orienteering-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/set-orienteering-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
     type: related_to
-    note: "Reciprocal - concepts/simulated-annealing-metropolis-cooling references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
-    note: "Reciprocal - concepts/swarm-intelligence-pso-aco references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/transformer-seq2seq-routing-solver]]"
     type: related_to
-    note: "Reciprocal - concepts/transformer-seq2seq-routing-solver references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/asghari2021-green-vrp-state-of-the-art-review]]"
     type: related_to
-    note: "Reciprocal - references/asghari2021-green-vrp-state-of-the-art-review references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
-    note: "Reciprocal - references/fuertes2023-transformer-multi-uav-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: related_to
-    note: "Reciprocal - references/hendel2022-adaptive-lns-for-mip references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
-    note: "Reciprocal - references/pisinger2019-large-neighborhood-search references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
-    note: "Reciprocal - references/santini2018-alns-acceptance-criteria references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
 summary: >-

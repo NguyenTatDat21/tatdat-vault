@@ -225,3 +225,4 @@ title: Wiki Log
 - [2026-10-30T14:50:45Z] TIER pages_scanned=234 tier_changes=59 pages_modified=171 notes="tiers realigned to post-reciprocal incoming counts: 196 core / 38 supporting / 0 peripheral"
 - [2026-10-30T14:51:07Z] CROSS_LINK pages_scanned=234 links_added=683 typed_relations_written=683 pages_modified=171 notes="reciprocal pass via /tmp/resp.py: 1381 typed pairs, 0 unreciprocated after, 0 orphan knowledge pages"
 - [2026-10-30T14:51:07Z] TIER pages_scanned=234 tier_changes=59 pages_modified=171 notes="tiers realigned to post-reciprocal incoming counts: 196 core / 38 supporting / 0 peripheral"
+- [2026-10-30T16:05:37Z] AUDIT pages_scanned=234 typed_relationship_issues_fixed=683 pages_modified=170 notes=relationship_schema_normalized+taxonomy_sources+hot_takeaway_cleanup

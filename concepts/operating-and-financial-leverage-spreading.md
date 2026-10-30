@@ -23,10 +23,6 @@ relationships:
     type: derived_from
   - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
     type: related_to
-    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nissim2001ratio/nissim2001ratio-extracted.md
   - _papers/nissim2001ratio/nissim2001ratio.md

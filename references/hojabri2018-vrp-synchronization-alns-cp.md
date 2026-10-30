@@ -13,16 +13,8 @@ relationships:
     type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: related_to
-    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: related_to
-    note: "Reciprocal - references/ha2020-vrp-synchronization-lp-alns references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md

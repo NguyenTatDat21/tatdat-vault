@@ -11,46 +11,18 @@ relationships:
     type: related_to
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
     type: related_to
-    note: "Reciprocal - concepts/bilevel-vrpd-task-assignment-routing references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/k-multi-visit-drone-routing-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
-    note: "Reciprocal - concepts/vehicle-routing-with-synchronization-constraints references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: related_to
-    note: "Reciprocal - references/gendreau2019-handbook-metaheuristics references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/montemanni2024-parallel-collective-drones]]"
     type: related_to
-    note: "Reciprocal - references/montemanni2024-parallel-collective-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2022-min-cost-pdsvrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
-    note: "Reciprocal - references/poikonen2020-k-mvdrp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024combining/montemanni2024combining.md

@@ -13,22 +13,10 @@ relationships:
     type: related_to
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: related_to
-    note: "Reciprocal - concepts/fama-macbeth-two-stage-cross-sectional-regression references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/black1992-global-portfolio-optimization]]"
     type: related_to
-    note: "Reciprocal - references/black1992-global-portfolio-optimization references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
     type: related_to
-    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/chen2010shrinkage/chen2010shrinkage-extracted.md
   - _papers/chen2010shrinkage/chen2010shrinkage.md

@@ -18,10 +18,6 @@ relationships:
     type: uses
   - target: "[[references/andersson2017-creating-annual-lng-delivery-programs]]"
     type: related_to
-    note: "Reciprocal - references/andersson2017-creating-annual-lng-delivery-programs references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/al-haidous2016optimal/al-haidous2016optimal-extracted.md
   - _papers/al-haidous2016optimal/al-haidous2016optimal.md

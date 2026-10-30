@@ -15,28 +15,12 @@ relationships:
     type: derived_from
   - target: "[[concepts/multi-drop-flying-sidekick-traveling-salesman-problem]]"
     type: related_to
-    note: "Reciprocal - concepts/multi-drop-flying-sidekick-traveling-salesman-problem references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/morandi2024-orienteering-problem-with-drones]]"
     type: related_to
-    note: "Reciprocal - references/morandi2024-orienteering-problem-with-drones references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/murray2015flying]]"
     type: related_to
-    note: "Reciprocal - references/murray2015flying references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: related_to
-    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md

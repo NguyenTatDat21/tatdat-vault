@@ -15,22 +15,10 @@ relationships:
     type: related_to
   - target: "[[references/archetti2023-branch-and-cut-sop]]"
     type: related_to
-    note: "Reciprocal - references/archetti2023-branch-and-cut-sop references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/nguyen2025set]]"
     type: related_to
-    note: "Reciprocal - references/nguyen2025set references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
   - target: "[[references/yu2024-sarl-stoptw]]"
     type: related_to
-    note: "Reciprocal - references/yu2024-sarl-stoptw references this page."
-    confidence: 0.7
-    basis: observed
-    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/lu2024effective/lu2024effective-extracted.md
   - _papers/lu2024effective/lu2024effective.md
