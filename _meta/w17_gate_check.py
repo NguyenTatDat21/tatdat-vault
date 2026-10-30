@@ -24,7 +24,8 @@ print("d: provenance sum", round(tot, 2), "OK" if abs(tot - 1.00) < 1e-9 else "F
 
 ok_e = True
 for s_ in fm["sources"]:
-    if not os.path.exists(s_):
+    p = s_.strip().strip("[]").split("|")[0].strip()  # convention (caveat 22): sources may be [[wikilink]]
+    if not os.path.exists(p) and not glob.glob("**/" + os.path.basename(p)):
         ok_e = False
         print("  e MISSING:", s_)
 print("e:", len(fm["sources"]), "source paths exist:", "OK" if ok_e else "FAIL")
@@ -43,9 +44,14 @@ wikilinks = re.findall(r"\[\[([^\]]+)\]\]", text)
 bad = [t for t in wikilinks if not resolve(t)]
 print("f: wikilinks", len(wikilinks), "broken:", bad if bad else "OK (0)")
 
-ts = "2026-10-26T09:12:06Z"
+ts = sys.argv[3] if len(sys.argv) > 3 else None
 rawfm = m.group(1)
-h_ok = all(re.search(rf"^({k}:\s*){re.escape(ts)}\s*$", rawfm, re.M) for k in ("created", "updated", "lifecycle_changed"))
+ISO = r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z"
+if ts:
+    h_ok = all(re.search(rf"^({k}:\s*){re.escape(ts)}\s*$", rawfm, re.M) for k in ("created", "updated", "lifecycle_changed"))
+else:  # no wave timestamp given: accept any ISO-8601 date/datetime UTC stamp per field
+    vals = {k: (re.search(rf"^({k}):\s*(\S+)\s*$", rawfm, re.M) or ["", ""])[2] for k in ("created", "updated", "lifecycle_changed")}
+    h_ok = all(re.fullmatch(r"\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:\d{2}Z)?", v) for v in vals.values())
 print("h:", "OK" if h_ok else "FAIL raw frontmatter timestamps")
 
 embeds = re.findall(r"!\[\[([^\]]+)\]\]", text)

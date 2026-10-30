@@ -35,7 +35,7 @@ relationships:
   - target: "[[references/haug2023-adp-speed-optimization-ports]]"
     type: related_to
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
-    type: uses
+    type: related_to
   - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
     type: related_to
   - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"

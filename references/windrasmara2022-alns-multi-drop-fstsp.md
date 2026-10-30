@@ -15,21 +15,19 @@ base_confidence: 0.67
 tier: core
 lifecycle: source
 created: 2026-10-29T17:10:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T16:34:49Z
 sources:
-  - "obsidian://zotflow?type=open-attachment&libraryID=11058526&key=ELF2KI54"
-  - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
-  - "_images/2df84d324428b4250493123294693145161d651b6e76347d6094057413321379.jpg"
-  - "_images/e284b495679425d5883d24fe2c52f47128166346660467564473093224714276.jpg"
-  - "_images/2432354792093189397564762615771111542531736220353451335424152753.jpg"
-  - "_images/1827514754515313653342715256363631347131202263206352117433616276.jpg"
-  - "_images/1665176176425222214243222476422415222221636552643425215235653345.jpg"
-  - "_images/1222625533534312324132622554432452456473134232442432231515644511.jpg"
-  - "_images/15522432243221234233242254245141642564234254243135256523522661466.jpg"
-  - "_images/15116254243262455323523544223242415242536165326432233222241313566.jpg"
-  - "_images/15622624434645353622524423352356325355242435236252335225535313446.jpg"
-  - "_images/13425622462445322635432235424253246363552232225432223244523312543.jpg"
-  - "_images/16233262242542245224632463653425644452324342523462323464322235263.jpg"
+  - "[[_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md]]"
+  - "[[_papers/windrasmara2022adaptive/windrasmara2022adaptive.md]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_1_image_10.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_4_image_2.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_5_image_16.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_7_image_2.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_7_image_5.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_9_image_15.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_13_image_2.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_15_chart_5.jpg]]"
+  - "[[_papers/windrasmara2022adaptive/images/page_15_chart_8.jpg]]"
 relationships:
   - target: "[[references/murray2015flying]]"
     type: related_to
@@ -126,26 +124,27 @@ Multi-drop margin 17.6 %–46.2 % over single-drop benchmarks (Ha et al. 2020 HG
 ^[inferred]
 
 ## Figures (source images)
-![Fig. 1 — FSTSP with sorties.](/images/2df84d324428b4250493123294693145161d651b6e76347d6094057413321379.jpg)
+![[_papers/windrasmara2022adaptive/images/page_1_image_10.jpg]] Fig. 1. FSTSP with sorties.
 
-![Fig. 2 — Valid forms of operations.](/images/e284b495679425d5883d24fe2c52f47128166346660467564473093224714276.jpg)
+![[_papers/windrasmara2022adaptive/images/page_4_image_2.jpg]] Fig. 2. Valid forms of operations.
 
-![Fig. 3 — Solution representation scheme and the derived solution.](/images/2432354792093189397564762615771111542531736220353451335424152753.jpg)
+![[_papers/windrasmara2022adaptive/images/page_5_image_16.jpg]] Fig. 3. Solution representation scheme and the derived solution.
 
-![Fig. 4 — Two Prohibited Conditions (Ponza, 2016).](/images/1827514754515313653342715256363631347131202263206352117433616276.jpg)
+![[_papers/windrasmara2022adaptive/images/page_7_image_2.jpg]] Fig. 4. Two Prohibited Conditions (Ponza, 2016).
 
-![Fig. 5 — Example cases of TSP and FSTSP (de Freitas and Penna, 2020).](/images/1665176176425222214243222476422415222221636552643425215235653345.jpg)
+![[_papers/windrasmara2022adaptive/images/page_7_image_5.jpg]] Fig. 5. Example cases of TSP and FSTSP (de Freitas and Penna, 2020).
 
-![Fig. 6 — Demonstration of the proposed scheme in the example case.](/images/1222625533534312324132622554432452456473134232442432231515644511.jpg)
+Fig. 6. Demonstration of the proposed scheme in the example case — no image in the source extraction.
 
-![Fig. 7 — Demonstration of benchmark scheme on the example case.](/images/15522432243221234233242254245141642564234254243135256523522661466.jpg)
+Fig. 7. Demonstration of benchmark scheme on the example case — no image in the source extraction.
 
-![Fig. 8 — The procedure for solution adjustment.](/images/15116254243262455323523544223242415242536165326432233222241313566.jpg)
+![[_papers/windrasmara2022adaptive/images/page_9_image_15.jpg]] Fig. 8. The procedure for solution adjustment.
 
-![Fig. 9 — Illustration of solution for the case study with n = 7 (blue dot depot, red dots customer, blue truck, green drone lines).](/images/15622624434645353622524423352356325355242435236252335225535313446.jpg)
+![[_papers/windrasmara2022adaptive/images/page_13_image_2.jpg]] Fig. 9. Illustration of solution for the case study with n = 7 (blue dot depot, red dots customer, blue truck, green drone lines).
 
-![Fig. 10 — Convergence curves on TSPLIB instances: (a) eil51, (b) kroB100.](/images/13425622462445322635432235424253246363552232225432223244523312543.jpg)
-Fig. 10 subcaptions as rendered: (a), (b).
+![[_papers/windrasmara2022adaptive/images/page_15_chart_5.jpg]] Fig. 10 — subcaption (a), eil51.
+
+![[_papers/windrasmara2022adaptive/images/page_15_chart_8.jpg]] Fig. 10 — subcaption (b), kroB100.
 
 Tables: Table 1 Parameter settings. / Table 2 Impact of removing each operator in ALNS. / Table 3 Impact of removing each destroy mechanism in ALNS. / Table 4 Results for the case study dataset. / Table 5 Results for Ha et al. (2018) dataset. / Table 6 Results for TSPLIB dataset. / Table 7 Results of paired t-tests. / Table 8 Results of experiments for managerial insights.
 

@@ -6,29 +6,29 @@ summary: DDD-TD-TSPTW solves TD-TSPTW on a partially time-expanded network, outp
   TTBF-BC on 1,912 benchmark instances, solves 60-80 locations, and optimizes the
   duration objective.
 type: reference
-tags: ['[paper', tsp, time-windows, time-dependent-travel-times, dynamic-discretization, integer-programming, branch-and-cut, 'computational-study]']
+tags: [paper, tsp, time-windows, time-dependent-travel-times, dynamic-discretization, integer-programming, branch-and-cut, computational-study]
 provenance:
   extracted: 0.74
   inferred: 0.19
   ambiguous: 0.07
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T16:34:49Z
 tier: core
 category: references
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
 sources:
-- '  - "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"'
-- '  - "[[_papers/vu2020dynamic/vu2020dynamic.md]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"'
-- '  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"'
+  - "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"
+  - "[[_papers/vu2020dynamic/vu2020dynamic.md]]"
+  - "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"
+  - "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"
 relationships:
   - target: '[[concepts/first-in-first-out-property-in-time-dependent-travel]]'
     type: related_to

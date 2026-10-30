@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/mirp-modeling-continuous-vs-discrete-time]]"
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
-    type: uses
+    type: related_to
   - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
     type: related_to
   - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
@@ -18,7 +18,7 @@ relationships:
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
   - target: "[[concepts/annual-lng-delivery-program]]"
-    type: uses
+    type: related_to
 sources:
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib-extracted.md
   - _papers/papageorgiou2014mirplib/papageorgiou2014mirplib.md

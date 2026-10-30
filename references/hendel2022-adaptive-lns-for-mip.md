@@ -4,7 +4,7 @@ category: references
 tags: [paper, mip, alns, primal-heuristics, bandit, scip]
 relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
-    type: uses
+    type: related_to
   - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
