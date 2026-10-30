@@ -13,6 +13,18 @@ relationships:
     type: related_to
   - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
     type: related_to
+  - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
+    type: related_to
+    note: "Reciprocal - references/ogryczak2014-fair-optimization-networks-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/xinyingchen2023guide]]"
+    type: related_to
+    note: "Reciprocal - references/xinyingchen2023guide references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hartman2023leximin/hartman2023leximin-extracted.md
   - _papers/hartman2023leximin/hartman2023leximin.md
@@ -28,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Leximin Approximation: From Single-Objective to Multi-Objective

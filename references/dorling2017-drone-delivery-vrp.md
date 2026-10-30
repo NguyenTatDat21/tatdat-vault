@@ -17,6 +17,42 @@ relationships:
     type: related_to
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: related_to
+  - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/bilevel-vrpd-task-assignment-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multirotor-power-model-components]]"
+    type: related_to
+    note: "Reciprocal - concepts/multirotor-power-model-components references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
+    type: related_to
+    note: "Reciprocal - references/ahmadi-javid2022-drone-delivery-energy-formulation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/liu2017power]]"
+    type: related_to
+    note: "Reciprocal - references/liu2017power references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/torabbeigi2020-payload-bcr-drone-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dorling2017vehicle/dorling2017vehicle-extracted.md
   - _papers/dorling2017vehicle/dorling2017vehicle.md
@@ -37,7 +73,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Vehicle Routing Problems for Drone Delivery (Dorling et al., 2017)

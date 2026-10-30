@@ -22,9 +22,9 @@ summary: "Failure-Directed Search explores by iterative deepening on the quality
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: peripheral
+tier: core
 created: 2026-10-27T09:10:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 provenance:
   extracted: 0.90
   inferred: 0.10

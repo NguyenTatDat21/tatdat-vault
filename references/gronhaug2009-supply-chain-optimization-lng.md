@@ -16,6 +16,12 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: related_to
+    note: "Reciprocal - references/rakke2011rolling-rolling-horizon-lng-adp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gronhaug2009supply/gronhaug2009supply-extracted.md
   - _papers/gronhaug2009supply/gronhaug2009supply.md
@@ -30,9 +36,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
-tier: supporting
+tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Supply Chain Optimization for the Liquefied Natural Gas Business

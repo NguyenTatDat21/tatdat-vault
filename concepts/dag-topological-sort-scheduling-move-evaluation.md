@@ -19,6 +19,12 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: derived_from
+  - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
+    type: related_to
+    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nguyen2023parallel/nguyen2023parallel-extracted.md
   - _papers/nguyen2023parallel/nguyen2023parallel.md
@@ -31,9 +37,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
-tier: supporting
+tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # DAG Topological-Sort Move Evaluation for Synchronized Schedules

@@ -12,6 +12,54 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: derived_from
+  - target: "[[concepts/iterated-local-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/iterated-local-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/set-orienteering-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/set-orienteering-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/set-team-orienteering-problem-with-time-windows]]"
+    type: related_to
+    note: "Reciprocal - concepts/set-team-orienteering-problem-with-time-windows references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/archetti2018-set-orienteering-problem]]"
+    type: related_to
+    note: "Reciprocal - references/archetti2018-set-orienteering-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/lourenco2019iterated]]"
+    type: related_to
+    note: "Reciprocal - references/lourenco2019iterated references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
+    type: related_to
+    note: "Reciprocal - references/lu2024-hybrid-evolutionary-algorithm-sop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
 summary: >-
@@ -25,7 +73,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Tabu Search

@@ -11,6 +11,30 @@ relationships:
     type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: related_to
+  - target: "[[references/mbiadousaleu2022parallel]]"
+    type: related_to
+    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: related_to
+    note: "Reciprocal - references/raj2020multiple-variable-drone-speed-mfstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
+    type: related_to
+    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/murray2020multiple/murray2020multiple-extracted.md
   - _papers/murray2020multiple/murray2020multiple.md
@@ -32,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (Murray & Raj, 2020)

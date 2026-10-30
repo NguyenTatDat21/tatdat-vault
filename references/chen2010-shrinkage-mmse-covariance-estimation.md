@@ -11,6 +11,24 @@ relationships:
     type: related_to
   - target: "[[references/ledoit2004wellconditioned]]"
     type: related_to
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
+    type: related_to
+    note: "Reciprocal - references/chatfield1995-problem-solving-statisticians-guide references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/fama1973-risk-return-equilibrium-empirical-tests]]"
+    type: related_to
+    note: "Reciprocal - references/fama1973-risk-return-equilibrium-empirical-tests references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: related_to
+    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/chen2010shrinkage/chen2010shrinkage-extracted.md
   - _papers/chen2010shrinkage/chen2010shrinkage.md
@@ -25,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:14:00Z
-updated: 2026-10-25T23:55:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Shrinkage Algorithms for MMSE Covariance Estimation

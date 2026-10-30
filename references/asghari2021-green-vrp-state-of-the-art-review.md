@@ -9,6 +9,18 @@ relationships:
     type: related_to
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/asghari2021green/asghari2021green-extracted.md
   - _papers/asghari2021green/asghari2021green.md
@@ -21,9 +33,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-22T19:33:55Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Green vehicle routing problem: A state-of-the-art review

@@ -16,6 +16,12 @@ relationships:
     type: related_to
   - target: "[[concepts/maritime-inventory-routing-problem]]"
     type: related_to
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
+    type: related_to
+    note: "Reciprocal - references/mutlu2016-lng-annual-delivery-program references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
   - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md
@@ -32,9 +38,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)

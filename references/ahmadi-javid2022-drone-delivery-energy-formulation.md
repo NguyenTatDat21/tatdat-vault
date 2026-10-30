@@ -26,9 +26,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-23T00:04:12Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Delivery by Drones with Arbitrary Energy Consumption Models: A New Formulation Approach

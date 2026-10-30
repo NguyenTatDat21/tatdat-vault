@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T15:47:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
@@ -23,6 +23,24 @@ relationships:
     type: related_to
   - target: concepts/disjunctive-scheduling-constraint-programming-model
     type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
+    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/decision-diagrams-optimization]]"
+    type: related_to
+    note: "Reciprocal - concepts/decision-diagrams-optimization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/large-neighborhood-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-10-29T15:47:00Z
 ---

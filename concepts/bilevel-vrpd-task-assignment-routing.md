@@ -18,6 +18,18 @@ relationships:
     type: derived_from
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: derived_from
+  - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/cooperative-multi-agent-uav-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
+    type: related_to
+    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yang2022solving/yang2022solving-extracted.md
   - _papers/yang2022solving/yang2022solving.md
@@ -30,9 +42,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-24T11:34:43Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Bi-level VRPD Task Assignment and Routing

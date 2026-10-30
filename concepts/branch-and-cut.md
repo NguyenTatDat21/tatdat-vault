@@ -9,8 +9,8 @@ provenance:
   ambiguous: 0.00
 base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
-updated: 2026-10-30T14:08:41Z
-tier: supporting
+updated: 2026-10-30T14:39:22Z
+tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: "2026-10-28"
@@ -36,6 +36,12 @@ relationships:
     type: derived_from
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: derived_from
+  - target: "[[concepts/phase-transition-instance-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 
 ---
 > [!tldr] The B&C method of this paper solves the aggregated IRP MILP with dynamic subtour cuts, three families of valid inequalities and a root-node-only separation policy; h-DR inequalities are dropped for large instances, the schedule formulation is kept to six periods.

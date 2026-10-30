@@ -11,6 +11,12 @@ relationships:
     type: extends
   - target: "[[references/meucci2006-beyond-black-litterman-copula]]"
     type: extends
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: related_to
+    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/meucci2010fully/meucci2010fully-extracted.md
   - _papers/meucci2010fully/meucci2010fully.md
@@ -24,9 +30,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Fully Flexible Views: Theory and Practice

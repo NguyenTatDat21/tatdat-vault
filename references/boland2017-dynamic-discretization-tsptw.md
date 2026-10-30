@@ -9,6 +9,12 @@ relationships:
     type: extends
   - target: "[[references/archetti2023-branch-and-cut-sop]]"
     type: related_to
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: related_to
+    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/boland2017solving/boland2017solving-extracted.md
   - _papers/boland2017solving/boland2017solving.md
@@ -23,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T21:08:00Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Solving the TSPTW with Dynamic Discretization Discovery

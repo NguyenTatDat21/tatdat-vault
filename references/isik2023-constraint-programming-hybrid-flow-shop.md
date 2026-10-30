@@ -11,6 +11,18 @@ relationships:
     type: related_to
   - target: "[[references/pesant2015-cp2015-proceedings]]"
     type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
+    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/failure-directed-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/failure-directed-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/isik2023constraint/isik2023constraint-extracted.md
   - _papers/isik2023constraint/isik2023constraint.md
@@ -29,9 +41,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Constraint Programming Models for Hybrid Flow Shop Scheduling

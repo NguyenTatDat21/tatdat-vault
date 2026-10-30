@@ -21,6 +21,36 @@ relationships:
     type: related_to
   - target: "[[references/ledoit2004wellconditioned]]"
     type: related_to
+  - target: "[[concepts/copula-opinion-pooling]]"
+    type: related_to
+    note: "Reciprocal - concepts/copula-opinion-pooling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
+    type: related_to
+    note: "Reciprocal - concepts/fama-macbeth-two-stage-cross-sectional-regression references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/meucci2006-beyond-black-litterman-copula]]"
+    type: related_to
+    note: "Reciprocal - references/meucci2006-beyond-black-litterman-copula references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/meucci2010-fully-flexible-views]]"
+    type: related_to
+    note: "Reciprocal - references/meucci2010-fully-flexible-views references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: related_to
+    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/black1992global/black1992global-extracted.md
   - _papers/black1992global/black1992global.md
@@ -37,7 +67,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-25T23:55:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Global Portfolio Optimization

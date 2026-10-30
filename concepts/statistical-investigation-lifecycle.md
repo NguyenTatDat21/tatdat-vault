@@ -9,6 +9,48 @@ relationships:
     type: related_to
   - target: "[[concepts/predictive-to-prescriptive-analytics]]"
     type: related_to
+  - target: "[[concepts/definitive-analysis-procedure-choice]]"
+    type: related_to
+    note: "Reciprocal - concepts/definitive-analysis-procedure-choice references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/initial-data-analysis-ida]]"
+    type: related_to
+    note: "Reciprocal - concepts/initial-data-analysis-ida references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/inverse-soft-q-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - concepts/inverse-soft-q-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/problem-formulation-objectives-type-iii-error]]"
+    type: related_to
+    note: "Reciprocal - concepts/problem-formulation-objectives-type-iii-error references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
+    type: related_to
+    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"
+    type: related_to
+    note: "Reciprocal - references/garg2022-iq-learn-inverse-soft-q references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
@@ -23,7 +65,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T21:19:00Z
-updated: 2026-10-22T21:19:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Statistical Investigation Lifecycle

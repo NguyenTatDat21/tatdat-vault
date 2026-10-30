@@ -21,6 +21,12 @@ relationships:
     type: related_to
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: derived_from
+  - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
+    type: related_to
+    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nissim2001ratio/nissim2001ratio-extracted.md
   - _papers/nissim2001ratio/nissim2001ratio.md
@@ -35,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Operating and Financial Leverage Spreading

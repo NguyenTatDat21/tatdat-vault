@@ -9,8 +9,8 @@ provenance:
   ambiguous: 0.00
 base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
-updated: 2026-10-30T14:08:41Z
-tier: supporting
+updated: 2026-10-30T14:39:22Z
+tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: "2026-10-28"

@@ -21,6 +21,36 @@ relationships:
     type: derived_from
   - target: "[[references/mbiadousaleu2022parallel]]"
     type: derived_from
+  - target: "[[concepts/drone-delivery-energy-and-range-parameters]]"
+    type: related_to
+    note: "Reciprocal - concepts/drone-delivery-energy-and-range-parameters references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multirotor-power-model-components]]"
+    type: related_to
+    note: "Reciprocal - concepts/multirotor-power-model-components references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/li2024drone]]"
+    type: related_to
+    note: "Reciprocal - references/li2024drone references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/liu2017power]]"
+    type: related_to
+    note: "Reciprocal - references/liu2017power references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -41,7 +71,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Nonlinear Drone Energy Function in Routing

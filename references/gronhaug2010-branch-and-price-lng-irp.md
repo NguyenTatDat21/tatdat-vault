@@ -20,6 +20,12 @@ relationships:
     type: related_to
   - target: "[[references/papageorgiou2014-mirplib-mirp-instance-library]]"
     type: related_to
+  - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
+    type: related_to
+    note: "Reciprocal - references/rakke2011rolling-rolling-horizon-lng-adp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice-extracted.md
   - _papers/gronhaug2010branchandprice/gronhaug2010branchandprice.md
@@ -36,7 +42,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # A Branch-and-Price Method for a Liquefied Natural Gas Inventory Routing Problem

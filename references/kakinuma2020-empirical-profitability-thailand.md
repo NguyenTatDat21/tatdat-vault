@@ -26,9 +26,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Empirical Profitability Anomalies in Thailand

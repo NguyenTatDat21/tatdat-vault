@@ -25,6 +25,90 @@ relationships:
     type: related_to
   - target: "[[references/rakke2011rolling-rolling-horizon-lng-adp]]"
     type: uses
+  - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-maritime-cargo-routing-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: related_to
+    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/al-haidous2016-optimal-lng-deliveries]]"
+    type: related_to
+    note: "Reciprocal - references/al-haidous2016-optimal-lng-deliveries references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/christiansen2007-maritime-transportation-operations-research]]"
+    type: related_to
+    note: "Reciprocal - references/christiansen2007-maritime-transportation-operations-research references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
+    type: related_to
+    note: "Reciprocal - references/dossantos2024-multiobjective-maritime-cargo-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+    note: "Reciprocal - references/fagerholt2023-maritime-inventory-routing-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
+    type: related_to
+    note: "Reciprocal - references/goel2012-large-neighborhood-search-lng-inventory-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/goel2015-constraint-programming-lng-ship-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/goel2015-constraint-programming-lng-ship-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/haug2023-adp-speed-optimization-ports]]"
+    type: related_to
+    note: "Reciprocal - references/haug2023-adp-speed-optimization-ports references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ksciuk2023-maritime-uncertainty-review]]"
+    type: related_to
+    note: "Reciprocal - references/ksciuk2023-maritime-uncertainty-review references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
+    type: related_to
+    note: "Reciprocal - references/mutlu2016-lng-annual-delivery-program references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
+    type: related_to
+    note: "Reciprocal - references/shaabani2023-multiproduct-mirp-matheuristic references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/stalhane2012-construction-improvement-lng-adp]]"
+    type: related_to
+    note: "Reciprocal - references/stalhane2012-construction-improvement-lng-adp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/zhao2025-lns-hgs-inventory-routing]]"
+    type: related_to
+    note: "Reciprocal - references/zhao2025-lns-hgs-inventory-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/christiansen2008maritime/christiansen2008maritime-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -47,7 +131,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Maritime Inventory Routing Problem

@@ -22,6 +22,78 @@ relationships:
     type: related_to
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
+  - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
+    type: related_to
+    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/generative-adversarial-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - concepts/generative-adversarial-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/inverse-soft-q-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - concepts/inverse-soft-q-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/iterated-local-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/iterated-local-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/metaheuristic-hybridization]]"
+    type: related_to
+    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
+    type: related_to
+    note: "Reciprocal - concepts/simulated-annealing-metropolis-cooling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/swarm-intelligence-pso-aco]]"
+    type: related_to
+    note: "Reciprocal - concepts/swarm-intelligence-pso-aco references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
+    type: related_to
+    note: "Reciprocal - references/hendel2022-adaptive-lns-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/lourenco2019iterated]]"
+    type: related_to
+    note: "Reciprocal - references/lourenco2019iterated references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
+    type: related_to
+    note: "Reciprocal - references/lu2024-hybrid-evolutionary-algorithm-sop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -46,7 +118,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)

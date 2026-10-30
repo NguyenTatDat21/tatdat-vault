@@ -12,6 +12,18 @@ relationships:
     type: uses
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: uses
+  - target: "[[references/archetti2023-branch-and-cut-sop]]"
+    type: related_to
+    note: "Reciprocal - references/archetti2023-branch-and-cut-sop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/archetti2018set/archetti2018set-extracted.md
   - _papers/archetti2018set/archetti2018set.md
@@ -24,9 +36,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # The Set Orienteering Problem

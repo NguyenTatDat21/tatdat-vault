@@ -9,6 +9,12 @@ relationships:
     type: related_to
   - target: "[[references/furini2016-two-dimensional-guillotine-cutting-ip]]"
     type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
+    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint-extracted.md
   - _papers/jimenez-piqueras2023constraint/jimenez-piqueras2023constraint.md
@@ -24,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T11:47:49Z
-updated: 2026-10-25T11:47:49Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Constraint Programming Models for Container Pre-Marshalling

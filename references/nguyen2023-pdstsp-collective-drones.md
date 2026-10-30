@@ -29,6 +29,18 @@ relationships:
     type: related_to
   - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
     type: related_to
+  - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/multiple-flying-sidekicks-traveling-salesman-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nguyen2023parallel/nguyen2023parallel-extracted.md
   - _papers/nguyen2023parallel/nguyen2023parallel.md
@@ -56,7 +68,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T16:46:00Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones

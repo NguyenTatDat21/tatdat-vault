@@ -17,6 +17,12 @@ relationships:
     type: extends
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: uses
+  - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
+    type: related_to
+    note: "Reciprocal - references/christiansen2008-maritime-inventory-routing-problems references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/deshpande2023optimal/deshpande2023optimal-extracted.md
   - _papers/deshpande2023optimal/deshpande2023optimal.md
@@ -33,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Optimal LNG ADP with Customer Inventory and Berth Management (Deshpande et al., 2023)

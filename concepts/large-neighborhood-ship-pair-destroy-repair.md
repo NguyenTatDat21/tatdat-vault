@@ -26,6 +26,30 @@ relationships:
     type: related_to
   - target: "[[concepts/dynamic-discretization-discovery]]"
     type: related_to
+  - target: "[[concepts/alns-destroy-repair-operator-suite]]"
+    type: related_to
+    note: "Reciprocal - concepts/alns-destroy-repair-operator-suite references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/pham2023-efficient-ga-quadratic-tsp]]"
+    type: related_to
+    note: "Reciprocal - references/pham2023-efficient-ga-quadratic-tsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: related_to
+    note: "Reciprocal - references/pisinger2019-large-neighborhood-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
+    type: related_to
+    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2012large/goel2012large-extracted.md
   - _papers/goel2012large/goel2012large.md
@@ -44,7 +68,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Large Neighborhood Ship-Pair Destroy and Repair

@@ -9,6 +9,12 @@ relationships:
     type: related_to
   - target: "[[references/idzorek20072-bl-confidence-levels]]"
     type: related_to
+  - target: "[[references/qian2001-conditional-distribution-portfolio-theory]]"
+    type: related_to
+    note: "Reciprocal - references/qian2001-conditional-distribution-portfolio-theory references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/he2002intuition/he2002intuition-extracted.md
   - _papers/he2002intuition/he2002intuition.md
@@ -37,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: supporting
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T21:41:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # The Intuition Behind Black-Litterman Model Portfolios

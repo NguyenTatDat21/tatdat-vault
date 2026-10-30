@@ -22,6 +22,36 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: related_to
+    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
+    note: "Reciprocal - references/dorling2017-drone-delivery-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/haug2023-adp-speed-optimization-ports]]"
+    type: related_to
+    note: "Reciprocal - references/haug2023-adp-speed-optimization-ports references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive-extracted.md
   - _papers/mutlu2016comprehensive/mutlu2016comprehensive.md
@@ -39,7 +69,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:52:03Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Annual LNG Delivery Program for Upstream Supply Chain (Mutlu et al., 2016)

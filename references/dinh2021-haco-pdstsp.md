@@ -11,6 +11,18 @@ relationships:
     type: related_to
   - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
     type: related_to
+  - target: "[[references/mbiadousaleu2022parallel]]"
+    type: related_to
+    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dinh2021ants/dinh2021ants-extracted.md
   - _papers/dinh2021ants/dinh2021ants.md
@@ -26,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:45:17Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Hybrid Ant Colony Optimization for PDSTSP (Dinh et al., 2021)

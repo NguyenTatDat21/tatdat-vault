@@ -12,6 +12,12 @@ relationships:
     type: related_to
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+    note: "Reciprocal - references/fagerholt2023-maritime-inventory-routing-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -24,9 +30,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Swarm Intelligence: PSO, ACO, and Emergent Coordination

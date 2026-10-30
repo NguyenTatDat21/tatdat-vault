@@ -13,6 +13,12 @@ relationships:
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
     type: uses
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/pham2023efficient/pham2023efficient-extracted.md
   - _papers/pham2023efficient/pham2023efficient.md
@@ -32,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # An Efficient Hybrid Genetic Algorithm for the Quadratic Traveling Salesman Problem

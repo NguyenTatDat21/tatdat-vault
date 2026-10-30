@@ -24,6 +24,48 @@ relationships:
     type: related_to
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multi-objective-maritime-cargo-routing-scheduling]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-maritime-cargo-routing-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: related_to
+    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dossantos2024-multiobjective-maritime-cargo-routing]]"
+    type: related_to
+    note: "Reciprocal - references/dossantos2024-multiobjective-maritime-cargo-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/goel2012-large-neighborhood-search-lng-inventory-routing]]"
+    type: related_to
+    note: "Reciprocal - references/goel2012-large-neighborhood-search-lng-inventory-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
+    type: related_to
+    note: "Reciprocal - references/halvorsen-weare2013-lng-routing-berth-inventory references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime.md
@@ -37,7 +79,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Maritime Inventory Routing: Recent Trends and Future Directions (Fagerholt et al., 2023)

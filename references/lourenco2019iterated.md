@@ -16,6 +16,12 @@ relationships:
     type: related_to
   - target: "[[concepts/tabu-search]]"
     type: related_to
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/lourenco2019iterated/lourenco2019iterated-extracted.md
   - _papers/lourenco2019iterated/lourenco2019iterated.md
@@ -33,9 +39,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-29
-tier: supporting
+tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Iterated Local Search: Framework and Applications (Lourenço, Martin & Stützle, 2019)

@@ -7,10 +7,10 @@ provenance:
   inferred: 0.18
   ambiguous: 0.10
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: concepts
 created: 2026-10-29T15:50:00Z
-updated: 2026-10-29T15:50:00Z
+updated: 2026-10-30T14:39:22Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md

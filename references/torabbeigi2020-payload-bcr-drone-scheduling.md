@@ -13,6 +13,24 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
+    type: related_to
+    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/parallel-drone-scheduling-traveling-salesman-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md
@@ -30,9 +48,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-24T20:22:59Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Payload-induced Battery Consumption in Drone Delivery Scheduling (Torabbeigi et al., 2020)

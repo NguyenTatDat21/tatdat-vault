@@ -16,6 +16,36 @@ relationships:
     type: related_to
   - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
     type: related_to
+  - target: "[[concepts/gross-profitability-premium]]"
+    type: related_to
+    note: "Reciprocal - concepts/gross-profitability-premium references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/maximin-leximax-fairness]]"
+    type: related_to
+    note: "Reciprocal - concepts/maximin-leximax-fairness references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/sequential-leximax-threshold-models]]"
+    type: related_to
+    note: "Reciprocal - concepts/sequential-leximax-threshold-models references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
+    note: "Reciprocal - references/novy-marx2013-other-side-of-value references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/xinyingchen2023guide]]"
+    type: related_to
+    note: "Reciprocal - references/xinyingchen2023guide references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ogryczak2014fair/ogryczak2014fair-extracted.md
   - _papers/ogryczak2014fair/ogryczak2014fair.md
@@ -30,7 +60,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Leximax and Leximin Fairness Principles

@@ -10,6 +10,54 @@ relationships:
     type: related_to
   - target: "[[references/poikonen2020-k-mvdrp]]"
     type: related_to
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/exact-multitrip-vrptw-framework]]"
+    type: related_to
+    note: "Reciprocal - concepts/exact-multitrip-vrptw-framework references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
+    type: related_to
+    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/phase-transition-instance-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ha2018-min-cost-tsp-d]]"
+    type: related_to
+    note: "Reciprocal - references/ha2018-min-cost-tsp-d references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
+    type: related_to
+    note: "Reciprocal - references/paradiso2020-esf-multitrip-vrptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/torabbeigi2020-payload-bcr-drone-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
+    type: related_to
+    note: "Reciprocal - references/yang2022-vrpd-bilevel-heuristic references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
   - _papers/tamke2023vehicle/tamke2023vehicle.md
@@ -28,7 +76,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Vehicle Routing Problem with Drones and Drone Speed Selection (Tamke & Buscher, 2023)

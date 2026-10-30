@@ -14,6 +14,12 @@ relationships:
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: uses
+  - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
+    type: related_to
+    note: "Reciprocal - concepts/fuzzy-weighted-max-min-scalarization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
@@ -25,9 +31,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Multi-Objective Maritime Cargo Routing and Scheduling (dos Santos & Borenstein, 2024)

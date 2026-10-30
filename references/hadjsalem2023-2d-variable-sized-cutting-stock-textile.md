@@ -29,9 +29,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
-tier: supporting
+tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Mathematical Models for the Two-Dimensional Variable-Sized Cutting Stock Problem in the Home Textile Industry

@@ -13,6 +13,42 @@ relationships:
     type: related_to
   - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
     type: related_to
+  - target: "[[concepts/gross-profitability-premium]]"
+    type: related_to
+    note: "Reciprocal - concepts/gross-profitability-premium references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/negative-book-equity-style-classification]]"
+    type: related_to
+    note: "Reciprocal - concepts/negative-book-equity-style-classification references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/brown2007-negative-book-equity-stocks]]"
+    type: related_to
+    note: "Reciprocal - references/brown2007-negative-book-equity-stocks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/kakinuma2020-empirical-profitability-thailand]]"
+    type: related_to
+    note: "Reciprocal - references/kakinuma2020-empirical-profitability-thailand references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/kim2020-profitability-asean-stocks]]"
+    type: related_to
+    note: "Reciprocal - references/kim2020-profitability-asean-stocks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
+    note: "Reciprocal - references/novy-marx2013-other-side-of-value references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -27,7 +63,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-25T14:36:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Accruals, cash flows, and operating profitability in the cross section of stock returns

@@ -18,6 +18,12 @@ relationships:
     type: related_to
   - target: "[[references/halvorsen-weare2013-lng-routing-berth-inventory]]"
     type: related_to
+  - target: "[[references/stalhane2012-construction-improvement-lng-adp]]"
+    type: related_to
+    note: "Reciprocal - references/stalhane2012-construction-improvement-lng-adp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/rakke2011rolling/rakke2011rolling-extracted.md
   - _papers/rakke2011rolling/rakke2011rolling.md
@@ -35,7 +41,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T10:43:50Z
 created: 2026-10-26T10:43:50Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # A rolling horizon heuristic for creating an LNG annual delivery program (Rakke et al., 2011)

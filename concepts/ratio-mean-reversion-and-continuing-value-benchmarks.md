@@ -19,6 +19,12 @@ relationships:
     type: related_to
   - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
     type: derived_from
+  - target: "[[references/sloan1996-accruals-cash-flow-stock-prices]]"
+    type: related_to
+    note: "Reciprocal - references/sloan1996-accruals-cash-flow-stock-prices references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nissim2001ratio/nissim2001ratio-extracted.md
   - _papers/nissim2001ratio/nissim2001ratio.md
@@ -33,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Ratio Mean Reversion and Continuing-Value Benchmarks

@@ -24,6 +24,36 @@ relationships:
     type: related_to
   - target: "[[references/christiansen2008-maritime-inventory-routing-problems]]"
     type: related_to
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: related_to
+    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
+    type: related_to
+    note: "Reciprocal - references/isik2023-constraint-programming-hybrid-flow-shop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
+    type: related_to
+    note: "Reciprocal - references/ku2016-mixed-integer-programming-job-shop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
@@ -42,7 +72,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Constraint Programming for LNG Ship Scheduling and Inventory Management (Goel, Slusky, van Hoeve, Furman & Shao, 2015)

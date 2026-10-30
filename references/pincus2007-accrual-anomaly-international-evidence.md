@@ -17,6 +17,18 @@ relationships:
     type: related_to
   - target: "[[references/ozili2017-bank-loan-loss-provisions-review]]"
     type: related_to
+  - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/sloan1996-accruals-cash-flow-stock-prices]]"
+    type: related_to
+    note: "Reciprocal - references/sloan1996-accruals-cash-flow-stock-prices references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/pincus2007accrual/pincus2007accrual-extracted.md
   - _papers/pincus2007accrual/pincus2007accrual.md
@@ -31,7 +43,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # The Accrual Anomaly — International Evidence

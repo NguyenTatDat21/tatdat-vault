@@ -24,6 +24,12 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[references/wahal2020-joint-value-profitability-international]]"
+    type: related_to
+    note: "Reciprocal - references/wahal2020-joint-value-profitability-international references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/novy-marx2013other/novy-marx2013other-extracted.md
   - _papers/novy-marx2013other/novy-marx2013other.md
@@ -68,7 +74,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # The Other Side of Value: The Gross Profitability Premium

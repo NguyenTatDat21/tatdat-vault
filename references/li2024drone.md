@@ -20,6 +20,18 @@ relationships:
     type: related_to
   - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
     type: uses
+  - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
+    type: related_to
+    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/li2024drone/li2024drone-extracted.md
   - _papers/li2024drone/li2024drone.md
@@ -40,7 +52,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29
 tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Drone Routing Problem with Swarm Synchronization (Li, Wang & Zhan, 2024)

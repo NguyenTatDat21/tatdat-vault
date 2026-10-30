@@ -14,6 +14,24 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[concepts/peukert-law-battery-discharge]]"
+    type: related_to
+    note: "Reciprocal - concepts/peukert-law-battery-discharge references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
+    type: related_to
+    note: "Reciprocal - references/raj2020multiple-variable-drone-speed-mfstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/zhang2021-drone-energy-model-comparison]]"
+    type: related_to
+    note: "Reciprocal - references/zhang2021-drone-energy-model-comparison references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/liu2017power/liu2017power-extracted.md
   - _papers/liu2017power/liu2017power.md
@@ -33,9 +51,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26
-tier: supporting
+tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # A Power Consumption Model for Multi-Rotor Small Unmanned Aircraft Systems (Liu, Sengupta & Kurzhanskiy, 2017)

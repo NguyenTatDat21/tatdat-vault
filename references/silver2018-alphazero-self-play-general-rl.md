@@ -16,13 +16,19 @@ relationships:
     type: uses
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
     type: uses
+  - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
+    type: related_to
+    note: "Reciprocal - concepts/lengthen-arcs-add-node-ddd-refinement references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 summary: "Silver et al. 2018 (Science): AlphaZero, one RL algorithm trained from random play with only the rules, beats Stockfish 155-6-1000, Elmo 91.2%, AlphaGo Zero 61%; same net and MCTS in all three games."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T06:40:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 provenance:
   extracted: 1.00
   inferred: 0.00

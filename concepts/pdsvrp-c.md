@@ -16,6 +16,30 @@ relationships:
     type: related_to
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: derived_from
+  - target: "[[concepts/k-multi-visit-drone-routing-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/k-multi-visit-drone-routing-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/min-cost-parallel-drone-scheduling-vrp]]"
+    type: related_to
+    note: "Reciprocal - concepts/min-cost-parallel-drone-scheduling-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2022-min-cost-pdsvrp]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2022-min-cost-pdsvrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/poikonen2020-k-mvdrp]]"
+    type: related_to
+    note: "Reciprocal - references/poikonen2020-k-mvdrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/montemanni2024combining/montemanni2024combining-extracted.md
   - _papers/montemanni2024parallel/montemanni2024parallel-extracted.md
@@ -34,7 +58,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # PDSVRP-c (Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones)

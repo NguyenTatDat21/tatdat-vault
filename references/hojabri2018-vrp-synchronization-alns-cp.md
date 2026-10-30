@@ -11,6 +11,18 @@ relationships:
     type: related_to
   - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
     type: related_to
+  - target: "[[concepts/drone-swarm-synchronization]]"
+    type: related_to
+    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
+    type: related_to
+    note: "Reciprocal - references/ha2020-vrp-synchronization-lp-alns references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hojabri2018large/hojabri2018large-extracted.md
   - _papers/hojabri2018large/hojabri2018large.md
@@ -24,9 +36,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # ALNS + Constraint Programming for VRP with Synchronization (Hojabri et al., 2018)

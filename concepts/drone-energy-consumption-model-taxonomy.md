@@ -16,13 +16,19 @@ relationships:
     type: related_to
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
+  - target: "[[references/wang2019routing]]"
+    type: related_to
+    note: "Reciprocal - references/wang2019routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 summary: "Drone energy models split by thrust assumption, travel components covered, and wind/avionics adjustments; the spread spans 16 to over 400 J/m on common drones."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:20:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 provenance:
   extracted: 0.91
   inferred: 0.09

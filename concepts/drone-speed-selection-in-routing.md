@@ -16,6 +16,42 @@ relationships:
     type: derived_from
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: implements
+  - target: "[[concepts/min-cost-tsp-with-drone]]"
+    type: related_to
+    note: "Reciprocal - concepts/min-cost-tsp-with-drone references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
+    type: related_to
+    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
+    type: related_to
+    note: "Reciprocal - references/ahmadi-javid2022-drone-delivery-energy-formulation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/torabbeigi2020-payload-bcr-drone-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
   - _papers/tamke2023vehicle/tamke2023vehicle.md
@@ -30,7 +66,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Drone Speed Selection in Truck-Drone Routing

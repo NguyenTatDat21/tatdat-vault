@@ -19,11 +19,11 @@ provenance:
   inferred: 0.12
   ambiguous: 0.0
 base_confidence: 0.67
-tier: peripheral
+tier: supporting
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 sources:
   - _papers/wang2019routing/wang2019routing-extracted.md
 ---

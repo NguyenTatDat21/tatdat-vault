@@ -14,6 +14,18 @@ relationships:
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to
+  - target: "[[concepts/generative-adversarial-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - concepts/generative-adversarial-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/guo2018-generative-adversarial-self-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - references/guo2018-generative-adversarial-self-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/garg2022iqlearn/garg2022iqlearn-extracted.md
   - _papers/garg2022iqlearn/garg2022iqlearn.md
@@ -33,9 +45,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # IQ-Learn: Inverse soft-Q Learning for Imitation (Garg, Chakraborty, Cundy, Song, Geist & Ermon, 2022)

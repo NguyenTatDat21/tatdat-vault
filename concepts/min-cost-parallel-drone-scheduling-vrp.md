@@ -19,6 +19,48 @@ relationships:
     type: related_to
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: derived_from
+  - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/multiple-flying-sidekicks-traveling-salesman-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
+    type: related_to
+    note: "Reciprocal - concepts/parallel-drone-scheduling-traveling-salesman-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
+    type: related_to
+    note: "Reciprocal - concepts/transformer-seq2seq-routing-solver references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dellamico2020-matheuristics-pdstsp]]"
+    type: related_to
+    note: "Reciprocal - references/dellamico2020-matheuristics-pdstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dinh2021-haco-pdstsp]]"
+    type: related_to
+    note: "Reciprocal - references/dinh2021-haco-pdstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/mbiadousaleu2022parallel]]"
+    type: related_to
+    note: "Reciprocal - references/mbiadousaleu2022parallel references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/song2018-persistent-uav-delivery-milp-rhta]]"
+    type: related_to
+    note: "Reciprocal - references/song2018-persistent-uav-delivery-milp-rhta references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nguyen2022mincost/nguyen2022mincost-extracted.md
   - _papers/nguyen2022mincost/nguyen2022mincost.md
@@ -34,7 +76,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-22T11:13:25Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Min-cost Parallel Drone Scheduling VRP (PDSVRP)

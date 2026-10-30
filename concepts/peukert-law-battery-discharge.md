@@ -15,6 +15,12 @@ relationships:
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
+  - target: "[[concepts/uav-payload-bottleneck]]"
+    type: related_to
+    note: "Reciprocal - concepts/uav-payload-bottleneck references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/nguyen2023parallel/nguyen2023parallel-extracted.md
   - _papers/nguyen2023parallel/nguyen2023parallel.md
@@ -29,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Peukert's Law for Drone Battery Discharge

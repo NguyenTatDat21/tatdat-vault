@@ -19,6 +19,72 @@ relationships:
     type: related_to
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: related_to
+  - target: "[[concepts/collective-drone-delivery]]"
+    type: related_to
+    note: "Reciprocal - concepts/collective-drone-delivery references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
+    type: related_to
+    note: "Reciprocal - concepts/drone-energy-consumption-model-taxonomy references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multirotor-power-model-components]]"
+    type: related_to
+    note: "Reciprocal - concepts/multirotor-power-model-components references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/uav-payload-bottleneck]]"
+    type: related_to
+    note: "Reciprocal - concepts/uav-payload-bottleneck references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ahmadi-javid2022-drone-delivery-energy-formulation]]"
+    type: related_to
+    note: "Reciprocal - references/ahmadi-javid2022-drone-delivery-energy-formulation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/cheng2020-drone-routing-energy-function]]"
+    type: related_to
+    note: "Reciprocal - references/cheng2020-drone-routing-energy-function references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
+    note: "Reciprocal - references/dorling2017-drone-delivery-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/liu2017power]]"
+    type: related_to
+    note: "Reciprocal - references/liu2017power references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/meng2023-multivisit-drone-pickup-delivery]]"
+    type: related_to
+    note: "Reciprocal - references/meng2023-multivisit-drone-pickup-delivery references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/song2018-persistent-uav-delivery-milp-rhta]]"
+    type: related_to
+    note: "Reciprocal - references/song2018-persistent-uav-delivery-milp-rhta references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
   - _papers/torabbeigi2020drone/torabbeigi2020drone.md
@@ -36,7 +102,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Payload-induced Drone Battery Consumption Rate (BCR)

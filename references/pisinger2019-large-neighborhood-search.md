@@ -19,6 +19,24 @@ relationships:
     type: related_to
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
+  - target: "[[concepts/metaheuristic-hybridization]]"
+    type: related_to
+    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/time-space-network-ship-flow-model]]"
+    type: related_to
+    note: "Reciprocal - concepts/time-space-network-ship-flow-model references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/skalnes2024-irp-benchmark-instances]]"
+    type: related_to
+    note: "Reciprocal - references/skalnes2024-irp-benchmark-instances references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/pisinger2019large/pisinger2019large-extracted.md
   - _papers/pisinger2019large/pisinger2019large.md
@@ -37,7 +55,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Large Neighborhood Search (Handbook of Metaheuristics chapter)

@@ -7,10 +7,10 @@ provenance:
   inferred: 0.15
   ambiguous: 0
 base_confidence: 0.67
-tier: peripheral
+tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:

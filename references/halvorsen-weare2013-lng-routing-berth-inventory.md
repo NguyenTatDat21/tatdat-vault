@@ -15,6 +15,48 @@ relationships:
     type: uses
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
+    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
+    type: related_to
+    note: "Reciprocal - concepts/dag-topological-sort-scheduling-move-evaluation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/gronhaug2009-supply-chain-optimization-lng]]"
+    type: related_to
+    note: "Reciprocal - references/gronhaug2009-supply-chain-optimization-lng references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
+    type: related_to
+    note: "Reciprocal - references/gronhaug2010-branch-and-price-lng-irp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/stalhane2012-construction-improvement-lng-adp]]"
+    type: related_to
+    note: "Reciprocal - references/stalhane2012-construction-improvement-lng-adp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing-extracted.md
   - _papers/halvorsen-weare2013routing/halvorsen-weare2013routing.md
@@ -37,7 +79,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Routing and Scheduling in a Liquefied Natural Gas Shipping Problem with Inventory and Berth Constraints

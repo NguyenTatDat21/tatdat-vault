@@ -11,6 +11,12 @@ relationships:
     type: related_to
   - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
     type: related_to
+  - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
+    type: related_to
+    note: "Reciprocal - references/ogryczak2014-fair-optimization-networks-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/bar-noy2004efficient/bar-noy2004efficient-extracted.md
   - _papers/bar-noy2004efficient/bar-noy2004efficient.md
@@ -25,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Efficient algorithms for periodic scheduling

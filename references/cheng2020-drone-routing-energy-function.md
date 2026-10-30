@@ -13,6 +13,48 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/inverse-soft-q-imitation-learning]]"
+    type: related_to
+    note: "Reciprocal - concepts/inverse-soft-q-imitation-learning references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/multirotor-power-model-components]]"
+    type: related_to
+    note: "Reciprocal - concepts/multirotor-power-model-components references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/phase-transition-instance-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/garg2022-iq-learn-inverse-soft-q]]"
+    type: related_to
+    note: "Reciprocal - references/garg2022-iq-learn-inverse-soft-q references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/liu2017power]]"
+    type: related_to
+    note: "Reciprocal - references/liu2017power references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/cheng2020drone/cheng2020drone-extracted.md
   - _papers/cheng2020drone/cheng2020drone.md
@@ -29,7 +71,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Drone Routing with Nonlinear Energy Function (Cheng et al.)

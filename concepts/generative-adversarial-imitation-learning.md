@@ -12,6 +12,12 @@ relationships:
     type: related_to
   - target: "[[references/gendreau2019-handbook-metaheuristics]]"
     type: related_to
+  - target: "[[references/silver2018-alphazero-self-play-general-rl]]"
+    type: related_to
+    note: "Reciprocal - references/silver2018-alphazero-self-play-general-rl references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/guo2018generative/guo2018generative-extracted.md
   - _papers/guo2018generative/guo2018generative.md
@@ -24,9 +30,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
-tier: supporting
+tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Generative Adversarial Self-Imitation Learning (GASIL)

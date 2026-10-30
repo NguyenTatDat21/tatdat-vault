@@ -19,6 +19,18 @@ relationships:
     type: related_to
   - target: "[[references/idzorek20072-bl-confidence-levels]]"
     type: related_to
+  - target: "[[concepts/black-litterman-view-blending]]"
+    type: related_to
+    note: "Reciprocal - concepts/black-litterman-view-blending references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
+    type: related_to
+    note: "Reciprocal - concepts/fama-macbeth-two-stage-cross-sectional-regression references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/qian2001conditional/qian2001conditional-extracted.md
   - _papers/qian2001conditional/qian2001conditional.md
@@ -36,9 +48,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T14:33:00Z
-updated: 2026-10-25T22:57:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Conditional Distribution in Portfolio Theory

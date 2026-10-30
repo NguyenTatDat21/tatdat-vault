@@ -17,6 +17,66 @@ relationships:
     type: extends
   - target: "[[references/novy-marx2013-other-side-of-value]]"
     type: related_to
+  - target: "[[concepts/gross-profitability-premium]]"
+    type: related_to
+    note: "Reciprocal - concepts/gross-profitability-premium references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/negative-book-equity-style-classification]]"
+    type: related_to
+    note: "Reciprocal - concepts/negative-book-equity-style-classification references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/operating-and-financial-leverage-spreading]]"
+    type: related_to
+    note: "Reciprocal - concepts/operating-and-financial-leverage-spreading references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/residual-earnings-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - concepts/residual-earnings-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/beatty2014-financial-accounting-in-banking]]"
+    type: related_to
+    note: "Reciprocal - references/beatty2014-financial-accounting-in-banking references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/black1992-global-portfolio-optimization]]"
+    type: related_to
+    note: "Reciprocal - references/black1992-global-portfolio-optimization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/brown2007-negative-book-equity-stocks]]"
+    type: related_to
+    note: "Reciprocal - references/brown2007-negative-book-equity-stocks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/pincus2007-accrual-anomaly-international-evidence]]"
+    type: related_to
+    note: "Reciprocal - references/pincus2007-accrual-anomaly-international-evidence references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/sloan1996-accruals-cash-flow-stock-prices]]"
+    type: related_to
+    note: "Reciprocal - references/sloan1996-accruals-cash-flow-stock-prices references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ball2016accruals/ball2016accruals-extracted.md
   - _papers/ball2016accruals/ball2016accruals.md
@@ -35,7 +95,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Cash-Based Operating Profitability

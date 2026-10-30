@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -24,6 +24,24 @@ relationships:
     type: related_to
   - target: concepts/alpha-fairness-proportional-fairness
     type: related_to
+  - target: "[[concepts/convex-combination-weights-fairness]]"
+    type: related_to
+    note: "Reciprocal - concepts/convex-combination-weights-fairness references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/inequality-measures-fairness-formulations]]"
+    type: related_to
+    note: "Reciprocal - concepts/inequality-measures-fairness-formulations references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/welfare-social-function-fairness-formulations]]"
+    type: related_to
+    note: "Reciprocal - concepts/welfare-social-function-fairness-formulations references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:37:00Z
 ---

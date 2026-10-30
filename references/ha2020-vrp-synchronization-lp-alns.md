@@ -16,6 +16,30 @@ relationships:
     type: derived_from
   - target: "[[references/paradiso2020-esf-multitrip-vrptw]]"
     type: related_to
+  - target: "[[concepts/cp-sat-hint-start]]"
+    type: related_to
+    note: "Reciprocal - concepts/cp-sat-hint-start references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/drone-swarm-synchronization]]"
+    type: related_to
+    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/li2024drone]]"
+    type: related_to
+    note: "Reciprocal - references/li2024drone references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2015flying]]"
+    type: related_to
+    note: "Reciprocal - references/murray2015flying references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/ha2020new/ha2020new-extracted.md
   - _papers/ha2020new/ha2020new.md
@@ -33,7 +57,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
 tier: core
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # A New CP Model and LP-based ALNS for VRP with Synchronization Constraints

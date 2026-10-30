@@ -14,6 +14,18 @@ relationships:
     type: related_to
   - target: "[[concepts/hyper-heuristics]]"
     type: related_to
+  - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
+    type: related_to
+    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md
@@ -28,9 +40,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Solving Routing Problems for Multiple Cooperative UAVs Using Transformer Networks (Fuertes et al., 2023)

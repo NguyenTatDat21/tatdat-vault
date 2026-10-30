@@ -14,6 +14,30 @@ relationships:
     type: related_to
   - target: "[[references/almgren2004-optimal-portfolios-ordering-information]]"
     type: related_to
+  - target: "[[references/kakinuma2020-empirical-profitability-thailand]]"
+    type: related_to
+    note: "Reciprocal - references/kakinuma2020-empirical-profitability-thailand references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/kim2020-profitability-asean-stocks]]"
+    type: related_to
+    note: "Reciprocal - references/kim2020-profitability-asean-stocks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/novy-marx2013-other-side-of-value]]"
+    type: related_to
+    note: "Reciprocal - references/novy-marx2013-other-side-of-value references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wahal2020-joint-value-profitability-international]]"
+    type: related_to
+    note: "Reciprocal - references/wahal2020-joint-value-profitability-international references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
@@ -27,7 +51,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T01:47:51Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Risk, Return, and Equilibrium: Empirical Tests (Fama & MacBeth, 1973)

@@ -26,6 +26,18 @@ relationships:
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: uses
+  - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
+    type: related_to
+    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fama1973risk/fama1973risk-extracted.md
   - _papers/fama1973risk/fama1973risk.md
@@ -44,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Fama-MacBeth Two-Stage Cross-Sectional Regression

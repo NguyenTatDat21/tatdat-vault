@@ -9,6 +9,30 @@ relationships:
     type: extends
   - target: "[[concepts/tabu-search]]"
     type: related_to
+  - target: "[[concepts/periodic-scheduling-under-capacity-constraints]]"
+    type: related_to
+    note: "Reciprocal - concepts/periodic-scheduling-under-capacity-constraints references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/bar-noy2004-efficient-algorithms-periodic-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/bar-noy2004-efficient-algorithms-periodic-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/song2018-persistent-uav-delivery-milp-rhta]]"
+    type: related_to
+    note: "Reciprocal - references/song2018-persistent-uav-delivery-milp-rhta references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yu2024simulated/yu2024simulated-extracted.md
   - _papers/yu2024simulated/yu2024simulated.md
@@ -22,7 +46,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Set Team Orienteering Problem with Time Windows (STOPTW)

@@ -16,6 +16,30 @@ relationships:
     type: related_to
   - target: "[[concepts/leximax-leximin-fairness-principles]]"
     type: related_to
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    note: "Reciprocal - concepts/multi-objective-metaheuristic-tuning-validation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
+    type: related_to
+    note: "Reciprocal - references/ogryczak2014-fair-optimization-networks-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/phanduc2025-pareto-front-grid-fairness-dpdptw]]"
+    type: related_to
+    note: "Reciprocal - references/phanduc2025-pareto-front-grid-fairness-dpdptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/richards1996-scheduling-to-maximize-customer-satisfaction]]"
+    type: related_to
+    note: "Reciprocal - references/richards1996-scheduling-to-maximize-customer-satisfaction references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective-extracted.md
   - _papers/dossantos2024multiobjective/dossantos2024multiobjective.md
@@ -37,7 +61,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Fuzzy Weighted Max-Min Scalarization for Multi-Objective MIP

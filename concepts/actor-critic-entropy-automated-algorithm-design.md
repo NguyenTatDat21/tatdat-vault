@@ -7,10 +7,10 @@ provenance:
   extracted_paper_sidecar: 0.10
   author_synthesis: 0.05
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
@@ -30,6 +30,12 @@ relationships:
     type: related_to
   - target: '[[concepts/hyper-heuristics]]'
     type: related_to
+  - target: "[[references/yi2023-ace-gsf-automated-design-cvrptw]]"
+    type: related_to
+    note: "Reciprocal - references/yi2023-ace-gsf-automated-design-cvrptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 
 ---
 

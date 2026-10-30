@@ -38,6 +38,144 @@ relationships:
     type: related_to
   - target: "[[concepts/automated-model-generation]]"
     type: related_to
+  - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
+    type: related_to
+    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/benchmark-instance-design]]"
+    type: related_to
+    note: "Reciprocal - concepts/benchmark-instance-design references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/bilevel-vrpd-task-assignment-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/drone-swarm-synchronization]]"
+    type: related_to
+    note: "Reciprocal - concepts/drone-swarm-synchronization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/failure-directed-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/failure-directed-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/metaheuristic-hybridization]]"
+    type: related_to
+    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/parallel-metaheuristics-cooperative-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/phase-transition-instance-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/phase-transition-instance-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
+    type: related_to
+    note: "Reciprocal - concepts/simulated-annealing-metropolis-cooling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/transformer-seq2seq-routing-solver]]"
+    type: related_to
+    note: "Reciprocal - concepts/transformer-seq2seq-routing-solver references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
+    type: related_to
+    note: "Reciprocal - concepts/vehicle-routing-with-synchronization-constraints references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+    note: "Reciprocal - references/fagerholt2023-maritime-inventory-routing-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
+    type: related_to
+    note: "Reciprocal - references/hendel2022-adaptive-lns-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/hojabri2018-vrp-synchronization-alns-cp]]"
+    type: related_to
+    note: "Reciprocal - references/hojabri2018-vrp-synchronization-alns-cp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/li2024drone]]"
+    type: related_to
+    note: "Reciprocal - references/li2024drone references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/meng2023-multivisit-drone-pickup-delivery]]"
+    type: related_to
+    note: "Reciprocal - references/meng2023-multivisit-drone-pickup-delivery references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2023-pdstsp-collective-drones references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: related_to
+    note: "Reciprocal - references/sacramento2019-vrp-d-truck-drone-alns-cost references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/skalnes2024-irp-benchmark-instances]]"
+    type: related_to
+    note: "Reciprocal - references/skalnes2024-irp-benchmark-instances references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/vilim2015-failure-directed-search-cp-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
+    type: related_to
+    note: "Reciprocal - references/yang2022-vrpd-bilevel-heuristic references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/zhao2025-lns-hgs-inventory-routing]]"
+    type: related_to
+    note: "Reciprocal - references/zhao2025-lns-hgs-inventory-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -60,7 +198,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Large Neighborhood Search (LNS)

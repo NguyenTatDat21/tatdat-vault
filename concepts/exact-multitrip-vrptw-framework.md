@@ -14,6 +14,42 @@ relationships:
     type: related_to
   - target: "[[concepts/drone-swarm-synchronization]]"
     type: related_to
+  - target: "[[concepts/branch-and-price-column-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-price-column-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/nonlinear-drone-energy-function-in-routing]]"
+    type: related_to
+    note: "Reciprocal - concepts/nonlinear-drone-energy-function-in-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
+    type: related_to
+    note: "Reciprocal - concepts/vehicle-routing-with-synchronization-constraints references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
+    type: related_to
+    note: "Reciprocal - references/barnhart1998-branch-and-price-column-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: related_to
+    note: "Reciprocal - references/dorling2017-drone-delivery-vrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/hojabri2018-vrp-synchronization-alns-cp]]"
+    type: related_to
+    note: "Reciprocal - references/hojabri2018-vrp-synchronization-alns-cp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/paradiso2020exact/paradiso2020exact-extracted.md
   - _papers/paradiso2020exact/paradiso2020exact.md
@@ -28,7 +64,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:15:49Z
-updated: 2026-10-26T00:51:06Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Exact Multitrip VRPTW Framework

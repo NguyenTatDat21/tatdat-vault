@@ -15,6 +15,18 @@ relationships:
     type: derived_from
   - target: "[[references/kim2020-profitability-asean-stocks]]"
     type: derived_from
+  - target: "[[references/kakinuma2020-empirical-profitability-thailand]]"
+    type: related_to
+    note: "Reciprocal - references/kakinuma2020-empirical-profitability-thailand references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/wahal2020-joint-value-profitability-international]]"
+    type: related_to
+    note: "Reciprocal - references/wahal2020-joint-value-profitability-international references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/novy-marx2013other/novy-marx2013other-extracted.md
   - _papers/novy-marx2013other/novy-marx2013other.md
@@ -27,9 +39,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
-tier: supporting
+tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-26T07:13:34Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Gross Profitability Premium

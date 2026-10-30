@@ -14,6 +14,42 @@ relationships:
     type: related_to
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"
     type: related_to
+  - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
+    type: related_to
+    note: "Reciprocal - concepts/payload-induced-drone-battery-consumption-rate references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/archetti2018-set-orienteering-problem]]"
+    type: related_to
+    note: "Reciprocal - references/archetti2018-set-orienteering-problem references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/archetti2023-branch-and-cut-sop]]"
+    type: related_to
+    note: "Reciprocal - references/archetti2023-branch-and-cut-sop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/murray2020-multiple-flying-sidekicks-tsp]]"
+    type: related_to
+    note: "Reciprocal - references/murray2020-multiple-flying-sidekicks-tsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/poikonen2020-k-mvdrp]]"
+    type: related_to
+    note: "Reciprocal - references/poikonen2020-k-mvdrp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/song2018-persistent-uav-delivery-milp-rhta]]"
+    type: related_to
+    note: "Reciprocal - references/song2018-persistent-uav-delivery-milp-rhta references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/fuertes2023solving/fuertes2023solving-extracted.md
   - _papers/fuertes2023solving/fuertes2023solving.md
@@ -28,7 +64,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T00:32:00Z
-updated: 2026-10-25T01:47:51Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Cooperative Multi-Agent Routing with Shared Reward

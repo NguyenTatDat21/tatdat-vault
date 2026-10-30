@@ -7,10 +7,10 @@ provenance:
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: concepts
 created: 2026-11-05T14:22:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -23,6 +23,12 @@ relationships:
     type: related_to
   - target: "[[definitive-analysis-procedure-choice]]"
     type: related_to
+  - target: "[[concepts/effective-statistician-eight-principles]]"
+    type: related_to
+    note: "Reciprocal - concepts/effective-statistician-eight-principles references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 lifecycle: draft
 lifecycle_changed: 2026-11-05T14:22:00Z
 ---

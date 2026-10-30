@@ -9,6 +9,12 @@ relationships:
     type: extends
   - target: "[[references/boland2017-continuous-time-service-network-design]]"
     type: related_to
+  - target: "[[references/christiansen2007-maritime-transportation-operations-research]]"
+    type: related_to
+    note: "Reciprocal - references/christiansen2007-maritime-transportation-operations-research references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/christiansen2020liner/christiansen2020liner-extracted.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
@@ -21,9 +27,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Liner Shipping Network Design

@@ -11,6 +11,30 @@ relationships:
     type: related_to
   - target: "[[concepts/ratio-hierarchy-for-profitability-and-growth]]"
     type: related_to
+  - target: "[[concepts/ratio-mean-reversion-and-continuing-value-benchmarks]]"
+    type: related_to
+    note: "Reciprocal - concepts/ratio-mean-reversion-and-continuing-value-benchmarks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/residual-earnings-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - concepts/residual-earnings-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/statistical-investigation-lifecycle]]"
+    type: related_to
+    note: "Reciprocal - concepts/statistical-investigation-lifecycle references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nissim2001-ratio-analysis-equity-valuation]]"
+    type: related_to
+    note: "Reciprocal - references/nissim2001-ratio-analysis-equity-valuation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/bertsimas2020predictive/bertsimas2020predictive-extracted.md
   - _papers/bertsimas2020predictive/bertsimas2020predictive.md
@@ -27,7 +51,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T20:40:00Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Predictive-to-Prescriptive Analytics

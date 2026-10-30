@@ -9,6 +9,12 @@ relationships:
     type: extends
   - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
     type: related_to
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/yu2024simulated/yu2024simulated-extracted.md
   - _papers/yu2024simulated/yu2024simulated.md
@@ -30,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: supporting
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-22T18:14:03Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Simulated Annealing with Reinforcement Learning for STOPTW (Yu et al.)

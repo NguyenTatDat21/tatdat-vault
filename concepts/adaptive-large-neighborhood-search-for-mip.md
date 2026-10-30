@@ -19,6 +19,72 @@ relationships:
     type: derived_from
   - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
     type: derived_from
+  - target: "[[concepts/alns-destroy-repair-operator-suite]]"
+    type: related_to
+    note: "Reciprocal - concepts/alns-destroy-repair-operator-suite references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/cumulative-volume-lower-bound-cp-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/fuzzy-weighted-max-min-scalarization]]"
+    type: related_to
+    note: "Reciprocal - concepts/fuzzy-weighted-max-min-scalarization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+    type: related_to
+    note: "Reciprocal - concepts/large-neighborhood-ship-pair-destroy-repair references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/metaheuristic-hybridization]]"
+    type: related_to
+    note: "Reciprocal - concepts/metaheuristic-hybridization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
+    type: related_to
+    note: "Reciprocal - concepts/simulated-annealing-metropolis-cooling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/hartman2023-leximin-approximation]]"
+    type: related_to
+    note: "Reciprocal - references/hartman2023-leximin-approximation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: related_to
+    note: "Reciprocal - references/pisinger2019-large-neighborhood-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: related_to
+    note: "Reciprocal - references/ropke2006-adaptive-large-neighborhood-search-pdptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
+    type: related_to
+    note: "Reciprocal - references/windrasmara2022-alns-multi-drop-fstsp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/zhao2025-lns-hgs-inventory-routing]]"
+    type: related_to
+    note: "Reciprocal - references/zhao2025-lns-hgs-inventory-routing references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/hendel2022adaptive/hendel2022adaptive-extracted.md
   - _papers/hendel2022adaptive/hendel2022adaptive.md
@@ -34,7 +100,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Adaptive Large Neighborhood Search for MIP (ALNS-MIP)

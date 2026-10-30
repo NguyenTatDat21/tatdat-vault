@@ -32,6 +32,24 @@ relationships:
     type: related_to
   - target: "[[concepts/encoding-preservation-under-composition-and-merging]]"
     type: related_to
+  - target: "[[concepts/bound-tightening-relaxation-networks]]"
+    type: related_to
+    note: "Reciprocal - concepts/bound-tightening-relaxation-networks references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/dag-topological-sort-scheduling-move-evaluation]]"
+    type: related_to
+    note: "Reciprocal - concepts/dag-topological-sort-scheduling-move-evaluation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/vilim2015-failure-directed-search-cp-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/goel2015constraint/goel2015constraint-extracted.md
   - _papers/goel2015constraint/goel2015constraint.md
@@ -55,7 +73,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Disjunctive Scheduling Constraint-Programming Model

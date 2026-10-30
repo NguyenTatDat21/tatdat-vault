@@ -11,7 +11,7 @@ provenance:
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 tier: core
 category: concepts
 lifecycle: draft
@@ -40,6 +40,12 @@ relationships:
     type: related_to
   - target: '[[concepts/dynamic-discretization-discovery]]'
     type: derived_from
+  - target: "[[references/vu2020-ddd-td-tsptw-time-expanded-network]]"
+    type: related_to
+    note: "Reciprocal - references/vu2020-ddd-td-tsptw-time-expanded-network references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 
 ---
 

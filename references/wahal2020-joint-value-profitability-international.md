@@ -17,13 +17,25 @@ relationships:
     type: related_to
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
     type: uses
+  - target: "[[concepts/duration-objective-depot-discretization]]"
+    type: related_to
+    note: "Reciprocal - concepts/duration-objective-depot-discretization references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
+    type: related_to
+    note: "Reciprocal - concepts/first-in-first-out-property-in-time-dependent-travel references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 summary: "Wahal & Repetto SSRN 2020: 4x4 book-to-market × cash-profitability grids, 49 countries, 1990-2020. Joint value+profitability beats growth+low-profitability; tilted portfolios earn 0.72-2.28%/yr."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T06:30:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 provenance:
   extracted: 1.00
   inferred: 0.00

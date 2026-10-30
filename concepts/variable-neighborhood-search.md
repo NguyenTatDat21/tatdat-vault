@@ -22,6 +22,66 @@ relationships:
     type: related_to
   - target: "[[concepts/search-combinators-meta-search]]"
     type: related_to
+  - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
+    type: related_to
+    note: "Reciprocal - concepts/adaptive-large-neighborhood-search-for-mip references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/failure-directed-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/failure-directed-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/hyper-heuristics]]"
+    type: related_to
+    note: "Reciprocal - concepts/hyper-heuristics references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/iterated-local-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/iterated-local-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
+    type: related_to
+    note: "Reciprocal - concepts/vehicle-routing-with-synchronization-constraints references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
+    type: related_to
+    note: "Reciprocal - references/fagerholt2023-maritime-inventory-routing-survey references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/lourenco2019iterated]]"
+    type: related_to
+    note: "Reciprocal - references/lourenco2019iterated references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/pisinger2019-large-neighborhood-search]]"
+    type: related_to
+    note: "Reciprocal - references/pisinger2019-large-neighborhood-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
+    type: related_to
+    note: "Reciprocal - references/ropke2006-adaptive-large-neighborhood-search-pdptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -38,7 +98,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Variable Neighborhood Search (VNS)

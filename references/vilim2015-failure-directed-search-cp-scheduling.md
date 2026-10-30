@@ -21,13 +21,19 @@ relationships:
     type: uses
   - target: "[[references/pesant2015-cp2015-proceedings]]"
     type: related_to
+  - target: "[[concepts/auxiliary-decision-variable-model-strengthening]]"
+    type: related_to
+    note: "Reciprocal - concepts/auxiliary-decision-variable-model-strengthening references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 summary: "Vilím et al. (CPAIOR 2015): branch on domain splits by failure likelihood, restart with nogoods, LNS as plan B; closed 535 of 552 open Multi-Mode RCPSP j30."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T10:20:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:39:22Z
 provenance:
   extracted: 1.00
   inferred: 0.00

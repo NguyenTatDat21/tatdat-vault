@@ -12,6 +12,36 @@ relationships:
     type: related_to
   - target: "[[concepts/cooperative-multi-agent-uav-routing]]"
     type: uses
+  - target: "[[concepts/branch-and-cut]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-cut references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/branch-and-price-column-generation]]"
+    type: related_to
+    note: "Reciprocal - concepts/branch-and-price-column-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/barnhart1998-branch-and-price-column-generation]]"
+    type: related_to
+    note: "Reciprocal - references/barnhart1998-branch-and-price-column-generation references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/boland2017-dynamic-discretization-tsptw]]"
+    type: related_to
+    note: "Reciprocal - references/boland2017-dynamic-discretization-tsptw references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/nguyen2025set]]"
+    type: related_to
+    note: "Reciprocal - references/nguyen2025set references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/archetti2023new/archetti2023new-extracted.md
   - _papers/archetti2023new/archetti2023new.md
@@ -26,7 +56,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:33:55Z
-updated: 2026-10-24T11:01:08Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # A new formulation and a branch-and-cut algorithm for the set orienteering problem

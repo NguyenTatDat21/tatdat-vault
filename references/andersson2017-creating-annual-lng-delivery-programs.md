@@ -14,6 +14,12 @@ relationships:
     type: related_to
   - target: "[[concepts/time-space-network-ship-flow-model]]"
     type: uses
+  - target: "[[references/gronhaug2010-branch-and-price-lng-irp]]"
+    type: related_to
+    note: "Reciprocal - references/gronhaug2010-branch-and-price-lng-irp references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources:
   - _papers/andersson2017creating/andersson2017creating-extracted.md
   - _papers/andersson2017creating/andersson2017creating.md
@@ -28,7 +34,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T19:23:44Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # Creating annual delivery programs of liquefied natural gas

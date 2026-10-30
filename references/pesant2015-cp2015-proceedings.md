@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: references
 created: 2026-10-29T15:40:00Z
-updated: 2026-10-30T14:08:41Z
+updated: 2026-10-30T14:38:55Z
 sources:
   - _papers/pesant2015principles/pesant2015principles.md
   - _papers/pesant2015principles/pesant2015principles-extracted.md
@@ -39,6 +39,30 @@ relationships:
     type: related_to
   - target: "[[concepts/automated-model-generation]]"
     type: related_to
+  - target: "[[concepts/failure-directed-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/failure-directed-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/isik2023-constraint-programming-hybrid-flow-shop]]"
+    type: related_to
+    note: "Reciprocal - references/isik2023-constraint-programming-hybrid-flow-shop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/ku2016-mixed-integer-programming-job-shop]]"
+    type: related_to
+    note: "Reciprocal - references/ku2016-mixed-integer-programming-job-shop references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[references/vilim2015-failure-directed-search-cp-scheduling]]"
+    type: related_to
+    note: "Reciprocal - references/vilim2015-failure-directed-search-cp-scheduling references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 lifecycle: source
 lifecycle_changed: 2026-10-29T15:52:00Z
 provenance_note: "Zotero item BAKF26BL (library-id 11058526, itemType book, Gilles Pesant (ed.), Springer, 2015, DOI 10.1007/978-3-319-23219-5). Provenance by script: 295 statement units, 89 verbatim markers (page-and-chapter citations, the 89 paper-index table rows, quoted equations, named algorithms, exact counts), 206 units without markers. Extracted rounded to 0.82; inferred 0.15 for theme-section grouping and author-name ordering; ambiguous 0.03 because fast-track and journal-track footnotes cite journal versions, so those items carry no Springer chapter DOI. Zero images in the source, so no captions to verify. Zero source page footnotes on the invited talks, so no page numbers are asserted for them."

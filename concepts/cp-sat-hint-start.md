@@ -14,6 +14,18 @@ relationships:
     type: derived_from
   - target: "[[references/ha2020-vrp-synchronization-lp-alns]]"
     type: derived_from
+  - target: "[[concepts/cumulative-volume-lower-bound-cp-search]]"
+    type: related_to
+    note: "Reciprocal - concepts/cumulative-volume-lower-bound-cp-search references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
+  - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
+    type: related_to
+    note: "Reciprocal - concepts/disjunctive-scheduling-constraint-programming-model references this page."
+    confidence: 0.7
+    basis: observed
+    since: "2026-10-30T14:38:55Z"
 sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
 summary: >-
   A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models.
@@ -26,7 +38,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T08:07:13Z
+updated: 2026-10-30T14:38:55Z
 ---
 
 # CP-SAT Hint-Start for Truck-and-Drone Routing

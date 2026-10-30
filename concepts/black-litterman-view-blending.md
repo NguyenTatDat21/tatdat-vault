@@ -31,9 +31,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:50:35Z
-updated: 2026-10-25T22:57:00Z
+updated: 2026-10-30T14:39:22Z
 ---
 
 # Black-Litterman View Blending
