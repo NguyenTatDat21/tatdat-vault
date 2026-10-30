@@ -175,18 +175,18 @@ Audited all 167 knowledge pages with `obsidian-wiki lint . --json`, the 13-field
 - **Left standing by owner decision** — `^[extracted]` (50 uses, 22 pages; the vocabulary has no such marker); 73 pages keep >5 tags; 51 pages carry ≥1 number absent verbatim from their sources (12 citation line ranges, 3 roundings, 2 ScienceDirect PII strings, 2 fixed errors). 14 fully-absent tokens to spot-check: `concepts/black-litterman-view-blending.md` (6 decimals), `concepts/collective-drone-delivery.md`, `concepts/gross-profitability-premium.md` `660`, `concepts/copula-opinion-pooling.md` `100,000`, `references/fuertes2023-transformer-multi-uav-routing.md`, `references/furini2016-two-dimensional-guillotine-cutting-ip.md`, `references/idzorek20072-bl-confidence-levels.md`, `references/ledoit2004wellconditioned.md`, `references/ropke2006-adaptive-large-neighborhood-search-pdptw.md`. `log.md` carries 3 identical LINT lines (20:50, 21:01, 21:07) — tool-owned, left as is.
 
 
-- [ ] All 117 extracted papers fully ingested (content-level)
-- [ ] Sidecar metadata integrated for all 117
-- [ ] References expanded/updated with valid provenance and sources
-- [ ] Manifest/cache stable (`cache-check` unchanged on processed sources)
-- [ ] QMD refreshed and verified
+- [x] All 117 extracted papers fully ingested (content-level) — 117/117 by the caveat-20 test (2026-10-30)
+- [x] Sidecar metadata integrated for all 117 — sidecar authority lines in reference pages; cache keys for all 117 extracted md
+- [x] References expanded/updated with valid provenance and sources — 117 reference pages, provenance sums 1.00, sources on disk
+- [x] Manifest/cache stable (`cache-check` unchanged on processed sources)
+- [x] QMD refreshed and verified — `qmd update` + `qmd embed` (381 chunks from 63 documents), `qmd ls`/`qmd get` spot checks
 - [x] `_meta/taxonomy.md` canonical vocabulary in place and applied (case-normalized aliases)
-- [x] Provenance markers match frontmatter shares on every knowledge page (caveat 29) — 180 pages, 0 issues
-- [x] `base_confidence` on every knowledge page equals the source-count formula (caveat 30, counting form caveat 33) — 180 pages
-- [x] Tier counts follow the incoming-link rule (caveat 28) — 106 core / 61 supporting at 167 pages, re-check on the 180-page set at next LINT
-- [x] `obsidian-wiki lint` reports zero findings on knowledge pages (at 2026-10-27), and the gate (`/tmp/gate.py`) reports 0 issues on all 180 pages after the 2026-10-28 fix pass — keep the gate green after each wave
-- [ ] Index membership for every new page (caveat 33) and summary ≤200 checks are in the gate — re-run after each wave. Gate reports **0 issues on 197 knowledge pages** (2026-10-29).
-- [ ] Trust-ledger decision recorded (`_meta/trust-ledger.json` created, or `ledger_missing` accepted)
+- [x] Provenance markers match frontmatter shares on every knowledge page (caveat 29) — 234 pages, 0 issues
+- [x] `base_confidence` on every knowledge page equals the source-count formula (caveat 30, counting form caveat 33) — 234 pages
+- [x] Tier counts follow the incoming-link rule (caveat 28) — re-checked after W45
+- [x] `obsidian-wiki lint` reports zero findings on knowledge pages, and the gate (`/tmp/gate.py`) reports 0 issues on all 234 pages (2026-10-30 maintenance pass) — keep the gate green after each wave
+- [x] Index membership for every new page (caveat 33) and summary ≤200 checks are in the gate — re-run after each wave. `index.md` has 469 pages, gate 0 issues
+- [x] Trust-ledger decision recorded — `ledger_missing` accepted (caveat 31, `OBSIDIAN_TRUST_LEDGER=off`)
 
 ## Next Action
 
