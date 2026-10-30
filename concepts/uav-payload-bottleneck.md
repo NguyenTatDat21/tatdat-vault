@@ -2,7 +2,7 @@
 title: >-
   UAV Payload Bottleneck in Truck-Launched Drone Delivery
 category: concepts
-tags: [UAV, payload, battery, endurance, tradeoff, truck-drone, delivery, bottleneck]
+tags: [uav, payload, battery, endurance, tradeoff, truck-drone, delivery, bottleneck]
 relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
@@ -19,11 +19,11 @@ provenance:
   inferred: 0.04
   ambiguous: 0.04
 base_confidence: 0.67
-tier: core
+tier: supporting
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-29T16:44:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/wang2019routing/wang2019routing-extracted.md
   - _papers/wang2019routing/images/page_2_image_3.jpg

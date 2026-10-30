@@ -4,16 +4,15 @@ summary: Two primal networks in DDD, arcs at least as long as correct travel tim
   give feasible solutions, arcs with positive travel time exclude subtours, solution
   sources are set-dependent.
 type: concept
-tags: '[dynamic-discretization, primal-heuristics, time-expanded-networks, feasible-solutions,
-  tsp, arc-sets]'
+tags: ['[dynamic-discretization', primal-heuristics, time-expanded-networks, feasible-solutions, tsp, 'arc-sets]']
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: '2026-10-28T23:10:00+07:00'
-tier: supporting
+updated: 2026-10-30T14:08:41Z
+tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
@@ -64,3 +63,15 @@ The primal IPs improve primal bounds quickly, so the algorithm can assess soluti
 - [[concepts/dynamic-discretization-discovery]] - primal heuristic pattern in DDD, primal solutions found by solving restricted networks.
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - FIFO.
 
+## Sources
+
+- `- "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"`
+- `- "[[_papers/vu2020dynamic/vu2020dynamic.md]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"`

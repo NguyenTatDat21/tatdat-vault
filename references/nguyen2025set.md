@@ -2,7 +2,7 @@
 title: >-
   The set team orienteering problem (Nguyen, Martinelli, Pham & Hà, 2025)
 category: references
-tags: [paper, stop, sop, set-team-orienteering, team-orienteering, gtsp, branch-and-price, lns, simulated-annealing, exact-algorithm, heuristic, new-benchmarks, ejor, optimization, vehicle-routing-with-profits, cluster-routing, dynamic-programming, strong-branching]
+tags: [paper, stop, sop, set-team-orienteering, team-orienteering, gtsp, branch-and-price, lns, simulated-annealing, exact-algorithm, heuristics, new-benchmarks, ejor, optimization, vehicle-routing-with-profits, cluster-routing, dynamic-programming, strong-branching]
 relationships:
   - target: "[[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]"
     type: uses
@@ -42,11 +42,11 @@ provenance:
   inferred: 0.10
   ambiguous: 0.03
 base_confidence: 0.67
-tier: supporting
+tier: peripheral
 lifecycle: draft
 lifecycle_changed: 2026-10-26T04:15:04Z
 created: 2026-10-26T04:15:04Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The set team orienteering problem (Nguyen, Martinelli, Pham & Hà, 2025)

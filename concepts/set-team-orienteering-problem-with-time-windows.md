@@ -20,9 +20,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-22
-tier: supporting
+tier: core
 created: 2026-10-22T11:29:44Z
-updated: 2026-10-24T18:36:02Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Set Team Orienteering Problem with Time Windows (STOPTW)

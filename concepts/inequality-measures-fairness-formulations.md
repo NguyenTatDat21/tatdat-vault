@@ -1,16 +1,16 @@
 ---
 title: Inequality measures as fairness formulations
 summary: "Inequality fairness SWFs for optimization models: relative range, relative mean deviation, CV, Jain index, Gini, Hoover, Lorenz, linear fractional, Charnes-Cooper, MILP."
-tags: fairness, optimization, inequality-measures
+tags: [fairness, optimization, inequality-measures]
 provenance:
   extracted: 0.85
   inferred: 0.15
   ambiguous: 0
 base_confidence: 0.67
-tier: core
+tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -38,3 +38,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[concepts/maximin-leximax-fairness]] — maximin family complements inequality measures.
 - [[concepts/alpha-fairness-proportional-fairness]] — Jain, unnormalized Theil/Atkinson logarithmic.
 - [[references/ogryczak2014-fair-optimization-networks-survey]] — inequality-averse fair optimization survey.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

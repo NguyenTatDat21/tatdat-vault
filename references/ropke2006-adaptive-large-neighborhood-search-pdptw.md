@@ -2,17 +2,7 @@
 title: >-
   An Adaptive Large Neighborhood Search Heuristic for the Pickup and Delivery Problem with Time Windows
 category: references
-tags:
-  - adaptive-large-neighborhood-search
-  - pickup-and-delivery
-  - vrptw
-  - metaheuristics
-  - simulated-annealing
-  - ruin-and-recreate
-  - regret-insertion
-  - adaptive-weights
-  - vehicle-minimization
-  - heuristics
+tags: [adaptive-large-neighborhood-search, pickup-and-delivery, vrptw, metaheuristics, simulated-annealing, ruin-and-recreate, regret-insertion, adaptive-weights, vehicle-minimization, heuristics]
 relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: extends
@@ -58,7 +48,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 created: "2026-10-26T12:26:00Z"
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Ropke & Pisinger 2006 — Adaptive Large Neighborhood Search for the PDPTW

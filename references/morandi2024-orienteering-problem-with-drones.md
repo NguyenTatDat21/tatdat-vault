@@ -24,9 +24,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: peripheral
 created: 2026-10-25T17:01:33Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The Orienteering Problem with Drones (OP-mD)

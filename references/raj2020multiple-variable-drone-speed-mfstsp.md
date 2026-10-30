@@ -2,7 +2,7 @@
 title: >-
   The multiple flying sidekicks traveling salesman problem with variable drone speeds (Raj & Murray, 2020)
 category: references
-tags: [paper, mfstsp, variable-drone-speed, truck-drone-synchronization, makespan, uav-power-model, uav-endurance, heuristic, three-phase-heuristic, last-mile-delivery, payload-weight, local-search, customer-density]
+tags: [paper, mfstsp, variable-drone-speed, truck-drone-synchronization, makespan, uav-power-model, uav-endurance, heuristics, three-phase-heuristic, last-mile-delivery, payload-weight, local-search, customer-density]
 relationships:
   - target: "[[concepts/multiple-flying-sidekicks-traveling-salesman-problem]]"
     type: extends
@@ -49,7 +49,7 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-26T10:43:50Z
 created: 2026-10-26T10:43:50Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The multiple flying sidekicks TSP with variable drone speeds (Raj & Murray, 2020)

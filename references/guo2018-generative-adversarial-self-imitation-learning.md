@@ -24,9 +24,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25T19:48:00Z
-tier: supporting
+tier: peripheral
 created: 2026-10-25T19:48:00Z
-updated: 2026-10-25T19:48:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Generative Adversarial Self-Imitation Learning

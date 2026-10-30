@@ -1,14 +1,7 @@
 ---
 title: "Zhao 2025 – Large Neighborhood and Hybrid Genetic Search for Inventory Routing"
 category: references
-tags:
-  - inventory-routing
-  - large-neighborhood-search
-  - dynamic-programming
-  - hybrid-genetic-search
-  - stock-out-penalty
-  - benchmarks
-  - paper
+tags: [inventory-routing, large-neighborhood-search, dynamic-programming, hybrid-genetic-search, stock-out-penalty, benchmarks, paper]
 aliases:
   - HGS-IRP
 sources:
@@ -31,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T07:10:00Z
-updated: 2026-10-28T20:35:00+07:00
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 0.96
   inferred: 0.04

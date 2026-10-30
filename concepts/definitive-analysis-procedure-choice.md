@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-11-05T14:34:00Z
-updated: 2026-11-05T14:34:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -64,3 +64,8 @@ Chapter 7 (pages 75–92, Part One, "The basic tools: the art of statistics") is
 - [[initial-data-analysis-ida]] — IDA supplies the model that the definitive analysis fits.
 - [[six-guidelines-anaesthetic-case-statistical-problem-solving]] — Rule 4, the one-way ANOVA as first pass.
 - [[chatfield1995-problem-solving-statisticians-guide]] — chapter 7, appendix A.5.
+
+## Sources
+
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md`
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md`

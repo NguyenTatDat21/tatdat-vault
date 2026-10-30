@@ -1,7 +1,7 @@
 ---
 title: "A Comparison of Acceptance Criteria for the ALNS Metaheuristic"
 category: references
-tags: alns, acceptance-criteria, simulated-annealing, record-to-record-travel, threshold-acceptance, paper
+tags: [alns, acceptance-criteria, simulated-annealing, record-to-record-travel, threshold-acceptance, paper]
 sources:
   - "[[_papers/santini2018comparison/santini2018comparison-extracted.md]]"
   - "[[_papers/santini2018comparison/santini2018comparison.md]]"
@@ -18,9 +18,9 @@ summary: "Santini, Ropke, Hvattum (J. Heuristics 2018): 9 ALNS acceptance criter
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
-tier: supporting
+tier: core
 created: 2026-10-27T06:50:00Z
-updated: 2026-10-27T06:50:00Z
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 1.00
   inferred: 0.00

@@ -2,7 +2,7 @@
 title: >-
   The parallel drone scheduling problem with multiple drones and vehicles (Mbiadou Saleu, Deroussi, Feillet, Grangeon & Quilliot, 2022)
 category: references
-tags: [paper, drone-routing, pdstsp, pdsmtsp, multi-vehicle-fleet, iterated-local-search, dynamic-programming, label-setting, branch-and-cut, makespan-objective, cvrplib, manhattan-distance, metaheuristic-hybridization, city-logistics, giant-tour, split-decoding, milp, heuristic, optimization, ejor]
+tags: [paper, drone-routing, pdstsp, pdsmtsp, multi-vehicle-fleet, iterated-local-search, dynamic-programming, label-setting, branch-and-cut, makespan-objective, cvrplib, manhattan-distance, metaheuristic-hybridization, city-logistics, giant-tour, split-decoding, milp, heuristics, optimization, ejor]
 relationships:
   - target: "[[concepts/parallel-drone-scheduling-traveling-salesman-problem]]"
     type: extends
@@ -61,7 +61,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T00:51:06Z
 tier: supporting
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The parallel drone scheduling problem with multiple drones and vehicles (Mbiadou Saleu, Deroussi, Feillet, Grangeon & Quilliot, 2022)

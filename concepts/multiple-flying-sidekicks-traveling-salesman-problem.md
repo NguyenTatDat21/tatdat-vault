@@ -24,9 +24,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
-tier: supporting
+tier: core
 created: 2026-10-22T11:39:28Z
-updated: 2026-10-26T10:43:50Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Multiple Flying Sidekicks Traveling Salesman Problem (mFSTSP)

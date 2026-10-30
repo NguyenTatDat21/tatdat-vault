@@ -4,16 +4,15 @@ summary: Partially time-expanded network, window endpoints, arcs that underestim
   travel time, cost underestimates, longest arcs, lower bound by Lemma 1, optimality
   by Lemma 2.
 type: concept
-tags: '[time-expanded-networks, lower-bounds, dynamic-discretization, integer-programming,
-  relaxation, properties-lemmas]'
+tags: ['[time-expanded-networks', lower-bounds, dynamic-discretization, integer-programming, relaxation, 'properties-lemmas]']
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: '2026-10-28T23:10:00+07:00'
-tier: supporting
+updated: 2026-10-30T14:08:41Z
+tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
@@ -64,3 +63,15 @@ The DDD algorithm starts with N_T = {e_i, l_i} and refines by lengthening arcs, 
 - [[concepts/dynamic-discretization-discovery]] - the DDD framework in service network design, the lower-bound-then-refine pattern.
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - the FIFO family.
 
+## Sources
+
+- `- "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"`
+- `- "[[_papers/vu2020dynamic/vu2020dynamic.md]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"`

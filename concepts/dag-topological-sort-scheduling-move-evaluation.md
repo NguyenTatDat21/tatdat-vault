@@ -3,7 +3,7 @@ title: >-
   DAG Topological-Sort Move Evaluation for Synchronized Schedules
 category: concepts
 aliases: [topological order move evaluation, DAG-based schedule repair, insertion cost under synchronization]
-tags: [dag, topological-sort, move-evaluation, scheduling, synchronization, large-neighborhood-search, ruin-and-recreate, complexity, heuristic]
+tags: [dag, topological-sort, move-evaluation, scheduling, synchronization, large-neighborhood-search, ruin-and-recreate, complexity, heuristics]
 relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: derived_from
@@ -33,7 +33,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T05:12:09Z
 tier: supporting
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # DAG Topological-Sort Move Evaluation for Synchronized Schedules

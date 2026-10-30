@@ -1,11 +1,7 @@
 ---
 title: Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones (Montemanni et al., 2024)
 category: references
-tags:
-  - paper
-  - vrp
-  - drones
-  - constraint-programming
+tags: [paper, vrp, drones, constraint-programming]
 relationships:
   - target: "[[concepts/pdsvrp-c]]"
     type: uses
@@ -50,7 +46,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:07:13Z
-updated: 2026-10-22T19:01:44Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Combining Heuristics and Constraint Programming for the Parallel Drone Scheduling Vehicle Routing Problem with Collective Drones

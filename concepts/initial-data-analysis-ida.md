@@ -7,10 +7,10 @@ provenance:
   inferred: 0.05
   ambiguous: 0.03
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: concepts
 created: 2026-11-05T14:32:00Z
-updated: 2026-11-05T14:32:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -72,3 +72,8 @@ The procedure applies to almost all the data types that occur in practice, and h
 - [[six-guidelines-anaesthetic-case-statistical-problem-solving]] — Rule 4 gives IDA as step 1.
 - [[definitive-analysis-procedure-choice]] — stages 2–4, procedure class, and the checks on the procedure.
 - [[chatfield1995-problem-solving-statisticians-guide]] — chapter 5 (23–36) and chapter 6 (37–74).
+
+## Sources
+
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md`
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md`

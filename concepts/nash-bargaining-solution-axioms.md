@@ -1,16 +1,16 @@
 ---
 title: Nash bargaining solution axioms
 summary: "Nash bargaining solution axioms: scale invariance, anonymity, Pareto, independence of irrelevance, SWF Π(u_i−d_i), Zeuthen procedure, Harsanyi, Binmore."
-tags: fairness, bargaining, optimization
+tags: [fairness, bargaining, optimization]
 provenance:
   extracted: 0.85
   inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.67
-tier: core
+tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -34,3 +34,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[_papers/xinyingchen2023guide/xinyingchen2023guide-extracted]] — source.
 - [[concepts/alpha-fairness-proportional-fairness]] — α=1 proportional fairness.
 - [[concepts/kalai-smorodinsky-bargaining-solution]] — Kalai–Smorodinsky monotonicity.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

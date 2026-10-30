@@ -9,7 +9,7 @@ provenance:
   ambiguous: 0.00
 base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
-updated: "2026-10-28T22:52:00+07:00"
+updated: 2026-10-30T14:08:41Z
 tier: supporting
 category: concepts
 lifecycle: draft
@@ -57,3 +57,8 @@ The constructive feasibility heuristic, running before the methods, found feasib
 - [[references/montemanni2023-cp-pdsvrp]] — shares lower-bounds + vehicle-routing tags with this page
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — shares paper + vehicle-routing tags with this page
 - [[references/paradiso2020-esf-multitrip-vrptw]] — shares paper + vehicle-routing tags with this page
+
+## Sources
+
+- `[[_papers/skalnes2024new/skalnes2024new-extracted.md]]`
+- `[[_papers/skalnes2024new/skalnes2024new.md]]`

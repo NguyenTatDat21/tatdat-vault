@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-29T18:10:00Z
+updated: 2026-10-30T14:08:41Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
@@ -51,3 +51,11 @@ relationships:
 - [[concepts/state-features-rl-algorithm-design]] — the state ACE observes.
 - [[concepts/entropy-coefficient-adjustment-schemes]] — how the entropy coefficient is set.
 - [[concepts/rl-component-analysis-designed-algorithms]] — analysing which components the policy calls.
+
+## Sources
+
+- `_papers/yi2023automated/yi2023automated-extracted.md`
+- `_papers/yi2023automated/yi2023automated.md`
+- `_papers/yang2022vrpdbi-levelhyper-heatroutingdimension/_papers/yang2022vrpdbi-levelhyper-heatroutingdimension-extracted.md`
+- `_papers/xinyingchen2023guide/_papers/xinyingchen2023guide-extracted.md`
+- `_papers/ganjia2026multio/multi-objective sustainable supply chain scheduling for electric freight ride-sharing via a memetic algorithm with q-learning guidance.md`

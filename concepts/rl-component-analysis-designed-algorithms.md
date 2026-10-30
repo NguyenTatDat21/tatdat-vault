@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-29T18:10:00Z
+updated: 2026-10-30T14:08:41Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
@@ -46,3 +46,8 @@ relationships:
 - [[references/yi2023-ace-gsf-automated-design-cvrptw]] — the ACE component counts.
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — the q-learning component counts.
 - [[references/yang2022-vrpd-bilevel-heuristic]] — the evolved-operator analysis.
+
+## Sources
+
+- `_papers/yi2023automated/yi2023automated-extracted.md`
+- `references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md`

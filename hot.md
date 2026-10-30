@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T10:41:35Z
+updated: 2026-10-30T14:15:47Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] INGEST source=_papers/chatfieldProblemSolvingStatisticians1995/chatfieldP... created=6 updated=1 ...
-- [2026-10-30] CROSS_LINK pages_scanned=10 links_added=3 typed_relations_written=3 ...
-- [2026-10-30] CROSS_LINK pages_scanned=235 typed_relations_written=63 pages_modified=57 ...
+- [2026-10-30] TAG_AUDIT pages_scanned=234 tags_changed=59
+- [2026-10-30] AUDIT pages_scanned=234 tier_changes=55 sources_sections_added=35 ...
+- [2026-10-30] INDEX pages_changed=1 notes=added Top by incoming links baseline
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-The CP 2015 reference page is now the hub for 6 new concept pages; search-combinators and decision-diagrams pages are the densest cross-linked hubs.
+Mechanical rule pass over the 234 knowledge pages: [[index.md#Top by incoming links]] lists the hubs; tier realignment per the graph rule, tags converted to YAML lists, alias/case normalized, `## Sources` headers added. Structural gaps remain: no entity pages for repeated author names, no synthesis pages for the LNS x hyper-heuristics and IRP x time-space-network clusters, 600 tags outside the taxonomy vocabulary, 620 unreciprocated relationship links.
 
 ## Flagged Contradictions
 

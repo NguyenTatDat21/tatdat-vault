@@ -1,15 +1,7 @@
 ---
 title: "Stålhane 2012 – Construction and Improvement Heuristic for an LNG Inventory Routing Problem"
 category: references
-tags:
-  - lng-annual-delivery-program
-  - maritime-inventory-routing
-  - construction-heuristic
-  - local-search
-  - multi-start
-  - mip-heuristic
-  - berth-constraints
-  - paper
+tags: [lng-annual-delivery-program, maritime-inventory-routing, construction-heuristic, local-search, multi-start, mip-heuristic, berth-constraints, paper]
 aliases:
   - CIH for LNG ADP
   - Stålhane construction improvement heuristic
@@ -33,9 +25,9 @@ summary: "Stålhane et al. (C&IE 2012) build an LNG ADP by a multi-start constru
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T07:50:00Z
-updated: 2026-10-27T07:50:00Z
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 0.98
   inferred: 0.02

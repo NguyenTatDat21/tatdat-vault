@@ -2,7 +2,7 @@
 title: >-
   Hybrid Truck-Drone Delivery (HTDD): trucks plus truck-carried drones plus independent drones
 category: concepts
-tags: [UAV, truck-drone, delivery, VRP, makespan, time-balancing, multi-visit, hybrid]
+tags: [uav, truck-drone, delivery, vrp, makespan, time-balancing, multi-visit, hybrid]
 relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
@@ -25,11 +25,11 @@ provenance:
   inferred: 0.12
   ambiguous: 0.0
 base_confidence: 0.67
-tier: core
+tier: supporting
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-29T16:44:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/wang2019routing/wang2019routing-extracted.md
 ---

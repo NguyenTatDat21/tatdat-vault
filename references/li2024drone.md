@@ -38,9 +38,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-29
-tier: supporting
+tier: core
 created: 2026-10-26T00:51:06Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Drone Routing Problem with Swarm Synchronization (Li, Wang & Zhan, 2024)

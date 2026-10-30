@@ -2,7 +2,7 @@
 title: >-
   The Other Side of Value: The Gross Profitability Premium
 category: references
-tags: [asset-pricing, profitability, value-premium, factor-models, quality-investing, gross-profitability, anomalies, fama-french, investing-strategy, cross-sectional-regression]
+tags: [asset-pricing, profitability, value-premium, factor-investing, quality-investing, gross-profitability, anomalies, fama-french, investing-strategy, cross-sectional-regression]
 relationships:
   - target: "[[concepts/fama-macbeth-two-stage-cross-sectional-regression]]"
     type: uses
@@ -68,7 +68,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The Other Side of Value: The Gross Profitability Premium

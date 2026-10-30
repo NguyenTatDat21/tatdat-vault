@@ -7,10 +7,10 @@ provenance:
   inferred: 0.02
   ambiguous: 0.02
 base_confidence: 0.67
-tier: supporting
+tier: peripheral
 category: concepts
 created: 2026-11-05T14:36:00Z
-updated: 2026-11-05T14:36:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -61,3 +61,8 @@ The book's closing section of Part One is a synthesis of the whole method, in tw
 - [[initial-data-analysis-ida]] — principle 3.
 - [[definitive-analysis-procedure-choice]] — principle 4.
 - [[chatfield1995-problem-solving-statisticians-guide]] — the synthesis of chapters 2–12.
+
+## Sources
+
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md`
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md`

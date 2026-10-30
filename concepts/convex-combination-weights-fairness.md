@@ -1,16 +1,16 @@
 ---
 title: Convex combination weights for fairness
 summary: "Convex combination SWFs, λ interpretation, product SWF λ=1/2, Gini μ/(1+μ), decreasing weights, dominance constraints, elicitation, utilitarian↔maximin."
-tags: fairness, optimization, convex-combination
+tags: [fairness, optimization, convex-combination]
 provenance:
   extracted: 0.85
   inferred: 0.15
   ambiguous: 0
 base_confidence: 0.67
-tier: core
+tier: peripheral
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -37,3 +37,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[concepts/alpha-fairness-proportional-fairness]] — alpha fairness, convex-combination continuum.
 - [[concepts/maximin-leximax-fairness]] — convex-combo maximin eq. 10, leximax remedy.
 - [[concepts/welfare-social-function-fairness-formulations]] — convex-combination SWFs as models.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

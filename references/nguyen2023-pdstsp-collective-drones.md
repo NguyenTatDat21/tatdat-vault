@@ -54,9 +54,9 @@ provenance:
 base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-10-29T16:46:00Z
-tier: supporting
+tier: core
 created: 2026-10-26T05:12:09Z
-updated: 2026-10-27T06:00:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # The Parallel Drone Scheduling Traveling Salesman Problem with Collective Drones

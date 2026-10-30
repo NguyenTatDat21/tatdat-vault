@@ -9,7 +9,7 @@ provenance:
   ambiguous: 0.00
 base_confidence: 0.67
 created: "2026-10-28T22:52:00+07:00"
-updated: "2026-10-28T22:52:00+07:00"
+updated: 2026-10-30T14:08:41Z
 tier: supporting
 category: concepts
 lifecycle: draft
@@ -60,3 +60,8 @@ The paper concludes that branch-cut-and-price is favored when routes have few vi
 - [[references/cheng2020-drone-routing-energy-function]] — shares branch-and-cut + paper tags with this page
 - [[references/halvorsen-weare2013-lng-routing-berth-inventory]] — shares inventory-routing + paper tags with this page
 - [[references/hendel2022-adaptive-lns-for-mip]] — shares mip + paper tags with this page
+
+## Sources
+
+- `[[_papers/skalnes2024new/skalnes2024new-extracted.md]]`
+- `[[_papers/skalnes2024new/skalnes2024new.md]]`

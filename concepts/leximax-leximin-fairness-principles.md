@@ -2,11 +2,7 @@
 title: >-
   Leximax and Leximin Fairness Principles
 category: concepts
-tags:
-  - fairness
-  - max-min-fairness
-  - lexicographic-ordering
-  - resource-allocation
+tags: [fairness, max-min-fairness, lexicographic-ordering, resource-allocation]
 relationships:
   - target: "[[references/ogryczak2014-fair-optimization-networks-survey]]"
     type: derived_from
@@ -34,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26T07:13:34Z
 tier: core
 created: 2026-10-26T07:13:34Z
-updated: 2026-10-26T12:26:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Leximax and Leximin Fairness Principles

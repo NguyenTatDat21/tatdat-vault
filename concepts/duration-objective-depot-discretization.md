@@ -4,16 +4,15 @@ summary: Duration objective in DDD, depot nodes for every departure time up to e
   zero-cost waiting arcs, arcs from depot cost -t, l0 = z - 1 + t0, network sizes
   double.
 type: concept
-tags: '[duration-objective, depot-discretization, waiting-arcs, time-expanded-networks,
-  dynamic-discretization, enumeration]'
+tags: ['[duration-objective', depot-discretization, waiting-arcs, time-expanded-networks, dynamic-discretization, 'enumeration]']
 provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.67
 created: '2026-10-28T23:10:00+07:00'
-updated: '2026-10-28T23:10:00+07:00'
-tier: supporting
+updated: 2026-10-30T14:08:41Z
+tier: core
 category: concepts
 lifecycle: draft
 lifecycle_changed: '2026-10-28'
@@ -65,3 +64,15 @@ Results: Set 1, makespan 952 solved, 10.94 s, 4.62 iterations vs duration 930 so
 - [[concepts/first-in-first-out-property-in-time-dependent-travel]] - FIFO.
 - [[references/wahal2020-joint-value-profitability-international]] — shares   + , + - tags with this page
 
+## Sources
+
+- `- "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"`
+- `- "[[_papers/vu2020dynamic/vu2020dynamic.md]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_9_image_5.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_12_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_18_image_3.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_22_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_23_chart_1.jpg]]"`
+- `- "[[_papers/vu2020dynamic/images/page_27_image_5.jpg]]"`

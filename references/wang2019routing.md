@@ -2,7 +2,7 @@
 title: >-
   Path Planning for Triple Ecosystems in Diverse Environments (Wang, Hu, Du, Zhou, Deng, Hu, IEEE IoT-J 2019)
 category: references
-tags: [paper, UAV, truck-drone, delivery, VRP, makespan, time-balancing, ellipse, flight-segment, DBSCAN, tabu-search, ILS, Clarke-Wright, TSP, CVRP, energy-model, heuristic]
+tags: [paper, uav, truck-drone, delivery, vrp, makespan, time-balancing, ellipse, flight-segment, dbscan, tabu-search, ils, clarke-wright, tsp, cvrp, energy-model, heuristics]
 relationships:
   - target: "[[references/murray2015flying]]"
     type: related_to
@@ -81,7 +81,7 @@ tier: core
 lifecycle: source
 lifecycle_changed: 2026-10-29T16:52:00Z
 created: 2026-10-29T16:40:00Z
-updated: 2026-10-29T16:52:00Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Path Planning for Triple Ecosystems in Diverse Environments (Wang, Hu, Du, Zhou, Deng, Hu, IEEE IoT-J 2019)
@@ -279,3 +279,8 @@ HTDD beats all baselines: lower total time, shorter truck distance, shorter UAV 
 - [[references/lourenco2019iterated]] — ILS framework for the ILS pass used inside the heuristic. ^[extracted]
 - [[concepts/tabu-search]] — tabu moves used for the tabu-search steps, and the ILS with tabu acceptance. ^[extracted]
 - [[concepts/iterated-local-search]] — ILS inter-route insertion, swap, 2-opt*, segment-node abstraction reroute, acceptance by max(T_lu,T_v) improvement. ^[extracted]
+
+## Sources
+
+- `_papers/wang2019routing/wang2019routing.md`
+- `_papers/wang2019routing/wang2019routing-extracted.md`

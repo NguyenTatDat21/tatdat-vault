@@ -1,16 +1,16 @@
 ---
 title: Utility and fairness threshold schemes
 summary: "Utility/fairness threshold SWFs combine utilitarian with maximin/leximax: Δ parameter, efficiency threshold, fairness threshold, hooker-wills, Elçi, groups, MILP/LP."
-tags: fairness, optimization, thresholds
+tags: [fairness, optimization, thresholds]
 provenance:
   extracted: 0.85
   inferred: 0.15
   ambiguous: 0
 base_confidence: 0.67
-tier: core
+tier: supporting
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -38,3 +38,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[concepts/maximin-leximax-fairness]] — threshold criteria inherit maximin limitations.
 - [[concepts/sequential-leximax-threshold-models]] — leximax threshold, sequential SWFs.
 - [[references/ogryczak2014-fair-optimization-networks-survey]] — inequality-averse fair optimization.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

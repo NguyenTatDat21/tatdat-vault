@@ -7,10 +7,10 @@ provenance:
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: concepts
 created: 2026-11-05T14:20:00Z
-updated: 2026-11-05T14:20:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -69,3 +69,8 @@ Values as printed in Table P.1 (line 237).^[extracted]
 - [[chatfield1995-problem-solving-statisticians-guide]] — the book, its structure and its Preface.
 - [[data-collection-designs-and-pitfalls]] — Rule 2 in chapter 4.
 - [[initial-data-analysis-ida]] — Rule 4 as the IDA of chapters 5-6.
+
+## Sources
+
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md`
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md`

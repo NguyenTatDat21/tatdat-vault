@@ -1,14 +1,7 @@
 ---
 title: "Failure-Directed Search for Constraint-Based Scheduling (Vilím, Laborie, Shaw, Michel 2015)"
 category: references
-tags:
-  - paper
-  - constraint-programming
-  - search
-  - scheduling
-  - job-shop
-  - rcpSP
-  - CP-optimizer
+tags: [paper, constraint-programming, search, scheduling, job-shop, rcpsp, cp-optimizer]
 aliases:
   - FDS paper
   - Vilím 2015
@@ -34,7 +27,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T10:20:00Z
-updated: 2026-10-28T20:35:00+07:00
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 1.00
   inferred: 0.00

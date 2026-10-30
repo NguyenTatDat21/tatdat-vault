@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-11-05T14:24:00Z
-updated: 2026-11-05T14:24:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
@@ -74,3 +74,8 @@ The distinction in spirit is the point: "Experiments require active intervention
 - [[chatfield1995-problem-solving-statisticians-guide]] — the book's structure.
 - [[six-guidelines-anaesthetic-case-statistical-problem-solving]] — Rule 2, find out how the data were collected.
 - [[initial-data-analysis-ida]] — data scrutiny as the first part of IDA.
+
+## Sources
+
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md`
+- `_papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md`

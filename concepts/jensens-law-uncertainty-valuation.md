@@ -1,12 +1,7 @@
 ---
 title: "Jensen's Law in Project Valuation"
 category: concepts
-tags:
-  - jensens-law
-  - npv-vs-enpv
-  - convexity
-  - distribution-valuation
-  - risk-pricing
+tags: [jensens-law, npv-vs-enpv, convexity, distribution-valuation, risk-pricing]
 relationships:
   - target: "[[concepts/monte-carlo-simulation]]"
     type: related_to
@@ -29,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: "2026-10-28T21:30:00+07:00"
-updated: "2026-10-28T21:30:00+07:00"
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Jensen's Law in Project Valuation

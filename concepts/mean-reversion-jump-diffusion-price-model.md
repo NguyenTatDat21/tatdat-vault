@@ -1,12 +1,7 @@
 ---
 title: "Mean-Reverting Jump-Diffusion Price Model"
 category: concepts
-tags:
-  - mean-reversion
-  - jump-diffusion
-  - geometric-brownian-motion
-  - gas-price-modelling
-  - poisson-jumps
+tags: [mean-reversion, jump-diffusion, geometric-brownian-motion, gas-price-modelling, poisson-jumps]
 relationships:
   - target: "[[concepts/monte-carlo-simulation]]"
     type: related_to
@@ -29,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: "2026-10-28T21:30:00+07:00"
-updated: "2026-10-28T21:30:00+07:00"
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Mean-Reverting Jump-Diffusion Price Model

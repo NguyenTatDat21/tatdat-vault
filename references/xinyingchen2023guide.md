@@ -1,7 +1,7 @@
 ---
 title: A guide to formulating fairness in an optimization model (Chen & Hooker 2023)
 summary: "Fairness criteria in optimization: inequality measures, maximin, leximax, convex combination, alpha fairness, Nash bargaining, Kalai-Smorodinsky, thresholds, parity, guidelines, MILP formulations."
-tags: fairness, optimization, welfare-social-function, survey, distributive-justice
+tags: [fairness, optimization, welfare-social-function, survey, distributive-justice]
 provenance:
   extracted: 0.80
   inferred: 0.16
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: references
 created: 2026-10-29T17:35:00Z
-updated: 2026-10-29T17:35:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide.md
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
@@ -126,3 +126,8 @@ Chen (Stevens Institute of Technology, vchen3@stevens.edu) and Hooker (Carnegie 
 - [[references/hartman2023-leximin-approximation]] — leximin approximation results for multi-objective fair optimization.
 - [[references/phanduc2025-pareto-front-grid-fairness-dpdptw]] — Pareto-front-grid fairness selection in dynamic pickup-and-delivery.
 - [[references/goel2015-constraint-programming-lng-ship-scheduling]] — maximin fairness in ship scheduling.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide.md`
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

@@ -37,9 +37,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-24
-tier: supporting
+tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-24T19:52:48Z
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Cumulative Volume Lower Bound Search

@@ -1,14 +1,7 @@
 ---
 title: "Shaabani 2023 – Matheuristic for the Multi-Product Maritime Inventory Routing Problem"
 category: references
-tags:
-  - maritime-inventory-routing
-  - matheuristic
-  - mixed-integer-programming
-  - simulated-annealing
-  - long-planning-horizon
-  - natural-gas-logistics
-  - paper
+tags: [maritime-inventory-routing, matheuristic, mixed-integer-programming, simulated-annealing, long-planning-horizon, natural-gas-logistics, paper]
 aliases:
   - multi-product MIRP matheuristic
 sources:
@@ -29,9 +22,9 @@ summary: "Shaabani, Hoff, Hvattum & Laporte (COPR 2023): fixed-arc SA plus CPLEX
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T07:00:00Z
-updated: 2026-10-28T20:35:00+07:00
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 0.96
   inferred: 0.04

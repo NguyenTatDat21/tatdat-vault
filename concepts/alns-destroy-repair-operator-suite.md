@@ -2,7 +2,7 @@
 title: >-
   ALNS Destroy-Repair Operator Suite (WTD, WDD, BD, LDR-1, LDR-2, HR, AR, RR)
 category: concepts
-tags: [optimization, heuristic, alns]
+tags: [optimization, heuristics, alns]
 summary: The destroy operators RD, WTD, WDD, BD and repair operators RR, AR,
   LDR-1, LDR-2, HR of the multi-drop FSTSP ALNS, with Metropolis acceptance,
   weights, cooling, archive, destroy factor.
@@ -11,10 +11,10 @@ provenance:
   inferred: 0.13
   ambiguous: 0.02
 base_confidence: 0.67
-tier: core
+tier: supporting
 lifecycle: draft
 created: 2026-10-29T17:12:00Z
-updated: 2026-10-29T17:12:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
 relationships:
@@ -45,3 +45,7 @@ The suite is a concrete instance of the ALNS destroy/repair pattern, tuned for t
 - [[references/santini2018-alns-acceptance-criteria]] — acceptance criteria survey.
 - [[concepts/adaptive-large-neighborhood-search-for-mip]] — ALNS × MIP pattern.
 - [[concepts/large-neighborhood-ship-pair-destroy-repair]] — ship-pair destroy/repair.
+
+## Sources
+
+- `_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md`

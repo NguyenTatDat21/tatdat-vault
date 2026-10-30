@@ -2,7 +2,7 @@
 title: >-
   Drone Delivery Energy and Range Parameters: weight, payload, power, lift ratio, efficiency
 category: concepts
-tags: [UAV, energy-model, payload, power, lift-ratio, efficiency, endurance, parameters]
+tags: [uav, energy-model, payload, power, lift-ratio, efficiency, endurance, parameters]
 relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
@@ -19,11 +19,11 @@ provenance:
   inferred: 0.12
   ambiguous: 0.0
 base_confidence: 0.67
-tier: core
+tier: peripheral
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-29T16:44:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/wang2019routing/wang2019routing-extracted.md
 ---

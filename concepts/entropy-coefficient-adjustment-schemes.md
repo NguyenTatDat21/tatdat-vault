@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-29T18:10:00Z
+updated: 2026-10-30T14:08:41Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 relationships:
@@ -47,3 +47,9 @@ sources:
 - [[references/yi2023-ace-gsf-automated-design-cvrptw]] — ACE's three schemes.
 - [[references/yang2022-vrpd-bilevel-heuristic]] — the ε-schedule.
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — ε and α schedules.
+
+## Sources
+
+- `_papers/yi2023automated/yi2023automated-extracted.md`
+- `_papers/yang2022vrpdbi-levelhyper-heatroutingdimension/_papers/yang2022vrpdbi-levelhyper-heatroutingdimension-extracted.md`
+- `_papers/xinyingchen2023guide/_papers/xinyingchen2023guide-extracted.md`

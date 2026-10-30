@@ -1,12 +1,7 @@
 ---
 title: "Monte Carlo Simulation of Project Economics"
 category: concepts
-tags:
-  - monte-carlo-simulation
-  - stochastic-simulation
-  - npv-distribution
-  - decision-measures
-  - sampling
+tags: [monte-carlo-simulation, stochastic-simulation, npv-distribution, decision-measures, sampling]
 relationships:
   - target: "[[concepts/mean-reversion-jump-diffusion-price-model]]"
     type: uses
@@ -29,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: "2026-10-28T21:30:00+07:00"
-updated: "2026-10-28T21:30:00+07:00"
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Monte Carlo Simulation of Project Economics

@@ -1,16 +1,16 @@
 ---
 title: Group parity fairness metrics in machine learning
 summary: "Group parity fairness metrics in ML decisions: demographic parity, equalized odds, accuracy parity, predictive rate parity, W(δ)=1−|B(δ)|, pairwise incompatible."
-tags: fairness, machine-learning, group-parity
+tags: [fairness, machine-learning, group-parity]
 provenance:
   extracted: 0.85
   inferred: 0.15
   ambiguous: 0
 base_confidence: 0.67
-tier: core
+tier: peripheral
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -35,3 +35,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[_papers/xinyingchen2023guide/xinyingchen2023guide-extracted]] — source.
 - [[concepts/inequality-measures-fairness-formulations]] — inequality metrics compare with group parity.
 - [[concepts/welfare-social-function-fairness-formulations]] — group parity as constraints/objectives.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

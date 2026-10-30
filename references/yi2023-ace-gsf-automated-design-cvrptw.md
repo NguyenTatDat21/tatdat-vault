@@ -1,16 +1,16 @@
 ---
 title: Yi & Qu 2023 — Automated Design of Search Algorithms based on Reinforcement Learning
 summary: "ACE over the GSF design space: evolution operators + selection heuristics for CVRPTW. Learning on both components dominates evolution-operator-only design; ACE LAS is the best variant."
-tags: reinforcement-learning, automated-algorithm-design, hyper-heuristics, vrptw, evolutionary-computation, max-entropy
+tags: [reinforcement-learning, automated-algorithm-design, hyper-heuristics, vrptw, evolutionary-computation, max-entropy]
 provenance:
   extracted: 0.82
   inferred: 0.14
   ambiguous: 0.04
 base_confidence: 0.67
-tier: supporting
+tier: core
 category: references
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-29T18:10:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
   - _papers/yi2023automated/yi2023automated.md
   - _papers/yi2023automated/yi2023automated-extracted.md
@@ -256,3 +256,8 @@ The study systematically investigates two research issues in automated algorithm
 
 ## Page index
 - page 8: Figure 1 (`page_8_image_4.jpg`); page 11: Figure 2 (`page_11_*`); page 13: Figure 3; page 19: Figure 4; page 21: Figure 5; page 27: Figure 6; page 33: Figure 7; page 41: Figure 8; page 42: Figure 9; page 43: Figure 10.
+
+## Sources
+
+- `_papers/yi2023automated/yi2023automated.md`
+- `_papers/yi2023automated/yi2023automated-extracted.md`

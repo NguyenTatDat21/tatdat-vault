@@ -1,12 +1,7 @@
 ---
 title: "Real Options in Engineering System Design"
 category: concepts
-tags:
-  - real-options
-  - flexibility
-  - design-flexibility
-  - capacity-expansion
-  - managerial-flexibility
+tags: [real-options, flexibility, design-flexibility, capacity-expansion, managerial-flexibility]
 relationships:
   - target: "[[concepts/monte-carlo-simulation]]"
     type: related_to
@@ -29,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: "2026-10-28T21:30:00+07:00"
-updated: "2026-10-28T21:30:00+07:00"
+updated: 2026-10-30T14:08:41Z
 ---
 
 # Real Options in Engineering System Design

@@ -1,7 +1,7 @@
 ---
 title: Welfare social function fairness formulations
 summary: "Welfare social function models for fairness in optimization: welfare maximizing, welfare constraining, utilities u=U(x), linear/nonlinear/MILP, triage, mortgage."
-tags: fairness, optimization, welfare-social-function
+tags: [fairness, optimization, welfare-social-function]
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-29T17:37:00Z
+updated: 2026-10-30T14:08:41Z
 sources:
 - _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
 relationships:
@@ -38,3 +38,7 @@ lifecycle_changed: 2026-10-29T17:37:00Z
 - [[concepts/maximin-leximax-fairness]] — maximin/leximax as SWF choices.
 - [[concepts/utility-fairness-thresholds]] — threshold SWFs as welfare constraints.
 - [[concepts/alpha-fairness-proportional-fairness]] — alpha fairness, convex-combination SWFs.
+
+## Sources
+
+- `_papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md`

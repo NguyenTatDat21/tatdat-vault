@@ -1,13 +1,7 @@
 ---
 title: "Failure-Directed Search"
 category: concepts
-tags:
-  - failure-directed-search
-  - constraint-programming
-  - search-strategy
-  - iterative-deepening
-  - infeasibility-proof
-  - scheduling
+tags: [failure-directed-search, constraint-programming, search-strategy, iterative-deepening, infeasibility-proof, scheduling]
 aliases:
   - FDS
   - plan B search
@@ -28,9 +22,9 @@ summary: "Failure-Directed Search explores by iterative deepening on the quality
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: peripheral
 created: 2026-10-27T09:10:00Z
-updated: 2026-10-28T20:35:00+07:00
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 0.90
   inferred: 0.10

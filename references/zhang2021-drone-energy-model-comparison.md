@@ -1,14 +1,7 @@
 ---
 title: "Zhang 2021 – Energy Consumption Models for Delivery Drones: A Comparison and Assessment"
 category: references
-tags:
-  - drone-energy-models
-  - energy-consumption
-  - parcel-delivery
-  - uav
-  - model-comparison
-  - field-measurement
-  - paper
+tags: [drone-energy-models, energy-consumption, parcel-delivery, uav, model-comparison, field-measurement, paper]
 aliases:
   - Zhang Campbell Sweeney Hupman 2021
   - drone Epm comparison
@@ -32,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27T08:15:00Z
-updated: 2026-10-28T20:35:00+07:00
+updated: 2026-10-30T14:08:41Z
 provenance:
   extracted: 0.92
   inferred: 0.08

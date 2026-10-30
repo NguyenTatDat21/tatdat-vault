@@ -10,7 +10,7 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-29T18:10:00Z
+updated: 2026-10-30T14:08:41Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
@@ -47,3 +47,9 @@ relationships:
 - [[references/yi2023-ace-gsf-automated-design-cvrptw]] — the ACE state features.
 - [[references/yang2022-vrpd-bilevel-heuristic]] — state from current solution, best solution, generation.
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]] — q-learning state `[N, U, T, S]`.
+
+## Sources
+
+- `_papers/yi2023automated/yi2023automated-extracted.md`
+- `_papers/yang2022vrpdbi-levelhyper-heatroutingdimension/_papers/yang2022vrpdbi-levelhyper-heatroutingdimension-extracted.md`
+- `_papers/ganjia2026multio/multi-objective sustainable supply chain scheduling for electric freight ride-sharing via a memetic algorithm with q-learning guidance.md`
