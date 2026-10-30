@@ -10,7 +10,7 @@ base_confidence: 0.97
 tier: core
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T19:38:37Z
+updated: 2026-10-30T19:39:01Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
