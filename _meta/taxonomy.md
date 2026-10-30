@@ -17,9 +17,9 @@ Domain families:
 - **routing**: `vehicle-routing`, `vrp`, `vrptw`, `pdptw`, `tsp`, `fstsp`, `pdstsp`, `orienteering`, `set-orienteering-problem`, `team-orienteering`, `pickup-and-delivery`, `routing-with-synchronization`
 - **drone / UAV**: `drones`, `drone-routing`, `truck-drone-routing`, `uav`, `drone-synchronization`, `drone-energy`, `multi-visit-drone`
 - **maritime**: `maritime`, `lng`, `ship-routing-scheduling`, `maritime-inventory-routing`, `inventory-routing`, `time-space-network`, `berth-and-inventory`, `lng-delivery-program`
-- **scheduling**: `scheduling`, `makespan`, `time-windows`, `periodic-scheduling`, `disjunctive-scheduling`, `cumulative-scheduling`
-- **exact methods**: `mixed-integer-programming`, `milp`, `integer-programming`, `constraint-programming`, `cp-sat`, `branch-and-cut`, `branch-and-price`, `column-generation`, `cutting-stock`, `exact-methods`
-- **heuristics**: `metaheuristics`, `heuristics`, `alns`, `lns`, `large-neighborhood-search`, `local-search`, `simulated-annealing`, `tabu-search`, `hyper-heuristics`, `matheuristics`, `ruin-and-recreate`, `variable-neighborhood-search`, `iterated-local-search`, `greedy-construction`
+- **scheduling**: `scheduling`, `makespan`, `time-windows`, `periodic-scheduling`, `disjunctive-scheduling`, `cumulative-scheduling`, `fifo-property`
+- **exact methods**: `mixed-integer-programming`, `milp`, `integer-programming`, `constraint-programming`, `cp-sat`, `branch-and-cut`, `branch-and-price`, `column-generation`, `cutting-stock`, `exact-methods`, `dynamic-discretization`, `lower-bounds`, `valid-inequalities`, `subtour-elimination`
+- **heuristics**: `metaheuristics`, `heuristics`, `alns`, `lns`, `large-neighborhood-search`, `local-search`, `simulated-annealing`, `tabu-search`, `hyper-heuristics`, `matheuristics`, `ruin-and-recreate`, `variable-neighborhood-search`, `iterated-local-search`, `greedy-construction`, `primal-heuristics`
 - **learning / decision**: `reinforcement-learning`, `imitation-learning`, `machine-learning`, `forecasting`, `black-litterman`, `portfolio-optimization`, `asset-allocation`, `asset-pricing`, `factor-investing`, `accruals`, `profitability`, `risk-modeling`
 - **cross-cutting**: `optimization`, `operations-research`, `modeling-pattern`, `multi-objective`, `fairness`, `decomposition`, `dynamic-programming`, `approximation-algorithms`, `synchronization`, `energy-modeling`, `survey`, `paper`
 
@@ -41,6 +41,18 @@ Domain families:
 | `truck-and-drone` | `truck-drone-routing` |
 | `uav-routing` | `drone-routing` |
 | `factor-models` | `factor-investing` |
+| `time-expanded-networks` | `time-space-network` |
+| `depot-discretization` | `dynamic-discretization` |
+| `duration-objective` | `scheduling` |
+| `waiting-arcs` | `time-space-network` |
+| `enumeration` / `exact-algorithms` | `exact-methods` |
+| `time-dependent-travel` | `scheduling` |
+| `travel-time-functions` | `time-windows` |
+| `piecewise-linear` / `preprocessing` / `pruning` / `correctness` / `arc-sets` / `infeasible-sequences` / `properties-lemmas` | `modeling-pattern` |
+| `network-refinement` / `arc-lengthening` | `dynamic-discretization` |
+| `relaxation` | `approximation-algorithms` |
+| `feasible-solutions` | `primal-heuristics` |
+| `location-based` | `time-windows` |
 
 ## Rules
 

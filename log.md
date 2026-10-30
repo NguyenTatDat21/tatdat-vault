@@ -238,3 +238,4 @@ title: Wiki Log
 - [2026-10-30T19:48:56Z] AUDIT pages_scanned=228 pages_modified=228 notes="full gate run after all fixes: 0 failures on knowledge pages (a-n, p), qmd refreshed"
 - [2026-10-30T19:48:56Z] HOT
 - [2026-10-30T19:48:57Z] INDEX
+- [2026-10-30T20:40:55Z] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
