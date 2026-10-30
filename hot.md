@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T21:07:21Z
+updated: 2026-10-30T21:07:31Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,8 +11,8 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] AUDIT pages_scanned=6 pages_modified=6 notes=6 W23 DDD concept pages: base_confidence 0.57->0.67 (n=1), ...
 - [2026-10-30] INDEX
+- [2026-10-30] HOT
 - [2026-10-30] HOT
 
 ## Active Threads
