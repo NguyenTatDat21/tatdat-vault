@@ -10,12 +10,12 @@ provenance:
   inferred: 0.09
   ambiguous: 0.0
 base_confidence: 0.67
-created: '2026-10-28T23:10:00+07:00'
-updated: 2026-10-30T21:01:34Z
+created: 2026-10-28T23:21:38Z
+updated: 2026-10-30T21:04:57Z
 tier: core
 category: concepts
 lifecycle: draft
-lifecycle_changed: '2026-10-28'
+lifecycle_changed: 2026-10-28T23:21:38Z
 sources:
   - "[[_papers/vu2020dynamic/vu2020dynamic-extracted.md]]"
   - "[[_papers/vu2020dynamic/vu2020dynamic.md]]"

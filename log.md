@@ -239,3 +239,5 @@ title: Wiki Log
 - [2026-10-30T19:48:56Z] HOT
 - [2026-10-30T19:48:57Z] INDEX
 - [2026-10-30T20:40:55Z] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
+- [2026-10-30T21:02:04Z] TAG_NORMALIZE tags_renamed=44 pages_modified=8 new_tags_added=6
+- [2026-10-30T21:02:04Z] AUDIT pages_scanned=6 pages_modified=6 notes="sources blocks rewritten as YAML list items, base_confidence aligned to n=1 (0.57->0.67), gate j fixed to scan body only; gate still reports h FAIL for the 13 non-UTC (+07:00) timestamps"
