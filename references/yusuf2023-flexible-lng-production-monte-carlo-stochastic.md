@@ -10,7 +10,7 @@ provenance:
 tier: supporting
 category: references
 base_confidence: 0.67
-created: "2026-10-28T21:30:00+07:00"
+created: 2026-10-28T14:30:00Z
 updated: 2026-10-30T14:08:41Z
 lifecycle: draft
 lifecycle_changed: "2026-10-28"

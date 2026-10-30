@@ -8,7 +8,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 base_confidence: 0.67
-created: "2026-10-28T22:52:00+07:00"
+created: 2026-10-28T15:52:00Z
 updated: 2026-10-30T14:39:22Z
 tier: core
 category: concepts

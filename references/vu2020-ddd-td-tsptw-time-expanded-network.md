@@ -12,7 +12,7 @@ provenance:
   inferred: 0.19
   ambiguous: 0.07
 base_confidence: 0.67
-created: '2026-10-28T23:10:00+07:00'
+created: 2026-10-28T16:10:00Z
 updated: 2026-10-30T16:34:49Z
 tier: core
 category: references
