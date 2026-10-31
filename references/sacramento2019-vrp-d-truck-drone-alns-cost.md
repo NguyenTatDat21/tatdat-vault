@@ -9,7 +9,7 @@ provenance:
   ambiguous: 0.01
 base_confidence: 0.67
 created: 2026-10-28T14:56:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T22:42:16Z
 tier: core
 category: references
 lifecycle: source
@@ -60,6 +60,8 @@ relationships:
   - target: "[[concepts/vehicle-routing-with-synchronization-constraints]]"
     type: related_to
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
+  - target: "[[references/tamke2023-vrpd-dss]]"
+    type: conflicts_with
     type: related_to
 
 ---
@@ -113,7 +115,7 @@ Table 4 group averages over the 112 uniform instances:
 | 100 | 16 | 19.71 | 26.89 |
 | 150 | 16 | 24.00 | 28.20 |
 | 200 | 16 | 20.90 | 25.01 |
-| **All** | **112** | **19.17** | **26.34** |
+| **All** | **112** | **19.17** | **29.91** |
 Average drone usage: the number of customers served by drones grows linearly with customer count, reaching about 50% of potential drone customers; a route with n_t truck visits launches at most n_t+1 drones, so an n-customer instance admits at most 2n/3 sorties with n/3 trucks. Endurance use decreases with instance size, and no more than 60% of the battery time is consumed between launch and recovery. The 12.10.4 instance reaches 47.88% saving, 20.20.3 31.21%, 100.10.1 32.66%, 150.20.2 31.24%, 200.40.1 26.95% with 172 customers, 200.40.2 22.56% with 178.
 
 ## Sensitivity: cost, endurance, speed, payload
@@ -135,7 +137,7 @@ The conclusion states that endurance must be significantly reduced below 30 minu
 ## Figures
 
 ![[_papers/sacramento2019adaptive/images/page_2_image_4.jpg]]
-Figure 1: Example of a delivery drone. Photo by Sam Churchill.
+Figure 1: Example of a delivery drone. Photo by Sam Churchill <sup>1</sup>.
 
 ![[_papers/sacramento2019adaptive/images/page_7_image_3.jpg]]
 Figure 2: Example of a VRP-D solution. The solid lines indicate the route of the trucks, while the dashed lines indicate the trips of the drones. Filled circle nodes represent customers that, due to a heavy delivery, can only be visited by the truck and emptied circle nodes represent customers that can be visited by either the truck or the drone. Triangle nodes corresponds to drone visits in the solution.
@@ -153,16 +155,16 @@ Figure 5: Prohibited move of new launches.
 Figure 6: Prohibited move of new launches within a sortie.
 
 ![[_papers/sacramento2019adaptive/images/page_19_image_2.jpg]]
-Figure 7: Example of the String Relocation algorithm in the same route (top) and in another route (bottom). On the left, there is the initial solution after the first three steps and on the right, there is the initial solution improved after the string relocation algorithm.
+Figure 7: Example of the String Relocation algorithm in the same route (top) and in another route (bottom). On the $l e f t ,$ there is the initial solution after the first three steps and on the right, there is the initial solution improved after the string relocation algorithm.
 
 ![[_papers/sacramento2019adaptive/images/page_23_image_0.jpg]]
 Figure 8: Example of Greedy truck-first and sortie-second repair method in the algorithm. The solid lines indicate the route of the trucks, while the dashed lines indicate the trips of the drones. Filled circle nodes represent customers that can only be visited by the truck and circle nodes represent customers that can be visited by either the truck or the drone. Triangle nodes corresponds to drone visits in the solution.
 
 ![[_papers/sacramento2019adaptive/images/page_30_chart_1.jpg]]
-Figure 10: Average saving of the best known solution with respect to the initial solution and to the truck-only case per instance.
+Figure 10: Average saving of the best known solution with respect to the initial solution $( l e f t )$ and to the truck-only case (right) per instance.
 
 ![[_papers/sacramento2019adaptive/images/page_31_chart_0.jpg]]
-Figure 11: Average number of sorties and average sortie endurance utilization per instance.
+Figure 11: Average number of sorties $( l e f t )$ and average sortie endurance utilization (right) per instance.
 
 ![[_papers/sacramento2019adaptive/images/page_31_image_4.jpg]]
 Figure 12: Best known solution for the VRP-D and VRP for an instance with 20 customers. The solid lines indicate the route of the trucks, while the dashed lines indicate the trips of the drones.
@@ -184,6 +186,8 @@ Figure 21: Distribution of the saving obtained by serving the customers using a 
 Primary source: `_papers/sacramento2019adaptive/sacramento2019adaptive-extracted.md` with the Zotero sidecar `_papers/sacramento2019adaptive/sacramento2019adaptive.md` (Zotero key XP2IP9T4, journalArticle, title "An adaptive large neighborhood search metaheuristic for the vehicle routing problem with drones", publication Transportation Research Part C: Emerging Technologies, date 2019-05-01, DOI 10.1016/j.trc.2019.02.018). Figures 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 19, 20, 21 are embedded with verbatim captions; equation, table and chart crops not embedded in the page are not listed as sources. Instances are public at Zenodo, DOI 10.5281/zenodo.2572764.
 
 ## Related
+
+- [[references/tamke2023-vrpd-dss]] — contradicts this paper on speed: Sacramento et al. report speed is not a determining factor with a fuel-only cost, while Tamke & Buscher make speed a decision variable and find the pre-selected speed has a large cost impact. ^[ambiguous]
 
 - [[references/murray2015flying]] - the Flying Sidekick TSP this VRP-D MIP extends, with time minimization, single truck and single drone, and the PDSTSP fleet variant.
 - [[references/windrasmara2022-alns-multi-drop-fstsp]] — multi-drop FSTSP ALNS; uses Sacramento's drone-cost ≈ 10 % of truck for its managerial cost model.

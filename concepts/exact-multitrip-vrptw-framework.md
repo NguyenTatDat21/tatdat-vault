@@ -40,7 +40,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:15:49Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-31T22:42:16Z
 ---
 
 # Exact Multitrip VRPTW Framework
@@ -52,6 +52,8 @@ The ESF pattern solves multitrip VRPs with time windows by modeling route **stru
 - Build an exact formulation around route structures, not only classical trip/journey indexing.
 - Use lower bounds early to prune weak structures (`P1` CVRPTW-based and `P2` relaxed-structure based).
 - Inject subset-row inequalities and branch-and-cut logic on the reduced model.
+
+- The structure set is cut on the fly by the TOPTW separation problem $\eta_m(\tilde{\mathscr{S}})=\max \sum_r (\sum_s \alpha_{sr}) y_r$, whose optimal value exceeds $m$ only when a structure cannot be executed inside the time windows; completion bounds come from ng-path relaxation (Baldacci et al. 2011, 2012).
 
 ![[_papers/paradiso2020exact/images/page_9_image_13.jpg]]
 *Figure 1 (paper): "Example of a Support Graph with Six Structures" — structures are the nodes of a support graph; arcs encode time-compatible structure sequencing.*

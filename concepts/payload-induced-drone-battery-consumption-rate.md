@@ -60,7 +60,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T10:00:17Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-31T22:42:16Z
 ---
 
 # Payload-induced Drone Battery Consumption Rate (BCR)
@@ -78,6 +78,8 @@ Payload-induced BCR models battery consumption as a function of carried payload 
 - With this model, route feasibility can change materially compared with constant-BCR assumptions.
 - Scheduling and fleet-sizing decisions should be recalculated under payload-aware energy constraints.
 - Preprocessing rules that remove capacity- or energy-infeasible arcs can significantly reduce optimization search space.
+
+- Tamke & Buscher 2023 keep the linear-payload picture only inside a nonlinear power model: hovering power $P^{H,min}=T^{3/2}/\sqrt{\tfrac12\pi n D^{2}\rho}$ with efficiency $\eta$ and safety factor $\sigma$, so payload enters through thrust ($T^{3/2}$), not as a per-minute rate. Their battery feasibility constraint is $e_{ijk}+\max(\tau_{ik}^{T}-\tau_{ijk},0)P^{H}(0)\le\varepsilon E$ with $E=976.8$ Wh and $\varepsilon=0.80$. ^[inferred]
 - Fuertes et al. do not model payload-dependent drain (Euclidean distances, zero service time, one shared fleet speed), but battery depletion is the stated motivation for their cooperative reward sharing: $t_{max}$ is set so each UAV reaches roughly half the nodes, and cooperation mitigates lost/UAV-depleted agents because shared regions stay reachable by the rest. Per-agent payload-BCR feasibility is the constraint family such a cooperative fleet planner must enforce. ^[inferred] [[references/fuertes2023-transformer-multi-uav-routing]]
 
 Ignoring payload-sensitive BCR tends to overestimate operational feasibility in heterogeneous-demand settings. ^[inferred]

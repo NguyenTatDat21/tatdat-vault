@@ -27,6 +27,8 @@ relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
   - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: conflicts_with
     type: related_to
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
@@ -42,7 +44,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T17:47:00Z
+updated: 2026-10-31T22:42:16Z
 ---
 
 # Drone Speed Selection in Truck-Drone Routing
@@ -57,6 +59,8 @@ The mFSTSP-VDS of [[references/raj2020multiple-variable-drone-speed-mfstsp|Raj &
 - Allowing speed selection (VRPD-DSS) outperformed fixed-speed VRPD on average; even the best fixed-speed baseline (12 m/s) was still about **0.59%** (1 drone) and **0.78%** (2 drones) worse on 20-customer tests.
 - Dominance-based preprocessing is operationally important: roughly **23.10%** of candidate operations were removed and solve times dropped substantially while preserving optimal costs.
 
+- Sacramento et al. 2019 found speed is not a determining factor, but their objective counts only fuel and a per-km drone cost; Tamke & Buscher include driver wages and energy, so speed changes cost through time and range. The disagreement is about the cost model, not the physics. ^[ambiguous]
+
 In practice, speed selection matters more as fleet/drone coordination complexity grows, because fixed-speed choices become harder to tune across diverse route patterns. ^[inferred]
 Related pages: [[references/tamke2023-vrpd-dss]], [[concepts/k-multi-visit-drone-routing-problem]], [[references/poikonen2020-k-mvdrp]], [[references/montemanni2024-pdsvrp-collective-drones]].
 
@@ -67,6 +71,8 @@ Related pages: [[references/tamke2023-vrpd-dss]], [[concepts/k-multi-visit-drone
 
 
 ## Related
+
+- [[references/sacramento2019-vrp-d-truck-drone-alns-cost]] — contradicts on whether drone speed affects cost (fuel-only vs wages+energy cost model)
 
 - [[references/ha2018-min-cost-tsp-d]] — shares drones + optimization tags with this page
 - [[references/montemanni2023-cp-pdsvrp]] — shares drones + optimization tags with this page

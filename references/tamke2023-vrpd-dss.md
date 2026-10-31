@@ -25,6 +25,8 @@ relationships:
   - target: "[[references/torabbeigi2020-payload-bcr-drone-scheduling]]"
     type: related_to
   - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
+  - target: "[[references/sacramento2019-vrp-d-truck-drone-alns-cost]]"
+    type: conflicts_with
     type: related_to
 sources:
   - _papers/tamke2023vehicle/tamke2023vehicle-extracted.md
@@ -44,7 +46,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-31T22:42:16Z
 ---
 
 # Vehicle Routing Problem with Drones and Drone Speed Selection (Tamke & Buscher, 2023)
@@ -131,6 +133,10 @@ Savings against truck-only delivery remained significant, and most savings were 
 - [[_papers/tamke2023vehicle/tamke2023vehicle-extracted.md]]
 - [[_papers/tamke2023vehicle/tamke2023vehicle.md]]
 - [[_papers/tamke2023vehicle/images/page_7_chart_0.jpg]]
+  Figure 1 (a) Expended power — caption: Figure 1: Expended power, energy consumption to fly 1000 m, and energy consumption to fly 1000 m plus hovering up to 180 s are reached for different speeds and package masses $m _ { \mathrm { p } }$
 - [[_papers/tamke2023vehicle/images/page_7_chart_2.jpg]]
+  Figure 1 (b) Energy consumption only flight
 - [[_papers/tamke2023vehicle/images/page_7_chart_4.jpg]]
+  Figure 1 (c) Energy consumption flight and hover
 - [[_papers/tamke2023vehicle/images/page_10_chart_0.jpg]]
+  Figure 2: Relation between variables for resources time and energy
