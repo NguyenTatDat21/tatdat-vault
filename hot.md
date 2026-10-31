@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T18:08:07Z
+updated: 2026-10-31T19:01:06Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] INGEST key=meng2023multivisit pages=references/meng2023-multivisit-drone-pickup-delivery.md source=_papers/meng2023multivisit
-- [2026-10-31] INGEST key=meucci2010fully pages=references/meucci2010-fully-flexible-views.md source=_papers/meucci2010fully
-- [2026-10-31] CROSS_LINK page=concepts/simulated-annealing-metropolis-cooling.md link=references/meng2023-multivisit-drone-pickup-delivery.md
+- [2026-10-31] CROSS_LINK key=_papers/zhang2021energy pages=references/
+- [2026-10-31] CROSS_LINK key=_papers/torabbeigi2020drone pages=references/
+- [2026-10-31] CROSS_LINK key=_papers/vu2020dynamic pages=references/
 
 ## Active Threads
 

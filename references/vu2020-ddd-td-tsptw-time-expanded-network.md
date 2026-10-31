@@ -13,7 +13,7 @@ provenance:
   ambiguous: 0.07
 base_confidence: 0.67
 created: 2026-10-28T16:10:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T18:20:35Z
 tier: core
 category: references
 lifecycle: draft
@@ -55,7 +55,32 @@ Time-dependent traveling salesman problem with time windows (TD-TSPTW): a vehicl
 
 The integer program TD-TSPTW(D) is defined on a time-expanded network D = (N, A) with nodes (i, t) for time points T_i including e_i and l_i, and arcs ((i, t), (j, t')) with t' = max{e_j, t + τ_ij(t)} (the arc embeds waiting) and t' ≤ l_j. Constraint 1 requires the vehicle to arrive at each location exactly once inside the window; constraint 2 is flow balance, so the vehicle departs from each node it reaches; constraint 3 defines binary variables. Time windows and time-dependent travel times are embedded directly in the network.
 
+Core equations of TD-TSPTW(D) (source lines 88–100):
+
+$$
+\min z = \sum_{(i,t),(j,t') \in A} c_{ij}(t)\, x_{((i,t),(j,t'))}
+\tag{P}
+$$
+
+$$
+\sum_{A} x_{((i,t),(j,t'))} = 1 \quad \forall j \in N \tag{1}
+\qquad
+\sum_{A} x_{((h,t'),(i,t))} = \sum_{A} x_{((i,t),(j,t'))} \quad \forall (i,t) \in N,\ i \neq 0 \tag{2}
+\qquad
+x_{((i,t),(j,t'))} \in \{0,1\} \tag{3}
+$$
+
+with arcs defined by `t' = max{e_j, t + τ_ij(t)}` and `t' ≤ l_j`.
+
 Makespan is modeled by setting c_ij(t) = 0 for all arcs with j not the depot and c_i0(t) = t + τ_i0(t) for return arcs, so costs are incurred only on return, and the cost function is non-negative and non-decreasing in t. The duration objective sets c_0j(t) = −t for arcs leaving the depot, so the cost is non-positive and non-increasing; under FIFO, the only waiting that is ever beneficial is at the depot. ^[inferred]
+
+$$
+\min \sum_{(i,t)\in N} \left(t + \tau_{i0}(t)\right) x_{((i,t),(0,l_0))} \tag{4}
+\qquad
+\min \sum_{(0,t),(j,t')\in A} \left(t' - t\right) x_{((0,t),(j,t'))} \tag{5}
+\qquad
+c_{0j}(t) := -t \tag{6}
+$$
 
 ## The partially time-expanded network and its properties
 
@@ -69,11 +94,39 @@ DDD-TD-TSPTW, implemented in C++ with Gurobi 6.5.0 on a Xeon E5-4610 v2 2.30GHz 
 
 The initial D_T has node set = {e_i, l_i} for all locations. Each iteration solves TD-TSPTW(D_T), which gives a lower bound that can be computed with an early termination on the IP, then attempts to convert the integer solution to a feasible TD-TSPTW solution. Two primal networks are built at every iteration: D̄¹ with arcs at least as long as correct travel time, whose solutions are always feasible, and D̄², which keeps arcs with t' > t and replaces non-positive arcs with longer ones, guaranteeing no subtours. A candidate solution from D_T can be converted when it has no subtour and no time-window-violating sequence; conversion assigns dispatch times as early as possible. Valid inequalities are added for every detected subtour M and infeasible location sequence M, respectively summing x over M at most |M|−1 and summing x over the sequence at most |M|−2, and, because M is defined by locations, the inequalities apply to every time-expanded network. Lengthening a too-short arc in every iteration guarantees correctness; lengthening arcs opportunistically, adding the nodes needed to continue along the path, is computationally beneficial, and pruning arcs when a new feasible solution z is found, removing arcs with t + τ_ij(t) ≥ z and resetting l_0 = z − 1, then re-running preprocessing, makes the IP smaller. TerFinite: nodes and arcs are never removed, so after a finite number of iterations D_T equals D. ^[ambiguous]
 
+Valid inequalities (source lines 361, 369):
+
+$$
+\sum_{(i,t),(j,t') \in A \atop i,j \in M} x_{((i,t),(j,t'))} \le |M| - 1 \tag{7}
+\qquad
+\sum_{(i,t),(j,t') \in A \atop i,j \in M} x_{((i,t),(j,t'))} \le |M| - 2 \tag{8}
+$$
+
+(7) is the subtour inequality, (8) the infeasible-sequence inequality; both are defined by locations, so they hold for every time-expanded network.
+
 ## Computational results
 
 Set 1 has 952 instances (960 reported, 8 missing, as Montero et al. 2017 also found) with 3 travel-time intervals, Set w100 has 960 instances with 73 intervals; n ranges 15, 20, 30, 40; customers sit in three concentric zones, city center, outskirts, residential area, traffic density depends on the origin zone, congestion parameter Δ, and two traffic patterns A, B; day is divided into morning, middle, evening periods, data multiplied by 100 and rounded. Table 1: Set 1 A, TTBF-BC 478/470/31.99 vs DDD 478/478/12.91; Set 1 B, 474/470/20.44 vs 474/474/8.79; w100 A, 108/107/100.13 vs 480/480/1.31; w100 B, 108/107/93.10 vs 480/480/1.14. TTBF-BC time is 3-4 times higher on w100 than Set 1, DDD is faster on w100 than Set 1; the DDD times on w100 include instances TTBF-BC did not solve. TTBF-BC is sensitive to the number of breakpoints, the root gap is larger on w100, so DDD is robust to time-dependent data. ^[inferred]
 
+Headline results (Table 1, instances solved / average time / average iterations, TTBF-BC vs DDD):
+
+| Benchmark set | pattern | TTBF-BC | DDD |
+| --- | --- | --- | --- |
+| Set 1 (952 instances, 3 travel-time intervals) | A | 478 / 31.99 s / 23.78 | 478 / 12.91 s / 15.51 |
+| Set 1 | B | 474 / 20.44 s / 15.32 | 474 / 8.79 s / 10.52 |
+| Set w100 (960 instances, 73 intervals) | A | 108 / 100.13 s / 110.40 | 480 / 1.31 s / 3.58 |
+| Set w100 | B | 108 / 93.10 s / 105.81 | 480 / 1.14 s / 3.01 |
+
 Dual gap, defined as (LB* − LB_1)/LB*, and primal gap (UB_1 − UB*)/UB_1, are not greatly impacted by instance size, the dual gap is smaller for w100 than Set 1, unlike TTBF-BC's root gap. The correlation coefficient between the average time-window width and DDD solve time on Set 1 is 0.01, so window width is irrelevant. Congestion: Set 1/w100 solve times 7.02/1.11 at Δ = 70, 9.77/1.2 at Δ = 80, 17.04/1.3 at Δ = 90, 9.59/1.28 at Δ = 98, so Δ = 90 is worst, and there is no clear relation between congestion and solve time. Configurations: Base 950/101.19/17.46, Base + VI 948/110.42/15.99, Base + Primal 952/24.68/4.14, Base + VI + Primal 952/10.94/4.62 for Set 1 (solved, time, iterations), and w100 960/3.94/9.97, 960/4.09/9.65, 960/3.18/3.28, 960/1.22/4.11. The valid inequalities barely matter, only 5.08 subtour-based and 14.93 infeasible-sequence inequalities per instance on Set 1, 2.34 and 10.97 on w100; primal IPs dramatically reduce time and iterations, so primal IPs and VI together give the fastest runtimes. ^[inferred]
+
+Configuration comparison (instances solved / average time / average iterations, Set 1 vs Set w100):
+
+| Configuration | Set 1 | Set w100 |
+| --- | --- | --- |
+| Base | 950 / 101.19 / 17.46 | 960 / 3.94 / 9.97 |
+| Base + valid inequalities | 948 / 110.42 / 15.99 | 960 / 4.09 / 9.65 |
+| Base + primal IP | 952 / 24.68 / 4.14 | 960 / 3.18 / 3.28 |
+| Base + VI + primal IP | 952 / 10.94 / 4.62 | 960 / 1.22 / 4.11 |
 
 Network size at termination by configuration for Set 1/w100: 15 locations 62.40/56.73/66.39/37.32 vs 89.34/91.17/99.80/83.56, 20 locations 133.47/127.03/125.52/72.96 vs 146.50/144.61/158.58/124.30, 30 locations 407.33/384.03/312.85/201.27 vs 300.50/298.70/339.35/249.88, 40 locations 998.76/970.51/637.00/437.38 vs 497.08/474.78/460.80/306.87. The best primal solution comes from the lower-bound network, D̄¹, D̄², 4.21%, 53.76%, 42.04% for Set 1, 23.41%, 39.95%, 36.64% for w100, so D̄¹ contributes slightly more often, and for w100 the lower-bound network wins much more often. One primal IP alone: D̄¹ 952/14.01/7.81, D̄² 952/26.79/5.83, both 952/10.94/4.62 for Set 1, D̄¹ 960/1.37/6.68, D̄² 960/3.01/5.13, both 960/1.22/4.11 for w100. Solving both primal IPs is best.
 
@@ -93,6 +146,7 @@ The paper states that DDD-TD-TSPTW outperforms the best literature method, is ro
 
 ![[_papers/vu2020dynamic/images/page_9_image_3.jpg]]
 Figure 1(a): Full time-expanded network, D; c_ij(t)
+Figure 1 main caption: "Figure 1 Properties 3, 4 for arc (i,j) ∈ A. Numbers next to arcs indicate either real costs, c_ij(t), or underestimates, c̲_ij(t)" (source line 181).
 
 ![[_papers/vu2020dynamic/images/page_9_image_5.jpg]]
 Figure 1(b): Partially time-expanded network, D_T; c_ij(t)
@@ -118,6 +172,15 @@ Figure 6 Initial N_T
 ## Sources
 
 Primary source: `_papers/vu2020dynamic/vu2020dynamic-extracted.md` with the Zotero sidecar `_papers/vu2020dynamic/vu2020dynamic.md` (Zotero key CGY2I5XH, journalArticle, publication Transportation Science, date May 1, 2020, year 2020, DOI 10.1287/trsc.2019.0911, creators Duc Minh Vu, Mike Hewitt, Natashia Boland, Martin Savelsbergh). The extracted page header reads "Transportation Science · January 2019" with the postprint citation "Article in Advance", so the sidecar date is taken as authority, the header is the article-in-advance date, not a conflict.^[ambiguous] Figures 1a, 1b, 2, 3a, 3b, 4, 5, 6 are embedded with verbatim captions, author-profile photos and equation crops not embedded in the page are not listed as sources. Tables 1-9 are in the extracted markdown.
+
+Figure sources (verbatim captions in the Figures section):
+- [[_papers/vu2020dynamic/images/page_9_image_3.jpg]] — Figure 1(a), full time-expanded network D.
+- [[_papers/vu2020dynamic/images/page_9_image_5.jpg]] — Figure 1(b), partially time-expanded network D_T.
+- [[_papers/vu2020dynamic/images/page_12_image_1.jpg]] — Figure 2, flow chart of DDD-TD-TSPTW.
+- [[_papers/vu2020dynamic/images/page_18_image_1.jpg]] and [[_papers/vu2020dynamic/images/page_18_image_3.jpg]] — Figure 3, refining D_T (cases a and b).
+- [[_papers/vu2020dynamic/images/page_22_chart_1.jpg]] — Figure 4, solve times by number of locations.
+- [[_papers/vu2020dynamic/images/page_23_chart_1.jpg]] — Figure 5, gaps by number of locations.
+- [[_papers/vu2020dynamic/images/page_27_image_5.jpg]] — Figure 6, initial N_T.
 
 ## Related
 

@@ -1663,8 +1663,10 @@
     },
     "_papers/torabbeigi2020drone": {
       "content_hash": "d3ee6f6db2d00d33cf94b1f72fa4194c06ca6d83efdb16108590fb943b8b140d",
-      "last_ingested": "2026-10-24T20:53:41.769077+00:00",
-      "pages_produced": []
+      "last_ingested": "2026-10-31T19:00:42.275543+00:00",
+      "pages_produced": [
+        ""
+      ]
     },
     "_papers/andersson2017creating/images/page_10_equation_12.jpg": {
       "content_hash": "0cce4bb4b8df4478134b84296c7308da697ab61f9b1b6f5ac95795ad941971eb",
@@ -8567,6 +8569,20 @@
       "last_ingested": "2026-10-31T18:05:12.552539+00:00",
       "pages_produced": [
         "references/meng2023-multivisit-drone-pickup-delivery.md"
+      ]
+    },
+    "_papers/zhang2021energy": {
+      "content_hash": "8bcab47ef5971833233ddcc9087bc0c312e3fab99949015efefcc62d7e4a9acc",
+      "last_ingested": "2026-10-31T19:00:42.082128+00:00",
+      "pages_produced": [
+        ""
+      ]
+    },
+    "_papers/vu2020dynamic": {
+      "content_hash": "707877dcd3913b3c284ecafac7876b2d81140c98c9d055b8eec194520431f64e",
+      "last_ingested": "2026-10-31T19:00:42.364548+00:00",
+      "pages_produced": [
+        ""
       ]
     }
   },

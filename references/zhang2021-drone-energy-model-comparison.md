@@ -12,6 +12,9 @@ sources:
   - "[[_papers/zhang2021energy/images/page_14_chart_2.jpg]]"
   - "[[_papers/zhang2021energy/images/page_16_chart_2.jpg]]"
   - "[[_papers/zhang2021energy/images/page_16_chart_5.jpg]]"
+  - "[[_papers/zhang2021energy/images/page_14_chart_5.jpg]]"
+  - "[[_papers/zhang2021energy/images/page_1_image_2.jpg]]"
+  - "[[_papers/zhang2021energy/images/page_2_image_2.jpg]]"
 relationships:
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
     type: related_to
@@ -19,13 +22,19 @@ relationships:
     type: related_to
   - target: "[[references/liu2017power]]"
     type: derived_from
+  - target: "[[concepts/multirotor-power-model-components]]"
+    type: sees_also
+  - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
+    type: sees_also
+  - target: "[[references/dorling2017-drone-delivery-vrp]]"
+    type: sees_also
 summary: "Zhang et al. (TR-D 2021) unify notation for 12 drone energy models; Epm spans 16 to 400 J/m, factor 3-5 spread on one drone, so model choice changes range and emissions."
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-27
-tier: supporting
+tier: core
 created: 2026-10-27T08:15:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T18:20:35Z
 provenance:
   extracted: 0.92
   inferred: 0.08
@@ -47,6 +56,12 @@ provenance:
 - Five interrelated aspects: payload weight, battery weight, airframe weight, airspeed, range. The three weights (+) increase the energy rate; airspeed has a (+/−) effect because power is approximately convex in airspeed (induced, parasite and profile drag competing); the energy rate plus battery weight/capacity determines range. `^[inferred]` The battery trade-off is the crux: a heavier battery raises the energy rate, lowering range, while adding capacity, raising it.
 - Drones carried on other vehicles expend little or no energy; landing, tether-lowering and parachute drops use different amounts; paired truck-drone or multi-drone coordination can force substantial hovering.
 
+![[_papers/zhang2021energy/images/page_1_image_2.jpg]]
+*Fig. 1. Factors affecting drone energy consumption.*
+
+![[_papers/zhang2021energy/images/page_2_image_2.jpg]]
+*Fig. 2. Interrelated aspects of the energy consumption rate for drone delivery.*
+
 ## Three thrust assumptions define three literature streams
 
 - (i) thrust equals drag and lift equals weight, so `T = W / r` with `r = L/D`; (ii) thrust equals weight, as for a hovering helicopter; (iii) thrust equals the sum of weight, drag and lift. The assumption encodes whether the model treats the drone as a fixed-wing aircraft or a helicopter.
@@ -61,7 +76,19 @@ provenance:
 
 - Notation: air density `ρ`, gravity `g`, induced speed `v_i`, airspeed `v_a`, headwind ratio `φ` so ground speed `v = (1 − φ)v_a`, one-way distance `d`, lift-to-drag ratio `r`, power transfer efficiency `η` (battery to propeller), charging efficiency `η_c`, component index k = body/battery/payload, drag coefficients `C_{D_k}`, projected areas `A_k`, masses `m_k`, depth of discharge `γ`, specific energy `s_batt`, safety factor `f`, maximum one-way range `R`, power `P`, avionics power `P_avio`, rotors `n`, blades `N`, blade chord `c`, blade drag `c_d`, rotor disc area `ς`, angle of attack `α`, energy per metre `Epm`.
 - `R = m_2 · s_batt · γ / ((Epm_loaded + Epm_unloaded) · f)` — the range formula used for every model in the common setting.
+
+$$
+R = \frac{m_2 s_{\text{batt}} \gamma}{(Epm_{\text{loaded}} + Epm_{\text{unloaded}}) f}\tag{17}
+$$
 - Table 5 gives five models: **LD** (D'Andrea, `Epm = Σ m_k g / (r η)`), **RH** (Dorling hovering, `Epm = (Σ m_k g)^{3/2} / (η v_a √(2 n ρ ς))`), **R2** (Stolaroff two-component), **R3** (Kirchstein three-component with profile power), **LR** (Tseng regression `Epm = −2.595 + (0.197 m_2 + 251.7)/v_a` for small payloads below 5 m/s).
+
+Core equations as given in Table 5:
+
+$$
+Epm_{\text{LD}} = \frac{\sum_{k=1}^{3} m_k g}{r\eta}
+\qquad
+Epm_{\text{RH}} = \frac{\left(\sum_{k=1}^{3} m_k g\right)^{3/2}}{\eta v_a \sqrt{2 n \rho \varsigma}}
+$$
 - Equations 1–23 restate every published model in this notation, including D'Andrea's `P = (Σ m_k) g v_a / (r η) + P_avio` (eq. 2, the 370 constant in eq. 1 converts km/h), Figliozzi's empty-return average `Epm = ½(gΣm_k/(r(v)ηη_r) + gΣm_{k≤2}/(r(v)ηη_r))` (eq. 5), Kirchstein's four-term Epm with lifting-power markup κ and downwash coefficient w (eq. 21), and Liu's thrust `T = √((Σ m_k g − c_5(v_a cos α)²)² + (½ρΣ C_{D_k}A_k v_a²)²)` (eq. 18).
 
 ![[_papers/zhang2021energy/images/page_11_chart_2.jpg]]
@@ -82,9 +109,24 @@ provenance:
 
 - Common parameters (Table 6): ρ = 1.225 kg/m³, g = 9.807, φ = 0, empty return on, `s_batt` = 540,000 J/kg, η = 0.7, f = 1.2, γ = 0.5. Small drone: quadcopter, 4 blades of chord 0.0157 m, `c_l` 0.271, `c_d` 0.012, 4 rotors of disc area 0.0507 m², body 1.07 kg, battery 1 kg, payload 0.5 kg, areas 0.0599/0.0037/0.0135 m², drag coefficients 1.49/1/2.2, r = 3, no avionics, κ = 1, κ₂ 0.790, κ₃ 0.0042, parasite factors 0.075 loaded and 0.057 unloaded. Large drone: octocopter, 3 blades of chord 0.1 m, `c_l` 0.4, `c_d` 0.075, 8 rotors of 0.027 m², body 7 kg, battery 10 kg, payload 7 kg, areas 0.224/0.015/0.0929, κ₂ 0.683, κ₃ 0.0868, parasite factors 0.339/0.214; its battery carries 10× the energy of the small drone.
 - Epm-minimising speed and range (Table 7): small drone LD 10.8 J/m at 12.5 m/s and 10.4 km, RH 36.8 at 6 m/s and 3.1 km, R2 28.2 at 10 m/s and 4.0 km, R3 37.8 at 11 m/s and 3.0 km. Large drone: LD 95.7 J/m and 11.8 km, RH 404.8 J/m and 2.8 km, R2 211.6 J/m at 13 m/s and 5.3 km, R3 415.8 J/m at 16 m/s and 2.7 km.
+
+Headline results (Table 7, lines 489–491; LR from Fig. 6–7, lines 521–523):
+
+| Model | Basis | Epm small (J/m) | Speed (m/s) | Range small (km) | Epm large (J/m) | Speed (m/s) | Range large (km) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LD | D'Andrea (2014), `T = W/r` | 10.8 | 12.5 | 10.4 | 95.7 | 12.5 | 11.8 |
+| RH | Dorling et al. (2017), hovering | 36.8 | 6 | 3.1 | 404.8 | 6 | 2.8 |
+| R2 | Stolaroff et al. (2018), induced + parasite | 28.2 | 10 | 4.0 | 211.6 | 13 | 5.3 |
+| R3 | Kirchstein (2020), + profile power | 37.8 | 11 | 3.0 | 415.8 | 16 | 2.7 |
+| LR | Tseng et al. (2017b), regression | 47.8–57.6 | 5 | 2.0–2.4 | not applicable (small drone only) | — | — |
+
+Speeds shown are the Epm-minimising speeds for R2/R3 and the speeds used in the LD and RH references (12.5 and 6 m/s).
 - At the optimal speed R3 estimates 34% higher Epm and 25% shorter range than R2 for the small drone, and 96% higher Epm with 49% shorter range for the large drone; LD gives 62% lower Epm and 160% longer range than R2 for the small drone.
 - Adjusting r to 0.8–1.2 (small) or 0.7–1.4 (large) would bring LD in line with the energy-minimising values of R2 and R3. `^[inferred]` Model choice and parameter choice are inseparable: the r value alone reconciles the classes.
 - Range vs airspeed: LD is flat, RH and LR increase linearly, R2 and R3 follow the convex Epm shape, maxing near 4 km and 3 km (small) and 5.7 km and 2.9 km (large). Payload increases Epm roughly linearly, by 20–40% from 0 to 7 kg; large-drone Epm is 6–10× the small-drone Epm in the same 0–0.5 kg payload band, so flying a large drone with a small payload is energy-inefficient.
+
+![[_papers/zhang2021energy/images/page_14_chart_5.jpg]]
+*Fig. 5. Maximum flight range versus airspeed for small and large drones.*
 - Range falls with payload for every model: LD 10.5–11.6 km (small) and 12.1–14.2 km (large), LR 2.0–2.4 km, RH and R3 3.0–3.5 km, R2 39–48% of LD.
 
 ![[_papers/zhang2021energy/images/page_16_chart_2.jpg]]
@@ -125,3 +167,6 @@ provenance:
 ## Sources
 
 - [[_papers/zhang2021energy/zhang2021energy-extracted.md]] — Zhang, Campbell, Sweeney II, Hupman, *Transportation Research Part D: Transport and Environment*, 2021-01-01, DOI 10.1016/j.trd.2020.102668; zotero-key AAI27WZU.
+- [[_papers/zhang2021energy/images/page_1_image_2.jpg]] — Fig. 1, "Factors affecting drone energy consumption."
+- [[_papers/zhang2021energy/images/page_2_image_2.jpg]] — Fig. 2, "Interrelated aspects of the energy consumption rate for drone delivery."
+- [[_papers/zhang2021energy/images/page_14_chart_5.jpg]] — Fig. 5, "Maximum flight range versus airspeed for small and large drones."

@@ -14,6 +14,8 @@ relationships:
     type: related_to
   - target: "[[references/dorling2017-drone-delivery-vrp]]"
     type: related_to
+  - target: "[[references/zhang2021-drone-energy-model-comparison]]"
+    type: related_to
   - target: "[[concepts/peukert-law-battery-discharge]]"
     type: related_to
   - target: "[[concepts/collective-drone-delivery]]"

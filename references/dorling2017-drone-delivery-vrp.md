@@ -15,6 +15,8 @@ relationships:
     type: related_to
   - target: "[[references/yang2022-vrpd-bilevel-heuristic]]"
     type: related_to
+  - target: "[[references/zhang2021-drone-energy-model-comparison]]"
+    type: related_to
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
     type: related_to
   - target: "[[concepts/bilevel-vrpd-task-assignment-routing]]"

@@ -19,6 +19,8 @@ relationships:
     type: related_to
   - target: "[[references/raj2020multiple-variable-drone-speed-mfstsp]]"
     type: related_to
+  - target: "[[references/zhang2021-drone-energy-model-comparison]]"
+    type: related_to
   - target: "[[concepts/collective-drone-delivery]]"
     type: related_to
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
