@@ -10,12 +10,18 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-11-05T14:22:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
   - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
+  - target: "references/chatfield1995-problem-solving-statisticians-guide"
+  - target: "concepts/definitive-analysis-procedure-choice"
+  - target: "concepts/six-guidelines-anaesthetic-case-statistical-problem-solving"
+  - type: related_to
+  - type: related_to
+  - type: related_to
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to

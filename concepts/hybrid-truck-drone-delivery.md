@@ -29,9 +29,9 @@ tier: core
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 created: 2026-10-29T16:44:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 sources:
-  - _papers/wang2019routing/wang2019routing-extracted.md
+  - _papers/wang2019routing/wang2019routing.md
 ---
 
 # Hybrid Truck-Drone Delivery (HTDD): trucks plus truck-carried drones plus independent drones

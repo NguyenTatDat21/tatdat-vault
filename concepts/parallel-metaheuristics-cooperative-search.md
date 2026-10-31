@@ -23,7 +23,7 @@ relationships:
   - target: "[[concepts/swarm-intelligence-pso-aco]]"
     type: related_to
 sources:
-  - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
+  - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
   Parallel metaheuristics run multiple search processes; cooperative variants exchange information to improve robustness and solution quality over independent runs.
 provenance:
@@ -35,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Parallel Metaheuristics and Cooperative Search

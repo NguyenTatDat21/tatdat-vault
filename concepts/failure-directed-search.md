@@ -6,7 +6,7 @@ aliases:
   - FDS
   - plan B search
 sources:
-  - "[[_papers/vilim2015failuredirected/vilim2015failuredirected-extracted.md]]"
+  - _papers/vilim2015failuredirected/vilim2015failuredirected.md
 relationships:
   - target: "[[concepts/large-neighborhood-search]]"
     type: derived_from
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:10:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 provenance:
   extracted: 0.90
   inferred: 0.10

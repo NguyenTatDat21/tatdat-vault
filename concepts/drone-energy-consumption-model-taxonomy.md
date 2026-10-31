@@ -6,7 +6,7 @@ aliases:
   - drone Epm model classes
   - three thrust assumptions
 sources:
-  - "[[_papers/zhang2021energy/zhang2021energy-extracted.md]]"
+  - _papers/zhang2021energy/zhang2021energy.md
 relationships:
   - target: "[[references/zhang2021-drone-energy-model-comparison]]"
     type: derived_from
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:20:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 provenance:
   extracted: 0.91
   inferred: 0.09

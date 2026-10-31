@@ -10,9 +10,9 @@ base_confidence: 0.67
 tier: core
 category: concepts
 created: 2026-10-29T17:37:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 sources:
-- _papers/xinyingchen2023guide/xinyingchen2023guide-extracted.md
+- _papers/xinyingchen2023guide/xinyingchen2023guide.md
 relationships:
   - target: references/xinyingchen2023guide
     type: related_to

@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-30T23:39:41Z
+updated: 2026-10-31T00:30:27Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-30] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 ...
-- [2026-10-30] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 ...
-- [2026-10-30] HOT notes=Tag trim: 80 canonical tags in use, every knowledge page ca...
+- [2026-10-31] AUDIT knowledge_pages_scanned=234 sidecar_paired=25 prefix_rule_resolved=1 ...
+- [2026-10-31] HOT
+- [2026-10-31] INDEX
 
 ## Active Threads
 

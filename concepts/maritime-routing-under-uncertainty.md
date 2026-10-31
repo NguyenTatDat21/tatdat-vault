@@ -24,7 +24,7 @@ relationships:
   - target: "[[references/mutlu2016-lng-annual-delivery-program]]"
     type: related_to
 sources:
-  - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty-extracted.md
+  - _papers/ksciuk2023uncertainty/ksciuk2023uncertainty.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
   - _papers/christiansen2020liner/christiansen2020liner-extracted.md
   - _papers/fagerholt2023maritime/fagerholt2023maritime-extracted.md
@@ -39,7 +39,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T17:47:00Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Maritime Routing Under Uncertainty

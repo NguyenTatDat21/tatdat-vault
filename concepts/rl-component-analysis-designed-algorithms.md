@@ -10,11 +10,11 @@ base_confidence: 0.67
 tier: supporting
 category: concepts
 created: 2026-10-29T18:10:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 lifecycle: draft
 lifecycle_changed: 2026-10-29
 sources:
-- _papers/yi2023automated/yi2023automated-extracted.md
+- _papers/yi2023automated/yi2023automated.md
 - references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling.md
 relationships:
   - target: '[[references/yi2023-ace-gsf-automated-design-cvrptw]]'

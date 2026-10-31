@@ -12,7 +12,7 @@ relationships:
   - target: "[[references/christiansen2007-maritime-transportation-operations-research]]"
     type: related_to
 sources:
-  - _papers/christiansen2020liner/christiansen2020liner-extracted.md
+  - _papers/christiansen2020liner/christiansen2020liner.md
   - _papers/christiansen2013ship/christiansen2013ship-extracted.md
 summary: >-
   The optimization problem of constructing cyclic liner services, assigning vessel capacity, and routing commodity demand under transit, transshipment, and cost constraints.
@@ -25,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Liner Shipping Network Design

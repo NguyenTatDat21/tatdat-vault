@@ -6,7 +6,7 @@ aliases:
   - L over D in drone energy models
   - r and eta calibration
 sources:
-  - "[[_papers/zhang2021energy/zhang2021energy-extracted.md]]"
+  - _papers/zhang2021energy/zhang2021energy.md
 relationships:
   - target: "[[concepts/drone-energy-consumption-model-taxonomy]]"
     type: extends
@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: core
 created: 2026-10-27T09:25:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-30T18:52:00Z
 provenance:
   extracted: 0.80
   inferred: 0.20

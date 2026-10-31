@@ -8,7 +8,7 @@ relationships:
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
-  - target: "[[_papers/christiansen2013ship/christiansen2013ship-extracted]]"
+  - target: "_papers/christiansen2013ship/christiansen2013ship-extracted"
     type: related_to
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: related_to
@@ -36,7 +36,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T09:12:13Z
-updated: 2026-10-30T17:47:00Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Uncertainty in Maritime Ship Routing and Scheduling: Literature Review (Ksciuk et al., 2023)

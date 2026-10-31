@@ -29,7 +29,7 @@ relationships:
   - target: "[[references/wang2019routing]]"
     type: related_to
 sources:
-  - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
+  - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
   Tabu Search is a memory-augmented local search method that allows non-improving moves while using tabu tenure and aspiration to escape local optima.
 provenance:
@@ -41,7 +41,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Tabu Search

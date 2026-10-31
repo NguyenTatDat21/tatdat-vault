@@ -250,3 +250,6 @@ title: Wiki Log
 - [2026-10-30T23:39:25Z] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 cap=5
 - [2026-10-30T23:39:41Z] TAG_NORMALIZE tags_renamed=152 pages_modified=197 vocab_now=80 cap=5 notes="alias-normalize + lowercase + dedupe, cap 5, canonical first"
 - [2026-10-30T23:39:41Z] HOT notes="Tag trim: 80 canonical tags in use, every knowledge page capped at 5 tags (152 renames, 197 pages)"
+- [2026-10-31T00:30:26Z] AUDIT knowledge_pages_scanned=234 sidecar_paired=25 prefix_rule_resolved=1 reciprocal_added=14 notes="deterministic rule pass applied; callout/marker + core-demotion checks remain report-only (wiki-lint forbids automatic core demotion; provenance numbers are source-lineage values by design)"
+- [2026-10-31T00:30:26Z] HOT
+- [2026-10-31T00:30:26Z] INDEX

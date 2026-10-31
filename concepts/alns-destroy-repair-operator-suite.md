@@ -14,9 +14,9 @@ base_confidence: 0.67
 tier: core
 lifecycle: draft
 created: 2026-10-29T17:12:00Z
-updated: 2026-10-30T14:39:22Z
+updated: 2026-10-30T18:52:00Z
 sources:
-  - "_papers/windrasmara2022adaptive/windrasmara2022adaptive-extracted.md"
+  - _papers/windrasmara2022adaptive/windrasmara2022adaptive.md
 relationships:
   - target: "[[references/windrasmara2022-alns-multi-drop-fstsp]]"
     type: extends

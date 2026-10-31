@@ -43,7 +43,7 @@ relationships:
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
 sources:
-  - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
+  - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
   Hyper-heuristics optimize over heuristics rather than direct solutions, mainly via heuristic selection or generation with online, offline, or no learning.
 provenance:
@@ -55,7 +55,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T14:38:55Z
+updated: 2026-10-30T18:52:00Z
 ---
 
 # Hyper-Heuristics
