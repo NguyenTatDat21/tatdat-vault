@@ -30,6 +30,9 @@ relationships:
   - target: "[[concepts/adaptive-large-neighborhood-search-for-mip]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-ship-pair-destroy-repair]]"
+
+  - target: "[[concepts/hyper-heuristics]]"
+    type: related_to
     type: related_to
 lifecycle_changed: 2026-10-29T17:12:00Z
 ---

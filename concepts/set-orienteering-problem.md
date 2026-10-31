@@ -61,6 +61,12 @@ The Set Orienteering Problem extends classic orienteering by grouping vertices i
 
 ## Key Ideas
 
+$$
+\max \sum_{v \in V} p_v y_v \quad \text{s.t.} \quad \sum_{(u,v)} c_{uv} x_{uv} \le T_{max}, \qquad y_v \le \sum_{u} x_{uv}, \qquad x_{uv} \in \{0,1\}
+$$
+
+The `w`-weighted comparison counts in the vault (47, 47, 46 and 48 best-solution wins out of 48 per `w` group, and 81 improved / 107 matched best-known solutions on 192 large instances) come from [[references/lu2024-hybrid-evolutionary-algorithm-sop]], `_papers/lu2024effective/lu2024effective-extracted.md:412, 445`.
+
 - A route starts and ends at the depot.
 - Travel time is bounded by a fixed budget `T_max`.
 - A cluster contributes profit if at least one of its vertices is visited.

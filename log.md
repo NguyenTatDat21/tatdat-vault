@@ -274,3 +274,9 @@ title: Wiki Log
 - [2026-10-31T19:07:49Z] CROSS_LINK key=_papers/zhang2021energy pages=references/zhang2021-drone-energy-model-comparison.md links_added=3 typed_relations_written=yes pages_modified=4
 - [2026-10-31T19:07:50Z] CROSS_LINK key=_papers/torabbeigi2020drone pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md links_added=1 typed_relations_written=yes pages_modified=1
 - [2026-10-31T19:07:50Z] CROSS_LINK key=_papers/vu2020dynamic pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md links_added=1 typed_relations_written=yes pages_modified=1
+- [2026-10-31T21:22:39Z] INGEST key=_papers/lu2024effective pages=references/lu2024-hybrid-evolutionary-algorithm-sop.md source=_papers/lu2024effective/lu2024effective-extracted.md
+- [2026-10-31T21:22:39Z] INGEST key=_papers/shaabani2023matheuristic pages=references/shaabani2023-multiproduct-mirp-matheuristic.md source=_papers/shaabani2023matheuristic/shaabani2023matheuristic-extracted.md
+- [2026-10-31T21:22:39Z] INGEST key=_papers/santini2018comparison pages=references/santini2018-alns-acceptance-criteria.md source=_papers/santini2018comparison/santini2018comparison-extracted.md
+- [2026-10-31T21:22:40Z] CROSS_LINK key=_papers/lu2024effective pages=references/lu2024-hybrid-evolutionary-algorithm-sop.md links_added=1 typed_relations_written=yes pages_modified=1
+- [2026-10-31T21:22:40Z] CROSS_LINK key=_papers/shaabani2023matheuristic pages=references/shaabani2023-multiproduct-mirp-matheuristic.md links_added=1 typed_relations_written=yes pages_modified=1
+- [2026-10-31T21:22:40Z] CROSS_LINK key=_papers/santini2018comparison pages=references/santini2018-alns-acceptance-criteria.md links_added=1 typed_relations_written=yes pages_modified=1

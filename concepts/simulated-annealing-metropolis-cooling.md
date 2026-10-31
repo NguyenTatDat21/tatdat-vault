@@ -63,6 +63,9 @@ Chapter 1 (Delahaye, Chaimatanan & Mongeau) treats SA as the method for **black-
 Definition 5 (Metropolis acceptance, `_papers/santini2018comparison/santini2018comparison-extracted.md:200`):
 
 $$
+
+
+
 \Pr\{\text{accept}\} = e^{(z - h z)/T}, \qquad \Delta F = \frac{g(\text{new}) - g(\text{old})}{g(\text{old})}, \qquad TE_{i+1} = \alpha\, TE_i, \qquad SubIt_i = \left\lceil \frac{SubIt_{i-1}}{\beta} \right\rceil
 $$
 

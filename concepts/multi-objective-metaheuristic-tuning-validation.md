@@ -33,6 +33,11 @@ relationships:
   - target: "[[references/nguyen2023-pdstsp-collective-drones]]"
     type: related_to
   - target: "[[references/phanduc2025-pareto-front-grid-fairness-dpdptw]]"
+
+  - target: "[[references/santini2018-alns-acceptance-criteria]]"
+    type: related_to
+  - target: "[[concepts/hyper-heuristics]]"
+    type: related_to
     type: related_to
 sources:
   - _papers/ganjia2026multiobjective/ganjia2026multiobjective-extracted.md
@@ -89,7 +94,22 @@ The pattern that survives the trap: the raw-metric table plus the ε-constraint 
 
 The single-objective tension is the cleanest evidence: 10-customer example, economic orientation cost 74.52 / time 9.43 h, customer orientation time 2.17 h / cost 245.11, ε-constraint compromise 112.98 / 5.29 h. The exact method solves up to 20 customers in 10–38 minutes and fails at 23 and 25 customers within the time limit; NSGA-II solves those in 0.35–0.45 minutes — the exact method is the validator, the metaheuristics are the scalable solvers.
 
+
+## Key Ideas
+
+$$
+\Pr\{\text{accept}\} = e^{(z - h z)/T}, \qquad w_i' = \frac{(1-\lambda)\,\text{score}_i + \lambda\, w_i}{\sum_j [(1-\lambda)\,\text{score}_j + \lambda\, w_j]}
+$$
+
+the second expression is ALNS roulette-wheel weight adaptation, scored as `D_{\alpha,k} = (A_{\alpha,k} - B_k)/A_{\alpha,k}` and averaged into `S_{\alpha}` with `M = 20` runs, `\lambda = 10` and 150,000 iterations (`_papers/santini2018comparison/santini2018comparison-extracted.md:457-471`).
+
+- Single-objective tunable frameworks on common instances: F-race (CVRP), ε-constraint (multi-objective), and Wilcoxon signed-rank post-hoc comparison are the three validation styles recorded in the vault.
+- Concrete tuned settings recorded in the vault: lu2024 HEA used F-race on 24 large instances and 1000 runs, ending with `p = 5`, `L = 400`, `α = 0.05`, `u_c = 30`, `u_p = 5`, `η = 5` (`_papers/lu2024effective/lu2024effective-extracted.md:372-385`); shaabani used a Taguchi L27(3⁶) design over six SA parameters (`T0 = 100`, `SubIt = 16`, `α = 0.96`, `β = 0.998`, `nSol = 5`, `φ = 4`).
 ## Related
+
+- [[references/santini2018-alns-acceptance-criteria]] — ranking acceptance criteria on common instances is this pattern applied to a single component (M = 20, λ = 10, 150,000 iterations)
+- [[references/lu2024-hybrid-evolutionary-algorithm-sop]] — F-race tuned HEA parameters on 192 instances
+- [[concepts/tabu-search]] — the tuned component in that HEA
 
 - [[references/ganjia2026-multiobjective-sustainable-supply-chain-scheduling]]
 - [[concepts/fuzzy-weighted-max-min-scalarization]]

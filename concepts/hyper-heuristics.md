@@ -37,6 +37,9 @@ relationships:
   - target: "[[references/fuertes2023-transformer-multi-uav-routing]]"
     type: related_to
   - target: "[[references/hendel2022-adaptive-lns-for-mip]]"
+
+  - target: "[[references/santini2018-alns-acceptance-criteria]]"
+    type: related_to
     type: related_to
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
@@ -65,6 +68,12 @@ updated: 2026-10-31T19:26:46Z
 A hyper-heuristic does not directly edit a candidate solution. Instead, it chooses or constructs low-level heuristics that then operate on solutions.
 
 ## Key Ideas
+
+$$
+\Pr\{\text{accept}\} = e^{(z - h z)/T}, \qquad T_{RRT} = \frac{z(1-h)}{\ln 0.5}
+$$
+
+In [[references/santini2018-alns-acceptance-criteria]] these acceptance rules are fixed within a run, so the LLL frame omits the acceptance side of online hyper-heuristics; the acceptance ranking there (SA/RRT/TA best, HC/RW worst) is where selection fails.
 
 - Two broad classes: **heuristic selection** and **heuristic generation**.
 - Learning modes: **online learning**, **offline learning**, or **no learning**.

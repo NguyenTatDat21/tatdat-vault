@@ -31,13 +31,7 @@ relationships:
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
-
-
-$$
-\text{tabu tenure} = \alpha \cdot |route|, \qquad L = 400, \qquad u_c = 30, \qquad u_p = 5, \qquad \varphi = 4
-$$
-
-These are the F-race tuned values from [[references/lu2024-hybrid-evolutionary-algorithm-sop]] (`_papers/lu2024effective/lu2024effective-extracted.md:372-385`); the two-phase variant TS12 beat both single-phase variants on the `w = 0.8` group (`:639-643`, Fig. 5), evidence that a diversified-then-intensified tabu schedule beats a single schedule.
+  Tabu Search is a memory-augmented local search method that allows non-improving moves while using tabu tenure and aspiration to escape local optima.
 provenance:
   extracted: 0.78
   inferred: 0.19
@@ -55,6 +49,13 @@ updated: 2026-10-31T19:26:46Z
 Tabu Search extends local search with adaptive memory. Instead of accepting only improving moves, it can accept non-improving moves while forbidding recently reversed decisions through tabu status.
 
 ## Key Ideas
+
+$$
+\text{tabu tenure} = \alpha \cdot |route|, \qquad L = 400, \qquad u_c = 30, \qquad u_p = 5, \qquad \varphi = 4
+$$
+
+These are the F-race tuned values from [[references/lu2024-hybrid-evolutionary-algorithm-sop]] (`_papers/lu2024effective/lu2024effective-extracted.md:372-385`); the two-phase variant TS12 beat both single-phase variants on the `w = 0.8` group (`:639-643`, Fig. 5), evidence that a diversified-then-intensified tabu schedule beats a single schedule.
+
 
 - Define a neighborhood around the current solution and iterate by selecting the best admissible move.
 - Keep short-term memory (tabu list/tenure) to avoid cycling.

@@ -1055,40 +1055,37 @@
     },
     "_papers/lu2024effective/images/page_0_image_8.jpg": {
       "content_hash": "8e4eca4c325758eb2d0a6ab22c6ef8942cff75ce9eda4ded60fa9e3702a8af31",
-      "last_ingested": "2026-10-22T18:14:27.628978+00:00",
+      "last_ingested": "2026-10-31T21:22:26.799635+00:00",
       "pages_produced": [
         "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     },
     "_papers/lu2024effective/images/page_17_chart_5.jpg": {
       "content_hash": "c4cca6de549fe1f19618b854c68d064731a12ffd8c3ea1a27a168c57ab773c4e",
-      "last_ingested": "2026-10-22T18:14:27.718036+00:00",
+      "last_ingested": "2026-10-31T21:22:26.631058+00:00",
       "pages_produced": [
         "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     },
     "_papers/lu2024effective/images/page_17_chart_7.jpg": {
       "content_hash": "3a122559f4696a211a3d3087519742c096bb9ed762b08e51481833e31adc22d1",
-      "last_ingested": "2026-10-22T18:14:27.764369+00:00",
+      "last_ingested": "2026-10-31T21:22:26.716606+00:00",
       "pages_produced": [
         "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     },
     "_papers/lu2024effective/images/page_3_image_2.jpg": {
       "content_hash": "97d97aedeea503cf8c1b6be6d27e506330790027b44b373af7fc23b03037e752",
-      "last_ingested": "2026-10-22T18:14:27.673574+00:00",
+      "last_ingested": "2026-10-31T21:22:26.524326+00:00",
       "pages_produced": [
         "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     },
     "_papers/lu2024effective/lu2024effective-extracted.md": {
       "content_hash": "070d00b87a24b8868b39c0471ef00bda5f3e5f54095fe84a2c77ae79fe810fce",
-      "last_ingested": "2026-10-24T07:17:10.957056+00:00",
+      "last_ingested": "2026-10-31T21:22:26.403717+00:00",
       "pages_produced": [
-        "references/lu2024-hybrid-evolutionary-algorithm-sop",
-        "concepts/set-orienteering-problem",
-        "concepts/tabu-search",
-        "concepts/transformer-seq2seq-routing-solver"
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     },
     "_papers/lu2024effective/lu2024effective.md": {
@@ -7661,23 +7658,16 @@
     },
     "_papers/santini2018comparison/santini2018comparison-extracted.md": {
       "content_hash": "86f21e62bfda34840174e64ad37e4d0664b4cb1797b9f301e90eb8dba3c13cbb",
-      "last_ingested": "2026-10-27T23:49:46.176581+00:00",
+      "last_ingested": "2026-10-31T21:22:14.284850+00:00",
       "pages_produced": [
-        "references/santini2018-alns-acceptance-criteria.md",
-        "concepts/hyper-heuristics.md",
-        "references/ropke2006-adaptive-large-neighborhood-search-pdptw.md"
+        "references/santini2018-alns-acceptance-criteria.md"
       ]
     },
     "_papers/shaabani2023matheuristic/shaabani2023matheuristic-extracted.md": {
       "content_hash": "0c1d6f63051dfc73cb9a5f3a50e2c44c092a39d5503e981a2adfecedf2e5e7cb",
-      "last_ingested": "2026-10-27T23:59:02.944437+00:00",
+      "last_ingested": "2026-10-31T21:22:13.665585+00:00",
       "pages_produced": [
-        "references/shaabani2023-multiproduct-mirp-matheuristic.md",
-        "concepts/maritime-inventory-routing-problem.md",
-        "concepts/simulated-annealing-metropolis-cooling.md",
-        "references/dellamico2020-matheuristics-pdstsp.md",
-        "references/goel2012-large-neighborhood-search-lng-inventory-routing.md",
-        "references/santini2018-alns-acceptance-criteria.md"
+        "references/shaabani2023-multiproduct-mirp-matheuristic.md"
       ]
     },
     "_papers/zhao2025large/zhao2025large-extracted.md": {
@@ -8583,6 +8573,83 @@
       "last_ingested": "2026-10-31T19:00:42.364548+00:00",
       "pages_produced": [
         ""
+      ]
+    },
+    "_papers/shaabani2023matheuristic/images/page_4_image_38.jpg": {
+      "content_hash": "191f9cb78b2a648fcc5f3da20c1cf175da731140931a8578e8a4eceb96298621",
+      "last_ingested": "2026-10-31T21:22:13.823630+00:00",
+      "pages_produced": [
+        "references/shaabani2023-multiproduct-mirp-matheuristic.md"
+      ]
+    },
+    "_papers/shaabani2023matheuristic/images/page_13_chart_7.jpg": {
+      "content_hash": "8f44dc2abe262c1e957a169682317fef582d665c9f224050d82b866fda5d6ccd",
+      "last_ingested": "2026-10-31T21:22:13.980841+00:00",
+      "pages_produced": [
+        "references/shaabani2023-multiproduct-mirp-matheuristic.md"
+      ]
+    },
+    "_papers/shaabani2023matheuristic/images/page_14_chart_2.jpg": {
+      "content_hash": "3fcaa0c1999c65a662749f6253483e4adde0b96523aea956ae85b70d4914938c",
+      "last_ingested": "2026-10-31T21:22:14.134702+00:00",
+      "pages_produced": [
+        "references/shaabani2023-multiproduct-mirp-matheuristic.md"
+      ]
+    },
+    "_papers/santini2018comparison/images/page_23_image_1.jpg": {
+      "content_hash": "a5f73b5885923ebbe9cb7417840ce85c5a0fbf580a2b9528d78b3d3e4aa86c55",
+      "last_ingested": "2026-10-31T21:22:14.420753+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/santini2018comparison/images/page_17_image_2.jpg": {
+      "content_hash": "82b15d819197cbbd2ae32a299c03490b7e1e7115587b8afa1a118a0845eb79fd",
+      "last_ingested": "2026-10-31T21:22:14.553212+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/santini2018comparison/images/page_24_image_1.jpg": {
+      "content_hash": "25795cd97eb532c9d1f18cadd12eb7bfce8c97303efa2ace3a78d94aecd4641a",
+      "last_ingested": "2026-10-31T21:22:14.688941+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/santini2018comparison/images/page_25_image_1.jpg": {
+      "content_hash": "e322536e29c8c8d0aebd96e5ec06b3792f0966af9737971874721248fc595c1f",
+      "last_ingested": "2026-10-31T21:22:14.819055+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/santini2018comparison/images/page_26_image_1.jpg": {
+      "content_hash": "7377e3683cd80612264669d186778401f6919ba8c2573c1a53839767762dade1",
+      "last_ingested": "2026-10-31T21:22:14.945379+00:00",
+      "pages_produced": [
+        "references/santini2018-alns-acceptance-criteria.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_6_image_2.jpg": {
+      "content_hash": "c74a3c77815bc134d67dabbbed0c96dfe65b1c927fc8f816885be93b78f7126b",
+      "last_ingested": "2026-10-31T21:22:26.885053+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_8_image_2.jpg": {
+      "content_hash": "773e8dc7ac17b63df964c234433e7e6601bc2932202877769dc39e8306786120",
+      "last_ingested": "2026-10-31T21:22:27.019843+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
+      ]
+    },
+    "_papers/lu2024effective/images/page_22_image_2.jpg": {
+      "content_hash": "fe52688778e4a9cd8a64d1b0de70d7bd987a6751c2645041d4cf120176ca5490",
+      "last_ingested": "2026-10-31T21:22:27.164035+00:00",
+      "pages_produced": [
+        "references/lu2024-hybrid-evolutionary-algorithm-sop.md"
       ]
     }
   },
