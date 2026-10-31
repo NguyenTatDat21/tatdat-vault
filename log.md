@@ -268,18 +268,9 @@ title: Wiki Log
 - [2026-10-31T18:06:33Z] INGEST key=meng2023multivisit pages=references/meng2023-multivisit-drone-pickup-delivery.md source=_papers/meng2023multivisit
 - [2026-10-31T18:06:40Z] INGEST key=meucci2010fully pages=references/meucci2010-fully-flexible-views.md source=_papers/meucci2010fully
 - [2026-10-31T18:08:06Z] CROSS_LINK page=concepts/simulated-annealing-metropolis-cooling.md link=references/meng2023-multivisit-drone-pickup-delivery.md
-- [2026-10-31T19:00:51Z] INGEST key=_papers/1
-- [2026-10-31T19:00:51Z] INGEST key=_papers/2
-- [2026-10-31T19:00:51Z] INGEST key=_papers/3
-- [2026-10-31T19:00:57Z] INGEST key=_papers/zhang2021energy pages=references/ source=_papers/zhang2021energy/zhang2021energy-extracted.md
-- [2026-10-31T19:00:57Z] INGEST key=_papers/torabbeigi2020drone pages=references/ source=_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
-- [2026-10-31T19:00:58Z] INGEST key=_papers/vu2020dynamic pages=references/ source=_papers/vu2020dynamic/vu2020dynamic-extracted.md
-- [2026-10-31T19:01:05Z] CROSS_LINK key=_papers/zhang2021energy pages=references/
-- [2026-10-31T19:01:06Z] CROSS_LINK key=_papers/torabbeigi2020drone pages=references/
-- [2026-10-31T19:01:06Z] CROSS_LINK key=_papers/vu2020dynamic pages=references/
 - [2026-10-31T19:05:00Z] INGEST key=_papers/zhang2021energy pages=references/zhang2021-drone-energy-model-comparison.md source=_papers/zhang2021energy/zhang2021energy-extracted.md
 - [2026-10-31T19:05:01Z] INGEST key=_papers/torabbeigi2020drone pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md source=_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
 - [2026-10-31T19:05:01Z] INGEST key=_papers/vu2020dynamic pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md source=_papers/vu2020dynamic/vu2020dynamic-extracted.md
-- [2026-10-31T19:05:45Z] CROSS_LINK key=_papers/ pages=references/zhang2021-drone-energy-model-comparison.md
-- [2026-10-31T19:05:45Z] CROSS_LINK key=_papers/ pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md
-- [2026-10-31T19:05:46Z] CROSS_LINK key=_papers/ pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md
+- [2026-10-31T19:07:49Z] CROSS_LINK key=_papers/zhang2021energy pages=references/zhang2021-drone-energy-model-comparison.md links_added=3 typed_relations_written=yes pages_modified=4
+- [2026-10-31T19:07:50Z] CROSS_LINK key=_papers/torabbeigi2020drone pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md links_added=1 typed_relations_written=yes pages_modified=1
+- [2026-10-31T19:07:50Z] CROSS_LINK key=_papers/vu2020dynamic pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md links_added=1 typed_relations_written=yes pages_modified=1
