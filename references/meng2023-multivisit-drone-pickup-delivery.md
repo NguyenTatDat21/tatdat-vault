@@ -10,6 +10,8 @@ relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
+  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
+    type: implements
     type: related_to
 sources:
   - _papers/meng2023multivisit/meng2023multivisit-extracted.md
@@ -18,6 +20,7 @@ sources:
   - _papers/meng2023multivisit/images/page_4_image_19.jpg
   - _papers/meng2023multivisit/images/page_22_chart_2.jpg
   - _papers/meng2023multivisit/images/page_22_chart_3.jpg
+  - _papers/meng2023multivisit/images/page_25_chart_5.jpg
 summary: >-
   MDRP-PD: K truck-drone pairs serve pickup-and-delivery customers at minimum truck distance + load-dependent drone energy cost; the MP-ISA heuristic is near-exact on small instances.
 provenance:
@@ -27,9 +30,9 @@ provenance:
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-10-25
-tier: supporting
+tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T17:49:28Z
 ---
 
 # Multi-Visit Drone Routing Problem for Pickup and Delivery (MDRP-PD)
@@ -79,11 +82,15 @@ Parameters: truck capacity 90 kg at 30 km/h, drone 6 kg curb weight + 3 kg paylo
 | Combined mode vs truck-only | total cost −24.31%, truck distance −44.01% on average | line 807 |
 | MP-ISA vs IG / [[concepts/large-neighborhood-search|LNS]] baselines | avg best-solution gaps IG 13.94%, LNS 4.90% — MP-ISA best | Table 8, line 850 |
 | Multi-visit vs single-visit mode | SV loses 37.90% drone-served customers, +22.65% cost, +38.60% truck distance | Table 9, line 902 |
+| SPD vs DOM (pick-level sweep, set P) | SPD stable as "pick" rises; DOM collapses — P-n16-k8 at 75% pick: 10 drone-served customers vs 0, cost +89.47%, truck distance +151.28% | Table 10, line 938 |
 | Sensitivity, 96 scenarios | cost flattens once W > 6 kg or E > 500 Wh; at σ=10 MP-ISA saves 22.03% vs SV 16.90% | lines 940–1000 |
 
 ![[_papers/meng2023multivisit/images/page_22_chart_2.jpg]]
 ![[_papers/meng2023multivisit/images/page_22_chart_3.jpg]]
 "Fig. 7. Best solution for instance A-n33-k5: (left) initial solution and (right) final solution."
+
+![[_papers/meng2023multivisit/images/page_25_chart_5.jpg]]
+"Fig. 11. Impact of drone capacities on the results of MDRP-PD."
 
 ## Limitations
 
@@ -114,3 +121,4 @@ Parameters: truck capacity 90 kg at 30 km/h, drone 6 kg curb weight + 3 kg paylo
 - [[_papers/meng2023multivisit/images/page_4_image_19.jpg]]
 - [[_papers/meng2023multivisit/images/page_22_chart_2.jpg]]
 - [[_papers/meng2023multivisit/images/page_22_chart_3.jpg]]
+- [[_papers/meng2023multivisit/images/page_25_chart_5.jpg]]

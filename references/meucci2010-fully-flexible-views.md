@@ -1,7 +1,7 @@
 ---
 title: 'Fully Flexible Views: Theory and Practice'
 category: references
-tags: [portfolio-optimization]
+tags: [portfolio-optimization, black-litterman, risk-modeling]
 relationships:
   - target: "[[concepts/copula-opinion-pooling]]"
     type: extends
@@ -17,6 +17,9 @@ sources:
   - _papers/meucci2010fully/meucci2010fully-extracted.md
   - _papers/meucci2010fully/meucci2010fully.md
   - _papers/meucci2010fully/images/page_8_image_0.jpg
+  - _papers/meucci2010fully/images/page_11_chart_0.jpg
+  - _papers/meucci2010fully/images/page_11_chart_3.jpg
+  - _papers/meucci2010fully/images/page_12_chart_6.jpg
 summary: >-
   Entropy pooling inputs an arbitrary non-normal prior plus arbitrary views/stress-tests; the posterior is the prior scenarios re-weighted by relative-entropy minimization, no repricing needed.
 provenance:
@@ -28,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-25
 tier: core
 created: 2026-10-25T10:55:07Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T17:49:28Z
 ---
 
 # Fully Flexible Views: Theory and Practice
@@ -53,17 +56,38 @@ The confidence-weighted posterior is a normal mixture: N(μ, Σ) with probabilit
 Numerical implementation (most general case): J × N scenarios pre-mapped to J × I prices via the costly pricing function; views on non-linear g give a J × K panel V; general views become linear constraints a ≤ A p̃ ≤ ā on the scenario probabilities p̃; minimize the discrete relative entropy Σ p̃_j(ln p̃_j − ln p_j) subject to those constraints. The dual is a linearly constrained convex program in as many variables as views, not simulations, so J stays large with excellent accuracy even under extreme views; posterior prices are (P, p_c) with p_c = (1−c)p + c p̃ — no repricing.
 ^[inferred] The reweighting trick (keep scenarios, change probabilities) is the mechanism that makes expensive pricing functions usable.
 
-Case study: 9 butterfly options (1/2/6-month on Microsoft, Yahoo, Google) with 14 risk factors (underlying changes, implied vol changes per maturity, 2y/10y curve slope as external factor), Black-Scholes pricing with an empirically fitted skew/smile map, prior kernel-bootstrapped from 700 historical observations to J = 10⁵ simulations, mean-CVaR frontier at γ = 95%. Three analysts: bearish Google 6m−2m implied-vol spread; bullish Microsoft realized volatility via a median view; +5 b.p. curve slope as binding equality; management committee confidences c1 = 0.20, c2 = 0.25, c3 = 0.20, remainder 0.35 to the reference model.
+Posterior as a reweighted-scenario measure (`_papers/meucci2010fully/meucci2010fully-extracted.md:272`) — confidence reweights scenarios rather than moving prices, so the market stays `(\mathcal{P}, \mathbf{p}_c)` and nothing is repriced:
+
+$$\mathbf{p}_c \equiv (1-c)\,\mathbf{p} + c\,\tilde{\mathbf{p}}$$
+
+- Case study: 9 butterfly options (1/2/6-month on Microsoft, Yahoo, Google), 14 risk factors (underlying changes, implied-vol changes per maturity, plus the 2y–10y curve slope as an external factor), Black–Scholes pricing with an empirically fitted skew/smile map, prior kernel-bootstrapped from 700 historical observations to J = 10⁵ scenarios with ε = 0.15, horizon τ = 1 day, mean-CVaR frontier at γ = 95%, constraints: zero delta, zero initial budget, and a per-option probability threshold. Three analysts: bearish Google 6m–2m implied-vol spread; bullish Microsoft realized volatility as a median view; +5 b.p. curve slope as a binding equality; management confidences c1 = 0.20, c2 = 0.25, c3 = 0.20, remainder 0.35 to the reference model (`_papers/meucci2010fully/meucci2010fully-extracted.md:274, 293`).
 
 ![[_papers/meucci2010fully/images/page_8_image_0.jpg]]
 "Figure 1: Entropy pooling: numerical approach matches analytical solution"
 
 ## Results
 
-- The numerical implementation matches the analytical formula across views (Figure 1, line 290).
-- Capabilities comparison (lines 501–513): BL/Almgren-Chriss/Qian-Gorman/Pezier/Meucci-2009/COP/EP — only EP handles non-linear views, trading-desk costly pricing functions, and lax ranking constraints simultaneously; COP and EP are the only ones handling non-normal markets and multiple users.
+- The numerical implementation matches the analytical solution on the case-study panel (Figure 1, `_papers/meucci2010fully/meucci2010fully-extracted.md:259`); the case study also runs the exact normal case, where the entropy-pooling posterior coincides with the copula-pooling posterior.
+- Capability comparison (`_papers/meucci2010fully/meucci2010fully-extracted.md:399-411`): entropy pooling is the only method covering non-linear views, costly pricing functions, external factors, partial specifications, non-normal markets, multiple users and lax ranking constraints.
+
+| Capability | BL | AC | QG | P | M | COP | EP |
+|---|---|---|---|---|---|---|---|
+| Normal market, linear views | ✓ | – | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Scenario analysis | – | – | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Correlation stress-test | – | – | ✓ | ✓ | ✓ | – | ✓ |
+| Trading desk: non-linear pricing | – | – | – | – | ✓ | ✓ | ✓ |
+| External factors (macro) | – | – | – | – | ✓ | ✓ | ✓ |
+| Partial specifications | – | – | – | ✓ | – | – | ✓ |
+| Non-normal market | – | – | – | – | – | ✓ | ✓ |
+| Multiple users | – | – | – | – | – | ✓ | ✓ |
+| Non-linear views | – | – | – | – | – | – | ✓ |
+| Trading desk: costly pricing | – | – | – | – | – | – | ✓ |
+| Lax constraints: ranking | – | ✓ | – | – | – | – | ✓ |
 - The single analyst view flips the Google 6m−2m implied-vol spread position from long to short on the mean-CVaR frontier (Figure 3); all views together reshape the frontier (Figure 4).
 - No repricing is necessary for the butterfly book; the median view on a thick-tailed variable is expressed as a probability-mass constraint, and the external curve factor affects the book only through correlation.
+
+![[_papers/meucci2010fully/images/page_12_chart_6.jpg]]
+"Figure 4: Mean-CVaR long-short efficient frontier: all views"
 
 ## Limitations
 
@@ -92,4 +116,9 @@ Case study: 9 butterfly options (1/2/6-month on Microsoft, Yahoo, Google) with 1
 
 - [[_papers/meucci2010fully/meucci2010fully-extracted.md]]
 - [[_papers/meucci2010fully/meucci2010fully.md]]
-- [[_papers/meucci2010fully/images/page_8_image_0.jpg]]
+- [[_papers/meucci2010fully/images/page_11_chart_3.jpg]]
+- [[_papers/meucci2010fully/images/page_12_chart_6.jpg]]
+- Figure 1 (numerical approach matches the analytical solution): [[_papers/meucci2010fully/images/page_8_image_0.jpg]]
+- Figure 2 (mean-CVaR long-short frontier, prior risk model): [[_papers/meucci2010fully/images/page_11_chart_0.jpg]]
+- Figure 3 (mean-CVaR long-short frontier, view on the G6m–G2m spread): [[_papers/meucci2010fully/images/page_11_chart_3.jpg]]
+- Figure 4 (mean-CVaR long-short frontier, all views): [[_papers/meucci2010fully/images/page_12_chart_6.jpg]]

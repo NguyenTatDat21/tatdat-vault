@@ -28,6 +28,8 @@ relationships:
     type: related_to
   - target: "[[references/santini2018-alns-acceptance-criteria]]"
     type: related_to
+  - target: "[[references/meng2023-multivisit-drone-pickup-delivery]]"
+    type: uses
   - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
     type: related_to
 sources:

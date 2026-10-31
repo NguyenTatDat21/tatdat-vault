@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T15:47:15Z
+updated: 2026-10-31T18:08:07Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] AUDIT page=concepts/decision-diagrams-optimization.md marker_pass=yes claim_units=8 ...
-- [2026-10-31] AUDIT page=concepts/automated-model-generation.md marker_pass=yes claim_units=9 ...
-- [2026-10-31] AUDIT ref=marker-pass-refinement pages=7 counts=78 extracted / 10 inferred / 3 ambiguous over 101 claim uni... ...
+- [2026-10-31] INGEST key=meng2023multivisit pages=references/meng2023-multivisit-drone-pickup-delivery.md source=_papers/meng2023multivisit
+- [2026-10-31] INGEST key=meucci2010fully pages=references/meucci2010-fully-flexible-views.md source=_papers/meucci2010fully
+- [2026-10-31] CROSS_LINK page=concepts/simulated-annealing-metropolis-cooling.md link=references/meng2023-multivisit-drone-pickup-delivery.md
 
 ## Active Threads
 

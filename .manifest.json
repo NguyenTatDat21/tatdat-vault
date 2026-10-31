@@ -8547,6 +8547,27 @@
         "concepts/search-combinators-meta-search.md",
         "concepts/automated-model-generation.md"
       ]
+    },
+    "_papers/meucci2006blacklitterman": {
+      "content_hash": "3c21176eb6e9bd04228284b6e082b5379ebc399c4152648d407b1d0affd187e7",
+      "last_ingested": "2026-10-31T18:05:12.214552+00:00",
+      "pages_produced": [
+        "references/meucci2006-beyond-black-litterman-copula.md"
+      ]
+    },
+    "_papers/meucci2010fully": {
+      "content_hash": "e259e689c311eb266a389e55f22d52fb1aeb56c8aff2dc4cbb33f44096ce42cd",
+      "last_ingested": "2026-10-31T18:05:12.397518+00:00",
+      "pages_produced": [
+        "references/meucci2010-fully-flexible-views.md"
+      ]
+    },
+    "_papers/meng2023multivisit": {
+      "content_hash": "5efa10353442d314ef49a6192819a07117989bac93d89bd13b4fb8ffa2727564",
+      "last_ingested": "2026-10-31T18:05:12.552539+00:00",
+      "pages_produced": [
+        "references/meng2023-multivisit-drone-pickup-delivery.md"
+      ]
     }
   },
   "stats": {
