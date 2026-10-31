@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T15:43:07Z
+updated: 2026-10-31T15:46:51Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-The marker pass made provenance numbers honest: 101 claim units across the 7 CP 2015 pages now carry explicit ^[extracted]/^[inferred]/^[ambiguous] markers, and the frontmatter numbers match the markers. 79 claims trace term-by-term to the source text; 18 do not (keyword counts, scan idx ranges, author-index page ranges, definition names) — these are the vault's own structural claims, so they stay inferred. A claim can only be marked extracted when its distinctive terms appear in the source, which is why the reference page fell from 0.82 to 0.76.
+Marker pass result: 101 claim units across the 7 CP 2015 pages now carry explicit markers and the frontmatter numbers match them. A claim is extracted only when every distinctive term in it appears in the source text; the 10 inferred units are the page's own structural claims (keyword counts, scan idx ranges, Author Index page range, the idx = source index - 8 mapping) that the source cannot confirm, plus the OCR-spelling note. The reference page went 0.82 -> 0.87 extracted / 0.11 inferred / 0.03 ambiguous.
 
 ## Flagged Contradictions
 
