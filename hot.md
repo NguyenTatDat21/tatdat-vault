@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T02:49:46Z
+updated: 2026-10-31T15:43:07Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] AUDIT knowledge_pages_scanned=234 relationships_repaired=34 pages_repaired=6 ...
-- [2026-10-31] AUDIT gate_rules_refined=provenance_key+callout_rule+marker_rule+advisory checks=callout_issues=7 claim_markers_missing=7 base_confidence_ad... notes=semantic gaps: 0 entity pages, 0 synthesis pages, paper tag...
-- [2026-10-31] AUDIT knowledge_pages_scanned=234 callouts_added=7 tldr_callout_rule_violations=0 ...
+- [2026-10-31] AUDIT page=concepts/bound-tightening-relaxation-networks.md marker_pass=yes claim_units=10 ...
+- [2026-10-31] AUDIT page=concepts/decision-diagrams-optimization.md marker_pass=yes claim_units=8 ...
+- [2026-10-31] AUDIT page=concepts/automated-model-generation.md marker_pass=yes claim_units=9 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Rule-compliance pass is now clean on the mechanical rules: callouts, tags, tiers, sidecars, prefix rule and reciprocity all pass on 234 knowledge pages. The 7 reference callouts were added from their own summary fields, for example [[references/raj2020multiple-variable-drone-speed-mfstsp]] and [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]]. Remaining advisory: 25 base_confidence values above the formula, 4 pages with a non-canonical provenance schema, 7 pages asserting provenance without an inline marker, 53 concept pages with no top callout, and the `paper` tag on 67 pages needing a per-family split. No open threads.
+The marker pass made provenance numbers honest: 101 claim units across the 7 CP 2015 pages now carry explicit ^[extracted]/^[inferred]/^[ambiguous] markers, and the frontmatter numbers match the markers. 79 claims trace term-by-term to the source text; 18 do not (keyword counts, scan idx ranges, author-index page ranges, definition names) — these are the vault's own structural claims, so they stay inferred. A claim can only be marked extracted when its distinctive terms appear in the source, which is why the reference page fell from 0.82 to 0.76.
 
 ## Flagged Contradictions
 
