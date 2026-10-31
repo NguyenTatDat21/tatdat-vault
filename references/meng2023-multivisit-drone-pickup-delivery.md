@@ -10,8 +10,9 @@ relationships:
   - target: "[[concepts/payload-induced-drone-battery-consumption-rate]]"
     type: related_to
   - target: "[[concepts/large-neighborhood-search]]"
+    type: related_to
   - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
-    type: implements
+    type: extends
     type: related_to
 sources:
   - _papers/meng2023multivisit/meng2023multivisit-extracted.md
