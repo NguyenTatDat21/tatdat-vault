@@ -70,6 +70,11 @@ relationships:
 
 The paper formulates the Vehicle Routing Problem with Drones (VRP-D): a homogeneous fleet of driver-operated trucks, each equipped with a single UAV, is based at one depot, every customer is served exactly once by truck or by the drone coordinated with its truck, drone delivery is one customer per sortie because of payload limits, and the objective is the total operation cost. The drone is transported by the truck when not flying, is launched and recovered at customer locations multiple times along the route, and has launch time SL and recovery time SR. Trucks have a capacity and a maximum route duration T_max of 8 hours. The MIP extends Murray and Chu's Flying Sidekick formulation with a truck index on every variable, uses 27 binary variables and 31 constraints, and excludes depot-to-depot drone flights so the truck and drone never depart the depot together. The big-M value is the number of nodes, the worst case of one truck visiting all customers.^[inferred] The objective is cost, not completion time, so driver cost is neglected because it is paid by fixed contract; drone-arc costs are symmetric and load-independent because real data are unavailable.^[inferred]
 
+
+$$
+\left| \min \quad \sum_{v \in V} \Big( \sum_{(i,j) \in A} c_{ij}^{T} x_{ij}^{v} + \sum_{s \in P} c_{s}^{D} y_{s}^{v} \Big) \right|
+\tag{1}
+$$
 Constraints 2, 7-8, 9, 10-11, 20-23, 24, 27 enforce single visits, truck subtour elimination, capacity, one launch and one recovery per node, time synchronization of truck and drone at launch and recovery, battery endurance, and the rule that no new launch occurs while a drone is in the air. Figures 3-6 visualize the four prohibited moves the formulation excludes: the truck cannot wait for the drone at the launch customer, the drone cannot start and end at the depot alone, new launches cannot occur before recovery, and a launch cannot occur inside an in-flight sortie.
 
 ## Parameter set (Table 1)
@@ -90,6 +95,25 @@ The initial solution is built in three phases: nearest-neighbor truck routes wit
 
 36 small instances with 6, 10, 12 customers in 5x5, 10x10, 20x20 grids. The ALNS reaches the CPLEX optimum in every one of 10 runs at 5 minutes CPU limit: mean equals the optimum, standard deviation zero, gap zero. CPLEX time grows steeply: 0.926 s for 06.05.1, 7479 s for 06.10.1, 62131 s for 12.05.2, 3723 s for 12.20.1, 1335 s for 12.20.4. The prose claims nearly 17 hours for instance 12.05.1, Table 3 gives 1161.880 s for 12.05.1 and 62131.170 s for 12.05.2; the 17-hour figure matches the 12.05.2 row.^[ambiguous] The truck-only benchmark comes from Pisinger and Ropke 2007 with drone material removed and capacity 1400 kg. Savings over the truck-only case sit in the 20-30% range, sometimes above, the initial solution is improved by 15-25%, small instances vary most because one or two heavy customers placed far from the depot can kill the saving. Savings range from 17.40% (10.5.1) to 58.37% (6.10.3), from 15.79% (50.10.1) to 32.48% (50.10.4), from 21.27% (200.30.2) to 26.95% (200.40.1). The objective estimates fuel cost only, driver wages are not included.
 
+
+$$
+\mathrm{SI} = 1 - \frac{z^{\mathrm{ALNS}}}{z^{\mathrm{in}}} \qquad \mathrm{SVRP} = 1 - \frac{z^{\mathrm{ALNS}}}{z^{\mathrm{VRP}}}
+\tag{34}
+$$
+
+Table 4 group averages over the 112 uniform instances:
+
+| Customers | Instances | Avg SI (%) | Avg SVRP (%) |
+| --- | --- | --- | --- |
+| 6 | 12 | 18.34 | 42.52 |
+| 10 | 12 | 12.37 | 29.55 |
+| 12 | 12 | 19.22 | 33.34 |
+| 20 | 12 | 17.76 | 31.35 |
+| 50 | 16 | 18.79 | 26.74 |
+| 100 | 16 | 19.71 | 26.89 |
+| 150 | 16 | 24.00 | 28.20 |
+| 200 | 16 | 20.90 | 25.01 |
+| **All** | **112** | **19.17** | **26.34** |
 Average drone usage: the number of customers served by drones grows linearly with customer count, reaching about 50% of potential drone customers; a route with n_t truck visits launches at most n_t+1 drones, so an n-customer instance admits at most 2n/3 sorties with n/3 trucks. Endurance use decreases with instance size, and no more than 60% of the battery time is consumed between launch and recovery. The 12.10.4 instance reaches 47.88% saving, 20.20.3 31.21%, 100.10.1 32.66%, 150.20.2 31.24%, 200.40.1 26.95% with 172 customers, 200.40.2 22.56% with 178.
 
 ## Sensitivity: cost, endurance, speed, payload

@@ -62,6 +62,16 @@ Unlike constant-speed assumptions, the model treats speed as a first-class routi
 The authors formulate a comprehensive MIP for the **vehicle routing problem with drones and drone speed selection (VRPD-DSS)**.
 
 Key modeling elements:
+
+$$
+P^{H,min} = \frac{T^{3/2}}{\sqrt{\tfrac{1}{2}\pi n D^{2}\rho}},
+\qquad
+P^{H} = \frac{P^{H,min}}{\eta}(1+\sigma),
+\qquad
+e_{ijk} + \max(\tau_{ik}^{T}-\tau_{ijk},0)\,P^{H}(0) \le \varepsilon E
+\tag{4, 8, 11}
+$$
+
 - each drone flight selects one speed from a discrete candidate set;
 - drone energy consumption depends on speed and load;
 - charging/recharging dynamics are modeled at the truck;
@@ -79,6 +89,18 @@ The re-extracted paper reports concrete computational effects across the rural t
 - In single-speed VRPD runs, the best average fixed speed was **12 m/s**; both slower and faster fixed speeds were usually worse.
 - Relative to VRPD-DSS, the best fixed-speed VRPD (12 m/s) was still on average **0.59%** worse (1 drone) and **0.78%** worse (2 drones), with larger gaps in some instances. ^[inferred]
 - For larger instances (30/40/50 customers), the MILP setup behaved effectively as a heuristic: average RPD after 1 hour ranged from about **0.13%** to **1.50%** depending on instance size and drone count.
+
+Table 4 (average over 10 instances per class, obj value, BKS, RPD):
+
+| Class | Obj | CV | BKS | Gap (%) | RPD 60 s | RPD 300 s | RPD 3600 s |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 30 / 1 | 116.39 | 0.06 | 116.23 | 2.64 | 0.47 | 0.27 | 0.13 |
+| 30 / 2 | 108.81 | 0.27 | 108.44 | 4.09 | 2.39 | 1.49 | 0.33 |
+| 40 / 1 | 129.23 | 0.25 | 128.95 | 7.43 | 1.75 | 1.20 | 0.22 |
+| 40 / 2 | 119.30 | 0.37 | 118.79 | 12.06 | 6.97 | 2.92 | 0.43 |
+| 50 / 1 | 149.01 | 0.50 | 148.29 | 9.30 | 7.18 | 4.18 | 0.49 |
+| 50 / 2 | 138.08 | 1.00 | 136.04 | 15.37 | 21.95 | 5.35 | 1.50 |
+
 
 Savings against truck-only delivery remained significant, and most savings were associated with reduced truck-driver time rather than drone electricity cost.
 ## Limitations

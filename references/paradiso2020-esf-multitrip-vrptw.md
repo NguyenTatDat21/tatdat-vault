@@ -56,6 +56,13 @@ The ESF is built around a **structure-based formulation** (instead of trip- or j
 - CVRPTW-based lower bound (`P1`),
 - relaxed structure-feasibility lower bound (`P2`) with subset-row inequalities.
 
+$$
+z(\mathrm{P2}_{\mathcal{G}}) = \min \sum_{s \in \mathcal{P}} c_s x_s
+\quad \text{s.t.} \quad \sum_{s \in \mathcal{P}} \alpha_{is} x_s = 1 \ (i \in N), \quad \sum_{s \in \hat{\mathcal{P}}} x_s \le \eta_m(\hat{\mathcal{P}}), \quad x_s \in \{0,1\}
+\tag{3a-3d}
+$$
+
+
 A reduced structure set is then passed to branch-and-cut (with embedded branch-and-price style separation logic where needed).
 
 ![[_papers/paradiso2020exact/images/page_9_image_13.jpg]]
@@ -70,6 +77,16 @@ Reported outcomes include:
 - CMTVRPTW-LD: 162/162 solved, average ~16.8 seconds.
 - DRP benchmarks: all Type A (85/85) and Type B (54/54) solved, with low average times.
 - Literature comparisons: ESF solves more instances and is often faster than Hern14/Hern16/Cheng18 baselines.
+
+| Dataset | Instances | Solved | Avg time |
+| --- | --- | --- | --- |
+| CMTVRPTW (Table 1) | 81 | 60 | ~11 min |
+| CMTVRPTW-LT (Table 2) | 81 | 62 | — |
+| CMTVRPTW-LD (Table 3) | 162 | 162 | ~16.8 s |
+| CMTVRPTW-R (Table 4) | 210 | 154 | — |
+| DRP Type A (Table 5) | 85 | 85 | ~8.4 s |
+| DRP Type B (Table 6) | 54 | 54 | ~2.1 s |
+
 
 The paper identifies structure enumeration as the practical bottleneck for the hardest classes (especially larger release-date variants).
 
