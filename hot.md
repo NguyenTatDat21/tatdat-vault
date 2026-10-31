@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T19:05:01Z
+updated: 2026-10-31T19:05:46Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] INGEST key=_papers/zhang2021energy pages=references/zhang2021-drone-energy-model-comparison.md source=_papers/zhang2021energy/zhang2021energy-extracted.md
-- [2026-10-31] INGEST key=_papers/torabbeigi2020drone pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md source=_papers/torabbeigi2020drone/torabbeigi2020drone-extracted.md
-- [2026-10-31] INGEST key=_papers/vu2020dynamic pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md source=_papers/vu2020dynamic/vu2020dynamic-extracted.md
+- [2026-10-31] CROSS_LINK key=_papers/ pages=references/zhang2021-drone-energy-model-comparison.md
+- [2026-10-31] CROSS_LINK key=_papers/ pages=references/torabbeigi2020-payload-bcr-drone-scheduling.md
+- [2026-10-31] CROSS_LINK key=_papers/ pages=references/vu2020-ddd-td-tsptw-time-expanded-network.md
 
 ## Active Threads
 
