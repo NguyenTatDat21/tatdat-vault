@@ -9,30 +9,24 @@ provenance:
 base_confidence: 0.67
 tier: core
 category: concepts
-created: 2026-11-05T14:22:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - target: "concepts/definitive-analysis-procedure-choice"
-  - target: "concepts/six-guidelines-anaesthetic-case-statistical-problem-solving"
-  - type: related_to
-  - type: related_to
-  - type: related_to
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
+    type: related_to
+  - target: "[[concepts/definitive-analysis-procedure-choice]]"
+    type: related_to
+  - target: "[[concepts/six-guidelines-anaesthetic-case-statistical-problem-solving]]"
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
-    type: related_to
-  - target: "[[six-guidelines-anaesthetic-case-statistical-problem-solving]]"
-    type: related_to
-  - target: "[[definitive-analysis-procedure-choice]]"
     type: related_to
   - target: "[[concepts/effective-statistician-eight-principles]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:22:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] Chapter 3 opens with two epigraphs: "An approximate answer to the right question is worth a great deal more than a precise answer to the wrong question" (the first golden rule of applied mathematics) and Einstein's "The formulation of a problem is often more essential than its solution which may be merely a matter of mathematical or experimental skill."^[extracted]

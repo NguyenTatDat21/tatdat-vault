@@ -9,21 +9,17 @@ provenance:
 base_confidence: 0.67
 tier: core
 category: concepts
-created: 2026-11-05T14:34:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[initial-data-analysis-ida]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - target: "concepts/six-guidelines-anaesthetic-case-statistical-problem-solving"
-  - type: related_to
-  - type: related_to
+  - target: "[[concepts/initial-data-analysis-ida]]"
     type: related_to
-  - target: "[[six-guidelines-anaesthetic-case-statistical-problem-solving]]"
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
+  - target: "[[concepts/six-guidelines-anaesthetic-case-statistical-problem-solving]]"
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to
@@ -32,7 +28,7 @@ relationships:
   - target: "[[concepts/problem-formulation-objectives-type-iii-error]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:34:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] "I know how to do a t-test, but not when!" — procedure class, not procedure name; the analysis is judged by the residual.^[extracted]

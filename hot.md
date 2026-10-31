@@ -1,6 +1,6 @@
 ---
 title: Hot Cache
-updated: 2026-10-31T00:30:27Z
+updated: 2026-10-31T02:22:08Z
 pages: 469
 generated_by: obsidian-wiki memory hot
 ---
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-31] AUDIT knowledge_pages_scanned=234 sidecar_paired=25 prefix_rule_resolved=1 ...
 - [2026-10-31] HOT
 - [2026-10-31] INDEX
+- [2026-10-31] AUDIT knowledge_pages_scanned=234 relationships_repaired=34 pages_repaired=6 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-Tag trim: 80 canonical tags in use, every knowledge page capped at 5 tags (152 renames, 197 pages)
+Rule-compliance pass on 234 knowledge pages: fixed [[concepts/data-collection-designs-and-pitfalls]], [[concepts/initial-data-analysis-ida]] and 4 more Chatfield-cluster pages (34 malformed relationship entries, 6 backdated to the logged 2026-10-30 ingest), resolved the prefix-rule violation on [[references/ksciuk2023-maritime-uncertainty-review]], paired the sidecar source on [[concepts/cp-sat-hint-start]], and retiered the two core/supporting mismatches. Gate now reports real defects only: 7 reference pages missing the top callout, 7 pages asserting provenance without an inline marker, 25 base_confidence values above the formula, 4 pages with a non-canonical provenance schema. No open threads.
 
 ## Flagged Contradictions
 

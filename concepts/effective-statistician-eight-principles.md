@@ -9,34 +9,24 @@ provenance:
 base_confidence: 0.67
 tier: core
 category: concepts
-created: 2026-11-05T14:36:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[six-guidelines-anaesthetic-case-statistical-problem-solving]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - target: "concepts/problem-formulation-objectives-type-iii-error"
-  - target: "concepts/definitive-analysis-procedure-choice"
-  - target: "concepts/six-guidelines-anaesthetic-case-statistical-problem-solving"
-  - target: "concepts/initial-data-analysis-ida"
-  - type: related_to
-  - type: related_to
-  - type: related_to
-  - type: related_to
-  - type: related_to
+  - target: "[[concepts/six-guidelines-anaesthetic-case-statistical-problem-solving]]"
     type: related_to
-  - target: "[[problem-formulation-objectives-type-iii-error]]"
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
-  - target: "[[initial-data-analysis-ida]]"
+  - target: "[[concepts/problem-formulation-objectives-type-iii-error]]"
     type: related_to
-  - target: "[[definitive-analysis-procedure-choice]]"
+  - target: "[[concepts/definitive-analysis-procedure-choice]]"
     type: related_to
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
+  - target: "[[concepts/initial-data-analysis-ida]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:36:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] Eight numbered principles close Part One: "The paragon of virtue depicted here is very rare, but should still provide us with a target to aim at."^[extracted]

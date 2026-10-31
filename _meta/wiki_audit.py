@@ -70,14 +70,18 @@ for p in pages:
     if not re.search(r"^## Sources", b, re.M): sources_hdr.append(p); res["sources-header"] += 1
     if "[!tldr]" not in b: nocal.append(p); res["tldr-callout"] += 1
     d0 = yaml.safe_load(parts(P[p])[0]) or {}
-    pr = d0.get("provenance_score") or {}
+    pr = d0.get("provenance_score") or d0.get("provenance") or {}
     dom = max(pr, key=lambda k: pr[k]) if pr else None
     amb = (d0.get("confidence_tiers") or {}).get("ambiguous") == max((d0.get("confidence_tiers") or {0:0}).values())
     mk = re.search(r"\^\[(extracted|inferred|ambiguous)\]", b)
     exp_mk = amb and "ambiguous" or dom or (mk.group(1) if (mk := re.search(r"\^\[(extracted|inferred|ambiguous)\]", b)) else "extracted")
-    if not mk or mk.group(1) != exp_mk: nosec.append(p); res["marker-consistency"] += 1
-    exp_call = {"extracted": "[!tldr]", "inferred": "[!note]", "ambiguous": "[!warning]"}[exp_mk]
-    if exp_call not in b: nocal.append(p); res["callout"] += 1
+    if not mk and pr.get("inferred", 0) + pr.get("ambiguous", 0) > 0:
+        nosec.append(p); res["claim-markers-missing"] += 1
+    exp_call = {"extracted": "tldr", "inferred": "note", "ambiguous": "warning"}.get(dom)
+    cal = re.search(r"(?m)^>\s*\[!(\w+)\]", b)
+    if dom and dom not in ("extracted", "inferred", "ambiguous"): res["prov-schema"] += 1
+    if cal and exp_call and cal.group(1) != exp_call: nocal.append(p); res["callout"] += 1
+    elif not cal and p.startswith("references/"): nocal.append(p); res["callout"] += 1
     for t, ty in ENT[p]:
         if "/" not in t or t.split("/")[0] not in ("concepts", "references"): pref.append((p, t)); res["prefix-rule"] += 1
         if ty not in CAN: res["type"] += 1

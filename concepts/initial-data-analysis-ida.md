@@ -9,30 +9,26 @@ provenance:
 base_confidence: 0.67
 tier: core
 category: concepts
-created: 2026-11-05T14:32:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - type: related_to
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to
-  - target: "[[six-guidelines-anaesthetic-case-statistical-problem-solving]]"
+  - target: "[[concepts/six-guidelines-anaesthetic-case-statistical-problem-solving]]"
     type: related_to
-  - target: "[[definitive-analysis-procedure-choice]]"
-    type: related_to
-  - target: "[[definitive-analysis-procedure-choice]]"
+  - target: "[[concepts/definitive-analysis-procedure-choice]]"
     type: related_to
   - target: "[[concepts/data-collection-designs-and-pitfalls]]"
     type: related_to
   - target: "[[concepts/effective-statistician-eight-principles]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:32:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] Five stages, the first of which is the whole art of IDA, and four steps that can take as little as half an hour.^[extracted]

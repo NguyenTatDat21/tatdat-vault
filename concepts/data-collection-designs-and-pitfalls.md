@@ -9,24 +9,20 @@ provenance:
 base_confidence: 0.67
 tier: supporting
 category: concepts
-created: 2026-11-05T14:24:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - target: "concepts/initial-data-analysis-ida"
-  - type: related_to
-  - type: related_to
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
-  - target: "[[six-guidelines-anaesthetic-case-statistical-problem-solving]]"
+  - target: "[[concepts/initial-data-analysis-ida]]"
     type: related_to
-  - target: "[[initial-data-analysis-ida]]"
+  - target: "[[concepts/six-guidelines-anaesthetic-case-statistical-problem-solving]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:24:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] "Data collection is as much a part of statistics as data analysis" and "do not trust any data that you did not collect yourself" — the two closing key messages of chapter 4.^[extracted]

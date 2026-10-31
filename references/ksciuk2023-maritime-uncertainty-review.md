@@ -8,8 +8,6 @@ relationships:
     type: related_to
   - target: "[[references/fagerholt2023-maritime-inventory-routing-survey]]"
     type: related_to
-  - target: "_papers/christiansen2013ship/christiansen2013ship-extracted"
-    type: related_to
   - target: "[[references/christiansen2013-ship-routing-scheduling-new-millennium]]"
     type: related_to
   - target: "[[references/christiansen2020-liner-shipping-network-design]]"

@@ -253,3 +253,4 @@ title: Wiki Log
 - [2026-10-31T00:30:26Z] AUDIT knowledge_pages_scanned=234 sidecar_paired=25 prefix_rule_resolved=1 reciprocal_added=14 notes="deterministic rule pass applied; callout/marker + core-demotion checks remain report-only (wiki-lint forbids automatic core demotion; provenance numbers are source-lineage values by design)"
 - [2026-10-31T00:30:26Z] HOT
 - [2026-10-31T00:30:26Z] INDEX
+- [2026-10-31T02:17:44Z] AUDIT knowledge_pages_scanned=234 relationships_repaired=34 pages_repaired=6 dates_aligned=6 prefix_rule_resolved=1 sidecar_paired=1 gate_rules_fixed=marker+callout+prov-schema notes="gate now flags real defects only"

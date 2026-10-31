@@ -18,7 +18,9 @@ relationships:
     type: related_to
   - target: "[[concepts/disjunctive-scheduling-constraint-programming-model]]"
     type: related_to
-sources: [_papers/montemanni2024combining/montemanni2024combining-extracted.md]
+sources:
+  - _papers/montemanni2024combining/montemanni2024combining-extracted.md
+  - _papers/montemanni2024combining/montemanni2024combining.md
 summary: >-
   A warm-start pattern where a truck-only VRP solution is injected as CP-SAT hints, improving bound quality and final solutions in collaborative drone routing models.
 provenance:
@@ -63,3 +65,4 @@ Related pages: [[concepts/pdsvrp-c]] and [[references/montemanni2024-pdsvrp-coll
 ## Sources
 
 - [[_papers/montemanni2024combining/montemanni2024combining-extracted.md]]
+- [[_papers/montemanni2024combining/montemanni2024combining.md]]

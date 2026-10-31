@@ -9,19 +9,17 @@ provenance:
 base_confidence: 0.67
 tier: core
 category: concepts
-created: 2026-11-05T14:20:00Z
-updated: 2026-10-30T18:52:00Z
+created: 2026-10-30T09:28:40Z
+updated: 2026-10-31T02:05:00Z
 sources:
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995.md
   - _papers/chatfieldProblemSolvingStatisticians1995/chatfieldProblemSolvingStatisticians1995-extracted.md
 relationships:
-  - target: "[[chatfield1995-problem-solving-statisticians-guide]]"
-  - target: "references/chatfield1995-problem-solving-statisticians-guide"
-  - type: related_to
+  - target: "[[references/chatfield1995-problem-solving-statisticians-guide]]"
     type: related_to
-  - target: "[[data-collection-designs-and-pitfalls]]"
+  - target: "[[concepts/data-collection-designs-and-pitfalls]]"
     type: related_to
-  - target: "[[initial-data-analysis-ida]]"
+  - target: "[[concepts/initial-data-analysis-ida]]"
     type: related_to
   - target: "[[concepts/definitive-analysis-procedure-choice]]"
     type: related_to
@@ -30,7 +28,7 @@ relationships:
   - target: "[[concepts/problem-formulation-objectives-type-iii-error]]"
     type: related_to
 lifecycle: draft
-lifecycle_changed: 2026-11-05T14:20:00Z
+lifecycle_changed: 2026-10-30T09:28:40Z
 ---
 
 > [!tldr] A doctor's telephone call is the whole Prelude: 31 variables measured on 80 surgical patients, four anaesthetic groups, and the question "How should the data be analysed?". Chatfield answers with six general rules, the first of which is to understand what is being measured and why before touching the data.^[extracted]
