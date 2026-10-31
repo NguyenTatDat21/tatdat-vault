@@ -52,7 +52,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T11:22:57Z
-updated: 2026-10-30T17:47:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Set Orienteering Problem (SOP)

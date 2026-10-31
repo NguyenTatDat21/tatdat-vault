@@ -16,7 +16,15 @@ relationships:
     type: related_to
   - target: "[[concepts/statistical-investigation-lifecycle]]"
     type: related_to
-  - target: "[[concepts/hyper-heuristics]]"
+    type: related_to
+  - target: "[[concepts/alns-destroy-repair-operator-suite]]"
+    type: related_to
+  - target: "[[references/lu2024-hybrid-evolutionary-algorithm-sop]]"
+    type: related_to
+  - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
+    type: related_to
+  - target: "[[concepts/simulated-annealing-metropolis-cooling]]"
+    type: related_to
     type: related_to
   - target: "[[concepts/parallel-metaheuristics-cooperative-search]]"
     type: related_to
@@ -41,7 +49,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T03:00:25Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Multi-Objective Metaheuristic Tuning and Front Validation

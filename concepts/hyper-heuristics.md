@@ -40,7 +40,9 @@ relationships:
     type: related_to
   - target: "[[references/pisinger2019-large-neighborhood-search]]"
     type: related_to
-  - target: "[[references/santini2018-alns-acceptance-criteria]]"
+    type: related_to
+  - target: "[[concepts/alns-destroy-repair-operator-suite]]"
+    type: related_to
     type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -55,7 +57,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T18:52:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Hyper-Heuristics
@@ -72,7 +74,8 @@ A hyper-heuristic does not directly edit a candidate solution. Instead, it choos
 
 Related pages: [[concepts/large-neighborhood-search]], [[concepts/parallel-metaheuristics-cooperative-search]], [[concepts/variable-neighborhood-search]], [[references/gendreau2019-handbook-metaheuristics]], and [[references/montemanni2024-pdsvrp-collective-drones]].
 
-## Open Questions
+- [[references/santini2018-alns-acceptance-criteria]] — acceptance criteria are treated as fixed within one run, so this paper is evidence that the LLL framing omits the acceptance side of online hyper-heuristics
+- [[concepts/alns-destroy-repair-operator-suite]] — operator selection there is score-weighted, the online mechanism seen from the operator side; the acceptance side is where selection fails (HC and RW are the worst criteria, SA/RRT/TA the best)
 
 - Which state features are most predictive for selecting low-level heuristics in collaborative truck-drone routing?
 - How much domain-specific engineering is still required before a hyper-heuristic policy transfers reliably? ^[inferred]

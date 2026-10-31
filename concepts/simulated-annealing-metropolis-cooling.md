@@ -32,6 +32,9 @@ relationships:
     type: related_to
   - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
     type: related_to
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    type: related_to
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook-extracted.md
   - _papers/gendreau2019handbook/gendreau2019handbook.md
@@ -46,7 +49,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-24T04:37:31Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Simulated Annealing: Metropolis Acceptance and Cooling
@@ -57,7 +60,15 @@ Chapter 1 (Delahaye, Chaimatanan & Mongeau) treats SA as the method for **black-
 
 - **Notation** $(S, f)$: $S$ = set of feasible solutions, $f$ = objective to minimize; in the SA analogy $f$ plays the role of the solid's energy, and a **control parameter** $c$ with the same units as $f$ acts as a temperature. The physical Boltzmann probability $p_i = e^{-E_i/(k_b T)} / Z(T)$, $Z(T) = \sum_{j \in S} e^{-E_j/(k_b T)}$, motivates the acceptance rule.
 - **Boltzmann distribution** gives the probability of a state $i$ with energy $E_i$ at temperature $T$.
-- **Definition 5 — acceptance criterion:** for current $i$ and neighbor $j$, $\Pr\{accept\, j\} = 1$ if $f(j) < f(i)$, else $e^{(f(i)-f(j))/c}$ (Metropolis criterion).
+Definition 5 (Metropolis acceptance, `_papers/santini2018comparison/santini2018comparison-extracted.md:200`):
+
+$$
+\Pr\{\text{accept}\} = e^{(z - h z)/T}, \qquad \Delta F = \frac{g(\text{new}) - g(\text{old})}{g(\text{old})}, \qquad TE_{i+1} = \alpha\, TE_i, \qquad SubIt_i = \left\lceil \frac{SubIt_{i-1}}{\beta} \right\rceil
+$$
+
+where `z` is the incumbent objective and `h z` the candidate objective. The record-to-record variant replaces the temperature with a threshold `T = z(1-h)/ln 0.5` (equation 1, `:227`), which falls from `z(1-h)` toward the value matching `p = 0.5`.
+
+Ranking from the controlled comparison (equal destroy/repair operators, `:611-625`): SA, RRT and TA are the best criteria, HC and RW the worst, with LAHC, GD, NLGD and WA in the middle. On CMST the linear-parameter form of SA wins (0.399 % average deviation, 9.37 s), and the Wilcoxon differences exceed 2 pp for CMST and both CVRP variants at the 0.05 level.
 - **Definition 6 — transition:** generation + acceptance. A Markov-chain transition corresponds to a **move** in the state space.
 - **Control parameter $c$:** high $c$ accepts high degradation and explores thoroughly; as $c$ decreases, only improving and low-degradation transitions are accepted; as $c \to 0$, SA behaves like Monte Carlo.
 - **Definition 9 — acceptance rate** $\chi(c)$ = accepted transitions / proposed transitions. $\chi(c)\approx 1$ at high $c$; it falls to 0 as $c$ decreases, and **$\chi(c) \approx 0.5$ as $c$ approaches the target $c_t$** — the practical tuning signal.

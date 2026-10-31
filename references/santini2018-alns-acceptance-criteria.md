@@ -16,6 +16,11 @@ relationships:
     type: related_to
   - target: "[[concepts/alns-destroy-repair-operator-suite]]"
     type: related_to
+  - target: "[[references/shaabani2023-multiproduct-mirp-matheuristic]]"
+    type: related_to
+  - target: "[[concepts/multi-objective-metaheuristic-tuning-validation]]"
+    type: related_to
+    type: related_to
   - target: "[[concepts/first-in-first-out-property-in-time-dependent-travel]]"
     type: related_to
   - target: "[[concepts/lengthen-arcs-add-node-ddd-refinement]]"
@@ -30,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-29T17:15:00Z
 tier: core
 created: 2026-10-27T06:50:00Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T19:26:46Z
 provenance:
   extracted: 1.00
   inferred: 0.00
@@ -45,10 +50,33 @@ provenance:
 - Criteria compared: Hill Climbing (HC), Random Walk (RW), Late Acceptance Hill Climbing (LAHC), Threshold Acceptance (TA), Simulated Annealing (SA), Great Deluge (GD), Non-Linear Great Deluge (NLGD), Record-to-Record Travel (RRT), plus **Worse Accept (WA)**, introduced in this paper.
 - Test bed: capacitated vehicle routing problem (CVRP), capacitated minimum spanning tree (CMST), quadratic assignment problem (QAP), plus a simple LNS for the CVRP. Parameters for each criterion were tuned before comparison.
 - ALNS structure: destroy and repair methods chosen by roulette-wheel selection proportional to past scores; the acceptance criterion decides whether the new solution replaces the current one, using internal state that varies during the run (e.g. SA temperature, exponentially decreasing).
+ALNS structure: destroy and repair methods chosen by roulette-wheel selection proportional to past scores; the acceptance criterion decides whether the new solution replaces the current one, using internal state that varies during the run (e.g. SA temperature, exponentially decreasing).
 
+$$
+\Pr\{\text{accept}\} = e^{(z - h z)/T}, \qquad T = \frac{z(1-h)}{\ln p}, \qquad T_{RRT} = \frac{z(1-h)}{\ln 0.5}
+$$
+
+`z` is the objective of the incumbent, `h z` of the candidate; the record-to-record form replaces the temperature by a threshold `T` that falls from `z(1−h)` toward the value matching `p = 0.5` (`_papers/santini2018comparison/santini2018comparison-extracted.md:200, 221, 227`).
+
+Tuning scored each criterion over `M = 20` runs on 6 tuning instances per problem, with `λ = 10` and 150,000 iterations:
+
+$$
+A_{\alpha,k} = \frac{1}{\lambda}\sum_{i} v_{\alpha,i,k}, \qquad D_{\alpha,k} = \frac{A_{\alpha,k} - B_k}{A_{\alpha,k}}, \qquad S_\alpha = \frac{1}{K}\sum_k D_{\alpha,k}
+$$
+
+(`:457-471`)
 ## Ranking
 
 - Best: **SA, RRT, TA**. Middle group (better than HC/RW, worse than the top three): **LAHC, GD, NLGD, WA**. Worst: **HC, RW**.
+
+| Problem | Best criterion (aDev / bDev / aTime, pp and s) | Worst |
+| --- | --- | --- |
+| CMST | Lin. SA 0.399 / 0.108 / 9.367 | HC 2.226, RW 2.824 |
+| CVRP (full ALNS) | Lin. RRT (fixed end) 0.391 / 0.112 / 17.871 | RW 2.583 |
+| CVRP (simple LNS) | Lin. RRT (fixed end) 0.754 / 0.241 / 11.685 | RW |
+| QAP | Lin. WA (fixed end) 0.136 / 0.041 / 43.402 | — |
+
+Table 4, `_papers/santini2018comparison/santini2018comparison-extracted.md:660-700`.
 - In three of four test sets a version of RRT was not beaten by any criterion with statistical significance; in the fourth (full ALNS for CVRP) it was beaten only by another version of RRT.
 - **Linear** acceptance-parameter functions (start to end value) do as well as the standard exponential versions, and the end value can often be fixed at zero — quality is not lost and the parameter space loses one dimension.
 - Recommendations in the paper's own words: use SA, TA, or RRT, preferring RRT if time is short; use a linear acceptance parameter ending at zero. The authors expect the advice to be most useful for problems close to CVRP, CMST, or QAP, and note the ranking may change when the iteration budget is small.
@@ -66,8 +94,10 @@ The authors' forward-looking point: acceptance decisions could be improved by us
 - [[concepts/hyper-heuristics]] — ALNS is treated as a hyper-heuristic; acceptance criteria have been compared in that framework without definite conclusions.
 - [[references/ropke2006-adaptive-large-neighborhood-search-pdptw]] — the original ALNS, whose default criterion was simulated annealing.
 - [[references/shaabani2023-multiproduct-mirp-matheuristic]] — Phase 1 of that matheuristic is tuned by a Taguchi L27(3⁶) design, not by ranking acceptance criteria
-- [[concepts/duration-objective-depot-discretization]] — shares   + , + - tags with this page
+- [[concepts/alns-destroy-repair-operator-suite]] — the operator side of the same ALNS; this page covers the acceptance side, where the tuned state (temperature/threshold) drives operator weights through the score-based scheme.
+- [[concepts/duration-objective-depot-discretization]] — unrelated to this paper; the link was kept from an earlier pass and should be removed if the taxonomy check flags it.
 
 ## Sources
 
 - [[_papers/santini2018comparison/santini2018comparison-extracted.md]] — Santini, Ropke & Hvattum, "A comparison of acceptance criteria for the adaptive large neighbourhood search metaheuristic", *Journal of Heuristics*, accepted 2018-05-18, zotero-key UKFLYL2U.
+- [[_papers/santini2018comparison/images/page_23_image_1.jpg]] — Fig. 2, "Graph based on the Wilcoxon test for problem CMST ... Bluer and thicker arcs mean that the difference in deviation is greater".

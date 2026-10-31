@@ -75,7 +75,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-24
 tier: core
 created: 2026-10-22T23:17:15Z
-updated: 2026-10-30T17:41:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Maritime Inventory Routing Problem

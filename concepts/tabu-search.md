@@ -31,7 +31,13 @@ relationships:
 sources:
   - _papers/gendreau2019handbook/gendreau2019handbook.md
 summary: >-
-  Tabu Search is a memory-augmented local search method that allows non-improving moves while using tabu tenure and aspiration to escape local optima.
+
+
+$$
+\text{tabu tenure} = \alpha \cdot |route|, \qquad L = 400, \qquad u_c = 30, \qquad u_p = 5, \qquad \varphi = 4
+$$
+
+These are the F-race tuned values from [[references/lu2024-hybrid-evolutionary-algorithm-sop]] (`_papers/lu2024effective/lu2024effective-extracted.md:372-385`); the two-phase variant TS12 beat both single-phase variants on the `w = 0.8` group (`:639-643`, Fig. 5), evidence that a diversified-then-intensified tabu schedule beats a single schedule.
 provenance:
   extracted: 0.78
   inferred: 0.19
@@ -41,7 +47,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-22
 tier: core
 created: 2026-10-22T08:35:02Z
-updated: 2026-10-30T18:52:00Z
+updated: 2026-10-31T19:26:46Z
 ---
 
 # Tabu Search
