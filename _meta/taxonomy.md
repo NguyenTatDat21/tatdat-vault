@@ -4,7 +4,7 @@ category: meta
 tags: [taxonomy, metadata]
 sources: []
 created: 2026-10-27T06:00:00Z
-updated: 2026-10-30T16:05:09Z
+updated: 2026-10-31T02:47:30Z
 ---
 
 # Tag Taxonomy
@@ -220,3 +220,16 @@ Domain families:
 
 - `grep -rn "tags:" concepts references | grep -E "VRP|ALNS|liFePO4|HML|Fama-French|Dantzig-Wolfe|SCIP|ASEAN"` to find remaining non-canonical forms, then rewrite.
 - Alias rewrites are mechanical; family merges (e.g. folding `uav` into `drone-routing`) need a page-by-page pass so typed relationships keep meaning.
+
+## Confidence tiers
+
+- `core` — cross-source concept with ≥5 distinct incoming pages (currently 196 pages)
+- `supporting` — 1–4 incoming pages (currently 38 pages)
+- `peripheral` — exactly 1 incoming page (currently 0 pages)
+
+## Vocabulary health report (2026-10-31 rule pass)
+
+- Canonical tags: 80, all in use; aliases defined: 71; aliases needing a rename in use: 0.
+- Single-page tags (promotion candidates): `disjunctive-scheduling`, `fifo-property`, `fstsp`, `pdptw`, `tabu-search`, `team-orienteering`, `variable-neighborhood-search`.
+- Tag groups needing a split (cohesion < 0.15, n ≥ 5): 0 — every family cluster is cohesive.
+- `paper` carries 67 pages, above the 60-page threshold, so it needs a per-family split before it can stay as a single tag.

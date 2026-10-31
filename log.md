@@ -254,3 +254,5 @@ title: Wiki Log
 - [2026-10-31T00:30:26Z] HOT
 - [2026-10-31T00:30:26Z] INDEX
 - [2026-10-31T02:17:44Z] AUDIT knowledge_pages_scanned=234 relationships_repaired=34 pages_repaired=6 dates_aligned=6 prefix_rule_resolved=1 sidecar_paired=1 gate_rules_fixed=marker+callout+prov-schema notes="gate now flags real defects only"
+- [2026-10-31T02:42:00Z] AUDIT gate_rules_refined=provenance_key+callout_rule+marker_rule+advisory checks="callout_issues=7 claim_markers_missing=7 base_confidence_advisory=25 prov_schema=4 no_callout=56 hot_link_rule=4" notes="semantic gaps: 0 entity pages, 0 synthesis pages, paper tag 67, 109 tag-pairs >=3 co-occur, no source-note callouts; Zotero library absent on this host"
+- [2026-10-31T02:49:46Z] AUDIT knowledge_pages_scanned=234 callouts_added=7 tldr_callout_rule_violations=0 pages_updated=7 notes="added the missing > [!tldr] callouts on 7 reference pages from their own summary fields; taxonomy gained Confidence tiers and Vocabulary health report sections"

@@ -92,6 +92,8 @@ updated: 2026-10-30T17:41:00Z
 
 # The flying sidekick traveling salesman problem (Murray & Chu, 2015)
 
+> [!tldr] FSTSP: truck+UAV tandem with 3-node sortie triples, 32-constraint MILP, route-and-re-assign heuristic; PDSTSP: depot-launched UAV fleet. Gaps 0.12–10.68% on 720 instances.
+
 *Transportation Research Part C: Emerging Technologies, 2015. DOI: 10.1016/j.trc.2015.03.005.*
 
 ## Problem & motivation

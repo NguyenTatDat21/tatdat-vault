@@ -51,6 +51,8 @@ updated: 2026-10-30T17:41:00Z
 
 # The set team orienteering problem (Nguyen, Martinelli, Pham & Hà, 2025)
 
+> [!tldr] STOP: vehicle-routing with clusters and cluster-level profits. Branch-and-price proves optimal for STOP up to 783 nodes/157 clusters; LNS 595/612 SOP best-known, 40 new, 61.9% SOP instances optimal.
+
 *European Journal of Operational Research, 2025. DOI: 10.1016/j.ejor.2024.09.021. Received 14 Sep 2023, accepted 10 Sep 2024, available online 18 Sep 2024.*
 
 ## Problem & motivation

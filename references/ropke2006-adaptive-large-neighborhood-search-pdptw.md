@@ -61,6 +61,8 @@ updated: 2026-10-30T17:41:00Z
 
 # Ropke & Pisinger 2006 — Adaptive Large Neighborhood Search for the PDPTW
 
+> [!tldr] ALNS competes among several removal and insertion subheuristics, choosing each by roulette wheel on
+
 ## Sections
 
 ### Problem and mathematical model

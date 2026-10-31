@@ -75,6 +75,8 @@ updated: 2026-10-30T17:41:00Z
 
 # Handbook of Metaheuristics (Gendreau & Potvin, 2019)
 
+> [!tldr] Reference for the handbook's metaheuristic patterns: LNS destroy/repair, VNS neighborhood change, tabu memory, SA cooling, PSO/ACO swarms, and hybrid search.
+
 This handbook consolidates core metaheuristic design patterns and compares how they are applied across combinatorial optimization domains, including routing and scheduling.
 
 ## Key Ideas

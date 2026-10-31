@@ -42,6 +42,8 @@ updated: 2026-10-30T17:41:00Z
 
 # A rolling horizon heuristic for creating an LNG annual delivery program (Rakke et al., 2011)
 
+> [!tldr] Rolling horizon heuristic for the LNG annual delivery program: MIP over a priori scheduled voyages, central+forecasting windows, SSR, improvement heuristic; 10.33% avg gap.
+
 *Transportation Research Part C: Emerging Technologies, 2011. DOI: 10.1016/j.trc.2010.09.006.* Received 2009-12-05; accepted 2010-09-16.
 
 ## Problem & motivation

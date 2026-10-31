@@ -51,7 +51,7 @@ for p in pages:
     for l in re.findall(r"\[\[([^\]]+)\]\]", parts(P[p])[1]): INC[key(l)].add(p)
 
 res = collections.Counter()
-tier_mis, alias_mis, taglist_mis, sidecar_mis, sources_hdr, nocal, nosec, pref, recip = [], [], [], [], [], [], [], [], []
+tier_mis, alias_mis, taglist_mis, sidecar_mis, sources_hdr, nocal, nosec, pref, recip, noinfo = [], [], [], [], [], [], [], [], [], []
 for p in pages:
     b = parts(P[p])[1]
     inc = len(INC.get(key(p), set()))
@@ -68,7 +68,7 @@ for p in pages:
     if ex and not any(s.endswith(".md") and not s.endswith("-extracted.md") and s.startswith("_papers/") for s in SRC[p]):
         sidecar_mis.append(p); res["sidecar-pair"] += 1
     if not re.search(r"^## Sources", b, re.M): sources_hdr.append(p); res["sources-header"] += 1
-    if "[!tldr]" not in b: nocal.append(p); res["tldr-callout"] += 1
+    if "[!tldr]" not in b: noinfo.append(p); res["tldr-callout"] += 1
     d0 = yaml.safe_load(parts(P[p])[0]) or {}
     pr = d0.get("provenance_score") or d0.get("provenance") or {}
     dom = max(pr, key=lambda k: pr[k]) if pr else None
@@ -90,7 +90,7 @@ for p in pages:
             if not back: recip.append((p, t, ty)); res["reciprocal"] += 1
     n = len([s for s in SRC[p] if s.endswith("-extracted.md")])
     expbc = min(1.0, 0.67 + 0.1 * (n - 1))
-    if abs(float(yaml.safe_load(parts(P[p])[0])["base_confidence"]) - expbc) > 1e-9: res["base_confidence"] += 1
+    if abs(float(yaml.safe_load(parts(P[p])[0])["base_confidence"]) - expbc) > 1e-9: res["base_confidence_advisory"] += 1
 
 print("knowledge pages:", len(pages))
 print("checks:", dict(res))
@@ -100,7 +100,8 @@ print("tags not a YAML list:", len(taglist_mis), taglist_mis[:6])
 print("alias/case violations:", len(alias_mis), alias_mis[:10])
 print("sidecar pairing missing:", len(sidecar_mis), sidecar_mis[:6])
 print("missing ## Sources:", len(sources_hdr), sources_hdr[:6])
-print("missing tldr callout:", len(nocal), nocal[:6])
+print("callout issues (rule):", len(nocal), nocal[:6])
+print("no top callout at all (informational):", len(noinfo), noinfo[:6])
 print("missing inline marker:", len(nosec), nosec[:6])
 print("prefix-rule violations:", len(pref), pref[:8])
 print("unreciprocated:", len(recip), recip[:8])

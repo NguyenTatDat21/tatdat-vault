@@ -41,6 +41,8 @@ updated: 2026-10-30T17:41:00Z
 
 # Richards & Bhadury 1996 — Scheduling to Maximize Customer Satisfaction (Shad Valley)
 
+> [!tldr] Shad Valley student-seminar scheduling is a capacitated transportation problem; the max-min bottleneck model
+
 ## Sections
 
 ### Problem setting

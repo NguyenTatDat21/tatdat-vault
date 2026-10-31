@@ -54,6 +54,8 @@ updated: 2026-10-30T17:41:00Z
 
 # The multiple flying sidekicks TSP with variable drone speeds (Raj & Murray, 2020)
 
+> [!tldr] mFSTSP-VDS: truck + heterogeneous UAV fleet, cruise speed a decision variable, Liu 2017 power model. Three-phase heuristic; up to 22.2% makespan savings vs max speed.
+
 *Transportation Research Part C: Emerging Technologies, 2020. DOI: 10.1016/j.trc.2020.102813.*
 
 ## Problem & motivation
